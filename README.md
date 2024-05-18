@@ -2,7 +2,9 @@
 The first project at Chonnam National University in the Software Languages and Systems Lab
 
 read_datafile_sb_C11.py
-1. Set the OPENAI_API_KEY environment variable in the environment. You can do this in the editor terminal or command prompt before running my script:
+1. Install all necessary libraries or packages: openai, evaluate, os, difflib.
+   
+2. Set the OPENAI_API_KEY environment variable in the environment. You can do this in the editor terminal or command prompt before running my script:
    
    export OPENAI_API_KEY="your-api-key-here"
    
@@ -17,4 +19,4 @@ read_datafile_sb_C11.py
    
    read_data(infile, infile1,prog_lan)
    
-6. You can run also use the shell script to run all the programs at a time. For this use Shell Script.py
+5. You can run also use the shell script to run all the programs at a time. For this use Shell Script.py
