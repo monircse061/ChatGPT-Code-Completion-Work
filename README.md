@@ -4,7 +4,7 @@ The first project at Chonnam National University in the Software Languages and S
 read_datafile_sb_C11.py
 1. Install all necessary libraries or packages: openai, evaluate, os, difflib.
    
-2. Set the OPENAI_API_KEY environment variable in the environment. You can do this in the editor terminal or command prompt before running the next line of code:
+2. Set the OPENAI_API_KEY environment variable in the environment. You can do this in the editor terminal or command prompt before running my python script:
    
    export OPENAI_API_KEY="your-api-key-here"
    
