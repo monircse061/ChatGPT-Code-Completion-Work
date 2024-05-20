@@ -11,7 +11,7 @@ read_datafile_sb_C11.py
    Run the above line in terminal and replace "your-api-key-here" with your actual OpenAI API key.
 3. For Small Basic Program encoding is: encoding ='utf-16' and for C11 encoding ='utf-8'.
    
-4. Run one program at a time in C11 using the folowing codes.And make sure to comment out the above eight lines of code (239-247 lines).
+4. Run one program at a time in C11 using the folowing codes.And make sure to comment out the above eight lines of code (250-262 lines).
 
    infile = './C11_Text_Cand/copy_io.i.textual_collection.txt' # data file
    
