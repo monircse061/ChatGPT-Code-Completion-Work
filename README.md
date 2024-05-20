@@ -11,7 +11,7 @@ read_datafile_sb_C11.py
    Run the above line in terminal and replace "your-api-key-here" with your actual OpenAI API key.
 3. For Small Basic Program encoding is: encoding ='utf-16' and for C11 encoding ='utf-8'.
    
-4. Run one program at a time in C11 using the folowing codes.And make sure to comment out the shell script program lines of code (250-262 lines).
+4. Run one program at a time in C11 using the folowing codes. And make sure to comment out the shell script program lines of code (250-262 lines).
 
    infile = './C11_Text_Cand/copy_io.i.textual_collection.txt' # data file
    
@@ -21,7 +21,7 @@ read_datafile_sb_C11.py
    
    read_data(infile, infile1,prog_lan)
 
-   OR, run one program at a time in Small Basic Programming.
+   OR, run one program at a time in Small Basic Programming. And make sure to comment out the shell script program lines of code (250-262 lines).
    infile = './SB_Data/10_GraphicWindow.data' # data file 
 
    infile1 = './SB_Sample/10_GraphicWindow.sb'   # source code file
