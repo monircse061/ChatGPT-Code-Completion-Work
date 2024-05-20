@@ -19,4 +19,4 @@ read_datafile_sb_C11.py
    
    read_data(infile, infile1,prog_lan)
    
-5. You can run also use the shell script to run all the programs at a time. For this use Shell Script.py
+5. You can run also use the shell script to run all the programs at a time. For this use Shell_Script_for_SB.py for Small Basic Program
