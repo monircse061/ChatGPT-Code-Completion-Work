@@ -99,7 +99,7 @@ def read_data(file_name, sc_file_name, prog_lan, encoding = 'utf-8'): # for Smal
                     parts = content_line.split(':', 1)  # Split each line into two parts based on the first colon
                     ln_col = parts[0].split(',')   # Split each line into two parts based on comma
                     if prog_lan == "C11":
-                        if not content_line:  # Check if we've reached the end of the block
+                        if not content_line:  # Check if you've reached the end of the block
                             if len(current_block) >= 2:
                                 # print("Second line of the block:", current_block[1].strip())
                                 parts = current_block[1].split(':', 1)  # Split each line into two parts based on the first colon
@@ -222,7 +222,7 @@ def read_data(file_name, sc_file_name, prog_lan, encoding = 'utf-8'): # for Smal
                 # Define the folder path for the child folder inside the parent folder
                 file_path = os.path.join(parent_folder, text_file_name)
                 with open(file_path,"a") as file:
-                   file.write("Parse State: {}\tCursor Position: {}\n{}Time taken: {} seconds\nReceived response: {}\nSACREBLEU Score: {}\nFirst element of precision:{}\n\n".format(state, cursor_position, prompt + "\n", query_time, response, score, precision_first_element))
+                   file.write("Parse State: {}\tCursor Position: {}\n{}Time taken: {} seconds\nReceived response: {}\nSACREBLEU Score: {}\nFirst element of precision:{}\nSequence Matcher Similarity Precision:{}\nCosine Similarity Precision:{}\n\n".format(state, cursor_position, prompt + "\n", query_time, response, score, precision_first_element,sequence__similarity,cosign_similarity))
             average_precision = total_precision / num_iterations
             average_sequenceMatcher_similarity = (total_sequenceMatcher_similarity/num_iterations)*100
             average_cosign_similarity = (total_cosign_similarity/num_iterations)*100
