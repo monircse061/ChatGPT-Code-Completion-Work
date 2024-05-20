@@ -1,57 +1,51 @@
+# This python shell script for Small Basic Program
 import os
+import subprocess
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # Directory containing the Small Basic files
-SB_DIR = "./Sample"
+SB_DIR = "./SB_Sample"
 
 # Directory containing the processed data files
-DATA_DIR = "./SB_data"
+DATA_DIR = "./SB_Data"
 
 # Path to the Python script handling Small Basic processing
-PYTHON_SCRIPT = "read_datafile_as_text.py"
+PYTHON_SCRIPT = "read_datafile_for_c11 copy.py"
 
-# Ensure both directories exist
-if not os.path.isdir(SB_DIR) or not os.path.isdir(DATA_DIR):
-    print("Error: SB directory or data directory not found.")
-    exit(1)
+def main():
+    # Ensure both directories exist
+    if not os.path.isdir(SB_DIR):
+        logging.error(f"SB directory not found: {SB_DIR}")
+        return
 
-# Iterate over each Small Basic file
-for sb_file in os.listdir(SB_DIR):
-    if sb_file.endswith(".sb"):
-        # Get the base filename without extension
-        filename = os.path.splitext(sb_file)[0]
+    if not os.path.isdir(DATA_DIR):
+        logging.error(f"Data directory not found: {DATA_DIR}")
+        return
 
-        # Check if the corresponding data file exists
-        data_file = os.path.join(DATA_DIR, filename + ".data")
-        if os.path.isfile(data_file):
-            print("Processing", sb_file)
-            cmd = f"python {PYTHON_SCRIPT} '{os.path.join(SB_DIR, sb_file)}' '{data_file}'"
-            os.system(cmd)
-            if os.path.exists(data_file):
-                print("Success:", sb_file, "processed.")
+    # Iterate over each data file
+    for data_file in os.listdir(DATA_DIR):
+        if data_file.endswith(".data"):
+            # Get the base filename without extension
+            filename = os.path.splitext(data_file)[0]
+
+            # Check if the corresponding Small Basic file exists
+            sb_file = os.path.join(SB_DIR, filename + ".sb")
+            if os.path.isfile(sb_file):
+                logging.info(f"Processing {sb_file} with {data_file}")
+                cmd = ["python", PYTHON_SCRIPT, os.path.join(DATA_DIR, data_file), sb_file, "Small Basic"]
+                
+                try:
+                    subprocess.run(cmd, check=True)
+                    logging.info(f"Success: {sb_file} processed with {data_file}.")
+                except subprocess.CalledProcessError as e:
+                    logging.error(f"Error processing {sb_file} with {data_file}: {e}")
             else:
-                print("Error: Failed to process", sb_file)
-        else:
-            print("Error: Data file not found for", sb_file)
+                logging.error(f"SB file not found for {data_file}")
 
-print("All files processed.")
+    logging.info("All files processed.")
 
-# Shell script that runs all the 27 Small Basic Programs
-# #!/bin/bash
-
-# # Directory containing the SmallBasic files
-# DIR="/path/to/DIR"
-
-# # Path to the .data file
-# DATA_FILE="/path/to/DEF.data"
-
-# # Loop over all .sb files in the specified directory
-# for file in "$DIR"/*.sb
-# do
-#     echo "Processing $file..."
-#     filename=$(basename "$file" .sb)
-#     python MyProg.py "$file" "$filename.data" "$DATA_FILE"
-# done
-
-# echo "All files processed."
-
-
+if __name__ == "__main__":
+    main()
