@@ -245,3 +245,19 @@ read_data(infile, infile1,prog_lan)
 # infile1 = './SB_Sample/05_If.sb'   # source code file
 # prog_lan= "Small Basic"
 # read_data(infile, infile1,prog_lan)
+
+# # If you use Shell_Script_for_SB, uncomment the rest of the code and comment out the above eight lines of code (239-247 lines).
+# def main():
+#     if len(sys.argv) != 4:
+#         print("Usage: python read_datafile_as_text.py <datafile> <sbfile> <prog_lan>")
+#         sys.exit(1)
+
+#     datafile = sys.argv[1]
+#     sbfile = sys.argv[2]
+#     prog_lan = sys.argv[3]
+
+#     read_data(datafile, sbfile, prog_lan)
+
+# if __name__ == "__main__":
+#     main()
+
