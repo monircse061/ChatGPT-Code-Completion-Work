@@ -13,7 +13,7 @@ SB_DIR = "./SB_Sample"
 DATA_DIR = "./SB_Data"
 
 # Path to the Python script handling Small Basic processing
-PYTHON_SCRIPT = "read_datafile_for_c11 copy.py"
+PYTHON_SCRIPT = "read_datafile_sb_C11.py"
 
 def main():
     # Ensure both directories exist
