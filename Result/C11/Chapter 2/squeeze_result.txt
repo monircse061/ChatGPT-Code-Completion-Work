@@ -1,0 +1,5462 @@
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.6491420269012451 seconds
+Received response: void
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
+
+Parse State: 5	Cursor Position: 743 6
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4345235824584961 seconds
+Received response: __overflow
+Actual result:  squeeze VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 13
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3188223838806152 seconds
+Received response: void squeeze(char s[], int c) {
+    int i, j;
+
+    for (i = j = 0; s[i] != '\0'; i++) {
+        if (s[i] != c) {
+            s[j++] = s[i];
+        }
+    }
+    s[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [75, 74, 73, 72], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 75, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01092896174863388
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 13
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.8879683017730713 seconds
+Received response: void squeeze(char s[], int c)
+Actual result:  ( char str1 VARIABLE [ ] , char str2 VARIABLE [ ] )
+SACREBLEU Score: {'score': 15.307938151800226, 'counts': [6, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [54.54545454545455, 30.0, 11.11111111111111, 6.25], 'bp': 0.8337529180751805, 'sys_len': 11, 'ref_len': 13}
+First element of precision:54.54545454545455
+Sequence Matcher Similarity Precision:0.37037037037037035
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 186	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 1.9921391010284424 seconds
+Received response: void squeeze(char s1[], char s2[]) {
+    int i, j, k;
+    int c;
+
+    for (i = j = 0; s1[i] != '\0'; i++) {
+        c = s1[i];
+        for (k = 0; s2[k] != '\0' && s2[k] != c; k++) {
+            ;
+        }
+        if (s2[k] == '\0') {
+            s1[j++] = c;
+        }
+    }
+    s1[j] = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.2983705723513635, 'counts': [1, 0, 0, 0], 'totals': [120, 119, 118, 117], 'precisions': [0.8333333333333334, 0.42016806722689076, 0.211864406779661, 0.10683760683760683], 'bp': 1.0, 'sys_len': 120, 'ref_len': 1}
+First element of precision:0.8333333333333334
+Sequence Matcher Similarity Precision:0.03322259136212625
+Cosine Similarity Precision:0.2672612419124244
+
+Parse State: 298	Cursor Position: 743 19
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6416983604431152 seconds
+Received response: void squeeze(char s1[], char s2[])
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 23
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.723958969116211 seconds
+Received response: (char str1[], char str2[]) 
+{
+    int i, j, k;
+    
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+        for (k = 0; str2[k] != '\0'; k++) {
+            if (str1[i] == str2[k]) {
+                should_delete = 1;
+                break;
+            }
+        }
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [126, 125, 124, 123], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 126, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.005
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 23
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.5136008262634277 seconds
+Received response: (char str1[], char str2[]) {
+Actual result:  [ ]
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.1875
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 743 24
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5104861259460449 seconds
+Received response: void squeeze(char str1[])
+Actual result:  ]
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.14814814814814814
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 743 25
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[]
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.4682450294494629 seconds
+Received response: (char str2[])
+Actual result:  , char str2 VARIABLE [ ]
+SACREBLEU Score: {'score': 22.957488466614336, 'counts': [4, 2, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [66.66666666666667, 40.0, 12.5, 8.333333333333334], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5789473684210527
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 391	Cursor Position: 743 27
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[],
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5893681049346924 seconds
+Received response: char c
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 743 32
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.7112672328948975 seconds
+Received response: str2[]) {
+    int i, j, k;
+
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+        for (k = 0; str2[k] != '\0'; k++) {
+            if (str1[i] == str2[k]) {
+                should_delete = 1;
+                break;
+            }
+        }
+
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    
+    str1[j] = '\0';
+}
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 0.30091012534221223, 'counts': [1, 0, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [0.8403361344537815, 0.423728813559322, 0.21367521367521367, 0.10775862068965517], 'bp': 1.0, 'sys_len': 119, 'ref_len': 2}
+First element of precision:0.8403361344537815
+Sequence Matcher Similarity Precision:0.031007751937984496
+Cosine Similarity Precision:0.2834733547569204
+
+Parse State: 65	Cursor Position: 743 36
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.8050267696380615 seconds
+Received response: [] 
+{
+    int i, j, k;
+
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+        for (k = 0; str2[k] != '\0'; k++) {
+            if (str1[i] == str2[k]) {
+                should_delete = 1;
+                break;
+            }
+        }
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [117, 116, 115, 114], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 117, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.005376344086021506
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 36
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 2.054468870162964 seconds
+Received response: [static const] ='a', int *j)
+{
+    int i, k;
+    for (i = k = 0; str1[i] != '\0'; i++) {
+        int found = 0;
+        for (int j = 0; str2[j] != '\0'; j++) {
+            if (str1[i] == str2[j]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            str1[k++] = str1[i];
+        }
+    }
+    str1[k] = '\0';
+}
+Actual result:  [ ]
+SACREBLEU Score: {'score': 0.35784446203331943, 'counts': [2, 0, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [1.680672268907563, 0.423728813559322, 0.21367521367521367, 0.10775862068965517], 'bp': 1.0, 'sys_len': 119, 'ref_len': 2}
+First element of precision:1.680672268907563
+Sequence Matcher Similarity Precision:0.016304347826086956
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 743 37
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 2.1048290729522705 seconds
+Received response: []) {
+    int i, j, k;
+
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+        for (k = 0; str2[k] != '\0'; k++) {
+            if (str1[i] == str2[k]) {
+                should_delete = 1;
+                break;
+            }
+        }
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.3034932817824235, 'counts': [1, 0, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [0.847457627118644, 0.42735042735042733, 0.21551724137931033, 0.10869565217391304], 'bp': 1.0, 'sys_len': 118, 'ref_len': 1}
+First element of precision:0.847457627118644
+Sequence Matcher Similarity Precision:0.005479452054794521
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 743 38
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.7479331493377686 seconds
+Received response:  {
+    int i, j, k;
+
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+        for (k = 0; str2[k] != '\0' && !should_delete; k++) {
+            if (str1[i] == str2[k]) {
+                should_delete = 1;
+            }
+        }
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.30091012534221223, 'counts': [1, 0, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [0.8403361344537815, 0.423728813559322, 0.21367521367521367, 0.10775862068965517], 'bp': 1.0, 'sys_len': 119, 'ref_len': 1}
+First element of precision:0.8403361344537815
+Sequence Matcher Similarity Precision:0.011204481792717087
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 743 39
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[])
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.5438594818115234 seconds
+Received response: {
+    int i, j, k;
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        for (k = 0; str2[k] != '\0' && str2[k] != str1[i]; k++)
+            ;
+        if (str2[k] == '\0')
+            str1[j++] = str1[i];
+    }
+    str1[j] = '\0';
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.36264270632120366, 'counts': [1, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [1.0101010101010102, 0.5102040816326531, 0.25773195876288657, 0.13020833333333334], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:1.0101010101010102
+Sequence Matcher Similarity Precision:0.017241379310344827
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 745 1
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 1.0373175144195557 seconds
+Received response: int main() {
+    char str1[] = "hello";
+    char str2[] = "world";
+
+    squeeze(str1, str2);
+
+    printf("%s\n", str1);
+
+    return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 1}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.04285714285714286
+Cosine Similarity Precision:0.20412414523193154
+
+Parse State: 5	Cursor Position: 745 5
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.813462734222412 seconds
+Received response: void squeeze(char str1[], char str2[]) {
+    int i, j, k;
+
+    for (i = 0; str2[i] != '\0'; i++) {
+        for (j = k = 0; str1[j] != '\0'; j++) {
+            if (str1[j] != str2[i]) {
+                str1[k++] = str1[j];
+            }
+        }
+        str1[k] = '\0';
+    }
+}
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [104, 103, 102, 101], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 104, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03436426116838488
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8175606727600098 seconds
+Received response: int main() {
+    char str1[] = "hello";
+    char str2[] = "world";
+    
+    squeeze(str1, str2);
+
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01639344262295082
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5534539222717285 seconds
+Received response: (int argc, char *argv[])
+Actual result:  ( void )
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.46950745582580566 seconds
+Received response: void
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
+
+Parse State: 187	Cursor Position: 745 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.8767154216766357 seconds
+Received response: ) {
+    char str1[] = "hello";
+    char str2[] = "world";
+    
+    squeeze(str1, str2);
+    
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.01818181818181818
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 746 1
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_2/exercise_2_04/squeeze.c" 2
+
+
+
+
+# 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.8963048458099365 seconds
+Received response: {
+    char str1[] = "hello";
+    char str2[] = "world";
+    
+    squeeze(str1, str2);
+    
+    return 0;
+}
+Actual result:  { char str1 VARIABLE [ 1000 ] = " ; char str2 VARIABLE [ 1000 ] = " ; squeeze VARIABLE ( str1 VARIABLE , str2 VARIABLE ) ; printf VARIABLE ( " , str1 VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 27.793677271016318, 'counts': [27, 18, 10, 4], 'totals': [30, 29, 28, 27], 'precisions': [90.0, 62.06896551724138, 35.714285714285715, 14.814814814814815], 'bp': 0.6703200460356393, 'sys_len': 30, 'ref_len': 42}
+First element of precision:90.0
+Sequence Matcher Similarity Precision:0.524822695035461
+Cosine Similarity Precision:0.4681645887845223
+
+Parse State: 201	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 2.820270538330078 seconds
+Received response: void squeeze(char str1[], char str2[])
+{
+    int i, j, k;
+
+    for (i = k = 0; str1[i] != '\0'; i++)
+    {
+        int found = 0;
+        for (j = 0; str2[j] != '\0'; j++)
+        {
+            if (str1[i] == str2[j])
+            {
+                found = 1;
+                break;
+            }
+        }
+        if (!found)
+        {
+            str1[k++] = str1[i];
+        }
+    }
+    str1[k] = '\0';
+}
+
+int main(void)
+{
+    char str1[100] = "hello";
+    char str2[100] = "world";
+
+    printf("Before squeeze: %s\n", str1);
+    squeeze(str1, str2);
+    printf("After squeeze: %s\n", str1);
+
+    return 0;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.18856516065387727, 'counts': [1, 0, 0, 0], 'totals': [189, 188, 187, 186], 'precisions': [0.5291005291005291, 0.26595744680851063, 0.13368983957219252, 0.06720430107526881], 'bp': 1.0, 'sys_len': 189, 'ref_len': 1}
+First element of precision:0.5291005291005291
+Sequence Matcher Similarity Precision:0.016260162601626018
+Cosine Similarity Precision:0.2814390178921167
+
+Parse State: 93	Cursor Position: 747 8
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.073870897293091 seconds
+Received response: str1[] = "hello";
+  char str2[] = "world";
+
+  squeeze(str1, str2);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = j = 0; str1[i] != '\0'; i++) {
+    for (k = 0; str2[k] != '\0' && str2[k] != str1[i]; k++)
+      ;
+    if (str2[k] == '\0')
+      str1[j++] = str1[i];
+  }
+  str1[j] = '\0';
+
+  printf("%s\n", str1);
+}
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.23492567903653014, 'counts': [1, 0, 0, 0], 'totals': [152, 151, 150, 149], 'precisions': [0.6578947368421053, 0.33112582781456956, 0.16666666666666666, 0.08389261744966443], 'bp': 1.0, 'sys_len': 152, 'ref_len': 2}
+First element of precision:0.6578947368421053
+Sequence Matcher Similarity Precision:0.03296703296703297
+Cosine Similarity Precision:0.5359422007578722
+
+Parse State: 65	Cursor Position: 747 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8872289657592773 seconds
+Received response: str1[] = "Hello World";
+  char str2[] = "World";
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03508771929824561
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 747 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.49647045135498047 seconds
+Received response: char str1[], str2[];
+Actual result:  [ 1000 ]
+SACREBLEU Score: {'score': 5.669791110976001, 'counts': [2, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [22.22222222222222, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 3}
+First element of precision:22.22222222222222
+Sequence Matcher Similarity Precision:0.20689655172413793
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 747 13
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 2.2991933822631836 seconds
+Received response: str1[] = "input string";
+  char str2[] = "characters to remove";
+
+  squeeze(str1, str2);
+
+  return 0;
+}
+
+void squeeze(char s1[], char s2[])
+{
+  int i, j, k;
+  int found;
+
+  for (i = j = 0; s1[i] != '\0'; i++) {
+    found = 0;
+    for (k = 0; s2[k] != '\0' && !found; k++) {
+      if (s1[i] == s2[k]) {
+        found = 1;
+      }
+    }
+    if (!found) {
+      s1[j++] = s1[i];
+    }
+  }
+  s1[j] = '\0';
+}
+Actual result:  1000
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [157, 156, 155, 154], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 157, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014705882352941176
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 747 17
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.433164119720459 seconds
+Received response: ];
+Actual result:  ]
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 747 19
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5297050476074219 seconds
+Received response: = {0};
+Actual result:  = "
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 747 21
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.5798091888427734 seconds
+Received response: "Hello World"
+Actual result:  "
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 747 30
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.7506811618804932 seconds
+Received response: "], str2[] = "bcde";
+  
+  squeeze(str1, str2);
+  
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.06153846153846154
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5915272235870361 seconds
+Received response: char str2[1000] = "bc";
+Actual result:  char
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.5
+
+Parse State: 93	Cursor Position: 748 8
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6365890502929688 seconds
+Received response: str2[1000] = "bc";
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.3125
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 65	Cursor Position: 748 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.5360257625579834 seconds
+Received response: [20] = "aeiou";
+  
+  printf("Before squeeze: %s\n", str1);
+  squeeze(str1, str2);
+  printf("After squeeze: %s\n", str1);
+  
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  int shouldDelete;
+
+  for (i = j = 0; str1[i] != '\0'; i++) {
+    shouldDelete = 0;
+    for (k = 0; str2[k] != '\0'; k++) {
+      if (str1[i] == str2[k]) {
+        shouldDelete = 1;
+        break;
+      }
+    }
+    if (!shouldDelete) {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [173, 172, 171, 170], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 173, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.008048289738430584
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 748 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.5994908809661865 seconds
+Received response: [str2] = "cde";
+Actual result:  [ 1000 ]
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 748 13
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5544750690460205 seconds
+Received response: char str2[] = "de";
+Actual result:  1000
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 748 17
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 2.301964282989502 seconds
+Received response: = "ac";  
+
+  squeeze(str1, str2);
+
+  return 0;
+}
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = j = 0; str1[i] != '\0'; i++) {
+    int should_delete = 0;
+    for (k = 0; str2[k] != '\0'; k++) {
+      if (str1[i] == str2[k]) {
+        should_delete = 1;
+        break;
+      }
+    }
+    if (!should_delete) {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.24811527945560063, 'counts': [1, 0, 0, 0], 'totals': [144, 143, 142, 141], 'precisions': [0.6944444444444444, 0.34965034965034963, 0.176056338028169, 0.08865248226950355], 'bp': 1.0, 'sys_len': 144, 'ref_len': 1}
+First element of precision:0.6944444444444444
+Sequence Matcher Similarity Precision:0.0103359173126615
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 748 19
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5015742778778076 seconds
+Received response: = "cd";
+Actual result:  = "
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.5454545454545454
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 748 21
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.5236706733703613 seconds
+Received response: "bdf"
+Actual result:  "
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 748 27
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6507003307342529 seconds
+Received response: "
+
+  squeeze(str1, str2);
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5218493938446045 seconds
+Received response: str1 and str2
+Actual result:  squeeze VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.3052749633789062 seconds
+Received response: (str1, str2);
+
+  printf("Resulting string: %s\n", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = k = 0; str1[i] != '\0'; i++) {
+    int found = 0;
+    for (j = 0; str2[j] != '\0' && !found; j++) {
+      if (str1[i] == str2[j]) {
+        found = 1;
+      }
+    }
+    if (!found) {
+      str1[k++] = str1[i];
+    }
+  }
+  str1[k] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [149, 148, 147, 146], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 149, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010282776349614395
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.7554287910461426 seconds
+Received response: (str1, str2);
+Actual result:  ( str1 VARIABLE , str2 VARIABLE )
+SACREBLEU Score: {'score': 20.547995616750768, 'counts': [5, 2, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 40.0, 12.5, 8.333333333333334], 'bp': 0.846481724890614, 'sys_len': 6, 'ref_len': 7}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.5106382978723404
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 235	Cursor Position: 750 11
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4718201160430908 seconds
+Received response:  str1, str2
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.48
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 750 15
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.4641294479370117 seconds
+Received response: (str2);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 750 15
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.5843133926391602 seconds
+Received response: str2[];
+Actual result:  , str2 VARIABLE
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.34782608695652173
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 429	Cursor Position: 750 17
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4800224304199219 seconds
+Received response: str2
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 750 21
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.9143717288970947 seconds
+Received response: ); 
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = j = 0; str1[i] != '\0'; i++)
+  {
+    int should_delete = 0;
+    for (k = 0; str2[k] != '\0'; k++)
+    {
+      if (str1[i] == str2[k])
+      {
+        should_delete = 1;
+        break;
+      }
+    }
+    
+    if (!should_delete)
+    {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [134, 133, 132, 131], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 134, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0051813471502590676
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 750 21
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5633342266082764 seconds
+Received response: ); 
+
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 750 22
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_2/exercise_2_04/squeeze.c"
+void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6293189525604248 seconds
+Received response: ; 
+  return 0; 
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 752 3
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5506405830383301 seconds
+Received response: str1[1000]
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 752 9
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.865032434463501 seconds
+Received response: ("%s\n", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = 0; str2[i] != '\0'; i++)
+  {
+    for (j = k = 0; str1[j] != '\0'; j++)
+    {
+      if (str1[j] != str2[i])
+      {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 119, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.00684931506849315
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 752 9
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.5076408386230469 seconds
+Received response: ("%s\n", str1);
+Actual result:  ( " , str1 VARIABLE )
+SACREBLEU Score: {'score': 17.542198478193427, 'counts': [5, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 30.0, 11.11111111111111, 6.25], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.4864864864864865
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 235	Cursor Position: 752 10
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 1.787351131439209 seconds
+Received response: The complete code in the C11 programming language is:
+
+"
+
+  printf("The squeezed string is: %s\n", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = 0; str2[i] != '\0'; i++)
+  {
+    for (j = k = 0; str1[j] != '\0'; j++)
+    {
+      if (str1[j] != str2[i])
+      {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+
+"
+Actual result:  "
+SACREBLEU Score: {'score': 0.26093389428531627, 'counts': [1, 0, 0, 0], 'totals': [137, 136, 135, 134], 'precisions': [0.7299270072992701, 0.36764705882352944, 0.18518518518518517, 0.09328358208955224], 'bp': 1.0, 'sys_len': 137, 'ref_len': 1}
+First element of precision:0.7299270072992701
+Sequence Matcher Similarity Precision:0.010582010582010581
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 752 14
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.46155524253845215 seconds
+Received response: str1;
+Actual result:  , str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.6065306597126334, 'sys_len': 2, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.38095238095238093
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 429	Cursor Position: 752 16
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4441671371459961 seconds
+Received response: str1
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 752 20
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5984334945678711 seconds
+Received response: [1000]
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 752 20
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5490050315856934 seconds
+Received response: );
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 752 21
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[]);
+
+int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6469888687133789 seconds
+Received response: ; // include the closing quote and semicolon for the printf statement
+Actual result:  ;
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 754 3
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.44894862174987793 seconds
+Received response: return str1;
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6956521739130435
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 338	Cursor Position: 754 10
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5507879257202148 seconds
+Received response: 0;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 415	Cursor Position: 754 11
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.4207339286804199 seconds
+Received response: ;}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 201	Cursor Position: 755 1
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 2.0400824546813965 seconds
+Received response: }
+
+void squeeze(char str1[], char str2[]) {
+  int i, j, k;
+  for (i = 0; str2[i] != '\0'; i++) {
+    for (j = k = 0; str1[j] != '\0'; j++) {
+      if (str1[j] != str2[i]) {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';  // Null terminate the string
+  }
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.32289664096999793, 'counts': [1, 0, 0, 0], 'totals': [111, 110, 109, 108], 'precisions': [0.9009009009009009, 0.45454545454545453, 0.22935779816513763, 0.11574074074074074], 'bp': 1.0, 'sys_len': 111, 'ref_len': 1}
+First element of precision:0.9009009009009009
+Sequence Matcher Similarity Precision:0.014652014652014652
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 757 1
+
+                This is the incomplete C11 programming language code:
+                char str1[1000] = "abcdefg";
+  char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 1.580411434173584 seconds
+Received response: void squeeze(char *str1, char *str2) {
+  int i, j, k;
+  for (i = 0; str2[i] != '\0'; i++) {
+    for (j = k = 0; str1[j] != '\0'; j++) {
+      if (str1[j] != str2[i]) {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.3518161903016947, 'counts': [1, 0, 0, 0], 'totals': [102, 101, 100, 99], 'precisions': [0.9803921568627451, 0.49504950495049505, 0.25, 0.12626262626262627], 'bp': 1.0, 'sys_len': 102, 'ref_len': 1}
+First element of precision:0.9803921568627451
+Sequence Matcher Similarity Precision:0.03319502074688797
+Cosine Similarity Precision:0.13245323570650439
+
+Parse State: 5	Cursor Position: 757 6
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.6612107753753662 seconds
+Received response: squeeze(char *str1, char *str2) {
+  int i, j, k;
+
+  for (i = 0; str2[i] != '\0'; i++) {
+    for (j = k = 0; str1[j] != '\0'; j++) {
+      if (str1[j] != str2[i]) {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  squeeze VARIABLE
+SACREBLEU Score: {'score': 0.3553524757138724, 'counts': [1, 0, 0, 0], 'totals': [101, 100, 99, 98], 'precisions': [0.9900990099009901, 0.5, 0.25252525252525254, 0.12755102040816327], 'bp': 1.0, 'sys_len': 101, 'ref_len': 2}
+First element of precision:0.9900990099009901
+Sequence Matcher Similarity Precision:0.0642570281124498
+Cosine Similarity Precision:0.0944911182523068
+
+Parse State: 65	Cursor Position: 757 13
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.7420332431793213 seconds
+Received response: (char *str1, char *str2) {
+    int i, j, k;
+    int len = strlen(str2);
+    for (i = k = 0; str1[i] != '\0'; i++) {
+        for (j = 0; j < len; j++) {
+            if (str1[i] == str2[j]) {
+                break;
+            }
+        }
+        if (j == len) {
+            str1[k++] = str1[i];
+        }
+    }
+    str1[k] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [113, 112, 111, 110], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 113, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 757 13
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5481395721435547 seconds
+Received response: (char str1[], const char str2[])
+Actual result:  ( char str1 VARIABLE [ ] , char str2 VARIABLE [ ] )
+SACREBLEU Score: {'score': 28.890175433264083, 'counts': [11, 7, 3, 0], 'totals': [12, 11, 10, 9], 'precisions': [91.66666666666667, 63.63636363636363, 30.0, 5.555555555555555], 'bp': 0.9200444146293233, 'sys_len': 12, 'ref_len': 13}
+First element of precision:91.66666666666667
+Sequence Matcher Similarity Precision:0.6190476190476191
+Cosine Similarity Precision:0.7171371656006361
+
+Parse State: 186	Cursor Position: 757 14
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5306642055511475 seconds
+Received response: char str1[1000]
+Actual result:  char
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 298	Cursor Position: 757 19
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6480457782745361 seconds
+Received response: char *str1
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4166666666666667
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 65	Cursor Position: 757 23
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.0407052040100098 seconds
+Received response: ,char str2[1000]) {
+    int i, j, k;
+
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int found = 0;
+        for (k = 0; str2[k] != '\0'; k++) {
+            if (str1[i] == str2[k]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [116, 115, 114, 113], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 116, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0055248618784530384
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 757 23
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.5599222183227539 seconds
+Received response: (char str1[], char str2[]) {
+Actual result:  [ ]
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.1875
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 757 24
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5272889137268066 seconds
+Received response: char str1[], char str2[]) {
+Actual result:  ]
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.13793103448275862
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 757 25
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[]
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.5044057369232178 seconds
+Received response: char str2[]
+Actual result:  , char str2 VARIABLE [ ]
+SACREBLEU Score: {'score': 27.403115968356843, 'counts': [4, 2, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 66.66666666666667, 25.0, 25.0], 'bp': 0.6065306597126334, 'sys_len': 4, 'ref_len': 6}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6111111111111112
+Cosine Similarity Precision:0.816496580927726
+
+Parse State: 391	Cursor Position: 757 27
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[],
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.41775989532470703 seconds
+Received response: char str2[]
+Actual result:  char
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 298	Cursor Position: 757 32
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5871455669403076 seconds
+Received response: str2[]
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 757 36
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.7501821517944336 seconds
+Received response: [], int n) {
+    int i, j, k;
+    
+    for (i = k = 0; str1[i] != '\0'; i++) {
+        int found = 0;
+        for (j = 0; str2[j] != '\0'; j++) {
+            if (str1[i] == str2[j]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            str1[k++] = str1[i];
+        }
+    }
+    str1[k] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [115, 114, 113, 112], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 115, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.005571030640668524
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 757 36
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 1.7454447746276855 seconds
+Received response: []){
+    int i, j, k;
+
+    for(i = j = 0; str1[i] != '\0'; i++){
+        int is_duplicate = 0;
+        for(int l = 0; str2[l] != '\0'; l++){
+            if(str1[i] == str2[l]){
+                is_duplicate = 1;
+                break;
+            }
+        }
+        if(!is_duplicate){
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  [ ]
+SACREBLEU Score: {'score': 0.6018202506844246, 'counts': [2, 1, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [1.680672268907563, 0.847457627118644, 0.42735042735042733, 0.21551724137931033], 'bp': 1.0, 'sys_len': 119, 'ref_len': 2}
+First element of precision:1.680672268907563
+Sequence Matcher Similarity Precision:0.011142061281337047
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 757 37
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5910689830780029 seconds
+Received response: []) {
+Actual result:  ]
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 757 38
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[]
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.3847107887268066 seconds
+Received response: {
+  int i, j, k;
+
+  for (i = 0; str2[i] != '\0'; i++) {
+    for (j = k = 0; str1[j] != '\0'; j++) {
+      if (str1[j] != str2[i]) {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.39506254884293407, 'counts': [1, 0, 0, 0], 'totals': [91, 90, 89, 88], 'precisions': [1.098901098901099, 0.5555555555555556, 0.2808988764044944, 0.14204545454545456], 'bp': 1.0, 'sys_len': 91, 'ref_len': 1}
+First element of precision:1.098901098901099
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 758 1
+
+                This is the incomplete C11 programming language code:
+                char str2[1000] = "abcd";
+
+  squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 2.1269426345825195 seconds
+Received response: {
+
+    int i, j, k;
+    int should_delete;
+
+    for (i = 0; str2[i] != '\0'; i++) {
+        should_delete = 0;
+
+        for (j = 0; str1[j] != '\0'; j++) {
+            if (str2[i] == str1[j]) {
+                should_delete = 1;
+                break;
+            }
+        }
+
+        if (!should_delete) {
+            str1[k++] = str1[j];
+        }
+    }
+    str1[k] = '\0';
+}
+Actual result:  { int i VARIABLE , j VARIABLE , k VARIABLE ; for ( k VARIABLE = 0 ; str2 VARIABLE [ k VARIABLE ] != '\0' ; ++ k VARIABLE ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; } }
+SACREBLEU Score: {'score': 36.3013623832013, 'counts': [88, 56, 33, 19], 'totals': [117, 116, 115, 114], 'precisions': [75.21367521367522, 48.275862068965516, 28.695652173913043, 16.666666666666668], 'bp': 1.0, 'sys_len': 117, 'ref_len': 113}
+First element of precision:75.21367521367522
+Sequence Matcher Similarity Precision:0.14432989690721648
+Cosine Similarity Precision:0.2132573697058047
+
+Parse State: 201	Cursor Position: 759 3
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.6019423007965088 seconds
+Received response: void
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 759 7
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.575777530670166 seconds
+Received response: void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+
+  for (i = 0; str2[i] != '\0'; i++)
+  {
+    for (j = k = 0; str1[j] != '\0'; j++)
+    {
+      if (str1[j] != str2[i])
+      {
+        str1[k++] = str1[j];
+      }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 0.3449506591186915, 'counts': [1, 0, 0, 0], 'totals': [104, 103, 102, 101], 'precisions': [0.9615384615384616, 0.4854368932038835, 0.24509803921568626, 0.12376237623762376], 'bp': 1.0, 'sys_len': 104, 'ref_len': 2}
+First element of precision:0.9615384615384616
+Sequence Matcher Similarity Precision:0.022900763358778626
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 759 8
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.8002350330352783 seconds
+Received response: = 0;
+  int j = 0;
+  
+  for (i = 0; str1[i] != '\0'; i++)
+  {
+    int should_copy = 1;
+    for (int k = 0; str2[k] != '\0'; k++)
+    {
+      if (str1[i] == str2[k])
+      {
+        should_copy = 0;
+        break;
+      }
+    }
+    if (should_copy)
+    {
+      str1[j] = str1[i];
+      j++;
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [115, 114, 113, 112], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 115, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0061162079510703364
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 759 8
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 1.8408591747283936 seconds
+Received response: = 0;
+  int j = 0;
+  
+  for (i = 0; str1[i] != '\0'; i++)
+  {
+    int should_delete = 0;
+    for (int k = 0; str2[k] != '\0'; k++)
+    {
+      if (str1[i] == str2[k])
+      {
+        should_delete = 1;
+        break;
+      }
+    }
+    
+    if (!should_delete)
+    {
+      str1[j] = str1[i];
+      j++;
+    }
+  }
+  
+  str1[j] = '\0';
+}
+Actual result:  , j VARIABLE
+SACREBLEU Score: {'score': 0.3087949756597009, 'counts': [1, 0, 0, 0], 'totals': [116, 115, 114, 113], 'precisions': [0.8620689655172413, 0.43478260869565216, 0.21929824561403508, 0.11061946902654868], 'bp': 1.0, 'sys_len': 116, 'ref_len': 3}
+First element of precision:0.8620689655172413
+Sequence Matcher Similarity Precision:0.023121387283236993
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 759 10
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.289200782775879 seconds
+Received response: int j, k;
+
+  for (i = j = 0; str1[i] != '\0'; i++)
+  {
+    int found = 0;
+    for (k = 0; str2[k] != '\0'; k++)
+    {
+      if (str1[i] == str2[k])
+      {
+        found = 1;
+        break;
+      }
+    }
+
+    if (!found)
+    {
+      str1[j++] = str1[i];
+    }
+  }
+
+  str1[j] = '\0';
+}  
+Actual result:  j VARIABLE
+SACREBLEU Score: {'score': 0.33834796941275397, 'counts': [1, 0, 0, 0], 'totals': [106, 105, 104, 103], 'precisions': [0.9433962264150944, 0.47619047619047616, 0.2403846153846154, 0.12135922330097088], 'bp': 1.0, 'sys_len': 106, 'ref_len': 2}
+First element of precision:0.9433962264150944
+Sequence Matcher Similarity Precision:0.020202020202020204
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 759 11
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.6051368713378906 seconds
+Received response: for(i = 0; str2[i] != '\0'; i++)
+  {
+    for(j = 0; str1[j] != '\0'; )
+    {
+      if(str1[j] == str2[i])
+      {
+        for(int k = j; str1[k] != '\0'; k++)
+        {
+          str1[k] = str1[k+1];
+        }
+      }
+      else
+      {
+        j++;
+      }
+    }
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007194244604316547
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 759 11
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 1.7145159244537354 seconds
+Received response: = 0;
+  
+  for (i = 0; str1[i] != '\0'; i++) {
+    for (j = 0; str2[j] != '\0'; j++) {
+      if (str1[i] == str2[j]) {
+        // Shift characters left
+        int k = i;
+        while (str1[k] != '\0') {
+          str1[k] = str1[k + 1];
+          k++;
+        }
+        i--; // Adjust index after shifting
+      }
+    }
+  }
+}
+Actual result:  , k VARIABLE
+SACREBLEU Score: {'score': 0.32289664096999793, 'counts': [1, 0, 0, 0], 'totals': [111, 110, 109, 108], 'precisions': [0.9009009009009009, 0.45454545454545453, 0.22935779816513763, 0.11574074074074074], 'bp': 1.0, 'sys_len': 111, 'ref_len': 3}
+First element of precision:0.9009009009009009
+Sequence Matcher Similarity Precision:0.029585798816568046
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 759 13
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.47686314582824707 seconds
+Received response: char temp[100];
+Actual result:  k VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 759 14
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3975608348846436 seconds
+Received response: for(i = j = 0; str1[i] != '\0'; i++)
+  {
+    for(k = 0; str2[k] != '\0' && str2[k] != str1[i]; k++)
+    {
+      if(str2[k] == '\0')
+        str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [92, 91, 90, 89], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 92, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010050251256281407
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 759 14
+
+                This is the incomplete C11 programming language code:
+                squeeze(str1, str2);
+
+  printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.6046268939971924 seconds
+Received response: = 0;
+
+  for (i = 0; str2[i] != '\0'; i++)
+  {
+    for (j = k = 0; str1[j] != '\0'; j++)
+    {
+      if (str1[j] != str2[i])
+        str1[k++] = str1[j];
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.42858892466764814, 'counts': [1, 0, 0, 0], 'totals': [84, 83, 82, 81], 'precisions': [1.1904761904761905, 0.6024096385542169, 0.3048780487804878, 0.15432098765432098], 'bp': 1.0, 'sys_len': 84, 'ref_len': 1}
+First element of precision:1.1904761904761905
+Sequence Matcher Similarity Precision:0.021505376344086023
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 760 3
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+                'for ( option_expression ; option_expression ; option_expression ) scoped_statement'
+                Complete the 'for ( option_expression ; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'for ( option_expression ; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 1.4306461811065674 seconds
+Received response: for (i = j = 0; str1[i] != '\0'; i++) {
+    for (k = 0; str2[k] != '\0' && str1[i] != str2[k]; k++)
+        ;
+    if (str2[k] == '\0') {
+        str1[j++] = str1[i];
+    }
+}
+str1[j] = '\0';
+Actual result:  for ( k VARIABLE = 0 ; str2 VARIABLE [ k VARIABLE ] != '\0' ; ++ k VARIABLE ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 38.79457593347406, 'counts': [80, 52, 30, 18], 'totals': [92, 91, 90, 89], 'precisions': [86.95652173913044, 57.142857142857146, 33.333333333333336, 20.224719101123597], 'bp': 0.9068065955360705, 'sys_len': 92, 'ref_len': 101}
+First element of precision:86.95652173913044
+Sequence Matcher Similarity Precision:0.1256931608133087
+Cosine Similarity Precision:0.29004918496377463
+
+Parse State: 408	Cursor Position: 760 7
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for
+                '( option_expression ; option_expression ; option_expression ) scoped_statement'
+                Complete the '( option_expression ; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( option_expression ; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 1.1716885566711426 seconds
+Received response: (i = 0; str2[i] != '\0'; i++) {
+    for (j = k = 0; str1[j] != '\0'; j++) {
+        if (str1[j] != str2[i]) {
+            str1[k++] = str1[j];
+        }
+    }
+    str1[k] = '\0';
+  }
+}
+Actual result:  ( k VARIABLE = 0 ; str2 VARIABLE [ k VARIABLE ] != '\0' ; ++ k VARIABLE ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 42.63045604597751, 'counts': [79, 54, 34, 23], 'totals': [82, 81, 80, 79], 'precisions': [96.34146341463415, 66.66666666666667, 42.5, 29.11392405063291], 'bp': 0.8029103660434959, 'sys_len': 82, 'ref_len': 100}
+First element of precision:96.34146341463415
+Sequence Matcher Similarity Precision:0.14661654135338345
+Cosine Similarity Precision:0.28121456692899327
+
+Parse State: 460	Cursor Position: 760 8
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.457960605621338 seconds
+Received response: for (i = j = 0; str1[i] != '\0'; i++)
+{
+    for (k = 0; str2[k] != '\0' && str2[k] != str1[i]; k++)
+    {
+        if (str2[k] == '\0')
+        {
+            str1[j++] = str1[i];
+        }
+    }
+}
+str1[j] = '\0';
+}
+Actual result:  k VARIABLE
+SACREBLEU Score: {'score': 0.3822478057284026, 'counts': [1, 0, 0, 0], 'totals': [94, 93, 92, 91], 'precisions': [1.0638297872340425, 0.5376344086021505, 0.2717391304347826, 0.13736263736263737], 'bp': 1.0, 'sys_len': 94, 'ref_len': 2}
+First element of precision:1.0638297872340425
+Sequence Matcher Similarity Precision:0.026785714285714284
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 760 9
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.310415267944336 seconds
+Received response: = 0; str2[k] != '\0'; k++)
+  {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [80, 79, 78, 77], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 80, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010309278350515464
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 760 10
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 1.4468481540679932 seconds
+Received response: = 0; str2[k] != '\0'; k++) {
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        if (str1[i] != str2[k]) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+  printf("%s", str1);
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.39952724108597504, 'counts': [1, 0, 0, 0], 'totals': [90, 89, 88, 87], 'precisions': [1.1111111111111112, 0.5617977528089888, 0.2840909090909091, 0.14367816091954022], 'bp': 1.0, 'sys_len': 90, 'ref_len': 1}
+First element of precision:1.1111111111111112
+Sequence Matcher Similarity Precision:0.01951219512195122
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 760 12
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 1.4243769645690918 seconds
+Received response: 0; str2[k] != '\0'; k++) {
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        if (str1[i] != str2[k])
+            str1[j++] = str1[i];
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.46833399312669227, 'counts': [1, 0, 0, 0], 'totals': [77, 76, 75, 74], 'precisions': [1.2987012987012987, 0.6578947368421053, 0.3333333333333333, 0.16891891891891891], 'bp': 1.0, 'sys_len': 77, 'ref_len': 1}
+First element of precision:1.2987012987012987
+Sequence Matcher Similarity Precision:0.023668639053254437
+Cosine Similarity Precision:0.0
+
+Parse State: 489	Cursor Position: 760 13
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0
+                '; option_expression ; option_expression ) scoped_statement'
+                Complete the '; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 1.3864238262176514 seconds
+Received response: ; str2[k] != '\0'; k++)
+{
+  for (i = j = 0; str1[i] != '\0'; i++)
+  {
+    if (str1[i] != str2[k])
+    {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  ; str2 VARIABLE [ k VARIABLE ] != '\0' ; ++ k VARIABLE ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 44.1935464919938, 'counts': [77, 54, 33, 23], 'totals': [77, 76, 75, 74], 'precisions': [100.0, 71.05263157894737, 44.0, 31.08108108108108], 'bp': 0.791546831191154, 'sys_len': 77, 'ref_len': 95}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.32179226069246436
+Cosine Similarity Precision:0.29550624978496115
+
+Parse State: 505	Cursor Position: 760 15
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.3293254375457764 seconds
+Received response: for (k = 0; str2[k] != '\0'; k++)
+{
+  for (i = j = 0; str1[i] != '\0'; i++)
+  {
+    if (str1[i] != str2[k])
+    {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 0.43923912641022456, 'counts': [1, 0, 0, 0], 'totals': [82, 81, 80, 79], 'precisions': [1.2195121951219512, 0.6172839506172839, 0.3125, 0.15822784810126583], 'bp': 1.0, 'sys_len': 82, 'ref_len': 2}
+First element of precision:1.2195121951219512
+Sequence Matcher Similarity Precision:0.06521739130434782
+Cosine Similarity Precision:0.2425356250363329
+
+Parse State: 179	Cursor Position: 760 19
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3042290210723877 seconds
+Received response: [k] != '\0'; k++)
+  {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 76, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010810810810810811
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 760 19
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 1.1917951107025146 seconds
+Received response: [k] != '\0'; k++) {
+        for (i = j = 0; str1[i] != '\0'; i++) {
+            if (str1[i] != str2[k]) {
+                str1[j++] = str1[i];
+            }
+        }
+        str1[j] = '\0';
+    }
+}
+Actual result:  [ k VARIABLE ]
+SACREBLEU Score: {'score': 1.0505106462290037, 'counts': [3, 1, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [3.9473684210526314, 1.3333333333333333, 0.6756756756756757, 0.3424657534246575], 'bp': 1.0, 'sys_len': 76, 'ref_len': 4}
+First element of precision:3.9473684210526314
+Sequence Matcher Similarity Precision:0.056338028169014086
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 760 20
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.335115671157837 seconds
+Received response: [k] != '\0'; k++)
+  {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  k VARIABLE
+SACREBLEU Score: {'score': 0.47462176237300036, 'counts': [1, 0, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [1.3157894736842106, 0.6666666666666666, 0.33783783783783783, 0.17123287671232876], 'bp': 1.0, 'sys_len': 76, 'ref_len': 2}
+First element of precision:1.3157894736842106
+Sequence Matcher Similarity Precision:0.03208556149732621
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 760 21
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3490912914276123 seconds
+Received response: == '\0'; k++)
+  {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [73, 72, 71, 70], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 73, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011049723756906077
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 760 21
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 1.331153154373169 seconds
+Received response: <k] != '\0'; k++)
+  {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.47462176237300036, 'counts': [1, 0, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [1.3157894736842106, 0.6666666666666666, 0.33783783783783783, 0.17123287671232876], 'bp': 1.0, 'sys_len': 76, 'ref_len': 1}
+First element of precision:1.3157894736842106
+Sequence Matcher Similarity Precision:0.011235955056179775
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 760 23
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k]
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.5263149738311768 seconds
+Received response: [i] != '\0'
+Actual result:  !=
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 760 26
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] !=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.6746809482574463 seconds
+Received response: for (k = 0; str2[k] != '\0'; k++)
+Actual result:  '\0'
+SACREBLEU Score: {'score': 7.12695567709093, 'counts': [3, 2, 1, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 10.526315789473685, 5.555555555555555, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.2631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 517	Cursor Position: 760 30
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'
+                '; option_expression ) scoped_statement'
+                Complete the '; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '; option_expression ) scoped_statement'. 
+                
+Time taken: 2.8866126537323 seconds
+Received response: {
+    k++; // increment k to move to the next character in str2
+}
+str2[k] = '\0'; // add the null terminator to the end of the modified str2
+
+for (i = j = 0; str1[i] != '\0'; i++) {
+    int shouldDelete = 0;
+    for (k = 0; str2[k] != '\0'; k++) {
+        if (str1[i] == str2[k]) {
+            shouldDelete = 1;
+            break;
+        }
+    }
+    if (!shouldDelete) {
+        str1[j++] = str1[i];
+    }
+}
+str1[j] = '\0'; // add the null terminator to the end of the modified str1
+}
+Actual result:  ; ++ k VARIABLE ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 20.804078160599474, 'counts': [67, 45, 24, 14], 'totals': [154, 153, 152, 151], 'precisions': [43.506493506493506, 29.41176470588235, 15.789473684210526, 9.271523178807946], 'bp': 1.0, 'sys_len': 154, 'ref_len': 83}
+First element of precision:43.506493506493506
+Sequence Matcher Similarity Precision:0.06692406692406692
+Cosine Similarity Precision:0.17544088638025696
+
+Parse State: 521	Cursor Position: 760 32
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0';
+                '++ unary_expression'
+                Complete the '++ unary_expression' part of the code in the C11 programming language. Just show your answer in place of '++ unary_expression'. 
+                
+Time taken: 0.4639713764190674 seconds
+Received response: '++k'
+Actual result:  ++ k VARIABLE
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 760 34
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8824892044067383 seconds
+Received response: k
+
+Explanation: The variable 'k' is being used as the index for iterating through the characters in the 'str2' string in the 'squeeze' function.
+Actual result:  k VARIABLE
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 2}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.025806451612903226
+Cosine Similarity Precision:0.15075567228888181
+
+Parse State: 179	Cursor Position: 760 35
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.585008144378662 seconds
+Received response: {k
+    for (i = j = 0; str1[i] != '\0'; i++) 
+    {
+        int should_delete = 0;
+        for (int m = 0; str2[m] != '\0'; m++) 
+        {
+            if (str1[i] == str2[m]) 
+            {
+                should_delete = 1;
+                break;
+            }
+        }
+        if (!should_delete) 
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.005115089514066497
+Cosine Similarity Precision:0.0
+
+Parse State: 525	Cursor Position: 760 35
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 1.9231712818145752 seconds
+Received response: {
+    for (i = j = 0; str1[i] != '\0'; i++) {
+        int should_delete = 0;
+
+        for (int m = 0; str2[m] != '\0'; m++) {
+            if (str1[i] == str2[m]) {
+                should_delete = 1;
+                break;
+            }
+        }
+
+        if (!should_delete) {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  ) { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 30.36333352230872, 'counts': [62, 44, 26, 16], 'totals': [109, 108, 107, 106], 'precisions': [56.88073394495413, 40.74074074074074, 24.299065420560748, 15.09433962264151], 'bp': 1.0, 'sys_len': 109, 'ref_len': 78}
+First element of precision:56.88073394495413
+Sequence Matcher Similarity Precision:0.13804173354735153
+Cosine Similarity Precision:0.27290804931159346
+
+Parse State: 320	Cursor Position: 761 3
+
+                This is the incomplete C11 programming language code:
+                printf("%s", str1);
+
+  return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.1933016777038574 seconds
+Received response: {
+    for (i = j = 0; str1[i] != '\0'; i++)
+    {
+        if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  { for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } } str1 VARIABLE [ j VARIABLE ] = '\0' ; }
+SACREBLEU Score: {'score': 44.04206936235221, 'counts': [62, 44, 27, 18], 'totals': [62, 61, 60, 59], 'precisions': [100.0, 72.1311475409836, 45.0, 30.508474576271187], 'bp': 0.7851068279713449, 'sys_len': 62, 'ref_len': 77}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.27522935779816515
+Cosine Similarity Precision:0.33267391956523024
+
+Parse State: 320	Cursor Position: 762 5
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+                'for ( option_expression ; option_expression ; option_expression ) scoped_statement'
+                Complete the 'for ( option_expression ; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'for ( option_expression ; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 1.7312889099121094 seconds
+Received response: for (i = j = 0; str1[i] != '\0'; ++i)
+  {
+    int found = 0;
+    for (k = 0; str2[k] != '\0'; ++k)
+    {
+      if (str1[i] == str2[k])
+      {
+        found = 1;
+        break;
+      }
+    }
+    
+    if (!found)
+    {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  for ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 27.241989569078708, 'counts': [51, 37, 22, 13], 'totals': [101, 100, 99, 98], 'precisions': [50.495049504950494, 37.0, 22.22222222222222, 13.26530612244898], 'bp': 1.0, 'sys_len': 101, 'ref_len': 64}
+First element of precision:50.495049504950494
+Sequence Matcher Similarity Precision:0.16205533596837945
+Cosine Similarity Precision:0.2736993743466187
+
+Parse State: 408	Cursor Position: 762 9
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for
+                '( option_expression ; option_expression ; option_expression ) scoped_statement'
+                Complete the '( option_expression ; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( option_expression ; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 1.2522242069244385 seconds
+Received response: (i = 0; str1[i] != '\0'; ++i)
+    {
+        if (str1[i] == str2[k])
+        {
+            for (j = i; str1[j] != '\0'; ++j)
+            {
+                str1[j] = str1[j + 1];
+            }
+            i--;
+        }
+    }
+}
+Actual result:  ( i VARIABLE = j VARIABLE = 0 ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 33.098358067398436, 'counts': [50, 33, 19, 10], 'totals': [73, 72, 71, 70], 'precisions': [68.4931506849315, 45.833333333333336, 26.760563380281692, 14.285714285714286], 'bp': 1.0, 'sys_len': 73, 'ref_len': 63}
+First element of precision:68.4931506849315
+Sequence Matcher Similarity Precision:0.2163355408388521
+Cosine Similarity Precision:0.30403449605253013
+
+Parse State: 460	Cursor Position: 762 10
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.209718942642212 seconds
+Received response: i = j = 0;
+    while (str1[i] != '\0')
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+      i++;
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 0.5844855918911488, 'counts': [1, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661], 'bp': 1.0, 'sys_len': 62, 'ref_len': 2}
+First element of precision:1.6129032258064515
+Sequence Matcher Similarity Precision:0.023121387283236993
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 762 11
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.1248281002044678 seconds
+Received response: = 0, j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 61, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 762 12
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 1.0628249645233154 seconds
+Received response: = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j] = str1[i];
+        ++j;
+      }
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 762 14
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.2283763885498047 seconds
+Received response: i = 0; i < str1[i] != '\0'; ++i) 
+{
+  if (str1[i] != str2[k])
+  {
+    str1[j++] = str1[i];
+  }
+}
+str1[j] = '\0';
+}
+Actual result:  j VARIABLE
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 2}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.032
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 762 15
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.1551320552825928 seconds
+Received response: =0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [57, 56, 55, 54], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 57, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013605442176870748
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 762 16
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 1.3033607006072998 seconds
+Received response: = 0; i = 0, j = 0; str1[i] != '\0'; ++i)
+    {
+       if(str1[i] != str2[k]) //if the characters are not equal
+       {
+          str1[j++] = str1[i]; //move the character to the beginning of the string
+       }
+    }
+    str1[j] = '\0'; //null-terminate the string
+  }
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.4040940081572238, 'counts': [1, 0, 0, 0], 'totals': [89, 88, 87, 86], 'precisions': [1.1235955056179776, 0.5681818181818182, 0.28735632183908044, 0.14534883720930233], 'bp': 1.0, 'sys_len': 89, 'ref_len': 1}
+First element of precision:1.1235955056179776
+Sequence Matcher Similarity Precision:0.014652014652014652
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 762 18
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 1.0540120601654053 seconds
+Received response: str1[j] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 54, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.029411764705882353
+Cosine Similarity Precision:0.0
+
+Parse State: 489	Cursor Position: 762 19
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0
+                '; option_expression ; option_expression ) scoped_statement'
+                Complete the '; option_expression ; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '; option_expression ; option_expression ) scoped_statement'. 
+                
+Time taken: 0.9497988224029541 seconds
+Received response: (i = 0; str1[i] != '\0'; i++)
+    {
+        if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  ; str1 VARIABLE [ i VARIABLE ] != '\0' ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 39.458492850737834, 'counts': [44, 30, 17, 11], 'totals': [58, 57, 56, 55], 'precisions': [75.86206896551724, 52.63157894736842, 30.357142857142858, 20.0], 'bp': 1.0, 'sys_len': 58, 'ref_len': 55}
+First element of precision:75.86206896551724
+Sequence Matcher Similarity Precision:0.4393063583815029
+Cosine Similarity Precision:0.35911487837455397
+
+Parse State: 505	Cursor Position: 762 21
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.2854771614074707 seconds
+Received response: i = j = 0; str1[i] != '\0'; i++)
+    {
+        if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.6044751875664687, 'counts': [1, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508], 'bp': 1.0, 'sys_len': 60, 'ref_len': 2}
+First element of precision:1.6666666666666667
+Sequence Matcher Similarity Precision:0.07100591715976332
+Cosine Similarity Precision:0.6804138174397716
+
+Parse State: 179	Cursor Position: 762 25
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.1048247814178467 seconds
+Received response: [i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 53, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014388489208633094
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 762 25
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 1.057793378829956 seconds
+Received response: 
+[i] != '\0'; ++i)
+    {
+        if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  [ i VARIABLE ]
+SACREBLEU Score: {'score': 1.5198578415124373, 'counts': [3, 1, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [5.660377358490566, 1.9230769230769231, 0.9803921568627451, 0.5], 'bp': 1.0, 'sys_len': 53, 'ref_len': 4}
+First element of precision:5.660377358490566
+Sequence Matcher Similarity Precision:0.0641025641025641
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 762 26
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.9198908805847168 seconds
+Received response: [k] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 0.6866732953963862, 'counts': [1, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [1.8867924528301887, 0.9615384615384616, 0.49019607843137253, 0.25], 'bp': 1.0, 'sys_len': 53, 'ref_len': 2}
+First element of precision:1.8867924528301887
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 762 27
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.099179744720459 seconds
+Received response: = str2[k]; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 60, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012987012987012988
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 762 27
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.9702067375183105 seconds
+Received response: [i] != '\0'; i++)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.6866732953963862, 'counts': [1, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [1.8867924528301887, 0.9615384615384616, 0.49019607843137253, 0.25], 'bp': 1.0, 'sys_len': 53, 'ref_len': 1}
+First element of precision:1.8867924528301887
+Sequence Matcher Similarity Precision:0.015151515151515152
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 762 29
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i]
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.48322343826293945 seconds
+Received response: != str2[k]
+Actual result:  !=
+SACREBLEU Score: {'score': 16.233395773754953, 'counts': [2, 1, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 20.0, 12.5, 8.333333333333334], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 762 32
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] !=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 1.1080458164215088 seconds
+Received response: str1[i] != str2[k]; ++i)
+    {
+      str1[j++] = str1[i];
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  '\0'
+SACREBLEU Score: {'score': 3.419816740540656, 'counts': [3, 2, 1, 0], 'totals': [40, 39, 38, 37], 'precisions': [7.5, 5.128205128205129, 2.6315789473684212, 1.3513513513513513], 'bp': 1.0, 'sys_len': 40, 'ref_len': 3}
+First element of precision:7.5
+Sequence Matcher Similarity Precision:0.10638297872340426
+Cosine Similarity Precision:0.0
+
+Parse State: 517	Cursor Position: 762 36
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'
+                '; option_expression ) scoped_statement'
+                Complete the '; option_expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '; option_expression ) scoped_statement'. 
+                
+Time taken: 0.8640780448913574 seconds
+Received response: 
+    && str1[i] != str2[k]; ++i)
+    {
+      str1[j++] = str1[i];
+    }
+  }
+  str1[j] = '\0';
+}
+Actual result:  ; ++ i VARIABLE ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 31.338732965304338, 'counts': [30, 19, 10, 5], 'totals': [42, 41, 40, 39], 'precisions': [71.42857142857143, 46.34146341463415, 25.0, 12.820512820512821], 'bp': 0.9764716866522433, 'sys_len': 42, 'ref_len': 43}
+First element of precision:71.42857142857143
+Sequence Matcher Similarity Precision:0.4094488188976378
+Cosine Similarity Precision:0.3287191293257129
+
+Parse State: 521	Cursor Position: 762 38
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0';
+                '++ unary_expression'
+                Complete the '++ unary_expression' part of the code in the C11 programming language. Just show your answer in place of '++ unary_expression'. 
+                
+Time taken: 1.223036527633667 seconds
+Received response: ++ unary_expression: i++
+Actual result:  ++ i VARIABLE
+SACREBLEU Score: {'score': 10.552670315936318, 'counts': [3, 1, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 4}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 762 40
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.046888828277588 seconds
+Received response: str2[k])
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 0.8130350574508933, 'counts': [1, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [2.2222222222222223, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476], 'bp': 1.0, 'sys_len': 45, 'ref_len': 2}
+First element of precision:2.2222222222222223
+Sequence Matcher Similarity Precision:0.045454545454545456
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 762 41
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.092320203781128 seconds
+Received response: {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.017094017094017096
+Cosine Similarity Precision:0.0
+
+Parse State: 525	Cursor Position: 762 41
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 0.8390989303588867 seconds
+Received response: {
+        if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+}
+Actual result:  ) { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 37.31684126295425, 'counts': [29, 20, 11, 6], 'totals': [39, 38, 37, 36], 'precisions': [74.35897435897436, 52.63157894736842, 29.72972972972973, 16.666666666666668], 'bp': 1.0, 'sys_len': 39, 'ref_len': 38}
+First element of precision:74.35897435897436
+Sequence Matcher Similarity Precision:0.4046692607003891
+Cosine Similarity Precision:0.38103173776627214
+
+Parse State: 320	Cursor Position: 763 5
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.8446261882781982 seconds
+Received response: {
+      if (str1[i] != str2[k]) {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  { if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; } }
+SACREBLEU Score: {'score': 36.34674319487555, 'counts': [29, 20, 11, 6], 'totals': [40, 39, 38, 37], 'precisions': [72.5, 51.282051282051285, 28.94736842105263, 16.216216216216218], 'bp': 1.0, 'sys_len': 40, 'ref_len': 37}
+First element of precision:72.5
+Sequence Matcher Similarity Precision:0.4279835390946502
+Cosine Similarity Precision:0.38103173776627214
+
+Parse State: 320	Cursor Position: 764 7
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+                'if ( expression ) scoped_statement'
+                Complete the 'if ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'if ( expression ) scoped_statement'. 
+                
+Time taken: 0.8440649509429932 seconds
+Received response: if (str1[i] != str2[k]) 
+{
+  str1[j++] = str1[i];
+}
+}
+str1[j] = '\0';
+}
+Actual result:  if ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; }
+SACREBLEU Score: {'score': 31.524319907389753, 'counts': [27, 18, 9, 4], 'totals': [38, 37, 36, 35], 'precisions': [71.05263157894737, 48.648648648648646, 25.0, 11.428571428571429], 'bp': 1.0, 'sys_len': 38, 'ref_len': 35}
+First element of precision:71.05263157894737
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.38103173776627214
+
+Parse State: 404	Cursor Position: 764 10
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 0.7843408584594727 seconds
+Received response: (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ( str1 VARIABLE [ i VARIABLE ] != str2 VARIABLE [ k VARIABLE ] ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; }
+SACREBLEU Score: {'score': 29.891939560241692, 'counts': [26, 17, 8, 4], 'totals': [38, 37, 36, 35], 'precisions': [68.42105263157895, 45.945945945945944, 22.22222222222222, 11.428571428571429], 'bp': 1.0, 'sys_len': 38, 'ref_len': 34}
+First element of precision:68.42105263157895
+Sequence Matcher Similarity Precision:0.38961038961038963
+Cosine Similarity Precision:0.3665245183824906
+
+Parse State: 455	Cursor Position: 764 11
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8331754207611084 seconds
+Received response: if (str1[i] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.9432284668356838, 'counts': [1, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222], 'bp': 1.0, 'sys_len': 39, 'ref_len': 2}
+First element of precision:2.5641025641025643
+Sequence Matcher Similarity Precision:0.09836065573770492
+Cosine Similarity Precision:0.6666666666666666
+
+Parse State: 179	Cursor Position: 764 15
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8385682106018066 seconds
+Received response: [i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 764 15
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 0.8798654079437256 seconds
+Received response: [j] != str2[k]) 
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  [ i VARIABLE ]
+SACREBLEU Score: {'score': 2.2694309136445803, 'counts': [3, 1, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [8.333333333333334, 2.857142857142857, 1.4705882352941178, 0.7575757575757576], 'bp': 1.0, 'sys_len': 36, 'ref_len': 4}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.037037037037037035
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 764 16
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7773947715759277 seconds
+Received response: [k] != str2[k])
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 1.0253311603116817, 'counts': [1, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 2}
+First element of precision:2.7777777777777777
+Sequence Matcher Similarity Precision:0.036036036036036036
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 764 17
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9865922927856445 seconds
+Received response: [k] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 764 17
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 1.0609300136566162 seconds
+Received response:  == str2[k])
+      {
+        // remove character from str1
+        continue;
+      }
+      str1[j++] = str1[i];
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.8954307276600084, 'counts': [1, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [2.4390243902439024, 1.25, 0.6410256410256411, 0.32894736842105265], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:2.4390243902439024
+Sequence Matcher Similarity Precision:0.027586206896551724
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 764 19
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i]
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.4829070568084717 seconds
+Received response: != str2[k]
+Actual result:  !=
+SACREBLEU Score: {'score': 16.233395773754953, 'counts': [2, 1, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 20.0, 12.5, 8.333333333333334], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 764 22
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] !=
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7905502319335938 seconds
+Received response: str2[k]) {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  str2 VARIABLE
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.10752688172043011
+Cosine Similarity Precision:0.22360679774997896
+
+Parse State: 179	Cursor Position: 764 26
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7592291831970215 seconds
+Received response: [k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 764 26
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 0.6479964256286621 seconds
+Received response: [j]'
+
+The completed expression would be:
+if (str1[i] != str2[k])
+Actual result:  [ k VARIABLE ]
+SACREBLEU Score: {'score': 3.644667088679882, 'counts': [3, 1, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [13.043478260869565, 4.545454545454546, 2.380952380952381, 1.25], 'bp': 1.0, 'sys_len': 23, 'ref_len': 4}
+First element of precision:13.043478260869565
+Sequence Matcher Similarity Precision:0.05063291139240506
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 764 27
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7665810585021973 seconds
+Received response: [k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  k VARIABLE
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.043478260869565216
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 764 28
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8049285411834717 seconds
+Received response: [k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 764 28
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.7797958850860596 seconds
+Received response: ]) 
+        {
+            str1[j++] = str1[i];
+        }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 764 29
+
+                This is the incomplete C11 programming language code:
+                }
+
+void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k]
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 0.915442943572998 seconds
+Received response: {
+      str1[j] = str1[i];
+      if (str1[i] != str2[k])
+        ++j;
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ) { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; }
+SACREBLEU Score: {'score': 7.232031895361329, 'counts': [15, 8, 1, 0], 'totals': [40, 39, 38, 37], 'precisions': [37.5, 20.512820512820515, 2.6315789473684212, 1.3513513513513513], 'bp': 1.0, 'sys_len': 40, 'ref_len': 19}
+First element of precision:37.5
+Sequence Matcher Similarity Precision:0.29069767441860467
+Cosine Similarity Precision:0.42163702135578396
+
+Parse State: 320	Cursor Position: 765 7
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.820122480392456 seconds
+Received response: {
+       str1[j++] = str1[i];
+     }
+     str1[j] = '\0';
+   }
+}
+Actual result:  { str1 VARIABLE [ j VARIABLE ++ ] = str1 VARIABLE [ i VARIABLE ] ; }
+SACREBLEU Score: {'score': 24.00433567170858, 'counts': [14, 9, 4, 2], 'totals': [25, 24, 23, 22], 'precisions': [56.0, 37.5, 17.391304347826086, 9.090909090909092], 'bp': 1.0, 'sys_len': 25, 'ref_len': 18}
+First element of precision:56.0
+Sequence Matcher Similarity Precision:0.3609022556390977
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 201	Cursor Position: 766 9
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7068228721618652 seconds
+Received response: str1[j] = str1[i];
+        j++;
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 1.387819277861591, 'counts': [1, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334], 'bp': 1.0, 'sys_len': 27, 'ref_len': 2}
+First element of precision:3.7037037037037037
+Sequence Matcher Similarity Precision:0.1411764705882353
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 766 13
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7964441776275635 seconds
+Received response: [i] = str1[i];
+        j++;
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 766 13
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 0.7352018356323242 seconds
+Received response: [j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  [ j VARIABLE ++ ]
+SACREBLEU Score: {'score': 7.364106362062311, 'counts': [5, 3, 1, 0], 'totals': [24, 23, 22, 21], 'precisions': [20.833333333333332, 13.043478260869565, 4.545454545454546, 2.380952380952381], 'bp': 1.0, 'sys_len': 24, 'ref_len': 6}
+First element of precision:20.833333333333332
+Sequence Matcher Similarity Precision:0.13513513513513514
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 766 14
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7150061130523682 seconds
+Received response: [i] = str1[i];
+        j++;
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  j VARIABLE
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 2}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 766 15
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7560079097747803 seconds
+Received response: = str1[i];
+        ++j;
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.027777777777777776
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 766 15
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.6070690155029297 seconds
+Received response: ++;  // complete the '++' part of the code
+Actual result:  ++
+SACREBLEU Score: {'score': 5.255923420816887, 'counts': [2, 1, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 7.142857142857143, 3.8461538461538463, 2.0833333333333335], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.08888888888888889
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 766 17
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.6690273284912109 seconds
+Received response:  = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.07547169811320754
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 766 19
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++]
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.6159884929656982 seconds
+Received response: str1[j++] = str1[i];
+Actual result:  =
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 766 21
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5887613296508789 seconds
+Received response: str1[j++] = str1[i];
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.29411764705882354
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 766 25
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7748584747314453 seconds
+Received response: [i]; 
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.037037037037037035
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 766 25
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 0.5980236530303955 seconds
+Received response: [i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  [ i VARIABLE ]
+SACREBLEU Score: {'score': 5.061867434834413, 'counts': [3, 1, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 6.25, 3.3333333333333335, 1.7857142857142858], 'bp': 1.0, 'sys_len': 17, 'ref_len': 4}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.1016949152542373
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 766 26
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5851597785949707 seconds
+Received response: j++];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  i VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 766 27
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.0817313194274902 seconds
+Received response: [j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+
+In place of 'VARIABLE', the complete code would be:
+[j++] = str1[i];
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 46, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.23570226039551587
+
+Parse State: 353	Cursor Position: 766 27
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5316364765167236 seconds
+Received response: [k]; // Complete the ']' part of the code
+Actual result:  ]
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.046511627906976744
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 766 28
+
+                This is the incomplete C11 programming language code:
+                void squeeze(char str1[], char str2[])
+{
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i]
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.7445657253265381 seconds
+Received response: {
+        str1[j++] = str1[i];
+      }
+    }
+    str1[j] = '\0';
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.05555555555555555
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 767 7
+
+                This is the incomplete C11 programming language code:
+                {
+  int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.657219648361206 seconds
+Received response: }
+    }
+  }
+  str1[j] = '\0'; 
+}
+Actual result:  }
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 768 5
+
+                This is the incomplete C11 programming language code:
+                int i, j, k;
+  for (k = 0; str2[k] != '\0'; ++k)
+  {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.5801694393157959 seconds
+Received response: }
+    }
+    str1[j] = '\0';
+}
+Actual result:  }
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.12903225806451613
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 770 5
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4472200870513916 seconds
+Received response: k = j;
+Actual result:  str1 VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 770 9
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5951573848724365 seconds
+Received response: [j] = '\0';
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 770 9
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1
+                '[ expression ]'
+                Complete the '[ expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ expression ]'. 
+                
+Time taken: 0.5981588363647461 seconds
+Received response: = str1[j] = '\0';
+Actual result:  [ j VARIABLE ]
+SACREBLEU Score: {'score': 9.287528999566801, 'counts': [3, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [30.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 4}
+First element of precision:30.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 236	Cursor Position: 770 10
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5833837985992432 seconds
+Received response: [j++] = '\0';
+Actual result:  j VARIABLE
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 770 11
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5271744728088379 seconds
+Received response: = '\0';
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 770 11
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.7982747554779053 seconds
+Received response: = '\0';
+Actual result:  ]
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 770 13
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j]
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.5168130397796631 seconds
+Received response: = '\0';
+Actual result:  =
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 770 15
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j] =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.6304323673248291 seconds
+Received response: str2[k];
+Actual result:  '\0'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 770 19
+
+                This is the incomplete C11 programming language code:
+                {
+    for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j] = '\0'
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.4347250461578369 seconds
+Received response: }
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 771 3
+
+                This is the incomplete C11 programming language code:
+                for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j] = '\0';
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.7357831001281738 seconds
+Received response: } j++;
+Actual result:  }
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 772 1
+
+                This is the incomplete C11 programming language code:
+                for (i = j = 0; str1[i] != '\0'; ++i)
+    {
+      if (str1[i] != str2[k])
+      {
+        str1[j++] = str1[i];
+      }
+    }
+
+    str1[j] = '\0';
+  }
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.4925110340118408 seconds
+Received response: }   // end of for loop
+Actual result:  }
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 19.314386618922246
+Average Sequence Matcher Similarity Precision: 16.244436683849795
+Average Cosine Similarity Precision: 14.160710401280408
