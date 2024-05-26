@@ -1,0 +1,4976 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+# 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 1.9026992321014404 seconds
+Received response: int strindex(char s[], char t[]) {
+    int i, j, k;
+    
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++);
+        
+        if (k > 0 && t[k] == '\0') {
+            return i;
+        }
+    }
+    
+    return -1;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.3258729614870764, 'counts': [1, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.9090909090909091, 0.45871559633027525, 0.23148148148148148, 0.11682242990654206], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.9090909090909091
+Sequence Matcher Similarity Precision:0.030418250950570342
+Cosine Similarity Precision:0.47140452079103173
+
+Parse State: 5	Cursor Position: 741 5
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5114181041717529 seconds
+Received response: strindex
+Actual result:  strindex VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 741 13
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.6331284046173096 seconds
+Received response: int strindex(char s[], char t[]) {
+    int i, j, k;
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [108, 107, 106, 105], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 108, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007751937984496124
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 13
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.6254482269287109 seconds
+Received response: (int s[], int t[])
+Actual result:  ( char * s VARIABLE , char * t VARIABLE )
+SACREBLEU Score: {'score': 5.604233375480572, 'counts': [5, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 741 14
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 1.671966552734375 seconds
+Received response: char s[], char t[]){ 
+    int i, j, k;
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.34161741162926396, 'counts': [1, 0, 0, 0], 'totals': [105, 104, 103, 102], 'precisions': [0.9523809523809523, 0.4807692307692308, 0.24271844660194175, 0.12254901960784313], 'bp': 1.0, 'sys_len': 105, 'ref_len': 1}
+First element of precision:0.9523809523809523
+Sequence Matcher Similarity Precision:0.04291845493562232
+Cosine Similarity Precision:0.5345224838248488
+
+Parse State: 298	Cursor Position: 741 19
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 1.4261095523834229 seconds
+Received response: * s, char t[]) { 
+  int i, j, k;
+  
+  for (i = 0; s[i] != '\0'; i++) {
+    for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+  
+  return -1;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.3483495982023228, 'counts': [1, 0, 0, 0], 'totals': [103, 102, 101, 100], 'precisions': [0.970873786407767, 0.49019607843137253, 0.24752475247524752, 0.125], 'bp': 1.0, 'sys_len': 103, 'ref_len': 1}
+First element of precision:0.970873786407767
+Sequence Matcher Similarity Precision:0.00980392156862745
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 741 20
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7160995006561279 seconds
+Received response: str, char c) {
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 21
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5644009113311768 seconds
+Received response: int strindex(char *s, char *t) {
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04878048780487805
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 741 21
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.44928574562072754 seconds
+Received response: char *t
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.5185185185185185
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 391	Cursor Position: 741 23
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s,
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5504176616668701 seconds
+Received response: int strindex(char *s, char c)
+Actual result:  char
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.29411764705882354
+Cosine Similarity Precision:0.8164965809277261
+
+Parse State: 298	Cursor Position: 741 28
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.47847509384155273 seconds
+Received response: *pat[]
+Actual result:  *
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 741 29
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5010049343109131 seconds
+Received response: *name*
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 30
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.5392827987670898 seconds
+Received response: {
+    for (int i = strlen(s) - strlen(t); i >= 0; i--) {
+        int j, k;
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [95, 94, 93, 92], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 95, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.00819672131147541
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 30
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.565047025680542 seconds
+Received response: , int start) {
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 741 31
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.4993839263916016 seconds
+Received response: {
+    int i, j, k;
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.37815900605581765, 'counts': [1, 0, 0, 0], 'totals': [95, 94, 93, 92], 'precisions': [1.0526315789473684, 0.5319148936170213, 0.26881720430107525, 0.1358695652173913], 'bp': 1.0, 'sys_len': 95, 'ref_len': 1}
+First element of precision:1.0526315789473684
+Sequence Matcher Similarity Precision:0.01904761904761905
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.6514742374420166 seconds
+Received response: int strindex(char *s, char *t) {
+Actual result:  int
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.4082482904638631
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5336687564849854 seconds
+Received response: extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int NAME_VARIABLE
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.46833399312669227, 'counts': [1, 0, 0, 0], 'totals': [77, 76, 75, 74], 'precisions': [1.2987012987012987, 0.6578947368421053, 0.3333333333333333, 0.16891891891891891], 'bp': 1.0, 'sys_len': 77, 'ref_len': 2}
+First element of precision:1.2987012987012987
+Sequence Matcher Similarity Precision:0.09049773755656108
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.7391273975372314 seconds
+Received response: int main() {
+    char s[] = "Hello, world!";
+    char t[] = "world";
+
+    int index = strindex(s, t);
+
+    if (index != -1) {
+        printf("'%s' found at index %d in '%s'\n", t, index, s);
+    } else {
+        printf("'%s' not found in '%s'\n", t, s);
+    }
+
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007017543859649123
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5604283809661865 seconds
+Received response: (int argc, char *argv[])
+Actual result:  ( void )
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.43210601806640625 seconds
+Received response: void main(void)
+Actual result:  void
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.8944271909999159
+
+Parse State: 187	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.4672482013702393 seconds
+Received response: ) { 
+    char s[] = "hello world";
+    char t[] = "world";
+    
+    int index = strindex(s, t);
+    
+    if (index != -1) {
+        printf("'%s' found at index %d in '%s'\n", t, index, s);
+    } else {
+        printf("'%s' not found in '%s'\n", t, s);
+    }
+    
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.38224780572840267, 'counts': [1, 0, 0, 0], 'totals': [94, 93, 92, 91], 'precisions': [1.0638297872340425, 0.5376344086021505, 0.2717391304347826, 0.13736263736263737], 'bp': 1.0, 'sys_len': 94, 'ref_len': 1}
+First element of precision:1.0638297872340425
+Sequence Matcher Similarity Precision:0.007142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.137329339981079 seconds
+Received response: {
+    char s[] = "Hello World";
+    char t[] = "World";
+    
+    int index = strindex(s, t);
+    
+    printf("Index: %d\n", index);
+    
+    return 0;
+}
+Actual result:  { char s VARIABLE [ ] = " ; char t VARIABLE [ ] = " ; printf VARIABLE ( " , strindex VARIABLE ( s VARIABLE , t VARIABLE ) ) ; return 0 ; }
+SACREBLEU Score: {'score': 31.333197586169668, 'counts': [31, 22, 11, 6], 'totals': [48, 47, 46, 45], 'precisions': [64.58333333333333, 46.808510638297875, 23.91304347826087, 13.333333333333334], 'bp': 1.0, 'sys_len': 48, 'ref_len': 37}
+First element of precision:64.58333333333333
+Sequence Matcher Similarity Precision:0.4261168384879725
+Cosine Similarity Precision:0.22758963106682423
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 4.827958583831787 seconds
+Received response: char s[] = "hello";
+    char t[] = "lo";
+
+    int index = strindex(s, t);
+
+    if (index != -1) {
+        printf("Substring found at index: %d\n", index);
+    } else {
+        printf("Substring not found\n");
+    }
+
+    return 0;
+}
+
+int strindex(char *s, char *t)
+{
+    int i, j, k;
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.2003175547611043, 'counts': [1, 0, 0, 0], 'totals': [178, 177, 176, 175], 'precisions': [0.5617977528089888, 0.2824858757062147, 0.14204545454545456, 0.07142857142857142], 'bp': 1.0, 'sys_len': 178, 'ref_len': 1}
+First element of precision:0.5617977528089888
+Sequence Matcher Similarity Precision:0.020618556701030927
+Cosine Similarity Precision:0.4500351603704096
+
+Parse State: 93	Cursor Position: 745 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.5433032512664795 seconds
+Received response: s[] = "example string";
+  char t[] = "ample";
+
+  int index = strindex(s, t);
+
+  if (index != -1)
+  {
+    printf("Substring found at index %d\n", index);
+  }
+  else
+  {
+    printf("Substring not found\n");
+  }
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+  
+  return -1;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.20145901152448414, 'counts': [1, 0, 0, 0], 'totals': [177, 176, 175, 174], 'precisions': [0.5649717514124294, 0.2840909090909091, 0.14285714285714285, 0.07183908045977011], 'bp': 1.0, 'sys_len': 177, 'ref_len': 2}
+First element of precision:0.5649717514124294
+Sequence Matcher Similarity Precision:0.013186813186813187
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.2679977416992188 seconds
+Received response: s[] = "Hello, world!";
+  char t[] = "world";
+  int index = strindex(s, t);
+
+  printf("Index of 'world' in 'Hello, world!': %d\n", index);
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+    {
+      return i;
+    }
+  }
+  return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [164, 163, 162, 161], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 164, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010101010101010102
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.5712947845458984 seconds
+Received response: char s[100] = "Hello world";
+Actual result:  [ ]
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.1875
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5585627555847168 seconds
+Received response: char s[] = "Hello, World!";
+Actual result:  ]
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.13793103448275862
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 745 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5281338691711426 seconds
+Received response: = "Hello World"
+Actual result:  = "
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 745 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.5785276889801025 seconds
+Received response: "hello world"
+Actual result:  "
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 36
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6288039684295654 seconds
+Received response: char t[] = "first";
+Actual result:  ;
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 746 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.46886277198791504 seconds
+Received response: char*
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.8
+Cosine Similarity Precision:1.0
+
+Parse State: 93	Cursor Position: 746 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.1331193447113037 seconds
+Received response: t[] = "first";
+
+  int index = strindex(s, t);
+
+  if (index != -1)
+    printf("Substring found at index: %d\n", index);
+  else
+    printf("Substring not found\n");
+
+  return 0;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.6258807799153787, 'counts': [1, 0, 0, 0], 'totals': [58, 57, 56, 55], 'precisions': [1.7241379310344827, 0.8771929824561403, 0.44642857142857145, 0.22727272727272727], 'bp': 1.0, 'sys_len': 58, 'ref_len': 2}
+First element of precision:1.7241379310344827
+Sequence Matcher Similarity Precision:0.031914893617021274
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.5418365001678467 seconds
+Received response: [] = "first";
+
+  int index = strindex(s, t);
+
+  printf("Index: %d\n", index);
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  // Complete the function to find the rightmost occurrence of string t in string s
+  // Return the index of the rightmost occurrence, or -1 if not found
+
+  return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [82, 81, 80, 79], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 82, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013114754098360656
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.46659040451049805 seconds
+Received response: * = "first";
+Actual result:  [ ]
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 746 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 3.325627088546753 seconds
+Received response: [] = "first";
+
+  int index = strindex(s, t);
+
+  if (index != -1)
+  {
+    printf("'%s' found in '%s' at index %d\n", t, s, index);
+  }
+  else
+  {
+    printf("'%s' not found in '%s'\n", t, s);
+  }
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+    {
+      return i;
+    }
+  }
+  return -1;
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.1895762701424033, 'counts': [1, 0, 0, 0], 'totals': [188, 187, 186, 185], 'precisions': [0.5319148936170213, 0.26737967914438504, 0.13440860215053763, 0.06756756756756757], 'bp': 1.0, 'sys_len': 188, 'ref_len': 1}
+First element of precision:0.5319148936170213
+Sequence Matcher Similarity Precision:0.004484304932735426
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 746 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5665347576141357 seconds
+Received response: = "first";
+Actual result:  = "
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 746 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.46123385429382324 seconds
+Received response: "first"
+Actual result:  "
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 746 20
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/strindex.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.4743289947509766 seconds
+Received response: [];
+
+  int index = strindex(s, t);
+  
+  if (index != -1)
+    printf("'%s' found at index %d in '%s'\n", t, index, s);
+  else
+    printf("'%s' not found in '%s'\n", t, s);
+  
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++);
+    
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+  
+  return -1;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.2003175547611043, 'counts': [1, 0, 0, 0], 'totals': [178, 177, 176, 175], 'precisions': [0.5617977528089888, 0.2824858757062147, 0.14204545454545456, 0.07142857142857142], 'bp': 1.0, 'sys_len': 178, 'ref_len': 1}
+First element of precision:0.5617977528089888
+Sequence Matcher Similarity Precision:0.004807692307692308
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.603635311126709 seconds
+Received response: char *result = NULL;
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 748 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3566515445709229 seconds
+Received response: #include <stdio.h>
+
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("Index of 't' in 's': %d\n", strindex(s, t));
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [73, 72, 71, 70], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 73, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01932367149758454
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.5425336360931396 seconds
+Received response: (s, t)
+Actual result:  ( " , strindex VARIABLE ( s VARIABLE , t VARIABLE ) )
+SACREBLEU Score: {'score': 6.450019397200929, 'counts': [5, 2, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 50.0, 16.666666666666668, 12.5], 'bp': 0.20189651799465538, 'sys_len': 5, 'ref_len': 13}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 748 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.7680003643035889 seconds
+Received response: "the index of 'this' in 'this is first string' is %d\n", strindex(s, t));
+Actual result:  "
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 748 14
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.5482029914855957 seconds
+Received response: printf("%d", strindex(s, t));
+Actual result:  , strindex VARIABLE ( s VARIABLE , t VARIABLE )
+SACREBLEU Score: {'score': 9.46120284397968, 'counts': [7, 3, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [46.666666666666664, 21.428571428571427, 3.8461538461538463, 2.0833333333333335], 'bp': 1.0, 'sys_len': 15, 'ref_len': 10}
+First element of precision:46.666666666666664
+Sequence Matcher Similarity Precision:0.4155844155844156
+Cosine Similarity Precision:0.22360679774997896
+
+Parse State: 429	Cursor Position: 748 16
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d",
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5421261787414551 seconds
+Received response: strindex(s, t);
+Actual result:  strindex VARIABLE
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.5454545454545454
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 748 24
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5217039585113525 seconds
+Received response: (s, t));
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 24
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.5852482318878174 seconds
+Received response: (s, t)
+Actual result:  ( s VARIABLE , t VARIABLE )
+SACREBLEU Score: {'score': 21.414818552625793, 'counts': [5, 2, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 50.0, 16.666666666666668, 12.5], 'bp': 0.6703200460356393, 'sys_len': 5, 'ref_len': 7}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.35294117647058826
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 748 25
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.66158127784729 seconds
+Received response: s, t)); // should output 0
+
+  return 0;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.11538461538461539
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 748 26
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.4724397659301758 seconds
+Received response: - , t);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 748 26
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.4821960926055908 seconds
+Received response: (s, t));
+Actual result:  , t VARIABLE
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [2, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 748 28
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6221868991851807 seconds
+Received response: t); 
+
+  return 0;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 748 29
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.0560905933380127 seconds
+Received response: );
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  
+  for (i = 0; s[i] != '\0'; i++) {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+  
+  return -1;
+} 
+
+// Output will be 0
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 118, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007272727272727273
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 29
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.468766450881958 seconds
+Received response: );
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 30
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t)
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.582082986831665 seconds
+Received response: ); 
+
+This is the corrected code.
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 748 31
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/strindex.c"
+int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t))
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.5214512348175049 seconds
+Received response: ; 
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.5595409870147705 seconds
+Received response: return 0;
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9
+Cosine Similarity Precision:1.0
+
+Parse State: 338	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.4076673984527588 seconds
+Received response: 0
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 415	Cursor Position: 750 11
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.4464409351348877 seconds
+Received response: ; 
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:1.0
+
+Parse State: 201	Cursor Position: 751 1
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t);
+
+int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 1.8266997337341309 seconds
+Received response: } 
+
+int strindex(char *s, char *t)
+{
+  int i, j, k;
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+    {
+      // continue matching characters
+    }
+
+    if (k > 0 && t[k] == '\0')
+    {
+      return i; // pattern found
+    }
+  }
+
+  return -1; // pattern not found
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.28862703441765386, 'counts': [1, 0, 0, 0], 'totals': [124, 123, 122, 121], 'precisions': [0.8064516129032258, 0.4065040650406504, 0.20491803278688525, 0.10330578512396695], 'bp': 1.0, 'sys_len': 124, 'ref_len': 1}
+First element of precision:0.8064516129032258
+Sequence Matcher Similarity Precision:0.012461059190031152
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 753 1
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 1.6756336688995361 seconds
+Received response: int strindex(char s[], char t[])
+{
+  int i, j, k;
+  
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+  
+  return -1;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.3319933098523721, 'counts': [1, 0, 0, 0], 'totals': [108, 107, 106, 105], 'precisions': [0.9259259259259259, 0.4672897196261682, 0.2358490566037736, 0.11904761904761904], 'bp': 1.0, 'sys_len': 108, 'ref_len': 1}
+First element of precision:0.9259259259259259
+Sequence Matcher Similarity Precision:0.035555555555555556
+Cosine Similarity Precision:0.47140452079103173
+
+Parse State: 5	Cursor Position: 753 5
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.42693519592285156 seconds
+Received response: strindex
+Actual result:  strindex VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 753 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.9788618087768555 seconds
+Received response: int strindex(char s[], char t[]) {
+    int i, j, k;
+
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+
+    return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [108, 107, 106, 105], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 108, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007936507936507936
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 753 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5381348133087158 seconds
+Received response: (char s[], char t[])
+Actual result:  ( char * s VARIABLE , char * t VARIABLE )
+SACREBLEU Score: {'score': 12.192091596713041, 'counts': [7, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [63.63636363636363, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:63.63636363636363
+Sequence Matcher Similarity Precision:0.5161290322580645
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 186	Cursor Position: 753 14
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5200262069702148 seconds
+Received response: char[] s, char[] t
+Actual result:  char
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.43478260869565216
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 753 19
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.4824364185333252 seconds
+Received response: char *s, char *t
+Actual result:  *
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 753 20
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5795722007751465 seconds
+Received response: *name, char *t) {
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 753 21
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.5691516399383545 seconds
+Received response: char *t) {
+  int i, j, k;
+
+  for (i = 0; s[i] != '\0'; i++) {
+    for (j=i, k=0; t[k]!='\0' && s[j]==t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+      return i;
+  }
+
+  return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 753 21
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.4413011074066162 seconds
+Received response: *char t
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 25.0, 25.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 391	Cursor Position: 753 23
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s,
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5536928176879883 seconds
+Received response: char *t
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 753 28
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.6060817241668701 seconds
+Received response: * option_type_qualifier_list option_pointer = strchr(s, t);
+Actual result:  *
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.03278688524590164
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 753 29
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5952777862548828 seconds
+Received response: t) {
+  int i, j, k;
+
+  for (i = 0; s[i] != '\0'; i++) {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++) {
+      // Do nothing, just iterate
+    }
+    if (k > 0 && t[k] == '\0') {
+      return i;
+    }
+  }
+
+  return -1;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.33514051768764386, 'counts': [1, 0, 0, 0], 'totals': [107, 106, 105, 104], 'precisions': [0.9345794392523364, 0.4716981132075472, 0.23809523809523808, 0.1201923076923077], 'bp': 1.0, 'sys_len': 107, 'ref_len': 2}
+First element of precision:0.9345794392523364
+Sequence Matcher Similarity Precision:0.024390243902439025
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 753 30
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9004120826721191 seconds
+Received response: {
+  char *result = strstr(s, t);
+  
+  if (result != NULL) {
+    return result - s;
+  } else {
+    return -1;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.032520325203252036
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 753 30
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.5696964263916016 seconds
+Received response: , int start) {
+  int i, j, k;
+
+  for (i = start; s[i] != '\0'; i++) {
+    for (j = 0, k = i; t[j] != '\0' && s[k] == t[j]; j++, k++);
+
+    if (t[j] == '\0') {
+        return i;
+    }
+  }
+
+  return -1;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.3741567601961751, 'counts': [1, 0, 0, 0], 'totals': [96, 95, 94, 93], 'precisions': [1.0416666666666667, 0.5263157894736842, 0.26595744680851063, 0.13440860215053763], 'bp': 1.0, 'sys_len': 96, 'ref_len': 1}
+First element of precision:1.0416666666666667
+Sequence Matcher Similarity Precision:0.0196078431372549
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 754 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[] = "this is first string";
+  char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.4549095630645752 seconds
+Received response: {
+    int i, j, k;
+
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++) {
+            ;
+        }
+        if (k > 0 && t[k] == '\0') {
+            return i;
+        }
+    }
+
+    return -1;
+}
+Actual result:  { char * first VARIABLE ; char * second VARIABLE ; int pos VARIABLE = 0 ; while ( * s VARIABLE != '\0' ) { if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } } pos VARIABLE ++ ; s VARIABLE ++ ; } return - 1 ; }
+SACREBLEU Score: {'score': 18.528626705382422, 'counts': [53, 27, 12, 7], 'totals': [99, 98, 97, 96], 'precisions': [53.535353535353536, 27.551020408163264, 12.371134020618557, 7.291666666666667], 'bp': 0.9701515036966302, 'sys_len': 99, 'ref_len': 102}
+First element of precision:53.535353535353536
+Sequence Matcher Similarity Precision:0.12052117263843648
+Cosine Similarity Precision:0.12633650324477588
+
+Parse State: 201	Cursor Position: 755 3
+
+                This is the incomplete C11 programming language code:
+                char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5275542736053467 seconds
+Received response: int
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 755 8
+
+                This is the incomplete C11 programming language code:
+                char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.5791006088256836 seconds
+Received response: int *strindex(char *s, char *t)
+Actual result:  *
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 64	Cursor Position: 755 9
+
+                This is the incomplete C11 programming language code:
+                char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5940816402435303 seconds
+Received response: result = NULL;
+
+  for (int i = 0; s[i] != '\0'; i++)
+  {
+    int j = 0;
+    while (t[j] != '\0' && s[i + j] == t[j])
+    {
+      j++;
+    }
+    if (t[j] == '\0')
+    {
+      result = &s[i];
+      break;
+    }
+  }
+
+  return result ? result - s : -1;  
+}
+Actual result:  first VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [98, 97, 96, 95], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 98, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03745318352059925
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 755 14
+
+                This is the incomplete C11 programming language code:
+                char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.8053655624389648 seconds
+Received response: = s;
+  int index = -1;
+  
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      while (*s == *t && *t != '\0')
+      {
+        s++;
+        t++;
+      }
+      if (*t == '\0')
+      {
+        index = first - s;
+        break;
+      }
+      else
+      {
+        t = first;
+      }
+    }
+    s++;
+  }
+  
+  return index;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [98, 97, 96, 95], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 98, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.005797101449275362
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 755 14
+
+                This is the incomplete C11 programming language code:
+                char t[] = "this";
+
+  printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.6577515602111816 seconds
+Received response: = s;
+  int index = -1;
+  
+  while (*s)
+  {
+    if (*s == *t)
+    {
+      char *temp_s = s;
+      char *temp_t = t;
+      
+      while (*temp_s && *temp_t && *temp_s == *temp_t)
+      {
+        temp_s++;
+        temp_t++;
+      }
+      
+      if (*temp_t == '\0')
+      {
+        index = s - first;
+        break;
+      }
+    }
+    
+    s++;
+  }
+  
+  return index;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.32289664096999793, 'counts': [1, 0, 0, 0], 'totals': [111, 110, 109, 108], 'precisions': [0.9009009009009009, 0.45454545454545453, 0.22935779816513763, 0.11574074074074074], 'bp': 1.0, 'sys_len': 111, 'ref_len': 1}
+First element of precision:0.9009009009009009
+Sequence Matcher Similarity Precision:0.010899182561307902
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 756 3
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.46025514602661133 seconds
+Received response: int
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 756 8
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.45920634269714355 seconds
+Received response: *const
+Actual result:  *
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 64	Cursor Position: 756 9
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5311603546142578 seconds
+Received response: return 0;
+Actual result:  second VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.24
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 756 15
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5141971111297607 seconds
+Received response: return -1;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 756 15
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.8320424556732178 seconds
+Received response: = s;
+  int i, j, k;
+
+  for (i = 0; s[i] != '\0'; i++)
+  {
+    for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+      ;
+    if (k > 0 && t[k] == '\0')
+    {
+      second = &s[i];
+    }
+  }
+
+  return (second - first) >= 0 ? (second - first) : -1;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.30091012534221223, 'counts': [1, 0, 0, 0], 'totals': [119, 118, 117, 116], 'precisions': [0.8403361344537815, 0.423728813559322, 0.21367521367521367, 0.10775862068965517], 'bp': 1.0, 'sys_len': 119, 'ref_len': 1}
+First element of precision:0.8403361344537815
+Sequence Matcher Similarity Precision:0.015503875968992248
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 757 3
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.4755232334136963 seconds
+Received response: int index;
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.42857142857142855
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 93	Cursor Position: 757 7
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.47716808319091797 seconds
+Received response: return -1;
+Actual result:  pos VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 757 10
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.46892404556274414 seconds
+Received response: return -1;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 757 11
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5136640071868896 seconds
+Received response: = 0;
+Actual result:  = 0
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.75
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 757 13
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.7335619926452637 seconds
+Received response: strlen(s) - strlen(t) + 1;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 757 14
+
+                This is the incomplete C11 programming language code:
+                printf("%d", strindex(s, t));
+
+  return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.5561530590057373 seconds
+Received response: {
+  while (*s != '\0') {
+    if (*s == *t) {
+      first = s;
+      second = t;
+      while (*second != '\0' && *first == *second) {
+        first++;
+        second++;
+      }
+      if (*second == '\0') {
+        return pos;
+      }
+    }
+    s++;
+    pos++;
+  }
+  return -1;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.4135480978530135, 'counts': [1, 0, 0, 0], 'totals': [87, 86, 85, 84], 'precisions': [1.1494252873563218, 0.5813953488372093, 0.29411764705882354, 0.1488095238095238], 'bp': 1.0, 'sys_len': 87, 'ref_len': 1}
+First element of precision:1.1494252873563218
+Sequence Matcher Similarity Precision:0.014336917562724014
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 759 3
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+                'while ( expression ) scoped_statement'
+                Complete the 'while ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'while ( expression ) scoped_statement'. 
+                
+Time taken: 2.753502130508423 seconds
+Received response: while (*s != '\0') {
+  // check if current position in s matches the first character of t
+  if (*s == *t) {
+    first = s; // save the current position in s
+    second = t; // start comparing the rest of the characters in t with s
+    while (*s == *t && *t != '\0') {
+      s++;
+      t++;
+    }
+    if (*t == '\0') {
+        return pos; // return the position of the first occurrence of t in s
+    } else {
+        s = first + 1; // reset s to the position right after the first character match
+        t = second; // reset t to the beginning of the word to search for
+      }
+    } else {
+      s++;
+      pos++;
+    }
+  }
+  return -1; // return -1 if t is not found in s
+}
+Actual result:  while ( * s VARIABLE != '\0' ) { if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } } pos VARIABLE ++ ; s VARIABLE ++ ; }
+SACREBLEU Score: {'score': 15.506938083105169, 'counts': [66, 41, 23, 11], 'totals': [187, 186, 185, 184], 'precisions': [35.294117647058826, 22.043010752688172, 12.432432432432432, 5.978260869565218], 'bp': 1.0, 'sys_len': 187, 'ref_len': 80}
+First element of precision:35.294117647058826
+Sequence Matcher Similarity Precision:0.09394572025052192
+Cosine Similarity Precision:0.15434163388526184
+
+Parse State: 406	Cursor Position: 759 9
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 2.066842555999756 seconds
+Received response: (*s != '\0') {
+    if (*s == *t) {
+      first = s;
+      second = t;
+      
+      while (*s == *t && *t != '\0') {
+        s++;
+        t++;
+      }
+      
+       if (*t == '\0') {
+          return pos; // found match
+      } 
+      else {
+          pos++;
+          s = first + 1;
+          t = second;
+      }
+    } 
+    else {
+        s++;
+        pos++;
+    }
+  } 
+  
+  return -1; // match not found
+}
+Actual result:  ( * s VARIABLE != '\0' ) { if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } } pos VARIABLE ++ ; s VARIABLE ++ ; }
+SACREBLEU Score: {'score': 28.88860601358492, 'counts': [65, 44, 26, 15], 'totals': [114, 113, 112, 111], 'precisions': [57.01754385964912, 38.93805309734513, 23.214285714285715, 13.513513513513514], 'bp': 1.0, 'sys_len': 114, 'ref_len': 79}
+First element of precision:57.01754385964912
+Sequence Matcher Similarity Precision:0.12884333821376281
+Cosine Similarity Precision:0.265793844024589
+
+Parse State: 457	Cursor Position: 759 10
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.962712049484253 seconds
+Received response: (s[pos] != '\0')
+  {
+    if (s[pos] == t[0])
+    {
+      first = &s[pos];
+      second = t;
+      while (*first == *second && *first != '\0' && *second != '\0')
+      {
+        first++;
+        second++;
+      }
+      if (*second == '\0')
+      {
+        return pos;
+      }
+    }
+    pos++;
+  }
+
+  return -1;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.35896057761679323, 'counts': [1, 0, 0, 0], 'totals': [100, 99, 98, 97], 'precisions': [1.0, 0.5050505050505051, 0.25510204081632654, 0.12886597938144329], 'bp': 1.0, 'sys_len': 100, 'ref_len': 1}
+First element of precision:1.0
+Sequence Matcher Similarity Precision:0.012779552715654952
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 759 11
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.705260992050171 seconds
+Received response: s != '\0') {
+    if (*s == *t) {
+      first = s;
+      second = t;
+      while (*s == *t && *s != '\0' && *t != '\0') {
+        s++;
+        t++;
+      }
+      if (*t == '\0') {
+        return pos;
+      }
+      s = first + 1;
+      t = second;
+    } else {
+      s++;
+    }
+    pos++;
+  }
+  return -1;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.34161741162926396, 'counts': [1, 0, 0, 0], 'totals': [105, 104, 103, 102], 'precisions': [0.9523809523809523, 0.4807692307692308, 0.24271844660194175, 0.12254901960784313], 'bp': 1.0, 'sys_len': 105, 'ref_len': 2}
+First element of precision:0.9523809523809523
+Sequence Matcher Similarity Precision:0.0189873417721519
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 759 12
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.1665213108062744 seconds
+Received response: != '\0') {
+    while (*s != '\0' && *s != *t) {
+      s++;
+      pos++;
+    }
+    first = s;
+    second = t;
+
+    while (*s == *t && *s != '\0' && *t != '\0') {
+      s++;
+      t++;
+      pos++;
+    }
+    if (*t == '\0') {
+      return pos;
+    }
+
+    s = first + 1;
+    t = second;
+    pos = 0;
+  }
+
+  return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 118, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.006153846153846154
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 759 13
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.6663777828216553 seconds
+Received response: '!=' *'\0'
+Actual result:  !=
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 759 16
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s !=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5864715576171875 seconds
+Received response: *s != '\0'
+Actual result:  '\0'
+SACREBLEU Score: {'score': 24.446151121745054, 'counts': [3, 2, 1, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 33.333333333333336, 20.0, 12.5], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 759 20
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0'
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 1.240588903427124 seconds
+Received response: && *s != '\0') {
+    first = s;
+    second = t;
+
+    while (*second != '\0' && *first == *second) {
+      first++;
+      second++;
+    }
+
+    if (*second == '\0') {
+      return pos;
+    }
+
+    s++;
+    pos++;
+  }
+
+  return -1;
+}
+Actual result:  ) { if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } } pos VARIABLE ++ ; s VARIABLE ++ ; }
+SACREBLEU Score: {'score': 27.602941724667783, 'counts': [54, 32, 14, 7], 'totals': [75, 74, 73, 72], 'precisions': [72.0, 43.24324324324324, 19.17808219178082, 9.722222222222221], 'bp': 1.0, 'sys_len': 75, 'ref_len': 70}
+First element of precision:72.0
+Sequence Matcher Similarity Precision:0.057971014492753624
+Cosine Similarity Precision:0.34997472496031856
+
+Parse State: 320	Cursor Position: 760 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.4275524616241455 seconds
+Received response: {
+  while (*s != '\0') {
+    if (*s == *t) {
+      first = s;
+      second = t;
+      
+      while (*second != '\0' && *first == *second) {
+        first++;
+        second++;
+      }
+      
+      if (*second == '\0') {
+        return pos;
+      }
+    }
+    
+    s++;
+    pos++;
+  }
+  
+  return -1;
+}
+Actual result:  { if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } } pos VARIABLE ++ ; s VARIABLE ++ ; }
+SACREBLEU Score: {'score': 31.109184681010976, 'counts': [57, 38, 21, 11], 'totals': [87, 86, 85, 84], 'precisions': [65.51724137931035, 44.18604651162791, 24.705882352941178, 13.095238095238095], 'bp': 1.0, 'sys_len': 87, 'ref_len': 69}
+First element of precision:65.51724137931035
+Sequence Matcher Similarity Precision:0.09074410163339383
+Cosine Similarity Precision:0.3611359324086246
+
+Parse State: 320	Cursor Position: 761 5
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+                'if ( expression ) scoped_statement'
+                Complete the 'if ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'if ( expression ) scoped_statement'. 
+                
+Time taken: 1.4418537616729736 seconds
+Received response: if (*s == *t)
+    {
+        first = s;
+        second = t;
+
+        while (*second != '\0' && *first == *second)
+        {
+            first++;
+            second++;
+        }
+
+        if (*second == '\0')
+        {
+            return pos;
+        }
+    }
+
+    s++;
+    pos++;
+}
+
+return -1;
+Actual result:  if ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } }
+SACREBLEU Score: {'score': 28.895359043503063, 'counts': [47, 32, 16, 8], 'totals': [74, 73, 72, 71], 'precisions': [63.513513513513516, 43.83561643835616, 22.22222222222222, 11.267605633802816], 'bp': 1.0, 'sys_len': 74, 'ref_len': 57}
+First element of precision:63.513513513513516
+Sequence Matcher Similarity Precision:0.17857142857142858
+Cosine Similarity Precision:0.3994677309684806
+
+Parse State: 404	Cursor Position: 761 8
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 1.460472822189331 seconds
+Received response: (*s != '\0' && (first = s, second = t, *first == *second && *second != '\0' && *first != '\0' && (first++, second++))) 
+    {
+      s++;
+      pos++;
+    }
+    if (*second == '\0')
+    {
+      return pos;
+    }
+    else
+    {
+      pos = -1;
+    }
+  }
+  return pos;
+}
+Actual result:  ( * s VARIABLE == * t VARIABLE ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } }
+SACREBLEU Score: {'score': 16.96750486975179, 'counts': [44, 24, 11, 5], 'totals': [93, 92, 91, 90], 'precisions': [47.31182795698925, 26.08695652173913, 12.087912087912088, 5.555555555555555], 'bp': 1.0, 'sys_len': 93, 'ref_len': 56}
+First element of precision:47.31182795698925
+Sequence Matcher Similarity Precision:0.058577405857740586
+Cosine Similarity Precision:0.349428278907306
+
+Parse State: 455	Cursor Position: 761 9
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.612381935119629 seconds
+Received response: *s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*second != '\0' && *first == *second)
+      {
+        first++;
+        second++;
+      }
+
+      if (*second == '\0')
+        return pos;
+
+    }
+    s++;
+    pos++;
+  }
+
+  return -1;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.5087757562008263, 'counts': [1, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [1.408450704225352, 0.7142857142857143, 0.36231884057971014, 0.18382352941176472], 'bp': 1.0, 'sys_len': 71, 'ref_len': 1}
+First element of precision:1.408450704225352
+Sequence Matcher Similarity Precision:0.016
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 761 10
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.7856323719024658 seconds
+Received response: *t == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*s == *t && *t != '\0')
+      {
+        s++;
+        t++;
+      }
+
+      if (*t == '\0')
+        return pos;
+      else
+      {
+        pos++;
+        s = first + 1;
+        t = second;
+      }
+    }
+    else
+    {
+      s++;
+      pos++;
+    }
+  }
+
+  return -1;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.39506254884293407, 'counts': [1, 0, 0, 0], 'totals': [91, 90, 89, 88], 'precisions': [1.098901098901099, 0.5555555555555556, 0.2808988764044944, 0.14204545454545456], 'bp': 1.0, 'sys_len': 91, 'ref_len': 2}
+First element of precision:1.098901098901099
+Sequence Matcher Similarity Precision:0.01764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 761 11
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.2121343612670898 seconds
+Received response: == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*second != '\0' && *first == *second)
+      {
+        first++;
+        second++;
+      }
+
+      if (*second == '\0')
+        return pos;
+    }
+
+    s++;
+    pos++;
+  }
+
+  return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [69, 68, 67, 66], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 69, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007874015748031496
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 761 12
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s
+                '=='
+                Complete the '==' part of the code in the C11 programming language. Just show your answer in place of '=='. 
+                
+Time taken: 1.6946721076965332 seconds
+Received response: == *t && *s != '\0') 
+    {
+      first = s;
+      second = t;
+      
+      while (*second != '\0' && *first == *second)
+      {
+        first++;
+        second++;
+      }
+      
+      if (*second == '\0')
+      {
+        return pos;
+      }
+    }
+    
+    s++;
+    pos++;
+  }
+  
+  return -1;
+}
+Actual result:  ==
+SACREBLEU Score: {'score': 0.9008643494904373, 'counts': [2, 1, 0, 0], 'totals': [80, 79, 78, 77], 'precisions': [2.5, 1.2658227848101267, 0.6410256410256411, 0.3246753246753247], 'bp': 1.0, 'sys_len': 80, 'ref_len': 2}
+First element of precision:2.5
+Sequence Matcher Similarity Precision:0.020202020202020204
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 761 15
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s ==
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.3356566429138184 seconds
+Received response: *t) {
+      first = s;
+      second = t;
+
+      while (*first == *second && *second != '\0')
+      {
+        first++;
+        second++;
+      }
+      
+      if (*second == '\0')
+        return pos;
+      
+    }
+    
+    s++;
+    pos++;
+  }
+
+  return -1;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.5398548275054964, 'counts': [1, 0, 0, 0], 'totals': [67, 66, 65, 64], 'precisions': [1.492537313432836, 0.7575757575757576, 0.38461538461538464, 0.1953125], 'bp': 1.0, 'sys_len': 67, 'ref_len': 1}
+First element of precision:1.492537313432836
+Sequence Matcher Similarity Precision:0.01556420233463035
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 761 16
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.4730610847473145 seconds
+Received response: *t)
+    {
+        first = s;
+        second = t;
+        
+        while (*s == *t && *t != '\0')
+        {
+            s++;
+            t++;
+        }
+        
+        if (*t == '\0')
+            return pos;
+        
+        s = first + 1;
+        t = second;
+    }
+    
+    s++;
+    pos++;
+}
+
+return -1;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.46833399312669227, 'counts': [1, 0, 0, 0], 'totals': [77, 76, 75, 74], 'precisions': [1.2987012987012987, 0.6578947368421053, 0.3333333333333333, 0.16891891891891891], 'bp': 1.0, 'sys_len': 77, 'ref_len': 2}
+First element of precision:1.2987012987012987
+Sequence Matcher Similarity Precision:0.01892744479495268
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 761 17
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3789458274841309 seconds
+Received response: if (*s == *t)
+{
+  first = s;
+  second = t;
+
+  while (*first == *second && *second != '\0')
+  {
+    first++;
+    second++;
+  }
+
+  if (*second == '\0')
+  {
+    return pos;
+  }
+}
+
+s++;
+pos++;
+}
+
+return -1;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [75, 74, 73, 72], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 75, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.009389671361502348
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 761 17
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 1.221675157546997 seconds
+Received response: {
+        first = s;
+        second = t;
+
+        while (*second != '\0' && *first == *second)
+        {
+            first++;
+            second++;
+        }
+
+        if (*second == '\0')
+        {
+            return pos;
+        }
+
+        s++;
+        pos++;
+    }
+
+    return -1;
+}
+Actual result:  ) { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } }
+SACREBLEU Score: {'score': 24.923583941866408, 'counts': [38, 25, 11, 6], 'totals': [65, 64, 63, 62], 'precisions': [58.46153846153846, 39.0625, 17.46031746031746, 9.67741935483871], 'bp': 1.0, 'sys_len': 65, 'ref_len': 47}
+First element of precision:58.46153846153846
+Sequence Matcher Similarity Precision:0.33189655172413796
+Cosine Similarity Precision:0.45226701686664544
+
+Parse State: 320	Cursor Position: 762 5
+
+                This is the incomplete C11 programming language code:
+                int strindex(char *s, char *t)
+{
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.443159818649292 seconds
+Received response: {
+      first = s;
+      second = t;
+      while (*second != '\0' && *first == *second)
+      {
+        first++;
+        second++;
+      }
+      if (*second == '\0')
+      {
+        return pos;
+      }
+      pos++;
+      s++;
+    }
+    return -1;
+}
+Actual result:  { first VARIABLE = s VARIABLE ; second VARIABLE = t VARIABLE ; while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; } }
+SACREBLEU Score: {'score': 24.08963001085338, 'counts': [38, 24, 10, 6], 'totals': [65, 64, 63, 62], 'precisions': [58.46153846153846, 37.5, 15.873015873015873, 9.67741935483871], 'bp': 1.0, 'sys_len': 65, 'ref_len': 46}
+First element of precision:58.46153846153846
+Sequence Matcher Similarity Precision:0.3615023474178404
+Cosine Similarity Precision:0.45226701686664544
+
+Parse State: 201	Cursor Position: 763 7
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.686913013458252 seconds
+Received response: pos = 1;
+      first = s;
+      second = t;
+      break;
+Actual result:  first VARIABLE
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 2}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.19718309859154928
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 65	Cursor Position: 763 12
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8413374423980713 seconds
+Received response: first[pos] = *s;
+      second[pos] = *t;
+      pos++;
+    }
+
+    s++;
+    t++;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021505376344086023
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 763 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 1.8672990798950195 seconds
+Received response: = s;
+      second = t;
+      pos = 1;
+      break;
+    }
+    s++;
+  }
+
+  if (pos == 1)
+  {
+    printf("First occurrence of '%c' in s at position: %ld\n", *t, first - s);
+    printf("First occurrence of '%c' in t at position: %ld\n", *t, second - t);
+  }
+  else
+  {
+    printf("'%c' not found in s\n", *t);
+  }
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.33834796941275397, 'counts': [1, 0, 0, 0], 'totals': [106, 105, 104, 103], 'precisions': [0.9433962264150944, 0.47619047619047616, 0.2403846153846154, 0.12135922330097088], 'bp': 1.0, 'sys_len': 106, 'ref_len': 1}
+First element of precision:0.9433962264150944
+Sequence Matcher Similarity Precision:0.012779552715654952
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 763 15
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4712347984313965 seconds
+Received response: s;
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 763 16
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3168363571166992 seconds
+Received response: = s;
+      second = t;
+      break;
+    }
+
+    s++;
+  }
+
+  if (first != NULL && second != NULL)
+  {
+    printf("Matching characters found at position %d\n", pos);
+  }
+  else
+  {
+    printf("Matching characters not found\n");
+  }
+
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.016666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 763 16
+
+                This is the incomplete C11 programming language code:
+                {
+  char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.8100578784942627 seconds
+Received response: = s;
+      second = t;
+      break;
+    }
+    s++;
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 2.445593937240363, 'counts': [1, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:6.25
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 764 7
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6388404369354248 seconds
+Received response: second = t;
+      	pos = 1;
+      	break;
+Actual result:  second VARIABLE
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.24561403508771928
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 65	Cursor Position: 764 13
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3651423454284668 seconds
+Received response: = t;
+      while (*s == *t && *s != '\0' && *t != '\0')
+      {
+        s++;
+        t++;
+        pos++;
+      }
+      if (*t == '\0')
+      {
+        // match found
+        break;
+      }
+    }
+    else
+    {
+      s++;
+    }
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 71, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.008368200836820083
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 764 14
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.45943522453308105 seconds
+Received response: = t;
+Actual result:  =
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 764 16
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5283005237579346 seconds
+Received response: t;
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 764 17
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6114048957824707 seconds
+Received response: pos = 0;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 764 17
+
+                This is the incomplete C11 programming language code:
+                char *first;
+  char *second;
+  int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6227004528045654 seconds
+Received response: pos = pos + 1;
+Actual result:  ;
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 766 7
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+                'while ( expression ) scoped_statement'
+                Complete the 'while ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'while ( expression ) scoped_statement'. 
+                
+Time taken: 0.8125927448272705 seconds
+Received response: while (*s != '\0' && *t != '\0') {
+   // code inside the while loop
+}
+Actual result:  while ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; }
+SACREBLEU Score: {'score': 16.670224992036253, 'counts': [12, 7, 4, 2], 'totals': [28, 27, 26, 25], 'precisions': [42.857142857142854, 25.925925925925927, 15.384615384615385, 8.0], 'bp': 0.8668778997501817, 'sys_len': 28, 'ref_len': 32}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.26373626373626374
+Cosine Similarity Precision:0.1414213562373095
+
+Parse State: 406	Cursor Position: 766 13
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 1.2988324165344238 seconds
+Received response: (*s != '\0')
+      {
+        if (*first == *second)
+        {
+          first++;
+          second++;
+
+          if (*second == '\0')
+          {
+            return pos;
+          }
+        }
+        else
+        {
+          first = s;
+          second = t;
+        }
+      }
+
+      s++;
+      pos++;
+    }
+  }
+
+  return -1;  
+Actual result:  ( * first VARIABLE ++ == * second VARIABLE ++ ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; }
+SACREBLEU Score: {'score': 20.888528025019696, 'counts': [27, 19, 11, 7], 'totals': [69, 68, 67, 66], 'precisions': [39.130434782608695, 27.941176470588236, 16.417910447761194, 10.606060606060606], 'bp': 1.0, 'sys_len': 69, 'ref_len': 31}
+First element of precision:39.130434782608695
+Sequence Matcher Similarity Precision:0.27314814814814814
+Cosine Similarity Precision:0.5629262517526437
+
+Parse State: 457	Cursor Position: 766 14
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.5964455604553223 seconds
+Received response: (*s != '\0' && *t != '\0' && *s == *t) 
+      {
+        s++;
+        t++;
+      }
+
+      if (*t == '\0')
+      {
+        return pos;
+      }
+      
+      s = first + 1;
+      t = second;
+    }
+    
+    s++;
+    pos++;
+  }
+  
+  return -1;
+Actual result:  *
+SACREBLEU Score: {'score': 0.4877178495671594, 'counts': [1, 0, 0, 0], 'totals': [74, 73, 72, 71], 'precisions': [1.3513513513513513, 0.684931506849315, 0.3472222222222222, 0.176056338028169], 'bp': 1.0, 'sys_len': 74, 'ref_len': 1}
+First element of precision:1.3513513513513513
+Sequence Matcher Similarity Precision:0.016736401673640166
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 766 15
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.6972076892852783 seconds
+Received response: *first != '\0' && *second != '\0' && *first == *second) 
+      {
+        first++;
+        second++;
+      }
+
+      if (*second == '\0')
+      {
+        return pos;
+      }
+    }
+
+    pos++;
+    s++;
+  }
+
+  return -1;
+Actual result:  first VARIABLE
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 2}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.05194805194805195
+Cosine Similarity Precision:0.3638034375544994
+
+Parse State: 179	Cursor Position: 766 20
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.4646735191345215 seconds
+Received response:    != '\0' && *second != '\0' && *first == *second)
+      {
+        first++;
+        second++;
+      }
+      
+      if (*second == '\0')
+      {
+        return pos;
+      }
+    }
+    
+    s++;
+    pos++;
+  }
+  
+  return -1;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 61, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.008620689655172414
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 766 20
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.7938506603240967 seconds
+Received response: ++;
+
+This would increment the pointer 'first' to move to the next character in the string.
+Actual result:  ++
+SACREBLEU Score: {'score': 4.048892532133102, 'counts': [2, 1, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [10.526315789473685, 5.555555555555555, 2.9411764705882355, 1.5625], 'bp': 1.0, 'sys_len': 19, 'ref_len': 2}
+First element of precision:10.526315789473685
+Sequence Matcher Similarity Precision:0.043010752688172046
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 766 23
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++
+                '=='
+                Complete the '==' part of the code in the C11 programming language. Just show your answer in place of '=='. 
+                
+Time taken: 0.48075246810913086 seconds
+Received response: !=
+Actual result:  ==
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 766 26
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ ==
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 0.8460373878479004 seconds
+Received response: *second++ != '\0');
+Actual result:  *
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 766 27
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.9266643524169922 seconds
+Received response: second++
+      }
+
+      if (*second == '\0')
+      {
+        return pos;
+      }
+    }
+
+    s++;
+    pos++;
+  }
+
+  return -1;
+Actual result:  second VARIABLE
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 2}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.11347517730496454
+Cosine Similarity Precision:0.39223227027636803
+
+Parse State: 179	Cursor Position: 766 33
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.1240220069885254 seconds
+Received response: && *second != '\0') 
+{
+second++;
+}
+
+if (*second == '\0')
+{
+break;
+}
+
+s++;
+}
+
+if (*s == '\0' && *second == '\0') 
+{
+pos = s - t;
+}
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 766 33
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.7198631763458252 seconds
+Received response: ++';
+      }
+    }
+    s++;
+  }
+Actual result:  ++
+SACREBLEU Score: {'score': 7.495553473355842, 'counts': [2, 1, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 10.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 766 35
+
+                This is the incomplete C11 programming language code:
+                int pos = 0;
+
+  while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 1.068171739578247 seconds
+Received response: {
+                if (*first == '\0' || *second == '\0')
+                {
+                    pos = count;
+                    break;
+                }
+                count++;
+            }
+        }
+        s++;
+        count = 0;
+    }
+}
+Actual result:  ) { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; }
+SACREBLEU Score: {'score': 18.35246569050701, 'counts': [14, 11, 6, 4], 'totals': [44, 43, 42, 41], 'precisions': [31.818181818181817, 25.58139534883721, 14.285714285714286, 9.75609756097561], 'bp': 1.0, 'sys_len': 44, 'ref_len': 18}
+First element of precision:31.818181818181817
+Sequence Matcher Similarity Precision:0.19205298013245034
+Cosine Similarity Precision:0.2834733547569204
+
+Parse State: 320	Cursor Position: 767 7
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.6659388542175293 seconds
+Received response: {
+        // do nothing
+    }
+Actual result:  { if ( * second VARIABLE == '\0' ) return pos VARIABLE ; }
+SACREBLEU Score: {'score': 1.543228837249852, 'counts': [2, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 10.0, 6.25, 4.166666666666667], 'bp': 0.15987974607969388, 'sys_len': 6, 'ref_len': 17}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3409090909090909
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 768 9
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+                'if ( expression ) scoped_statement'
+                Complete the 'if ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'if ( expression ) scoped_statement'. 
+                
+Time taken: 0.6435256004333496 seconds
+Received response: if (*first == '\0') {
+        return s;
+    }
+Actual result:  if ( * second VARIABLE == '\0' ) return pos VARIABLE ;
+SACREBLEU Score: {'score': 43.33207865423753, 'counts': [11, 7, 5, 3], 'totals': [15, 14, 13, 12], 'precisions': [73.33333333333333, 50.0, 38.46153846153846, 25.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 15}
+First element of precision:73.33333333333333
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 404	Cursor Position: 768 12
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 0.5674309730529785 seconds
+Received response: (*first != '\0') {}
+Actual result:  ( * second VARIABLE == '\0' ) return pos VARIABLE ;
+SACREBLEU Score: {'score': 30.7205918713097, 'counts': [7, 5, 3, 2], 'totals': [11, 10, 9, 8], 'precisions': [63.63636363636363, 50.0, 33.333333333333336, 25.0], 'bp': 0.7613003866968737, 'sys_len': 11, 'ref_len': 14}
+First element of precision:63.63636363636363
+Sequence Matcher Similarity Precision:0.3380281690140845
+Cosine Similarity Precision:0.0
+
+Parse State: 455	Cursor Position: 768 13
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 0.6288247108459473 seconds
+Received response: (*first == '\0' || *second == '\0')
+Actual result:  *
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.10810810810810811
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 768 14
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8835792541503906 seconds
+Received response: first == '\0' 
+        {
+          return s; 
+        }
+      }
+    }
+    s++;
+  }
+  
+  return NULL;
+Actual result:  second VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 21, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 768 20
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.48747920989990234 seconds
+Received response: != '\0'
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 768 21
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second
+                '=='
+                Complete the '==' part of the code in the C11 programming language. Just show your answer in place of '=='. 
+                
+Time taken: 0.625002384185791 seconds
+Received response: '==' is the operator used for comparison in the C11 programming language.
+Actual result:  ==
+SACREBLEU Score: {'score': 4.891187874480726, 'counts': [2, 1, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [12.5, 6.666666666666667, 3.5714285714285716, 1.9230769230769231], 'bp': 1.0, 'sys_len': 16, 'ref_len': 2}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 768 24
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second ==
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5523619651794434 seconds
+Received response: \0
+Actual result:  '\0'
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.6065306597126334, 'sys_len': 2, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 768 28
+
+                This is the incomplete C11 programming language code:
+                while (*s != '\0')
+  {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0'
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 0.7879679203033447 seconds
+Received response: {
+          return 1;
+        }
+      }
+    }
+    s++;
+  }
+
+  return 0;
+}
+Actual result:  ) return pos VARIABLE ;
+SACREBLEU Score: {'score': 2.908317710573757, 'counts': [2, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 5}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.20618556701030927
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 458	Cursor Position: 769 11
+
+                This is the incomplete C11 programming language code:
+                {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.632493257522583 seconds
+Received response: return 0;
+Actual result:  return pos VARIABLE ;
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5161290322580645
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 338	Cursor Position: 769 18
+
+                This is the incomplete C11 programming language code:
+                {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8682982921600342 seconds
+Received response: "0";
+Actual result:  pos VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 769 21
+
+                This is the incomplete C11 programming language code:
+                {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.48535990715026855 seconds
+Received response: return pos;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 769 21
+
+                This is the incomplete C11 programming language code:
+                {
+    if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.1137750148773193 seconds
+Received response: while (*second!='\0' && *first!='\0') {
+  if (*first != *second)
+    break;
+  first++;
+  second++;
+}
+
+if (*first == '\0' && *second == '\0')
+  return pos;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.02531645569620253
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 770 7
+
+                This is the incomplete C11 programming language code:
+                if (*s == *t)
+    {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.6070432662963867 seconds
+Received response: return -1;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 771 5
+
+                This is the incomplete C11 programming language code:
+                {
+      first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.5371019840240479 seconds
+Received response: 
+      return -1;
+    }
+Actual result:  }
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 772 5
+
+                This is the incomplete C11 programming language code:
+                first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6340148448944092 seconds
+Received response: pos
+Actual result:  pos VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 772 8
+
+                This is the incomplete C11 programming language code:
+                first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9790530204772949 seconds
+Received response: = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return VARIABLE;
+      }
+    }
+    return 0;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.9432284668356838, 'counts': [1, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:2.5641025641025643
+Sequence Matcher Similarity Precision:0.1125
+Cosine Similarity Precision:0.24253562503633297
+
+Parse State: 147	Cursor Position: 772 8
+
+                This is the incomplete C11 programming language code:
+                first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.5852937698364258 seconds
+Received response: ++pos
+Actual result:  ++
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 772 10
+
+                This is the incomplete C11 programming language code:
+                first = s;
+      second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6376476287841797 seconds
+Received response: if (*first == '\0')
+          return -1;
+Actual result:  ;
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 773 5
+
+                This is the incomplete C11 programming language code:
+                second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5374448299407959 seconds
+Received response: pos
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 773 6
+
+                This is the incomplete C11 programming language code:
+                second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5389840602874756 seconds
+Received response: VARIABLE = trncmp(s, first, tsize);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.5
+
+Parse State: 147	Cursor Position: 773 6
+
+                This is the incomplete C11 programming language code:
+                second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.5164704322814941 seconds
+Received response: ++;
+Actual result:  ++
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.5
+
+Parse State: 331	Cursor Position: 773 8
+
+                This is the incomplete C11 programming language code:
+                second = t;
+
+      while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.45050549507141113 seconds
+Received response: s++;
+Actual result:  ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.5
+
+Parse State: 201	Cursor Position: 774 3
+
+                This is the incomplete C11 programming language code:
+                while (*first++ == *second++)
+      {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.48504185676574707 seconds
+Received response: } 
+
+return -1;
+Actual result:  }
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 776 3
+
+                This is the incomplete C11 programming language code:
+                {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.549447774887085 seconds
+Received response: return nullptr;
+Actual result:  return - 1 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 338	Cursor Position: 776 10
+
+                This is the incomplete C11 programming language code:
+                {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+
+  return
+                '-'
+                Complete the '-' part of the code in the C11 programming language. Just show your answer in place of '-'. 
+                
+Time taken: 0.46897077560424805 seconds
+Received response: return -1;
+Actual result:  -
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 776 11
+
+                This is the incomplete C11 programming language code:
+                {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+
+  return -
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.47475385665893555 seconds
+Received response: return -1;
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 776 12
+
+                This is the incomplete C11 programming language code:
+                {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+
+  return -1
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.5670170783996582 seconds
+Received response: return -1;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 777 1
+
+                This is the incomplete C11 programming language code:
+                {
+        if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+
+  return -1;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.6927714347839355 seconds
+Received response: }
+  } 
+
+  return -1;
+}
+Actual result:  }
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 778 1
+
+                This is the incomplete C11 programming language code:
+                if (*second == '\0')
+          return pos;
+      }
+    }
+    pos++;
+    s++;
+  }
+
+  return -1;
+}
+                '$'
+                Complete the '$' part of the code in the C11 programming language. Just show your answer in place of '$'. 
+                
+Time taken: 1.070397138595581 seconds
+Received response: ```c
+    if (*second == '\0') {
+        return pos;
+    }
+    if (*first == '\0') {
+        return -1;
+    }
+    if (*first == '$') {
+        return pos;
+    }
+```
+Actual result:  $
+SACREBLEU Score: {'score': 0.7002773917100699, 'counts': [1, 0, 0, 0], 'totals': [52, 51, 50, 49], 'precisions': [1.9230769230769231, 0.9803921568627451, 0.5, 0.25510204081632654], 'bp': 1.0, 'sys_len': 52, 'ref_len': 1}
+First element of precision:1.9230769230769231
+Sequence Matcher Similarity Precision:0.024242424242424242
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 21.626809047633373
+Average Sequence Matcher Similarity Precision: 18.73185663948561
+Average Cosine Similarity Precision: 13.855123739454921

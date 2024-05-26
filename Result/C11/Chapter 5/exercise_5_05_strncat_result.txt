@@ -1,0 +1,3611 @@
+Parse State: 23	Cursor Position: 1026 1
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.4998764991760254 seconds
+Received response: void
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
+
+Parse State: 5	Cursor Position: 1026 6
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6166064739227295 seconds
+Received response: stpncat
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.37037037037037035
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 16
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.484825849533081 seconds
+Received response: void strcat_ptr(char *__restrict dest, const char *__restrict src, size_t n) {
+    size_t dest_len = strlen(dest);
+    size_t src_len = strlen(src);
+
+    if (n > src_len) {
+        n = src_len;
+    }
+
+    stpncpy(dest + dest_len, src, n);
+    dest[dest_len + n] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1026 16
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.7156546115875244 seconds
+Received response: (char *__restrict __dest, const char *__restrict __src, size_t __n)
+Actual result:  ( char * s VARIABLE , char * t VARIABLE , size_t TYPE n VARIABLE )
+SACREBLEU Score: {'score': 15.04843536148922, 'counts': [12, 6, 3, 1], 'totals': [27, 26, 25, 24], 'precisions': [44.44444444444444, 23.076923076923077, 12.0, 4.166666666666667], 'bp': 1.0, 'sys_len': 27, 'ref_len': 18}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.3283582089552239
+Cosine Similarity Precision:0.35805743701971643
+
+Parse State: 186	Cursor Position: 1026 17
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.517082691192627 seconds
+Received response: char *
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 1026 22
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.6370482444763184 seconds
+Received response: * __restrict option_type_qualifier_list __dest
+Actual result:  *
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.041666666666666664
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 1026 23
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6784429550170898 seconds
+Received response: __dest, const char *__src, size_t __n)
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12244897959183673
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 24
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.5816166400909424 seconds
+Received response: char *t) {
+    size_t len_s = strlen(s);
+    size_t len_t = strlen(t);
+
+    if (len_s + len_t >= BUFFER_SIZE) {
+        fprintf(stderr, "Error: Strings too long to concatenate");
+        exit(EXIT_FAILURE);
+    }
+
+    stpncpy(s + len_s, t, BUFFER_SIZE - len_s - 1);
+
+    return s;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.020618556701030927
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 1026 24
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.5287411212921143 seconds
+Received response: (char *__restrict __src)
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 8.392229812593097, 'counts': [2, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 5}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 391	Cursor Position: 1026 26
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s,
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.49880313873291016 seconds
+Received response: char *ptr
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 298	Cursor Position: 1026 31
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.5376231670379639 seconds
+Received response: *restrict __src
+Actual result:  *
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 1026 32
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6031253337860107 seconds
+Received response: *strncpy_ptr
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 33
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3941318988800049 seconds
+Received response: {
+
+  size_t s_len = strlen(s);
+  size_t t_len = strlen(t);
+  size_t remaining_space = strlen(s) - s_len;
+
+  if (remaining_space > 0) {
+    stpncpy(s + s_len, t, remaining_space);
+    s[s_len + remaining_space] = '\0';
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [82, 81, 80, 79], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 82, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.008620689655172414
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 1026 33
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.8765442371368408 seconds
+Received response: (char *__restrict dest, const char *__restrict src, size_t n)
+Actual result:  , size_t TYPE n VARIABLE
+SACREBLEU Score: {'score': 12.021577610863728, 'counts': [5, 3, 2, 1], 'totals': [21, 20, 19, 18], 'precisions': [23.80952380952381, 15.0, 10.526315789473685, 5.555555555555555], 'bp': 1.0, 'sys_len': 21, 'ref_len': 7}
+First element of precision:23.80952380952381
+Sequence Matcher Similarity Precision:0.2558139534883721
+Cosine Similarity Precision:0.1666666666666667
+
+Parse State: 391	Cursor Position: 1026 35
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t,
+                'NAME TYPE'
+                Complete the 'NAME TYPE' part of the code in the C11 programming language. Just show your answer in place of 'NAME TYPE'. 
+                
+Time taken: 0.8333041667938232 seconds
+Received response: char *NAME(TYPE)__restrict __dest, const char *__restrict __src, size_t __n;
+Actual result:  size_t TYPE
+SACREBLEU Score: {'score': 4.965977366141172, 'counts': [4, 2, 1, 0], 'totals': [30, 29, 28, 27], 'precisions': [13.333333333333334, 6.896551724137931, 3.5714285714285716, 1.8518518518518519], 'bp': 1.0, 'sys_len': 30, 'ref_len': 4}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.36514837167011066
+
+Parse State: 26	Cursor Position: 1026 41
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t
+                'TYPE'
+                Complete the 'TYPE' part of the code in the C11 programming language. Just show your answer in place of 'TYPE'. 
+                
+Time taken: 0.5831408500671387 seconds
+Received response: size_t maxlen
+Actual result:  TYPE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 1026 42
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4908792972564697 seconds
+Received response: __n
+Actual result:  n VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 43
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8383660316467285 seconds
+Received response: {
+                    while (*s) {
+                        s++;
+                    }
+                    stpncpy(s, t, n);
+                }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 1026 43
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.4221014976501465 seconds
+Received response: );
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1026 44
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.7862882614135742 seconds
+Received response: {
+    stpncpy(s + strlen(s), t, n);
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 2.445593937240363, 'counts': [1, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:6.25
+Sequence Matcher Similarity Precision:0.10256410256410256
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1028 1
+
+                This is the incomplete C11 programming language code:
+                const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 1.0391969680786133 seconds
+Received response: int strncat(const char *__restrict __src, const char *__restrict __dest, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+Actual result:  int
+SACREBLEU Score: {'score': 0.5162051047489141, 'counts': [1, 0, 0, 0], 'totals': [70, 69, 68, 67], 'precisions': [1.4285714285714286, 0.7246376811594203, 0.36764705882352944, 0.1865671641791045], 'bp': 1.0, 'sys_len': 70, 'ref_len': 1}
+First element of precision:1.4285714285714286
+Sequence Matcher Similarity Precision:0.03488372093023256
+Cosine Similarity Precision:0.2
+
+Parse State: 5	Cursor Position: 1028 5
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5829696655273438 seconds
+Received response: __attribute__((used))
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11428571428571428
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1028 9
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3333053588867188 seconds
+Received response: int main() {
+    char s[100] = "Hello, ";
+    char t[50] = "world!";
+    
+    strcat_ptr(s, t, 3);
+    
+    printf("%s\n", s);
+    
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 54, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01282051282051282
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1028 9
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 1.0093770027160645 seconds
+Received response: (int argc, char *argv[])
+Actual result:  ( void )
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 1028 10
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 1.6512761116027832 seconds
+Received response: void strcat_ptr(char *s, char *t, size_t n) {
+    while (*s) {
+        s++;
+    }
+    while (n > 0 && *t) {
+        *s = *t;
+        s++;
+        t++;
+        n--;
+    }
+    *s = '\0';
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.5482271666382152, 'counts': [1, 0, 0, 0], 'totals': [66, 65, 64, 63], 'precisions': [1.5151515151515151, 0.7692307692307693, 0.390625, 0.1984126984126984], 'bp': 1.0, 'sys_len': 66, 'ref_len': 1}
+First element of precision:1.5151515151515151
+Sequence Matcher Similarity Precision:0.041884816753926704
+Cosine Similarity Precision:0.30151134457776363
+
+Parse State: 187	Cursor Position: 1028 14
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.047544002532959 seconds
+Received response: ) {
+    char s[20] = "Hello, ";
+    char *t = "world!";
+    
+    strcat_ptr(s, t, 3);
+    
+    printf("%s\n", s);
+    
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.7445292335166879, 'counts': [1, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826], 'bp': 1.0, 'sys_len': 49, 'ref_len': 1}
+First element of precision:2.0408163265306123
+Sequence Matcher Similarity Precision:0.014705882352941176
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 1029 1
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.1440515518188477 seconds
+Received response: {
+    char s[20] = "Hello, ";
+    char *t = "world!";
+    strcat_ptr(s, t, 6); // Concatenate only first 6 characters of t
+    printf("%s\n", s);
+
+    return 0;
+}
+Actual result:  { char s VARIABLE [ 100 ] = " ; char * t VARIABLE = " ; size_t TYPE nr_chars VARIABLE = 5 ; strcat_ptr VARIABLE ( s VARIABLE , t VARIABLE , nr_chars VARIABLE ) ; puts VARIABLE ( s VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 26.35508732462752, 'counts': [33, 21, 11, 6], 'totals': [57, 56, 55, 54], 'precisions': [57.89473684210526, 37.5, 20.0, 11.11111111111111], 'bp': 1.0, 'sys_len': 57, 'ref_len': 56}
+First element of precision:57.89473684210526
+Sequence Matcher Similarity Precision:0.09782608695652174
+Cosine Similarity Precision:0.15894388284780522
+
+Parse State: 201	Cursor Position: 1030 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 1.0600368976593018 seconds
+Received response: char s[100], t[100];
+size_t n = 50;
+
+strcat_ptr(s, t, n);
+
+return 0;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.10666666666666667
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 93	Cursor Position: 1030 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5978868007659912 seconds
+Received response: s[] = "Hello";
+  char t[] = " World!";
+  size_t n = sizeof(t);
+
+  strcat_ptr(s, t, n);
+
+  printf("%s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  // CODE TO CONCATENATE BOTH STRINGS USING POINTERS AND LIMITED BY N CHARACTERS
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.4040940081572238, 'counts': [1, 0, 0, 0], 'totals': [89, 88, 87, 86], 'precisions': [1.1235955056179776, 0.5681818181818182, 0.28735632183908044, 0.14534883720930233], 'bp': 1.0, 'sys_len': 89, 'ref_len': 2}
+First element of precision:1.1235955056179776
+Sequence Matcher Similarity Precision:0.05303030303030303
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1030 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.7501795291900635 seconds
+Received response: s[100] = "Hello";
+  char t[50] = "World";
+  size_t n = 5;
+
+  strcat_ptr(s, t, n);
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+    // Find the end of string s
+    while (*s)
+    {
+        s++;
+    }
+
+    // Copy up to n characters from t to the end of s
+    while (*t && n--)
+    {
+        *s++ = *t++;
+    }
+
+    // Add null terminator to the end of s
+    *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [146, 145, 144, 143], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 146, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0091324200913242
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1030 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 1.870776653289795 seconds
+Received response: [50] = "Hello World!";
+  char t[50] = " How are you?";
+  
+  strcat_ptr(s, t, 5);
+  
+  printf("%s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  while (*s)
+    s++;
+    
+  while (*t && n-- > 0)
+    *s++ = *t++;
+    
+  *s = '\0';
+}
+Actual result:  [ 100 ]
+SACREBLEU Score: {'score': 0.4023658125723701, 'counts': [2, 0, 0, 0], 'totals': [106, 105, 104, 103], 'precisions': [1.8867924528301887, 0.47619047619047616, 0.2403846153846154, 0.12135922330097088], 'bp': 1.0, 'sys_len': 106, 'ref_len': 3}
+First element of precision:1.8867924528301887
+Sequence Matcher Similarity Precision:0.022727272727272728
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 1030 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5682523250579834 seconds
+Received response: char s[100]
+Actual result:  100
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.5333333333333333
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 305	Cursor Position: 1030 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 0.5164220333099365 seconds
+Received response: ]
+
+];
+Actual result:  ]
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 59	Cursor Position: 1030 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.4678056240081787 seconds
+Received response: [100] = "";
+Actual result:  = "
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [2, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.5333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 1030 17
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.5343286991119385 seconds
+Received response: "Hello, "
+Actual result:  "
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1030 43
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 2.0034425258636475 seconds
+Received response: "
+
+";
+  char t[] = " and this is the second string";
+
+  strcat_ptr(s, t, 10);
+
+  printf("%s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  while (*s)
+  {
+    s++;
+  }
+
+  while (*t && n > 0)
+  {
+    *s = *t;
+    s++;
+    t++;
+    n--;
+  }
+
+  *s = '\0';
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.3258729614870764, 'counts': [1, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.9090909090909091, 0.45871559633027525, 0.23148148148148148, 0.11682242990654206], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.9090909090909091
+Sequence Matcher Similarity Precision:0.007142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1031 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.4788987636566162 seconds
+Received response: char[]
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 93	Cursor Position: 1031 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 1.4518413543701172 seconds
+Received response: * src, 
+ size_t n){
+     size_t len_s = strlen(s);
+     size_t len_t = strlen(t);
+     
+     if (n < len_s){
+         return;
+     } else if (n < len_s + len_t){
+         t[n - len_s] = '\0';
+     }
+     
+     strcat(s, t);
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.44476523315234656, 'counts': [1, 0, 0, 0], 'totals': [81, 80, 79, 78], 'precisions': [1.2345679012345678, 0.625, 0.31645569620253167, 0.16025641025641027], 'bp': 1.0, 'sys_len': 81, 'ref_len': 1}
+First element of precision:1.2345679012345678
+Sequence Matcher Similarity Precision:0.00881057268722467
+Cosine Similarity Precision:0.0
+
+Parse State: 64	Cursor Position: 1031 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 2.182525873184204 seconds
+Received response: *t = "second string";
+
+  strcat_ptr(s, *t, 6);
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  // Copy up to n characters from t to the end of s
+  while (*t != '\0' && n > 0)
+  {
+    *s = *t;
+    s++;
+    t++;
+    n--;
+  }
+
+  // Append null terminator
+  *s = '\0';
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.2668422475491368, 'counts': [1, 0, 0, 0], 'totals': [134, 133, 132, 131], 'precisions': [0.746268656716418, 0.37593984962406013, 0.1893939393939394, 0.09541984732824428], 'bp': 1.0, 'sys_len': 134, 'ref_len': 2}
+First element of precision:0.746268656716418
+Sequence Matcher Similarity Precision:0.021333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1031 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9099252223968506 seconds
+Received response: * t = " and this is the second string";
+
+  strcat_ptr(s, t, 10);
+
+  printf("%s\n", s);
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01818181818181818
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 1031 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.6967542171478271 seconds
+Received response: = " and this is the second string";
+Actual result:  = "
+SACREBLEU Score: {'score': 8.392229812593097, 'counts': [2, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 1031 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.5494589805603027 seconds
+Received response: "This is the second string"
+Actual result:  "
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1031 36
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_05/strncat.c" 2
+
+
+# 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!"
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.5922989845275879 seconds
+Received response: strcat_ptr(s, t, sizeof(t));
+Actual result:  ;
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1032 3
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+                'NAME TYPE'
+                Complete the 'NAME TYPE' part of the code in the C11 programming language. Just show your answer in place of 'NAME TYPE'. 
+                
+Time taken: 0.5691390037536621 seconds
+Received response: char *s, char *t, size_t n
+Actual result:  size_t TYPE
+SACREBLEU Score: {'score': 12.605968092174914, 'counts': [3, 2, 1, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 18.181818181818183, 10.0, 5.555555555555555], 'bp': 1.0, 'sys_len': 12, 'ref_len': 4}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.42105263157894735
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 65	Cursor Position: 1032 9
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t
+                'TYPE'
+                Complete the 'TYPE' part of the code in the C11 programming language. Just show your answer in place of 'TYPE'. 
+                
+Time taken: 0.6089715957641602 seconds
+Received response: size_t limit = 5;
+Actual result:  TYPE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 1032 10
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8441956043243408 seconds
+Received response: n = strlen(s); 
+
+This will initialize the variable 'n' with the length of the string 's'.
+Actual result:  nr_chars VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 21, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09345794392523364
+Cosine Similarity Precision:0.16666666666666666
+
+Parse State: 65	Cursor Position: 1032 18
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8169956207275391 seconds
+Received response: = strlen(t); 
+
+This will assign the number of characters in string 't' to the variable 'nr_chars'.
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.018691588785046728
+Cosine Similarity Precision:0.25
+
+Parse State: 59	Cursor Position: 1032 19
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.6295034885406494 seconds
+Received response: = strlen(t);
+Actual result:  = 5
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 1032 21
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.6228303909301758 seconds
+Received response: strlen(t) + 1
+Actual result:  5
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1032 22
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6668422222137451 seconds
+Received response: nr_chars = 5;
+Actual result:  ;
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1034 3
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5694794654846191 seconds
+Received response: strcat_ptr(s, t, nr_chars);
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 11.498759556447217, 'counts': [3, 2, 1, 0], 'totals': [13, 12, 11, 10], 'precisions': [23.076923076923077, 16.666666666666668, 9.090909090909092, 5.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 4}
+First element of precision:23.076923076923077
+Sequence Matcher Similarity Precision:0.46808510638297873
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 65	Cursor Position: 1034 13
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 2.209603786468506 seconds
+Received response: (s, t, nr_chars);
+
+  printf("Resulting string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  size_t s_len = strlen(s);
+  size_t t_len = strlen(t);
+
+  if (t_len > n) {
+    t_len = n;
+  }
+
+  for (size_t i = 0; i < t_len; i++) {
+    s[s_len + i] = t[i];
+  }
+
+  s[s_len + t_len] = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [139, 138, 137, 136], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 139, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012422360248447204
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1034 13
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.546734094619751 seconds
+Received response: (s, t, nr_chars);
+Actual result:  ( s VARIABLE , t VARIABLE , nr_chars VARIABLE )
+SACREBLEU Score: {'score': 29.929130289926437, 'counts': [9, 5, 2, 1], 'totals': [10, 9, 8, 7], 'precisions': [90.0, 55.55555555555556, 25.0, 14.285714285714286], 'bp': 0.8187307530779819, 'sys_len': 10, 'ref_len': 12}
+First element of precision:90.0
+Sequence Matcher Similarity Precision:0.49230769230769234
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 235	Cursor Position: 1034 14
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.634878396987915 seconds
+Received response: s, t, nr_chars);
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.14814814814814814
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1034 15
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.4262709617614746 seconds
+Received response: (t, nr_chars);
+
+  printf("Resulting string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+    size_t s_len = strlen(s);
+
+    strncat(s + s_len, t, n);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [72, 71, 70, 69], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 72, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02127659574468085
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 1034 15
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.5029175281524658 seconds
+Received response: , t, nr_chars);
+Actual result:  , t VARIABLE
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 1034 17
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5682189464569092 seconds
+Received response: t, nr_chars);
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+  // Code to concatenate the first n characters of string t to the end of string s
+    strncat(s, t, n);
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.4945407352517106, 'counts': [1, 0, 0, 0], 'totals': [73, 72, 71, 70], 'precisions': [1.36986301369863, 0.6944444444444444, 0.352112676056338, 0.17857142857142858], 'bp': 1.0, 'sys_len': 73, 'ref_len': 2}
+First element of precision:1.36986301369863
+Sequence Matcher Similarity Precision:0.025423728813559324
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1034 18
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.39662957191467285 seconds
+Received response: , nr_chars);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 1034 18
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer in place of ', assignment_expression'. 
+                
+Time taken: 0.5979616641998291 seconds
+Received response: , nr_chars
+Actual result:  , nr_chars VARIABLE
+SACREBLEU Score: {'score': 77.88007830714052, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.7788007830714049, 'sys_len': 4, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 429	Cursor Position: 1034 20
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t,
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.49273037910461426 seconds
+Received response: nr_chars
+Actual result:  nr_chars VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6153846153846154
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 1034 28
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5928466320037842 seconds
+Received response: , strlen(t));
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1034 28
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.544219970703125 seconds
+Received response: , strlen(t));
+Actual result:  )
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1034 29
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_05/strncat.c"
+void strcat_ptr(char *s, char *t, size_t n);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6685276031494141 seconds
+Received response: ;  
+  printf("%s\n", s);
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.04878048780487805
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1036 3
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5452573299407959 seconds
+Received response: strncat(s, t, nr_chars);
+Actual result:  puts VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1036 7
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7306497097015381 seconds
+Received response: strcat_ptr(s, t, nr_chars);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05555555555555555
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1036 7
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.42925333976745605 seconds
+Received response: (s);
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 35.35533905932737, 'counts': [3, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 1036 8
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5019776821136475 seconds
+Received response: strcat_ptr_result
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1036 9
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.4645090103149414 seconds
+Received response: '';
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1036 9
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.3818094730377197 seconds
+Received response: );
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1036 10
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.585547685623169 seconds
+Received response: ;
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1038 3
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.5781452655792236 seconds
+Received response: return strcat(s, t);
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 3}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.5806451612903226
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 338	Cursor Position: 1038 10
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5471742153167725 seconds
+Received response: strcat_ptr(s, t, nr_chars);
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 1038 11
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.55275559425354 seconds
+Received response: ]
+
+  return 0;
+Actual result:  ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1039 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "This is the first string";
+  char *t = ", this second string!";
+  size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 1.8037049770355225 seconds
+Received response: } 
+
+void strcat_ptr(char *dest, const char *src, size_t n)
+{
+    // Move dest pointer to the end of the string
+    while (*dest != '\0')
+    {
+        dest++;
+    }
+
+    // Copy n characters from src to dest
+    for (size_t i = 0; i < n && *src != '\0'; i++)
+    {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+
+    // Add null terminator at the end
+    *dest = '\0';
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.3115158991201204, 'counts': [1, 0, 0, 0], 'totals': [115, 114, 113, 112], 'precisions': [0.8695652173913043, 0.43859649122807015, 0.22123893805309736, 0.11160714285714286], 'bp': 1.0, 'sys_len': 115, 'ref_len': 1}
+First element of precision:0.8695652173913043
+Sequence Matcher Similarity Precision:0.010416666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1042 1
+
+                This is the incomplete C11 programming language code:
+                size_t nr_chars = 5;
+
+  strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.8040478229522705 seconds
+Received response: void strcat_ptr(char *s, const char *t, size_t n) {
+  strncat(s, t, n);
+}
+Actual result:  void
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.10256410256410256
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 5	Cursor Position: 1042 6
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5750761032104492 seconds
+Received response: strcat_ptr
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 65	Cursor Position: 1042 16
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.327549695968628 seconds
+Received response: (char *dest, const char *src, int n) {
+  while (*dest) {
+    dest++;
+  }
+
+  while (*src && n > 0) {
+    *dest = *src;
+    dest++;
+    src++;
+    n--;
+  }
+
+  *dest = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 61, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011049723756906077
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1042 16
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5988278388977051 seconds
+Received response: (char* dest, const char* src, int num_chars)
+Actual result:  ( char * s VARIABLE , char * t VARIABLE , size_t TYPE n VARIABLE )
+SACREBLEU Score: {'score': 11.665102855238315, 'counts': [9, 3, 1, 0], 'totals': [15, 14, 13, 12], 'precisions': [60.0, 21.428571428571427, 7.6923076923076925, 4.166666666666667], 'bp': 0.8187307530779819, 'sys_len': 15, 'ref_len': 18}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.3063063063063063
+Cosine Similarity Precision:0.3442651863295481
+
+Parse State: 186	Cursor Position: 1042 17
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.5549592971801758 seconds
+Received response: char *
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.7272727272727273
+Cosine Similarity Precision:1.0
+
+Parse State: 298	Cursor Position: 1042 22
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.6330721378326416 seconds
+Received response: char *s, const char *t, size_t nr_chars
+Actual result:  *
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.0975609756097561
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 1042 23
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6355507373809814 seconds
+Received response: str1, str2, num_chars
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1875
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1042 24
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6973578929901123 seconds
+Received response: char *t, int nr_chars
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 1042 24
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.6951789855957031 seconds
+Received response:  char *t, int nr_chars
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 22.089591134157878, 'counts': [4, 2, 1, 0], 'totals': [8, 7, 6, 5], 'precisions': [50.0, 28.571428571428573, 16.666666666666668, 10.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 5}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.47619047619047616
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 391	Cursor Position: 1042 26
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s,
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.571936845779419 seconds
+Received response: char *t, int n)
+Actual result:  char
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 298	Cursor Position: 1042 31
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.41460633277893066 seconds
+Received response: * t
+Actual result:  *
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 386	Cursor Position: 1042 32
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.572270393371582 seconds
+Received response: t, int n) {
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2727272727272727
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1042 33
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.615135908126831 seconds
+Received response: , int nr_chars) {
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 1042 33
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t
+                ', parameter_declaration'
+                Complete the ', parameter_declaration' part of the code in the C11 programming language. Just show your answer in place of ', parameter_declaration'. 
+                
+Time taken: 0.47226476669311523 seconds
+Received response: , int nr_chars
+Actual result:  , size_t TYPE n VARIABLE
+SACREBLEU Score: {'score': 8.51528917838043, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.6703200460356393, 'sys_len': 5, 'ref_len': 7}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 391	Cursor Position: 1042 35
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t,
+                'NAME TYPE'
+                Complete the 'NAME TYPE' part of the code in the C11 programming language. Just show your answer in place of 'NAME TYPE'. 
+                
+Time taken: 0.5839345455169678 seconds
+Received response: size_t nr_chars
+Actual result:  size_t TYPE
+SACREBLEU Score: {'score': 30.213753973567677, 'counts': [3, 2, 1, 0], 'totals': [6, 5, 4, 3], 'precisions': [50.0, 40.0, 25.0, 16.666666666666668], 'bp': 1.0, 'sys_len': 6, 'ref_len': 4}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5185185185185185
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 26	Cursor Position: 1042 41
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t
+                'TYPE'
+                Complete the 'TYPE' part of the code in the C11 programming language. Just show your answer in place of 'TYPE'. 
+                
+Time taken: 0.48363232612609863 seconds
+Received response: size_t n
+Actual result:  TYPE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 1042 42
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.0327355861663818 seconds
+Received response: n) {
+  while (*s) {
+    s++;
+  }
+  
+  while (n--) {
+    *s++ = *t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  n VARIABLE
+SACREBLEU Score: {'score': 0.969094302009921, 'counts': [1, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [2.6315789473684212, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 2}
+First element of precision:2.6315789473684212
+Sequence Matcher Similarity Precision:0.04040404040404041
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1042 43
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9441940784454346 seconds
+Received response: {
+  for(size_t i = 0; i < n; i++) {
+    *s++ = *t++;
+  }
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.025
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 1042 43
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.4863736629486084 seconds
+Received response: ;
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 1043 1
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t, nr_chars);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.3723220825195312 seconds
+Received response: {
+            size_t s_len = strlen(s);
+            size_t chars_to_copy = strlen(t) > n ? n : strlen(t);
+            
+            for (size_t i = 0; i < chars_to_copy; i++) {
+                s[s_len + i] = t[i];
+            }
+            
+            s[s_len + chars_to_copy] = '\0';
+        }
+Actual result:  { size_t TYPE s_length VARIABLE = strlen VARIABLE ( s VARIABLE ) ; s VARIABLE += s_length VARIABLE ; while ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' && n VARIABLE -- ) ; }
+SACREBLEU Score: {'score': 9.511536541294628, 'counts': [35, 15, 5, 2], 'totals': [91, 90, 89, 88], 'precisions': [38.46153846153846, 16.666666666666668, 5.617977528089888, 2.272727272727273], 'bp': 1.0, 'sys_len': 91, 'ref_len': 54}
+First element of precision:38.46153846153846
+Sequence Matcher Similarity Precision:0.23728813559322035
+Cosine Similarity Precision:0.1162476387438193
+
+Parse State: 201	Cursor Position: 1045 3
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+                'NAME TYPE'
+                Complete the 'NAME TYPE' part of the code in the C11 programming language. Just show your answer in place of 'NAME TYPE'. 
+                
+Time taken: 0.465756893157959 seconds
+Received response: char*
+Actual result:  size_t TYPE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 2, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1045 9
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t
+                'TYPE'
+                Complete the 'TYPE' part of the code in the C11 programming language. Just show your answer in place of 'TYPE'. 
+                
+Time taken: 0.873213529586792 seconds
+Received response: void
+Actual result:  TYPE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 1045 10
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.623347282409668 seconds
+Received response: strcat_ptr(char *s, char *t, size_t n)
+Actual result:  s_length VARIABLE
+SACREBLEU Score: {'score': 2.719665272174911, 'counts': [2, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [11.764705882352942, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 4}
+First element of precision:11.764705882352942
+Sequence Matcher Similarity Precision:0.17857142857142858
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1045 18
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.4877541065216064 seconds
+Received response: = strlen(s);
+  
+  size_t t_length = strnlen(t, n);
+
+  if (s_length + t_length < n)
+  {
+    strncat(s, t, n - s_length);
+  }
+  else
+  {
+    strncat(s, t, n);
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 60, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011695906432748537
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 1045 19
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.5388121604919434 seconds
+Received response: = strlen(s);
+Actual result:  = strlen VARIABLE ( s VARIABLE )
+SACREBLEU Score: {'score': 20.547995616750768, 'counts': [5, 2, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 40.0, 12.5, 8.333333333333334], 'bp': 0.846481724890614, 'sys_len': 6, 'ref_len': 7}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.4888888888888889
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 108	Cursor Position: 1045 21
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5365729331970215 seconds
+Received response: size_t s_length = strlen(s);
+Actual result:  strlen VARIABLE
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.3181818181818182
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 179	Cursor Position: 1045 27
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8962862491607666 seconds
+Received response: strlen(s);
+  size_t t_length = strlen(t);
+
+  if (s_length + t_length < n) {
+    strcat(s, t);
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.018518518518518517
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1045 27
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.46863842010498047 seconds
+Received response: (s) + n);
+
+}
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 12.22307556087252, 'counts': [3, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [37.5, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 4}
+First element of precision:37.5
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 1045 28
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5473518371582031 seconds
+Received response: s);
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1045 29
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.8210101127624512 seconds
+Received response: + strlen(t) + 1);
+
+  if (s_length < n) {
+    strcat(s, t);
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1045 29
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.7407479286193848 seconds
+Received response: , so we can properly calculate the length of string 's' before concatenating string 't'.
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1045 30
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 1.1135356426239014 seconds
+Received response:  + n;
+  
+  if (s_length + n >= strlen(t)) {
+    printf("Error: Not enough space in s to concatenate t with n characters\n");
+    return;
+  }
+
+  strncat(s, t, n);
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.7002773917100699, 'counts': [1, 0, 0, 0], 'totals': [52, 51, 50, 49], 'precisions': [1.9230769230769231, 0.9803921568627451, 0.5, 0.25510204081632654], 'bp': 1.0, 'sys_len': 52, 'ref_len': 1}
+First element of precision:1.9230769230769231
+Sequence Matcher Similarity Precision:0.024242424242424242
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1048 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.1608662605285645 seconds
+Received response: size_t t_length = strlen(t);
+  
+  if ((s_length + t_length) < n) {
+    strcat(s, t);
+  } else {
+    strncat(s, t, n - s_length - 1);
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.6735878102046051, 'counts': [1, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626], 'bp': 1.0, 'sys_len': 54, 'ref_len': 2}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.040268456375838924
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1048 4
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.617591381072998 seconds
+Received response: strncat(s + s_length, t, n);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05405405405405406
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 1048 5
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s
+                '+='
+                Complete the '+=' part of the code in the C11 programming language. Just show your answer in place of '+='. 
+                
+Time taken: 0.5547201633453369 seconds
+Received response: += n;
+Actual result:  +=
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 1048 8
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s +=
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.48549818992614746 seconds
+Received response: n - s_length - 1
+Actual result:  s_length VARIABLE
+SACREBLEU Score: {'score': 24.446151121745054, 'counts': [3, 2, 1, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 33.333333333333336, 20.0, 12.5], 'bp': 1.0, 'sys_len': 7, 'ref_len': 4}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.5882352941176471
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 1048 16
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.52256178855896 seconds
+Received response: = strnlen(t, n);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1048 16
+
+                This is the incomplete C11 programming language code:
+                }
+
+
+void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6794528961181641 seconds
+Received response: = strncat(s, t, n);
+Actual result:  ;
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 1051 3
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+                'while ( expression ) scoped_statement'
+                Complete the 'while ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'while ( expression ) scoped_statement'. 
+                
+Time taken: 1.0181002616882324 seconds
+Received response: while (*t != '\0' && n > 0) {
+    *s = *t;
+    s++;
+    t++;
+    n--;
+  }
+  *s = '\0';
+}
+Actual result:  while ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' && n VARIABLE -- ) ;
+SACREBLEU Score: {'score': 25.5082597511619, 'counts': [21, 14, 7, 5], 'totals': [41, 40, 39, 38], 'precisions': [51.21951219512195, 35.0, 17.94871794871795, 13.157894736842104], 'bp': 1.0, 'sys_len': 41, 'ref_len': 27}
+First element of precision:51.21951219512195
+Sequence Matcher Similarity Precision:0.3312883435582822
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 406	Cursor Position: 1051 9
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 0.9779596328735352 seconds
+Received response:  (n > 0 && *t != '\0') {
+    *s++ = *t++;
+    n--;
+  }
+  *s = '\0';
+}
+Actual result:  ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' && n VARIABLE -- ) ;
+SACREBLEU Score: {'score': 24.721090820433904, 'counts': [20, 11, 6, 4], 'totals': [36, 35, 34, 33], 'precisions': [55.55555555555556, 31.428571428571427, 17.647058823529413, 12.121212121212121], 'bp': 1.0, 'sys_len': 36, 'ref_len': 26}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.2463768115942029
+Cosine Similarity Precision:0.0
+
+Parse State: 457	Cursor Position: 1051 10
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while (
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 0.7613670825958252 seconds
+Received response: (s_length < n - 1 && *t != '\0')
+Actual result:  ( * s VARIABLE ++ = * t VARIABLE ++ )
+SACREBLEU Score: {'score': 5.653041175801492, 'counts': [6, 1, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [33.333333333333336, 5.882352941176471, 3.125, 1.6666666666666667], 'bp': 1.0, 'sys_len': 18, 'ref_len': 13}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 1051 11
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.0406379699707031 seconds
+Received response: while (*t != '\0' && n > 0) {
+    *s = *t;
+    s++;
+    t++;
+    n--;
+  }
+
+  *s = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.8954307276600084, 'counts': [1, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [2.4390243902439024, 1.25, 0.6410256410256411, 0.32894736842105265], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:2.4390243902439024
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1051 12
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.0000395774841309 seconds
+Received response: s_length < n && *t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+    s_length++;
+  }
+
+  *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.8130350574508933, 'counts': [1, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [2.2222222222222223, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476], 'bp': 1.0, 'sys_len': 45, 'ref_len': 2}
+First element of precision:2.2222222222222223
+Sequence Matcher Similarity Precision:0.056074766355140186
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1051 13
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9561560153961182 seconds
+Received response: <= n && *t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+  }
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 37, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.025
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1051 13
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.6044020652770996 seconds
+Received response: ++;
+Actual result:  ++
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 1051 16
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 1.229233741760254 seconds
+Received response: != '\0' && n > 1) 
+  {
+    *s = *t;
+    s++;
+    t++;
+    n--;
+  }
+  
+  *s = '\0';
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 1}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.046511627906976744
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 1051 18
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ =
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 1.2197229862213135 seconds
+Received response: *t && n>0) //copy characters from t to the end of s until reaching the null terminator or n becomes 0
+  {
+    s++;
+    t++;
+    n--;
+  }
+  *s = '\0'; //add null terminator at the end of the concatenated string 
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.6044751875664687, 'counts': [1, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508], 'bp': 1.0, 'sys_len': 60, 'ref_len': 1}
+First element of precision:1.6666666666666667
+Sequence Matcher Similarity Precision:0.018691588785046728
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1051 19
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.6364448070526123 seconds
+Received response: t && n--) != '\0') {
+    t++;
+  }
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1051 20
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6397831439971924 seconds
+Received response: [t++] && n--);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1051 20
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t
+                '++'
+                Complete the '++' part of the code in the C11 programming language. Just show your answer in place of '++'. 
+                
+Time taken: 0.47890305519104004 seconds
+Received response: += n;
+Actual result:  ++
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 1051 22
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.7966229915618896 seconds
+Received response:  && n > 0 ) {
+       if (*t == '\0') {
+           break;
+       }
+       n--;
+    } 
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.045454545454545456
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 1051 24
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++)
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.5832765102386475 seconds
+Received response: != '\0'
+Actual result:  !=
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 1051 27
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) !=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.48640012741088867 seconds
+Received response: '\0'
+Actual result:  '\0'
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:0.0
+
+Parse State: 159	Cursor Position: 1051 32
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0'
+                '&& inclusive_or_expression'
+                Complete the '&& inclusive_or_expression' part of the code in the C11 programming language. Just show your answer in place of '&& inclusive_or_expression'. 
+                
+Time taken: 0.6412270069122314 seconds
+Received response: && (n > 0 && *t != '\0')
+Actual result:  && n VARIABLE --
+SACREBLEU Score: {'score': 5.412989186545263, 'counts': [3, 1, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [18.75, 6.666666666666667, 3.5714285714285716, 1.9230769230769231], 'bp': 1.0, 'sys_len': 16, 'ref_len': 5}
+First element of precision:18.75
+Sequence Matcher Similarity Precision:0.2926829268292683
+Cosine Similarity Precision:0.0
+
+Parse State: 263	Cursor Position: 1051 35
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' &&
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5565676689147949 seconds
+Received response: n > 0; n--) {}
+Actual result:  n VARIABLE
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1051 36
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.48608875274658203 seconds
+Received response: n > 0
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1051 36
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n
+                '--'
+                Complete the '--' part of the code in the C11 programming language. Just show your answer in place of '--'. 
+                
+Time taken: 0.5395393371582031 seconds
+Received response: && n > 1
+Actual result:  --
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 1051 38
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t, size_t n)
+{
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n--
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 2.497757911682129 seconds
+Received response: && n > 1;
+Actual result:  ) ;
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1052 5
+
+                This is the incomplete C11 programming language code:
+                {
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n--)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6011240482330322 seconds
+Received response: && n--
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1053 1
+
+                This is the incomplete C11 programming language code:
+                {
+
+  size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n--)
+    ;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.7670958042144775 seconds
+Received response: }
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1054 1
+
+                This is the incomplete C11 programming language code:
+                size_t s_length = strlen(s);
+
+
+  s += s_length;
+
+
+  while ((*s++ = *t++) != '\0' && n--)
+    ;
+}
+                '$'
+                Complete the '$' part of the code in the C11 programming language. Just show your answer in place of '$'. 
+                
+Time taken: 0.7129194736480713 seconds
+Received response: {
+    if (n > 0) {
+        *s = '\0';
+    }
+}
+Actual result:  $
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 19.268684677343995
+Average Sequence Matcher Similarity Precision: 21.269738458161772
+Average Cosine Similarity Precision: 12.127162870832004
