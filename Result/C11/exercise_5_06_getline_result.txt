@@ -1,0 +1,2455 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+# 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.8883352279663086 seconds
+Received response: void funlockfile(FILE *__stream) __attribute__((__nothrow__, __leaf__)) 
+{
+     // Your code here
+}
+Actual result:  void
+SACREBLEU Score: {'score': 1.0253311603116817, 'counts': [1, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:2.7777777777777777
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 5	Cursor Position: 741 6
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4758472442626953 seconds
+Received response: getline
+Actual result:  get_line VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.56
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 14
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3114750385284424 seconds
+Received response: 
+char *get_line(char *buffer, int max_length) {
+  int c;
+  int i = 0;
+
+  while ((c = getchar()) != '\n' && c != EOF && i < max_length - 1) {
+    buffer[i++] = c;
+  }
+
+  buffer[i] = '\0';
+
+  return buffer;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [78, 77, 76, 75], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 78, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.018604651162790697
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 14
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.6872460842132568 seconds
+Received response: void get_line(FILE *file, char *buffer, int length)
+Actual result:  ( char * s VARIABLE )
+SACREBLEU Score: {'score': 5.816635421147515, 'counts': [4, 1, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [25.0, 6.666666666666667, 3.5714285714285716, 1.9230769230769231], 'bp': 1.0, 'sys_len': 16, 'ref_len': 6}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.3287671232876712
+Cosine Similarity Precision:0.22360679774997896
+
+Parse State: 186	Cursor Position: 741 15
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 2.0363452434539795 seconds
+Received response: void get_line(
+                char
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+
+This is how the code should look like with the correct completion:
+
+void get_line(
+                char *buffer, int max_length) { 
+
+Here we are completing the signature of the get_line function by adding the data type of the parameter 'buffer', which is a pointer to a char (string), and adding a second parameter 'max_length' which specifies the maximum length of the input line that can be stored in the buffer.
+Actual result:  char
+SACREBLEU Score: {'score': 0.31428520165805107, 'counts': [1, 0, 0, 0], 'totals': [114, 113, 112, 111], 'precisions': [0.8771929824561403, 0.4424778761061947, 0.22321428571428573, 0.11261261261261261], 'bp': 1.0, 'sys_len': 114, 'ref_len': 1}
+First element of precision:0.8771929824561403
+Sequence Matcher Similarity Precision:0.017094017094017096
+Cosine Similarity Precision:0.2931051908802746
+
+Parse State: 298	Cursor Position: 741 20
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.8946390151977539 seconds
+Received response: void get_line(char *line, int max_length) {
+    // code for getting a line of input and storing it in the 'line' variable
+}
+Actual result:  *
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.032
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 741 21
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.0780937671661377 seconds
+Received response: line_buffer) {
+    int c;
+    char *p = line_buffer;
+
+    while ((c = getchar()) != EOF && c != '\n') {
+        *p++ = c;
+    }
+
+    *p = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 54, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.038461538461538464
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 22
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6447653770446777 seconds
+Received response: void get_line(char *s)
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 22
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.3677117824554443 seconds
+Received response: *buf, int max_len) {
+    int c, i;
+
+    for (i = 0; i < max_len - 1 && (c = getchar()) != EOF && c != '\n'; i++) {
+        *s++ = c;
+    }
+    *s = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.5238546714708301, 'counts': [1, 0, 0, 0], 'totals': [69, 68, 67, 66], 'precisions': [1.4492753623188406, 0.7352941176470589, 0.373134328358209, 0.1893939393939394], 'bp': 1.0, 'sys_len': 69, 'ref_len': 1}
+First element of precision:1.4492753623188406
+Sequence Matcher Similarity Precision:0.025477707006369428
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 741 23
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6354479789733887 seconds
+Received response: void get_line(char *s) {
+    // Function implementation goes here
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+                'int'
+                Complete the 'int' part of the code in the C11 programming language. Just show your answer in place of 'int'. 
+                
+Time taken: 0.5938043594360352 seconds
+Received response: int get_line(char *s);
+Actual result:  int
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.3745336532592773 seconds
+Received response: extern int __overflow (FILE *, int);
+
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int NAME_VARIABLE
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.48108068600212583, 'counts': [1, 0, 0, 0], 'totals': [75, 74, 73, 72], 'precisions': [1.3333333333333333, 0.6756756756756757, 0.3424657534246575, 0.1736111111111111], 'bp': 1.0, 'sys_len': 75, 'ref_len': 2}
+First element of precision:1.3333333333333333
+Sequence Matcher Similarity Precision:0.09433962264150944
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7251443862915039 seconds
+Received response: int main() {
+    char line[100];
+    
+    get_line(line);
+    
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5604681968688965 seconds
+Received response: (int argc, char *argv[])
+Actual result:  ( void )
+SACREBLEU Score: {'score': 4.990049701936832, 'counts': [2, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.5716946125030518 seconds
+Received response: void main(void)
+Actual result:  void
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.8944271909999159
+
+Parse State: 187	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.1176841259002686 seconds
+Received response: ) {
+    char line[100];
+    
+    get_line(line);
+    
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.8760356903076172 seconds
+Received response: int main(void) {
+    char input[100];
+
+    get_line(input);
+
+    printf("The input is: %s\n", input);
+
+    return 0;
+}
+Actual result:  { char string VARIABLE [ 150 ] = " ; get_line VARIABLE ( string VARIABLE ) ; puts VARIABLE ( string VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 21.923157481083642, 'counts': [19, 10, 6, 4], 'totals': [39, 38, 37, 36], 'precisions': [48.717948717948715, 26.31578947368421, 16.216216216216218, 11.11111111111111], 'bp': 1.0, 'sys_len': 39, 'ref_len': 30}
+First element of precision:48.717948717948715
+Sequence Matcher Similarity Precision:0.4180327868852459
+Cosine Similarity Precision:0.09421114395319916
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.548712968826294 seconds
+Received response: char line[100];
+Actual result:  char
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 93	Cursor Position: 745 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.9624145030975342 seconds
+Received response: line[100];
+
+  get_line(line);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  /* Code to read a line of input into the char array pointed to by s */
+}
+Actual result:  string VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.037267080745341616
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6327006816864014 seconds
+Received response: char string[100];
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 745 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string
+                '[ option_type_qualifier_list option_assignment_expression ]'
+                Complete the '[ option_type_qualifier_list option_assignment_expression ]' part of the code in the C11 programming language. Just show your answer in place of '[ option_type_qualifier_list option_assignment_expression ]'. 
+                
+Time taken: 0.5889294147491455 seconds
+Received response: char string[100];
+Actual result:  [ 150 ]
+SACREBLEU Score: {'score': 9.652434877402245, 'counts': [2, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 3}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 745 15
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.4906187057495117 seconds
+Received response: 1000
+Actual result:  150
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 745 18
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150
+                ']'
+                Complete the ']' part of the code in the C11 programming language. Just show your answer in place of ']'. 
+                
+Time taken: 1.9342985153198242 seconds
+Received response: ];
+Actual result:  ]
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 745 20
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150]
+                '= c_initializer'
+                Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer'. 
+                
+Time taken: 0.6882712841033936 seconds
+Received response: = "";  // initialize the string variable as an empty string
+Actual result:  = "
+SACREBLEU Score: {'score': 5.679677445135579, 'counts': [2, 1, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 7.6923076923076925, 4.166666666666667, 2.272727272727273], 'bp': 1.0, 'sys_len': 14, 'ref_len': 2}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 745 22
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] =
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code in the C11 programming language. Just show your answer in place of 'STRING_LITERAL'. 
+                
+Time taken: 0.49178266525268555 seconds
+Received response: "Enter a string: "
+Actual result:  "
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 24
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_06/getline.c" 2
+
+
+# 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = ""
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.8480045795440674 seconds
+Received response: ; 
+
+  get_line(string);
+
+  return 0;
+}
+   
+void get_line(char *s)
+{
+  // Function definition goes here
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.018867924528301886
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 1.5202810764312744 seconds
+Received response: #include <stdio.h>
+
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+  get_line(string); // get a line of input from the user
+  printf("The input line is: %s\n", string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  // implementation of the get_line function to read input from the user and store it in the provided string
+  fgets(s, 150, stdin);
+}
+Actual result:  get_line VARIABLE
+SACREBLEU Score: {'score': 1.1910781769766754, 'counts': [3, 2, 1, 0], 'totals': [112, 111, 110, 109], 'precisions': [2.6785714285714284, 1.8018018018018018, 0.9090909090909091, 0.45871559633027525], 'bp': 1.0, 'sys_len': 112, 'ref_len': 4}
+First element of precision:2.6785714285714284
+Sequence Matcher Similarity Precision:0.05235602094240838
+Cosine Similarity Precision:0.2550306852253353
+
+Parse State: 65	Cursor Position: 747 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5724377632141113 seconds
+Received response: (string);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 747 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.6052060127258301 seconds
+Received response: (char *string)
+Actual result:  ( string VARIABLE )
+SACREBLEU Score: {'score': 14.058533129758727, 'counts': [3, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.5294117647058824
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 235	Cursor Position: 747 12
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5139267444610596 seconds
+Received response: string);
+Actual result:  string VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 747 18
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5837228298187256 seconds
+Received response: (string, 150);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 747 18
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5380904674530029 seconds
+Received response: );
+
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 747 19
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.5746660232543945 seconds
+Received response: ; // missing semicolon to end the statement in main function
+Actual result:  ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.03225806451612903
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5653951168060303 seconds
+Received response: fgets(s, 150, stdin);
+Actual result:  puts VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.17142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 748 7
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.9443604946136475 seconds
+Received response: (string);
+  
+  return 0;
+}
+
+void get_line(char *s)
+{
+  fgets(s, 150, stdin);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 7
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.8112821578979492 seconds
+Received response: (string); 
+
+This will simply output the string stored in the variable 'string' to the standard output.
+Actual result:  ( string VARIABLE )
+SACREBLEU Score: {'score': 4.237713199752784, 'counts': [3, 1, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 5.2631578947368425, 2.7777777777777777, 1.4705882352941178], 'bp': 1.0, 'sys_len': 20, 'ref_len': 4}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.16393442622950818
+Cosine Similarity Precision:0.5163977794943222
+
+Parse State: 235	Cursor Position: 748 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.4673914909362793 seconds
+Received response: "string"
+Actual result:  string VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 748 14
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.087082862854004 seconds
+Received response: #include <stdio.h>
+
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  fgets(s, 150, stdin);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [68, 67, 66, 65], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 68, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010050251256281407
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 14
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5437760353088379 seconds
+Received response: );
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 748 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/getline.c"
+void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string)
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.510413408279419 seconds
+Received response: get_line(string);
+Actual result:  ;
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'. 
+                
+Time taken: 0.47620272636413574 seconds
+Received response: return 0;
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9
+Cosine Similarity Precision:1.0
+
+Parse State: 338	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.511671781539917 seconds
+Received response: 0;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:1.0
+
+Parse State: 415	Cursor Position: 750 11
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.5686774253845215 seconds
+Received response: ;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:1.0
+
+Parse State: 201	Cursor Position: 751 1
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s);
+
+int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.7395246028900146 seconds
+Received response: } 
+
+void get_line(char *s)
+{
+  fgets(s, 150, stdin);
+}
+Actual result:  }
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.03571428571428571
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 753 1
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+                'void'
+                Complete the 'void' part of the code in the C11 programming language. Just show your answer in place of 'void'. 
+                
+Time taken: 0.7692792415618896 seconds
+Received response: void get_line(char *str) 
+{
+  fgets(str, 150, stdin);
+}
+Actual result:  void
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 5	Cursor Position: 753 6
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5829088687896729 seconds
+Received response: get_line(string);
+Actual result:  get_line VARIABLE
+SACREBLEU Score: {'score': 24.446151121745054, 'counts': [3, 2, 1, 0], 'totals': [7, 6, 5, 4], 'precisions': [42.857142857142854, 33.333333333333336, 20.0, 12.5], 'bp': 1.0, 'sys_len': 7, 'ref_len': 4}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.45714285714285713
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 65	Cursor Position: 753 14
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 1.3652310371398926 seconds
+Received response: void get_line(char *str) {
+    fgets(str, 150, stdin);
+    if ((strlen(str) > 0) && (str[strlen(str) - 1] == '\n')) {
+        str[strlen(str) - 1] = '\0'; // remove the newline character
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 71, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.009852216748768473
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 753 14
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list )'. 
+                
+Time taken: 0.5057237148284912 seconds
+Received response: (char *str)
+Actual result:  ( char * s VARIABLE )
+SACREBLEU Score: {'score': 34.98330125272253, 'counts': [4, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 50.0, 33.333333333333336, 25.0], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.5454545454545454
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 186	Cursor Position: 753 15
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(
+                'char'
+                Complete the 'char' part of the code in the C11 programming language. Just show your answer in place of 'char'. 
+                
+Time taken: 0.6252009868621826 seconds
+Received response: void get_line(char *string) {
+  fgets(string, 150, stdin);
+}
+Actual result:  char
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 298	Cursor Position: 753 20
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char
+                '* option_type_qualifier_list option_pointer'
+                Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer'. 
+                
+Time taken: 0.5851516723632812 seconds
+Received response: Pointer* option_type_qualifier_list option_pointer
+Actual result:  *
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.038461538461538464
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 753 21
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.5717322826385498 seconds
+Received response: *line
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 753 22
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.691586971282959 seconds
+Received response: */
+    ) 
+{
+  fgets(s, 150, stdin);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.043478260869565216
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 753 22
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 1.0657246112823486 seconds
+Received response: *) {
+  int c;
+  int i = 0;
+
+  while ((c = getchar()) != '\n' && c != EOF) {
+    s[i] = c;
+    i++;
+  }
+
+  s[i] = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.6609918289641935, 'counts': [1, 0, 0, 0], 'totals': [55, 54, 53, 52], 'precisions': [1.8181818181818181, 0.9259259259259259, 0.4716981132075472, 0.2403846153846154], 'bp': 1.0, 'sys_len': 55, 'ref_len': 1}
+First element of precision:1.8181818181818181
+Sequence Matcher Similarity Precision:0.01639344262295082
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 754 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char string[150] = "";
+
+  get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 1.4282901287078857 seconds
+Received response: {
+  // Declare variables
+  int c;
+  int i = 0;
+
+  // Read input from user until newline character is encountered
+  while ((c = getchar()) != '\n') {
+    s[i] = c;
+    i++;
+  }
+
+  // Add null terminator at the end of the string
+  s[i] = '\0';
+}
+Actual result:  { while ( ( * s VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) && ( * s VARIABLE != '\n' ) ) { ++ s VARIABLE ; } * s VARIABLE = '\0' ; }
+SACREBLEU Score: {'score': 21.213033199204343, 'counts': [29, 19, 12, 8], 'totals': [73, 72, 71, 70], 'precisions': [39.726027397260275, 26.38888888888889, 16.901408450704224, 11.428571428571429], 'bp': 1.0, 'sys_len': 73, 'ref_len': 48}
+First element of precision:39.726027397260275
+Sequence Matcher Similarity Precision:0.291005291005291
+Cosine Similarity Precision:0.07273929674533079
+
+Parse State: 320	Cursor Position: 755 3
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+                'while ( expression ) scoped_statement'
+                Complete the 'while ( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of 'while ( expression ) scoped_statement'. 
+                
+Time taken: 0.7468428611755371 seconds
+Received response: while (*s != '\n' && *s != '\0') {
+    *s = getchar();
+    s++;
+}
+Actual result:  while ( ( * s VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) && ( * s VARIABLE != '\n' ) ) { ++ s VARIABLE ; }
+SACREBLEU Score: {'score': 20.32828317991068, 'counts': [26, 15, 4, 2], 'totals': [32, 31, 30, 29], 'precisions': [81.25, 48.38709677419355, 13.333333333333334, 6.896551724137931], 'bp': 0.8290291181804004, 'sys_len': 32, 'ref_len': 38}
+First element of precision:81.25
+Sequence Matcher Similarity Precision:0.3563218390804598
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 406	Cursor Position: 755 9
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while
+                '( expression ) scoped_statement'
+                Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer in place of '( expression ) scoped_statement'. 
+                
+Time taken: 1.1468408107757568 seconds
+Received response: (gets(s) != NULL) {
+    // Keep reading characters until a newline character is encountered
+    while (*s != '\n') {
+        s++;
+    }
+    *s = '\0'; // Replace newline character with null terminator
+}
+Actual result:  ( ( * s VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) && ( * s VARIABLE != '\n' ) ) { ++ s VARIABLE ; }
+SACREBLEU Score: {'score': 16.81325989982095, 'counts': [24, 13, 6, 3], 'totals': [53, 52, 51, 50], 'precisions': [45.283018867924525, 25.0, 11.764705882352942, 6.0], 'bp': 1.0, 'sys_len': 53, 'ref_len': 37}
+First element of precision:45.283018867924525
+Sequence Matcher Similarity Precision:0.22295081967213115
+Cosine Similarity Precision:0.0
+
+Parse State: 457	Cursor Position: 755 10
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while (
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 0.5831220149993896 seconds
+Received response: 
+   while(*s != '\n')
+Actual result:  ( * s VARIABLE = getchar VARIABLE ( ) )
+SACREBLEU Score: {'score': 17.747405280050266, 'counts': [5, 2, 1, 0], 'totals': [10, 9, 8, 7], 'precisions': [50.0, 22.22222222222222, 12.5, 7.142857142857143], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.26229508196721313
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 755 11
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 0.6153519153594971 seconds
+Received response: 
+while ((*s = getchar()) != '\n') {
+   s++;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.0851063829787234
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 755 12
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8772263526916504 seconds
+Received response: s != '\n' && *s != '\0') {
+    *s = getchar();
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 2}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.047058823529411764
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 755 13
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.7530207633972168 seconds
+Received response: != '\n')
+  {
+    *s = getchar();
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 755 14
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.5803711414337158 seconds
+Received response: fgets(s, 255, stdin);
+Actual result:  =
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 755 16
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s =
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.7117819786071777 seconds
+Received response: fgets(s, sizeof(s), stdin);
+}
+Actual result:  getchar VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.17391304347826086
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 755 23
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.868302583694458 seconds
+Received response: (); *s != '\n'; s++)
+  {
+    *s = getchar();
+  }
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.027777777777777776
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 755 23
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list )'. 
+                
+Time taken: 0.4605576992034912 seconds
+Received response: (void)
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 755 24
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar(
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.638892412185669 seconds
+Received response: ) != '\n') {
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.047619047619047616
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 755 25
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5498013496398926 seconds
+Received response: != '\n')
+{
+  s++;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 755 27
+
+                This is the incomplete C11 programming language code:
+                get_line(string);
+  puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar())
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.65114426612854 seconds
+Received response: '!=' '\n'
+Actual result:  !=
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [2, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 757 29
+
+                This is the incomplete C11 programming language code:
+                puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 0.6053605079650879 seconds
+Received response: 
+While ((*s = getchar()) != '\n')
+Actual result:  ( - 1 )
+SACREBLEU Score: {'score': 2.908317710573757, 'counts': [2, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 4}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.24390243902439024
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 757 30
+
+                This is the incomplete C11 programming language code:
+                puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (
+                '-'
+                Complete the '-' part of the code in the C11 programming language. Just show your answer in place of '-'. 
+                
+Time taken: 0.7939138412475586 seconds
+Received response: getchar()) != '\n') 
+  {
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  -
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.037037037037037035
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 757 31
+
+                This is the incomplete C11 programming language code:
+                puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.7445068359375 seconds
+Received response: \n'
+                  && *s != EOF)
+  {
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 757 32
+
+                This is the incomplete C11 programming language code:
+                puts(string);
+
+  return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.524200439453125 seconds
+Received response: EOF
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 159	Cursor Position: 759 33
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                '&& inclusive_or_expression'
+                Complete the '&& inclusive_or_expression' part of the code in the C11 programming language. Just show your answer in place of '&& inclusive_or_expression'. 
+                
+Time taken: 0.675330400466919 seconds
+Received response: getchar() != '\n'&& getchar() != EOF
+Actual result:  && ( * s VARIABLE != '\n' )
+SACREBLEU Score: {'score': 28.039501199940027, 'counts': [9, 5, 3, 2], 'totals': [16, 15, 14, 13], 'precisions': [56.25, 33.333333333333336, 21.428571428571427, 15.384615384615385], 'bp': 1.0, 'sys_len': 16, 'ref_len': 12}
+First element of precision:56.25
+Sequence Matcher Similarity Precision:0.34375
+Cosine Similarity Precision:0.0
+
+Parse State: 263	Cursor Position: 759 36
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                &&
+                '( expression )'
+                Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression )'. 
+                
+Time taken: 0.5093057155609131 seconds
+Received response: while (*s != '\n')
+Actual result:  ( * s VARIABLE != '\n' )
+SACREBLEU Score: {'score': 65.80370064762461, 'counts': [9, 7, 5, 3], 'totals': [10, 9, 8, 7], 'precisions': [90.0, 77.77777777777777, 62.5, 42.857142857142854], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
+First element of precision:90.0
+Sequence Matcher Similarity Precision:0.6046511627906976
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 759 37
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 0.7044613361358643 seconds
+Received response: *s != '\n'
+  )
+  {
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 759 38
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.8067452907562256 seconds
+Received response: != '\n') {
+    s++;
+  }
+  *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 2}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.12244897959183673
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 759 39
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.6674394607543945 seconds
+Received response: != '\n')  
+{
+  s++;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 759 40
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s
+                '!='
+                Complete the '!=' part of the code in the C11 programming language. Just show your answer in place of '!='. 
+                
+Time taken: 0.46663451194763184 seconds
+Received response: '!='0;
+Actual result:  !=
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 759 43
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s !=
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5083508491516113 seconds
+Received response: '\n'
+Actual result:  '\n'
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 759 47
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'
+                ')'
+                Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ')'. 
+                
+Time taken: 0.5538370609283447 seconds
+Received response: ')'
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 759 48
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n')
+                ') scoped_statement'
+                Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer in place of ') scoped_statement'. 
+                
+Time taken: 0.5611720085144043 seconds
+Received response: ') {
+    s++;
+  }
+}
+Actual result:  ) { ++ s VARIABLE ; }
+SACREBLEU Score: {'score': 17.164726199225985, 'counts': [7, 3, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [77.77777777777777, 37.5, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 8}
+First element of precision:77.77777777777777
+Sequence Matcher Similarity Precision:0.43902439024390244
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 760 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }'. 
+                
+Time taken: 0.7505490779876709 seconds
+Received response: {
+    s++;
+  }
+}
+Actual result:  { ++ s VARIABLE ; }
+SACREBLEU Score: {'score': 20.556680845025987, 'counts': [6, 2, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 33.333333333333336, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.3888888888888889
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 761 5
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+                '++ unary_expression'
+                Complete the '++ unary_expression' part of the code in the C11 programming language. Just show your answer in place of '++ unary_expression'. 
+                
+Time taken: 0.5384719371795654 seconds
+Received response: ++ s
+Actual result:  ++ s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.4444444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 761 7
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.586660623550415 seconds
+Received response: 's'
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 761 8
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.47286081314086914 seconds
+Received response: s++;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 761 8
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6799840927124023 seconds
+Received response: ++;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 762 3
+
+                This is the incomplete C11 programming language code:
+                void get_line(char *s)
+{
+  while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.6801095008850098 seconds
+Received response:  '}' should be replaced with '}'
+    }
+}
+Actual result:  }
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 764 3
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+                '*'
+                Complete the '*' part of the code in the C11 programming language. Just show your answer in place of '*'. 
+                
+Time taken: 0.49572229385375977 seconds
+Received response: != EOF
+Actual result:  *
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 764 4
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. 
+                
+Time taken: 0.48093414306640625 seconds
+Received response: *s != '\0'
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 764 5
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s
+                'VARIABLE'
+                Complete the 'VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'VARIABLE'. 
+                
+Time taken: 0.5877721309661865 seconds
+Received response: != EOF
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 764 6
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s
+                '='
+                Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '='. 
+                
+Time taken: 0.47736263275146484 seconds
+Received response: != EOF
+Actual result:  =
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 764 8
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s =
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT'. 
+                
+Time taken: 0.5417630672454834 seconds
+Received response: EOF
+Actual result:  '\0'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 1, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 764 12
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s = '\0'
+                ';'
+                Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';'. 
+                
+Time taken: 0.6880414485931396 seconds
+Received response: break;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 765 1
+
+                This is the incomplete C11 programming language code:
+                while ((*s = getchar()) != 
+# 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s = '\0';
+                '}'
+                Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}'. 
+                
+Time taken: 0.5221900939941406 seconds
+Received response: }s++;
+}
+Actual result:  }
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 766 1
+
+                This is the incomplete C11 programming language code:
+                # 17 "chapter_5/exercise_5_06/getline.c" 3 4
+                            (-1) 
+# 17 "chapter_5/exercise_5_06/getline.c"
+                                && (*s != '\n'))
+  {
+    ++s;
+  }
+
+  *s = '\0';
+}
+                '$'
+                Complete the '$' part of the code in the C11 programming language. Just show your answer in place of '$'. 
+                
+Time taken: 0.7287948131561279 seconds
+Received response: ```c
+  *s = '\0';
+}
+```
+Actual result:  $
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 20.71552794898345
+Average Sequence Matcher Similarity Precision: 21.3905984752275
+Average Cosine Similarity Precision: 9.255796614026119
