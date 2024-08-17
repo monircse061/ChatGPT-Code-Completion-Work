@@ -68,3 +68,8 @@ mean_avg_cosine_precision = df['Average Cosine Similarity Precision'].mean()
 print(f"Average Precision Mean: {mean_avg_precision}")
 print(f"Average Sequence Matcher Similarity Precision Mean: {mean_avg_sequence_precision}")
 print(f"Average Cosine Similarity Precision Mean: {mean_avg_cosine_precision}")
+
+# Type in the terminal to run one of the following
+# python summary.py SB
+
+# python summary.py C11
