@@ -1,17 +1,22 @@
 Parse State: 0	Cursor Position: 1 1
 
                 This is the incomplete Small Basic programming language code:
-                F
+                
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.716519832611084 seconds
-Received response:  The 'next token or line' should be replaced with " = Text.GetSubTextToEnd(program, pos + 1)".
+Time taken: 1.0373318195343018 seconds
+Received response: The code for 'next token or line' in Small Basic is as follows:
+```
+TextWindow.WriteLine("Next token or line")
+```
+
+This will output the message "Next token or line" to the TextWindow in Small Basic.
 Actual result:  For i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
-SACREBLEU Score: {'score': 2.4623373672221804, 'counts': [5, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [21.73913043478261, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 17}
-First element of precision:21.73913043478261
-Sequence Matcher Similarity Precision:0.25
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 4.928412630671678, 'counts': [5, 3, 2, 1], 'totals': [49, 48, 47, 46], 'precisions': [10.204081632653061, 6.25, 4.25531914893617, 2.1739130434782608], 'bp': 1.0, 'sys_len': 49, 'ref_len': 17}
+First element of precision:10.204081632653061
+Sequence Matcher Similarity Precision:0.21011673151750973
+Cosine Similarity Precision:0.24056261216234412
 
 Parse State: 8	Cursor Position: 1 5
 
@@ -20,7 +25,7 @@ Parse State: 8	Cursor Position: 1 5
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.39328861236572266 seconds
+Time taken: 0.4875016212463379 seconds
 Received response: next token
 Actual result:  i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.0009118819655545162, 'sys_len': 2, 'ref_len': 16}
@@ -35,7 +40,7 @@ Parse State: 34	Cursor Position: 1 7
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.3577272891998291 seconds
+Time taken: 0.5113439559936523 seconds
 Received response: Next i
 Actual result:  = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
 SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.0015034391929775724, 'sys_len': 2, 'ref_len': 15}
@@ -50,15 +55,12 @@ Parse State: 61	Cursor Position: 1 9
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6314949989318848 seconds
-Received response: 
-The 'next token or line' part of the code in Small Basic could be:
-
-For i = 1 To 10 Step 1
+Time taken: 0.5770881175994873 seconds
+Received response: next token or line: i = 1 to 10
 Actual result:  1
-SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
-First element of precision:4.3478260869565215
-Sequence Matcher Similarity Precision:0.043010752688172046
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.12121212121212122
 Cosine Similarity Precision:0.0
 
 Parse State: 85	Cursor Position: 1 11
@@ -68,13 +70,13 @@ Parse State: 85	Cursor Position: 1 11
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7762415409088135 seconds
-Received response: i = i + 1
+Time taken: 0.5625777244567871 seconds
+Received response: For i = 1 To 10 Step 1
 Actual result:  To 24 \n TextWindow . WriteLine ( i ) \n EndFor
-SACREBLEU Score: {'score': 2.156693969393992, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.20189651799465538, 'sys_len': 5, 'ref_len': 13}
-First element of precision:20.0
-Sequence Matcher Similarity Precision:0.21052631578947367
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 3.515208856700362, 'counts': [2, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 0.5352614285189903, 'sys_len': 8, 'ref_len': 13}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.22857142857142856
+Cosine Similarity Precision:0.22360679774997896
 
 Parse State: 95	Cursor Position: 1 14
 
@@ -83,13 +85,13 @@ Parse State: 95	Cursor Position: 1 14
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5587003231048584 seconds
-Received response: i = 10
-                For i = 1 To 10
+Time taken: 0.5176122188568115 seconds
+Received response: i = i + 1
+EndFor
 Actual result:  24
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.04878048780487805
+Sequence Matcher Similarity Precision:0.10526315789473684
 Cosine Similarity Precision:0.0
 
 Parse State: 110	Cursor Position: 1 19
@@ -99,13 +101,12 @@ Parse State: 110	Cursor Position: 1 19
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.3700125217437744 seconds
-Received response: 
-                EndFor
+Time taken: 2.0202651023864746 seconds
+Received response: EndFor
 Actual result:  \n TextWindow . WriteLine ( i ) \n
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.00012340980408667956, 'sys_len': 1, 'ref_len': 10}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.20689655172413793
+Sequence Matcher Similarity Precision:0.1951219512195122
 Cosine Similarity Precision:0.0
 
 Parse State: 39	Cursor Position: 2 2
@@ -115,13 +116,17 @@ Parse State: 39	Cursor Position: 2 2
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5447618961334229 seconds
-Received response: Next i
+Time taken: 0.7320280075073242 seconds
+Received response: 
+                For i = 1 To 24
+                TextWindow.WriteLine(i)
+                'next token or line'
+                EndFor
 Actual result:  TextWindow . WriteLine ( i )
-SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 2, 'ref_len': 6}
-First element of precision:50.0
-Sequence Matcher Similarity Precision:0.2857142857142857
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 28.175950490399515, 'counts': [6, 5, 4, 3], 'totals': [17, 16, 15, 14], 'precisions': [35.294117647058826, 31.25, 26.666666666666668, 21.428571428571427], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
+First element of precision:35.294117647058826
+Sequence Matcher Similarity Precision:0.2981366459627329
+Cosine Similarity Precision:0.4472135954999579
 
 Parse State: 6	Cursor Position: 2 12
 
@@ -131,14 +136,13 @@ Parse State: 6	Cursor Position: 2 12
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5918252468109131 seconds
-Received response:     .WriteLine("Loop iteration: " + i)
-EndFor
+Time taken: 0.46137237548828125 seconds
+Received response: EndFor
 Actual result:  . WriteLine ( i )
-SACREBLEU Score: {'score': 15.851165692617148, 'counts': [5, 3, 1, 0], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 27.272727272727273, 10.0, 5.555555555555555], 'bp': 1.0, 'sys_len': 12, 'ref_len': 5}
-First element of precision:41.666666666666664
-Sequence Matcher Similarity Precision:0.5079365079365079
-Cosine Similarity Precision:0.5
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.01831563888873418, 'sys_len': 1, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
 
 Parse State: 30	Cursor Position: 2 13
 
@@ -148,14 +152,13 @@ Parse State: 30	Cursor Position: 2 13
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6616146564483643 seconds
-Received response:   WriteLine("Loop iteration: " + i)
-EndFor
+Time taken: 0.5058248043060303 seconds
+Received response: 'Hide()'
 Actual result:  WriteLine ( i )
-SACREBLEU Score: {'score': 10.600313379512592, 'counts': [4, 2, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [36.36363636363637, 20.0, 5.555555555555555, 3.125], 'bp': 1.0, 'sys_len': 11, 'ref_len': 4}
-First element of precision:36.36363636363637
-Sequence Matcher Similarity Precision:0.5172413793103449
-Cosine Similarity Precision:0.5
+SACREBLEU Score: {'score': 18.99589214128981, 'counts': [2, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
 
 Parse State: 58	Cursor Position: 2 22
 
@@ -165,12 +168,14 @@ Parse State: 58	Cursor Position: 2 22
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.477935791015625 seconds
-Received response: Next i
+Time taken: 0.5679209232330322 seconds
+Received response: Next "i"
+'OR'
+EndFor
 Actual result:  ( i )
-SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.6065306597126334, 'sys_len': 2, 'ref_len': 3}
-First element of precision:50.0
-Sequence Matcher Similarity Precision:0.3333333333333333
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 3}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.15384615384615385
 Cosine Similarity Precision:0.0
 
 Parse State: 83	Cursor Position: 2 23
@@ -181,12 +186,12 @@ Parse State: 83	Cursor Position: 2 23
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5003740787506104 seconds
-Received response: TextWindow.WriteLine("The value of i is: " + i)
+Time taken: 0.6002564430236816 seconds
+Received response: TextWindow.WriteLine("Token number: " + i)
 Actual result:  i
-SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
-First element of precision:6.666666666666667
-Sequence Matcher Similarity Precision:0.08163265306122448
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.09090909090909091
 Cosine Similarity Precision:0.0
 
 Parse State: 92	Cursor Position: 2 24
@@ -197,13 +202,13 @@ Parse State: 92	Cursor Position: 2 24
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4437074661254883 seconds
+Time taken: 0.4827868938446045 seconds
 Received response: 
-'Next i'
+Next i
 Actual result:  )
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.18181818181818182
+Sequence Matcher Similarity Precision:0.2222222222222222
 Cosine Similarity Precision:0.0
 
 Parse State: 65	Cursor Position: 2 26
@@ -214,7 +219,7 @@ Parse State: 65	Cursor Position: 2 26
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4290957450866699 seconds
+Time taken: 0.436816930770874 seconds
 Received response: Next i
 Actual result:  \n
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
@@ -230,17 +235,15 @@ Parse State: 114	Cursor Position: 3 1
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5742802619934082 seconds
-Received response: For i = 1 To 24   
-  TextWindow.WriteLine(i)
-EndFor
+Time taken: 0.5855789184570312 seconds
+Received response: Next i
 Actual result:  EndFor
-SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
-First element of precision:7.6923076923076925
-Sequence Matcher Similarity Precision:0.2413793103448276
-Cosine Similarity Precision:0.4082482904638631
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
 
 
-Average Precision: 19.2317489274011
-Average Sequence Matcher Similarity Precision: 23.477705165673587
-Average Cosine Similarity Precision: 9.388321936425754
+Average Precision: 13.699879951980792
+Average Sequence Matcher Similarity Precision: 18.728655594626662
+Average Cosine Similarity Precision: 6.075886702748541

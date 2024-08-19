@@ -1,18 +1,16 @@
 Parse State: 0	Cursor Position: 1 1
 
                 This is the incomplete Small Basic programming language code:
-                b
+                
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7483742237091064 seconds
-Received response: The 'next token or line' part of the code should be:
-
-b = Text.GetSubTextToEnd(b, Text.GetIndexOf(b, 1) + 1)
+Time taken: 0.5181093215942383 seconds
+Received response: 'To be completed by the user'
 Actual result:  begin :
-SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
-First element of precision:3.225806451612903
-Sequence Matcher Similarity Precision:0.06896551724137931
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.21621621621621623
 Cosine Similarity Precision:0.0
 
 Parse State: 6	Cursor Position: 1 6
@@ -22,12 +20,21 @@ Parse State: 6	Cursor Position: 1 6
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7187216281890869 seconds
-Received response: TextWindow.WriteLine("Hello, World!")
+Time taken: 1.1804420948028564 seconds
+Received response: If you want to move to the next line in Small Basic, you can use the command "GoTo" followed by the line number you want to jump to. 
+
+Here is the complete code:
+
+```smallbasic
+begin
+GoTo 10
+``` 
+
+This code will move the program execution to line 10.
 Actual result:  :
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.05128205128205128
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.015873015873015872
 Cosine Similarity Precision:0.0
 
 Parse State: 3	Cursor Position: 1 8
@@ -37,12 +44,12 @@ Parse State: 3	Cursor Position: 1 8
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.45607471466064453 seconds
-Received response: nextToken()
+Time taken: 0.5108509063720703 seconds
+Received response: 'NextToken()'
 Actual result:  \n TextWindow . Write ( "Enter a number: " ) \n num = TextWindow . ReadNumber ( ) \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
-SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 9.951146618737898e-12, 'sys_len': 3, 'ref_len': 79}
-First element of precision:66.66666666666667
-Sequence Matcher Similarity Precision:0.0
+SACREBLEU Score: {'score': 2.2983208453783718e-07, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 7.194133030325383e-09, 'sys_len': 4, 'ref_len': 79}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.006666666666666667
 Cosine Similarity Precision:0.0
 
 Parse State: 11	Cursor Position: 2 1
@@ -52,14 +59,19 @@ Parse State: 11	Cursor Position: 2 1
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4797067642211914 seconds
-Received response: TextWindow.WriteLine("Hello World!")
-goto begin:
+Time taken: 0.9482994079589844 seconds
+Received response: For the 'next token or line' part of the code, you can use the following Small Basic command:
+
+END
+
+So the complete code would be:
+begin:
+'END'
 Actual result:  TextWindow . Write ( "Enter a number: " )
-SACREBLEU Score: {'score': 11.121234698968381, 'counts': [7, 3, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [53.84615384615385, 25.0, 4.545454545454546, 2.5], 'bp': 1.0, 'sys_len': 13, 'ref_len': 11}
-First element of precision:53.84615384615385
-Sequence Matcher Similarity Precision:0.5111111111111111
-Cosine Similarity Precision:0.20412414523193154
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 11}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.20540540540540542
+Cosine Similarity Precision:0.0
 
 Parse State: 6	Cursor Position: 2 11
 
@@ -69,13 +81,18 @@ TextWindow
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5855832099914551 seconds
-Received response: .WriteLine("Hello, World!")
-                Goto begin
+Time taken: 0.7439024448394775 seconds
+Received response: .Read() 
+
+The complete code should look like this:
+
+begin:
+TextWindow
+.Read()
 Actual result:  . Write ( "Enter a number: " )
-SACREBLEU Score: {'score': 10.127993013562818, 'counts': [5, 2, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [41.666666666666664, 18.181818181818183, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 10}
-First element of precision:41.666666666666664
-Sequence Matcher Similarity Precision:0.2823529411764706
+SACREBLEU Score: {'score': 2.8629993657668873, 'counts': [4, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [21.05263157894737, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 10}
+First element of precision:21.05263157894737
+Sequence Matcher Similarity Precision:0.2222222222222222
 Cosine Similarity Precision:0.0
 
 Parse State: 30	Cursor Position: 2 12
@@ -86,12 +103,12 @@ TextWindow.
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5339498519897461 seconds
-Received response: Read()
+Time taken: 0.5200049877166748 seconds
+Received response: Read()  
 Actual result:  Write ( "Enter a number: " )
 SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 3, 'ref_len': 9}
 First element of precision:66.66666666666667
-Sequence Matcher Similarity Precision:0.17142857142857143
+Sequence Matcher Similarity Precision:0.16216216216216217
 Cosine Similarity Precision:0.0
 
 Parse State: 58	Cursor Position: 2 17
@@ -102,15 +119,13 @@ TextWindow.Write
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7703647613525391 seconds
-Received response: TextWindow.Write("Please enter your name: ")
-name = TextWindow.Read()
-TextWindow.WriteLine("Hello, " + name + "!")
+Time taken: 0.5191457271575928 seconds
+Received response: TextWindow.Write('Enter your name: ')
 Actual result:  ( "Enter a number: " )
-SACREBLEU Score: {'score': 5.094941286103936, 'counts': [5, 3, 1, 0], 'totals': [34, 33, 32, 31], 'precisions': [14.705882352941176, 9.090909090909092, 3.125, 1.6129032258064515], 'bp': 1.0, 'sys_len': 34, 'ref_len': 8}
-First element of precision:14.705882352941176
-Sequence Matcher Similarity Precision:0.21897810218978103
-Cosine Similarity Precision:0.1414213562373095
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [3, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [30.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 8}
+First element of precision:30.0
+Sequence Matcher Similarity Precision:0.4666666666666667
+Cosine Similarity Precision:0.3162277660168379
 
 Parse State: 83	Cursor Position: 2 18
 
@@ -120,15 +135,13 @@ TextWindow.Write(
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.8809936046600342 seconds
-Received response: 'Enter a number: '
-'Enter your name: '
-'What is your favorite color? '
+Time taken: 0.6199710369110107 seconds
+Received response: Input.GetCharacter()
 Actual result:  "Enter a number: "
-SACREBLEU Score: {'score': 8.513012360883549, 'counts': [3, 2, 1, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 12.5, 6.666666666666667, 3.5714285714285716], 'bp': 1.0, 'sys_len': 17, 'ref_len': 6}
-First element of precision:17.647058823529413
-Sequence Matcher Similarity Precision:0.3595505617977528
-Cosine Similarity Precision:0.5669467095138409
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.8187307530779819, 'sys_len': 5, 'ref_len': 6}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.20512820512820512
+Cosine Similarity Precision:0.0
 
 Parse State: 92	Cursor Position: 2 36
 
@@ -138,13 +151,15 @@ TextWindow.Write("Enter a number: "
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5375685691833496 seconds
-Received response: TextWindow.Write("Enter a number: ")
-inputNumber = TextWindow.ReadNumber()
+Time taken: 0.7676904201507568 seconds
+Received response: TextWindow.ReadNumber()
+                'next token or line'
+                num = TextWindow.ReadNumber()
+                TextWindow.WriteLine("You entered: " + num)
 Actual result:  )
-SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
-First element of precision:5.555555555555555
-Sequence Matcher Similarity Precision:0.05263157894736842
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.011904761904761904
 Cosine Similarity Precision:0.0
 
 Parse State: 3	Cursor Position: 2 38
@@ -155,7 +170,7 @@ TextWindow.Write("Enter a number: ")
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5181229114532471 seconds
+Time taken: 0.6638188362121582 seconds
 Received response: num = TextWindow.ReadNumber()
 Actual result:  \n num = TextWindow . ReadNumber ( ) \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
 SACREBLEU Score: {'score': 0.021853345815770354, 'counts': [7, 6, 5, 4], 'totals': [7, 6, 5, 4], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.00021853345815770346, 'sys_len': 7, 'ref_len': 66}
@@ -171,20 +186,13 @@ TextWindow.Write("Enter a number: ")
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.000551462173462 seconds
+Time taken: 0.5244498252868652 seconds
 Received response: number = TextWindow.ReadNumber()
-If number > 0 Then
-    TextWindow.WriteLine("The number is positive.")
-Else If number < 0 Then
-    TextWindow.WriteLine("The number is negative.")
-Else
-    TextWindow.WriteLine("The number is zero.")
-EndIf
 Actual result:  num = TextWindow . ReadNumber ( )
-SACREBLEU Score: {'score': 7.994117708843314, 'counts': [6, 5, 4, 3], 'totals': [56, 55, 54, 53], 'precisions': [10.714285714285714, 9.090909090909092, 7.407407407407407, 5.660377358490566], 'bp': 1.0, 'sys_len': 56, 'ref_len': 7}
-First element of precision:10.714285714285714
-Sequence Matcher Similarity Precision:0.21323529411764705
-Cosine Similarity Precision:0.29462782549439487
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.8787878787878788
+Cosine Similarity Precision:0.6666666666666669
 
 Parse State: 6	Cursor Position: 3 5
 
@@ -195,20 +203,13 @@ num
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.8603112697601318 seconds
+Time taken: 0.5943644046783447 seconds
 Received response: num = TextWindow.ReadNumber()
-If num > 0 Then
-  TextWindow.WriteLine("The number is positive.")
-ElseIf num < 0 Then
-  TextWindow.WriteLine("The number is negative.")
-Else
-  TextWindow.WriteLine("The number is zero.")
-EndIf
 Actual result:  = TextWindow . ReadNumber ( )
-SACREBLEU Score: {'score': 8.143605172650817, 'counts': [6, 5, 4, 3], 'totals': [55, 54, 53, 52], 'precisions': [10.909090909090908, 9.25925925925926, 7.547169811320755, 5.769230769230769], 'bp': 1.0, 'sys_len': 55, 'ref_len': 6}
-First element of precision:10.909090909090908
-Sequence Matcher Similarity Precision:0.20634920634920634
-Cosine Similarity Precision:0.413802944301184
+SACREBLEU Score: {'score': 80.91067115702207, 'counts': [6, 5, 4, 3], 'totals': [7, 6, 5, 4], 'precisions': [85.71428571428571, 83.33333333333333, 80.0, 75.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 6}
+First element of precision:85.71428571428571
+Sequence Matcher Similarity Precision:0.8813559322033898
+Cosine Similarity Precision:0.816496580927726
 
 Parse State: 29	Cursor Position: 3 7
 
@@ -219,13 +220,13 @@ num =
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5012178421020508 seconds
-Received response: num = TextWindow.ReadNumber()
+Time taken: 0.5355761051177979 seconds
+Received response: TextWindow.ReadNumber()
 Actual result:  TextWindow . ReadNumber ( )
-SACREBLEU Score: {'score': 61.47881529512643, 'counts': [5, 4, 3, 2], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 66.66666666666667, 60.0, 50.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 5}
-First element of precision:71.42857142857143
-Sequence Matcher Similarity Precision:0.8421052631578947
-Cosine Similarity Precision:0.816496580927726
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [5, 4, 3, 2], 'totals': [5, 4, 3, 2], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9019607843137255
+Cosine Similarity Precision:0.9999999999999998
 
 Parse State: 22	Cursor Position: 3 17
 
@@ -236,13 +237,14 @@ num = TextWindow
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4645049571990967 seconds
+Time taken: 0.6284451484680176 seconds
 Received response: .ReadNumber()
+TextWindow.WriteLine("You entered: " + num)
 Actual result:  . ReadNumber ( )
-SACREBLEU Score: {'score': 100.00000000000004, 'counts': [4, 3, 2, 1], 'totals': [4, 3, 2, 1], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
-First element of precision:100.0
-Sequence Matcher Similarity Precision:0.8666666666666667
-Cosine Similarity Precision:1.0
+SACREBLEU Score: {'score': 15.310245441182444, 'counts': [4, 3, 2, 1], 'totals': [16, 15, 14, 13], 'precisions': [25.0, 20.0, 14.285714285714286, 7.6923076923076925], 'bp': 1.0, 'sys_len': 16, 'ref_len': 4}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.35135135135135137
+Cosine Similarity Precision:0.4082482904638631
 
 Parse State: 53	Cursor Position: 3 18
 
@@ -253,13 +255,13 @@ num = TextWindow.
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.36893510818481445 seconds
-Received response: Read()
+Time taken: 0.4697535037994385 seconds
+Received response: ReadNumber()
 Actual result:  ReadNumber ( )
-SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
-First element of precision:66.66666666666667
-Sequence Matcher Similarity Precision:0.5714285714285714
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8888888888888888
+Cosine Similarity Precision:1.0
 
 Parse State: 79	Cursor Position: 3 28
 
@@ -270,15 +272,25 @@ num = TextWindow.ReadNumber
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.774116039276123 seconds
-Received response: If you would like to continue the code after getting the number input from the user, you can do something like this:
+Time taken: 1.8141586780548096 seconds
+Received response: If you want to skip to the next line of code, you can simply add a new line of code. 
 
-next token or line:
-TextWindow.WriteLine("The number you entered is: " + num)
+For example:
+
+```
+begin:
+TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+'next token or line'
+numSquared = num * num
+TextWindow.WriteLine("The square of the number is: " + numSquared)
+``` 
+
+This will calculate the square of the number entered by the user and display it.
 Actual result:  ( )
-SACREBLEU Score: {'score': 0.9896324688555468, 'counts': [2, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [4.545454545454546, 1.1627906976744187, 0.5952380952380952, 0.3048780487804878], 'bp': 1.0, 'sys_len': 44, 'ref_len': 2}
-First element of precision:4.545454545454546
-Sequence Matcher Similarity Precision:0.03015075376884422
+SACREBLEU Score: {'score': 0.7813930933626756, 'counts': [2, 1, 0, 0], 'totals': [92, 91, 90, 89], 'precisions': [2.1739130434782608, 1.098901098901099, 0.5555555555555556, 0.2808988764044944], 'bp': 1.0, 'sys_len': 92, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.015789473684210527
 Cosine Similarity Precision:0.0
 
 Parse State: 102	Cursor Position: 3 29
@@ -290,12 +302,14 @@ num = TextWindow.ReadNumber(
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4774007797241211 seconds
-Received response: TextWindow.ReadNumber()
+Time taken: 0.7492508888244629 seconds
+Received response: num) 
+TextWindow.WriteLine("The number you entered is: " + num) 
+Goto begin
 Actual result:  )
-SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
-First element of precision:20.0
-Sequence Matcher Similarity Precision:0.08
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.025974025974025976
 Cosine Similarity Precision:0.0
 
 Parse State: 3	Cursor Position: 3 31
@@ -307,23 +321,15 @@ num = TextWindow.ReadNumber()
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.540628433227539 seconds
-Received response: If the intention is to simply read the input number and continue with the code after the user inputs a number, we can use the following code to complete the program:
+Time taken: 0.8207845687866211 seconds
+Received response: If you want to continue the code and read another number, you can use the following code snippet:
 
-```smallbasic
-begin: 
-TextWindow.Write("Enter a number: ") 
-num = TextWindow.ReadNumber()
-'next token or line'
-TextWindow.WriteLine("You entered: " + num)
-```
-
-This will print the message "You entered: " followed by the number input by the user. You can replace the text inside the `TextWindow.WriteLine()` function with any further processing you want to do with the input number.
+Goto begin
 Actual result:  \n remainder = Math . Remainder ( num , 2 ) \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
-SACREBLEU Score: {'score': 6.395382048371828, 'counts': [27, 9, 5, 3], 'totals': [123, 122, 121, 120], 'precisions': [21.951219512195124, 7.377049180327869, 4.132231404958677, 2.5], 'bp': 1.0, 'sys_len': 123, 'ref_len': 57}
-First element of precision:21.951219512195124
-Sequence Matcher Similarity Precision:0.04780876494023904
-Cosine Similarity Precision:0.48644890479251146
+SACREBLEU Score: {'score': 0.884994500442328, 'counts': [5, 1, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [22.727272727272727, 4.761904761904762, 2.5, 1.3157894736842106], 'bp': 0.2037403090557072, 'sys_len': 22, 'ref_len': 57}
+First element of precision:22.727272727272727
+Sequence Matcher Similarity Precision:0.08917197452229299
+Cosine Similarity Precision:0.28263343185959744
 
 Parse State: 11	Cursor Position: 4 1
 
@@ -334,19 +340,19 @@ num = TextWindow.ReadNumber()
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.1293706893920898 seconds
-Received response: If the goal is to continue the program after reading the number, the code after reading the number could be something like:
-
-```smallbasic
-TextWindow.WriteLine("You entered: " + num)
-```
-
-This will display the number that the user entered and can be used as the next line of code after reading the number.
+Time taken: 1.12290620803833 seconds
+Received response: If num > 0 Then
+    TextWindow.WriteLine("The number is positive")
+ElseIf num < 0 Then
+    TextWindow.WriteLine("The number is negative")
+Else
+    TextWindow.WriteLine("The number is zero")
+EndIf
 Actual result:  remainder = Math . Remainder ( num , 2 )
-SACREBLEU Score: {'score': 0.8072712583467364, 'counts': [5, 0, 0, 0], 'totals': [67, 66, 65, 64], 'precisions': [7.462686567164179, 0.7575757575757576, 0.38461538461538464, 0.1953125], 'bp': 1.0, 'sys_len': 67, 'ref_len': 10}
-First element of precision:7.462686567164179
-Sequence Matcher Similarity Precision:0.12138728323699421
-Cosine Similarity Precision:0.033004918099222486
+SACREBLEU Score: {'score': 1.1498052049318417, 'counts': [4, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [8.88888888888889, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476], 'bp': 1.0, 'sys_len': 45, 'ref_len': 10}
+First element of precision:8.88888888888889
+Sequence Matcher Similarity Precision:0.06779661016949153
+Cosine Similarity Precision:0.10540925533894598
 
 Parse State: 6	Cursor Position: 4 11
 
@@ -358,15 +364,18 @@ remainder
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.8550739288330078 seconds
+Time taken: 0.892035961151123 seconds
 Received response: remainder = num % 2
-
-TextWindow.WriteLine("The remainder when divided by 2 is: " + remainder)
+If remainder = 0 Then
+    TextWindow.WriteLine("The number is even")
+Else
+    TextWindow.WriteLine("The number is odd")
+EndIf
 Actual result:  = Math . Remainder ( num , 2 )
-SACREBLEU Score: {'score': 2.703251334489793, 'counts': [6, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [27.272727272727273, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 9}
-First element of precision:27.272727272727273
-Sequence Matcher Similarity Precision:0.2903225806451613
-Cosine Similarity Precision:0.560112033611204
+SACREBLEU Score: {'score': 1.7035962947530545, 'counts': [6, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [17.647058823529413, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 9}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.20454545454545456
+Cosine Similarity Precision:0.31108550841912763
 
 Parse State: 29	Cursor Position: 4 13
 
@@ -378,7 +387,7 @@ remainder =
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4640321731567383 seconds
+Time taken: 0.49660348892211914 seconds
 Received response: remainder = num % 2
 Actual result:  Math . Remainder ( num , 2 )
 SACREBLEU Score: {'score': 6.9717291216921975, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 0.5488116360940264, 'sys_len': 5, 'ref_len': 8}
@@ -396,18 +405,19 @@ remainder = Math
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7187540531158447 seconds
-Received response: .Remainder(num, 2)
-If remainder = 0 Then
-    TextWindow.WriteLine(num + " is even.")
-Else
-    TextWindow.WriteLine(num + " is odd.")
-EndIf
+Time taken: 1.0605125427246094 seconds
+Received response: .Remainder(num, 2) 
+If remainder = 0 Then 
+    TextWindow.WriteLine(num + " is even.") 
+Else 
+    TextWindow.WriteLine(num + " is odd.") 
+EndIf 
+Goto begin
 Actual result:  . Remainder ( num , 2 )
-SACREBLEU Score: {'score': 14.756414813723252, 'counts': [7, 6, 5, 4], 'totals': [38, 37, 36, 35], 'precisions': [18.42105263157895, 16.216216216216218, 13.88888888888889, 11.428571428571429], 'bp': 1.0, 'sys_len': 38, 'ref_len': 7}
-First element of precision:18.42105263157895
-Sequence Matcher Similarity Precision:0.2345679012345679
-Cosine Similarity Precision:0.6350006350009525
+SACREBLEU Score: {'score': 13.98918268773484, 'counts': [7, 6, 5, 4], 'totals': [40, 39, 38, 37], 'precisions': [17.5, 15.384615384615385, 13.157894736842104, 10.81081081081081], 'bp': 1.0, 'sys_len': 40, 'ref_len': 7}
+First element of precision:17.5
+Sequence Matcher Similarity Precision:0.2122905027932961
+Cosine Similarity Precision:0.6154574548966636
 
 Parse State: 53	Cursor Position: 4 18
 
@@ -419,13 +429,13 @@ remainder = Math.
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4840106964111328 seconds
-Received response: Remainder(num, 2)
+Time taken: 0.5291311740875244 seconds
+Received response: Mod(num, 2)
 Actual result:  Remainder ( num , 2 )
-SACREBLEU Score: {'score': 100.00000000000004, 'counts': [6, 5, 4, 3], 'totals': [6, 5, 4, 3], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
-First element of precision:100.0
-Sequence Matcher Similarity Precision:0.8717948717948718
-Cosine Similarity Precision:0.9999999999999998
+SACREBLEU Score: {'score': 75.98356856515926, 'counts': [5, 4, 3, 2], 'totals': [6, 5, 4, 3], 'precisions': [83.33333333333333, 80.0, 75.0, 66.66666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.5454545454545454
+Cosine Similarity Precision:0.4999999999999999
 
 Parse State: 79	Cursor Position: 4 27
 
@@ -437,20 +447,15 @@ remainder = Math.Remainder
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.2531778812408447 seconds
-Received response: = num, 2) 
+Time taken: 0.8894693851470947 seconds
+Received response: = Math.Remainder(num, 2) 
 
-Here is the complete Small Basic programming language code:
-
-begin: 
-TextWindow.Write("Enter a number: ") 
-num = TextWindow.ReadNumber() 
-remainder = Math.Remainder(num, 2)
+TextWindow.WriteLine("The remainder when divided by 2 is: " + remainder)
 Actual result:  ( num , 2 )
-SACREBLEU Score: {'score': 7.611137668875848, 'counts': [5, 4, 3, 2], 'totals': [45, 44, 43, 42], 'precisions': [11.11111111111111, 9.090909090909092, 6.976744186046512, 4.761904761904762], 'bp': 1.0, 'sys_len': 45, 'ref_len': 5}
-First element of precision:11.11111111111111
-Sequence Matcher Similarity Precision:0.08163265306122448
-Cosine Similarity Precision:0.5303300858899106
+SACREBLEU Score: {'score': 13.52328506650155, 'counts': [5, 4, 3, 2], 'totals': [26, 25, 24, 23], 'precisions': [19.23076923076923, 16.0, 12.5, 8.695652173913043], 'bp': 1.0, 'sys_len': 26, 'ref_len': 5}
+First element of precision:19.23076923076923
+Sequence Matcher Similarity Precision:0.16216216216216217
+Cosine Similarity Precision:0.23570226039551587
 
 Parse State: 89	Cursor Position: 4 28
 
@@ -462,19 +467,16 @@ remainder = Math.Remainder(
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7587652206420898 seconds
+Time taken: 1.3042430877685547 seconds
 Received response: num, 2) 
-If remainder = 0 Then 
-    TextWindow.WriteLine(num + " is even") 
-Else 
-    TextWindow.WriteLine(num + " is odd") 
-EndIf 
+TextWindow.WriteLine("The remainder when dividing by 2 is: " + remainder) 
 Goto begin
+                This code asks the user to enter a number, reads the number, calculates the remainder when dividing by 2, and displays the result. It then goes back to the beginning to repeat the process.
 Actual result:  num
-SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
-First element of precision:2.857142857142857
-Sequence Matcher Similarity Precision:0.0410958904109589
-Cosine Similarity Precision:0.5477225575051661
+SACREBLEU Score: {'score': 0.5844855918911488, 'counts': [1, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661], 'bp': 1.0, 'sys_len': 62, 'ref_len': 1}
+First element of precision:1.6129032258064515
+Sequence Matcher Similarity Precision:0.026402640264026403
+Cosine Similarity Precision:0.09712858623572641
 
 Parse State: 91	Cursor Position: 4 31
 
@@ -486,17 +488,17 @@ remainder = Math.Remainder(num
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7040951251983643 seconds
+Time taken: 1.0814988613128662 seconds
 Received response: )
-If remainder = 0 Then
-  TextWindow.WriteLine("The number is even.")
-Else
-  TextWindow.WriteLine("The number is odd.")
-EndIf
+2)
+TextWindow.WriteLine("Enter a divisor: ")
+divisor = TextWindow.ReadNumber()
+result = Math.Remainder(num, divisor)
+TextWindow.WriteLine("The remainder is: " + result)
 Actual result:  , 2
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 32, 'ref_len': 2}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.031007751937984496
+SACREBLEU Score: {'score': 0.9896324688555468, 'counts': [2, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [4.545454545454546, 1.1627906976744187, 0.5952380952380952, 0.3048780487804878], 'bp': 1.0, 'sys_len': 44, 'ref_len': 2}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.034482758620689655
 Cosine Similarity Precision:0.0
 
 Parse State: 103	Cursor Position: 4 33
@@ -509,7 +511,7 @@ remainder = Math.Remainder(num,
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5116524696350098 seconds
+Time taken: 0.6337919235229492 seconds
 Received response: 2) 2
 3) 3
 4) 4
@@ -529,17 +531,18 @@ remainder = Math.Remainder(num, 2
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.722111701965332 seconds
-Received response: )
+Time taken: 0.9102089405059814 seconds
+Received response: ) 
+
 If remainder = 0 Then
-    TextWindow.WriteLine("The number is even.")
+  TextWindow.WriteLine("The number is even.")
 Else
-    TextWindow.WriteLine("The number is odd.")
+  TextWindow.WriteLine("The number is odd.")
 EndIf
 Actual result:  )
 SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
 First element of precision:3.125
-Sequence Matcher Similarity Precision:0.015267175572519083
+Sequence Matcher Similarity Precision:0.015503875968992248
 Cosine Similarity Precision:0.0
 
 Parse State: 3	Cursor Position: 4 36
@@ -552,16 +555,16 @@ remainder = Math.Remainder(num, 2)
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.9886882305145264 seconds
-Received response: If (remainder = 0) Then
-    TextWindow.WriteLine("The number is even.")
-Else
-    TextWindow.WriteLine("The number is odd.")
+Time taken: 0.9681990146636963 seconds
+Received response: If remainder = 0 Then 
+  TextWindow.WriteLine("The number is even")
+Else 
+  TextWindow.WriteLine("The number is odd")
 EndIf
 Actual result:  \n If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf \n Goto begin
-SACREBLEU Score: {'score': 43.59005591520057, 'counts': [29, 22, 17, 14], 'totals': [33, 32, 31, 30], 'precisions': [87.87878787878788, 68.75, 54.83870967741935, 46.666666666666664], 'bp': 0.6951439283988788, 'sys_len': 33, 'ref_len': 45}
-First element of precision:87.87878787878788
-Sequence Matcher Similarity Precision:0.8068965517241379
+SACREBLEU Score: {'score': 33.23233609238326, 'counts': [27, 18, 13, 10], 'totals': [29, 28, 27, 26], 'precisions': [93.10344827586206, 64.28571428571429, 48.148148148148145, 38.46153846153846], 'bp': 0.5759559263708725, 'sys_len': 29, 'ref_len': 45}
+First element of precision:93.10344827586206
+Sequence Matcher Similarity Precision:0.8098591549295775
 Cosine Similarity Precision:0.9649012813540154
 
 Parse State: 11	Cursor Position: 5 1
@@ -574,16 +577,16 @@ remainder = Math.Remainder(num, 2)
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.9185028076171875 seconds
-Received response: If(remainder = 0) Then
-  TextWindow.WriteLine("The number is even.")
+Time taken: 1.028209924697876 seconds
+Received response: If (remainder = 0) Then
+    TextWindow.WriteLine("The number is even.")
 Else
-  TextWindow.WriteLine("The number is odd.")
+    TextWindow.WriteLine("The number is odd.")
 EndIf
 Actual result:  If ( remainder = 0 ) Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
 SACREBLEU Score: {'score': 52.28174315219607, 'counts': [29, 22, 17, 14], 'totals': [33, 32, 31, 30], 'precisions': [87.87878787878788, 68.75, 54.83870967741935, 46.666666666666664], 'bp': 0.8337529180751805, 'sys_len': 33, 'ref_len': 39}
 First element of precision:87.87878787878788
-Sequence Matcher Similarity Precision:0.8656716417910447
+Sequence Matcher Similarity Precision:0.8571428571428571
 Cosine Similarity Precision:1.0000000000000002
 
 Parse State: 10	Cursor Position: 5 4
@@ -597,18 +600,17 @@ If
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7199320793151855 seconds
-Received response: If remainder = 0 Then 
-    TextWindow.WriteLine("The number is even.") 
-Else 
-    TextWindow.WriteLine("The number is odd.") 
-EndIf 
-Goto begin
+Time taken: 0.9894571304321289 seconds
+Received response: If remainder = 0 Then
+    TextWindow.WriteLine("The number is even")
+Else
+    TextWindow.WriteLine("The number is odd")
+EndIf
 Actual result:  ( remainder = 0 )
-SACREBLEU Score: {'score': 4.750133160738243, 'counts': [5, 2, 1, 0], 'totals': [33, 32, 31, 30], 'precisions': [15.151515151515152, 6.25, 3.225806451612903, 1.6666666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 5}
-First element of precision:15.151515151515152
-Sequence Matcher Similarity Precision:0.19875776397515527
-Cosine Similarity Precision:0.18569533817705186
+SACREBLEU Score: {'score': 5.442133807846854, 'counts': [5, 2, 1, 0], 'totals': [29, 28, 27, 26], 'precisions': [17.24137931034483, 7.142857142857143, 3.7037037037037037, 1.9230769230769231], 'bp': 1.0, 'sys_len': 29, 'ref_len': 5}
+First element of precision:17.24137931034483
+Sequence Matcher Similarity Precision:0.22377622377622378
+Cosine Similarity Precision:0.19245008972987526
 
 Parse State: 23	Cursor Position: 5 5
 
@@ -621,15 +623,15 @@ If (
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6055290699005127 seconds
+Time taken: 0.8037137985229492 seconds
 Received response: If (remainder = 0) Then
-    TextWindow.WriteLine("The number is even")
+    TextWindow.WriteLine("The number is even.")
 Else
-    TextWindow.WriteLine("The number is odd")
+    TextWindow.WriteLine("The number is odd.")
 Actual result:  remainder
-SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
-First element of precision:3.3333333333333335
-Sequence Matcher Similarity Precision:0.15267175572519084
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.15037593984962405
 Cosine Similarity Precision:0.19611613513818404
 
 Parse State: 16	Cursor Position: 5 15
@@ -643,17 +645,16 @@ If (remainder
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.763411283493042 seconds
-Received response: = 0) Then 
-   TextWindow.WriteLine("The number is even.") 
-Else 
-   TextWindow.WriteLine("The number is odd.") 
-EndIf 
-Goto begin
+Time taken: 0.8197393417358398 seconds
+Received response: = 0) Then
+    TextWindow.WriteLine("The number is even.")
+Else
+    TextWindow.WriteLine("The number is odd.")
+EndIf
 Actual result:  = 0
-SACREBLEU Score: {'score': 2.319942766993901, 'counts': [2, 1, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [6.25, 3.225806451612903, 1.6666666666666667, 0.8620689655172413], 'bp': 1.0, 'sys_len': 32, 'ref_len': 2}
-First element of precision:6.25
-Sequence Matcher Similarity Precision:0.045112781954887216
+SACREBLEU Score: {'score': 2.4829886830705856, 'counts': [2, 1, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [6.666666666666667, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.05042016806722689
 Cosine Similarity Precision:0.0
 
 Parse State: 42	Cursor Position: 5 17
@@ -667,16 +668,16 @@ If (remainder =
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.9023456573486328 seconds
-Received response: If (remainder = 0) Then 
-    TextWindow.WriteLine(num + " is an even number.") 
-Else 
-    TextWindow.WriteLine(num + " is an odd number.") 
+Time taken: 0.9115731716156006 seconds
+Received response: If (remainder = 0) Then
+    TextWindow.WriteLine("The number is even.")
+Else
+    TextWindow.WriteLine("The number is odd.")
 EndIf
 Actual result:  0
-SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 1}
-First element of precision:2.7027027027027026
-Sequence Matcher Similarity Precision:0.027210884353741496
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.030534351145038167
 Cosine Similarity Precision:0.0
 
 Parse State: 54	Cursor Position: 5 18
@@ -690,7 +691,7 @@ If (remainder = 0
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5760910511016846 seconds
+Time taken: 0.7830665111541748 seconds
 Received response: Then
     TextWindow.WriteLine("The number is even.")
 Else
@@ -713,16 +714,17 @@ If (remainder = 0)
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5763978958129883 seconds
-Received response: TextWindow.WriteLine(num + " is an even number.") 
+Time taken: 0.9565355777740479 seconds
+Received response: TextWindow.WriteLine("The number is even.")
 Else
-TextWindow.WriteLine(num + " is an odd number.") 
+                'next token or line'
+                TextWindow.WriteLine("The number is odd.")
 EndIf
 Actual result:  Then \n TextWindow . WriteLine ( "The number is Even" ) \n Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
-SACREBLEU Score: {'score': 19.0047771832321, 'counts': [20, 8, 4, 2], 'totals': [30, 29, 28, 27], 'precisions': [66.66666666666667, 27.586206896551722, 14.285714285714286, 7.407407407407407], 'bp': 0.9048374180359595, 'sys_len': 30, 'ref_len': 33}
-First element of precision:66.66666666666667
-Sequence Matcher Similarity Precision:0.6495726495726496
-Cosine Similarity Precision:0.7559289460184545
+SACREBLEU Score: {'score': 45.55030267711705, 'counts': [22, 16, 12, 10], 'totals': [30, 29, 28, 27], 'precisions': [73.33333333333333, 55.172413793103445, 42.857142857142854, 37.03703703703704], 'bp': 0.9048374180359595, 'sys_len': 30, 'ref_len': 33}
+First element of precision:73.33333333333333
+Sequence Matcher Similarity Precision:0.6813186813186813
+Cosine Similarity Precision:0.9071147352221454
 
 Parse State: 63	Cursor Position: 5 27
 
@@ -735,7 +737,7 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.44591307640075684 seconds
+Time taken: 0.5730569362640381 seconds
 Received response: TextWindow.WriteLine("The number is even.")
 Actual result:  \n TextWindow . WriteLine ( "The number is Even" ) \n
 SACREBLEU Score: {'score': 52.212571114499305, 'counts': [10, 8, 6, 5], 'totals': [12, 11, 10, 9], 'precisions': [83.33333333333333, 72.72727272727273, 60.0, 55.55555555555556], 'bp': 0.7788007830714049, 'sys_len': 12, 'ref_len': 15}
@@ -754,13 +756,16 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5222568511962891 seconds
+Time taken: 0.7463476657867432 seconds
 Received response: TextWindow.WriteLine("The number is even.")
+Else
+TextWindow.WriteLine("The number is odd.")
+EndIf
 Actual result:  TextWindow . WriteLine ( "The number is Even" )
-SACREBLEU Score: {'score': 67.0422683816333, 'counts': [10, 8, 6, 5], 'totals': [12, 11, 10, 9], 'precisions': [83.33333333333333, 72.72727272727273, 60.0, 55.55555555555556], 'bp': 1.0, 'sys_len': 12, 'ref_len': 11}
-First element of precision:83.33333333333333
-Sequence Matcher Similarity Precision:0.9010989010989011
-Cosine Similarity Precision:1.0000000000000002
+SACREBLEU Score: {'score': 28.59826603326731, 'counts': [10, 8, 6, 5], 'totals': [26, 25, 24, 23], 'precisions': [38.46153846153846, 32.0, 25.0, 21.73913043478261], 'bp': 1.0, 'sys_len': 26, 'ref_len': 11}
+First element of precision:38.46153846153846
+Sequence Matcher Similarity Precision:0.5655172413793104
+Cosine Similarity Precision:0.916666666666667
 
 Parse State: 6	Cursor Position: 6 12
 
@@ -774,17 +779,28 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7391130924224854 seconds
+Time taken: 1.6554715633392334 seconds
 Received response: .WriteLine("The number is even.") 
-Else 
+Else   
 	TextWindow.WriteLine("The number is odd.") 
-EndIf 
-Goto begin
+EndIf
+
+Here is the complete code with the replacement:
+
+begin:
+TextWindow.Write("Enter a number: ")
+num = TextWindow.ReadNumber()
+remainder = Math.Remainder(num, 2)
+If (remainder = 0) Then
+	TextWindow.WriteLine("The number is even.")
+Else
+	TextWindow.WriteLine("The number is odd.")
+EndIf
 Actual result:  . WriteLine ( "The number is Even" )
-SACREBLEU Score: {'score': 23.386786214190362, 'counts': [9, 7, 5, 4], 'totals': [27, 26, 25, 24], 'precisions': [33.333333333333336, 26.923076923076923, 20.0, 16.666666666666668], 'bp': 1.0, 'sys_len': 27, 'ref_len': 10}
-First element of precision:33.333333333333336
-Sequence Matcher Similarity Precision:0.44285714285714284
-Cosine Similarity Precision:0.8392543274162824
+SACREBLEU Score: {'score': 6.239058097123395, 'counts': [9, 7, 5, 4], 'totals': [97, 96, 95, 94], 'precisions': [9.278350515463918, 7.291666666666667, 5.2631578947368425, 4.25531914893617], 'bp': 1.0, 'sys_len': 97, 'ref_len': 10}
+First element of precision:9.278350515463918
+Sequence Matcher Similarity Precision:0.15012106537530268
+Cosine Similarity Precision:0.7590721152765896
 
 Parse State: 30	Cursor Position: 6 13
 
@@ -798,13 +814,13 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5607128143310547 seconds
-Received response: Write("The number is even")
+Time taken: 0.5858187675476074 seconds
+Received response: TextWindow.WriteLine("The number is even.")
 Actual result:  WriteLine ( "The number is Even" )
-SACREBLEU Score: {'score': 51.33450480401705, 'counts': [7, 5, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
-First element of precision:77.77777777777777
-Sequence Matcher Similarity Precision:0.8387096774193549
-Cosine Similarity Precision:0.7999999999999999
+SACREBLEU Score: {'score': 46.92470064105597, 'counts': [8, 6, 4, 3], 'totals': [12, 11, 10, 9], 'precisions': [66.66666666666667, 54.54545454545455, 40.0, 33.333333333333336], 'bp': 1.0, 'sys_len': 12, 'ref_len': 9}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.7692307692307693
+Cosine Similarity Precision:0.9128709291752769
 
 Parse State: 58	Cursor Position: 6 22
 
@@ -818,16 +834,13 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.7073454856872559 seconds
-Received response: TextWindow.WriteLine("The number is even.")
-Else
-	TextWindow.WriteLine("The number is odd.")
-EndIf
+Time taken: 0.5578477382659912 seconds
+Received response: TextWindow.WriteLine(num + " is an even number.")
 Actual result:  ( "The number is Even" )
-SACREBLEU Score: {'score': 15.553986407412198, 'counts': [7, 5, 3, 2], 'totals': [26, 25, 24, 23], 'precisions': [26.923076923076923, 20.0, 12.5, 8.695652173913043], 'bp': 1.0, 'sys_len': 26, 'ref_len': 8}
-First element of precision:26.923076923076923
-Sequence Matcher Similarity Precision:0.34146341463414637
-Cosine Similarity Precision:0.7144345083117604
+SACREBLEU Score: {'score': 7.474875887495341, 'counts': [6, 1, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [42.857142857142854, 7.6923076923076925, 4.166666666666667, 2.272727272727273], 'bp': 1.0, 'sys_len': 14, 'ref_len': 8}
+First element of precision:42.857142857142854
+Sequence Matcher Similarity Precision:0.35135135135135137
+Cosine Similarity Precision:0.5669467095138407
 
 Parse State: 83	Cursor Position: 6 23
 
@@ -841,15 +854,15 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5982081890106201 seconds
-Received response: TextWindow.WriteLine("The number is even.")
+Time taken: 0.6904854774475098 seconds
+Received response: TextWindow.WriteLine("The number is even")
 Else
-	TextWindow.WriteLine("The number is odd.")
+	TextWindow.WriteLine("The number is odd")
 EndIf
 Actual result:  "The number is Even"
-SACREBLEU Score: {'score': 9.562406574442013, 'counts': [5, 3, 2, 1], 'totals': [26, 25, 24, 23], 'precisions': [19.23076923076923, 12.0, 8.333333333333334, 4.3478260869565215], 'bp': 1.0, 'sys_len': 26, 'ref_len': 6}
-First element of precision:19.23076923076923
-Sequence Matcher Similarity Precision:0.31932773109243695
+SACREBLEU Score: {'score': 10.414419091986518, 'counts': [5, 3, 2, 1], 'totals': [24, 23, 22, 21], 'precisions': [20.833333333333332, 13.043478260869565, 9.090909090909092, 4.761904761904762], 'bp': 1.0, 'sys_len': 24, 'ref_len': 6}
+First element of precision:20.833333333333332
+Sequence Matcher Similarity Precision:0.3247863247863248
 Cosine Similarity Precision:0.7144345083117604
 
 Parse State: 92	Cursor Position: 6 43
@@ -864,14 +877,15 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5329873561859131 seconds
+Time taken: 0.7764105796813965 seconds
 Received response: TextWindow.WriteLine("The number is Even")
 Else
 	TextWindow.WriteLine("The number is Odd")
+EndIf
 Actual result:  )
-SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
-First element of precision:4.3478260869565215
-Sequence Matcher Similarity Precision:0.043478260869565216
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.04081632653061224
 Cosine Similarity Precision:0.0
 
 Parse State: 65	Cursor Position: 6 45
@@ -886,12 +900,14 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.43923330307006836 seconds
-Received response: TextWindow.WriteLine("The number is Even.")
+Time taken: 0.7778680324554443 seconds
+Received response: TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd")
 Actual result:  \n
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 2}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.043478260869565216
+Sequence Matcher Similarity Precision:0.020618556701030927
 Cosine Similarity Precision:0.0
 
 Parse State: 87	Cursor Position: 7 1
@@ -906,15 +922,13 @@ If (remainder = 0) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.9985263347625732 seconds
-Received response: TextWindow.WriteLine("The number is Even") 
-Else
-	TextWindow.WriteLine("The number is Odd")
+Time taken: 0.5296008586883545 seconds
+Received response: Goto begin:
 Actual result:  Else \n TextWindow . WriteLine ( "The number is Odd" ) \n EndIf
-SACREBLEU Score: {'score': 44.90332324149124, 'counts': [12, 10, 9, 8], 'totals': [23, 22, 21, 20], 'precisions': [52.17391304347826, 45.45454545454545, 42.857142857142854, 40.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 17}
-First element of precision:52.17391304347826
-Sequence Matcher Similarity Precision:0.5419354838709678
-Cosine Similarity Precision:0.8846517369293826
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.009403562551495206, 'sys_len': 3, 'ref_len': 17}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18666666666666668
+Cosine Similarity Precision:0.0
 
 Parse State: 100	Cursor Position: 7 8
 
@@ -929,7 +943,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5570673942565918 seconds
+Time taken: 0.517831563949585 seconds
 Received response: TextWindow.WriteLine("The number is Odd")
 Actual result:  \n TextWindow . WriteLine ( "The number is Odd" ) \n
 SACREBLEU Score: {'score': 69.51439283988792, 'counts': [11, 10, 9, 8], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 0.6951439283988788, 'sys_len': 11, 'ref_len': 15}
@@ -950,12 +964,12 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5119647979736328 seconds
-Received response: TextWindow.WriteLine("The number is odd")
+Time taken: 0.7582495212554932 seconds
+Received response: TextWindow.WriteLine("The number is Odd")
 Actual result:  TextWindow . WriteLine ( "The number is Odd" )
-SACREBLEU Score: {'score': 74.19446627365011, 'counts': [10, 8, 6, 5], 'totals': [11, 10, 9, 8], 'precisions': [90.9090909090909, 80.0, 66.66666666666667, 62.5], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
-First element of precision:90.9090909090909
-Sequence Matcher Similarity Precision:0.9090909090909091
+SACREBLEU Score: {'score': 100.00000000000004, 'counts': [11, 10, 9, 8], 'totals': [11, 10, 9, 8], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 11}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.9318181818181818
 Cosine Similarity Precision:1.0000000000000002
 
 Parse State: 6	Cursor Position: 8 12
@@ -972,7 +986,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.46958327293395996 seconds
+Time taken: 0.6389129161834717 seconds
 Received response: .WriteLine("The number is Odd")
 Actual result:  . WriteLine ( "The number is Odd" )
 SACREBLEU Score: {'score': 100.00000000000004, 'counts': [10, 9, 8, 7], 'totals': [10, 9, 8, 7], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
@@ -994,7 +1008,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5496466159820557 seconds
+Time taken: 0.7446260452270508 seconds
 Received response: TextWindow.WriteLine("The number is Odd")
 Actual result:  WriteLine ( "The number is Odd" )
 SACREBLEU Score: {'score': 78.60753021519781, 'counts': [9, 8, 7, 6], 'totals': [11, 10, 9, 8], 'precisions': [81.81818181818181, 80.0, 77.77777777777777, 75.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 9}
@@ -1016,7 +1030,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4117929935455322 seconds
+Time taken: 0.5578596591949463 seconds
 Received response: ("The number is Odd")
 Actual result:  ( "The number is Odd" )
 SACREBLEU Score: {'score': 100.00000000000004, 'counts': [8, 7, 6, 5], 'totals': [8, 7, 6, 5], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 8}
@@ -1038,7 +1052,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.3828885555267334 seconds
+Time taken: 0.5531041622161865 seconds
 Received response: "The number is Odd"
 Actual result:  "The number is Odd"
 SACREBLEU Score: {'score': 100.00000000000004, 'counts': [6, 5, 4, 3], 'totals': [6, 5, 4, 3], 'precisions': [100.0, 100.0, 100.0, 100.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
@@ -1060,7 +1074,7 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.42150330543518066 seconds
+Time taken: 0.4728245735168457 seconds
 Received response: EndIf
 Actual result:  )
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
@@ -1082,12 +1096,13 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6169068813323975 seconds
-Received response: Goto begin
+Time taken: 0.5499300956726074 seconds
+Received response: next token or line: 
+Goto begin
 Actual result:  \n
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.3076923076923077
+Sequence Matcher Similarity Precision:0.058823529411764705
 Cosine Similarity Precision:0.0
 
 Parse State: 107	Cursor Position: 9 1
@@ -1104,13 +1119,18 @@ Else
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4884004592895508 seconds
-Received response: 'Goto begin'
+Time taken: 1.095947265625 seconds
+Received response: TextWindow.WriteLine("Do you want to enter another number? (Y/N)")
+choice = TextWindow.Read()
+If (choice = "Y" Or choice = "y") Then
+    Goto begin
+EndIf
+TextWindow.WriteLine("Program ends.")
 Actual result:  EndIf
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.2222222222222222
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 0.6609918289641935, 'counts': [1, 0, 0, 0], 'totals': [55, 54, 53, 52], 'precisions': [1.8181818181818181, 0.9259259259259259, 0.4716981132075472, 0.2403846153846154], 'bp': 1.0, 'sys_len': 55, 'ref_len': 1}
+First element of precision:1.8181818181818181
+Sequence Matcher Similarity Precision:0.06091370558375635
+Cosine Similarity Precision:0.16222142113076254
 
 Parse State: 3	Cursor Position: 9 7
 
@@ -1127,12 +1147,12 @@ EndIf
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4252762794494629 seconds
-Received response: 'Goto begin'
+Time taken: 0.5288445949554443 seconds
+Received response: Goto begin
 Actual result:  \n Goto begin
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 2, 'ref_len': 4}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.7692307692307693
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [100.0, 100.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 2, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.8333333333333334
 Cosine Similarity Precision:0.9999999999999998
 
 Parse State: 11	Cursor Position: 10 1
@@ -1150,13 +1170,15 @@ EndIf
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6497981548309326 seconds
-Received response: 'Goto begin'
+Time taken: 0.6247904300689697 seconds
+Received response: Let's add the next line to complete the code:
+
+Goto begin
 Actual result:  Goto begin
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.8695652173913043
-Cosine Similarity Precision:0.9999999999999998
+SACREBLEU Score: {'score': 6.772997136689072, 'counts': [2, 1, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.3235294117647059
+Cosine Similarity Precision:0.39223227027636803
 
 Parse State: 7	Cursor Position: 10 6
 
@@ -1174,15 +1196,24 @@ Goto
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.35559821128845215 seconds
-Received response: begin
+Time taken: 1.1930432319641113 seconds
+Received response: begin: 
+TextWindow.Write("Enter a number: ") 
+num = TextWindow.ReadNumber() 
+remainder = Math.Remainder(num, 2) 
+If (remainder = 0) Then   
+	TextWindow.WriteLine("The number is Even") 
+Else   
+	TextWindow.WriteLine("The number is Odd") 
+EndIf 
+Goto begin
 Actual result:  begin
-SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
-First element of precision:100.0
-Sequence Matcher Similarity Precision:0.9090909090909091
-Cosine Similarity Precision:1.0
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.046153846153846156
+Cosine Similarity Precision:0.24806946917841693
 
 
-Average Precision: 39.022854569503885
-Average Sequence Matcher Similarity Precision: 40.28295765529848
-Average Cosine Similarity Precision: 46.51723331292148
+Average Precision: 37.988927521040765
+Average Sequence Matcher Similarity Precision: 36.449651634668285
+Average Cosine Similarity Precision: 41.25880638999575

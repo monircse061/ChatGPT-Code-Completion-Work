@@ -1,16 +1,16 @@
 Parse State: 0	Cursor Position: 1 1
 
                 This is the incomplete Small Basic programming language code:
-                I
+                
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5625152587890625 seconds
-Received response: 'NEXT'
+Time taken: 0.4984102249145508 seconds
+Received response: 'next token'
 Actual result:  If ( Clock . Hour < 12 ) Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.026187963170189e-10, 'sys_len': 1, 'ref_len': 24}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.670170079024566e-05, 'sys_len': 2, 'ref_len': 24}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.020833333333333332
+Sequence Matcher Similarity Precision:0.1568627450980392
 Cosine Similarity Precision:0.0
 
 Parse State: 10	Cursor Position: 1 4
@@ -20,12 +20,16 @@ Parse State: 10	Cursor Position: 1 4
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5100078582763672 seconds
-Received response: next token or line:  'Condition Then'
+Time taken: 1.0455551147460938 seconds
+Received response: 'next token or line'
+                
+If condition Then
+  'next token or line' 
+EndIf
 Actual result:  ( Clock . Hour < 12 )
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 7}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.3050847457627119
+Sequence Matcher Similarity Precision:0.16822429906542055
 Cosine Similarity Precision:0.0
 
 Parse State: 23	Cursor Position: 1 5
@@ -35,14 +39,12 @@ Parse State: 23	Cursor Position: 1 5
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6094560623168945 seconds
-Received response: 'next token or line' = condition Then
-  'code block
-EndIf
+Time taken: 0.5439541339874268 seconds
+Received response: 'next token or line'
 Actual result:  Clock . Hour
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.14285714285714285
+Sequence Matcher Similarity Precision:0.36363636363636365
 Cosine Similarity Precision:0.0
 
 Parse State: 22	Cursor Position: 1 10
@@ -52,15 +54,14 @@ Parse State: 22	Cursor Position: 1 10
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5927040576934814 seconds
+Time taken: 0.6668431758880615 seconds
 Received response: = 12) Then
-  TextWindow.WriteLine("Good morning!")
-Else
-  TextWindow.WriteLine("Good afternoon!")
+  TextWindow.WriteLine("It's noon!")
+EndIf
 Actual result:  . Hour
-SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 2}
-First element of precision:4.0
-Sequence Matcher Similarity Precision:0.07692307692307693
+SACREBLEU Score: {'score': 2.627961710408444, 'counts': [1, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.13333333333333333
 Cosine Similarity Precision:0.0
 
 Parse State: 53	Cursor Position: 1 11
@@ -70,12 +71,13 @@ Parse State: 53	Cursor Position: 1 11
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.0233218669891357 seconds
-Received response: Now I need more information to complete the code. What is the specific task or condition that should be checked after "Clock." in the If statement? Please provide additional details so that I can help you accurately.
+Time taken: 1.494185447692871 seconds
+Received response: Now, I see that you are trying to use the 'Clock' object, but you have not provided enough information about what you want to do with it. 
+In order to proceed, I need to know what specific action or property you want to perform or access with the 'Clock' object. Could you please provide more context or details about your goal so that I can assist you better?
 Actual result:  Hour
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 43, 'ref_len': 1}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [74, 73, 72, 71], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 74, 'ref_len': 1}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.03619909502262444
+Sequence Matcher Similarity Precision:0.021917808219178082
 Cosine Similarity Precision:0.0
 
 Parse State: 17	Cursor Position: 1 16
@@ -85,7 +87,7 @@ Parse State: 17	Cursor Position: 1 16
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6607728004455566 seconds
+Time taken: 0.7424898147583008 seconds
 Received response: = 12) Then
   TextWindow.WriteLine("It's noon!")
 EndIf
@@ -102,13 +104,15 @@ Parse State: 44	Cursor Position: 1 18
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.429912805557251 seconds
-Received response: 24
+Time taken: 0.5933270454406738 seconds
+Received response: 12 then
+  TextWindow.WriteLine("Good morning!")
+EndIf
 Actual result:  12
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
-First element of precision:0.0
-Sequence Matcher Similarity Precision:0.4
-Cosine Similarity Precision:0.0
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.3779644730092272
 
 Parse State: 54	Cursor Position: 1 20
 
@@ -117,15 +121,12 @@ Parse State: 54	Cursor Position: 1 20
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6057133674621582 seconds
-Received response: 
-Then
-  TextWindow.WriteLine("Good morning!")
-EndIf
+Time taken: 0.5903060436248779 seconds
+Received response: 'And Clock.Hour >= 6)'
 Actual result:  )
-SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
-First element of precision:8.333333333333334
-Sequence Matcher Similarity Precision:0.07547169811320754
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.16666666666666666
 Cosine Similarity Precision:0.0
 
 Parse State: 36	Cursor Position: 1 22
@@ -135,13 +136,13 @@ Parse State: 36	Cursor Position: 1 22
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.429532527923584 seconds
-Received response: ShowMessage("Good morning!")
+Time taken: 0.5767607688903809 seconds
+Received response: TextWindow.WriteLine("Good morning!")
 Actual result:  Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
-SACREBLEU Score: {'score': 9.509189748920098, 'counts': [5, 3, 1, 0], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 42.857142857142854, 16.666666666666668, 10.0], 'bp': 0.36787944117144233, 'sys_len': 8, 'ref_len': 16}
-First element of precision:62.5
-Sequence Matcher Similarity Precision:0.43010752688172044
-Cosine Similarity Precision:0.4364357804719848
+SACREBLEU Score: {'score': 31.909595403088403, 'counts': [8, 6, 4, 3], 'totals': [10, 9, 8, 7], 'precisions': [80.0, 66.66666666666667, 50.0, 42.857142857142854], 'bp': 0.5488116360940264, 'sys_len': 10, 'ref_len': 16}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.6862745098039216
+Cosine Similarity Precision:0.7559289460184544
 
 Parse State: 63	Cursor Position: 1 29
 
@@ -150,7 +151,7 @@ Parse State: 63	Cursor Position: 1 29
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.43540287017822266 seconds
+Time taken: 0.5565013885498047 seconds
 Received response: TextWindow.WriteLine("Good morning!")
 Actual result:  \n TextWindow . WriteLine ( "Good Morning World" ) \n
 SACREBLEU Score: {'score': 38.974467837107255, 'counts': [8, 6, 4, 3], 'totals': [10, 9, 8, 7], 'precisions': [80.0, 66.66666666666667, 50.0, 42.857142857142854], 'bp': 0.6703200460356393, 'sys_len': 10, 'ref_len': 14}
@@ -165,13 +166,13 @@ Parse State: 39	Cursor Position: 2 2
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5878136157989502 seconds
-Received response: GraphicsWindow.DrawText(100, 100, "Good morning!")
+Time taken: 0.5508668422698975 seconds
+Received response: Clock.ShowMessage("Good morning!")
 Actual result:  TextWindow . WriteLine ( "Good Morning World" )
-SACREBLEU Score: {'score': 8.889175589171739, 'counts': [6, 2, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [42.857142857142854, 15.384615384615385, 4.166666666666667, 2.272727272727273], 'bp': 1.0, 'sys_len': 14, 'ref_len': 10}
-First element of precision:42.857142857142854
-Sequence Matcher Similarity Precision:0.5102040816326531
-Cosine Similarity Precision:0.3162277660168379
+SACREBLEU Score: {'score': 20.556680845025987, 'counts': [6, 3, 1, 0], 'totals': [10, 9, 8, 7], 'precisions': [60.0, 33.333333333333336, 12.5, 7.142857142857143], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.4634146341463415
+Cosine Similarity Precision:0.4472135954999579
 
 Parse State: 6	Cursor Position: 2 12
 
@@ -181,13 +182,16 @@ Parse State: 6	Cursor Position: 2 12
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5627658367156982 seconds
+Time taken: 0.7703304290771484 seconds
 Received response: .WriteLine("Good morning!")
+Else
+	TextWindow.WriteLine("Good afternoon!")
+EndIf
 Actual result:  . WriteLine ( "Good Morning World" )
-SACREBLEU Score: {'score': 51.33450480401705, 'counts': [7, 5, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336], 'bp': 1.0, 'sys_len': 9, 'ref_len': 9}
-First element of precision:77.77777777777777
-Sequence Matcher Similarity Precision:0.78125
-Cosine Similarity Precision:0.8660254037844388
+SACREBLEU Score: {'score': 19.554016376461796, 'counts': [7, 5, 3, 2], 'totals': [21, 20, 19, 18], 'precisions': [33.333333333333336, 25.0, 15.789473684210526, 11.11111111111111], 'bp': 1.0, 'sys_len': 21, 'ref_len': 9}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.43103448275862066
+Cosine Similarity Precision:0.6933752452815365
 
 Parse State: 30	Cursor Position: 2 13
 
@@ -197,13 +201,14 @@ Parse State: 30	Cursor Position: 2 13
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.49106717109680176 seconds
+Time taken: 0.562551736831665 seconds
 Received response: Write("Good morning!")
+EndIf
 Actual result:  WriteLine ( "Good Morning World" )
-SACREBLEU Score: {'score': 25.848657697858535, 'counts': [5, 3, 1, 0], 'totals': [8, 7, 6, 5], 'precisions': [62.5, 42.857142857142854, 16.666666666666668, 10.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 8}
-First element of precision:62.5
-Sequence Matcher Similarity Precision:0.7017543859649122
-Cosine Similarity Precision:0.5773502691896258
+SACREBLEU Score: {'score': 22.31618068926665, 'counts': [5, 3, 1, 0], 'totals': [9, 8, 7, 6], 'precisions': [55.55555555555556, 37.5, 14.285714285714286, 8.333333333333334], 'bp': 1.0, 'sys_len': 9, 'ref_len': 8}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.6349206349206349
+Cosine Similarity Precision:0.5
 
 Parse State: 58	Cursor Position: 2 22
 
@@ -213,7 +218,7 @@ Parse State: 58	Cursor Position: 2 22
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5011940002441406 seconds
+Time taken: 0.5022797584533691 seconds
 Received response: ("Good morning!")
 Actual result:  ( "Good Morning World" )
 SACREBLEU Score: {'score': 30.739407647563215, 'counts': [5, 3, 1, 0], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 50.0, 20.0, 12.5], 'bp': 1.0, 'sys_len': 7, 'ref_len': 7}
@@ -229,13 +234,13 @@ Parse State: 83	Cursor Position: 2 23
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4840202331542969 seconds
-Received response: TextWindow.WriteLine("Good morning!")
+Time taken: 0.519658088684082 seconds
+Received response: "Good morning!"
 Actual result:  "Good Morning World"
-SACREBLEU Score: {'score': 9.287528999566801, 'counts': [3, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [30.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 5}
-First element of precision:30.0
-Sequence Matcher Similarity Precision:0.4482758620689655
-Cosine Similarity Precision:0.5773502691896258
+SACREBLEU Score: {'score': 23.643540225079384, 'counts': [3, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.7222222222222222
+Cosine Similarity Precision:0.816496580927726
 
 Parse State: 92	Cursor Position: 2 43
 
@@ -245,12 +250,13 @@ Parse State: 92	Cursor Position: 2 43
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4547240734100342 seconds
+Time taken: 0.5946025848388672 seconds
 Received response: TextWindow.WriteLine("It's still morning!")
+EndIf
 Actual result:  )
-SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
-First element of precision:9.090909090909092
-Sequence Matcher Similarity Precision:0.08888888888888889
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.0784313725490196
 Cosine Similarity Precision:0.0
 
 Parse State: 65	Cursor Position: 2 45
@@ -261,12 +267,12 @@ Parse State: 65	Cursor Position: 2 45
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5601112842559814 seconds
-Received response: TextWindow.WriteLine("It's still morning")
+Time taken: 0.5522129535675049 seconds
+Received response: TextWindow.WriteLine("Have a great day!")
 Actual result:  \n
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.044444444444444446
+Sequence Matcher Similarity Precision:0.045454545454545456
 Cosine Similarity Precision:0.0
 
 Parse State: 87	Cursor Position: 3 1
@@ -277,13 +283,12 @@ Parse State: 87	Cursor Position: 3 1
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6131618022918701 seconds
-Received response: Else
-   TextWindow.WriteLine("Good Afternoon World")
+Time taken: 0.6390511989593506 seconds
+Received response: TextWindow.WriteLine("It's before noon")
 Actual result:  EndIf
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.13793103448275862
+Sequence Matcher Similarity Precision:0.17391304347826086
 Cosine Similarity Precision:0.0
 
 Parse State: 3	Cursor Position: 3 6
@@ -295,12 +300,12 @@ EndIf
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5414538383483887 seconds
-Received response: TextWindow.WriteLine("It's still morning")
+Time taken: 0.6323385238647461 seconds
+Received response: TextWindow.WriteLine("It's still morning!")
 Actual result:  \n If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
-SACREBLEU Score: {'score': 8.253659918027914, 'counts': [7, 5, 3, 2], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 55.55555555555556, 37.5, 28.571428571428573], 'bp': 0.1826835240527346, 'sys_len': 10, 'ref_len': 27}
-First element of precision:70.0
-Sequence Matcher Similarity Precision:0.4264705882352941
+SACREBLEU Score: {'score': 9.42263706784995, 'counts': [7, 5, 3, 2], 'totals': [11, 10, 9, 8], 'precisions': [63.63636363636363, 50.0, 33.333333333333336, 25.0], 'bp': 0.23350647909091338, 'sys_len': 11, 'ref_len': 27}
+First element of precision:63.63636363636363
+Sequence Matcher Similarity Precision:0.4233576642335766
 Cosine Similarity Precision:0.26967994498529685
 
 Parse State: 11	Cursor Position: 4 1
@@ -312,14 +317,13 @@ EndIf
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5335214138031006 seconds
-Received response: Data = Clock.Date
-TextWindow.WriteLine("Today's date is " + Data)
+Time taken: 0.5930242538452148 seconds
+Received response: TextWindow.WriteLine("It's still morning!")
 Actual result:  If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
-SACREBLEU Score: {'score': 16.81548469788807, 'counts': [10, 5, 3, 2], 'totals': [17, 16, 15, 14], 'precisions': [58.8235294117647, 31.25, 20.0, 14.285714285714286], 'bp': 0.6246347280002744, 'sys_len': 17, 'ref_len': 25}
-First element of precision:58.8235294117647
-Sequence Matcher Similarity Precision:0.48717948717948717
-Cosine Similarity Precision:0.25087260300212727
+SACREBLEU Score: {'score': 11.301474170073364, 'counts': [7, 5, 3, 2], 'totals': [11, 10, 9, 8], 'precisions': [63.63636363636363, 50.0, 33.333333333333336, 25.0], 'bp': 0.2800667608216488, 'sys_len': 11, 'ref_len': 25}
+First element of precision:63.63636363636363
+Sequence Matcher Similarity Precision:0.43283582089552236
+Cosine Similarity Precision:0.26967994498529685
 
 Parse State: 10	Cursor Position: 4 4
 
@@ -331,13 +335,12 @@ If
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.49263453483581543 seconds
-Received response: (TextWindow.WriteLine("Good Afternoon World")
-EndIf
+Time taken: 0.5980446338653564 seconds
+Received response: (TextWindow.WriteLine("Good Afternoon World"))
 Actual result:  ( Clock . Hour >= 12 )
 SACREBLEU Score: {'score': 4.456882760699063, 'counts': [3, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [25.0, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 8}
 First element of precision:25.0
-Sequence Matcher Similarity Precision:0.1891891891891892
+Sequence Matcher Similarity Precision:0.2028985507246377
 Cosine Similarity Precision:0.0
 
 Parse State: 23	Cursor Position: 4 5
@@ -350,13 +353,15 @@ If (
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.8519160747528076 seconds
-Received response: Clock.Hour >= 12 AndAlso Clock.Hour < 18) Then
+Time taken: 0.6797652244567871 seconds
+Received response: (Clock.Hour >= 12) Then  
+    TextWindow.WriteLine("Good Afternoon World") 
+EndIf
 Actual result:  Clock . Hour
-SACREBLEU Score: {'score': 10.571070857151538, 'counts': [3, 2, 1, 0], 'totals': [14, 13, 12, 11], 'precisions': [21.428571428571427, 15.384615384615385, 8.333333333333334, 4.545454545454546], 'bp': 1.0, 'sys_len': 14, 'ref_len': 3}
-First element of precision:21.428571428571427
-Sequence Matcher Similarity Precision:0.3728813559322034
-Cosine Similarity Precision:0.816496580927726
+SACREBLEU Score: {'score': 7.12695567709093, 'counts': [3, 2, 1, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 10.526315789473685, 5.555555555555555, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.2127659574468085
+Cosine Similarity Precision:0.4472135954999579
 
 Parse State: 22	Cursor Position: 4 10
 
@@ -368,14 +373,14 @@ If (Clock
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6484458446502686 seconds
+Time taken: 0.6672430038452148 seconds
 Received response: .Minute < 30) Then
-  TextWindow.WriteLine("It's still early!")
+	TextWindow.WriteLine("It's still early")
 EndIf
 Actual result:  . Hour
-SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
-First element of precision:5.555555555555555
-Sequence Matcher Similarity Precision:0.08
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 2}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.0821917808219178
 Cosine Similarity Precision:0.0
 
 Parse State: 53	Cursor Position: 4 11
@@ -388,14 +393,14 @@ If (Clock.
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.6347546577453613 seconds
-Received response: Minute < 30) Then  
-  TextWindow.WriteLine("It's still morning!")  
+Time taken: 0.7627856731414795 seconds
+Received response: Minute > 0) Then
+  TextWindow.WriteLine("It's still morning!")
 EndIf
 Actual result:  Hour
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.05128205128205128
+Sequence Matcher Similarity Precision:0.0547945205479452
 Cosine Similarity Precision:0.0
 
 Parse State: 17	Cursor Position: 4 16
@@ -408,14 +413,14 @@ If (Clock.Hour
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 1.0432398319244385 seconds
-Received response: > 12) Then    
-    TextWindow.WriteLine("Good Afternoon World") 
+Time taken: 0.6496737003326416 seconds
+Received response: = 12) Then   
+	TextWindow.WriteLine("Good Afternoon World") 
 EndIf
 Actual result:  >= 12
-SACREBLEU Score: {'score': 3.1251907639724417, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+SACREBLEU Score: {'score': 5.255923420816887, 'counts': [2, 1, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 7.142857142857143, 3.8461538461538463, 2.0833333333333335], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
 First element of precision:13.333333333333334
-Sequence Matcher Similarity Precision:0.10526315789473684
+Sequence Matcher Similarity Precision:0.1111111111111111
 Cosine Similarity Precision:0.35355339059327373
 
 Parse State: 47	Cursor Position: 4 19
@@ -428,15 +433,13 @@ If (Clock.Hour >=
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5885882377624512 seconds
-Received response: 12) Then
-  TextWindow.WriteLine("Good Afternoon World")
-EndIf
+Time taken: 0.5895814895629883 seconds
+Received response: TextWindow.WriteLine("Good Afternoon World")
 Actual result:  12
-SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
-First element of precision:7.142857142857143
-Sequence Matcher Similarity Precision:0.0625
-Cosine Similarity Precision:0.35355339059327373
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0425531914893617
+Cosine Similarity Precision:0.0
 
 Parse State: 54	Cursor Position: 4 21
 
@@ -448,7 +451,7 @@ If (Clock.Hour >= 12
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5912888050079346 seconds
+Time taken: 0.7174346446990967 seconds
 Received response: And Clock.Hour < 18) Then
 	TextWindow.WriteLine("Good Afternoon World")
 EndIf
@@ -468,7 +471,7 @@ If (Clock.Hour >= 12)
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5334377288818359 seconds
+Time taken: 0.6038894653320312 seconds
 Received response: TextWindow.WriteLine("Good Afternoon World")
 Actual result:  Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
 SACREBLEU Score: {'score': 36.11383661346441, 'counts': [9, 7, 5, 3], 'totals': [10, 9, 8, 7], 'precisions': [90.0, 77.77777777777777, 62.5, 42.857142857142854], 'bp': 0.5488116360940264, 'sys_len': 10, 'ref_len': 16}
@@ -486,7 +489,7 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.545494556427002 seconds
+Time taken: 0.5782637596130371 seconds
 Received response: TextWindow.WriteLine("Good Afternoon World")
 Actual result:  \n TextWindow . WriteLine ( "Good Evening World" ) \n
 SACREBLEU Score: {'score': 44.109539647431156, 'counts': [9, 7, 5, 3], 'totals': [10, 9, 8, 7], 'precisions': [90.0, 77.77777777777777, 62.5, 42.857142857142854], 'bp': 0.6703200460356393, 'sys_len': 10, 'ref_len': 14}
@@ -504,7 +507,7 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.4676523208618164 seconds
+Time taken: 0.633366584777832 seconds
 Received response: TextWindow.WriteLine("Good Afternoon World")
 Actual result:  TextWindow . WriteLine ( "Good Evening World" )
 SACREBLEU Score: {'score': 65.80370064762461, 'counts': [9, 7, 5, 3], 'totals': [10, 9, 8, 7], 'precisions': [90.0, 77.77777777777777, 62.5, 42.857142857142854], 'bp': 1.0, 'sys_len': 10, 'ref_len': 10}
@@ -523,13 +526,13 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5647218227386475 seconds
-Received response: .WriteLine("Good Afternoon World") 
+Time taken: 0.5598235130310059 seconds
+Received response: .WriteLine("Good Afternoon World")
 EndIf
 Actual result:  . WriteLine ( "Good Evening World" )
 SACREBLEU Score: {'score': 52.53819788848316, 'counts': [8, 6, 4, 2], 'totals': [10, 9, 8, 7], 'precisions': [80.0, 66.66666666666667, 50.0, 28.571428571428573], 'bp': 1.0, 'sys_len': 10, 'ref_len': 9}
 First element of precision:80.0
-Sequence Matcher Similarity Precision:0.717948717948718
+Sequence Matcher Similarity Precision:0.7272727272727273
 Cosine Similarity Precision:0.6708203932499369
 
 Parse State: 30	Cursor Position: 5 13
@@ -543,7 +546,7 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5984776020050049 seconds
+Time taken: 0.5919256210327148 seconds
 Received response: TextWindow.WriteLine("Good Afternoon World")
 Actual result:  WriteLine ( "Good Evening World" )
 SACREBLEU Score: {'score': 37.99178428257963, 'counts': [7, 5, 3, 1], 'totals': [10, 9, 8, 7], 'precisions': [70.0, 55.55555555555556, 37.5, 14.285714285714286], 'bp': 1.0, 'sys_len': 10, 'ref_len': 8}
@@ -562,7 +565,7 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.503058671951294 seconds
+Time taken: 0.5611836910247803 seconds
 Received response: ("Good Afternoon World") 
 EndIf
 Actual result:  ( "Good Evening World" )
@@ -582,14 +585,13 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5124211311340332 seconds
-Received response: "Good Afternoon World") 
-EndIf
+Time taken: 0.6989450454711914 seconds
+Received response: "Good Afternoon World"
 Actual result:  "Good Evening World"
-SACREBLEU Score: {'score': 18.575057999133602, 'counts': [4, 2, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [57.142857142857146, 33.333333333333336, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 5}
-First element of precision:57.142857142857146
-Sequence Matcher Similarity Precision:0.6274509803921569
-Cosine Similarity Precision:0.5773502691896258
+SACREBLEU Score: {'score': 30.213753973567677, 'counts': [4, 2, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 50.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.7441860465116279
+Cosine Similarity Precision:0.6666666666666669
 
 Parse State: 92	Cursor Position: 5 43
 
@@ -602,7 +604,7 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.44801974296569824 seconds
+Time taken: 0.4752516746520996 seconds
 Received response: EndIf
 Actual result:  )
 SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
@@ -621,12 +623,12 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.464949369430542 seconds
-Received response: EndIf
+Time taken: 0.5489306449890137 seconds
+Received response: TextWindow.WriteLine("Have a nice day!")
 Actual result:  \n
-SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
 First element of precision:0.0
-Sequence Matcher Similarity Precision:0.25
+Sequence Matcher Similarity Precision:0.046511627906976744
 Cosine Similarity Precision:0.0
 
 Parse State: 87	Cursor Position: 6 1
@@ -640,17 +642,16 @@ If (Clock.Hour >= 12) Then
                 'next token or line'
                 Complete the 'next token or line' part of the code in the Small Basic programming language. Just show your answer in place of 'next token or line'. 
                 
-Time taken: 0.5407156944274902 seconds
-Received response: Else
-	TextWindow.WriteLine("Good Afternoon World")
+Time taken: 0.5836977958679199 seconds
+Received response: 'next token or line'
 EndIf
 Actual result:  EndIf
-SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
-First element of precision:8.333333333333334
-Sequence Matcher Similarity Precision:0.1935483870967742
-Cosine Similarity Precision:0.3779644730092272
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:0.4472135954999579
 
 
-Average Precision: 33.03182692965974
-Average Sequence Matcher Similarity Precision: 35.20752220534597
-Average Cosine Similarity Precision: 32.58611579827635
+Average Precision: 34.25781397917621
+Average Sequence Matcher Similarity Precision: 35.232589773498134
+Average Cosine Similarity Precision: 33.3215910361528
