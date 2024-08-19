@@ -11,7 +11,7 @@ import chardet
 import pandas as pd
 
 
-PL_NAME = ''
+PL_NAME = 'Small Basic'
 if len(sys.argv) != 2:
     print(f"Usage: python {sys.argv[0]} <PL_NAME>")
     sys.exit(1)
