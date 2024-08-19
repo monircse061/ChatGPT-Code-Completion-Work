@@ -71,7 +71,7 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                                 if char == ' ':
                                     current_column += 1
                                 elif char == '\t':  # Counting tabs as one character
-                                    current_column += 1  # Assuming tab width is 4 spaces
+                                    current_column += 1  # Assuming tab width is 1 spaces
                                 else:
                                     current_column += 1
                                 if current_column >= column_num:
@@ -127,14 +127,20 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                 modified_struct_candi = ' '.join(modified_words)
                 # print(index, state, resulted_prefix, " | ", modified_struct_candi, " | ", text_candi)
                 print ("\nParse State: ", state, " Cursor Position: ", cursor_position, "\n")
-                # Define the prompt-------------------------------------------------------------
+                # # Define the prompt-------------------------------------------------------------
+                # prompt = f"""
+                # This is the incomplete {prog_lan} programming language code:
+                # {resulted_prefix}
+                # '{modified_struct_candi}'
+                # Complete the '{modified_struct_candi}' part of the code in the {prog_lan} programming language. Just show your answer in place of '{modified_struct_candi}'. 
+                # """ #Complete just the content of the curly brace (inside) part of the '{modified_struct_candi}'. Do not produce curly brace in the output.
+                # ----Prompt Without Candidate Guidance----------
                 prompt = f"""
                 This is the incomplete {prog_lan} programming language code:
                 {resulted_prefix}
-                '{modified_struct_candi}'
-                Complete the '{modified_struct_candi}' part of the code in the {prog_lan} programming language. Just show your answer in place of '{modified_struct_candi}'. 
+                'next token or line'
+                Complete the 'next token or line' part of the code in the {prog_lan} programming language. Just show your answer in place of 'next token or line'. 
                 """
-                #Complete just the content of the curly brace (inside) part of the '{modified_struct_candi}'. Do not produce curly brace in the output.
                 print (prompt)
                 # Send the query and measure time----------------------------------------------------------------
                 start_time = time.time()
@@ -206,11 +212,11 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
     except FileNotFoundError:
         print("File not found:", file_name)
 
-infile = './C11_Text_Cand/copy_io.i.textual_collection.txt' # data file 
-infile1 = './C11_Sample/chapter_1/exercise_1_09/copy_io.i'   # source code file
-prog_lan= "C11"            # programming language
-encoding = 'utf-8'
-read_data(infile, infile1,prog_lan,encoding)
+# infile = './C11_Text_Cand/copy_io.i.textual_collection.txt' # data file 
+# infile1 = './C11_Sample/chapter_1/exercise_1_09/copy_io.i'   # source code file
+# prog_lan= "C11"            # programming language
+# encoding = 'utf-8'
+# read_data(infile, infile1,prog_lan,encoding)
 
 # infile = './C11/loop.i.textual_collection.txt' # textual data file 
 # infile1 = './C11/loop.i'   # source code file
@@ -218,23 +224,37 @@ read_data(infile, infile1,prog_lan,encoding)
 # encoding = 'utf-8'
 # read_data(infile, infile1,prog_lan,encoding)
 
+
 # infile = './SB_Data/07_For.data' # data file 
 # infile1 = './SB_Sample/07_For.sb'   # source code file
 # prog_lan= "Small Basic"
 # encoding = 'utf-16'
 # read_data(infile, infile1,prog_lan,encoding)
 
-# # If you use Shell_Script_for_SB, uncomment the rest of the code and comment out the above eight lines of code.
-# def main():
-#     if len(sys.argv) != 4:
-#         print("Usage: python read_datafile_as_text.py <datafile> <sbfile> <prog_lan>")
-#         sys.exit(1)
+# Define the folders
+data_folder = './SB_Data'
+sample_folder = './SB_Sample'
+prog_lan = "Small Basic"
+encoding = 'utf-16'
 
-#     datafile = sys.argv[1]
-#     sbfile = sys.argv[2]
-#     prog_lan = sys.argv[3]
+# List all files in the SB_Data folder
+for data_file in os.listdir(data_folder):
+    if data_file.endswith('.data'):
+        # Get the base file name without the extension
+        base_name = os.path.splitext(data_file)[0]
+        
+        # Construct the corresponding file path in SB_Sample folder
+        sample_file = f"{base_name}.sb"
+        sample_file_path = os.path.join(sample_folder, sample_file).replace("\\", "/")
+        
+        # Construct the data file path
+        data_file_path = os.path.join(data_folder, data_file).replace("\\", "/")
+        
+        # Check if the corresponding .sb file exists
+        if os.path.exists(sample_file_path):
+            read_data(data_file_path, sample_file_path, prog_lan, encoding)
+        else:
+            print(f"Warning: No corresponding .sb file found for {data_file}")
 
-#     read_data(datafile, sbfile, prog_lan)
 
-# if __name__ == "__main__":
-#     main()
+
