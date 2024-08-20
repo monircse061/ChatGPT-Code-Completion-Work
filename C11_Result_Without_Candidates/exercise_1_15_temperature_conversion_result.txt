@@ -1,0 +1,3754 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.584094762802124 seconds
+Received response: #include <stdio.h>
+
+double celsius_to_fahrenheit(double celsius) {
+    return (celsius * 9/5) + 32;
+}
+
+double fahrenheit_to_celsius(double fahrenheit) {
+    return (fahrenheit - 32) * 5/9;
+}
+
+int main() {
+    double celsius = 25.0;
+    double fahrenheit = celsius_to_fahrenheit(celsius);
+
+    printf("%.2f Celsius is equal to %.2f Fahrenheit\n", celsius, fahrenheit);
+
+    fahrenheit = 77.0;
+    celsius = fahrenheit_to_celsius(fahrenheit);
+
+    printf("%.2f Fahrenheit is equal to %.2f Celsius\n", fahrenheit, celsius);
+
+    return 0;
+}
+Actual result:  float
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [140, 139, 138, 137], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 140, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014732965009208104
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 741 7
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.868618965148926 seconds
+Received response: include <stdio.h>
+
+float convert_to_fahrenheit(float celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+
+float convert_to_celsius(float fahrenheit) {
+    float celsius = (fahrenheit - 32) * 5/9;
+    return celsius;
+}
+
+int main() {
+    float celsius, fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = convert_to_fahrenheit(celsius);
+    printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahrenheit);
+
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%f", &fahrenheit);
+
+    celsius = convert_to_celsius(fahrenheit);
+    printf("%.2f degrees Fahrenheit is equal to %.2f degrees Celsius\n", fahrenheit, celsius);
+
+    return 0;
+}
+Actual result:  celsius_to_fahrenheit VARIABLE
+SACREBLEU Score: {'score': 1.2285499353640483, 'counts': [5, 3, 2, 1], 'totals': [192, 191, 190, 189], 'precisions': [2.6041666666666665, 1.5706806282722514, 1.0526315789473684, 0.5291005291005291], 'bp': 1.0, 'sys_len': 192, 'ref_len': 6}
+First element of precision:2.6041666666666665
+Sequence Matcher Similarity Precision:0.04871794871794872
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 28
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.794536828994751 seconds
+Received response: float celsius_to_fahrenheit(float celsius) {
+    return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02127659574468085
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 28
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.0294604301452637 seconds
+Received response: {
+    (float celsius) {
+    return (celsius * 9 / 5) + 32;
+}
+}
+Actual result:  ( int celsius VARIABLE )
+SACREBLEU Score: {'score': 2.6643211213888947, 'counts': [3, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [15.789473684210526, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 5}
+First element of precision:15.789473684210526
+Sequence Matcher Similarity Precision:0.27586206896551724
+Cosine Similarity Precision:0.4364357804719848
+
+Parse State: 186	Cursor Position: 741 29
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9133572578430176 seconds
+Received response: float celsius_to_fahrenheit(float celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;  
+    return fahrenheit;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.016666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 741 33
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1450276374816895 seconds
+Received response: float celsius_to_fahrenheit(int celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 2}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.13953488372093023
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 65	Cursor Position: 741 40
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.546992063522339 seconds
+Received response: { 
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.024691358024691357
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 40
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6002087593078613 seconds
+Received response: {
+    return (celsius * 9 / 5) + 32;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 741 41
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0007514953613281 seconds
+Received response: I'm sorry, but without the full context of the code surrounding the 'next token or line' part, I am unable to provide the correct answer. Please provide more information or context so I can assist you further.
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.009478672985781991
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9226968288421631 seconds
+Received response: {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5287060737609863 seconds
+Received response: extern int __underflow(FILE *, int);
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7023298740386963 seconds
+Received response: int main() {
+    float celsius = 0;
+    float fahrenheit = 0;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = celsius_to_fahrenheit(celsius);
+
+    printf("%.2f Celsius is equal to %.2f Fahrenheit\n", celsius, fahrenheit);
+
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [75, 74, 73, 72], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 75, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013745704467353952
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.486271619796753 seconds
+Received response: int main() {
+    float celsius;
+    float fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = celsius_to_fahrenheit(celsius);
+
+    printf("%.2f Celsius is equal to %.2f Fahrenheit\n", celsius, fahrenheit);
+
+    return 0;
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 0.6050397492149123, 'counts': [2, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [2.816901408450704, 0.7142857142857143, 0.36231884057971014, 0.18382352941176472], 'bp': 1.0, 'sys_len': 71, 'ref_len': 3}
+First element of precision:2.816901408450704
+Sequence Matcher Similarity Precision:0.02120141342756184
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0766174793243408 seconds
+Received response: int main(void) {
+    int celsius = 30;
+    float fahrenheit = celsius_to_fahrenheit(celsius);
+    
+    printf("%d degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahrenheit);
+    
+    return 0;
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.7144315612998046, 'counts': [1, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [1.9607843137254901, 1.0, 0.5102040816326531, 0.2604166666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 1}
+First element of precision:1.9607843137254901
+Sequence Matcher Similarity Precision:0.04608294930875576
+Cosine Similarity Precision:0.15075567228888181
+
+Parse State: 187	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5553133487701416 seconds
+Received response: {
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2047314643859863 seconds
+Received response: {
+    int celsius;
+    float fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%d", &celsius);
+
+    fahrenheit = celsius_to_fahrenheit(celsius);
+
+    printf("%.2f Celsius is equal to %.2f Fahrenheit\n", celsius, fahrenheit);
+
+    return 0;
+}
+Actual result:  { float celsius VARIABLE , fahr VARIABLE ; int lower VARIABLE , upper VARIABLE , step VARIABLE ; lower VARIABLE = 0 ; upper VARIABLE = 300 ; step VARIABLE = 30 ; printf VARIABLE ( " ) ; printf VARIABLE ( " ) ; celsius VARIABLE = lower VARIABLE ; while ( celsius VARIABLE <= upper VARIABLE ) { fahr VARIABLE = celsius_to_fahrenheit VARIABLE ( celsius VARIABLE ) ; printf VARIABLE ( " , celsius VARIABLE , fahr VARIABLE ) ; celsius VARIABLE += step VARIABLE ; } return 0 ; }
+SACREBLEU Score: {'score': 12.410645006434388, 'counts': [39, 21, 9, 4], 'totals': [67, 66, 65, 64], 'precisions': [58.208955223880594, 31.818181818181817, 13.846153846153847, 6.25], 'bp': 0.6202628493013871, 'sys_len': 67, 'ref_len': 99}
+First element of precision:58.208955223880594
+Sequence Matcher Similarity Precision:0.14986376021798364
+Cosine Similarity Precision:0.2282604362361425
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4574134349822998 seconds
+Received response: return 0;
+Actual result:  float
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.42445874214172363 seconds
+Received response: return 0;
+}
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.21428571428571427
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 16
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6177778244018555 seconds
+Received response: {
+  fahrenheit = celsius_to_fahrenheit(celsius);
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03389830508474576
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 745 16
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0629279613494873 seconds
+Received response: {
+  float fahrenheit = celsius_to_fahrenheit(celsius);
+  printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahrenheit);
+  return 0;
+}
+Actual result:  , fahr VARIABLE
+SACREBLEU Score: {'score': 0.8733042428534794, 'counts': [1, 0, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [2.380952380952381, 1.2195121951219512, 0.625, 0.32051282051282054], 'bp': 1.0, 'sys_len': 42, 'ref_len': 3}
+First element of precision:2.380952380952381
+Sequence Matcher Similarity Precision:0.0903954802259887
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 745 18
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4398074150085449 seconds
+Received response: return 0;
+}
+Actual result:  fahr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 22
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6495945453643799 seconds
+Received response: {
+  fahr = celsius_to_fahrenheit(celsius);
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03076923076923077
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 22
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3701808452606201 seconds
+Received response: {
+  celsius = 25.0;
+  fahr = celsius_to_fahrenheit(celsius);
+  printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahr);
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.8130350574508933, 'counts': [1, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [2.2222222222222223, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476], 'bp': 1.0, 'sys_len': 45, 'ref_len': 1}
+First element of precision:2.2222222222222223
+Sequence Matcher Similarity Precision:0.024539877300613498
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 746 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.69852876663208 seconds
+Received response: celsius = 0;
+  while (celsius <= 100)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%6.1f\t%6.1f\n", celsius, fahr);
+    celsius += 10;
+  }
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.4877178495671594, 'counts': [1, 0, 0, 0], 'totals': [74, 73, 72, 71], 'precisions': [1.3513513513513513, 0.684931506849315, 0.3472222222222222, 0.176056338028169], 'bp': 1.0, 'sys_len': 74, 'ref_len': 1}
+First element of precision:1.3513513513513513
+Sequence Matcher Similarity Precision:0.03162055335968379
+Cosine Similarity Precision:0.11785113019775793
+
+Parse State: 93	Cursor Position: 746 7
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.568655252456665 seconds
+Received response: float
+
+  printf("Enter temperature in Celsius: ");
+  scanf("%f", &celsius);
+
+  fahr = celsius_to_fahrenheit(celsius);
+
+  printf("%.2f Celsius is equal to %.2f Fahrenheit\n", celsius, fahr);
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9/5) + 32;
+}
+Actual result:  lower VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [84, 83, 82, 81], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 84, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.033783783783783786
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 746 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9443068504333496 seconds
+Received response: upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 5;
+
+  celsius = lower;
+  
+  printf("Celsius to Fahrenheit Conversion Table\n");
+  printf("Celsius\t\tFahrenheit\n");
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9/5) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 118, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.004830917874396135
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 746 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5090951919555664 seconds
+Received response: int lower = 0;
+Actual result:  , upper VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.25806451612903225
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 746 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.054676055908203 seconds
+Received response: upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%.1f degrees Celsius is equal to %.1f degrees Fahrenheit\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+Actual result:  upper VARIABLE
+SACREBLEU Score: {'score': 0.4877178495671594, 'counts': [1, 0, 0, 0], 'totals': [74, 73, 72, 71], 'precisions': [1.3513513513513513, 0.684931506849315, 0.3472222222222222, 0.176056338028169], 'bp': 1.0, 'sys_len': 74, 'ref_len': 2}
+First element of precision:1.3513513513513513
+Sequence Matcher Similarity Precision:0.04794520547945205
+Cosine Similarity Precision:0.23717082451262844
+
+Parse State: 65	Cursor Position: 746 19
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7065951824188232 seconds
+Received response: Completing the code:
+
+```c
+  int lower, upper, step;
+
+  lower = 0; 
+  upper = 100; 
+  step = 10;
+
+  celsius = lower;
+
+  printf("Celsius     Fahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f        %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+```
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [90, 89, 88, 87], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 90, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0058823529411764705
+Cosine Similarity Precision:0.0
+
+Parse State: 61	Cursor Position: 746 19
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5355570316314697 seconds
+Received response: missing a semicolon ';'
+Actual result:  , step VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2564102564102564
+Cosine Similarity Precision:0.0
+
+Parse State: 110	Cursor Position: 746 21
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.2510857582092285 seconds
+Received response: step, step_size;
+
+  lower = 0;  // lower limit of temperature table
+  upper = 100;  // upper limit of temperature table
+  step_size = 10;  // step size for incrementing temperature
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius += step_size;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius) {
+  return (celsius * 9.0/5.0) + 32.0;
+}
+Actual result:  step VARIABLE
+SACREBLEU Score: {'score': 0.27949976322926645, 'counts': [1, 0, 0, 0], 'totals': [128, 127, 126, 125], 'precisions': [0.78125, 0.3937007874015748, 0.1984126984126984, 0.1], 'bp': 1.0, 'sys_len': 128, 'ref_len': 2}
+First element of precision:0.78125
+Sequence Matcher Similarity Precision:0.024291497975708502
+Cosine Similarity Precision:0.1178511301977579
+
+Parse State: 65	Cursor Position: 746 25
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7550737857818604 seconds
+Received response: ,
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  
+  printf("Celsius to Fahrenheit Conversion\n");
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [87, 86, 85, 84], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 87, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.006329113924050633
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 746 25
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.823063850402832 seconds
+Received response: int lower, upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  printf("Celsius\tFahrenheit\n");
+  printf("-------\t----------\n");
+  
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.39069654668133785, 'counts': [1, 0, 0, 0], 'totals': [92, 91, 90, 89], 'precisions': [1.0869565217391304, 0.5494505494505495, 0.2777777777777778, 0.1404494382022472], 'bp': 1.0, 'sys_len': 92, 'ref_len': 1}
+First element of precision:1.0869565217391304
+Sequence Matcher Similarity Precision:0.012618296529968454
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0563602447509766 seconds
+Received response: for (celsius = lower; celsius <= upper; celsius += step)
+{
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f %6.1f\n", celsius, fahr);
+}
+
+return 0;
+Actual result:  lower VARIABLE
+SACREBLEU Score: {'score': 0.7605497822189857, 'counts': [1, 0, 0, 0], 'totals': [48, 47, 46, 45], 'precisions': [2.0833333333333335, 1.0638297872340425, 0.5434782608695652, 0.2777777777777778], 'bp': 1.0, 'sys_len': 48, 'ref_len': 2}
+First element of precision:2.0833333333333335
+Sequence Matcher Similarity Precision:0.08092485549132948
+Cosine Similarity Precision:0.11470786693528087
+
+Parse State: 65	Cursor Position: 748 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5904526710510254 seconds
+Received response: = 0;
+  upper = 100;
+  step = 10;
+
+  printf("Celsius\tFahrenheit\n");
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [73, 72, 71, 70], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 73, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007905138339920948
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 748 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9023711681365967 seconds
+Received response: = 0;
+  upper = 100;
+  step = 10;
+
+
+  printf("Celsius to Fahrenheit Conversion\n\n");
+  printf("Celsius\tFahrenheit\n");
+  
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.3258729614870764, 'counts': [1, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.9090909090909091, 0.45871559633027525, 0.23148148148148148, 0.11682242990654206], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.9090909090909091
+Sequence Matcher Similarity Precision:0.010443864229765013
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 748 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 3.9857802391052246 seconds
+Received response: 1;
+  upper = 100;
+  step = 10;
+
+
+  printf("Celsius to Fahrenheit Conversion\n\n");
+  printf("Celsius\tFahrenheit\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.3258729614870764, 'counts': [1, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.9090909090909091, 0.45871559633027525, 0.23148148148148148, 0.11682242990654206], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.9090909090909091
+Sequence Matcher Similarity Precision:0.010309278350515464
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 748 12
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.6620032787323 seconds
+Received response: ;
+
+  upper = 100;
+  step = 5;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius) {
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.37815900605581765, 'counts': [1, 0, 0, 0], 'totals': [95, 94, 93, 92], 'precisions': [1.0526315789473684, 0.5319148936170213, 0.26881720430107525, 0.1358695652173913], 'bp': 1.0, 'sys_len': 95, 'ref_len': 1}
+First element of precision:1.0526315789473684
+Sequence Matcher Similarity Precision:0.006006006006006006
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 749 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4598596096038818 seconds
+Received response: upper = 100;
+  step = 5;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+Actual result:  upper VARIABLE
+SACREBLEU Score: {'score': 0.5087757562008263, 'counts': [1, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [1.408450704225352, 0.7142857142857143, 0.36231884057971014, 0.18382352941176472], 'bp': 1.0, 'sys_len': 71, 'ref_len': 2}
+First element of precision:1.408450704225352
+Sequence Matcher Similarity Precision:0.046153846153846156
+Cosine Similarity Precision:0.1655211777204736
+
+Parse State: 65	Cursor Position: 749 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.8201167583465576 seconds
+Received response: = 100;
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.006024096385542169
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 749 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5812017917633057 seconds
+Received response: = 100;
+  step = 20;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.3864259978779946, 'counts': [1, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [1.075268817204301, 0.5434782608695652, 0.27472527472527475, 0.1388888888888889], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:1.075268817204301
+Sequence Matcher Similarity Precision:0.012232415902140673
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 749 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.6957900524139404 seconds
+Received response: 100; 
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius) {
+  return (celsius * 9.0 / 5.0) + 32.0;
+}
+Actual result:  300
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [92, 91, 90, 89], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 92, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012232415902140673
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 749 14
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.792172908782959 seconds
+Received response: ;
+  step = 20;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius) {
+  return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.39506254884293407, 'counts': [1, 0, 0, 0], 'totals': [91, 90, 89, 88], 'precisions': [1.098901098901099, 0.5555555555555556, 0.2808988764044944, 0.14204545454545456], 'bp': 1.0, 'sys_len': 91, 'ref_len': 1}
+First element of precision:1.098901098901099
+Sequence Matcher Similarity Precision:0.00625
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.591644048690796 seconds
+Received response: step = 20;
+  
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius) {
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  step VARIABLE
+SACREBLEU Score: {'score': 0.46833399312669227, 'counts': [1, 0, 0, 0], 'totals': [77, 76, 75, 74], 'precisions': [1.2987012987012987, 0.6578947368421053, 0.3333333333333333, 0.16891891891891891], 'bp': 1.0, 'sys_len': 77, 'ref_len': 2}
+First element of precision:1.2987012987012987
+Sequence Matcher Similarity Precision:0.03424657534246575
+Cosine Similarity Precision:0.14907119849998596
+
+Parse State: 65	Cursor Position: 750 7
+
+                This is the incomplete C11 programming language code:
+                float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 4.747368574142456 seconds
+Received response: = 20;
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 76, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0070921985815602835
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 750 8
+
+                This is the incomplete C11 programming language code:
+                float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.640195369720459 seconds
+Received response: = 20;
+
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (celsius * 9.0 / 5.0) + 32;
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.47462176237300036, 'counts': [1, 0, 0, 0], 'totals': [76, 75, 74, 73], 'precisions': [1.3157894736842106, 0.6666666666666666, 0.33783783783783783, 0.17123287671232876], 'bp': 1.0, 'sys_len': 76, 'ref_len': 1}
+First element of precision:1.3157894736842106
+Sequence Matcher Similarity Precision:0.014545454545454545
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5200276374816895 seconds
+Received response: (upper - lower) / 20;
+Actual result:  30
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 750 12
+
+                This is the incomplete C11 programming language code:
+                float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0932552814483643 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step)
+{
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%.2f C = %.2f F\n", celsius, fahr);
+}
+
+return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.6735878102046051, 'counts': [1, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626], 'bp': 1.0, 'sys_len': 54, 'ref_len': 1}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.024242424242424242
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 753 3
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2690443992614746 seconds
+Received response: {
+  for (fahr = lower; fahr <= upper; fahr = fahr + step) {
+    celsius = (5.0/9.0) * (fahr - 32.0);
+    printf("%3.0f %6.1f\n", fahr, celsius);
+  }
+}
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.7144315612998046, 'counts': [1, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [1.9607843137254901, 1.0, 0.5102040816326531, 0.2604166666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 2}
+First element of precision:1.9607843137254901
+Sequence Matcher Similarity Precision:0.0963855421686747
+Cosine Similarity Precision:0.10206207261596575
+
+Parse State: 65	Cursor Position: 753 9
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.69461989402771 seconds
+Received response: "%s. Enter the temperature in Celsius: ",
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 753 9
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7354083061218262 seconds
+Received response: "%-8s%-8s\n", "Celsius", "Fahrenheit");
+Actual result:  ( " )
+SACREBLEU Score: {'score': 4.295382417831811, 'counts': [2, 1, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [11.11111111111111, 5.882352941176471, 3.125, 1.6666666666666667], 'bp': 1.0, 'sys_len': 18, 'ref_len': 3}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.17777777777777778
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 753 10
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.150296688079834 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = ((9.0/5.0) * celsius) + 32.0;
+    printf("%.2f C = %.2f F\n", celsius, fahr);
+}
+Actual result:  "
+SACREBLEU Score: {'score': 0.6866732953963862, 'counts': [1, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [1.8867924528301887, 0.9615384615384616, 0.49019607843137253, 0.25], 'bp': 1.0, 'sys_len': 53, 'ref_len': 1}
+First element of precision:1.8867924528301887
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 753 30
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1726315021514893 seconds
+Received response: \n\n\n
+for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = (celsius * 9.0/5.0) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.6488583831481832, 'counts': [1, 0, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [1.7857142857142858, 0.9090909090909091, 0.46296296296296297, 0.2358490566037736], 'bp': 1.0, 'sys_len': 56, 'ref_len': 1}
+First element of precision:1.7857142857142858
+Sequence Matcher Similarity Precision:0.02631578947368421
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 753 31
+
+                This is the incomplete C11 programming language code:
+                {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n")
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7446115016937256 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step){
+    fahr = (celsius * 9/5) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 1}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.02857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 754 3
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3574116230010986 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = (celsius * 9.0 / 5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 2}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.09815950920245399
+Cosine Similarity Precision:0.11624763874381927
+
+Parse State: 65	Cursor Position: 754 9
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6413335800170898 seconds
+Received response: ("%.2f\t\t%.2f\n", celsius, fahr);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.046511627906976744
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 754 9
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6337628364562988 seconds
+Received response: ("%.0f\t\t%.1f\n", celsius, fahr);
+Actual result:  ( " )
+SACREBLEU Score: {'score': 4.019656738893367, 'counts': [3, 1, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [14.285714285714286, 5.0, 2.6315789473684212, 1.3888888888888888], 'bp': 1.0, 'sys_len': 21, 'ref_len': 3}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 754 10
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2359051704406738 seconds
+Received response: 
+for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = (celsius * 9.0/5.0) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  "
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 1}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.0273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 754 36
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1258068084716797 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = ((celsius * 9) / 5) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.7002773917100699, 'counts': [1, 0, 0, 0], 'totals': [52, 51, 50, 49], 'precisions': [1.9230769230769231, 0.9803921568627451, 0.5, 0.25510204081632654], 'bp': 1.0, 'sys_len': 52, 'ref_len': 1}
+First element of precision:1.9230769230769231
+Sequence Matcher Similarity Precision:0.027586206896551724
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 754 37
+
+                This is the incomplete C11 programming language code:
+                float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n")
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 3.594078302383423 seconds
+Received response: printf("----------------------\n");
+Actual result:  ;
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.05405405405405406
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 756 3
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2178974151611328 seconds
+Received response: for(celsius = lower; celsius <= upper; celsius += step) {
+    fahr = (celsius * 9.0/5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 2}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.5812381937190964
+
+Parse State: 65	Cursor Position: 756 10
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0776562690734863 seconds
+Received response: = lower;
+  
+  while(celsius <= upper) {
+      fahr = (celsius * 9/5) + 32;
+      printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+      celsius += step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 49, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012578616352201259
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 756 11
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3852953910827637 seconds
+Received response: = lower;
+
+  while (celsius <= upper) {
+    fahr = (9.0 / 5.0) * celsius + 32.0;
+    printf("%3.0f\t\t %6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  =
+SACREBLEU Score: {'score': 0.7445292335166879, 'counts': [1, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826], 'bp': 1.0, 'sys_len': 49, 'ref_len': 1}
+First element of precision:2.0408163265306123
+Sequence Matcher Similarity Precision:0.025974025974025976
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 756 13
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2628350257873535 seconds
+Received response: ```c
+                while (celsius <= upper) {
+                    fahr = (celsius * 9/5) + 32;
+                    printf("%d\t\t%d\n", celsius, fahr);
+                    celsius += step;
+                }
+```
+Actual result:  lower VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 53, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04405286343612335
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 756 18
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0945429801940918 seconds
+Received response: = lower;
+
+while (celsius <= upper) {
+  fahr = celsius * 9.0 / 5.0 + 32.0;
+  printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+  celsius += step;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [47, 46, 45, 44], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 47, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013513513513513514
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 756 18
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4229981899261475 seconds
+Received response: while (celsius <= upper) {
+    fahr = ((celsius * 9.0) / 5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.7445292335166879, 'counts': [1, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826], 'bp': 1.0, 'sys_len': 49, 'ref_len': 1}
+First element of precision:2.0408163265306123
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 757 3
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.163177251815796 seconds
+Received response: 
+while (celsius <= upper) {
+  fahr = ((9.0/5.0) * celsius) + 32;
+  printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+  celsius += step;
+}
+Actual result:  while ( celsius VARIABLE <= upper VARIABLE ) { fahr VARIABLE = celsius_to_fahrenheit VARIABLE ( celsius VARIABLE ) ; printf VARIABLE ( " , celsius VARIABLE , fahr VARIABLE ) ; celsius VARIABLE += step VARIABLE ; }
+SACREBLEU Score: {'score': 13.13960920165893, 'counts': [29, 16, 6, 0], 'totals': [48, 47, 46, 45], 'precisions': [60.416666666666664, 34.04255319148936, 13.043478260869565, 1.1111111111111112], 'bp': 1.0, 'sys_len': 48, 'ref_len': 44}
+First element of precision:60.416666666666664
+Sequence Matcher Similarity Precision:0.2441860465116279
+Cosine Similarity Precision:0.4131182235954579
+
+Parse State: 406	Cursor Position: 757 9
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5154778957366943 seconds
+Received response: (celsius <= upper)
+Actual result:  ( celsius VARIABLE <= upper VARIABLE ) { fahr VARIABLE = celsius_to_fahrenheit VARIABLE ( celsius VARIABLE ) ; printf VARIABLE ( " , celsius VARIABLE , fahr VARIABLE ) ; celsius VARIABLE += step VARIABLE ; }
+SACREBLEU Score: {'score': 0.08343258452298238, 'counts': [6, 3, 1, 0], 'totals': [6, 5, 4, 3], 'precisions': [100.0, 60.0, 25.0, 16.666666666666668], 'bp': 0.0020982184180809026, 'sys_len': 6, 'ref_len': 43}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.09734513274336283
+Cosine Similarity Precision:0.31750031750047625
+
+Parse State: 457	Cursor Position: 757 10
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.289259433746338 seconds
+Received response: (celsius <= upper) {
+    fahr = (celsius * 9/5) + 32;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.12080536912751678
+Cosine Similarity Precision:0.5976143046671968
+
+Parse State: 179	Cursor Position: 757 17
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1351048946380615 seconds
+Received response: < upper {
+    fahr = (celsius * 9.0) / 5.0 + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 42, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 757 18
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1553640365600586 seconds
+Received response: < upper) {
+    fahr = celsius * (9.0/5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+Actual result:  <=
+SACREBLEU Score: {'score': 1.0134961585174012, 'counts': [2, 0, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [4.651162790697675, 1.1904761904761905, 0.6097560975609756, 0.3125], 'bp': 1.0, 'sys_len': 43, 'ref_len': 2}
+First element of precision:4.651162790697675
+Sequence Matcher Similarity Precision:0.03007518796992481
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 757 21
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <=
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0086638927459717 seconds
+Received response: (celsius <= upper)
+{
+    fahr = (celsius * 9/5) + 32;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+}
+Actual result:  upper VARIABLE
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.09655172413793103
+Cosine Similarity Precision:0.11952286093343935
+
+Parse State: 179	Cursor Position: 757 26
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2904164791107178 seconds
+Received response: {
+    fahr = ((9.0/5.0) * celsius) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01652892561983471
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 757 26
+
+                This is the incomplete C11 programming language code:
+                lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.18355131149292 seconds
+Received response: {
+
+    fahr = (celsius * 9.0) / 5.0 + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+    
+}
+
+Actual result:  ) { fahr VARIABLE = celsius_to_fahrenheit VARIABLE ( celsius VARIABLE ) ; printf VARIABLE ( " , celsius VARIABLE , fahr VARIABLE ) ; celsius VARIABLE += step VARIABLE ; }
+SACREBLEU Score: {'score': 10.363409292843455, 'counts': [23, 11, 2, 0], 'totals': [40, 39, 38, 37], 'precisions': [57.5, 28.205128205128204, 5.2631578947368425, 1.3513513513513513], 'bp': 1.0, 'sys_len': 40, 'ref_len': 36}
+First element of precision:57.5
+Sequence Matcher Similarity Precision:0.1806020066889632
+Cosine Similarity Precision:0.40249223594996214
+
+Parse State: 320	Cursor Position: 758 3
+
+                This is the incomplete C11 programming language code:
+                upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0464715957641602 seconds
+Received response: {
+    fahrenheit = (celsius * 9/5) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahrenheit);
+    celsius += step;
+}
+Actual result:  { fahr VARIABLE = celsius_to_fahrenheit VARIABLE ( celsius VARIABLE ) ; printf VARIABLE ( " , celsius VARIABLE , fahr VARIABLE ) ; celsius VARIABLE += step VARIABLE ; }
+SACREBLEU Score: {'score': 11.239306929134694, 'counts': [21, 10, 3, 0], 'totals': [39, 38, 37, 36], 'precisions': [53.84615384615385, 26.31578947368421, 8.108108108108109, 1.3888888888888888], 'bp': 1.0, 'sys_len': 39, 'ref_len': 35}
+First element of precision:53.84615384615385
+Sequence Matcher Similarity Precision:0.519298245614035
+Cosine Similarity Precision:0.2898754521821015
+
+Parse State: 201	Cursor Position: 759 5
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.153378963470459 seconds
+Received response: fahr = (celsius * 9/5) + 32;
+  printf("%d\t\t%d\n", celsius, fahr);
+  celsius += step;
+Actual result:  fahr VARIABLE
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 2}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 65	Cursor Position: 759 9
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0508148670196533 seconds
+Received response: = (celsius * 9.0 / 5.0) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01680672268907563
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 759 10
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9388995170593262 seconds
+Received response: = (celsius * 9/5) + 32;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  =
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 1}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.021052631578947368
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 759 12
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5332660675048828 seconds
+Received response: fahr = (celsius * 9/5) + 32;
+Actual result:  celsius_to_fahrenheit VARIABLE
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 6}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.3050847457627119
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 759 33
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5467319488525391 seconds
+Received response: = celsius * 9 / 5 + 32;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 759 33
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4434356689453125 seconds
+Received response: = celsius * (9.0/5.0) + 32; 
+
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+Actual result:  ( celsius VARIABLE )
+SACREBLEU Score: {'score': 1.2753998269755913, 'counts': [3, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [7.894736842105263, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 4}
+First element of precision:7.894736842105263
+Sequence Matcher Similarity Precision:0.16793893129770993
+Cosine Similarity Precision:0.6030226891555271
+
+Parse State: 235	Cursor Position: 759 34
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6088962554931641 seconds
+Received response: fahr = celsius * 9/5 + 32;
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.4186046511627907
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 179	Cursor Position: 759 41
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8629734516143799 seconds
+Received response: {
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.024390243902439025
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 759 41
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7754426002502441 seconds
+Received response: )
+
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  } 
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(float celsius) {
+  return (celsius * 9.0/5.0) + 32;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.6735878102046051, 'counts': [1, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626], 'bp': 1.0, 'sys_len': 54, 'ref_len': 1}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.011428571428571429
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 759 42
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6679549217224121 seconds
+Received response: fahr = (celsius * 9.0/5.0) + 32;
+Actual result:  ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 760 5
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7548379898071289 seconds
+Received response: printf("%.2f\t\t%.2f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 2}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.1728395061728395
+Cosine Similarity Precision:0.21320071635561041
+
+Parse State: 65	Cursor Position: 760 11
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9064316749572754 seconds
+Received response: ("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 760 11
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7314116954803467 seconds
+Received response: ("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  ( " , celsius VARIABLE , fahr VARIABLE )
+SACREBLEU Score: {'score': 8.240556987983819, 'counts': [7, 4, 1, 0], 'totals': [25, 24, 23, 22], 'precisions': [28.0, 16.666666666666668, 4.3478260869565215, 2.272727272727273], 'bp': 1.0, 'sys_len': 25, 'ref_len': 9}
+First element of precision:28.0
+Sequence Matcher Similarity Precision:0.35294117647058826
+Cosine Similarity Precision:0.43301270189221935
+
+Parse State: 235	Cursor Position: 760 12
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.764904260635376 seconds
+Received response: printf("%.2f\t\t%.2f\n", celsius, fahr);
+    celsius += step;
+  }
+Actual result:  "
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.029850746268656716
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 760 30
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6296064853668213 seconds
+Received response: The code should be:
+```c
+    celsius += step;
+  }
+```
+Actual result:  , celsius VARIABLE
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 3}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.2777777777777778
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 429	Cursor Position: 760 32
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n",
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.44506144523620605 seconds
+Received response: celsius, fahr
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5333333333333333
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 760 39
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.746661901473999 seconds
+Received response: , fahr);
+    celsius += step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.047619047619047616
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 760 39
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5044047832489014 seconds
+Received response: , fahr);
+
+    celsius += step;
+  }
+Actual result:  , fahr VARIABLE
+SACREBLEU Score: {'score': 8.392229812593097, 'counts': [2, 1, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [20.0, 11.11111111111111, 6.25, 3.5714285714285716], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.28
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 429	Cursor Position: 760 41
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6293671131134033 seconds
+Received response: fahr);
+Actual result:  fahr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 760 45
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6144676208496094 seconds
+Received response: );
+    celsius += step;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05555555555555555
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 760 45
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5020449161529541 seconds
+Received response: ); 
+    celsius += step;
+  }
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 760 46
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7183642387390137 seconds
+Received response: The complete code snippet should be:
+
+```c
+    celsius += step;
+  }
+```
+Actual result:  ;
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.0547945205479452
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 761 5
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6115789413452148 seconds
+Received response: celsius += step;
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.48484848484848486
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 65	Cursor Position: 761 12
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.42554664611816406 seconds
+Received response: += step;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 761 13
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48215746879577637 seconds
+Received response: += step;
+Actual result:  +=
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 761 16
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius +=
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5332937240600586 seconds
+Received response: next token or line += step;
+Actual result:  step VARIABLE
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.24390243902439024
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 179	Cursor Position: 761 20
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5199258327484131 seconds
+Received response: 
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 761 20
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8684098720550537 seconds
+Received response: ```c
+;
+```
+This token represents the end of the printf statement inside the while loop in the code.
+Actual result:  ;
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.019801980198019802
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 762 3
+
+                This is the incomplete C11 programming language code:
+                printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.44388794898986816 seconds
+Received response: ```c
+  }
+```
+Actual result:  }
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 764 3
+
+                This is the incomplete C11 programming language code:
+                celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6694822311401367 seconds
+Received response: // The next token or line should be the closing brace for the while loop
+}
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1411764705882353
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 764 10
+
+                This is the incomplete C11 programming language code:
+                celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4334144592285156 seconds
+Received response: 0;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 764 11
+
+                This is the incomplete C11 programming language code:
+                celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.36156773567199707 seconds
+Received response: EOF
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 765 1
+
+                This is the incomplete C11 programming language code:
+                celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 19.11719560623169 seconds
+Received response: ```c
+}
+```
+Actual result:  }
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 767 1
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.6034164428710938 seconds
+Received response: #include <stdio.h>
+
+float celsius_to_fahrenheit(float celsius) {
+    return ((celsius * 9/5) + 32);
+}
+
+int main() {
+    float celsius = 0, fahr;
+    int lower = 0, upper = 300, step = 20;
+
+    printf("Celsius \t Fahrenheit\n");
+
+    while (celsius <= upper) {
+        fahr = celsius_to_fahrenheit(celsius);
+        printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+        celsius += step;
+    }
+
+    return 0;
+}
+Actual result:  float
+SACREBLEU Score: {'score': 0.3034932817824235, 'counts': [1, 0, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [0.847457627118644, 0.42735042735042733, 0.21551724137931033, 0.10869565217391304], 'bp': 1.0, 'sys_len': 118, 'ref_len': 1}
+First element of precision:0.847457627118644
+Sequence Matcher Similarity Precision:0.029197080291970802
+Cosine Similarity Precision:0.2773500981126145
+
+Parse State: 5	Cursor Position: 767 7
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.386101245880127 seconds
+Received response: {
+float celsius_to_fahrenheit(float celsius) {
+  float fahrenheit = (celsius * 9.0/5.0) + 32;
+  return fahrenheit;
+}
+
+int main() {
+  float celsius = 0;
+  float fahr;
+  int lower = 0;
+  int upper = 300;
+  int step = 20;
+
+  printf("Celsius\tFahrenheit\n");
+  
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+Actual result:  celsius_to_fahrenheit VARIABLE
+SACREBLEU Score: {'score': 2.865719479939791, 'counts': [5, 4, 3, 2], 'totals': [117, 116, 115, 114], 'precisions': [4.273504273504273, 3.4482758620689653, 2.608695652173913, 1.7543859649122806], 'bp': 1.0, 'sys_len': 117, 'ref_len': 6}
+First element of precision:4.273504273504273
+Sequence Matcher Similarity Precision:0.1029082774049217
+Cosine Similarity Precision:0.11664236870396084
+
+Parse State: 65	Cursor Position: 767 28
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7820501327514648 seconds
+Received response: (float celsius) {
+    return (celsius * 9/5) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03278688524590164
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 767 28
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7847766876220703 seconds
+Received response: (float celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+Actual result:  ( int celsius VARIABLE )
+SACREBLEU Score: {'score': 2.2731543567022867, 'counts': [3, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [13.636363636363637, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 5}
+First element of precision:13.636363636363637
+Sequence Matcher Similarity Precision:0.19642857142857142
+Cosine Similarity Precision:0.3086066999241839
+
+Parse State: 186	Cursor Position: 767 29
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7172629833221436 seconds
+Received response: float celsius_to_fahrenheit(float celsius) {
+    return (celsius * 9/5) + 32;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.024096385542168676
+Cosine Similarity Precision:0.0
+
+Parse State: 298	Cursor Position: 767 33
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7338039875030518 seconds
+Received response: temperature){
+    return (temperature * 9/5) + 32;
+}
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 767 40
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.696854829788208 seconds
+Received response: {
+    return (celsius * 9/5) + 32;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.044444444444444446
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 767 40
+
+                This is the incomplete C11 programming language code:
+                {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7127506732940674 seconds
+Received response: {
+  return (celsius * 9/5) + 32;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 768 1
+
+                This is the incomplete C11 programming language code:
+                fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9701042175292969 seconds
+Received response: {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+Actual result:  { return ( 9.0 / 5.0 ) * celsius VARIABLE + 32.0f ; }
+SACREBLEU Score: {'score': 6.423094863383858, 'counts': [10, 1, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [55.55555555555556, 5.882352941176471, 3.125, 1.6666666666666667], 'bp': 1.0, 'sys_len': 18, 'ref_len': 14}
+First element of precision:55.55555555555556
+Sequence Matcher Similarity Precision:0.368
+Cosine Similarity Precision:0.47434164902525683
+
+Parse State: 201	Cursor Position: 769 3
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.769934892654419 seconds
+Received response: return (celsius * 9.0/5.0) + 32.0;
+Actual result:  return ( 9.0 / 5.0 ) * celsius VARIABLE + 32.0f ;
+SACREBLEU Score: {'score': 28.947421495675087, 'counts': [10, 4, 2, 1], 'totals': [11, 10, 9, 8], 'precisions': [90.9090909090909, 40.0, 22.22222222222222, 12.5], 'bp': 0.9131007162822624, 'sys_len': 11, 'ref_len': 12}
+First element of precision:90.9090909090909
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.7745966692414835
+
+Parse State: 338	Cursor Position: 769 10
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6323518753051758 seconds
+Received response: return (celsius * 9/5) + 32;
+Actual result:  ( 9.0 / 5.0 )
+SACREBLEU Score: {'score': 4.9323515694897075, 'counts': [3, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [27.272727272727273, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 5}
+First element of precision:27.272727272727273
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 769 11
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7380197048187256 seconds
+Received response: (9.0/5.0) * celsius + 32.0;
+Actual result:  9.0
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.1935483870967742
+Cosine Similarity Precision:0.0
+
+Parse State: 151	Cursor Position: 769 15
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.627509593963623 seconds
+Received response: * celsius) / 5.0 + 32.0;
+Actual result:  /
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 242	Cursor Position: 769 17
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 /
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7942490577697754 seconds
+Received response: // Complete the 'next token or line' part of the code
+    5.0 * celsius) + 32.0;
+Actual result:  5.0
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 769 20
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7543354034423828 seconds
+Received response: * celsius) + 32.0;
+Actual result:  )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 151	Cursor Position: 769 22
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5739753246307373 seconds
+Received response: * celsius + 32.0;
+Actual result:  *
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 242	Cursor Position: 769 24
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5868041515350342 seconds
+Received response: (celsius) + 32.0;
+Actual result:  celsius VARIABLE
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 2}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.47058823529411764
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 769 31
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5637161731719971 seconds
+Received response: + 32.0;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 152	Cursor Position: 769 32
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4771749973297119 seconds
+Received response: + 32.0;
+Actual result:  +
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 769 34
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius +
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5150725841522217 seconds
+Received response: + 32.0;
+Actual result:  32.0f
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.7692307692307693
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 415	Cursor Position: 769 39
+
+                This is the incomplete C11 programming language code:
+                printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius + 32.0f
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.40035414695739746 seconds
+Received response: ;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 201	Cursor Position: 770 1
+
+                This is the incomplete C11 programming language code:
+                celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius + 32.0f;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.187382698059082 seconds
+Received response: #include <stdio.h>
+
+int main() 
+{
+    int lower = 0;
+    int upper = 100;
+    int step = 20;
+    
+    printf("Celsius to Fahrenheit Conversion\n");
+    printf("Celsius\tFahrenheit\n");
+    
+    for (int celsius = lower; celsius <= upper; celsius += step) 
+    {
+        printf("%d\t%.2f\n", celsius, celsius_to_fahrenheit(celsius));
+    }
+
+    return 0;
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.36264270632120366, 'counts': [1, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [1.0101010101010102, 0.5102040816326531, 0.25773195876288657, 0.13020833333333334], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:1.0101010101010102
+Sequence Matcher Similarity Precision:0.011204481792717087
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 9.350304850457059
+Average Sequence Matcher Similarity Precision: 12.641437486926902
+Average Cosine Similarity Precision: 9.923684564983297

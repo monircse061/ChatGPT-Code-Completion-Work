@@ -1,0 +1,3388 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.2259292602539062 seconds
+Received response: `int main() {
+    FILE *file;
+    int count = 0;
+  
+    file = fopen("input.txt", "r");
+    if (file == NULL) {
+      printf("Error opening file.\n");
+      return 1;
+    }
+  
+    int c;
+    while ((c = fgetc(file)) != EOF) {
+      if (c == 'b' || c == 'B') {
+        count++;
+      }
+    }
+  
+    printf("Number of 'b' and 'B' characters in the file: %d\n", count);
+  
+    fclose(file);
+    return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.2910027659209163, 'counts': [1, 0, 0, 0], 'totals': [123, 122, 121, 120], 'precisions': [0.8130081300813008, 0.4098360655737705, 0.2066115702479339, 0.10416666666666667], 'bp': 1.0, 'sys_len': 123, 'ref_len': 1}
+First element of precision:0.8130081300813008
+Sequence Matcher Similarity Precision:0.019656019656019656
+Cosine Similarity Precision:0.2847473987257497
+
+Parse State: 5	Cursor Position: 741 5
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.212301254272461 seconds
+Received response: The code should be completed to read the next token or line using functions like fscanf, fgets, or similar input functions in the C11 programming language. 
+
+For example, if you want to read the next token from stdin, you can use fscanf like this:
+```c
+char token[50];
+fscanf(stdin, "%s", token); // read the next token
+``` 
+
+If you want to read the next line from stdin, you can use fgets like this:
+```c
+char line[100];
+fgets(line, sizeof(line), stdin); // read the next line
+``` 
+
+Choose the appropriate function based on whether you want to read a token or a line in your specific application.
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [151, 150, 149, 148], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 151, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022913256955810146
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 9
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6916489601135254 seconds
+Received response: int main() {
+    // Your code here
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03389830508474576
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 9
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9382708072662354 seconds
+Received response: {
+    () {
+        // Code goes here
+        return 0;
+    }
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 3.377156414337854, 'counts': [2, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 3}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.08450704225352113
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 741 10
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6365196704864502 seconds
+Received response: int main() {
+    // Your code here
+
+    return 0;
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 14
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5450341701507568 seconds
+Received response: {
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 742 1
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 3.020371437072754 seconds
+Received response: #include <stdio.h>
+
+int main(void)
+{
+    FILE *file = fopen("file.txt", "r");
+    int c;
+    int count_b = 0;
+    int count_t = 0;
+    int count_n = 0;
+
+    if (file == NULL)
+    {
+        perror("Error opening file");
+        return 1;
+    }
+
+    while ((c = fgetc(file)) != EOF)
+    {
+        if (c == 'b' || c == 'B')
+        {
+            count_b++;
+        }
+        else if (c == 't' || c == 'T')
+        {
+            count_t++;
+        }
+        else if (c == 'n' || c == 'N')
+        {
+            count_n++;
+        }
+    }
+
+    printf("Number of 'b' characters: %d\n", count_b);
+    printf("Number of 't' characters: %d\n", count_t);
+    printf("Number of 'n' characters: %d\n", count_n);
+
+    fclose(file);
+
+    return 0;
+}
+
+Actual result:  { int blanks_nr VARIABLE = 0 ; int tabs_nr VARIABLE = 0 ; int newlines_nr VARIABLE = 0 ; char c VARIABLE ; while ( ( c VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) ) { if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; } } printf VARIABLE ( " , blanks_nr VARIABLE , tabs_nr VARIABLE , newlines_nr VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 16.47184655248366, 'counts': [89, 47, 26, 16], 'totals': [222, 221, 220, 219], 'precisions': [40.090090090090094, 21.266968325791854, 11.818181818181818, 7.30593607305936], 'bp': 1.0, 'sys_len': 222, 'ref_len': 132}
+First element of precision:40.090090090090094
+Sequence Matcher Similarity Precision:0.03908241291418862
+Cosine Similarity Precision:0.15885535257420397
+
+Parse State: 201	Cursor Position: 743 3
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.204221248626709 seconds
+Received response: int count = 0;
+                char c;
+                
+                while ((c = getchar()) != EOF)
+                {
+                    if (c == 'b' || c == 'B')
+                    {
+                        count++;
+                    }
+                }
+                
+                printf("Number of 'b' and 'B' characters: %d\n", count);
+                
+                return 0;
+Actual result:  int
+SACREBLEU Score: {'score': 0.5657759656209534, 'counts': [1, 0, 0, 0], 'totals': [64, 63, 62, 61], 'precisions': [1.5625, 0.7936507936507936, 0.4032258064516129, 0.20491803278688525], 'bp': 1.0, 'sys_len': 64, 'ref_len': 1}
+First element of precision:1.5625
+Sequence Matcher Similarity Precision:0.01507537688442211
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 93	Cursor Position: 743 7
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4851233959197998 seconds
+Received response: return 0;
+Actual result:  blanks_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 16
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7967770099639893 seconds
+Received response: = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+      blanks_nr++;
+    else if (c == '\t')
+      tabs_nr++;
+    else if (c == '\n')
+      newlines_nr++;
+  }
+
+  printf("Blanks: %d\n", blanks_nr);
+  printf("Tabs: %d\n", tabs_nr);
+  printf("Newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [133, 132, 131, 130], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 133, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011235955056179775
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 743 17
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.011746644973755 seconds
+Received response:  = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  = 0
+SACREBLEU Score: {'score': 0.492772295565987, 'counts': [2, 1, 0, 0], 'totals': [145, 144, 143, 142], 'precisions': [1.3793103448275863, 0.6944444444444444, 0.34965034965034963, 0.176056338028169], 'bp': 1.0, 'sys_len': 145, 'ref_len': 2}
+First element of precision:1.3793103448275863
+Sequence Matcher Similarity Precision:0.019138755980861243
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 743 19
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.589606523513794 seconds
+Received response: scanf("%d", &blanks_nr);
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 743 20
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5405585765838623 seconds
+Received response: ;
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 744 3
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.0695786476135254 seconds
+Received response: // Counting blanks, tabs, and newlines in input
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+  return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.23337492974969, 'counts': [1, 0, 0, 0], 'totals': [153, 152, 151, 150], 'precisions': [0.6535947712418301, 0.32894736842105265, 0.16556291390728478, 0.08333333333333333], 'bp': 1.0, 'sys_len': 153, 'ref_len': 1}
+First element of precision:0.6535947712418301
+Sequence Matcher Similarity Precision:0.017429193899782137
+Cosine Similarity Precision:0.3144854510165755
+
+Parse State: 93	Cursor Position: 744 7
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.553325891494751 seconds
+Received response: This is the incomplete C11 programming language code:
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tokens_nr = 0; // 'next token or line'
+}
+Actual result:  tabs_nr VARIABLE
+SACREBLEU Score: {'score': 0.7404766968479392, 'counts': [2, 1, 0, 0], 'totals': [97, 96, 95, 94], 'precisions': [2.0618556701030926, 1.0416666666666667, 0.5263157894736842, 0.26595744680851063], 'bp': 1.0, 'sys_len': 97, 'ref_len': 4}
+First element of precision:2.0618556701030926
+Sequence Matcher Similarity Precision:0.06405693950177936
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 744 14
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.2020320892333984 seconds
+Received response: = 0;
+  int newlines_nr = 0;
+ 
+  char c;
+ 
+  while((c = getchar()) != EOF)
+  {
+    if(c == ' ')
+      blanks_nr++;
+    else if(c == '\t')
+      tabs_nr++;
+    else if(c == '\n')
+      newlines_nr++;
+  }
+ 
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+ 
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [132, 131, 130, 129], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 132, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01084010840108401
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 744 15
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.056652307510376 seconds
+Received response: = 0;
+  int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  = 0
+SACREBLEU Score: {'score': 0.5180443238621731, 'counts': [2, 1, 0, 0], 'totals': [138, 137, 136, 135], 'precisions': [1.4492753623188406, 0.7299270072992701, 0.36764705882352944, 0.18518518518518517], 'bp': 1.0, 'sys_len': 138, 'ref_len': 2}
+First element of precision:1.4492753623188406
+Sequence Matcher Similarity Precision:0.020100502512562814
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 744 17
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.032607316970825 seconds
+Received response: 0; // Initialize tabs_nr to 0
+
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.24638614778299348, 'counts': [1, 0, 0, 0], 'totals': [145, 144, 143, 142], 'precisions': [0.6896551724137931, 0.3472222222222222, 0.17482517482517482, 0.0880281690140845], 'bp': 1.0, 'sys_len': 145, 'ref_len': 1}
+First element of precision:0.6896551724137931
+Sequence Matcher Similarity Precision:0.009456264775413711
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 744 18
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5652077198028564 seconds
+Received response: int newlines_nr = 0;
+Actual result:  ;
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9136765003204346 seconds
+Received response: int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+      blanks_nr++;
+    else if (c == '\t')
+      tabs_nr++;
+    else if (c == '\n')
+      newlines_nr++;
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.277307438973354, 'counts': [1, 0, 0, 0], 'totals': [129, 128, 127, 126], 'precisions': [0.7751937984496124, 0.390625, 0.1968503937007874, 0.0992063492063492], 'bp': 1.0, 'sys_len': 129, 'ref_len': 1}
+First element of precision:0.7751937984496124
+Sequence Matcher Similarity Precision:0.022535211267605635
+Cosine Similarity Precision:0.24253562503633297
+
+Parse State: 93	Cursor Position: 745 7
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.028150796890259 seconds
+Received response: newlines_nr = 0;
+  
+  char c;
+  
+  while ((c = getchar()) != EOF)
+  {
+    if (c == ' ')
+      blanks_nr++;
+    else if (c == '\t')
+      tabs_nr++;
+    else if (c == '\n')
+      newlines_nr++;
+  }
+  
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+  
+  return 0;
+}
+Actual result:  newlines_nr VARIABLE
+SACREBLEU Score: {'score': 1.0404153511161667, 'counts': [3, 2, 1, 0], 'totals': [128, 127, 126, 125], 'precisions': [2.34375, 1.5748031496062993, 0.7936507936507936, 0.4], 'bp': 1.0, 'sys_len': 128, 'ref_len': 4}
+First element of precision:2.34375
+Sequence Matcher Similarity Precision:0.06878306878306878
+Cosine Similarity Precision:0.26311740579210874
+
+Parse State: 65	Cursor Position: 745 18
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9530773162841797 seconds
+Received response: = 0;
+
+  char c;
+
+  while ((c = getchar()) != EOF) {
+    if (c == ' ') {
+      blanks_nr++;
+    } else if (c == '\t') {
+      tabs_nr++;
+    } else if (c == '\n') {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [131, 130, 129, 128], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 131, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011111111111111112
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 745 19
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5772624015808105 seconds
+Received response: = 0;
+
+  return 0;
+}
+Actual result:  = 0
+SACREBLEU Score: {'score': 13.134549472120788, 'counts': [2, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [28.571428571428573, 16.666666666666668, 10.0, 6.25], 'bp': 1.0, 'sys_len': 7, 'ref_len': 2}
+First element of precision:28.571428571428573
+Sequence Matcher Similarity Precision:0.2608695652173913
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 745 21
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9752731323242188 seconds
+Received response: 0;
+
+  char ch;
+
+  while ((ch = getchar()) != EOF)
+  {
+    if (ch == ' ')
+      blanks_nr++;
+    else if (ch == '\t')
+      tabs_nr++;
+    else if (ch == '\n')
+      newlines_nr++;
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.28862703441765386, 'counts': [1, 0, 0, 0], 'totals': [124, 123, 122, 121], 'precisions': [0.8064516129032258, 0.4065040650406504, 0.20491803278688525, 0.10330578512396695], 'bp': 1.0, 'sys_len': 124, 'ref_len': 1}
+First element of precision:0.8064516129032258
+Sequence Matcher Similarity Precision:0.011695906432748537
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 22
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_08/count_b_t_n.c" 2
+
+
+# 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.8954870700836182 seconds
+Received response: ; // This should be a semicolon to complete the line of code. 
+
+int c;
+
+while ((c = getchar()) != EOF) {
+    if (c == ' ') {
+        blanks_nr++;
+    } else if (c == '\t') {
+        tabs_nr++;
+    } else if (c == '\n') {
+        newlines_nr++;
+    }
+}
+
+printf("Number of blanks: %d\n", blanks_nr);
+printf("Number of tabs: %d\n", tabs_nr);
+printf("Number of newlines: %d\n", newlines_nr);
+
+return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.2498688534248592, 'counts': [1, 0, 0, 0], 'totals': [143, 142, 141, 140], 'precisions': [0.6993006993006993, 0.352112676056338, 0.1773049645390071, 0.08928571428571429], 'bp': 1.0, 'sys_len': 143, 'ref_len': 1}
+First element of precision:0.6993006993006993
+Sequence Matcher Similarity Precision:0.004975124378109453
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 747 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9922165870666504 seconds
+Received response: #include <stdio.h>
+
+  int c;
+  while ((c = getchar()) != EOF) {
+    if (c == ' ') {
+      blanks_nr++;
+    } else if (c == '\t') {
+      tabs_nr++;
+    } else if (c == '\n') {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [135, 134, 133, 132], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 135, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02717391304347826
+Cosine Similarity Precision:0.0
+
+Parse State: 93	Cursor Position: 747 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5685937404632568 seconds
+Received response: 'current_char';
+
+while ((current_char = getchar()) != EOF)
+{
+  if (current_char == ' ')
+    blanks_nr++;
+  else if (current_char == '\t')
+    tabs_nr++;
+  else if (current_char == '\n')
+    newlines_nr++;
+}
+
+printf("Number of blanks: %d\n", blanks_nr);
+printf("Number of tabs: %d\n", tabs_nr);
+printf("Number of newlines: %d\n", newlines_nr);
+
+return 0;
+}
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [131, 130, 129, 128], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 131, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01639344262295082
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 747 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2002248764038086 seconds
+Received response: = getchar();
+
+while (c != EOF) {
+    if (c == ' ') {
+        blanks_nr++;
+    } else if (c == '\t') {
+        tabs_nr++;
+    } else if (c == '\n') {
+        newlines_nr++;
+    }
+    
+    c = getchar();
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [72, 71, 70, 69], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 72, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.018867924528301886
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 747 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 4.314621686935425 seconds
+Received response: = getchar();
+
+  if (c == ' ')
+    blanks_nr++;
+  else if (c == '\t')
+    tabs_nr++;
+  else if (c == '\n')
+    newlines_nr++;
+
+  // Rest of the code goes here
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4451491832733154 seconds
+Received response: while ((c = getchar()) != EOF)
+{
+    if (c == ' ')
+    {
+        blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+        tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+        newlines_nr++;
+    }
+}
+
+printf("Number of blanks: %d\n", blanks_nr);
+printf("Number of tabs: %d\n", tabs_nr);
+printf("Number of newlines: %d\n", newlines_nr);
+
+return 0;
+}
+Actual result:  while ( ( c VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) ) { if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; } }
+SACREBLEU Score: {'score': 32.336720186301385, 'counts': [68, 50, 34, 22], 'totals': [125, 124, 123, 122], 'precisions': [54.4, 40.32258064516129, 27.642276422764226, 18.0327868852459], 'bp': 1.0, 'sys_len': 125, 'ref_len': 78}
+First element of precision:54.4
+Sequence Matcher Similarity Precision:0.32989690721649484
+Cosine Similarity Precision:0.30191616247032926
+
+Parse State: 406	Cursor Position: 748 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7355122566223145 seconds
+Received response: (next token or line)
+  {
+    c = getchar();
+
+    if (c == ' ') {
+      blanks_nr++;
+    } else if (c == '\t') {
+      tabs_nr++;
+    } else if (c == '\n') {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  ( ( c VARIABLE = getchar VARIABLE ( ) ) != ( - 1 ) ) { if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; } }
+SACREBLEU Score: {'score': 27.474552347536683, 'counts': [65, 43, 27, 17], 'totals': [124, 123, 122, 121], 'precisions': [52.41935483870968, 34.959349593495936, 22.131147540983605, 14.049586776859504], 'bp': 1.0, 'sys_len': 124, 'ref_len': 77}
+First element of precision:52.41935483870968
+Sequence Matcher Similarity Precision:0.23076923076923078
+Cosine Similarity Precision:0.28452639985087996
+
+Parse State: 457	Cursor Position: 748 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5988214015960693 seconds
+Received response: next token or line: "scanf("%c", &c)"
+Actual result:  ( c VARIABLE = getchar VARIABLE ( ) )
+SACREBLEU Score: {'score': 3.0098043843528286, 'counts': [3, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [17.647058823529413, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 9}
+First element of precision:17.647058823529413
+Sequence Matcher Similarity Precision:0.21333333333333335
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 748 11
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4398601055145264 seconds
+Received response: while ((c = getchar()) != EOF)
+{
+  if (c == ' ')
+    blanks_nr++;
+  else if (c == '\t')
+    tabs_nr++;
+  else if (c == '\n')
+    newlines_nr++;
+}
+
+printf("Blanks: %d, Tabs: %d, Newlines: %d\n", blanks_nr, tabs_nr, newlines_nr);
+
+return 0;
+}
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.36264270632120366, 'counts': [1, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [1.0101010101010102, 0.5102040816326531, 0.25773195876288657, 0.13020833333333334], 'bp': 1.0, 'sys_len': 99, 'ref_len': 2}
+First element of precision:1.0101010101010102
+Sequence Matcher Similarity Precision:0.03187250996015936
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 748 12
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9879045486450195 seconds
+Received response: != EOF)
+  {
+    if (c == ' ')
+      blanks_nr++;
+    else if (c == '\t')
+      tabs_nr++;
+    else if (c == '\n')
+      newlines_nr++;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [53, 52, 51, 50], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 53, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.026845637583892617
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 748 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1386382579803467 seconds
+Received response: != EOF) {
+    if (c == ' ') {
+      blanks_nr++;
+    } else if (c == '\t') {
+      tabs_nr++;
+    } else if (c == '\n') {
+      newlines_nr++;
+    }
+  }
+
+  return 0;
+}
+Actual result:  =
+SACREBLEU Score: {'score': 0.5844855918911488, 'counts': [1, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661], 'bp': 1.0, 'sys_len': 62, 'ref_len': 1}
+First element of precision:1.6129032258064515
+Sequence Matcher Similarity Precision:0.023668639053254437
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 748 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.754542589187622 seconds
+Received response: getchar()) != EOF)
+  {
+      if (c == ' ')
+        blanks_nr++;
+      else if (c == '\t')
+        tabs_nr++;
+      else if (c == '\n')
+        newlines_nr++;
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  getchar VARIABLE
+SACREBLEU Score: {'score': 0.31428520165805107, 'counts': [1, 0, 0, 0], 'totals': [114, 113, 112, 111], 'precisions': [0.8771929824561403, 0.4424778761061947, 0.22321428571428573, 0.11261261261261261], 'bp': 1.0, 'sys_len': 114, 'ref_len': 2}
+First element of precision:0.8771929824561403
+Sequence Matcher Similarity Precision:0.05373134328358209
+Cosine Similarity Precision:0.09284766908852592
+
+Parse State: 179	Cursor Position: 748 22
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9921114444732666 seconds
+Received response: ()='\n' || c != EOF)
+    {
+        if (c == ' ')
+            blanks_nr++;
+        else if (c == '\t')
+            tabs_nr++;
+        else if (c == '\n')
+            newlines_nr++;
+
+        c = getchar();
+    }
+
+    printf("Number of blanks: %d\n", blanks_nr);
+    printf("Number of tabs: %d\n", tabs_nr);
+    printf("Number of newlines: %d\n", newlines_nr);
+
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [125, 124, 123, 122], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 125, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010443864229765013
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 22
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.0036022663116455 seconds
+Received response: () != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.6069865635648469, 'counts': [2, 1, 0, 0], 'totals': [118, 117, 116, 115], 'precisions': [1.694915254237288, 0.8547008547008547, 0.43103448275862066, 0.21739130434782608], 'bp': 1.0, 'sys_len': 118, 'ref_len': 2}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.023668639053254437
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 23
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.792133092880249 seconds
+Received response: )!= EOF)
+  {
+    if (c == ' ')
+      blanks_nr++;
+    else if (c == '\t')
+      tabs_nr++;
+    else if (c == '\n')
+      newlines_nr++;
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of new lines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.31997419885758366, 'counts': [1, 0, 0, 0], 'totals': [112, 111, 110, 109], 'precisions': [0.8928571428571429, 0.45045045045045046, 0.22727272727272727, 0.11467889908256881], 'bp': 1.0, 'sys_len': 112, 'ref_len': 1}
+First element of precision:0.8928571428571429
+Sequence Matcher Similarity Precision:0.006688963210702341
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 748 24
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.8742852210998535 seconds
+Received response: != EOF)
+  {
+    if (c == ' ')
+    {
+      blanks_nr++;
+    }
+    else if (c == '\t')
+    {
+      tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      newlines_nr++;
+    }
+  }
+
+  printf("Number of blanks: %d\n", blanks_nr);
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.3087949756597009, 'counts': [1, 0, 0, 0], 'totals': [116, 115, 114, 113], 'precisions': [0.8620689655172413, 0.43478260869565216, 0.21929824561403508, 0.11061946902654868], 'bp': 1.0, 'sys_len': 116, 'ref_len': 1}
+First element of precision:0.8620689655172413
+Sequence Matcher Similarity Precision:0.012012012012012012
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 748 26
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_08/count_b_t_n.c"
+int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar())
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6355347633361816 seconds
+Received response: {
+    != EOF
+}
+Actual result:  !=
+SACREBLEU Score: {'score': 21.3643503198117, 'counts': [2, 1, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 25.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.35294117647058826
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 750 28
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5441949367523193 seconds
+Received response: '\n'
+Actual result:  ( - 1 )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 750 29
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5245108604431152 seconds
+Received response: '\n'
+Actual result:  -
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 750 30
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47283196449279785 seconds
+Received response: '\n'
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 750 31
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7684948444366455 seconds
+Received response: '\n') 
+{
+    if (c == ' ') 
+    {
+        blanks_nr++;
+    } 
+    else if (c == '\t') 
+    {
+        tabs_nr++;
+    } 
+    else if (c == '\n') 
+    {
+        newlines_nr++;
+    }
+}
+
+printf("Number of blanks: %d\n", blanks_nr);
+printf("Number of tabs: %d\n", tabs_nr);
+printf("Number of newlines: %d\n", newlines_nr);
+
+return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.3087949756597009, 'counts': [1, 0, 0, 0], 'totals': [116, 115, 114, 113], 'precisions': [0.8620689655172413, 0.43478260869565216, 0.21929824561403508, 0.11061946902654868], 'bp': 1.0, 'sys_len': 116, 'ref_len': 1}
+First element of precision:0.8620689655172413
+Sequence Matcher Similarity Precision:0.006042296072507553
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 752 31
+
+                This is the incomplete C11 programming language code:
+                int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6635477542877197 seconds
+Received response: 'next token or line' part of the code should be '\n'.
+Actual result:  ) { if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; } }
+SACREBLEU Score: {'score': 0.36823949480070395, 'counts': [3, 2, 1, 0], 'totals': [14, 13, 12, 11], 'precisions': [21.428571428571427, 15.384615384615385, 8.333333333333334, 4.545454545454546], 'bp': 0.034834644453412465, 'sys_len': 14, 'ref_len': 61}
+First element of precision:21.428571428571427
+Sequence Matcher Similarity Precision:0.19130434782608696
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 753 3
+
+                This is the incomplete C11 programming language code:
+                int tabs_nr = 0;
+  int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5052089691162109 seconds
+Received response: next token or line
+Actual result:  { if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; } }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 8.315287191035679e-07, 'sys_len': 4, 'ref_len': 60}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06217616580310881
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 754 5
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5964736938476562 seconds
+Received response: newlines_nr += (c == '\n');
+Actual result:  if ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 2.219425012180049, 'counts': [14, 8, 5, 3], 'totals': [14, 13, 12, 11], 'precisions': [100.0, 61.53846153846154, 41.666666666666664, 27.272727272727273], 'bp': 0.04315930926145258, 'sys_len': 14, 'ref_len': 58}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.1414141414141414
+Cosine Similarity Precision:0.1386750490563073
+
+Parse State: 404	Cursor Position: 754 8
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47642064094543457 seconds
+Received response: (newlines_nr++;)
+Actual result:  ( c VARIABLE == ' ' ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 0.06359372864782546, 'counts': [8, 3, 1, 0], 'totals': [8, 7, 6, 5], 'precisions': [100.0, 42.857142857142854, 16.666666666666668, 10.0], 'bp': 0.002187491118182885, 'sys_len': 8, 'ref_len': 57}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.14130434782608695
+Cosine Similarity Precision:0.14586499149789456
+
+Parse State: 455	Cursor Position: 754 9
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6939516067504883 seconds
+Received response: if (c == '\n') {
+        newlines_nr++;
+    }
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 2}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.10714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 754 10
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5963594913482666 seconds
+Received response: if (c == '\n')
+    {
+        newlines_nr++;
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 754 11
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6034722328186035 seconds
+Received response: == '\n' || c == '\r') {
+      newlines_nr++;
+    }
+  }
+Actual result:  ==
+SACREBLEU Score: {'score': 3.2933284838220014, 'counts': [2, 1, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [8.695652173913043, 4.545454545454546, 2.380952380952381, 1.25], 'bp': 1.0, 'sys_len': 23, 'ref_len': 2}
+First element of precision:8.695652173913043
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 754 14
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c ==
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5100753307342529 seconds
+Received response: '\n'
+Actual result:  ' '
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 754 17
+
+                This is the incomplete C11 programming language code:
+                int newlines_nr = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' '
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4909546375274658 seconds
+Received response: '\n'
+Actual result:  ) { ++ blanks_nr VARIABLE ; } else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 1.5705548809743181e-07, 'sys_len': 3, 'ref_len': 50}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 755 5
+
+                This is the incomplete C11 programming language code:
+                char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5607881546020508 seconds
+Received response: continue;
+Actual result:  { ++ blanks_nr VARIABLE ; }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.0301973834223185, 'sys_len': 2, 'ref_len': 9}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.16216216216216217
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 756 7
+
+                This is the incomplete C11 programming language code:
+                char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4941985607147217 seconds
+Received response: continue;
+    }
+  }
+Actual result:  ++ blanks_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.6065306597126334, 'sys_len': 4, 'ref_len': 6}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14634146341463414
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 756 9
+
+                This is the incomplete C11 programming language code:
+                char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6905381679534912 seconds
+Received response: continue;
+                }
+  }
+  
+  
+You can replace 'next token or line' with 'continue;' to complete the code.
+Actual result:  blanks_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 20, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 756 18
+
+                This is the incomplete C11 programming language code:
+                char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9871823787689209 seconds
+Received response: blanks_nr++;
+    } else if (c == '\t') {
+      ++tabs_nr;
+    } else if (c == '\n') {
+      ++newlines_nr;
+    }
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 44, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.016
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 756 18
+
+                This is the incomplete C11 programming language code:
+                char c;
+  while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1227507591247559 seconds
+Received response: {
+      ++blanks_nr;
+      continue;
+    }
+
+    if (c == '\t')
+    {
+      ++tabs_nr;
+      continue;
+    }
+
+    if (c == '\n')
+    {
+      ++newlines_nr;
+      continue;
+    }
+  }
+Actual result:  ;
+SACREBLEU Score: {'score': 0.7445292335166879, 'counts': [1, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826], 'bp': 1.0, 'sys_len': 49, 'ref_len': 1}
+First element of precision:2.0408163265306123
+Sequence Matcher Similarity Precision:0.02197802197802198
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 757 5
+
+                This is the incomplete C11 programming language code:
+                while ((c = getchar()) != 
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5748794078826904 seconds
+Received response: continue;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 512	Cursor Position: 758 5
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2386324405670166 seconds
+Received response: else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+    else
+    {
+      ++other_chars_nr;
+    }
+  }
+Actual result:  else if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 60.80477638491915, 'counts': [36, 31, 26, 22], 'totals': [48, 47, 46, 45], 'precisions': [75.0, 65.95744680851064, 56.52173913043478, 48.888888888888886], 'bp': 1.0, 'sys_len': 48, 'ref_len': 40}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.2867647058823529
+Cosine Similarity Precision:0.5883484054145521
+
+Parse State: 320	Cursor Position: 758 10
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1300714015960693 seconds
+Received response: {
+      if (c == '\t')
+      {
+        ++tabs_nr;
+      }
+      else if (c == '\n')
+      {
+        ++newlines_nr;
+      }
+      else
+      {
+        ++others_nr;
+      }
+    }
+}
+Actual result:  if ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 59.90415282109939, 'counts': [35, 30, 25, 21], 'totals': [47, 46, 45, 44], 'precisions': [74.46808510638297, 65.21739130434783, 55.55555555555556, 47.72727272727273], 'bp': 1.0, 'sys_len': 47, 'ref_len': 39}
+First element of precision:74.46808510638297
+Sequence Matcher Similarity Precision:0.4742268041237113
+Cosine Similarity Precision:0.5029556907695452
+
+Parse State: 404	Cursor Position: 758 13
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8359344005584717 seconds
+Received response: {
+      else if (c == '\n')
+      {
+        ++newlines_nr;
+      }
+      else
+      {
+        ++other_nr;
+      }
+  }
+}
+Actual result:  ( c VARIABLE == '\t' ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 43.7474140059953, 'counts': [25, 20, 14, 10], 'totals': [30, 29, 28, 27], 'precisions': [83.33333333333333, 68.96551724137932, 50.0, 37.03703703703704], 'bp': 0.7659283383646487, 'sys_len': 30, 'ref_len': 38}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.3930131004366812
+Cosine Similarity Precision:0.33806170189140655
+
+Parse State: 455	Cursor Position: 758 14
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9439098834991455 seconds
+Received response: else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.9964194812460634, 'counts': [1, 0, 0, 0], 'totals': [37, 36, 35, 34], 'precisions': [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944], 'bp': 1.0, 'sys_len': 37, 'ref_len': 2}
+First element of precision:2.7027027027027026
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 758 15
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8855414390563965 seconds
+Received response: == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.018691588785046728
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 758 16
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8354580402374268 seconds
+Received response: if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+Actual result:  ==
+SACREBLEU Score: {'score': 2.1119434356341635, 'counts': [2, 1, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [5.714285714285714, 2.9411764705882355, 1.5151515151515151, 0.78125], 'bp': 1.0, 'sys_len': 35, 'ref_len': 2}
+First element of precision:5.714285714285714
+Sequence Matcher Similarity Precision:0.05825242718446602
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 758 19
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c ==
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7820606231689453 seconds
+Received response: else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+Actual result:  '\t'
+SACREBLEU Score: {'score': 7.994607499472017, 'counts': [3, 2, 1, 0], 'totals': [18, 17, 16, 15], 'precisions': [16.666666666666668, 11.764705882352942, 6.25, 3.3333333333333335], 'bp': 1.0, 'sys_len': 18, 'ref_len': 3}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.18867924528301888
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 758 23
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c" 3 4
+                           (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t'
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6279151439666748 seconds
+Received response: else if (c == '\n')
+{
+    ++newlines_nr;
+}
+Actual result:  ) { ++ tabs_nr VARIABLE ; } else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 41.84305939768173, 'counts': [18, 15, 12, 10], 'totals': [18, 17, 16, 15], 'precisions': [100.0, 88.23529411764706, 75.0, 66.66666666666667], 'bp': 0.513417119032592, 'sys_len': 18, 'ref_len': 30}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.549618320610687
+Cosine Similarity Precision:0.4803844614152615
+
+Parse State: 320	Cursor Position: 759 5
+
+                This is the incomplete C11 programming language code:
+                (-1)
+# 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.44075489044189453 seconds
+Received response: continue;
+Actual result:  { ++ tabs_nr VARIABLE ; }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.0301973834223185, 'sys_len': 2, 'ref_len': 9}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.11428571428571428
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 760 7
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5597498416900635 seconds
+Received response: next token or line: ++tabs_nr;
+Actual result:  ++ tabs_nr VARIABLE
+SACREBLEU Score: {'score': 35.08439695638686, 'counts': [5, 4, 3, 2], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 40.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 168	Cursor Position: 760 9
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8522837162017822 seconds
+Received response: tabs_nr++;
+    }
+    else if (c == '\n')
+    {
+      ++lines_nr;
+    }
+  }
+Actual result:  tabs_nr VARIABLE
+SACREBLEU Score: {'score': 5.377336385080629, 'counts': [3, 2, 1, 0], 'totals': [26, 25, 24, 23], 'precisions': [11.538461538461538, 8.0, 4.166666666666667, 2.1739130434782608], 'bp': 1.0, 'sys_len': 26, 'ref_len': 4}
+First element of precision:11.538461538461538
+Sequence Matcher Similarity Precision:0.17582417582417584
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 179	Cursor Position: 760 16
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7710447311401367 seconds
+Received response: ;
+    }
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 760 16
+
+                This is the incomplete C11 programming language code:
+                # 10 "chapter_1/exercise_1_08/count_b_t_n.c"
+                              )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8558845520019531 seconds
+Received response: }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+    else
+    {
+      ++other_chars_nr;
+    }
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.036036036036036036
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 761 5
+
+                This is the incomplete C11 programming language code:
+                )
+  {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8744661808013916 seconds
+Received response: 'next token or line'
+      {}
+    else
+    {
+      ++other_chars_nr;
+    }
+  }
+Actual result:  }
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 512	Cursor Position: 762 5
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9049296379089355 seconds
+Received response: next token or line //{
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+    else
+    {
+      ++other_chars_nr;
+    }
+  }
+Actual result:  else if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 37.811460788411914, 'counts': [18, 15, 12, 10], 'totals': [37, 36, 35, 34], 'precisions': [48.648648648648646, 41.666666666666664, 34.285714285714285, 29.41176470588235], 'bp': 1.0, 'sys_len': 37, 'ref_len': 20}
+First element of precision:48.648648648648646
+Sequence Matcher Similarity Precision:0.4126984126984127
+Cosine Similarity Precision:0.45584230583855173
+
+Parse State: 320	Cursor Position: 762 10
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5095133781433105 seconds
+Received response: continue;
+Actual result:  if ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.00020346836901064417, 'sys_len': 2, 'ref_len': 19}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.18461538461538463
+Cosine Similarity Precision:0.0
+
+Parse State: 404	Cursor Position: 762 13
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.209726095199585 seconds
+Received response: if (c == '\n')
+{
+  ++newlines_nr;
+}
+else if (isalpha(c))
+{
+  ++letters_nr;
+}
+else if (isdigit(c))
+{
+  ++digits_nr;
+}
+else
+{
+  ++special_chars_nr;
+}
+Actual result:  ( c VARIABLE == '\n' ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 19.998615624210604, 'counts': [16, 13, 10, 9], 'totals': [60, 59, 58, 57], 'precisions': [26.666666666666668, 22.033898305084747, 17.24137931034483, 15.789473684210526], 'bp': 1.0, 'sys_len': 60, 'ref_len': 18}
+First element of precision:26.666666666666668
+Sequence Matcher Similarity Precision:0.29
+Cosine Similarity Precision:0.09128709291752769
+
+Parse State: 455	Cursor Position: 762 14
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8524675369262695 seconds
+Received response: if (c == '\n')
+{
+  ++lines_nr;
+}
+else
+{
+  ++tokens_nr;
+}
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 2}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.08955223880597014
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 762 15
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7877566814422607 seconds
+Received response: == '\n')
+    {
+      ++new_line_nr;
+    }
+    else
+    {
+      ++other_chars_nr;
+    }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021052631578947368
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 762 16
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8430681228637695 seconds
+Received response: == '\n') {
+      ++newlines_nr;
+    } else {
+      ++others_nr;
+    }
+  }
+Actual result:  ==
+SACREBLEU Score: {'score': 3.1465869622290663, 'counts': [2, 1, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [8.333333333333334, 4.3478260869565215, 2.272727272727273, 1.1904761904761905], 'bp': 1.0, 'sys_len': 24, 'ref_len': 2}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 762 19
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c ==
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5550003051757812 seconds
+Received response: 
+{
+      ++other_chars_nr;
+    }
+Actual result:  '\n'
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10810810810810811
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 762 23
+
+                This is the incomplete C11 programming language code:
+                {
+    if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n'
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7698359489440918 seconds
+Received response: continue to the next iteration of the loop; 
+     ++lines_nr;
+Actual result:  ) { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 7.8594386815106, 'counts': [5, 2, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [33.333333333333336, 14.285714285714286, 3.8461538461538463, 2.0833333333333335], 'bp': 1.0, 'sys_len': 15, 'ref_len': 10}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3010752688172043
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 763 5
+
+                This is the incomplete C11 programming language code:
+                if (c == ' ')
+    {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7092995643615723 seconds
+Received response: {
+      ++newlines_nr; //assuming newlines_nr is a counter for newline characters
+    }
+Actual result:  { ++ newlines_nr VARIABLE ; }
+SACREBLEU Score: {'score': 25.34743707366162, 'counts': [8, 5, 4, 3], 'totals': [20, 19, 18, 17], 'precisions': [40.0, 26.31578947368421, 22.22222222222222, 17.647058823529413], 'bp': 1.0, 'sys_len': 20, 'ref_len': 9}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.3418803418803419
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 201	Cursor Position: 764 7
+
+                This is the incomplete C11 programming language code:
+                {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47292566299438477 seconds
+Received response: break;
+Actual result:  ++ newlines_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.1353352832366127, 'sys_len': 2, 'ref_len': 6}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 764 9
+
+                This is the incomplete C11 programming language code:
+                {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.6335816383361816 seconds
+Received response: line_nr++;
+Actual result:  newlines_nr VARIABLE
+SACREBLEU Score: {'score': 16.233395773754953, 'counts': [2, 1, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 20.0, 12.5, 8.333333333333334], 'bp': 1.0, 'sys_len': 6, 'ref_len': 4}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.45161290322580644
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 764 20
+
+                This is the incomplete C11 programming language code:
+                {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46471166610717773 seconds
+Received response: continue;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 764 20
+
+                This is the incomplete C11 programming language code:
+                {
+      ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5823690891265869 seconds
+Received response: return next_token_or_line();
+Actual result:  ;
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 765 5
+
+                This is the incomplete C11 programming language code:
+                ++blanks_nr;
+    }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5089542865753174 seconds
+Received response: continue;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 766 3
+
+                This is the incomplete C11 programming language code:
+                }
+    else if (c == '\t')
+    {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7353136539459229 seconds
+Received response: if (c == ' ')
+{
+   ++spaces_nr;
+}
+else
+{
+   // handle other characters
+}
+Actual result:  }
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.05405405405405406
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 768 3
+
+                This is the incomplete C11 programming language code:
+                {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4946706295013428 seconds
+Received response: continue;
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 768 9
+
+                This is the incomplete C11 programming language code:
+                {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0238535404205322 seconds
+Received response: {
+  
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+
+  tabs_nr = 0;
+  newlines_nr = 0;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 51, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013513513513513514
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 768 9
+
+                This is the incomplete C11 programming language code:
+                {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9250364303588867 seconds
+Received response: 'next token or line'
+{
+  printf("Number of tabs: %d\n", tabs_nr);
+  printf("Number of newlines: %d\n", newlines_nr);
+}
+Actual result:  ( " , blanks_nr VARIABLE , tabs_nr VARIABLE , newlines_nr VARIABLE )
+SACREBLEU Score: {'score': 12.723416043294185, 'counts': [11, 8, 4, 2], 'totals': [42, 41, 40, 39], 'precisions': [26.19047619047619, 19.51219512195122, 10.0, 5.128205128205129], 'bp': 1.0, 'sys_len': 42, 'ref_len': 18}
+First element of precision:26.19047619047619
+Sequence Matcher Similarity Precision:0.3315508021390374
+Cosine Similarity Precision:0.12909944487358058
+
+Parse State: 235	Cursor Position: 768 10
+
+                This is the incomplete C11 programming language code:
+                {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7931935787200928 seconds
+Received response: printf("Number of tabs: %d\nNumber of newlines: %d", tabs_nr, newlines_nr);
+Actual result:  "
+SACREBLEU Score: {'score': 1.387819277861591, 'counts': [1, 0, 0, 0], 'totals': [27, 26, 25, 24], 'precisions': [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334], 'bp': 1.0, 'sys_len': 27, 'ref_len': 1}
+First element of precision:3.7037037037037037
+Sequence Matcher Similarity Precision:0.025974025974025976
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 768 57
+
+                This is the incomplete C11 programming language code:
+                {
+      ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5501449108123779 seconds
+Received response: returning 0;
+Actual result:  , blanks_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.513417119032592, 'sys_len': 3, 'ref_len': 5}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 769 10
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8287720680236816 seconds
+Received response: blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n", 
+tokens_nr
+Actual result:  blanks_nr VARIABLE
+SACREBLEU Score: {'score': 5.166045454134253, 'counts': [3, 2, 1, 0], 'totals': [27, 26, 25, 24], 'precisions': [11.11111111111111, 7.6923076923076925, 4.0, 2.0833333333333335], 'bp': 1.0, 'sys_len': 27, 'ref_len': 4}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.2597402597402597
+Cosine Similarity Precision:0.35355339059327373
+
+Parse State: 179	Cursor Position: 769 19
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5554416179656982 seconds
+Received response: newlines_nr: %d", newlines_nr);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 769 19
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5506575107574463 seconds
+Received response: 
+tabs_nr, newlines_nr);
+Actual result:  , tabs_nr VARIABLE
+SACREBLEU Score: {'score': 19.070828081828378, 'counts': [4, 2, 1, 0], 'totals': [9, 8, 7, 6], 'precisions': [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334], 'bp': 1.0, 'sys_len': 9, 'ref_len': 5}
+First element of precision:44.44444444444444
+Sequence Matcher Similarity Precision:0.38095238095238093
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 429	Cursor Position: 769 21
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5329153537750244 seconds
+Received response: newlines_nr
+Actual result:  tabs_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 769 28
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5555014610290527 seconds
+Received response: 
+         newlines_nr);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0625
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 769 28
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5259029865264893 seconds
+Received response: newlines_nr);
+Actual result:  , newlines_nr VARIABLE
+SACREBLEU Score: {'score': 39.76353643835252, 'counts': [3, 2, 1, 0], 'totals': [5, 4, 3, 2], 'precisions': [60.0, 50.0, 33.333333333333336, 25.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:60.0
+Sequence Matcher Similarity Precision:0.6111111111111112
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 429	Cursor Position: 769 30
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.49367547035217285 seconds
+Received response: newlines_nr
+Actual result:  newlines_nr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [3, 2, 1, 0], 'totals': [3, 2, 1, 0], 'precisions': [100.0, 100.0, 100.0, 0.0], 'bp': 0.7165313105737893, 'sys_len': 3, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6875
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 769 41
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 3.422649383544922 seconds
+Received response: You can complete the 'next token or line' part of the code by adding a line that reads the next character from the input stream using the `getchar()` function. Here's the complete code snippet:
+
+```c
+#include <stdio.h>
+
+int main() {
+  int blanks_nr = 0;
+  int tabs_nr = 0;
+  int newlines_nr = 0;
+  int c;
+
+  while ((c = getchar()) != EOF) {
+    if (c == ' ') {
+      ++blanks_nr;
+    }
+    else if (c == '\t') {
+      ++tabs_nr;
+    }
+    else if (c == '\n') {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr);
+
+  printf("Next token or line\n");  // Line to be completed
+
+  return 0;
+}
+``` 
+
+This code snippet reads characters from the standard input and counts the number of blanks, tabs, and newlines encountered. After printing out the counts, it displays "Next token or line" on the screen.
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [252, 251, 250, 249], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 252, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.004514672686230248
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 769 41
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7174921035766602 seconds
+Received response: {
+  'next token or line'
+}  else {
+    ++token_nr;
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.034482758620689655
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 769 42
+
+                This is the incomplete C11 programming language code:
+                ++tabs_nr;
+    }
+    else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.873863697052002 seconds
+Received response: ```c
+      if (scanf("%c", &c) == EOF) {
+        break; // Reached end of file
+      }
+    }
+  }
+```
+Actual result:  ;
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.0392156862745098
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 771 3
+
+                This is the incomplete C11 programming language code:
+                else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.661902904510498 seconds
+Received response: next token or line
+  {
+    ++tokens_nr;
+  }
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 3}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 771 10
+
+                This is the incomplete C11 programming language code:
+                else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr);
+
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5708127021789551 seconds
+Received response: return 'next token or line';
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 771 11
+
+                This is the incomplete C11 programming language code:
+                else if (c == '\n')
+    {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr);
+
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4764125347137451 seconds
+Received response: ;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 772 1
+
+                This is the incomplete C11 programming language code:
+                {
+      ++newlines_nr;
+    }
+  }
+
+  printf("blanks_nr: %d\ntabs_nr: %d\nnewlines_nr: %d\n",
+         blanks_nr, tabs_nr, newlines_nr);
+
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.795931339263916 seconds
+Received response: The correct completion for the code in the C11 programming language would be:
+
+```c
+return 0;
+}
+```
+Actual result:  }
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.039603960396039604
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 16.98146251011113
+Average Sequence Matcher Similarity Precision: 12.78344163820108
+Average Cosine Similarity Precision: 7.79308352179793
