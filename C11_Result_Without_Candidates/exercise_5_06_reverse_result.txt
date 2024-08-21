@@ -1,0 +1,3801 @@
+Parse State: 23	Cursor Position: 1026 1
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7998397350311279 seconds
+Received response: // Answer
+#include <string.h>
+
+// Rest of the code would go here...
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 1026 6
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.118903636932373 seconds
+Received response: extern char *stpncpy (char *__restrict __dest, const char *__restrict __src, size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)))
+{
+    // code implementation for stpncpy function
+}
+Actual result:  reverse VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [79, 78, 77, 76], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 79, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05106382978723404
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 13
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3761529922485352 seconds
+Received response: (char *__restrict dest, const char *__restrict src, size_t n) {
+    size_t length = strlen(src);
+
+    if (length < n) {
+        strcpy(dest, src);
+        reverse(dest, dest, length);
+    } else {
+        stpncpy(dest, src, n);
+        reverse(dest, src + n, length - n);
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [82, 81, 80, 79], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 82, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.006944444444444444
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1026 13
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8981616497039795 seconds
+Received response: {
+        char* ptr = __dest + __n;
+        *ptr = '\0';
+        while (__n--)
+            *--ptr = *__src++;
+        return __dest;
+    }
+Actual result:  ( char * s VARIABLE )
+SACREBLEU Score: {'score': 2.077079238326844, 'counts': [4, 1, 0, 0], 'totals': [42, 41, 40, 39], 'precisions': [9.523809523809524, 2.4390243902439024, 1.25, 0.6410256410256411], 'bp': 1.0, 'sys_len': 42, 'ref_len': 6}
+First element of precision:9.523809523809524
+Sequence Matcher Similarity Precision:0.1375
+Cosine Similarity Precision:0.1543033499620919
+
+Parse State: 186	Cursor Position: 1026 14
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4506251811981201 seconds
+Received response: char *dest = __dest;
+    size_t length = stpncpy(__dest, __src, __n) - __dest;
+
+    for (size_t i = 0; i < length / 2; i++) {
+        char temp = dest[i];
+        dest[i] = dest[length - i - 1];
+        dest[length - i - 1] = temp;
+    }
+Actual result:  char
+SACREBLEU Score: {'score': 0.4184430101881885, 'counts': [1, 0, 0, 0], 'totals': [86, 85, 84, 83], 'precisions': [1.1627906976744187, 0.5882352941176471, 0.2976190476190476, 0.15060240963855423], 'bp': 1.0, 'sys_len': 86, 'ref_len': 1}
+First element of precision:1.1627906976744187
+Sequence Matcher Similarity Precision:0.04132231404958678
+Cosine Similarity Precision:0.24618298195866545
+
+Parse State: 298	Cursor Position: 1026 19
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4413142204284668 seconds
+Received response: *dest, const char *src, size_t n) { 
+
+    size_t i, j;
+    char temp;
+
+    for (i = 0, j = n - 1; i < j; i++, j--) {
+        temp = dest[i];
+        dest[i] = dest[j];
+        dest[j] = temp;
+    }
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.4945407352517106, 'counts': [1, 0, 0, 0], 'totals': [73, 72, 71, 70], 'precisions': [1.36986301369863, 0.6944444444444444, 0.352112676056338, 0.17857142857142858], 'bp': 1.0, 'sys_len': 73, 'ref_len': 1}
+First element of precision:1.36986301369863
+Sequence Matcher Similarity Precision:0.01990049751243781
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 1026 20
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3440046310424805 seconds
+Received response: {
+
+    size_t length = strlen(str);
+    size_t i, j;
+    char temp;
+    
+    for (i = 0, j = length - 1; i < j; i++, j--) {
+        temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+    }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [70, 69, 68, 67], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 70, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1026 21
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4818263053894043 seconds
+Received response: {
+    int start = 0;
+    int end = strlen(s) - 1;
+    
+    while (start < end) {
+        char temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
+        
+        start++;
+        end--;
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 56, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.009174311926605505
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 1026 21
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7906222343444824 seconds
+Received response: {
+    int start = 0;
+    int end = strlen(s) - 1;
+
+    while (start < end) {
+        char temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
+        start++;
+        end--;
+    }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.6488583831481832, 'counts': [1, 0, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [1.7857142857142858, 0.9090909090909091, 0.46296296296296297, 0.2358490566037736], 'bp': 1.0, 'sys_len': 56, 'ref_len': 1}
+First element of precision:1.7857142857142858
+Sequence Matcher Similarity Precision:0.020202020202020204
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1026 22
+
+                This is the incomplete C11 programming language code:
+                extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0460150241851807 seconds
+Received response: {
+    char *end = s + strlen(s) - 1;
+    char temp;
+    while (s < end) {
+        temp = *s;
+        *s++ = *end;
+        *end-- = temp;
+    }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.8321783954793125, 'counts': [1, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [2.272727272727273, 1.1627906976744187, 0.5952380952380952, 0.3048780487804878], 'bp': 1.0, 'sys_len': 44, 'ref_len': 1}
+First element of precision:2.272727272727273
+Sequence Matcher Similarity Precision:0.0273972602739726
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1028 1
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9349417686462402 seconds
+Received response: The missing part of the code should be:
+int main()
+{
+    char str[] = "Hello, World!";
+    
+    reverse(str);
+    
+    return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.2182178902359924
+
+Parse State: 5	Cursor Position: 1028 5
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6468980312347412 seconds
+Received response: __attribute__((__noreturn__))
+void reverse(char *s) __attribute__((__nonnull__ (1)));
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 39, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08080808080808081
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1028 9
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6535906791687012 seconds
+Received response: int main() {
+    char s[] = "hello";
+    
+    reverse(s);
+    
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1028 9
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6300845146179199 seconds
+Received response: int main() {
+    char str[] = "hello world";
+    
+    reverse(str);
+
+    return 0;
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 1.8709718017288024, 'counts': [2, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [8.333333333333334, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 3}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 1028 10
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9796545505523682 seconds
+Received response: The 'next token or line' should be the closing brace '}' to complete the function definition for the main function. 
+
+So, the updated code should be:
+
+```c
+void reverse(char *s);
+
+int main() {
+```
+Actual result:  void
+SACREBLEU Score: {'score': 0.7144315612998046, 'counts': [1, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [1.9607843137254901, 1.0, 0.5102040816326531, 0.2604166666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 1}
+First element of precision:1.9607843137254901
+Sequence Matcher Similarity Precision:0.04975124378109453
+Cosine Similarity Precision:0.13130643285972254
+
+Parse State: 187	Cursor Position: 1028 14
+
+                This is the incomplete C11 programming language code:
+                __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+# 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9403066635131836 seconds
+Received response: #include <stdio.h>
+
+__attribute__ ((__nothrow__, __leaf__)) __attribute__((__nonnull__(1)))
+void reverse(char *s);
+
+int main(void) {
+    char str[] = "Hello, World!";
+    
+    reverse(str);
+    
+    printf("Reversed string: %s\n", str);
+    
+    return 0;
+}
+
+void reverse(char *s) {
+    if (!s || !*s) {
+        return;
+    }
+    
+    char *start = s;
+    char *end = s + strlen(s) - 1;
+    
+    while (start < end) {
+        char temp = *start;
+        *start = *end;
+        *end = temp;
+        
+        start++;
+        end--;
+    }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.21363230120135257, 'counts': [1, 0, 0, 0], 'totals': [167, 166, 165, 164], 'precisions': [0.5988023952095808, 0.30120481927710846, 0.15151515151515152, 0.07621951219512195], 'bp': 1.0, 'sys_len': 167, 'ref_len': 1}
+First element of precision:0.5988023952095808
+Sequence Matcher Similarity Precision:0.007407407407407408
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 1029 1
+
+                This is the incomplete C11 programming language code:
+                # 539 "/usr/include/string.h" 3 4
+
+# 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.943934440612793 seconds
+Received response: {
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, 100, stdin);
+    
+    reverse(str);
+    
+    printf("Reversed string: %s\n", str);
+    
+    return 0;
+}
+Actual result:  { char s VARIABLE [ 100 ] = " ; reverse VARIABLE ( s VARIABLE ) ; puts VARIABLE ( s VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 15.06901690484416, 'counts': [19, 10, 5, 3], 'totals': [50, 49, 48, 47], 'precisions': [38.0, 20.408163265306122, 10.416666666666666, 6.382978723404255], 'bp': 1.0, 'sys_len': 50, 'ref_len': 28}
+First element of precision:38.0
+Sequence Matcher Similarity Precision:0.3416370106761566
+Cosine Similarity Precision:0.15430334996209188
+
+Parse State: 201	Cursor Position: 1030 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.004838228225708 seconds
+Received response: #include <stdio.h>
+#include <string.h>
+
+void reverse(char *s)
+{
+    int length = strlen(s);
+    for (int i = 0; i < length / 2; i++)
+    {
+        char temp = s[i];
+        s[i] = s[length - i - 1];
+        s[length - i - 1] = temp;
+    }
+}
+
+int main(void)
+{
+    char str[] = "Hello, World!";
+    
+    printf("Original string: %s\n", str);
+    
+    reverse(str);
+    
+    printf("Reversed string: %s\n", str);
+    
+    return 0;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.25528152414842675, 'counts': [1, 0, 0, 0], 'totals': [140, 139, 138, 137], 'precisions': [0.7142857142857143, 0.3597122302158273, 0.18115942028985507, 0.09124087591240876], 'bp': 1.0, 'sys_len': 140, 'ref_len': 1}
+First element of precision:0.7142857142857143
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.31980107453341566
+
+Parse State: 93	Cursor Position: 1030 8
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6471083164215088 seconds
+Received response: {
+  char str[] = "Hello, World!";
+  reverse(str);
+  return 0;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08108108108108109
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1030 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6326735019683838 seconds
+Received response: {
+  char s[] = "Hello";
+  reverse(s);
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1030 9
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7525577545166016 seconds
+Received response: [] = "Hello World";
+  
+  reverse(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  
+}
+Actual result:  [ 100 ]
+SACREBLEU Score: {'score': 1.7179060012299232, 'counts': [2, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [7.6923076923076925, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 3}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.0449438202247191
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 1030 10
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.441723108291626 seconds
+Received response: char s[] = "Hello";
+Actual result:  100
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 1030 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7977244853973389 seconds
+Received response: ]); 
+  scanf("%s", s);
+  reverse(s);
+  printf("Reversed string: %s\n", s);
+  
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  char *begin = s;
+  char *end = s + length - 1;
+  char temp;
+  
+  while (begin < end)
+  {
+    temp = *begin;
+    *begin = *end;
+    *end = temp;
+    
+    begin++;
+    end--;
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.3483495982023228, 'counts': [1, 0, 0, 0], 'totals': [103, 102, 101, 100], 'precisions': [0.970873786407767, 0.49019607843137253, 0.24752475247524752, 0.125], 'bp': 1.0, 'sys_len': 103, 'ref_len': 1}
+First element of precision:0.970873786407767
+Sequence Matcher Similarity Precision:0.006153846153846154
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 1030 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.202131748199463 seconds
+Received response: {
+  printf("Enter a string to reverse: ");
+  fgets(s, 100, stdin);
+  
+  reverse(s);
+  
+  printf("Reversed string: %s\n", s);
+  
+  return 0;
+}
+Actual result:  = "
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.041379310344827586
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 1030 17
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5222828388214111 seconds
+Received response: char s[100] = "Hello World";
+Actual result:  "
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1030 23
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_06/reverse.c" 2
+
+
+# 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.475311279296875 seconds
+Received response: strlen(s);
+  reverse(s);
+  printf("%s\n", s);
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int c, i, j;
+  for (i = 0, j = strlen(s) - 1; i < j; i++, j--) {
+    c = s[i];
+    s[i] = s[j];
+    s[j] = c;
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.3864259978779946, 'counts': [1, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [1.075268817204301, 0.5434782608695652, 0.27472527472527475, 0.1388888888888889], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:1.075268817204301
+Sequence Matcher Similarity Precision:0.00980392156862745
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1032 3
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5808756351470947 seconds
+Received response: reverse(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  char temp;
+  
+  for (int i = 0; i < length / 2; i++)
+  {
+    temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+Actual result:  reverse VARIABLE
+SACREBLEU Score: {'score': 0.4504321747452186, 'counts': [1, 0, 0, 0], 'totals': [80, 79, 78, 77], 'precisions': [1.25, 0.6329113924050633, 0.32051282051282054, 0.16233766233766234], 'bp': 1.0, 'sys_len': 80, 'ref_len': 2}
+First element of precision:1.25
+Sequence Matcher Similarity Precision:0.07627118644067797
+Cosine Similarity Precision:0.22086305214969307
+
+Parse State: 65	Cursor Position: 1032 10
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48320460319519043 seconds
+Received response: (s);
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1032 10
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4389526844024658 seconds
+Received response: (s);
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 35.35533905932737, 'counts': [3, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 4}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.3157894736842105
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 1032 11
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7542338371276855 seconds
+Received response: &s[0]); 
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = 0;
+  char *t = s;
+
+  while (*t != '\0')
+  {
+    length++;
+    t++;
+  }
+
+  char *start = s;
+  char *end = s + length - 1;
+
+  while (start < end)
+  {
+    char temp = *start;
+    *start = *end;
+    *end = temp;
+
+    start++;
+    end--;
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.3664011637870855, 'counts': [1, 0, 0, 0], 'totals': [98, 97, 96, 95], 'precisions': [1.0204081632653061, 0.5154639175257731, 0.2604166666666667, 0.13157894736842105], 'bp': 1.0, 'sys_len': 98, 'ref_len': 2}
+First element of precision:1.0204081632653061
+Sequence Matcher Similarity Precision:0.019169329073482427
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1032 12
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5741305351257324 seconds
+Received response: ); 
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  char temp;
+
+  for (int i = 0; i < length / 2; i++)
+  {
+    temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [77, 76, 75, 74], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 77, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.009174311926605505
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1032 12
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.8017396926879883 seconds
+Received response: ); 
+
+  printf("Reversed string: %s\n", s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  int i;
+  char temp;
+
+  for (i = 0; i < length / 2; i++)
+  {
+    temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.3822478057284026, 'counts': [1, 0, 0, 0], 'totals': [94, 93, 92, 91], 'precisions': [1.0638297872340425, 0.5376344086021505, 0.2717391304347826, 0.13736263736263737], 'bp': 1.0, 'sys_len': 94, 'ref_len': 1}
+First element of precision:1.0638297872340425
+Sequence Matcher Similarity Precision:0.00784313725490196
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1032 13
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5148706436157227 seconds
+Received response: ; // this semicolon closes the main function and completes the code
+Actual result:  ;
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1033 3
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.104886054992676 seconds
+Received response: #include <stdio.h>
+
+  printf("Reversed string: %s\n", s);
+  
+  return 0;
+}
+
+void reverse(char *s) {
+  int length = 0;
+  while(s[length] != '\0') {
+    length++;
+  }
+  
+  int i, j;
+  for(i = 0, j = length - 1; i < j; i++, j--) {
+    char temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+  }
+}
+Actual result:  puts VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [112, 111, 110, 109], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 112, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.026402640264026403
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1033 7
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5129008293151855 seconds
+Received response: (s);
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1033 7
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3788096904754639 seconds
+Received response: (s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  char temp;
+  int i, j;
+
+  for (i = 0, j = length - 1; i < j; i++, j--)
+  {
+    temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+  }
+}
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 0.984427284082, 'counts': [3, 1, 0, 0], 'totals': [81, 80, 79, 78], 'precisions': [3.7037037037037037, 1.25, 0.6329113924050633, 0.32051282051282054], 'bp': 1.0, 'sys_len': 81, 'ref_len': 4}
+First element of precision:3.7037037037037037
+Sequence Matcher Similarity Precision:0.0365296803652968
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 1033 8
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4598772525787354 seconds
+Received response: s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  char temp;
+  
+  for (int i = 0; i < length / 2; i++)
+  {
+    temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.4622106633998758, 'counts': [1, 0, 0, 0], 'totals': [78, 77, 76, 75], 'precisions': [1.2820512820512822, 0.6493506493506493, 0.32894736842105265, 0.16666666666666666], 'bp': 1.0, 'sys_len': 78, 'ref_len': 2}
+First element of precision:1.2820512820512822
+Sequence Matcher Similarity Precision:0.02702702702702703
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1033 9
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5362563133239746 seconds
+Received response: ); 
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1033 9
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4371776580810547 seconds
+Received response: ); // missing ");" after puts(s)
+  
+  return 0;
+}
+
+void reverse(char *s)
+{
+  int i = 0;
+  int j = strlen(s) - 1;
+  
+  while (i < j)
+  {
+    char temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+    i++;
+    j--;
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.44476523315234656, 'counts': [1, 0, 0, 0], 'totals': [81, 80, 79, 78], 'precisions': [1.2345679012345678, 0.625, 0.31645569620253167, 0.16025641025641027], 'bp': 1.0, 'sys_len': 81, 'ref_len': 1}
+First element of precision:1.2345679012345678
+Sequence Matcher Similarity Precision:0.009216589861751152
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1033 10
+
+                This is the incomplete C11 programming language code:
+                # 4 "chapter_5/exercise_5_06/reverse.c"
+void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4486243724822998 seconds
+Received response: ;
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1035 3
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48068976402282715 seconds
+Received response: return 0;
+}
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 59.460355750136046, 'counts': [3, 2, 1, 0], 'totals': [4, 3, 2, 1], 'precisions': [75.0, 66.66666666666667, 50.0, 50.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:75.0
+Sequence Matcher Similarity Precision:0.8181818181818182
+Cosine Similarity Precision:1.0
+
+Parse State: 338	Cursor Position: 1035 10
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5136640071868896 seconds
+Received response: 0; 
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:1.0
+
+Parse State: 415	Cursor Position: 1035 11
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s);
+
+int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.394683599472046 seconds
+Received response: }
+
+void reverse(char *s)
+{
+  int length = strlen(s);
+  int i, j;
+  char temp;
+
+  for(i=0, j=length-1; i<j; i++, j--)
+  {
+    temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.5015572500202529, 'counts': [1, 0, 0, 0], 'totals': [72, 71, 70, 69], 'precisions': [1.3888888888888888, 0.704225352112676, 0.35714285714285715, 0.18115942028985507], 'bp': 1.0, 'sys_len': 72, 'ref_len': 1}
+First element of precision:1.3888888888888888
+Sequence Matcher Similarity Precision:0.0223463687150838
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1036 1
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2179980278015137 seconds
+Received response: void reverse(char *s)
+{
+  int i, j;
+  char temp;
+
+  for(i = 0, j = strlen(s) - 1; i < j; i++, j--)
+  {
+    temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+  }
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.5317343965184799, 'counts': [1, 0, 0, 0], 'totals': [68, 67, 66, 65], 'precisions': [1.4705882352941178, 0.746268656716418, 0.3787878787878788, 0.19230769230769232], 'bp': 1.0, 'sys_len': 68, 'ref_len': 1}
+First element of precision:1.4705882352941178
+Sequence Matcher Similarity Precision:0.024844720496894408
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 1038 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7169113159179688 seconds
+Received response: Here is the complete C11 programming language code:
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+void reverse(char *s) {
+  int length = strlen(s);
+  for (int i = 0; i < length / 2; i++) {
+    char temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+
+int main() {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+```
+Actual result:  void
+SACREBLEU Score: {'score': 0.27949976322926645, 'counts': [1, 0, 0, 0], 'totals': [128, 127, 126, 125], 'precisions': [0.78125, 0.3937007874015748, 0.1984126984126984, 0.1], 'bp': 1.0, 'sys_len': 128, 'ref_len': 1}
+First element of precision:0.78125
+Sequence Matcher Similarity Precision:0.027472527472527472
+Cosine Similarity Precision:0.125
+
+Parse State: 5	Cursor Position: 1038 6
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.113480806350708 seconds
+Received response: void reverse(char *s) {
+    int length = strlen(s);
+    int c, i, j;
+
+    for (i = 0, j = length - 1; i < j; i++, j--) {
+        c = s[i];
+        s[i] = s[j];
+        s[j] = c;
+    }
+}
+Actual result:  reverse VARIABLE
+SACREBLEU Score: {'score': 0.5015572500202529, 'counts': [1, 0, 0, 0], 'totals': [72, 71, 70, 69], 'precisions': [1.3888888888888888, 0.704225352112676, 0.35714285714285715, 0.18115942028985507], 'bp': 1.0, 'sys_len': 72, 'ref_len': 2}
+First element of precision:1.3888888888888888
+Sequence Matcher Similarity Precision:0.0891089108910891
+Cosine Similarity Precision:0.19611613513818402
+
+Parse State: 65	Cursor Position: 1038 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1552047729492188 seconds
+Received response: void reverse(char *str) {
+  int i = 0;
+  int j = strlen(str) - 1;
+  
+  while(i < j) {
+    char temp = str[i];
+    str[i] = str[j];
+    str[j] = temp;
+    i++;
+    j--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01098901098901099
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 1038 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.378824234008789 seconds
+Received response: (char *str) {
+  int i = 0;
+  int j = strlen(str) - 1;
+
+  while(i < j) {
+    char temp = str[i];
+    str[i] = str[j];
+    str[j] = temp;
+    i++;
+    j--;
+  }
+}
+Actual result:  ( char * s VARIABLE )
+SACREBLEU Score: {'score': 2.377249283541555, 'counts': [4, 2, 1, 0], 'totals': [61, 60, 59, 58], 'precisions': [6.557377049180328, 3.3333333333333335, 1.694915254237288, 0.8620689655172413], 'bp': 1.0, 'sys_len': 61, 'ref_len': 6}
+First element of precision:6.557377049180328
+Sequence Matcher Similarity Precision:0.11049723756906077
+Cosine Similarity Precision:0.19999999999999998
+
+Parse State: 186	Cursor Position: 1038 14
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2031702995300293 seconds
+Received response: void reverse(char *str) {
+  int length = strlen(str);
+  int start = 0;
+  int end = length - 1;
+  char temp;
+
+  while (start < end) {
+    temp = str[start];
+    str[start] = str[end];
+    str[end] = temp;
+    start++;
+    end--;
+  }
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.5162051047489141, 'counts': [1, 0, 0, 0], 'totals': [70, 69, 68, 67], 'precisions': [1.4285714285714286, 0.7246376811594203, 0.36764705882352944, 0.1865671641791045], 'bp': 1.0, 'sys_len': 70, 'ref_len': 1}
+First element of precision:1.4285714285714286
+Sequence Matcher Similarity Precision:0.04201680672268908
+Cosine Similarity Precision:0.18569533817705186
+
+Parse State: 298	Cursor Position: 1038 19
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2851176261901855 seconds
+Received response: (char *str) {
+  int i = 0;
+  int j = strlen(str) - 1;
+  
+  while (i < j) {
+    char temp = str[i];
+    str[i] = str[j];
+    str[j] = temp;
+    i++;
+    j--;
+  }
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.5943123208853887, 'counts': [1, 0, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [1.639344262295082, 0.8333333333333334, 0.423728813559322, 0.21551724137931033], 'bp': 1.0, 'sys_len': 61, 'ref_len': 1}
+First element of precision:1.639344262295082
+Sequence Matcher Similarity Precision:0.024390243902439025
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 1038 20
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0297167301177979 seconds
+Received response: *str) {
+  int i, j;
+  char temp;
+
+  for (i = 0, j = strlen(str)-1; i < j; i++, j--) {
+    temp = str[i];
+    str[i] = str[j];
+    str[j] = temp;
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 63, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.037267080745341616
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1038 21
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3502092361450195 seconds
+Received response: {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s) {
+  int length = strlen(s);
+  for (int i = 0; i < length / 2; i++) {
+    char temp = s[i];
+    s[i] = s[length - i - 1];
+    s[length - i - 1] = temp;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [94, 93, 92, 91], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 94, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.00784313725490196
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 1038 21
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5601730346679688 seconds
+Received response: {
+  char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s) {
+  int i, j;
+  char temp;
+
+  for (i = 0, j = strlen(s) - 1; i < j; i++, j--) {
+      temp = s[i];
+      s[i] = s[j];
+      s[j] = temp;
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.3864259978779946, 'counts': [1, 0, 0, 0], 'totals': [93, 92, 91, 90], 'precisions': [1.075268817204301, 0.5434782608695652, 0.27472527472527475, 0.1388888888888889], 'bp': 1.0, 'sys_len': 93, 'ref_len': 1}
+First element of precision:1.075268817204301
+Sequence Matcher Similarity Precision:0.017094017094017096
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 1039 1
+
+                This is the incomplete C11 programming language code:
+                char s[100] = "test";
+
+  reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2246639728546143 seconds
+Received response: {
+  int length = strlen(s);
+  int start = 0;
+  int end = length - 1;
+
+  while (start < end) {
+    char temp = s[start];
+    s[start] = s[end];
+    s[end] = temp;
+    start++;
+    end--;
+  }
+}
+Actual result:  { char * t VARIABLE = s VARIABLE + strlen VARIABLE ( s VARIABLE ) - 1 ; char aux VARIABLE = 0 ; if ( * s VARIABLE == '\0' ) return ; while ( s VARIABLE < t VARIABLE ) { aux VARIABLE = * t VARIABLE ; * t VARIABLE -- = * s VARIABLE ; * s VARIABLE ++ = aux VARIABLE ; } }
+SACREBLEU Score: {'score': 7.529008952680645, 'counts': [34, 13, 4, 0], 'totals': [61, 60, 59, 58], 'precisions': [55.73770491803279, 21.666666666666668, 6.779661016949152, 0.8620689655172413], 'bp': 0.8214195216114528, 'sys_len': 61, 'ref_len': 73}
+First element of precision:55.73770491803279
+Sequence Matcher Similarity Precision:0.11304347826086956
+Cosine Similarity Precision:0.032758285951151524
+
+Parse State: 201	Cursor Position: 1040 3
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0186421871185303 seconds
+Received response: int length = strlen(s);
+  char temp;
+
+  for(int i=0; i<length/2; i++)
+  {
+    temp = s[i];
+    s[i] = s[length-1-i];
+    s[length-1-i] = temp;
+  }
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.06535947712418301
+Cosine Similarity Precision:0.17677669529663687
+
+Parse State: 93	Cursor Position: 1040 8
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3949339389801025 seconds
+Received response: You can complete the code by adding the following lines inside the reverse function to reverse the string:
+
+```c
+int length = strlen(s);
+for(int i=0; i<length/2; i++){
+    char temp = s[i];
+    s[i] = s[length-i-1];
+    s[length-i-1] = temp;
+}
+```
+Actual result:  *
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [78, 77, 76, 75], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 78, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.008032128514056224
+Cosine Similarity Precision:0.0
+
+Parse State: 64	Cursor Position: 1040 9
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1900038719177246 seconds
+Received response: int length = strlen(s); 
+  int i, j;
+  char temp;
+
+  for (i = 0, j = length - 1; i < j; i++, j--) {
+    temp = s[i];
+    s[i] = s[j];
+    s[j] = temp;
+  }
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 65, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.023952095808383235
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1040 10
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9742076396942139 seconds
+Received response: = s + strlen(s) - 1;
+  char temp;
+
+  while (s < t) {
+    temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 44, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.015625
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 1040 11
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0275039672851562 seconds
+Received response: {
+  char *t = s + strlen(s) - 1;
+  char temp;
+  
+  while (s < t) {
+    temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  = s VARIABLE + strlen VARIABLE ( s VARIABLE ) - 1
+SACREBLEU Score: {'score': 4.685093573881758, 'counts': [9, 5, 1, 0], 'totals': [48, 47, 46, 45], 'precisions': [18.75, 10.638297872340425, 2.1739130434782608, 1.1111111111111112], 'bp': 1.0, 'sys_len': 48, 'ref_len': 12}
+First element of precision:18.75
+Sequence Matcher Similarity Precision:0.2185792349726776
+Cosine Similarity Precision:0.0816496580927726
+
+Parse State: 108	Cursor Position: 1040 13
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0663022994995117 seconds
+Received response: {
+    char *end = s + strlen(s) - 1;
+    while (s < end) {
+        char temp = *s;
+        *s = *end;
+        *end = temp;
+        s++;
+        end--;
+    }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.03550295857988166
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1040 14
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3231148719787598 seconds
+Received response: {
+    int len = strlen(s);
+    char temp;
+
+    for(int i = 0, j = len - 1; i < j; i++, j--)
+    {
+        temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 62, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011299435028248588
+Cosine Similarity Precision:0.0
+
+Parse State: 152	Cursor Position: 1040 15
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2627270221710205 seconds
+Received response: {
+    int length = strlen(s);
+    char temp;
+    
+    for (int i = 0; i < length/2; i++) {
+        temp = s[i];
+        s[i] = s[length-1-i];
+        s[length-1-i] = temp;
+    }
+}
+Actual result:  +
+SACREBLEU Score: {'score': 0.6044751875664687, 'counts': [1, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508], 'bp': 1.0, 'sys_len': 60, 'ref_len': 1}
+First element of precision:1.6666666666666667
+Sequence Matcher Similarity Precision:0.022099447513812154
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 1040 17
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s +
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8822321891784668 seconds
+Received response: (strlen(s) - 1); 
+
+This will move the pointer 't' to the end of the string 's', allowing the reverse function to start from the last character and work its way backwards to reverse the string.
+Actual result:  strlen VARIABLE
+SACREBLEU Score: {'score': 0.8522452865706931, 'counts': [1, 0, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [2.3255813953488373, 1.1904761904761905, 0.6097560975609756, 0.3125], 'bp': 1.0, 'sys_len': 43, 'ref_len': 2}
+First element of precision:2.3255813953488373
+Sequence Matcher Similarity Precision:0.0673076923076923
+Cosine Similarity Precision:0.0839181358296689
+
+Parse State: 179	Cursor Position: 1040 23
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9319074153900146 seconds
+Received response: (s) - 1;
+  char temp;
+
+  while (s < t)
+  {
+    temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01694915254237288
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1040 23
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2241570949554443 seconds
+Received response: (t) - 1;
+  char *p = s;
+  char temp;
+
+  while (p < t)
+  {
+    temp = *p;
+    *p = *t;
+    *t = temp;
+    p++;
+    t--;
+  }
+}
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 1.045953676514853, 'counts': [3, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [6.521739130434782, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 4}
+First element of precision:6.521739130434782
+Sequence Matcher Similarity Precision:0.08633093525179857
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 1040 24
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8639960289001465 seconds
+Received response: (s) - 1;
+
+  while (s < t)
+  {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.969094302009921, 'counts': [1, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [2.6315789473684212, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 2}
+First element of precision:2.6315789473684212
+Sequence Matcher Similarity Precision:0.05357142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1040 25
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1998200416564941 seconds
+Received response: );
+  int i, j;
+  char temp;
+  
+  for (i = 0, j = strlen(s) - 1; i < j; i++, j--)
+  {
+    temp = t[i];
+    t[i] = t[j];
+    t[j] = temp;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 62, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 1040 25
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9034721851348877 seconds
+Received response: ) - 1;
+  while (s < t)
+  {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.0253311603116817, 'counts': [1, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:2.7777777777777777
+Sequence Matcher Similarity Precision:0.02
+Cosine Similarity Precision:0.0
+
+Parse State: 152	Cursor Position: 1040 27
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.926668643951416 seconds
+Received response: - 1;
+
+  while (s < t)
+  {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+
+    s++;
+    t--;
+  }
+}
+Actual result:  -
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 1}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.02
+Cosine Similarity Precision:0.0
+
+Parse State: 246	Cursor Position: 1040 29
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) -
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2431166172027588 seconds
+Received response: [t] - 1;
+  char *p = s;
+  char temp;
+
+  while (p < t)
+  {
+    temp = *p;
+    *p = *t;
+    *t = temp;
+    p++;
+    t--;
+  }
+}
+Actual result:  1
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 1}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.031746031746031744
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1040 30
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9741692543029785 seconds
+Received response: {
+  while (s < t) {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.043010752688172046
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1041 3
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8003673553466797 seconds
+Received response: while (s < t) {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+}
+Actual result:  char
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.11363636363636363
+Cosine Similarity Precision:0.4082482904638631
+
+Parse State: 93	Cursor Position: 1041 8
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8560459613800049 seconds
+Received response: while (s < t){
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+}
+Actual result:  aux VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.042105263157894736
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 1041 11
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.954437255859375 seconds
+Received response: {
+  while (s < t) {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021505376344086023
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 1041 12
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9931473731994629 seconds
+Received response: {
+    while (s < t) {
+        aux = *s;
+        *s = *t;
+        *t = aux;
+        s++;
+        t--;
+    }
+}
+Actual result:  = 0
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 2}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.05357142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 1041 14
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8341267108917236 seconds
+Received response: while (s < t) {
+    char temp = *s;
+    *s = *t;
+    *t = temp;
+    s++;
+    t--;
+}
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.023529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 1041 15
+
+                This is the incomplete C11 programming language code:
+                reverse(s);
+  puts(s);
+
+  return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7817099094390869 seconds
+Received response: {
+    while (s < t) {
+        aux = *s;
+        *s = *t;
+        *t = aux;
+        s++;
+        t--;
+    }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.03636363636363636
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 1043 3
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8854312896728516 seconds
+Received response: while (s < t)
+  {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  if ( * s VARIABLE == '\0' ) return ;
+SACREBLEU Score: {'score': 3.2808945250121395, 'counts': [7, 1, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [22.580645161290324, 3.3333333333333335, 1.7241379310344827, 0.8928571428571429], 'bp': 1.0, 'sys_len': 31, 'ref_len': 13}
+First element of precision:22.580645161290324
+Sequence Matcher Similarity Precision:0.18487394957983194
+Cosine Similarity Precision:0.0
+
+Parse State: 404	Cursor Position: 1043 6
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8385050296783447 seconds
+Received response: {
+    while(s < t){
+        aux = *s;
+        *s = *t;
+        *t = aux;
+        s++;
+        t--;
+    }
+}
+Actual result:  ( * s VARIABLE == '\0' ) return ;
+SACREBLEU Score: {'score': 3.1731768853938878, 'counts': [7, 1, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [21.875, 3.225806451612903, 1.6666666666666667, 0.8620689655172413], 'bp': 1.0, 'sys_len': 32, 'ref_len': 12}
+First element of precision:21.875
+Sequence Matcher Similarity Precision:0.15714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 455	Cursor Position: 1043 7
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9009790420532227 seconds
+Received response: while (s < t) {
+        aux = *s;
+        *s = *t;
+        *t = aux;
+
+        s++;
+        t--;
+    }
+}
+Actual result:  *
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.0380952380952381
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1043 8
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8517966270446777 seconds
+Received response: if (*s != *t) {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    reverse(s + 1);
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.0559717178170818, 'counts': [1, 0, 0, 0], 'totals': [35, 34, 33, 32], 'precisions': [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625], 'bp': 1.0, 'sys_len': 35, 'ref_len': 2}
+First element of precision:2.857142857142857
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1043 9
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8349509239196777 seconds
+Received response: != *t)
+  {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    reverse(s + 1);
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.023255813953488372
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 1043 10
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9153530597686768 seconds
+Received response: != '\0')
+  {
+    while (s < t)
+    {
+      aux = *s;
+      *s = *t;
+      *t = aux;
+      s++;
+      t--;
+    }
+  }
+}
+Actual result:  ==
+SACREBLEU Score: {'score': 1.1216940038341034, 'counts': [2, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [5.128205128205129, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222], 'bp': 1.0, 'sys_len': 39, 'ref_len': 2}
+First element of precision:5.128205128205129
+Sequence Matcher Similarity Precision:0.05
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 1043 13
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s ==
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4770011901855469 seconds
+Received response: *t == '\0' || s >= t
+Actual result:  '\0'
+SACREBLEU Score: {'score': 11.498759556447217, 'counts': [3, 2, 1, 0], 'totals': [13, 12, 11, 10], 'precisions': [23.076923076923077, 16.666666666666668, 9.090909090909092, 5.0], 'bp': 1.0, 'sys_len': 13, 'ref_len': 3}
+First element of precision:23.076923076923077
+Sequence Matcher Similarity Precision:0.4
+Cosine Similarity Precision:0.0
+
+Parse State: 483	Cursor Position: 1043 17
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0'
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.3958463668823242 seconds
+Received response: {
+
+  return;
+}
+Actual result:  ) return ;
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 3}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.72
+Cosine Similarity Precision:1.0
+
+Parse State: 458	Cursor Position: 1044 5
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4161081314086914 seconds
+Received response: {
+    return;
+}
+Actual result:  return ;
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 415	Cursor Position: 1044 11
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.37053751945495605 seconds
+Received response: ;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:1.0
+
+Parse State: 320	Cursor Position: 1046 3
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8133976459503174 seconds
+Received response: while (t > s) {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+}
+Actual result:  while ( s VARIABLE < t VARIABLE ) { aux VARIABLE = * t VARIABLE ; * t VARIABLE -- = * s VARIABLE ; * s VARIABLE ++ = aux VARIABLE ; }
+SACREBLEU Score: {'score': 16.16625174929295, 'counts': [25, 14, 5, 0], 'totals': [30, 29, 28, 27], 'precisions': [83.33333333333333, 48.275862068965516, 17.857142857142858, 1.8518518518518519], 'bp': 0.846481724890614, 'sys_len': 30, 'ref_len': 35}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.34285714285714286
+Cosine Similarity Precision:0.26919095102908275
+
+Parse State: 406	Cursor Position: 1046 9
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8252317905426025 seconds
+Received response: (t > s)
+{
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+}
+Actual result:  ( s VARIABLE < t VARIABLE ) { aux VARIABLE = * t VARIABLE ; * t VARIABLE -- = * s VARIABLE ; * s VARIABLE ++ = aux VARIABLE ; }
+SACREBLEU Score: {'score': 16.18721020262042, 'counts': [24, 13, 5, 0], 'totals': [29, 28, 27, 26], 'precisions': [82.75862068965517, 46.42857142857143, 18.51851851851852, 1.9230769230769231], 'bp': 0.8416308400672835, 'sys_len': 29, 'ref_len': 34}
+First element of precision:82.75862068965517
+Sequence Matcher Similarity Precision:0.29292929292929293
+Cosine Similarity Precision:0.24253562503633297
+
+Parse State: 457	Cursor Position: 1046 10
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6690170764923096 seconds
+Received response: (t > s) {
+    aux = *s;
+    *s++ = *t;
+    *t-- = aux;
+  }
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.4445809981770859, 'counts': [1, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652], 'bp': 1.0, 'sys_len': 26, 'ref_len': 2}
+First element of precision:3.8461538461538463
+Sequence Matcher Similarity Precision:0.08450704225352113
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1046 11
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9267137050628662 seconds
+Received response: < t)
+  {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.024390243902439025
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 1046 12
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9320774078369141 seconds
+Received response: > t < s) {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  <
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.05194805194805195
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 1046 14
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s <
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7852511405944824 seconds
+Received response: (t)
+  {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 2}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.07228915662650602
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1046 15
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7701370716094971 seconds
+Received response: {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 25, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 1046 15
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7584059238433838 seconds
+Received response: {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--; 
+}
+Actual result:  ) { aux VARIABLE = * t VARIABLE ; * t VARIABLE -- = * s VARIABLE ; * s VARIABLE ++ = aux VARIABLE ; }
+SACREBLEU Score: {'score': 17.63123087343698, 'counts': [20, 12, 4, 0], 'totals': [24, 23, 22, 21], 'precisions': [83.33333333333333, 52.17391304347826, 18.181818181818183, 2.380952380952381], 'bp': 0.846481724890614, 'sys_len': 24, 'ref_len': 28}
+First element of precision:83.33333333333333
+Sequence Matcher Similarity Precision:0.3151515151515151
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 320	Cursor Position: 1047 3
+
+                This is the incomplete C11 programming language code:
+                void reverse(char *s)
+{
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7893128395080566 seconds
+Received response: {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+}
+Actual result:  { aux VARIABLE = * t VARIABLE ; * t VARIABLE -- = * s VARIABLE ; * s VARIABLE ++ = aux VARIABLE ; }
+SACREBLEU Score: {'score': 18.407351646767797, 'counts': [20, 12, 4, 0], 'totals': [25, 24, 23, 22], 'precisions': [80.0, 50.0, 17.391304347826086, 2.272727272727273], 'bp': 0.9231163463866358, 'sys_len': 25, 'ref_len': 27}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.2891566265060241
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 201	Cursor Position: 1048 5
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8745825290679932 seconds
+Received response: if (*s != *t) {
+    aux = *s;
+    *s = *t;
+    *t = aux;
+  }
+
+  s++;
+  t--;
+}
+Actual result:  aux VARIABLE
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 2}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.6324555320336758
+
+Parse State: 65	Cursor Position: 1048 8
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9374263286590576 seconds
+Received response: = *s;
+    *s++ = *t;
+    *t-- = aux;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0392156862745098
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 1048 9
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7328624725341797 seconds
+Received response: = *s;
+    *s++ = *t;
+    *t-- = aux;
+  }
+}
+Actual result:  =
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 1048 11
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7304511070251465 seconds
+Received response: * s;
+    * s = *t;
+    * t = aux;
+    s++;
+    t--;
+  } 
+}
+Actual result:  *
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1048 12
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6896114349365234 seconds
+Received response: *t;
+    *t-- = *s++;
+    *s = aux;
+  }
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.0784313725490196
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1048 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5574769973754883 seconds
+Received response: *s = *t;
+    *t = aux;
+    s++;
+    t--;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03773584905660377
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1048 13
+
+                This is the incomplete C11 programming language code:
+                {
+  char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6390609741210938 seconds
+Received response: *t = *s;
+    *s = aux;
+    s++;
+    t--;
+  }
+Actual result:  ;
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1049 5
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5542285442352295 seconds
+Received response: *t = *s;
+*s = aux;
+s++;
+t--;
+Actual result:  *
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1049 6
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6408050060272217 seconds
+Received response: *t = *s;
+    *s = aux;
+
+    s++;
+    t--;
+  }
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 2}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.07142857142857142
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1049 7
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5760164260864258 seconds
+Received response: = *s;
+    *s = aux;
+
+    s++;
+    t--;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0392156862745098
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1049 7
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7222354412078857 seconds
+Received response: = *s;
+    *s = aux;
+    s++;
+    t--;
+  }
+Actual result:  --
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13636363636363635
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 1049 10
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t--
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6541461944580078 seconds
+Received response: = *s;
+    *s++ = aux;
+  }
+}
+Actual result:  =
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.13793103448275862
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 1049 12
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7914261817932129 seconds
+Received response: * s;
+    * s++ = aux;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1049 13
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5607526302337646 seconds
+Received response: *s;
+    *s++ = aux;
+  }
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 2}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1049 14
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4626781940460205 seconds
+Received response: *s = aux;
+    *s++;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06666666666666667
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1049 14
+
+                This is the incomplete C11 programming language code:
+                char *t = s + strlen(s) - 1;
+  char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5122976303100586 seconds
+Received response: *s = aux;
+    *s++;
+  }
+Actual result:  ;
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1050 5
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6065030097961426 seconds
+Received response: *s++ = aux;
+Actual result:  *
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 1050 6
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5648720264434814 seconds
+Received response: s++;
+  *s = aux;
+  if (*s == '\0')
+    break;
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 2}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.10714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 1050 7
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48491454124450684 seconds
+Received response: ++s;
+  }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 1050 7
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.5660998821258545 seconds
+Received response: = aux;
+    s++;
+  }
+Actual result:  ++
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2727272727272727
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 1050 10
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48862624168395996 seconds
+Received response: = aux;
+  }
+Actual result:  =
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 1050 12
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++ =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5438227653503418 seconds
+Received response: aux;
+Actual result:  aux VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.35294117647058826
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 1050 15
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++ = aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.44232869148254395 seconds
+Received response: }
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 1050 15
+
+                This is the incomplete C11 programming language code:
+                char aux = 0;
+
+  if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++ = aux
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47995495796203613 seconds
+Received response: next token or line
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1051 3
+
+                This is the incomplete C11 programming language code:
+                if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++ = aux;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5290353298187256 seconds
+Received response: if (s == t)
+    break;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 1052 1
+
+                This is the incomplete C11 programming language code:
+                if (*s == '\0')
+    return;
+
+  while (s < t)
+  {
+    aux = *t;
+    *t-- = *s;
+    *s++ = aux;
+  }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.356318473815918 seconds
+Received response: This code snippet seems to be a basic character array swapping function. Based on that assumption, the 'next token or line' part of the code could be another function call or a return statement depending on the context of the overall program. 
+
+If it's another function call:
+The 'next token or line' part could be another function call or a return statement. For example:
+```C
+next_function_call();
+```
+
+If it's a return statement:
+The 'next token or line' part could be a return statement. For example:
+```C
+return;
+```
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [115, 114, 113, 112], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 115, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0038240917782026767
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 10.21263390246436
+Average Sequence Matcher Similarity Precision: 10.191242593928209
+Average Cosine Similarity Precision: 6.900725485188784

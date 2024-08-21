@@ -1,0 +1,4049 @@
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.6323988437652588 seconds
+Received response: while ((c = getchar()) == ' ' || c == '\t')
+    ;
+if (c != EOF)
+    *tp++ = c;
+if (!isalnum(c) && c != '_') {
+    *tp = '\0';
+    return c;
+}
+for (; --lim > 0; tp++) {
+    if (!isalnum(*tp = getchar()) && *tp != '_') {
+        ungetc(*tp, stdin);
+        break;
+    }
+}
+*tp = '\0';
+return 'next token or line';
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [125, 124, 123, 122], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 125, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.025477707006369428
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0959217548370361 seconds
+Received response: It seems like the code provided is not enough to understand the context or the specific requirements of the "next token or line" functionality. Could you please provide more information or context about what this part of the code is supposed to do so that I can provide a more accurate answer?
+Actual result:  getch VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [56, 55, 54, 53], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 56, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.032467532467532464
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1157786846160889 seconds
+Received response: int getch() {
+    static char buf = 0;
+    if (buf != 0) {
+        char temp = buf;
+        buf = 0;
+        return temp;
+    } else {
+        return getchar();
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011299435028248588
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6547653675079346 seconds
+Received response: The code should be completed as follows:
+```c
+int getch(void)
+```
+Actual result:  ( void )
+SACREBLEU Score: {'score': 7.12695567709093, 'counts': [3, 2, 1, 0], 'totals': [20, 19, 18, 17], 'precisions': [15.0, 10.526315789473685, 5.555555555555555, 2.9411764705882355], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:15.0
+Sequence Matcher Similarity Precision:0.1891891891891892
+Cosine Similarity Precision:0.31622776601683794
+
+Parse State: 186	Cursor Position: 743 11
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6888372898101807 seconds
+Received response: int getch(void){
+    return getc(stdin); //Assuming the function is meant to read a single character from standard input
+}
+Actual result:  void
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.07874015748031496
+Cosine Similarity Precision:0.23570226039551587
+
+Parse State: 187	Cursor Position: 743 15
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.508171796798706 seconds
+Received response: {
+    return fgetc(stdin);
+}
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 743 16
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6589305400848389 seconds
+Received response: {
+ return (buffer != 0) ? buffer = 0 : getchar();
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 2.1476912089159055, 'counts': [1, 0, 0, 0], 'totals': [18, 17, 16, 15], 'precisions': [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 1}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.07547169811320754
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6964020729064941 seconds
+Received response: int main(void) {
+    int c = getch();
+    printf("The next character is: %c\n", c);
+
+    return 0;
+}
+Actual result:  void
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 1}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.2773500981126146
+
+Parse State: 5	Cursor Position: 744 6
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6248717308044434 seconds
+Received response: int ungetch(int c) {
+    // implementation goes here
+}
+Actual result:  ungetch VARIABLE
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 2}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.2535211267605634
+Cosine Similarity Precision:0.24999999999999994
+
+Parse State: 65	Cursor Position: 744 13
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0415771007537842 seconds
+Received response: (int c) {
+    // add character to input buffer
+    // complete 'next token or line' here
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 51, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028846153846153848
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 744 13
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5572819709777832 seconds
+Received response: (void){ 
+    // Function body goes here
+}
+Actual result:  ( int c VARIABLE )
+SACREBLEU Score: {'score': 4.456882760699063, 'counts': [2, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [18.181818181818183, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 5}
+First element of precision:18.181818181818183
+Sequence Matcher Similarity Precision:0.1
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 744 14
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5989761352539062 seconds
+Received response: int getch(void);
+void ungetch(int c);
+Actual result:  int
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 1}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.14634146341463414
+Cosine Similarity Precision:0.6324555320336759
+
+Parse State: 298	Cursor Position: 744 18
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5081570148468018 seconds
+Received response: next token or line: (void)
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10810810810810811
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 744 19
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9944219589233398 seconds
+Received response: ) {
+
+    // add the token or line to the input buffer
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [44, 43, 42, 41], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 44, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03468208092485549
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 744 19
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0945253372192383 seconds
+Received response: ) {
+    // Add the character to the buffer for future use
+    // 'next token or line'
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 1}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.010101010101010102
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 744 20
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8192358016967773 seconds
+Received response: {
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.03508771929824561
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 746 1
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0551095008850098 seconds
+Received response: #include <stdio.h>
+
+int main(void) {
+    // Your code here
+    return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.10256410256410256
+Cosine Similarity Precision:0.3333333333333333
+
+Parse State: 5	Cursor Position: 746 5
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.240703821182251 seconds
+Received response: char get_next_token_or_line(void) {
+    int c;
+    
+    while ((c = getch()) == ' ' || c == '\t');
+    
+    if (c == EOF) {
+        return EOF;
+    } else {
+        if (c == '\n') {
+            return '\n'; // newline character
+        } else {
+            return c; // return next token
+        }
+    }
+}
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [87, 86, 85, 84], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 87, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03134796238244514
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5384159088134766 seconds
+Received response: 
+() {
+    // Code goes here
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05263157894736842
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5746779441833496 seconds
+Received response: should be:
+
+() {
+    // code goes here
+    return 0;
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 3.1251907639724417, 'counts': [2, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667], 'bp': 1.0, 'sys_len': 15, 'ref_len': 3}
+First element of precision:13.333333333333334
+Sequence Matcher Similarity Precision:0.12698412698412698
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 746 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4963188171386719 seconds
+Received response: {
+    void
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.5882352941176471
+Cosine Similarity Precision:1.0
+
+Parse State: 187	Cursor Position: 746 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_4/exercise_4_09/getch.c" 2
+
+
+
+
+# 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7534723281860352 seconds
+Received response: {
+
+    int c;
+    c = getch();
+    ungetch(c);
+
+    return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.06153846153846154
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 747 1
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2442998886108398 seconds
+Received response: int c; // declare a variable 'c'
+while ((c = getch()) != EOF) // while the next character is not EOF
+{
+    // Process the character 'c'
+    printf("%c", c); // Print the character
+    ungetch(c); // Unget the character
+}
+Actual result:  { int c VARIABLE ; c VARIABLE = getch VARIABLE ( ) ; putchar VARIABLE ( c VARIABLE ) ; ungetch VARIABLE ( ( - 1 ) ) ; c VARIABLE = getch VARIABLE ( ) ; putchar VARIABLE ( c VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 3.6852132229790096, 'counts': [25, 9, 0, 0], 'totals': [64, 63, 62, 61], 'precisions': [39.0625, 14.285714285714286, 0.8064516129032258, 0.4098360655737705], 'bp': 1.0, 'sys_len': 64, 'ref_len': 48}
+First element of precision:39.0625
+Sequence Matcher Similarity Precision:0.28162291169451076
+Cosine Similarity Precision:0.18427434427242975
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7104887962341309 seconds
+Received response: int c;
+
+while ((c = getch()) != EOF)
+{
+    // process input character
+}
+Actual result:  int
+SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:4.3478260869565215
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.3779644730092272
+
+Parse State: 93	Cursor Position: 748 7
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7705891132354736 seconds
+Received response: 
+next token or line: c;
+
+  c = getch(); //get the next character from input
+
+  return 0;
+}
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 1.506189323093867, 'counts': [1, 0, 0, 0], 'totals': [25, 24, 23, 22], 'precisions': [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182], 'bp': 1.0, 'sys_len': 25, 'ref_len': 2}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.0594059405940594
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 748 8
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8210515975952148 seconds
+Received response: {
+  while ((c = getch()) != EOF) {
+    // process the token here
+  }
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [26, 25, 24, 23], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 26, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.04395604395604396
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 748 8
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48295164108276367 seconds
+Received response: c = getch();
+Actual result:  ;
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0081770420074463 seconds
+Received response: The code will be completed by adding the following lines:
+  
+  while ((c = getch()) != EOF)
+  {
+    /* code to process each character */
+  }
+
+This will create a while loop that continues reading characters using the `getch()` function until the end of the file is reached (EOF).
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.5568633223045912, 'counts': [1, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [1.5384615384615385, 0.78125, 0.3968253968253968, 0.20161290322580644], 'bp': 1.0, 'sys_len': 65, 'ref_len': 2}
+First element of precision:1.5384615384615385
+Sequence Matcher Similarity Precision:0.02768166089965398
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 750 4
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46512651443481445 seconds
+Received response: = getch();
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 750 5
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5432946681976318 seconds
+Received response: = getch(); 
+Actual result:  =
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 750 7
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46683788299560547 seconds
+Received response: getch();
+Actual result:  getch VARIABLE
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.43478260869565216
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 750 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6454267501831055 seconds
+Received response: (); // this will call the getch function and store the result in the variable 'c'
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.022222222222222223
+Cosine Similarity Precision:0.22941573387056174
+
+Parse State: 147	Cursor Position: 750 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.435288667678833 seconds
+Received response: ();
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.22941573387056174
+
+Parse State: 351	Cursor Position: 750 13
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5378391742706299 seconds
+Received response: stdin);
+  
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.07692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 750 14
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch()
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5031235218048096 seconds
+Received response: ;
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 751 3
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6560678482055664 seconds
+Received response:            while (c != EOF) {
+    /* processing code here */
+    c = getch();
+  }
+Actual result:  putchar VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 22, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.12244897959183673
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 751 10
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.645758867263794 seconds
+Received response: (c); 
+
+This line of code should read: 
+
+putchar(c);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.03333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 751 10
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5006527900695801 seconds
+Received response: c;
+Actual result:  ( c VARIABLE )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 2, 'ref_len': 4}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 751 11
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5255537033081055 seconds
+Received response: c);
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 751 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6523454189300537 seconds
+Received response: ); // get the next character from input stream
+
+  return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 751 12
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6075565814971924 seconds
+Received response: );
+  return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 751 13
+
+                This is the incomplete C11 programming language code:
+                # 5 "chapter_4/exercise_4_09/getch.c"
+int getch(void);
+void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6230783462524414 seconds
+Received response: ; // This semicolon completes the line of code.
+Actual result:  ;
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.04081632653061224
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 753 3
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5066928863525391 seconds
+Received response: next token or line:
+  ungetch(c);
+Actual result:  ungetch VARIABLE
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.32
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 65	Cursor Position: 753 10
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5352737903594971 seconds
+Received response: (c);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 753 10
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c);
+
+int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4752371311187744 seconds
+Received response: ();
+Actual result:  ( ( - 1 ) )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 25.0, 25.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 3, 'ref_len': 6}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.26666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 755 10
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.45632362365722656 seconds
+Received response: ungetch(c);
+Actual result:  ( - 1 )
+SACREBLEU Score: {'score': 12.703318703865365, 'counts': [2, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [40.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 4}
+First element of precision:40.0
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 755 11
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4298713207244873 seconds
+Received response: EOF);
+Actual result:  -
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 755 12
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4815545082092285 seconds
+Received response: ungetch(c);
+Actual result:  1
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 755 13
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5210607051849365 seconds
+Received response: ungetch(c);
+Actual result:  )
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 757 13
+
+                This is the incomplete C11 programming language code:
+                int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6150600910186768 seconds
+Received response: EOF
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 757 14
+
+                This is the incomplete C11 programming language code:
+                int c;
+
+  c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            )
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5301611423492432 seconds
+Received response: getch();
+Actual result:  ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.2
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 759 3
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6111648082733154 seconds
+Received response: '\0');
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 759 4
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46349525451660156 seconds
+Received response: = getch();
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.10526315789473684
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 759 5
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.45763683319091797 seconds
+Received response: return c;
+Actual result:  =
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 759 7
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.49883484840393066 seconds
+Received response: getch();
+Actual result:  getch VARIABLE
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.43478260869565216
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 179	Cursor Position: 759 12
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7793993949890137 seconds
+Received response: ();
+
+The complete code would look like this:
+
+```c
+c = getch();
+putchar(c);
+
+ungetch(-1);
+
+c = getch();
+```
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.017241379310344827
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 759 12
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.42850255966186523 seconds
+Received response: ();
+Actual result:  ( )
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.5714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 759 13
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5614075660705566 seconds
+Received response: 'next token or line'
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 759 14
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch()
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.49268531799316406 seconds
+Received response: ungetch(c);
+Actual result:  ;
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 760 3
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.40412306785583496 seconds
+Received response: c
+Actual result:  putchar VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 0.36787944117144233, 'sys_len': 1, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 760 10
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47779107093811035 seconds
+Received response: c;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 760 10
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4606304168701172 seconds
+Received response: c
+Actual result:  ( c VARIABLE )
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 0.049787068367863944, 'sys_len': 1, 'ref_len': 4}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 760 11
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4658932685852051 seconds
+Received response: ungetch(c);
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 760 12
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4504992961883545 seconds
+Received response: '\n'
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 760 12
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8660898208618164 seconds
+Received response: ;
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 760 13
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5126123428344727 seconds
+Received response: return c;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.36363636363636365
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 762 3
+
+                This is the incomplete C11 programming language code:
+                ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48594069480895996 seconds
+Received response: getch()
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 762 10
+
+                This is the incomplete C11 programming language code:
+                ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4748117923736572 seconds
+Received response: return c;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 762 11
+
+                This is the incomplete C11 programming language code:
+                ungetch(
+# 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4528987407684326 seconds
+Received response: getchar();
+Actual result:  ;
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 763 1
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c" 3 4
+         (-1)
+# 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8773975372314453 seconds
+Received response: #include <stdio.h>
+
+int main() {
+  
+  int c;
+  
+  // code for getch() function goes here
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.918708060432945, 'counts': [1, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:2.5
+Sequence Matcher Similarity Precision:0.02962962962962963
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 765 1
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8655829429626465 seconds
+Received response: #include <stdio.h>
+
+int main() {
+  int c;
+
+  printf("Enter a character: ");
+
+  c = getchar();
+  putchar(c);
+
+  return 0;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.918708060432945, 'counts': [1, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:2.5
+Sequence Matcher Similarity Precision:0.06349206349206349
+Cosine Similarity Precision:0.5547001962252291
+
+Parse State: 5	Cursor Position: 765 5
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9118914604187012 seconds
+Received response: To determine the next token or line in the code, we need to provide the appropriate code segment that fits into the context. One possible scenario is to read the next character from input using `getch()` and print it using `putchar()` in a loop until reaching the end of the line. Here is the complete code with this modification:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int c;
+
+    while ((c = getch()) != EOF && c != '\n') {
+        putchar(c);
+    }
+
+    return 0;
+}
+``` 
+
+This code snippet reads characters from input until a newline or end-of-file (EOF) is encountered, printing each character as it goes.
+Actual result:  bufp VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [150, 149, 148, 147], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 150, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01594896331738437
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 765 9
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5769331455230713 seconds
+Received response: int bufp = 0;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 765 10
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.3306119441986084 seconds
+Received response: // Complete the 'next token or line' part of the code
+
+int bufp = 0;
+char buf[100];
+
+int getch(void) {
+    return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c) {
+    if (bufp >= 100) {
+        printf("ungetch: too many characters\n");
+    } else {
+        buf[bufp++] = c;
+    }
+}
+
+void ungets(char s[]) {
+    int len = strlen(s);
+    if (bufp + len >= 100) {
+        printf("ungets: too many characters\n");
+    } else {
+        for (int i = len - 1; i >= 0; i--) {
+            buf[bufp++] = s[i];
+        }
+    }
+}
+Actual result:  = 0
+SACREBLEU Score: {'score': 0.4378475084906966, 'counts': [2, 1, 0, 0], 'totals': [163, 162, 161, 160], 'precisions': [1.2269938650306749, 0.6172839506172839, 0.3105590062111801, 0.15625], 'bp': 1.0, 'sys_len': 163, 'ref_len': 2}
+First element of precision:1.2269938650306749
+Sequence Matcher Similarity Precision:0.014953271028037384
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 765 12
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5106101036071777 seconds
+Received response: fgets(buf, BUFSIZE, stdin);
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 765 13
+
+                This is the incomplete C11 programming language code:
+                # 15 "chapter_4/exercise_4_09/getch.c"
+            );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9801616668701172 seconds
+Received response: int getch(void) {
+    return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c) {
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.5943123208853887, 'counts': [1, 0, 0, 0], 'totals': [61, 60, 59, 58], 'precisions': [1.639344262295082, 0.8333333333333334, 0.423728813559322, 0.21551724137931033], 'bp': 1.0, 'sys_len': 61, 'ref_len': 1}
+First element of precision:1.639344262295082
+Sequence Matcher Similarity Precision:0.0196078431372549
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 766 1
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.5545735359191895 seconds
+Received response: char buf[100];
+
+char *next_token_or_line() {
+  int c;
+
+  while ((c = getchar()) != EOF) {
+    if (isalnum(c) || ispunct(c)) {
+      buf[bufp++] = c;
+    } else {
+      if (bufp > 0) {
+        buf[bufp] = '\0';
+        return buf;
+      }
+    }
+  }
+
+  return NULL;
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.4135480978530135, 'counts': [1, 0, 0, 0], 'totals': [87, 86, 85, 84], 'precisions': [1.1494252873563218, 0.5813953488372093, 0.29411764705882354, 0.1488095238095238], 'bp': 1.0, 'sys_len': 87, 'ref_len': 1}
+First element of precision:1.1494252873563218
+Sequence Matcher Similarity Precision:0.02973977695167286
+Cosine Similarity Precision:0.14586499149789456
+
+Parse State: 5	Cursor Position: 766 5
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5822327136993408 seconds
+Received response: char buf[100];
+
+char *next_token_or_line = fgets(buf, sizeof(buf), stdin);
+Actual result:  buf VARIABLE
+SACREBLEU Score: {'score': 1.3353534059549443, 'counts': [1, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5], 'bp': 1.0, 'sys_len': 28, 'ref_len': 2}
+First element of precision:3.5714285714285716
+Sequence Matcher Similarity Precision:0.11494252873563218
+Cosine Similarity Precision:0.5
+
+Parse State: 65	Cursor Position: 766 8
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8550012111663818 seconds
+Received response: {
+  char buf[1000];
+
+  if (bufp == 0) {
+    fgets(buf, sizeof(buf), stdin);
+  }
+
+  // code to process the next token or line 
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014705882352941176
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 766 8
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.4833950996398926 seconds
+Received response: char buf[MAX_BUF_SIZE];
+int gettoken(void) {
+  int c, bufp = 0;
+
+  // Skip white space characters
+  while ((c = getchar()) == ' ' || c == '\t')
+    ;
+  
+  if (c == '(' || c == ')' || c == '[' || c == ']' || c == '{' || c == '}') {
+    buf[bufp++] = c;
+    buf[bufp] = '\0';
+    return c;
+  }
+
+  // If character is not a special character, read and store token
+  while (c != EOF && c != ' ' && c != '\t' && c != '\n') {
+    buf[bufp++] = c;
+    c = getchar();
+  }
+
+  // Null-terminate the token
+  buf[bufp] = '\0';
+
+  if (c != EOF) {
+    ungetc(c, stdin);
+  }
+
+  return IDENTIFIER;
+}
+Actual result:  [ 100 ]
+SACREBLEU Score: {'score': 0.19331207478400125, 'counts': [2, 0, 0, 0], 'totals': [219, 218, 217, 216], 'precisions': [0.91324200913242, 0.22935779816513763, 0.1152073732718894, 0.05787037037037037], 'bp': 1.0, 'sys_len': 219, 'ref_len': 3}
+First element of precision:0.91324200913242
+Sequence Matcher Similarity Precision:0.010169491525423728
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 766 9
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.45053577423095703 seconds
+Received response: int buf[100];
+Actual result:  100
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 1}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.47058823529411764
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 305	Cursor Position: 766 12
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0710790157318115 seconds
+Received response: ]; 
+
+int main() {
+  int c;
+
+  while ((c = getchar()) != EOF) {
+    if (c == ' ') {
+      next_token_or_line();
+      continue;
+    } else {
+      buf[bufp++] = c;
+    }
+  }
+  
+  return 0;
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.5749785925016119, 'counts': [1, 0, 0, 0], 'totals': [63, 62, 61, 60], 'precisions': [1.5873015873015872, 0.8064516129032258, 0.4098360655737705, 0.20833333333333334], 'bp': 1.0, 'sys_len': 63, 'ref_len': 1}
+First element of precision:1.5873015873015872
+Sequence Matcher Similarity Precision:0.010471204188481676
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 766 13
+
+                This is the incomplete C11 programming language code:
+                );
+
+  c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0715672969818115 seconds
+Received response: char gettoken(void) {
+    int c;
+
+    if (bufp > 0) {
+        bufp--;
+        return buf[bufp];
+    } else {
+        while ((c = getchar()) == ' ' || c == '\t');
+        
+        if (c != EOF)
+            return c;
+    }
+
+    return '\0';
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.5398548275054964, 'counts': [1, 0, 0, 0], 'totals': [67, 66, 65, 64], 'precisions': [1.492537313432836, 0.7575757575757576, 0.38461538461538464, 0.1953125], 'bp': 1.0, 'sys_len': 67, 'ref_len': 1}
+First element of precision:1.492537313432836
+Sequence Matcher Similarity Precision:0.01652892561983471
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 768 1
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.885399341583252 seconds
+Received response: int gettoken(void) {
+    int type;
+    char c;
+
+    while ((c = getch()) == ' ' || c == '\t');
+
+    if (c == '(' || c == ')') {
+        return c;
+    } else if (isdigit(c)) {
+        ungetc(c, stdin);
+        scanf("%d", &num);
+        return NUM;
+    } else if (isalpha(c)) {
+        int i = 0;
+        do {
+            buffer[i++] = c;
+            c = getch();
+        } while (isalnum(c));
+        buffer[i] = '\0';
+        ungetc(c, stdin);
+        return ID;
+    } else {
+        return c;
+    }
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.23033405166070564, 'counts': [1, 0, 0, 0], 'totals': [155, 154, 153, 152], 'precisions': [0.6451612903225806, 0.3246753246753247, 0.16339869281045752, 0.08223684210526316], 'bp': 1.0, 'sys_len': 155, 'ref_len': 1}
+First element of precision:0.6451612903225806
+Sequence Matcher Similarity Precision:0.015810276679841896
+Cosine Similarity Precision:0.3418817293789138
+
+Parse State: 5	Cursor Position: 768 5
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.046396255493164 seconds
+Received response: int next_token_or_line() {
+    if (bufp > 0) {
+        return buf[--bufp];
+    } else {
+        int c;
+        while ((c = getchar()) != EOF && c != '\n' && c != ' ') {
+            buf[bufp++] = c;
+        }
+        return c;
+    }
+}
+Actual result:  getch VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [74, 73, 72, 71], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 74, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 768 10
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.762563943862915 seconds
+Received response: {
+    int c;
+    if (bufp > 0) {
+        return buf[--bufp];
+    } else {
+        c = getchar();
+        return c;
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.015267175572519083
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 768 10
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6695904731750488 seconds
+Received response: () {
+    return (bufp > 0) ? buf[--bufp] : getchar();
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 2.276859592073037, 'counts': [2, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [10.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 3}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.15625
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 768 11
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8070836067199707 seconds
+Received response: int getch() {
+    if (bufp > 0) {
+        return buf[--bufp];
+    } else {
+        return getchar();
+    }
+}
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [28, 27, 26, 25], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 28, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.017699115044247787
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 768 15
+
+                This is the incomplete C11 programming language code:
+                c = getch();
+  putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7202668190002441 seconds
+Received response: {
+
+  if (bufp > 0) {
+    return buf[--bufp];
+  } else {
+    return getchar();
+  }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.047058823529411764
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 769 1
+
+                This is the incomplete C11 programming language code:
+                putchar(c);
+
+  return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7087447643280029 seconds
+Received response: int getch(void){
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+Actual result:  { return ( bufp VARIABLE > 0 ) ? buf VARIABLE [ -- bufp VARIABLE ] : getchar VARIABLE ( ) ; }
+SACREBLEU Score: {'score': 41.864420565258825, 'counts': [17, 12, 8, 4], 'totals': [23, 22, 21, 20], 'precisions': [73.91304347826087, 54.54545454545455, 38.095238095238095, 20.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 23}
+First element of precision:73.91304347826087
+Sequence Matcher Similarity Precision:0.6037735849056604
+Cosine Similarity Precision:0.4615663313770509
+
+Parse State: 201	Cursor Position: 770 3
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.647376298904419 seconds
+Received response: return (bufp > 0) ? buf[--bufp] : getchar();
+Actual result:  return ( bufp VARIABLE > 0 ) ? buf VARIABLE [ -- bufp VARIABLE ] : getchar VARIABLE ( ) ;
+SACREBLEU Score: {'score': 32.9632818031352, 'counts': [15, 10, 6, 2], 'totals': [16, 15, 14, 13], 'precisions': [93.75, 66.66666666666667, 42.857142857142854, 15.384615384615385], 'bp': 0.7316156289466418, 'sys_len': 16, 'ref_len': 21}
+First element of precision:93.75
+Sequence Matcher Similarity Precision:0.6567164179104478
+Cosine Similarity Precision:0.5516772843673704
+
+Parse State: 338	Cursor Position: 770 10
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46152830123901367 seconds
+Received response: buf[bufp++]
+Actual result:  ( bufp VARIABLE > 0 )
+SACREBLEU Score: {'score': 8.116697886877475, 'counts': [1, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [16.666666666666668, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 6}
+First element of precision:16.666666666666668
+Sequence Matcher Similarity Precision:0.24242424242424243
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 165	Cursor Position: 770 11
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.568605899810791 seconds
+Received response: buf[bufp++] : getchar();
+}
+Actual result:  bufp VARIABLE
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.25
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 65	Cursor Position: 770 15
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5481317043304443 seconds
+Received response: {
+    ? buf[bufp++] : getchar();
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.046511627906976744
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 770 16
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5983080863952637 seconds
+Received response: return (bufp > 0) ? buf[--bufp] : getchar();
+Actual result:  >
+SACREBLEU Score: {'score': 2.445593937240363, 'counts': [1, 0, 0, 0], 'totals': [16, 15, 14, 13], 'precisions': [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616], 'bp': 1.0, 'sys_len': 16, 'ref_len': 1}
+First element of precision:6.25
+Sequence Matcher Similarity Precision:0.08695652173913043
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 770 18
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp >
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6251850128173828 seconds
+Received response: bufp && buf[bufp-1] != '\0') ? buf[--bufp] : getchar();
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07017543859649122
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 770 19
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5242428779602051 seconds
+Received response: ? buf[--bufp] : getchar();
+}
+Actual result:  )
+SACREBLEU Score: {'score': 3.7477767366779213, 'counts': [1, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [9.090909090909092, 5.0, 2.7777777777777777, 1.5625], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:9.090909090909092
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 160	Cursor Position: 770 21
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5161352157592773 seconds
+Received response: return buf[--bufp];
+Actual result:  ? buf VARIABLE [ -- bufp VARIABLE ] : getchar VARIABLE ( )
+SACREBLEU Score: {'score': 3.3264637832151163, 'counts': [3, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [50.0, 10.0, 6.25, 4.166666666666667], 'bp': 0.31140322391459774, 'sys_len': 6, 'ref_len': 13}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.3333333333333334
+
+Parse State: 265	Cursor Position: 770 23
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ?
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5550332069396973 seconds
+Received response: buf[--bufp] : getchar();
+}
+Actual result:  buf VARIABLE
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.20512820512820512
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 179	Cursor Position: 770 26
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.540677547454834 seconds
+Received response: : buf[--bufp] : getchar();
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05714285714285714
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 770 26
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4974048137664795 seconds
+Received response: return buf[--bufp];
+Actual result:  [ -- bufp VARIABLE ]
+SACREBLEU Score: {'score': 9.652434877402245, 'counts': [2, 0, 0, 0], 'totals': [6, 5, 4, 3], 'precisions': [33.333333333333336, 10.0, 6.25, 4.166666666666667], 'bp': 1.0, 'sys_len': 6, 'ref_len': 5}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 236	Cursor Position: 770 27
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5149996280670166 seconds
+Received response: buf[bufp--] : getchar();
+}
+Actual result:  -- bufp VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.23255813953488372
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 169	Cursor Position: 770 29
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.47326231002807617 seconds
+Received response: bufp] : getchar();
+}
+Actual result:  bufp VARIABLE
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.29411764705882354
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 770 33
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5429558753967285 seconds
+Received response: : ] : getchar();
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.07407407407407407
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 770 33
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.485027551651001 seconds
+Received response: : ] : getchar();
+Actual result:  ]
+SACREBLEU Score: {'score': 6.567274736060395, 'counts': [1, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [14.285714285714286, 8.333333333333334, 5.0, 3.125], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:14.285714285714286
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 366	Cursor Position: 770 35
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.427065372467041 seconds
+Received response: : getchar();
+Actual result:  : getchar VARIABLE ( )
+SACREBLEU Score: {'score': 30.213753973567677, 'counts': [4, 2, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [80.0, 50.0, 16.666666666666668, 12.5], 'bp': 1.0, 'sys_len': 5, 'ref_len': 5}
+First element of precision:80.0
+Sequence Matcher Similarity Precision:0.6285714285714286
+Cosine Similarity Precision:0.7071067811865475
+
+Parse State: 431	Cursor Position: 770 37
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] :
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.46951842308044434 seconds
+Received response: return getchar();
+Actual result:  getchar VARIABLE
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.47058823529411764
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 770 44
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4856905937194824 seconds
+Received response: ();
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 770 44
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.44548606872558594 seconds
+Received response: getchar();
+Actual result:  ( )
+SACREBLEU Score: {'score': 31.947155212313625, 'counts': [2, 1, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [50.0, 33.333333333333336, 25.0, 25.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 770 45
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4846532344818115 seconds
+Received response: getchar();
+Actual result:  )
+SACREBLEU Score: {'score': 15.97357760615681, 'counts': [1, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [25.0, 16.666666666666668, 12.5, 12.5], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.16666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 770 46
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar()
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8780479431152344 seconds
+Received response: {
+    int c;
+    if (bufp > 0) {
+        return buf[--bufp];
+    } else {
+        c = getchar();
+        return c;
+    }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.199348129252962, 'counts': [1, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:3.225806451612903
+Sequence Matcher Similarity Precision:0.03225806451612903
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 771 1
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7922675609588623 seconds
+Received response: {
+  if (bufp > 0) {
+    return buf[--bufp];
+  } else {
+    return getchar();
+  }
+}
+Actual result:  }
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.047619047619047616
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 773 1
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5811283588409424 seconds
+Received response: buf[bufp++] = getchar();
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06896551724137931
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 773 6
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.6169228553771973 seconds
+Received response: char ch;
+
+do {
+    ch = getch();
+} while (ch == ' ' || ch == '\t');
+
+if (ch == '\n') {
+    // Handle end of line
+} else {
+    do {
+        // Process and build token
+        buf[bufp++] = ch;
+        ch = getch();
+    } while (ch != ' ' && ch != '\t' && ch != '\n');
+    buf[bufp] = '\0'; // Null terminate the token
+}
+Actual result:  ungetch VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [113, 112, 111, 110], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 113, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.041791044776119404
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 773 13
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8622541427612305 seconds
+Received response: (int c)
+{
+  if (bufp >= 100)
+    printf("ungetch: too many characters\n");
+  else
+    buf[bufp++] = c;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 36, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.017699115044247787
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 773 13
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9034905433654785 seconds
+Received response: (int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c;
+  }
+}
+Actual result:  ( int c VARIABLE )
+SACREBLEU Score: {'score': 3.674832241731779, 'counts': [4, 2, 1, 0], 'totals': [40, 39, 38, 37], 'precisions': [10.0, 5.128205128205129, 2.6315789473684212, 1.3513513513513513], 'bp': 1.0, 'sys_len': 40, 'ref_len': 5}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.10071942446043165
+Cosine Similarity Precision:0.1889822365046136
+
+Parse State: 186	Cursor Position: 773 14
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9142725467681885 seconds
+Received response: int c) {
+  if (bufp >= 100) {
+    printf("ungetch: too many characters\n");
+  } else {
+    buf[bufp++] = c;
+  }
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.9432284668356838, 'counts': [1, 0, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222], 'bp': 1.0, 'sys_len': 39, 'ref_len': 1}
+First element of precision:2.5641025641025643
+Sequence Matcher Similarity Precision:0.05128205128205128
+Cosine Similarity Precision:0.2672612419124244
+
+Parse State: 298	Cursor Position: 773 18
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.538794755935669 seconds
+Received response: next token or line
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13793103448275862
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 773 19
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8928148746490479 seconds
+Received response: // next token or line
+{
+  if (bufp < 100)
+  {
+    buf[bufp++] = c;
+  }
+  else
+  {
+    printf("error: buffer is full\n");
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [41, 40, 39, 38], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 41, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014814814814814815
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 773 19
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5468111038208008 seconds
+Received response: {
+  buf[bufp++] = c;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.08333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 774 1
+
+                This is the incomplete C11 programming language code:
+                int bufp = 0;
+int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8694682121276855 seconds
+Received response: {
+    if (bufp >= 100)
+    {
+        printf("ungetch: too many characters\n");
+    }
+    else
+    {
+        buf[bufp++] = c;
+    }
+}
+Actual result:  { if ( bufp VARIABLE >= 100 ) { printf VARIABLE ( " ) ; } else { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; } }
+SACREBLEU Score: {'score': 50.562337394789886, 'counts': [28, 22, 15, 10], 'totals': [36, 35, 34, 33], 'precisions': [77.77777777777777, 62.857142857142854, 44.11764705882353, 30.303030303030305], 'bp': 1.0, 'sys_len': 36, 'ref_len': 33}
+First element of precision:77.77777777777777
+Sequence Matcher Similarity Precision:0.488
+Cosine Similarity Precision:0.4280863447390447
+
+Parse State: 320	Cursor Position: 775 3
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7743837833404541 seconds
+Received response: if (bufp < 100) {
+    buf[bufp++] = c;
+} else {
+    printf("ungetch: too many characters\n");
+}
+Actual result:  if ( bufp VARIABLE >= 100 ) { printf VARIABLE ( " ) ; } else { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; }
+SACREBLEU Score: {'score': 35.473974149267534, 'counts': [24, 18, 9, 4], 'totals': [33, 32, 31, 30], 'precisions': [72.72727272727273, 56.25, 29.032258064516128, 13.333333333333334], 'bp': 1.0, 'sys_len': 33, 'ref_len': 31}
+First element of precision:72.72727272727273
+Sequence Matcher Similarity Precision:0.4019138755980861
+Cosine Similarity Precision:0.4280863447390447
+
+Parse State: 404	Cursor Position: 775 6
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.102576494216919 seconds
+Received response: if (bufp < 100)
+{
+    buf[bufp++] = c;
+}
+else
+{
+    printf("error: buffer full\n");
+}
+Actual result:  ( bufp VARIABLE >= 100 ) { printf VARIABLE ( " ) ; } else { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; }
+SACREBLEU Score: {'score': 34.69955879224166, 'counts': [23, 17, 8, 4], 'totals': [32, 31, 30, 29], 'precisions': [71.875, 54.83870967741935, 26.666666666666668, 13.793103448275861], 'bp': 1.0, 'sys_len': 32, 'ref_len': 30}
+First element of precision:71.875
+Sequence Matcher Similarity Precision:0.3163265306122449
+Cosine Similarity Precision:0.4020151261036849
+
+Parse State: 455	Cursor Position: 775 7
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8630657196044922 seconds
+Received response: if (bufp < 100) {
+    buf[bufp++] = c;
+  } else {
+    printf("error: buffer full\n");
+  }
+}
+Actual result:  bufp VARIABLE
+SACREBLEU Score: {'score': 1.123099644603982, 'counts': [1, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667], 'bp': 1.0, 'sys_len': 33, 'ref_len': 2}
+First element of precision:3.0303030303030303
+Sequence Matcher Similarity Precision:0.11428571428571428
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 179	Cursor Position: 775 11
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7447395324707031 seconds
+Received response: bufp < 100) {
+    buf[bufp++] = c;
+  } else {
+    printf("error: buffer full\n");
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [31, 30, 29, 28], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 31, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.020833333333333332
+Cosine Similarity Precision:0.0
+
+Parse State: 154	Cursor Position: 775 12
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8605966567993164 seconds
+Received response: {
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c;
+  }
+}
+Actual result:  >=
+SACREBLEU Score: {'score': 2.0506623206233634, 'counts': [2, 1, 0, 0], 'totals': [36, 35, 34, 33], 'precisions': [5.555555555555555, 2.857142857142857, 1.4705882352941178, 0.7575757575757576], 'bp': 1.0, 'sys_len': 36, 'ref_len': 2}
+First element of precision:5.555555555555555
+Sequence Matcher Similarity Precision:0.05217391304347826
+Cosine Similarity Precision:0.0
+
+Parse State: 252	Cursor Position: 775 15
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >=
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8050837516784668 seconds
+Received response: (bufp >= 100)
+    printf("ungetch: too many characters\n");
+else
+    buf[bufp++] = c;
+Actual result:  100
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.0898876404494382
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 483	Cursor Position: 775 18
+
+                This is the incomplete C11 programming language code:
+                int buf[100];
+
+int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5650644302368164 seconds
+Received response: {
+    printf("Error: Buffer full\n");
+    return;
+}
+Actual result:  ) { printf VARIABLE ( " ) ; } else { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; }
+SACREBLEU Score: {'score': 8.872369098171298, 'counts': [8, 5, 1, 0], 'totals': [16, 15, 14, 13], 'precisions': [50.0, 33.333333333333336, 7.142857142857143, 3.8461538461538463], 'bp': 0.6065306597126334, 'sys_len': 16, 'ref_len': 24}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.2589928057553957
+Cosine Similarity Precision:0.09999999999999999
+
+Parse State: 320	Cursor Position: 776 3
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4716153144836426 seconds
+Received response: return;
+}
+Actual result:  { printf VARIABLE ( " ) ; }
+SACREBLEU Score: {'score': 0.0, 'counts': [2, 1, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [66.66666666666667, 50.0, 50.0, 0.0], 'bp': 0.18887560283756186, 'sys_len': 3, 'ref_len': 8}
+First element of precision:66.66666666666667
+Sequence Matcher Similarity Precision:0.21621621621621623
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 777 5
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6642332077026367 seconds
+Received response: return; // or handle the error in some appropriate way
+Actual result:  printf VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 12, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.17142857142857143
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 777 11
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5952436923980713 seconds
+Received response: fprintf(stderr, "Error: Buffer full. Cannot ungetch %c\n", c);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.056338028169014086
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 777 11
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0377485752105713 seconds
+Received response: fprintf(stderr, "Error: Buffer full. Cannot ungetch any more characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c;
+  }
+}
+Actual result:  ( " )
+SACREBLEU Score: {'score': 2.4092489848483223, 'counts': [3, 1, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [8.823529411764707, 3.0303030303030303, 1.5625, 0.8064516129032258], 'bp': 1.0, 'sys_len': 34, 'ref_len': 3}
+First element of precision:8.823529411764707
+Sequence Matcher Similarity Precision:0.08064516129032258
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 777 12
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7637996673583984 seconds
+Received response: printf("error: buffer full, unable to add character '%c'\n", c);
+    exit(1);
+  }
+
+  buf[bufp++] = c;
+}
+Actual result:  "
+SACREBLEU Score: {'score': 0.969094302009921, 'counts': [1, 0, 0, 0], 'totals': [38, 37, 36, 35], 'precisions': [2.6315789473684212, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715], 'bp': 1.0, 'sys_len': 38, 'ref_len': 1}
+First element of precision:2.6315789473684212
+Sequence Matcher Similarity Precision:0.01904761904761905
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 777 44
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.451308012008667 seconds
+Received response: return;
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 777 45
+
+                This is the incomplete C11 programming language code:
+                int getch(void)
+{
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n")
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.45510220527648926 seconds
+Received response: return;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 778 3
+
+                This is the incomplete C11 programming language code:
+                {
+  return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.475024938583374 seconds
+Received response: return;
+}
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 512	Cursor Position: 779 3
+
+                This is the incomplete C11 programming language code:
+                return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.3995182514190674 seconds
+Received response: buf[bufp++] = c;
+Actual result:  else { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; }
+SACREBLEU Score: {'score': 28.065051256615686, 'counts': [9, 5, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 62.5, 42.857142857142854, 33.333333333333336], 'bp': 0.513417119032592, 'sys_len': 9, 'ref_len': 15}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.43243243243243246
+Cosine Similarity Precision:0.408248290463863
+
+Parse State: 320	Cursor Position: 780 3
+
+                This is the incomplete C11 programming language code:
+                }
+
+void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6007113456726074 seconds
+Received response: buf[bufp++] = c;
+Actual result:  { buf VARIABLE [ bufp VARIABLE ++ ] = c VARIABLE ; }
+SACREBLEU Score: {'score': 31.363229944485827, 'counts': [9, 5, 3, 2], 'totals': [9, 8, 7, 6], 'precisions': [100.0, 62.5, 42.857142857142854, 33.333333333333336], 'bp': 0.5737534207374327, 'sys_len': 9, 'ref_len': 14}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.463768115942029
+Cosine Similarity Precision:0.42640143271122083
+
+Parse State: 201	Cursor Position: 781 5
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4846057891845703 seconds
+Received response: buf[bufp++] = c;
+Actual result:  buf VARIABLE
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.27586206896551724
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 65	Cursor Position: 781 8
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5509524345397949 seconds
+Received response: buf[bufp++] = c;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [11, 10, 9, 8], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 11, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 781 8
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5755615234375 seconds
+Received response: buf[bufp++] = c;
+  }
+}
+Actual result:  [ bufp VARIABLE ++ ]
+SACREBLEU Score: {'score': 17.542198478193427, 'counts': [5, 3, 1, 0], 'totals': [11, 10, 9, 8], 'precisions': [45.45454545454545, 30.0, 11.11111111111111, 6.25], 'bp': 1.0, 'sys_len': 11, 'ref_len': 6}
+First element of precision:45.45454545454545
+Sequence Matcher Similarity Precision:0.37209302325581395
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 236	Cursor Position: 781 9
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5075469017028809 seconds
+Received response: buf[bufp++] = c;
+Actual result:  bufp VARIABLE
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.4999999999999999
+
+Parse State: 179	Cursor Position: 781 13
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6001577377319336 seconds
+Received response: = c;
+      bufp++;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.06060606060606061
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 781 13
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.52189040184021 seconds
+Received response: bufp++] = c;
+  }
+}
+Actual result:  ++
+SACREBLEU Score: {'score': 9.535414040914192, 'counts': [2, 1, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [22.22222222222222, 12.5, 7.142857142857143, 4.166666666666667], 'bp': 1.0, 'sys_len': 9, 'ref_len': 2}
+First element of precision:22.22222222222222
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 353	Cursor Position: 781 15
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5822110176086426 seconds
+Received response: {
+      buf[bufp] = c;
+    }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 781 17
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5853316783905029 seconds
+Received response: = c;  // Store the character c in the buffer and increment bufp
+  }
+}
+Actual result:  =
+SACREBLEU Score: {'score': 2.2869567780619007, 'counts': [1, 0, 0, 0], 'totals': [17, 16, 15, 14], 'precisions': [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429], 'bp': 1.0, 'sys_len': 17, 'ref_len': 1}
+First element of precision:5.882352941176471
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 781 19
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.503018856048584 seconds
+Received response: c;
+Actual result:  c VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [50.0, 50.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 2}
+First element of precision:50.0
+Sequence Matcher Similarity Precision:0.15384615384615385
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 781 20
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4268791675567627 seconds
+Received response: return;
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 781 20
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5372209548950195 seconds
+Received response: return;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 782 3
+
+                This is the incomplete C11 programming language code:
+                void ungetch(int c)
+{
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.45235300064086914 seconds
+Received response: return;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 783 1
+
+                This is the incomplete C11 programming language code:
+                {
+  if (bufp >= 100)
+  {
+    printf("ungetch: too many characters\n");
+  }
+  else
+  {
+    buf[bufp++] = c;
+  }
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4645962715148926 seconds
+Received response: return bufp;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 15.208714771404525
+Average Sequence Matcher Similarity Precision: 14.462725545170382
+Average Cosine Similarity Precision: 11.734863172237167

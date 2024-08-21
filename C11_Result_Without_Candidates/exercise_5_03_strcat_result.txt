@@ -1,0 +1,3426 @@
+Parse State: 23	Cursor Position: 741 1
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.656799554824829 seconds
+Received response: Here is a possible completion for the code, assuming we want to continue with a function definition:
+
+```c
+#include <stdio.h>
+
+char *my_strcat(char *dest, const char *src) {
+    // add code to concatenate src to dest
+}
+
+int main() {
+    char dest[100] = "Hello, ";
+    const char *src = "world!";
+    
+    my_strcat(dest, src);
+    
+    printf("%s\n", dest);
+    
+    return 0;
+}
+```
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [110, 109, 108, 107], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 110, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.015463917525773196
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 741 6
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9260454177856445 seconds
+Received response: void strcat(char *s, char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while ((*s++ = *t++) != '\0') {
+        ;
+    }
+}
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 0.7144315612998046, 'counts': [1, 0, 0, 0], 'totals': [51, 50, 49, 48], 'precisions': [1.9607843137254901, 1.0, 0.5102040816326531, 0.2604166666666667], 'bp': 1.0, 'sys_len': 51, 'ref_len': 4}
+First element of precision:1.9607843137254901
+Sequence Matcher Similarity Precision:0.12080536912751678
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 16
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.150101900100708 seconds
+Received response: #include <stdio.h>
+#include <string.h>
+
+void strcat_ptr(char *s, const char *t)
+{
+    while (*s) // move to the end of s
+        s++;
+    
+    while ((*s++ = *t++)) // concatenate t to the end of s
+        ;
+}
+
+int main()
+{
+    char str1[20] = "Hello, ";
+    const char str2[10] = "world!";
+    
+    strcat_ptr(str1, str2);
+    
+    printf("%s\n", str1); // output: "Hello, world!"
+    
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [134, 133, 132, 131], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 134, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.004866180048661801
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 741 16
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2212097644805908 seconds
+Received response: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+
+void strcat_ptr(char *s, char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while ((*s++ = *t++) != '\0') {
+        ;
+    }
+}
+Actual result:  ( char * s VARIABLE , char * t VARIABLE )
+SACREBLEU Score: {'score': 6.203458079507126, 'counts': [9, 6, 4, 2], 'totals': [75, 74, 73, 72], 'precisions': [12.0, 8.108108108108109, 5.47945205479452, 2.7777777777777777], 'bp': 1.0, 'sys_len': 75, 'ref_len': 11}
+First element of precision:12.0
+Sequence Matcher Similarity Precision:0.1652892561983471
+Cosine Similarity Precision:0.2626128657194451
+
+Parse State: 186	Cursor Position: 741 17
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1396963596343994 seconds
+Received response: char *dest, const char *src) {
+    while (*dest != '\0') {
+        dest++;
+    }
+    while (*src != '\0') {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+    *dest = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.6044751875664687, 'counts': [1, 0, 0, 0], 'totals': [60, 59, 58, 57], 'precisions': [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508], 'bp': 1.0, 'sys_len': 60, 'ref_len': 1}
+First element of precision:1.6666666666666667
+Sequence Matcher Similarity Precision:0.05235602094240838
+Cosine Similarity Precision:0.25607375986579195
+
+Parse State: 298	Cursor Position: 741 22
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2787835597991943 seconds
+Received response: *dest, const char *src) {
+    while (*dest != '\0') {
+        dest++;
+    }
+    while (*src != '\0') {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+    *dest = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.02185792349726776
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 741 23
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2629914283752441 seconds
+Received response: void strcat_ptr(char *dest, const char *src) {
+    while (*dest != '\0') {
+        dest++;
+    }
+    while (*src != '\0') {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+    *dest = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 65, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 24
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8616430759429932 seconds
+Received response: ) {
+    while (*s != '\0') {
+        s++;
+    }
+    // 'next token or line'
+    while ((*s++ = *t++) != '\0');
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 45, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.01652892561983471
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 741 24
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9900059700012207 seconds
+Received response: {
+    , const char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 2.503523119661515, 'counts': [4, 2, 1, 0], 'totals': [58, 57, 56, 55], 'precisions': [6.896551724137931, 3.508771929824561, 1.7857142857142858, 0.9090909090909091], 'bp': 1.0, 'sys_len': 58, 'ref_len': 5}
+First element of precision:6.896551724137931
+Sequence Matcher Similarity Precision:0.1340782122905028
+Cosine Similarity Precision:0.2886751345948129
+
+Parse State: 391	Cursor Position: 741 26
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1589140892028809 seconds
+Received response: void strcat_ptr(char *s,
+                const char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.5568633223045912, 'counts': [1, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [1.5384615384615385, 0.78125, 0.3968253968253968, 0.20161290322580644], 'bp': 1.0, 'sys_len': 65, 'ref_len': 1}
+First element of precision:1.5384615384615385
+Sequence Matcher Similarity Precision:0.050761421319796954
+Cosine Similarity Precision:0.6030226891555273
+
+Parse State: 298	Cursor Position: 741 31
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9049355983734131 seconds
+Received response: **t**[] = "") {
+  while (*s != '\0') {
+    s++;
+  }
+  while (*t != '\0') {
+    *s++ = *t++;
+  }
+  *s = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.6258807799153787, 'counts': [1, 0, 0, 0], 'totals': [58, 57, 56, 55], 'precisions': [1.7241379310344827, 0.8771929824561403, 0.44642857142857145, 0.22727272727272727], 'bp': 1.0, 'sys_len': 58, 'ref_len': 1}
+First element of precision:1.7241379310344827
+Sequence Matcher Similarity Precision:0.03571428571428571
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 741 32
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8234431743621826 seconds
+Received response: * t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while ((*s = *t) != '\0') {
+        s++;
+        t++;
+    }
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.7947529289544674, 'counts': [1, 0, 0, 0], 'totals': [46, 45, 44, 43], 'precisions': [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467], 'bp': 1.0, 'sys_len': 46, 'ref_len': 2}
+First element of precision:2.1739130434782608
+Sequence Matcher Similarity Precision:0.047244094488188976
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 741 33
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.011300802230835 seconds
+Received response: {
+    while (*s != '\0') {
+        s++;
+    }
+    while ((*s = *t) != '\0') {
+        s++;
+        t++;
+    }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [43, 42, 41, 40], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 43, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.016666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 741 33
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0219223499298096 seconds
+Received response: {
+    while (*s) // move to the end of s
+    {
+        s++;
+    }
+    
+    while ((*s++ = *t++)) // copy t to the end of s
+    {
+        ;
+    }
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.7772751558853214, 'counts': [1, 0, 0, 0], 'totals': [47, 46, 45, 44], 'precisions': [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091], 'bp': 1.0, 'sys_len': 47, 'ref_len': 1}
+First element of precision:2.127659574468085
+Sequence Matcher Similarity Precision:0.02702702702702703
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 741 34
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9372353553771973 seconds
+Received response: {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while ((*s++ = *t++) != '\0') {
+        ;
+    }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.918708060432945, 'counts': [1, 0, 0, 0], 'totals': [40, 39, 38, 37], 'precisions': [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783], 'bp': 1.0, 'sys_len': 40, 'ref_len': 1}
+First element of precision:2.5
+Sequence Matcher Similarity Precision:0.03773584905660377
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 743 1
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2179529666900635 seconds
+Received response: void strcat_ptr(char *s, char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  int
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [64, 63, 62, 61], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 64, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021739130434782608
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 743 5
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.8149421215057373 seconds
+Received response: int main() {
+    char s[100] = "Hello, ";
+    char *t = "world!";
+    
+    strcat_ptr(s, t);
+    
+    printf("%s\n", s);
+    
+    return 0;
+}
+
+void strcat_ptr(char *s, char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  main VARIABLE
+SACREBLEU Score: {'score': 0.31428520165805107, 'counts': [1, 0, 0, 0], 'totals': [114, 113, 112, 111], 'precisions': [0.8771929824561403, 0.4424778761061947, 0.22321428571428573, 0.11261261261261261], 'bp': 1.0, 'sys_len': 114, 'ref_len': 2}
+First element of precision:0.8771929824561403
+Sequence Matcher Similarity Precision:0.03560830860534125
+Cosine Similarity Precision:0.12499999999999997
+
+Parse State: 65	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0445785522460938 seconds
+Received response: int main() {
+    char s[50] = "Hello ";
+    char *t = "world";
+
+    strcat_ptr(s, t);
+
+    printf("%s\n", s);
+
+    return 0;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [48, 47, 46, 45], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 48, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.014814814814814815
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 743 9
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9325709342956543 seconds
+Received response: int main() {
+    char s[100] = "Hello, ";
+    char *t = "world!";
+    
+    strcat_ptr(s, t);
+    
+    printf("%s\n", s);
+    
+    return 0;
+}
+Actual result:  ( void )
+SACREBLEU Score: {'score': 0.8671339908544159, 'counts': [2, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [4.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 3}
+First element of precision:4.0
+Sequence Matcher Similarity Precision:0.04
+Cosine Similarity Precision:0.0
+
+Parse State: 186	Cursor Position: 743 10
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5582895278930664 seconds
+Received response: int main() {
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 5, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.11764705882352941
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 743 14
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6031546592712402 seconds
+Received response: {
+                // Add the closing parenthesis for the main function
+                return 0;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [15, 14, 13, 12], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 15, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.02
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 744 1
+
+                This is the incomplete C11 programming language code:
+                # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0623066425323486 seconds
+Received response: {
+    char s[] = "Hello, ";
+    char t[] = "world!";
+    
+    strcat_ptr(s, t);
+    
+    printf("%s\n", s);
+    
+    return 0;
+}
+Actual result:  { char s VARIABLE [ 100 ] = " ; char t VARIABLE [ ] = " ; strcat_ptr VARIABLE ( s VARIABLE , t VARIABLE ) ; puts VARIABLE ( s VARIABLE ) ; return 0 ; }
+SACREBLEU Score: {'score': 35.7627283197145, 'counts': [32, 22, 13, 7], 'totals': [46, 45, 44, 43], 'precisions': [69.56521739130434, 48.888888888888886, 29.545454545454547, 16.27906976744186], 'bp': 1.0, 'sys_len': 46, 'ref_len': 41}
+First element of precision:69.56521739130434
+Sequence Matcher Similarity Precision:0.4785714285714286
+Cosine Similarity Precision:0.26490647141300877
+
+Parse State: 201	Cursor Position: 745 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4783141613006592 seconds
+Received response: #include <stdio.h>
+
+    char s[50] = "Hello, ";
+    char t[] = "world!";
+    
+    strcat_ptr(s, t);
+    
+    printf("Concatenated string: %s\n", s);
+    
+    return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+    while (*s != '\0')
+    {
+        s++;
+    }
+    
+    while ((*s = *t) != '\0')
+    {
+        s++;
+        t++;
+    }
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.31997419885758366, 'counts': [1, 0, 0, 0], 'totals': [112, 111, 110, 109], 'precisions': [0.8928571428571429, 0.45045045045045046, 0.22727272727272727, 0.11467889908256881], 'bp': 1.0, 'sys_len': 112, 'ref_len': 1}
+First element of precision:0.8928571428571429
+Sequence Matcher Similarity Precision:0.029940119760479042
+Cosine Similarity Precision:0.6859943405700353
+
+Parse State: 93	Cursor Position: 745 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3902637958526611 seconds
+Received response: {
+    str1[50] = "Hello, ";
+    str2[50] = "world!";
+    
+    strcat_ptr(str1, str2);
+    
+    printf("Concatenated string: %s\n", str1);
+    
+    return 0;
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.7445292335166879, 'counts': [1, 0, 0, 0], 'totals': [49, 48, 47, 46], 'precisions': [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826], 'bp': 1.0, 'sys_len': 49, 'ref_len': 2}
+First element of precision:2.0408163265306123
+Sequence Matcher Similarity Precision:0.03550295857988166
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.727382183074951 seconds
+Received response: 
+[]= "Hello";
+  char t[] = " World";
+  
+  strcat_ptr(s, t);
+  
+  printf("%s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+    s++;
+  
+  while ((*s = *t) != '\0')
+  {
+    s++;
+    t++;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [95, 94, 93, 92], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 95, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.00851063829787234
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 745 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4983973503112793 seconds
+Received response: = "Hello, ";
+  char t[] = "world!";
+  
+  strcat_ptr(s, t);
+  
+  printf("Concatenated string: %s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0') {
+    s++;
+  }
+  
+  while (*t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+  }
+  
+  *s = '\0';
+}
+Actual result:  [ 100 ]
+SACREBLEU Score: {'score': 0.39480880620974385, 'counts': [2, 0, 0, 0], 'totals': [108, 107, 106, 105], 'precisions': [1.8518518518518519, 0.4672897196261682, 0.2358490566037736, 0.11904761904761904], 'bp': 1.0, 'sys_len': 108, 'ref_len': 3}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.02857142857142857
+Cosine Similarity Precision:0.0
+
+Parse State: 188	Cursor Position: 745 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.526770830154419 seconds
+Received response: char s[100] = "Hello";
+Actual result:  100
+SACREBLEU Score: {'score': 4.196114906296549, 'counts': [1, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [10.0, 5.555555555555555, 3.125, 1.7857142857142858], 'bp': 1.0, 'sys_len': 10, 'ref_len': 1}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.3076923076923077
+Cosine Similarity Precision:0.5773502691896258
+
+Parse State: 305	Cursor Position: 745 13
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7159333229064941 seconds
+Received response: ]
+  char t[50] = "world";
+
+  strcat_ptr(s, t);
+
+  return 0;
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 1.5732934811145336, 'counts': [1, 0, 0, 0], 'totals': [24, 23, 22, 21], 'precisions': [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952], 'bp': 1.0, 'sys_len': 24, 'ref_len': 1}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.031746031746031744
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 745 15
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.08579421043396 seconds
+Received response: {
+  char s[100];
+  char t[100] = "World";
+  
+  strcat_ptr(s, t);
+  
+  return 0;
+}
+Actual result:  = "
+SACREBLEU Score: {'score': 2.4829886830705856, 'counts': [2, 1, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [6.666666666666667, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259], 'bp': 1.0, 'sys_len': 30, 'ref_len': 2}
+First element of precision:6.666666666666667
+Sequence Matcher Similarity Precision:0.09411764705882353
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 745 17
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3851311206817627 seconds
+Received response: {'H', 'e', 'l', 'l', 'o', '\0'};
+  
+  char t[] = "world!";
+  
+  strcat_ptr(s, t);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while ((*s = *t) != '\0')
+  {
+    s++;
+    t++;
+  }
+}
+Actual result:  "
+SACREBLEU Score: {'score': 0.37815900605581765, 'counts': [1, 0, 0, 0], 'totals': [95, 94, 93, 92], 'precisions': [1.0526315789473684, 0.5319148936170213, 0.26881720430107525, 0.1358695652173913], 'bp': 1.0, 'sys_len': 95, 'ref_len': 1}
+First element of precision:1.0526315789473684
+Sequence Matcher Similarity Precision:0.017391304347826087
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 745 43
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.333927869796753 seconds
+Received response: strcat_ptr(s, " and this is the second string");
+
+  printf("%s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s)
+  {
+    s++;
+  }
+
+  while ((*s = *t) != '\0')
+  {
+    s++;
+    t++;
+  }
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.43384866842485925, 'counts': [1, 0, 0, 0], 'totals': [83, 82, 81, 80], 'precisions': [1.2048192771084338, 0.6097560975609756, 0.30864197530864196, 0.15625], 'bp': 1.0, 'sys_len': 83, 'ref_len': 1}
+First element of precision:1.2048192771084338
+Sequence Matcher Similarity Precision:0.018957345971563982
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 746 3
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4352233409881592 seconds
+Received response: strcat_ptr(s, " and this is the second string");
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.36264270632120366, 'counts': [1, 0, 0, 0], 'totals': [99, 98, 97, 96], 'precisions': [1.0101010101010102, 0.5102040816326531, 0.25773195876288657, 0.13020833333333334], 'bp': 1.0, 'sys_len': 99, 'ref_len': 1}
+First element of precision:1.0101010101010102
+Sequence Matcher Similarity Precision:0.03802281368821293
+Cosine Similarity Precision:0.4
+
+Parse State: 93	Cursor Position: 746 8
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 2.1003990173339844 seconds
+Received response: t[100] = " and this is the second string";
+  
+  strcat_ptr(s, t);
+  
+  printf("Concatenated string: %s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  // Iterate over the string s until the null terminator is reached
+  while (*s)
+  {
+    s++;
+  }
+  
+  // Copy characters from string t to string s
+  while ((*s++ = *t++))
+    ;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.33834796941275397, 'counts': [1, 0, 0, 0], 'totals': [106, 105, 104, 103], 'precisions': [0.9433962264150944, 0.47619047619047616, 0.2403846153846154, 0.12135922330097088], 'bp': 1.0, 'sys_len': 106, 'ref_len': 2}
+First element of precision:0.9433962264150944
+Sequence Matcher Similarity Precision:0.016901408450704224
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9859676361083984 seconds
+Received response: []= "This is the second string";
+
+  strcat_ptr(s, t);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while ((*s++ = *t++) != '\0')
+    ;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [75, 74, 73, 72], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 75, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.010362694300518135
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 746 9
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4690680503845215 seconds
+Received response: = " and this is the second string";
+
+  strcat_ptr(s, t);
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s)
+  {
+    s++;
+  }
+
+  while (*t)
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  [ ]
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [92, 91, 90, 89], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 92, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.015748031496062992
+Cosine Similarity Precision:0.0
+
+Parse State: 305	Cursor Position: 746 10
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 3.1280643939971924 seconds
+Received response: [200] = " and this is the second string";
+
+  strcat_ptr(s, t);
+  
+  printf("Concatenated string: %s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+  
+  while ((*s = *t) != '\0')
+  {
+    s++;
+    t++;
+  }
+}
+Actual result:  ]
+SACREBLEU Score: {'score': 0.3702383484239695, 'counts': [1, 0, 0, 0], 'totals': [97, 96, 95, 94], 'precisions': [1.0309278350515463, 0.5208333333333334, 0.2631578947368421, 0.13297872340425532], 'bp': 1.0, 'sys_len': 97, 'ref_len': 1}
+First element of precision:1.0309278350515463
+Sequence Matcher Similarity Precision:0.007692307692307693
+Cosine Similarity Precision:0.0
+
+Parse State: 59	Cursor Position: 746 12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[]
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2299916744232178 seconds
+Received response: = " and this is the second string";
+
+  strcat_ptr(s, t);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while ((*s = *t) != '\0')
+  {
+    s++;
+    t++;
+  }
+}
+Actual result:  = "
+SACREBLEU Score: {'score': 0.912490810176151, 'counts': [2, 1, 0, 0], 'totals': [79, 78, 77, 76], 'precisions': [2.5316455696202533, 1.2820512820512822, 0.6493506493506493, 0.32894736842105265], 'bp': 1.0, 'sys_len': 79, 'ref_len': 2}
+First element of precision:2.5316455696202533
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 108	Cursor Position: 746 14
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9257597923278809 seconds
+Received response: " and this is the second string";
+  strcat_ptr(s, t);
+  return 0;
+}
+Actual result:  "
+SACREBLEU Score: {'score': 1.727223799216787, 'counts': [1, 0, 0, 0], 'totals': [22, 21, 20, 19], 'precisions': [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053], 'bp': 1.0, 'sys_len': 22, 'ref_len': 1}
+First element of precision:4.545454545454546
+Sequence Matcher Similarity Precision:0.028985507246376812
+Cosine Similarity Precision:0.0
+
+Parse State: 60	Cursor Position: 746 37
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_5/exercise_5_03/strcat.c" 2
+
+
+# 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!"
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5076615810394287 seconds
+Received response: strcat_ptr(s, t);
+Actual result:  ;
+SACREBLEU Score: {'score': 4.767707020457095, 'counts': [1, 0, 0, 0], 'totals': [9, 8, 7, 6], 'precisions': [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335], 'bp': 1.0, 'sys_len': 9, 'ref_len': 1}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.21052631578947367
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 748 3
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.9552254676818848 seconds
+Received response: strcat_ptr(s, t);
+
+  printf("Before concatenation:\n");
+  printf("s: %s\n", s);
+  printf("t: %s\n", t);
+
+  strcat_ptr(s, t);
+
+  printf("After concatenation:\n");
+  printf("s: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s)
+  {
+    s++;
+  }
+
+  while (*t)
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 0.9502649072460637, 'counts': [3, 2, 1, 0], 'totals': [140, 139, 138, 137], 'precisions': [2.142857142857143, 1.4388489208633093, 0.7246376811594203, 0.36496350364963503], 'bp': 1.0, 'sys_len': 140, 'ref_len': 4}
+First element of precision:2.142857142857143
+Sequence Matcher Similarity Precision:0.07303370786516854
+Cosine Similarity Precision:0.3
+
+Parse State: 65	Cursor Position: 748 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.7882287502288818 seconds
+Received response: (s, t);
+
+  printf("Combined string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s) {  // move to the end of s
+    s++;
+  }
+
+  while (*t) {  // concatenate t to the end of s
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';  // add null terminator
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [101, 100, 99, 98], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 101, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.007017543859649123
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 748 13
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4358370304107666 seconds
+Received response: (s, t);
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0') {
+    s++;
+  }
+
+  while (*t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  ( s VARIABLE , t VARIABLE )
+SACREBLEU Score: {'score': 1.208522965193405, 'counts': [5, 2, 0, 0], 'totals': [89, 88, 87, 86], 'precisions': [5.617977528089888, 2.272727272727273, 0.5747126436781609, 0.29069767441860467], 'bp': 1.0, 'sys_len': 89, 'ref_len': 7}
+First element of precision:5.617977528089888
+Sequence Matcher Similarity Precision:0.04979253112033195
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 748 14
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.48099350929260254 seconds
+Received response: s, t);
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 10.682175159905848, 'counts': [1, 0, 0, 0], 'totals': [5, 4, 3, 2], 'precisions': [20.0, 12.5, 8.333333333333334, 6.25], 'bp': 1.0, 'sys_len': 5, 'ref_len': 2}
+First element of precision:20.0
+Sequence Matcher Similarity Precision:0.23529411764705882
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 748 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4568471908569336 seconds
+Received response: , t);
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.14285714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 352	Cursor Position: 748 15
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.39180326461792 seconds
+Received response: , t);
+
+  printf("Concatenated string: %s\n", s);
+  
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0') {
+    s++;
+  }
+
+  while ((*s = *t) != '\0') {
+    s++;
+    t++;
+  }
+}
+Actual result:  , t VARIABLE
+SACREBLEU Score: {'score': 0.912490810176151, 'counts': [2, 1, 0, 0], 'totals': [79, 78, 77, 76], 'precisions': [2.5316455696202533, 1.2820512820512822, 0.6493506493506493, 0.32894736842105265], 'bp': 1.0, 'sys_len': 79, 'ref_len': 3}
+First element of precision:2.5316455696202533
+Sequence Matcher Similarity Precision:0.038834951456310676
+Cosine Similarity Precision:0.0
+
+Parse State: 429	Cursor Position: 748 17
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.4418511390686035 seconds
+Received response: t
+                ;
+  
+  printf("%s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+    s++;
+  
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+  
+  *s = '\0';
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.4504321747452186, 'counts': [1, 0, 0, 0], 'totals': [80, 79, 78, 77], 'precisions': [1.25, 0.6329113924050633, 0.32051282051282054, 0.16233766233766234], 'bp': 1.0, 'sys_len': 80, 'ref_len': 2}
+First element of precision:1.25
+Sequence Matcher Similarity Precision:0.027649769585253458
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 748 18
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.3852052688598633 seconds
+Received response: );
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 748 18
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3682403564453125 seconds
+Received response: ); 
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.423455197103223, 'counts': [1, 0, 0, 0], 'totals': [85, 84, 83, 82], 'precisions': [1.1764705882352942, 0.5952380952380952, 0.30120481927710846, 0.1524390243902439], 'bp': 1.0, 'sys_len': 85, 'ref_len': 1}
+First element of precision:1.1764705882352942
+Sequence Matcher Similarity Precision:0.009302325581395349
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 748 19
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_5/exercise_5_03/strcat.c"
+void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3221867084503174 seconds
+Received response: ;
+
+  printf("Concatenated string: %s\n", s);
+
+  return 0;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.9146030690102511, 'counts': [1, 0, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589], 'bp': 1.0, 'sys_len': 20, 'ref_len': 1}
+First element of precision:5.0
+Sequence Matcher Similarity Precision:0.03278688524590164
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 750 3
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4961268901824951 seconds
+Received response: return 0;
+}
+Actual result:  puts VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [4, 3, 2, 1], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 4, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.16
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 750 7
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2684986591339111 seconds
+Received response: (s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s)
+  {
+     s++;
+  }
+  
+  while (*t)
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+  
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [62, 61, 60, 59], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 62, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.011834319526627219
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 750 7
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2218959331512451 seconds
+Received response: (s);
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  ( s VARIABLE )
+SACREBLEU Score: {'score': 1.1101286805840551, 'counts': [3, 1, 0, 0], 'totals': [72, 71, 70, 69], 'precisions': [4.166666666666667, 1.408450704225352, 0.7142857142857143, 0.36231884057971014], 'bp': 1.0, 'sys_len': 72, 'ref_len': 4}
+First element of precision:4.166666666666667
+Sequence Matcher Similarity Precision:0.06451612903225806
+Cosine Similarity Precision:0.0
+
+Parse State: 235	Cursor Position: 750 8
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2676446437835693 seconds
+Received response: s); 
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.5087757562008263, 'counts': [1, 0, 0, 0], 'totals': [71, 70, 69, 68], 'precisions': [1.408450704225352, 0.7142857142857143, 0.36231884057971014, 0.18382352941176472], 'bp': 1.0, 'sys_len': 71, 'ref_len': 2}
+First element of precision:1.408450704225352
+Sequence Matcher Similarity Precision:0.03296703296703297
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 750 9
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.221829891204834 seconds
+Received response: ); 
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s != '\0')
+  {
+    s++;
+  }
+
+  while (*t != '\0')
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [70, 69, 68, 67], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 70, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0111731843575419
+Cosine Similarity Precision:0.0
+
+Parse State: 351	Cursor Position: 750 9
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.658940315246582 seconds
+Received response: "); // prints the concatenated string "This is the first string, this second string!"
+Actual result:  )
+SACREBLEU Score: {'score': 1.8160849415439309, 'counts': [1, 0, 0, 0], 'totals': [21, 20, 19, 18], 'precisions': [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444], 'bp': 1.0, 'sys_len': 21, 'ref_len': 1}
+First element of precision:4.761904761904762
+Sequence Matcher Similarity Precision:0.022988505747126436
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 750 10
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t);
+
+int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1560957431793213 seconds
+Received response: ;
+
+  return 0;
+}
+
+void strcat_ptr(char *s, char *t)
+{
+  while (*s) {
+    s++;
+  }
+
+  while (*t) {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.013333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 752 3
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s);
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7342872619628906 seconds
+Received response: #include <string.h>
+Actual result:  return 0 ;
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 3}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.13333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 338	Cursor Position: 752 10
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s);
+
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4671919345855713 seconds
+Received response:  return 0;
+Actual result:  0
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 415	Cursor Position: 752 11
+
+                This is the incomplete C11 programming language code:
+                int main(void)
+{
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4659154415130615 seconds
+Received response: strcpy(s + strlen(s), t);
+Actual result:  ;
+SACREBLEU Score: {'score': 3.3864985683445354, 'counts': [1, 0, 0, 0], 'totals': [12, 11, 10, 9], 'precisions': [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888], 'bp': 1.0, 'sys_len': 12, 'ref_len': 1}
+First element of precision:8.333333333333334
+Sequence Matcher Similarity Precision:0.14814814814814814
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 753 1
+
+                This is the incomplete C11 programming language code:
+                {
+  char s[100] = "This is the first string";
+  char t[] = ", this second string!";
+
+  strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4161231517791748 seconds
+Received response: #include <string.h>
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 7, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 23	Cursor Position: 756 1
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.3378348350524902 seconds
+Received response: ```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char s[50] = "Hello, ";
+  char t[50] = "world";
+  
+  strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+```
+Actual result:  void
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 65, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.024096385542168676
+Cosine Similarity Precision:0.0
+
+Parse State: 5	Cursor Position: 756 6
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1330044269561768 seconds
+Received response: Sorry, but I cannot provide the exact token or line that should be used next in the code without more context or information about the specific goal or purpose of the program. 
+
+If you can provide more details or specify what you are trying to achieve with the code, I would be happy to help guide you in the right direction.
+Actual result:  strcat_ptr VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [65, 64, 63, 62], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 65, 'ref_len': 4}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.05217391304347826
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 756 16
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0083866119384766 seconds
+Received response: (char *s, char *t) {
+    while (*s) {
+        s++;
+    }
+    
+    while (*t) {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 50, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012658227848101266
+Cosine Similarity Precision:0.0
+
+Parse State: 63	Cursor Position: 756 16
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.1239235401153564 seconds
+Received response: (char *s, const char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  ( char * s VARIABLE , char * t VARIABLE )
+SACREBLEU Score: {'score': 5.729848899939291, 'counts': [9, 5, 3, 1], 'totals': [61, 60, 59, 58], 'precisions': [14.754098360655737, 8.333333333333334, 5.084745762711864, 1.7241379310344827], 'bp': 1.0, 'sys_len': 61, 'ref_len': 11}
+First element of precision:14.754098360655737
+Sequence Matcher Similarity Precision:0.1784037558685446
+Cosine Similarity Precision:0.4714045207910316
+
+Parse State: 186	Cursor Position: 756 17
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9149088859558105 seconds
+Received response: char *t) {
+    while (*s) {
+        s++;
+    }
+    while (*t) {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.8130350574508933, 'counts': [1, 0, 0, 0], 'totals': [45, 44, 43, 42], 'precisions': [2.2222222222222223, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476], 'bp': 1.0, 'sys_len': 45, 'ref_len': 1}
+First element of precision:2.2222222222222223
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 298	Cursor Position: 756 22
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0293104648590088 seconds
+Received response: *dest, const char *src) {
+    while (*dest != '\0') {
+        dest++;
+    }
+
+    while (*src != '\0') {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+
+    *dest = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.6149917424924614, 'counts': [1, 0, 0, 0], 'totals': [59, 58, 57, 56], 'precisions': [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573], 'bp': 1.0, 'sys_len': 59, 'ref_len': 1}
+First element of precision:1.694915254237288
+Sequence Matcher Similarity Precision:0.021621621621621623
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 756 23
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9167835712432861 seconds
+Received response: char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 0.6609918289641935, 'counts': [1, 0, 0, 0], 'totals': [55, 54, 53, 52], 'precisions': [1.8181818181818181, 0.9259259259259259, 0.4716981132075472, 0.2403846153846154], 'bp': 1.0, 'sys_len': 55, 'ref_len': 2}
+First element of precision:1.8181818181818181
+Sequence Matcher Similarity Precision:0.03614457831325301
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 756 24
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0883829593658447 seconds
+Received response: , const char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [57, 56, 55, 54], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 57, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.012345679012345678
+Cosine Similarity Precision:0.0
+
+Parse State: 300	Cursor Position: 756 24
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.108313798904419 seconds
+Received response: , char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  , char * t VARIABLE
+SACREBLEU Score: {'score': 4.062073000466025, 'counts': [4, 3, 2, 1], 'totals': [56, 55, 54, 53], 'precisions': [7.142857142857143, 5.454545454545454, 3.7037037037037037, 1.8867924528301887], 'bp': 1.0, 'sys_len': 56, 'ref_len': 5}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.1317365269461078
+Cosine Similarity Precision:0.3162277660168379
+
+Parse State: 391	Cursor Position: 756 26
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s,
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.409034252166748 seconds
+Received response: char *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  char
+SACREBLEU Score: {'score': 0.6609918289641935, 'counts': [1, 0, 0, 0], 'totals': [55, 54, 53, 52], 'precisions': [1.8181818181818181, 0.9259259259259259, 0.4716981132075472, 0.2403846153846154], 'bp': 1.0, 'sys_len': 55, 'ref_len': 1}
+First element of precision:1.8181818181818181
+Sequence Matcher Similarity Precision:0.05333333333333334
+Cosine Similarity Precision:0.4472135954999579
+
+Parse State: 298	Cursor Position: 756 31
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.2089817523956299 seconds
+Received response: *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.6735878102046051, 'counts': [1, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626], 'bp': 1.0, 'sys_len': 54, 'ref_len': 1}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.028169014084507043
+Cosine Similarity Precision:0.0
+
+Parse State: 386	Cursor Position: 756 32
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0409424304962158 seconds
+Received response: *t) {
+    while (*s != '\0') {
+        s++;
+    }
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    *s = '\0';
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 0.6735878102046051, 'counts': [1, 0, 0, 0], 'totals': [54, 53, 52, 51], 'precisions': [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626], 'bp': 1.0, 'sys_len': 54, 'ref_len': 2}
+First element of precision:1.8518518518518519
+Sequence Matcher Similarity Precision:0.039735099337748346
+Cosine Similarity Precision:0.0
+
+Parse State: 65	Cursor Position: 756 33
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0337677001953125 seconds
+Received response: ) {
+    while (*s != '\0') {
+        s++;
+    }
+  
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+  
+    *s = '\0';
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [52, 51, 50, 49], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 52, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.013071895424836602
+Cosine Similarity Precision:0.0
+
+Parse State: 187	Cursor Position: 756 33
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9665851593017578 seconds
+Received response: ) {
+    while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  )
+SACREBLEU Score: {'score': 0.7002773917100699, 'counts': [1, 0, 0, 0], 'totals': [52, 51, 50, 49], 'precisions': [1.9230769230769231, 0.9803921568627451, 0.5, 0.25510204081632654], 'bp': 1.0, 'sys_len': 52, 'ref_len': 1}
+First element of precision:1.9230769230769231
+Sequence Matcher Similarity Precision:0.013333333333333334
+Cosine Similarity Precision:0.0
+
+Parse State: 94	Cursor Position: 757 1
+
+                This is the incomplete C11 programming language code:
+                strcat_ptr(s, t);
+
+  puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9924259185791016 seconds
+Received response: {
+    while (*s != '\0') {
+        s++;
+    }
+
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+
+    *s = '\0';
+}
+Actual result:  { while ( ( * ++ s VARIABLE ) != '\0' ) ; while ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' ) ; }
+SACREBLEU Score: {'score': 29.896872863083697, 'counts': [33, 22, 11, 6], 'totals': [51, 50, 49, 48], 'precisions': [64.70588235294117, 44.0, 22.448979591836736, 12.5], 'bp': 1.0, 'sys_len': 51, 'ref_len': 40}
+First element of precision:64.70588235294117
+Sequence Matcher Similarity Precision:0.375
+Cosine Similarity Precision:0.5547001962252291
+
+Parse State: 320	Cursor Position: 759 3
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5276494026184082 seconds
+Received response: strcat(s, t);
+Actual result:  while ( ( * ++ s VARIABLE ) != '\0' ) ;
+SACREBLEU Score: {'score': 4.318113565246872, 'counts': [4, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [57.142857142857146, 16.666666666666668, 10.0, 6.25], 'bp': 0.27645304662956444, 'sys_len': 7, 'ref_len': 16}
+First element of precision:57.142857142857146
+Sequence Matcher Similarity Precision:0.1509433962264151
+Cosine Similarity Precision:0.0
+
+Parse State: 406	Cursor Position: 759 9
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7732417583465576 seconds
+Received response: (*s)
+{
+    s++;
+}
+
+while (*t)
+{
+    *s = *t;
+    s++;
+    t++;
+}
+
+*s = '\0';
+}
+Actual result:  ( ( * ++ s VARIABLE ) != '\0' ) ;
+SACREBLEU Score: {'score': 9.008401432138207, 'counts': [13, 5, 2, 1], 'totals': [39, 38, 37, 36], 'precisions': [33.333333333333336, 13.157894736842104, 5.405405405405405, 2.7777777777777777], 'bp': 1.0, 'sys_len': 39, 'ref_len': 15}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.26785714285714285
+Cosine Similarity Precision:0.0
+
+Parse State: 457	Cursor Position: 759 10
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 1.0087971687316895 seconds
+Received response: while (*s != '\0') {
+    s++;
+  }
+
+  while (*t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+  }
+
+  *s = '\0';
+}
+Actual result:  ( * ++ s VARIABLE )
+SACREBLEU Score: {'score': 2.282425022222562, 'counts': [6, 2, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [12.0, 4.081632653061225, 1.0416666666666667, 0.5319148936170213], 'bp': 1.0, 'sys_len': 50, 'ref_len': 7}
+First element of precision:12.0
+Sequence Matcher Similarity Precision:0.109375
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 759 11
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.9553329944610596 seconds
+Received response:  while (*s != '\0') {
+    s++;
+  }
+  
+  while (*t != '\0') {
+    *s = *t;
+    s++;
+    t++;
+  }
+  
+  *s = '\0';
+}
+Actual result:  *
+SACREBLEU Score: {'score': 0.7291698644541256, 'counts': [1, 0, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063], 'bp': 1.0, 'sys_len': 50, 'ref_len': 1}
+First element of precision:2.0
+Sequence Matcher Similarity Precision:0.034782608695652174
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 759 12
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8890960216522217 seconds
+Received response: while (*s != '\0') {
+        s++;
+    }
+    
+    while (*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
+    }
+    
+    *s = '\0';
+}
+Actual result:  ++ s VARIABLE
+SACREBLEU Score: {'score': 1.61391821076343, 'counts': [3, 1, 0, 0], 'totals': [50, 49, 48, 47], 'precisions': [6.0, 2.0408163265306123, 1.0416666666666667, 0.5319148936170213], 'bp': 1.0, 'sys_len': 50, 'ref_len': 4}
+First element of precision:6.0
+Sequence Matcher Similarity Precision:0.03896103896103896
+Cosine Similarity Precision:0.0
+
+Parse State: 168	Cursor Position: 759 14
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7046782970428467 seconds
+Received response: {
+    s != '\0'
+    {
+        s++;
+    }
+    while ((*s++ = *t++) != '\0');
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.0885011049519644, 'counts': [1, 0, 0, 0], 'totals': [34, 33, 32, 31], 'precisions': [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129], 'bp': 1.0, 'sys_len': 34, 'ref_len': 2}
+First element of precision:2.9411764705882355
+Sequence Matcher Similarity Precision:0.06818181818181818
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 759 15
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7604143619537354 seconds
+Received response: != '\0')
+  {
+    ;
+  }
+
+  while ((*s++ = *t++) != '\0')
+  {
+    ;
+  }
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 32, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.025
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 759 15
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7330405712127686 seconds
+Received response: != '\0');
+   ;
+  while ((*s++ = *t++) != '\0');
+}
+Actual result:  )
+SACREBLEU Score: {'score': 1.286713095960916, 'counts': [1, 0, 0, 0], 'totals': [29, 28, 27, 26], 'precisions': [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308], 'bp': 1.0, 'sys_len': 29, 'ref_len': 1}
+First element of precision:3.4482758620689653
+Sequence Matcher Similarity Precision:0.0784313725490196
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 759 17
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5916440486907959 seconds
+Received response: {
+    *s != '\0';
+    *s++ = *t++;
+  }
+Actual result:  !=
+SACREBLEU Score: {'score': 3.8292061380205022, 'counts': [2, 1, 0, 0], 'totals': [20, 19, 18, 17], 'precisions': [10.0, 5.2631578947368425, 2.7777777777777777, 1.4705882352941178], 'bp': 1.0, 'sys_len': 20, 'ref_len': 2}
+First element of precision:10.0
+Sequence Matcher Similarity Precision:0.14634146341463414
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 759 20
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) !=
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.641521692276001 seconds
+Received response: (*s)
+{
+    ;
+    while ((*s++ = *t++) != '\0') ;
+}
+Actual result:  '\0'
+SACREBLEU Score: {'score': 5.166045454134253, 'counts': [3, 2, 1, 0], 'totals': [27, 26, 25, 24], 'precisions': [11.11111111111111, 7.6923076923076925, 4.0, 2.0833333333333335], 'bp': 1.0, 'sys_len': 27, 'ref_len': 3}
+First element of precision:11.11111111111111
+Sequence Matcher Similarity Precision:0.18181818181818182
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 759 24
+
+                This is the incomplete C11 programming language code:
+                puts(s);
+
+  return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0'
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8213448524475098 seconds
+Received response: && (*s != '\0');
+
+  while (*s)
+  {
+    s++;
+  }
+
+  while ((*s++ = *t++))
+    ;
+}
+Actual result:  ) ;
+SACREBLEU Score: {'score': 1.8864569336713677, 'counts': [2, 1, 0, 0], 'totals': [39, 38, 37, 36], 'precisions': [5.128205128205129, 2.6315789473684212, 1.3513513513513513, 0.6944444444444444], 'bp': 1.0, 'sys_len': 39, 'ref_len': 2}
+First element of precision:5.128205128205129
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 760 5
+
+                This is the incomplete C11 programming language code:
+                return 0;
+}
+
+
+void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6130785942077637 seconds
+Received response: {
+    ;
+    while ((*s++ = *t++) != '\0')
+        ;
+}
+Actual result:  ;
+SACREBLEU Score: {'score': 1.6466642419110007, 'counts': [1, 0, 0, 0], 'totals': [23, 22, 21, 20], 'precisions': [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625], 'bp': 1.0, 'sys_len': 23, 'ref_len': 1}
+First element of precision:4.3478260869565215
+Sequence Matcher Similarity Precision:0.07272727272727272
+Cosine Similarity Precision:0.0
+
+Parse State: 320	Cursor Position: 763 3
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4647481441497803 seconds
+Received response: strcpy(s, t);
+Actual result:  while ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' ) ;
+SACREBLEU Score: {'score': 1.937622416308322, 'counts': [5, 1, 0, 0], 'totals': [7, 6, 5, 4], 'precisions': [71.42857142857143, 16.666666666666668, 10.0, 6.25], 'bp': 0.11731916609425078, 'sys_len': 7, 'ref_len': 22}
+First element of precision:71.42857142857143
+Sequence Matcher Similarity Precision:0.14084507042253522
+Cosine Similarity Precision:0.0
+
+Parse State: 406	Cursor Position: 763 9
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5626406669616699 seconds
+Received response: ((*s++ = *t++) != '\0') 
+}
+
+Actual result:  ( ( * s VARIABLE ++ = * t VARIABLE ++ ) != '\0' ) ;
+SACREBLEU Score: {'score': 67.34927403341207, 'counts': [18, 15, 12, 9], 'totals': [19, 18, 17, 16], 'precisions': [94.73684210526316, 83.33333333333333, 70.58823529411765, 56.25], 'bp': 0.9000876262522591, 'sys_len': 19, 'ref_len': 21}
+First element of precision:94.73684210526316
+Sequence Matcher Similarity Precision:0.6075949367088608
+Cosine Similarity Precision:0.0
+
+Parse State: 457	Cursor Position: 763 10
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while (
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5757946968078613 seconds
+Received response: (*s++ = *t++) != '\0')
+    ;
+Actual result:  ( * s VARIABLE ++ = * t VARIABLE ++ )
+SACREBLEU Score: {'score': 33.08548466798255, 'counts': [11, 8, 5, 2], 'totals': [18, 17, 16, 15], 'precisions': [61.111111111111114, 47.05882352941177, 31.25, 13.333333333333334], 'bp': 1.0, 'sys_len': 18, 'ref_len': 13}
+First element of precision:61.111111111111114
+Sequence Matcher Similarity Precision:0.3939393939393939
+Cosine Similarity Precision:0.0
+
+Parse State: 165	Cursor Position: 763 11
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5511491298675537 seconds
+Received response: (*s++ = *t++) != '\0')
+    ;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 2.0244462660665508, 'counts': [1, 0, 0, 0], 'totals': [19, 18, 17, 16], 'precisions': [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125], 'bp': 1.0, 'sys_len': 19, 'ref_len': 1}
+First element of precision:5.2631578947368425
+Sequence Matcher Similarity Precision:0.125
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 763 12
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7188184261322021 seconds
+Received response: (*t++) != '\0')
+    *s++ = *(t - 1);
+
+  *s = '\0';
+}
+Actual result:  s VARIABLE
+SACREBLEU Score: {'score': 1.1599713834969503, 'counts': [1, 0, 0, 0], 'totals': [32, 31, 30, 29], 'precisions': [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066], 'bp': 1.0, 'sys_len': 32, 'ref_len': 2}
+First element of precision:3.125
+Sequence Matcher Similarity Precision:0.09523809523809523
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 763 13
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.8355636596679688 seconds
+Received response:  = *t)
+  {
+    *s = *t;
+    s++;
+    t++;
+  }
+  *s = '\0'; //terminate the string
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [33, 32, 31, 30], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 33, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.021739130434782608
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 763 13
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5129637718200684 seconds
+Received response: = *t++)
+    ;
+}
+Actual result:  ++
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.3333333333333333
+Cosine Similarity Precision:0.0
+
+Parse State: 181	Cursor Position: 763 16
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.7541358470916748 seconds
+Received response: != '\0')
+  {
+    ;
+  }
+  
+  while ((*s++ = *t++) != '\0')
+    ;
+}
+Actual result:  =
+SACREBLEU Score: {'score': 1.2414943415352928, 'counts': [1, 0, 0, 0], 'totals': [30, 29, 28, 27], 'precisions': [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297], 'bp': 1.0, 'sys_len': 30, 'ref_len': 1}
+First element of precision:3.3333333333333335
+Sequence Matcher Similarity Precision:0.05970149253731343
+Cosine Similarity Precision:0.0
+
+Parse State: 279	Cursor Position: 763 18
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ =
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.6042604446411133 seconds
+Received response: (*t++) != '\0')
+    ;
+}
+Actual result:  *
+SACREBLEU Score: {'score': 2.8398387225677895, 'counts': [1, 0, 0, 0], 'totals': [14, 13, 12, 11], 'precisions': [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365], 'bp': 1.0, 'sys_len': 14, 'ref_len': 1}
+First element of precision:7.142857142857143
+Sequence Matcher Similarity Precision:0.08
+Cosine Similarity Precision:0.0
+
+Parse State: 149	Cursor Position: 763 19
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4656999111175537 seconds
+Received response: *t++) != '\0')
+    ;
+}
+Actual result:  t VARIABLE
+SACREBLEU Score: {'score': 3.0890553181566975, 'counts': [1, 0, 0, 0], 'totals': [13, 12, 11, 10], 'precisions': [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25], 'bp': 1.0, 'sys_len': 13, 'ref_len': 2}
+First element of precision:7.6923076923076925
+Sequence Matcher Similarity Precision:0.12121212121212122
+Cosine Similarity Precision:0.0
+
+Parse State: 179	Cursor Position: 763 20
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4998297691345215 seconds
+Received response: )
+    ;
+}
+Actual result:  VARIABLE
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.1111111111111111
+Cosine Similarity Precision:0.0
+
+Parse State: 147	Cursor Position: 763 20
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.49116969108581543 seconds
+Received response: ') != '\0')
+    ;
+}
+Actual result:  ++
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [10, 9, 8, 7], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 10, 'ref_len': 2}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.09090909090909091
+Cosine Similarity Precision:0.0
+
+Parse State: 267	Cursor Position: 763 22
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4593684673309326 seconds
+Received response: != '\0')
+    ;
+}
+Actual result:  )
+SACREBLEU Score: {'score': 5.522397783539471, 'counts': [1, 0, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [12.5, 7.142857142857143, 4.166666666666667, 2.5], 'bp': 1.0, 'sys_len': 8, 'ref_len': 1}
+First element of precision:12.5
+Sequence Matcher Similarity Precision:0.2222222222222222
+Cosine Similarity Precision:0.0
+
+Parse State: 155	Cursor Position: 763 24
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++)
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.5081424713134766 seconds
+Received response: != '\0')
+    ;  
+}
+Actual result:  !=
+SACREBLEU Score: {'score': 11.044795567078939, 'counts': [2, 1, 0, 0], 'totals': [8, 7, 6, 5], 'precisions': [25.0, 14.285714285714286, 8.333333333333334, 5.0], 'bp': 1.0, 'sys_len': 8, 'ref_len': 2}
+First element of precision:25.0
+Sequence Matcher Similarity Precision:0.19047619047619047
+Cosine Similarity Precision:0.0
+
+Parse State: 257	Cursor Position: 763 27
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++) !=
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4792203903198242 seconds
+Received response: (*t != '\0');
+Actual result:  '\0'
+SACREBLEU Score: {'score': 15.619699684601283, 'counts': [3, 2, 1, 0], 'totals': [10, 9, 8, 7], 'precisions': [30.0, 22.22222222222222, 12.5, 7.142857142857143], 'bp': 1.0, 'sys_len': 10, 'ref_len': 3}
+First element of precision:30.0
+Sequence Matcher Similarity Precision:0.5555555555555556
+Cosine Similarity Precision:0.0
+
+Parse State: 485	Cursor Position: 763 31
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++) != '\0'
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4870758056640625 seconds
+Received response: {
+    ;
+}
+Actual result:  ) ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [3, 2, 1, 0], 'precisions': [33.333333333333336, 25.0, 25.0, 0.0], 'bp': 1.0, 'sys_len': 3, 'ref_len': 2}
+First element of precision:33.333333333333336
+Sequence Matcher Similarity Precision:0.46153846153846156
+Cosine Similarity Precision:0.0
+
+Parse State: 331	Cursor Position: 764 5
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++) != '\0')
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.40441226959228516 seconds
+Received response: ;
+Actual result:  ;
+SACREBLEU Score: {'score': 0.0, 'counts': [1, 0, 0, 0], 'totals': [1, 0, 0, 0], 'precisions': [100.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 1, 'ref_len': 1}
+First element of precision:100.0
+Sequence Matcher Similarity Precision:0.6666666666666666
+Cosine Similarity Precision:0.0
+
+Parse State: 201	Cursor Position: 765 1
+
+                This is the incomplete C11 programming language code:
+                void strcat_ptr(char *s, char *t)
+{
+
+  while ((*++s) != '\0')
+    ;
+
+
+  while ((*s++ = *t++) != '\0')
+    ;
+                'next token or line'
+                Complete the 'next token or line' part of the code in the C11 programming language. Just show your answer in place of 'next token or line'. 
+                
+Time taken: 0.4370908737182617 seconds
+Received response: return;
+Actual result:  }
+SACREBLEU Score: {'score': 0.0, 'counts': [0, 0, 0, 0], 'totals': [2, 1, 0, 0], 'precisions': [0.0, 0.0, 0.0, 0.0], 'bp': 1.0, 'sys_len': 2, 'ref_len': 1}
+First element of precision:0.0
+Sequence Matcher Similarity Precision:0.0
+Cosine Similarity Precision:0.0
+
+
+Average Precision: 9.29613733222427
+Average Sequence Matcher Similarity Precision: 10.165998840238354
+Average Cosine Similarity Precision: 5.714662099563108
