@@ -18,7 +18,7 @@ sacrebleu = evaluate.load("sacrebleu")
 # client = OpenAI(api_key=api_key)
 # # ----------Hide API-End---------------------------
 # Initialize OpenAI client
-client = OpenAI(api_key="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") 
+client = OpenAI(api_key="sk-YlTZPT10T-QBCnM58yVYO9qAjrmYDUkkUI9pmv5bOhT3BlbkFJCvsgZxSProEUxIhvUdkyzvr6ICqbMOLtzL0ow3QIkA") 
 def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Program: encoding='utf-16'
     resultlist = []
     appx_main_start_line = 0
