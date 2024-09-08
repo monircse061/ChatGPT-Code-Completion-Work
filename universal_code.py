@@ -265,19 +265,19 @@ encoding = 'utf-8'
 # List all files in the C11_Text_Cand folder
 for data_file in os.listdir(data_folder):
     if data_file.endswith('.i.textual_collection.txt'):
-        # Get the base file name without the extension
-        base_name = os.path.splitext(data_file)[0]  # Removes the '.i.textual_collection.txt' part
+        # Get the base file name without the '.txt' extension but keep '.i.textual_collection'
+        base_name = data_file.replace('.textual_collection.txt', '')  # Removes the '.textual_collection.txt' part
         
-        # Construct the corresponding file path in C11_Sample folder
+        # Construct the corresponding file path in the C11_Sample folder
         sample_file_path = os.path.join(sample_folder, base_name).replace("\\", "/")
         
-        # Construct the data file path
+        # Construct the data file path (keeping the full original name)
         data_file_path = os.path.join(data_folder, data_file).replace("\\", "/")
-        
+    
         # Check if the corresponding file exists in the sample folder
         if os.path.exists(sample_file_path):
             read_data(data_file_path, sample_file_path, prog_lan, encoding)
         else:
-            print(f"Warning: No corresponding file found for {data_file}")
+            print(f"Warning: No corresponding file found for {sample_file_path}")
 
 
