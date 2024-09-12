@@ -9,10 +9,10 @@ chat_completion = client.chat.completions.create(
         {
             "role": "assistant",
             "content": """
-                    TextWindow.WriteLine("Hello World")
-                    is tokenized into a stream,
+                    This is a SmallBasic Programming Language code:
+                    TextWindow.WriteLine(“Hello World”) is tokenized into a stream,
                     ID . ID ( STR )
-
+                    
                     The term “TextWindow” is processed into an identifier represented by the terminal ID, while a text dot is interpreted as a terminal dot. 
                     Similarly, “WriteLine” is analyzed like TextWindow. Open and close parentheses undergo the same procedure as the dot, and the string 
                     literal "Hello World" is translated into the terminal STR. """
@@ -21,26 +21,26 @@ chat_completion = client.chat.completions.create(
         {
             "role": "assistant",""
             "content": """What are structural candidates ?
-                          TextWindow.WriteLine("Hello World")
-        ExprStatement ->  ID        . ID      ( Exprs )
-
-                        For example, programmers have written “TextWindow.(dot)”. Currently cursor at this position after the dot. 
-                        At this point, he /she wants the editor to complete the rest of the part of this line of code. 
-                        Then our system looks for the appropriate production rule. Next, our system gets the rest of the symbols from 
-                        that production rule. Our system considered this part as a structural candidate. We ask the ChatGPT to decorate 
-                        the structural candidate by giving the prefix what the programmer writes before asking for code suggestions and 
-                        the structural candidate."""
+                        TextWindow.WriteLine("Hello World")
+                        
+                        Production Rule: ExprStatement ->  ID . ID ( Exprs )
+                        
+                        For example, programmers have written “TextWindow.(dot)”. Currently cursor at this position after the dot. At this point, programmers want 
+                        the editor to complete the rest of the part of this line of code. Then our system looks for the appropriate production rule. Next, our system 
+                        gets the rest of the symbols from that production rule. Our system considered this part as a structural candidate. We ask the ChatGPT to decorate 
+                        the structural candidate by giving the prefix what the programmer writes before asking for code suggestions and the structural candidate."""
         },
         # Assistant message 3
         {
             "role": "assistant",""
-            "content": """number = 100
+            "content": """For instance,
+                          number = 100
                           While(number>1)
                           TextWindow.WriteLine(number)
                         Suggestions: 
                           ID = Expr
 
-                        For instance, in the above example, the suggestion at the cursor position is an assignment statement formatted as ID = Expr. 
+                        In the above example, the suggestion at the cursor position is an assignment statement formatted as ID = Expr. 
                         Here, the terminal ID signifies an identifier, the terminal = represents an assignment symbol, and the non-terminal “Expr” indicates 
                         an expression. Further, the third example in Figure 1 delves deeper into the syntax structures of “Expr”  after users input an identifier, 
                         number, followed by an assignment symbol. In contrast, Microsoft SmallBasic does not provide any suggestions at the same cursor position 
