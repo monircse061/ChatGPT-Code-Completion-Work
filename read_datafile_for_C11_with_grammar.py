@@ -278,224 +278,224 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                             init_declarator_list_declarator_typedefname -> init_declarator_declarator_typedefname
                             init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname , init_declarator_declarator_typedefname
                             init_declarator_declarator_varname -> declarator_varname
-init_declarator_declarator_varname -> declarator = c_initializer
-init_declarator_declarator_typedefname -> declarator_typedefname
-init_declarator_declarator_typedefname -> declarator = c_initializer
-storage_class_specifier -> extern
-storage_class_specifier -> static
- storage_class_specifier -> _Thread_local
- storage_class_specifier -> auto
- storage_class_specifier -> register
- type_specifier_nonunique -> char
- type_specifier_nonunique -> short
- type_specifier_nonunique -> int
-type_specifier_nonunique -> long
- type_specifier_nonunique -> float
- type_specifier_nonunique -> double
- type_specifier_nonunique -> signed
- type_specifier_nonunique -> unsigned
- type_specifier_nonunique -> _Complex
-type_specifier_unique -> void
- type_specifier_unique -> _Bool
-type_specifier_unique -> atomic_type_specifier
-type_specifier_unique -> struct_or_union_specifier
- type_specifier_unique -> enum_specifier
- type_specifier_unique -> typedef_name_spec
- struct_or_union_specifier -> struct_or_union option_general_identifier { struct_declaration_list }
-struct_or_union_specifier -> struct_or_union general_identifier
- struct_or_union -> struct
- struct_or_union -> union
-struct_declaration_list -> struct_declaration
-struct_declaration_list -> struct_declaration_list struct_declaration
- struct_declaration -> specifier_qualifier_list option_struct_declarator_list ;
- struct_declaration -> static_assert_declaration
- specifier_qualifier_list -> list_eq1_type_specifier_unique_type_qualifier
- specifier_qualifier_list -> list_eq1_type_specifier_unique_alignment_specifier
- specifier_qualifier_list -> list_ge1_type_specifier_nonunique_type_qualifier
- specifier_qualifier_list -> list_ge1_type_specifier_nonunique_alignment_specifier
- struct_declarator_list -> struct_declarator
- struct_declarator_list -> struct_declarator_list , struct_declarator
- struct_declarator -> declarator
- struct_declarator -> option_declarator : constant_expression
- enum_specifier -> enum option_general_identifier { enumerator_list option_comma }
- enum_specifier -> enum general_identifier
- enumerator_list -> enumerator
- enumerator_list -> enumerator_list , enumerator
- enumerator -> enumeration_constant
- enumerator -> enumeration_constant = constant_expression
- enumeration_constant -> general_identifier
- atomic_type_specifier -> _Atomic ( type_name )
- atomic_type_specifier -> _Atomic ATOMIC_LPAREN type_name )
- type_qualifier -> const
- type_qualifier -> restrict
- type_qualifier -> volatile
- type_qualifier -> _Atomic
- function_specifier -> inline
- function_specifier -> _Noreturn
- alignment_specifier -> _Alignas ( type_name )
- alignment_specifier -> _Alignas ( constant_expression )
- declarator -> direct_declarator
- declarator -> pointer direct_declarator
- direct_declarator -> general_identifier
- direct_declarator -> ( save_context declarator )
- direct_declarator -> direct_declarator [ option_type_qualifier_list option_assignment_expression ]
- direct_declarator -> direct_declarator [ static option_type_qualifier_list assignment_expression ]
- direct_declarator -> direct_declarator [ type_qualifier_list static assignment_expression ]
- direct_declarator -> direct_declarator [ option_type_qualifier_list * ]
- direct_declarator -> direct_declarator ( scoped_parameter_type_list )
- direct_declarator -> direct_declarator ( save_context option_identifier_list )
- pointer -> * option_type_qualifier_list option_pointer
- type_qualifier_list -> option_type_qualifier_list type_qualifier
- parameter_type_list -> parameter_list option_comma_dotdotdot save_context
- parameter_list -> parameter_declaration
- parameter_list -> parameter_list , parameter_declaration
- parameter_declaration -> declaration_specifiers declarator_varname
- parameter_declaration -> declaration_specifiers option_abstract_declarator
- identifier_list -> var_name
- identifier_list -> identifier_list , var_name
- type_name -> specifier_qualifier_list option_abstract_declarator
- abstract_declarator -> pointer
- abstract_declarator -> direct_abstract_declarator
- abstract_declarator -> pointer direct_abstract_declarator
- direct_abstract_declarator -> ( save_context abstract_declarator )
- direct_abstract_declarator -> option_direct_abstract_declarator [ option_assignment_expression ]
- direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list option_assignment_expression ]
- direct_abstract_declarator -> option_direct_abstract_declarator [ static option_type_qualifier_list assignment_expression ]
- direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list static assignment_expression ]
- direct_abstract_declarator -> option_direct_abstract_declarator [ * ]
- direct_abstract_declarator -> ( option_scoped_parameter_type_list )
- direct_abstract_declarator -> direct_abstract_declarator ( option_scoped_parameter_type_list )
- c_initializer -> assignment_expression
- c_initializer -> { initializer_list option_comma }
- initializer_list -> option_designation c_initializer
- initializer_list -> initializer_list , option_designation c_initializer
- designation -> designator_list =
- designator_list -> option_designator_list designator
- designator -> [ constant_expression ]
- designator -> . general_identifier
- static_assert_declaration -> _Static_assert ( constant_expression , STRING_LITERAL ) ;
- statement -> labeled_statement
- statement -> scoped_compound_statement
- statement -> expression_statement
- statement -> scoped_selection_statement
- statement -> scoped_iteration_statement
- statement -> jump_statement
- labeled_statement -> general_identifier : statement
- labeled_statement -> case constant_expression : statement
- labeled_statement -> default : statement
- compound_statement -> { option_block_item_list }
- block_item_list -> option_block_item_list block_item
- block_item -> declaration
- block_item -> statement
- expression_statement -> option_expression ;
- selection_statement -> if ( expression ) scoped_statement else scoped_statement
- selection_statement -> if ( expression ) scoped_statement
- selection_statement -> switch ( expression ) scoped_statement
- iteration_statement -> while ( expression ) scoped_statement
- iteration_statement -> do scoped_statement while ( expression ) ;
- iteration_statement -> for ( option_expression ; option_expression ; option_expression ) scoped_statement
- iteration_statement -> for ( declaration option_expression ; option_expression ) scoped_statement
- jump_statement -> goto general_identifier ;
-jump_statement -> continue ;
- jump_statement -> break ;
- jump_statement -> return option_expression ;
- translation_unit_file -> external_declaration translation_unit_file
- translation_unit_file -> external_declaration $
- external_declaration -> function_definition
- external_declaration -> declaration
- function_definition1 -> declaration_specifiers declarator_varname
- function_definition -> function_definition1 option_declaration_list compound_statement
- declaration_list -> declaration
- declaration_list -> declaration_list declaration
-option_argument_expression_list -> 
-option_argument_expression_list -> argument_expression_list
- option_comma -> 
- option_comma -> ,
- option_comma_dotdotdot -> 
- option_comma_dotdotdot -> , ...
- option_init_declarator_list_declarator_varname -> 
- option_init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname
- option_init_declarator_list_declarator_typedefname -> 
- option_init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname
- option_general_identifier -> 
-option_general_identifier -> general_identifier
- option_struct_declarator_list -> 
- option_struct_declarator_list -> struct_declarator_list
- option_declarator -> 
- option_declarator -> declarator
- option_general_identifier -> 
- option_general_identifier -> general_identifier
- option_type_qualifier_list -> 
- option_type_qualifier_list -> type_qualifier_list
- option_assignment_expression -> 
- option_assignment_expression -> assignment_expression
-option_type_qualifier_list -> 
- option_type_qualifier_list -> type_qualifier_list
- option_identifier_list -> 
- option_identifier_list -> identifier_list
- option_pointer -> 
- option_pointer -> pointer
- option_abstract_declarator -> 
- option_abstract_declarator -> abstract_declarator
- option_direct_abstract_declarator -> 
- option_direct_abstract_declarator -> direct_abstract_declarator
- option_assignment_expression -> 
- option_assignment_expression -> assignment_expression
- option_scoped_parameter_type_list -> 
- option_scoped_parameter_type_list -> scoped_parameter_type_list
- option_designation -> 
- option_designation -> designation
- option_designator_list -> 
- option_designator_list -> designator_list
- option_block_item_list -> 
- option_block_item_list -> block_item_list
- option_expression -> 
- option_expression -> expression
- option_declaration_list -> 
- option_declaration_list -> declaration_list
- list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
-list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
- list_declaration_specifier -> 
- list_declaration_specifier -> declaration_specifier list_declaration_specifier
-list_eq1_type_specifier_unique_type_qualifier -> type_specifier_unique list_type_qualifier
- list_eq1_type_specifier_unique_type_qualifier -> type_qualifier list_eq1_type_specifier_unique_type_qualifier
- list_type_qualifier -> 
-list_type_qualifier -> type_qualifier list_type_qualifier
- list_eq1_type_specifier_unique_alignment_specifier -> type_specifier_unique list_alignment_specifier
- list_eq1_type_specifier_unique_alignment_specifier -> alignment_specifier list_eq1_type_specifier_unique_alignment_specifier
- list_alignment_specifier -> 
- list_alignment_specifier -> alignment_specifier list_alignment_specifier
-list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
- list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
- list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
- list_declaration_specifier -> 
-list_declaration_specifier -> declaration_specifier list_declaration_specifier
- list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_type_qualifier
- list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_type_qualifier
- list_ge1_type_specifier_nonunique_type_qualifier -> type_qualifier list_ge1_type_specifier_nonunique_type_qualifier
- list_type_qualifier -> 
- list_type_qualifier -> type_qualifier list_type_qualifier
- list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_alignment_specifier
- list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_alignment_specifier
- list_ge1_type_specifier_nonunique_alignment_specifier -> alignment_specifier list_ge1_type_specifier_nonunique_alignment_specifier
- list_alignment_specifier -> 
-list_alignment_specifier -> alignment_specifier list_alignment_specifier
-list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> typedef list_eq1_type_specifier_unique_declaration_specifier
- list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> type_specifier_unique list_eq1_typedef_declaration_specifier
- list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
- list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
- list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
- list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
- list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
- list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> typedef list_ge1_type_specifier_nonunique_declaration_specifier
- list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_typedef_declaration_specifier
- list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
- list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
- list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
- list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
- list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
- list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
- list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
+                            init_declarator_declarator_varname -> declarator = c_initializer
+                            init_declarator_declarator_typedefname -> declarator_typedefname
+                            init_declarator_declarator_typedefname -> declarator = c_initializer
+                            storage_class_specifier -> extern
+                            storage_class_specifier -> static
+                            storage_class_specifier -> _Thread_local
+                            storage_class_specifier -> auto
+                            storage_class_specifier -> register
+                            type_specifier_nonunique -> char
+                            type_specifier_nonunique -> short
+                            type_specifier_nonunique -> int
+                            type_specifier_nonunique -> long
+                            type_specifier_nonunique -> float
+                            type_specifier_nonunique -> double
+                            type_specifier_nonunique -> signed
+                            type_specifier_nonunique -> unsigned
+                            type_specifier_nonunique -> _Complex
+                            type_specifier_unique -> void
+                            type_specifier_unique -> _Bool
+                            type_specifier_unique -> atomic_type_specifier
+                            type_specifier_unique -> struct_or_union_specifier
+                            type_specifier_unique -> enum_specifier
+                            type_specifier_unique -> typedef_name_spec
+                            struct_or_union_specifier -> struct_or_union option_general_identifier { struct_declaration_list }
+                            struct_or_union_specifier -> struct_or_union general_identifier
+                            struct_or_union -> struct
+                            struct_or_union -> union
+                            struct_declaration_list -> struct_declaration
+                            struct_declaration_list -> struct_declaration_list struct_declaration
+                            struct_declaration -> specifier_qualifier_list option_struct_declarator_list ;
+                            struct_declaration -> static_assert_declaration
+                            specifier_qualifier_list -> list_eq1_type_specifier_unique_type_qualifier
+                            specifier_qualifier_list -> list_eq1_type_specifier_unique_alignment_specifier
+                            specifier_qualifier_list -> list_ge1_type_specifier_nonunique_type_qualifier
+                            specifier_qualifier_list -> list_ge1_type_specifier_nonunique_alignment_specifier
+                            struct_declarator_list -> struct_declarator
+                            struct_declarator_list -> struct_declarator_list , struct_declarator
+                            struct_declarator -> declarator
+                            struct_declarator -> option_declarator : constant_expression
+                            enum_specifier -> enum option_general_identifier { enumerator_list option_comma }
+                            enum_specifier -> enum general_identifier
+                            enumerator_list -> enumerator
+                            enumerator_list -> enumerator_list , enumerator
+                            enumerator -> enumeration_constant
+                            enumerator -> enumeration_constant = constant_expression
+                            enumeration_constant -> general_identifier
+                            atomic_type_specifier -> _Atomic ( type_name )
+                            atomic_type_specifier -> _Atomic ATOMIC_LPAREN type_name )
+                            type_qualifier -> const
+                            type_qualifier -> restrict
+                            type_qualifier -> volatile
+                            type_qualifier -> _Atomic
+                            function_specifier -> inline
+                            function_specifier -> _Noreturn
+                            alignment_specifier -> _Alignas ( type_name )
+                            alignment_specifier -> _Alignas ( constant_expression )
+                            declarator -> direct_declarator
+                            declarator -> pointer direct_declarator
+                            direct_declarator -> general_identifier
+                            direct_declarator -> ( save_context declarator )
+                            direct_declarator -> direct_declarator [ option_type_qualifier_list option_assignment_expression ]
+                            direct_declarator -> direct_declarator [ static option_type_qualifier_list assignment_expression ]
+                            direct_declarator -> direct_declarator [ type_qualifier_list static assignment_expression ]
+                            direct_declarator -> direct_declarator [ option_type_qualifier_list * ]
+                            direct_declarator -> direct_declarator ( scoped_parameter_type_list )
+                            direct_declarator -> direct_declarator ( save_context option_identifier_list )
+                            pointer -> * option_type_qualifier_list option_pointer
+                            type_qualifier_list -> option_type_qualifier_list type_qualifier
+                            parameter_type_list -> parameter_list option_comma_dotdotdot save_context
+                            parameter_list -> parameter_declaration
+                            parameter_list -> parameter_list , parameter_declaration
+                            parameter_declaration -> declaration_specifiers declarator_varname
+                            parameter_declaration -> declaration_specifiers option_abstract_declarator
+                            identifier_list -> var_name
+                            identifier_list -> identifier_list , var_name
+                            type_name -> specifier_qualifier_list option_abstract_declarator
+                            abstract_declarator -> pointer
+                            abstract_declarator -> direct_abstract_declarator
+                            abstract_declarator -> pointer direct_abstract_declarator
+                            direct_abstract_declarator -> ( save_context abstract_declarator )
+                            direct_abstract_declarator -> option_direct_abstract_declarator [ option_assignment_expression ]
+                            direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list option_assignment_expression ]
+                            direct_abstract_declarator -> option_direct_abstract_declarator [ static option_type_qualifier_list assignment_expression ]
+                            direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list static assignment_expression ]
+                            direct_abstract_declarator -> option_direct_abstract_declarator [ * ]
+                            direct_abstract_declarator -> ( option_scoped_parameter_type_list )
+                            direct_abstract_declarator -> direct_abstract_declarator ( option_scoped_parameter_type_list )
+                            c_initializer -> assignment_expression
+                            c_initializer -> { initializer_list option_comma }
+                            initializer_list -> option_designation c_initializer
+                            initializer_list -> initializer_list , option_designation c_initializer
+                            designation -> designator_list =
+                            designator_list -> option_designator_list designator
+                            designator -> [ constant_expression ]
+                            designator -> . general_identifier
+                            static_assert_declaration -> _Static_assert ( constant_expression , STRING_LITERAL ) ;
+                            statement -> labeled_statement
+                            statement -> scoped_compound_statement
+                            statement -> expression_statement
+                            statement -> scoped_selection_statement
+                            statement -> scoped_iteration_statement
+                            statement -> jump_statement
+                            labeled_statement -> general_identifier : statement
+                            labeled_statement -> case constant_expression : statement
+                            labeled_statement -> default : statement
+                            compound_statement -> { option_block_item_list }
+                            block_item_list -> option_block_item_list block_item
+                            block_item -> declaration
+                            block_item -> statement
+                            expression_statement -> option_expression ;
+                            selection_statement -> if ( expression ) scoped_statement else scoped_statement
+                            selection_statement -> if ( expression ) scoped_statement
+                            selection_statement -> switch ( expression ) scoped_statement
+                            iteration_statement -> while ( expression ) scoped_statement
+                            iteration_statement -> do scoped_statement while ( expression ) ;
+                            iteration_statement -> for ( option_expression ; option_expression ; option_expression ) scoped_statement
+                            iteration_statement -> for ( declaration option_expression ; option_expression ) scoped_statement
+                            jump_statement -> goto general_identifier ;
+                            jump_statement -> continue ;
+                            jump_statement -> break ;
+                            jump_statement -> return option_expression ;
+                            translation_unit_file -> external_declaration translation_unit_file
+                            translation_unit_file -> external_declaration $
+                            external_declaration -> function_definition
+                            external_declaration -> declaration
+                            function_definition1 -> declaration_specifiers declarator_varname
+                            function_definition -> function_definition1 option_declaration_list compound_statement
+                            declaration_list -> declaration
+                            declaration_list -> declaration_list declaration
+                            option_argument_expression_list -> 
+                            option_argument_expression_list -> argument_expression_list
+                            option_comma -> 
+                            option_comma -> ,
+                            option_comma_dotdotdot -> 
+                            option_comma_dotdotdot -> , ...
+                            option_init_declarator_list_declarator_varname -> 
+                            option_init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname
+                            option_init_declarator_list_declarator_typedefname -> 
+                            option_init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname
+                            option_general_identifier -> 
+                            option_general_identifier -> general_identifier
+                            option_struct_declarator_list -> 
+                            option_struct_declarator_list -> struct_declarator_list
+                            option_declarator -> 
+                            option_declarator -> declarator
+                            option_general_identifier -> 
+                            option_general_identifier -> general_identifier
+                            option_type_qualifier_list -> 
+                            option_type_qualifier_list -> type_qualifier_list
+                            option_assignment_expression -> 
+                            option_assignment_expression -> assignment_expression
+                            option_type_qualifier_list -> 
+                            option_type_qualifier_list -> type_qualifier_list
+                            option_identifier_list -> 
+                            option_identifier_list -> identifier_list
+                            option_pointer -> 
+                            option_pointer -> pointer
+                            option_abstract_declarator -> 
+                            option_abstract_declarator -> abstract_declarator
+                            option_direct_abstract_declarator -> 
+                            option_direct_abstract_declarator -> direct_abstract_declarator
+                            option_assignment_expression -> 
+                            option_assignment_expression -> assignment_expression
+                            option_scoped_parameter_type_list -> 
+                            option_scoped_parameter_type_list -> scoped_parameter_type_list
+                            option_designation -> 
+                            option_designation -> designation
+                            option_designator_list -> 
+                            option_designator_list -> designator_list
+                            option_block_item_list -> 
+                            option_block_item_list -> block_item_list
+                            option_expression -> 
+                            option_expression -> expression
+                            option_declaration_list -> 
+                            option_declaration_list -> declaration_list
+                            list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
+                            list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
+                            list_declaration_specifier -> 
+                            list_declaration_specifier -> declaration_specifier list_declaration_specifier
+                            list_eq1_type_specifier_unique_type_qualifier -> type_specifier_unique list_type_qualifier
+                            list_eq1_type_specifier_unique_type_qualifier -> type_qualifier list_eq1_type_specifier_unique_type_qualifier
+                            list_type_qualifier -> 
+                            list_type_qualifier -> type_qualifier list_type_qualifier
+                            list_eq1_type_specifier_unique_alignment_specifier -> type_specifier_unique list_alignment_specifier
+                            list_eq1_type_specifier_unique_alignment_specifier -> alignment_specifier list_eq1_type_specifier_unique_alignment_specifier
+                            list_alignment_specifier -> 
+                            list_alignment_specifier -> alignment_specifier list_alignment_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
+                            list_declaration_specifier -> 
+                            list_declaration_specifier -> declaration_specifier list_declaration_specifier
+                            list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_type_qualifier
+                            list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_type_qualifier
+                            list_ge1_type_specifier_nonunique_type_qualifier -> type_qualifier list_ge1_type_specifier_nonunique_type_qualifier
+                            list_type_qualifier -> 
+                            list_type_qualifier -> type_qualifier list_type_qualifier
+                            list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_alignment_specifier
+                            list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_alignment_specifier
+                            list_ge1_type_specifier_nonunique_alignment_specifier -> alignment_specifier list_ge1_type_specifier_nonunique_alignment_specifier
+                            list_alignment_specifier -> 
+                            list_alignment_specifier -> alignment_specifier list_alignment_specifier
+                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> typedef list_eq1_type_specifier_unique_declaration_specifier
+                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> type_specifier_unique list_eq1_typedef_declaration_specifier
+                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
+                            list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
+                            list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
+                            list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
+                            list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
+                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> typedef list_ge1_type_specifier_nonunique_declaration_specifier
+                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_typedef_declaration_specifier
+                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
+                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
+                            list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
+                            list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
+                            list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
                             """            
                          },
                         {
