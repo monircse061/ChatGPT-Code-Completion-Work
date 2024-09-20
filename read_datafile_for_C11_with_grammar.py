@@ -278,7 +278,7 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                             init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname , init_declarator_declarator_varname
                             init_declarator_list_declarator_typedefname -> init_declarator_declarator_typedefname
                             init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname , init_declarator_declarator_typedefname
-                            117: init_declarator_declarator_varname -> declarator_varname
+                            init_declarator_declarator_varname -> declarator_varname
 init_declarator_declarator_varname -> declarator = c_initializer
 init_declarator_declarator_typedefname -> declarator_typedefname
 init_declarator_declarator_typedefname -> declarator = c_initializer
