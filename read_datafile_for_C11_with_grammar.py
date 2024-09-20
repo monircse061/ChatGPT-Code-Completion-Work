@@ -19,7 +19,7 @@ sacrebleu = evaluate.load("sacrebleu")
 # client = OpenAI(api_key=api_key)
 # # ----------Hide API-End---------------------------
 # Initialize OpenAI client 
-client = OpenAI(api_key="sk-YlTZPT10T-QBCnM58yVYO9qAjrmYDUkkUI9pmv5bOhT3BlbkFJCvsgZxSProEUxIhvUdkyzvr6ICqbMOLtzL0ow3QIkA")
+client = OpenAI(api_key="Your_API_KEY")
 request_count = 0  # Counter for requests made (RPD calculation)
 prompt_tokens = 0
 completion_tokens = 0
