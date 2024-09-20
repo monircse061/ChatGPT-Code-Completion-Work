@@ -161,7 +161,6 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                             "role": "system",
                             "content": """
                             This is the C Programming Language Grammar:
-                            translation_unit_file' -> translation_unit_file
                             typedef_name -> NAME TYPE
                             var_name -> NAME VARIABLE
                             typedef_name_spec -> typedef_name
