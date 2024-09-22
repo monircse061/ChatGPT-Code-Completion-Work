@@ -19,7 +19,7 @@ sacrebleu = evaluate.load("sacrebleu")
 # client = OpenAI(api_key=api_key)
 # # ----------Hide API-End---------------------------
 # Initialize OpenAI client 
-client = OpenAI(api_key="Your_API_KEY")
+client = OpenAI(api_key="sk-YlTZPT10T-QBCnM58yVYO9qAjrmYDUkkUI9pmv5bOhT3BlbkFJCvsgZxSProEUxIhvUdkyzvr6ICqbMOLtzL0ow3QIkA") 
 request_count = 0  # Counter for requests made (RPD calculation)
 prompt_tokens = 0
 completion_tokens = 0
@@ -153,400 +153,494 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                 # Complete the 'next token or line' part of the code in the {prog_lan} programming language. Just show your answer in place of 'next token or line'. 
                 # """
                 print (prompt)
+                # chat_completion = client.chat.completions.create(
+                #     model="gpt-3.5-turbo-0125",
+                #     max_tokens=50,
+                #     messages=[
+                #          {
+                #             "role": "system",
+                #             "content": """
+                #             This is the C Programming Language Grammar:
+                #             typedef_name -> NAME TYPE
+                #             var_name -> NAME VARIABLE
+                #             typedef_name_spec -> typedef_name
+                #             general_identifier -> typedef_name
+                #             general_identifier -> var_name
+                #             save_context -> 
+                #             scoped_parameter_type_list -> save_context parameter_type_list
+                #             scoped_compound_statement -> save_context compound_statement
+                #             scoped_selection_statement -> save_context selection_statement
+                #             scoped_iteration_statement -> save_context iteration_statement
+                #             scoped_statement -> save_context statement
+                #             scoped_parameter_type_list -> save_context parameter_type_list
+                #             declarator_varname -> declarator
+                #             declarator_typedefname -> declarator
+                #             primary_expression -> var_name
+                #             primary_expression -> CONSTANT
+                #             primary_expression -> STRING_LITERAL
+                #             primary_expression -> ( expression )
+                #             primary_expression -> generic_selection
+                #             generic_selection -> _Generic ( assignment_expression , generic_assoc_list )
+                #             generic_assoc_list -> generic_association
+                #             generic_assoc_list -> generic_assoc_list , generic_association
+                #             generic_association -> type_name : assignment_expression
+                #             generic_association -> default : assignment_expression
+                #             postfix_expression -> primary_expression
+                #             postfix_expression -> postfix_expression [ expression ]
+                #             postfix_expression -> postfix_expression ( option_argument_expression_list )
+                #             postfix_expression -> __builtin_va_arg ( assignment_expression , type_name )
+                #             postfix_expression -> postfix_expression . general_identifier
+                #             postfix_expression -> postfix_expression -> general_identifier
+                #             postfix_expression -> postfix_expression ++
+                #             postfix_expression -> postfix_expression --
+                #             postfix_expression -> ( type_name ) { initializer_list option_comma }
+                #             argument_expression_list -> assignment_expression
+                #             argument_expression_list -> argument_expression_list , assignment_expression
+                #             unary_expression -> postfix_expression
+                #             unary_expression -> ++ unary_expression
+                #             unary_expression -> -- unary_expression
+                #             unary_expression -> unary_operator cast_expression
+                #             unary_expression -> sizeof unary_expression
+                #             unary_expression -> sizeof ( type_name )
+                #             unary_expression -> _Alignof ( type_name )
+                #             unary_operator -> &
+                #             unary_operator -> *
+                #             unary_operator -> +
+                #             unary_operator -> -
+                #             unary_operator -> ~
+                #             unary_operator -> !
+                #             cast_expression -> unary_expression
+                #             cast_expression -> ( type_name ) cast_expression
+                #             multiplicative_operator -> *
+                #             multiplicative_operator -> /
+                #             multiplicative_operator -> %
+                #             multiplicative_expression -> cast_expression
+                #             multiplicative_expression -> multiplicative_expression multiplicative_operator cast_expression
+                #             additive_operator -> +
+                #             additive_operator -> -
+                #             additive_expression -> multiplicative_expression
+                #             additive_expression -> additive_expression additive_operator multiplicative_expression
+                #             shift_operator -> <<
+                #             shift_operator -> >>
+                #             shift_expression -> additive_expression
+                #             shift_expression -> shift_expression shift_operator additive_expression
+                #             relational_operator -> <
+                #             relational_operator -> >
+                #             relational_operator -> <=
+                #             relational_operator -> >=
+                #             relational_expression -> shift_expression
+                #             relational_expression -> relational_expression relational_operator shift_expression
+                #             equality_operator -> ==
+                #             equality_operator -> !=
+                #             equality_expression -> relational_expression
+                #             equality_expression -> equality_expression equality_operator relational_expression
+                #             and_expression -> equality_expression
+                #             and_expression -> and_expression & equality_expression
+                #             exclusive_or_expression -> and_expression
+                #             exclusive_or_expression -> exclusive_or_expression ^ and_expression
+                #             inclusive_or_expression -> exclusive_or_expression
+                #             inclusive_or_expression -> inclusive_or_expression | exclusive_or_expression
+                #             logical_and_expression -> inclusive_or_expression
+                #             logical_and_expression -> logical_and_expression && inclusive_or_expression
+                #             logical_or_expression -> logical_and_expression
+                #             logical_or_expression -> logical_or_expression || logical_and_expression
+                #             conditional_expression -> logical_or_expression
+                #             conditional_expression -> logical_or_expression ? expression : conditional_expression
+                #             assignment_expression -> conditional_expression
+                #             assignment_expression -> unary_expression assignment_operator assignment_expression
+                #             assignment_operator -> =
+                #             assignment_operator -> *=
+                #             assignment_operator -> /=
+                #             assignment_operator -> %=
+                #             assignment_operator -> +=
+                #             assignment_operator -> -=
+                #             assignment_operator -> <<=
+                #             assignment_operator -> >>=
+                #             assignment_operator -> &=
+                #             assignment_operator -> ^=
+                #             assignment_operator -> |=
+                #             expression -> assignment_expression
+                #             expression -> expression , assignment_expression
+                #             constant_expression -> conditional_expression
+                #             declaration -> declaration_specifiers option_init_declarator_list_declarator_varname ;
+                #             declaration -> declaration_specifiers_typedef option_init_declarator_list_declarator_typedefname ;
+                #             declaration -> static_assert_declaration
+                #             declaration_specifier -> storage_class_specifier
+                #             declaration_specifier -> type_qualifier
+                #             declaration_specifier -> function_specifier
+                #             declaration_specifier -> alignment_specifier
+                #             declaration_specifiers -> list_eq1_type_specifier_unique_declaration_specifier
+                #             declaration_specifiers -> list_ge1_type_specifier_nonunique_declaration_specifier
+                #             declaration_specifiers_typedef -> list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
+                #             declaration_specifiers_typedef -> list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
+                #             init_declarator_list_declarator_varname -> init_declarator_declarator_varname
+                #             init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname , init_declarator_declarator_varname
+                #             init_declarator_list_declarator_typedefname -> init_declarator_declarator_typedefname
+                #             init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname , init_declarator_declarator_typedefname
+                #             init_declarator_declarator_varname -> declarator_varname
+                #             init_declarator_declarator_varname -> declarator = c_initializer
+                #             init_declarator_declarator_typedefname -> declarator_typedefname
+                #             init_declarator_declarator_typedefname -> declarator = c_initializer
+                #             storage_class_specifier -> extern
+                #             storage_class_specifier -> static
+                #             storage_class_specifier -> _Thread_local
+                #             storage_class_specifier -> auto
+                #             storage_class_specifier -> register
+                #             type_specifier_nonunique -> char
+                #             type_specifier_nonunique -> short
+                #             type_specifier_nonunique -> int
+                #             type_specifier_nonunique -> long
+                #             type_specifier_nonunique -> float
+                #             type_specifier_nonunique -> double
+                #             type_specifier_nonunique -> signed
+                #             type_specifier_nonunique -> unsigned
+                #             type_specifier_nonunique -> _Complex
+                #             type_specifier_unique -> void
+                #             type_specifier_unique -> _Bool
+                #             type_specifier_unique -> atomic_type_specifier
+                #             type_specifier_unique -> struct_or_union_specifier
+                #             type_specifier_unique -> enum_specifier
+                #             type_specifier_unique -> typedef_name_spec
+                #             struct_or_union_specifier -> struct_or_union option_general_identifier { struct_declaration_list }
+                #             struct_or_union_specifier -> struct_or_union general_identifier
+                #             struct_or_union -> struct
+                #             struct_or_union -> union
+                #             struct_declaration_list -> struct_declaration
+                #             struct_declaration_list -> struct_declaration_list struct_declaration
+                #             struct_declaration -> specifier_qualifier_list option_struct_declarator_list ;
+                #             struct_declaration -> static_assert_declaration
+                #             specifier_qualifier_list -> list_eq1_type_specifier_unique_type_qualifier
+                #             specifier_qualifier_list -> list_eq1_type_specifier_unique_alignment_specifier
+                #             specifier_qualifier_list -> list_ge1_type_specifier_nonunique_type_qualifier
+                #             specifier_qualifier_list -> list_ge1_type_specifier_nonunique_alignment_specifier
+                #             struct_declarator_list -> struct_declarator
+                #             struct_declarator_list -> struct_declarator_list , struct_declarator
+                #             struct_declarator -> declarator
+                #             struct_declarator -> option_declarator : constant_expression
+                #             enum_specifier -> enum option_general_identifier { enumerator_list option_comma }
+                #             enum_specifier -> enum general_identifier
+                #             enumerator_list -> enumerator
+                #             enumerator_list -> enumerator_list , enumerator
+                #             enumerator -> enumeration_constant
+                #             enumerator -> enumeration_constant = constant_expression
+                #             enumeration_constant -> general_identifier
+                #             atomic_type_specifier -> _Atomic ( type_name )
+                #             atomic_type_specifier -> _Atomic ATOMIC_LPAREN type_name )
+                #             type_qualifier -> const
+                #             type_qualifier -> restrict
+                #             type_qualifier -> volatile
+                #             type_qualifier -> _Atomic
+                #             function_specifier -> inline
+                #             function_specifier -> _Noreturn
+                #             alignment_specifier -> _Alignas ( type_name )
+                #             alignment_specifier -> _Alignas ( constant_expression )
+                #             declarator -> direct_declarator
+                #             declarator -> pointer direct_declarator
+                #             direct_declarator -> general_identifier
+                #             direct_declarator -> ( save_context declarator )
+                #             direct_declarator -> direct_declarator [ option_type_qualifier_list option_assignment_expression ]
+                #             direct_declarator -> direct_declarator [ static option_type_qualifier_list assignment_expression ]
+                #             direct_declarator -> direct_declarator [ type_qualifier_list static assignment_expression ]
+                #             direct_declarator -> direct_declarator [ option_type_qualifier_list * ]
+                #             direct_declarator -> direct_declarator ( scoped_parameter_type_list )
+                #             direct_declarator -> direct_declarator ( save_context option_identifier_list )
+                #             pointer -> * option_type_qualifier_list option_pointer
+                #             type_qualifier_list -> option_type_qualifier_list type_qualifier
+                #             parameter_type_list -> parameter_list option_comma_dotdotdot save_context
+                #             parameter_list -> parameter_declaration
+                #             parameter_list -> parameter_list , parameter_declaration
+                #             parameter_declaration -> declaration_specifiers declarator_varname
+                #             parameter_declaration -> declaration_specifiers option_abstract_declarator
+                #             identifier_list -> var_name
+                #             identifier_list -> identifier_list , var_name
+                #             type_name -> specifier_qualifier_list option_abstract_declarator
+                #             abstract_declarator -> pointer
+                #             abstract_declarator -> direct_abstract_declarator
+                #             abstract_declarator -> pointer direct_abstract_declarator
+                #             direct_abstract_declarator -> ( save_context abstract_declarator )
+                #             direct_abstract_declarator -> option_direct_abstract_declarator [ option_assignment_expression ]
+                #             direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list option_assignment_expression ]
+                #             direct_abstract_declarator -> option_direct_abstract_declarator [ static option_type_qualifier_list assignment_expression ]
+                #             direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list static assignment_expression ]
+                #             direct_abstract_declarator -> option_direct_abstract_declarator [ * ]
+                #             direct_abstract_declarator -> ( option_scoped_parameter_type_list )
+                #             direct_abstract_declarator -> direct_abstract_declarator ( option_scoped_parameter_type_list )
+                #             c_initializer -> assignment_expression
+                #             c_initializer -> { initializer_list option_comma }
+                #             initializer_list -> option_designation c_initializer
+                #             initializer_list -> initializer_list , option_designation c_initializer
+                #             designation -> designator_list =
+                #             designator_list -> option_designator_list designator
+                #             designator -> [ constant_expression ]
+                #             designator -> . general_identifier
+                #             static_assert_declaration -> _Static_assert ( constant_expression , STRING_LITERAL ) ;
+                #             statement -> labeled_statement
+                #             statement -> scoped_compound_statement
+                #             statement -> expression_statement
+                #             statement -> scoped_selection_statement
+                #             statement -> scoped_iteration_statement
+                #             statement -> jump_statement
+                #             labeled_statement -> general_identifier : statement
+                #             labeled_statement -> case constant_expression : statement
+                #             labeled_statement -> default : statement
+                #             compound_statement -> { option_block_item_list }
+                #             block_item_list -> option_block_item_list block_item
+                #             block_item -> declaration
+                #             block_item -> statement
+                #             expression_statement -> option_expression ;
+                #             selection_statement -> if ( expression ) scoped_statement else scoped_statement
+                #             selection_statement -> if ( expression ) scoped_statement
+                #             selection_statement -> switch ( expression ) scoped_statement
+                #             iteration_statement -> while ( expression ) scoped_statement
+                #             iteration_statement -> do scoped_statement while ( expression ) ;
+                #             iteration_statement -> for ( option_expression ; option_expression ; option_expression ) scoped_statement
+                #             iteration_statement -> for ( declaration option_expression ; option_expression ) scoped_statement
+                #             jump_statement -> goto general_identifier ;
+                #             jump_statement -> continue ;
+                #             jump_statement -> break ;
+                #             jump_statement -> return option_expression ;
+                #             translation_unit_file -> external_declaration translation_unit_file
+                #             translation_unit_file -> external_declaration $
+                #             external_declaration -> function_definition
+                #             external_declaration -> declaration
+                #             function_definition1 -> declaration_specifiers declarator_varname
+                #             function_definition -> function_definition1 option_declaration_list compound_statement
+                #             declaration_list -> declaration
+                #             declaration_list -> declaration_list declaration
+                #             option_argument_expression_list -> 
+                #             option_argument_expression_list -> argument_expression_list
+                #             option_comma -> 
+                #             option_comma -> ,
+                #             option_comma_dotdotdot -> 
+                #             option_comma_dotdotdot -> , ...
+                #             option_init_declarator_list_declarator_varname -> 
+                #             option_init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname
+                #             option_init_declarator_list_declarator_typedefname -> 
+                #             option_init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname
+                #             option_general_identifier -> 
+                #             option_general_identifier -> general_identifier
+                #             option_struct_declarator_list -> 
+                #             option_struct_declarator_list -> struct_declarator_list
+                #             option_declarator -> 
+                #             option_declarator -> declarator
+                #             option_general_identifier -> 
+                #             option_general_identifier -> general_identifier
+                #             option_type_qualifier_list -> 
+                #             option_type_qualifier_list -> type_qualifier_list
+                #             option_assignment_expression -> 
+                #             option_assignment_expression -> assignment_expression
+                #             option_type_qualifier_list -> 
+                #             option_type_qualifier_list -> type_qualifier_list
+                #             option_identifier_list -> 
+                #             option_identifier_list -> identifier_list
+                #             option_pointer -> 
+                #             option_pointer -> pointer
+                #             option_abstract_declarator -> 
+                #             option_abstract_declarator -> abstract_declarator
+                #             option_direct_abstract_declarator -> 
+                #             option_direct_abstract_declarator -> direct_abstract_declarator
+                #             option_assignment_expression -> 
+                #             option_assignment_expression -> assignment_expression
+                #             option_scoped_parameter_type_list -> 
+                #             option_scoped_parameter_type_list -> scoped_parameter_type_list
+                #             option_designation -> 
+                #             option_designation -> designation
+                #             option_designator_list -> 
+                #             option_designator_list -> designator_list
+                #             option_block_item_list -> 
+                #             option_block_item_list -> block_item_list
+                #             option_expression -> 
+                #             option_expression -> expression
+                #             option_declaration_list -> 
+                #             option_declaration_list -> declaration_list
+                #             list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
+                #             list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
+                #             list_declaration_specifier -> 
+                #             list_declaration_specifier -> declaration_specifier list_declaration_specifier
+                #             list_eq1_type_specifier_unique_type_qualifier -> type_specifier_unique list_type_qualifier
+                #             list_eq1_type_specifier_unique_type_qualifier -> type_qualifier list_eq1_type_specifier_unique_type_qualifier
+                #             list_type_qualifier -> 
+                #             list_type_qualifier -> type_qualifier list_type_qualifier
+                #             list_eq1_type_specifier_unique_alignment_specifier -> type_specifier_unique list_alignment_specifier
+                #             list_eq1_type_specifier_unique_alignment_specifier -> alignment_specifier list_eq1_type_specifier_unique_alignment_specifier
+                #             list_alignment_specifier -> 
+                #             list_alignment_specifier -> alignment_specifier list_alignment_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
+                #             list_declaration_specifier -> 
+                #             list_declaration_specifier -> declaration_specifier list_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_type_qualifier
+                #             list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_type_qualifier
+                #             list_ge1_type_specifier_nonunique_type_qualifier -> type_qualifier list_ge1_type_specifier_nonunique_type_qualifier
+                #             list_type_qualifier -> 
+                #             list_type_qualifier -> type_qualifier list_type_qualifier
+                #             list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_alignment_specifier
+                #             list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_alignment_specifier
+                #             list_ge1_type_specifier_nonunique_alignment_specifier -> alignment_specifier list_ge1_type_specifier_nonunique_alignment_specifier
+                #             list_alignment_specifier -> 
+                #             list_alignment_specifier -> alignment_specifier list_alignment_specifier
+                #             list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> typedef list_eq1_type_specifier_unique_declaration_specifier
+                #             list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> type_specifier_unique list_eq1_typedef_declaration_specifier
+                #             list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
+                #             list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
+                #             list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
+                #             list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
+                #             list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
+                #             list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> typedef list_ge1_type_specifier_nonunique_declaration_specifier
+                #             list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_typedef_declaration_specifier
+                #             list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
+                #             list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
+                #             list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
+                #             list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
+                #             list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
+                #             """            
+                #          },
+                #         {
+                #             "role": "system",
+                #             "content": "Replace the single quotation ('') with your response."
+                #          },
+                #          {
+                #             "role": "user",
+                #             "content": """This is the incomplete C11 programming language code:
+                #             upper = 300;
+                #             step = 20;
+
+                #             printf("Celsius\tFahr\n");
+                #             printf("---------------\n");
+
+                #             for (celsius = upper; celsius >= lower; celsius = celsius - step)
+                #             {
+                #                 fahr = (9.0 / 5.0) * celsius + 32.0f;
+                #                 printf("%3.0f\t\t%6.1f\n", celsius,
+                #             'NAME VARIABLE'
+                #             Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. """
+                #          },
+                #         {
+                #             "role": "assistant",
+                #             "content": "fahr"
+                #         },
+                #                                  {
+                #             "role": "user",
+                #             "content": """This is the incomplete C11 programming language code:
+                #             fahr = lower;
+                #             while (fahr <= upper)
+                #             {
+                #                 celsius = (5.0 / 9.0) * (fahr - 32.0);
+                #                 printf("%3.0f\t\t%6.1f\n", fahr, celsius);
+                #                 fahr = fahr + step;
+                #             }
+                #             'return option_expression ;'
+                #             Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'."""
+                #          },
+                #         {
+                #             "role": "assistant",
+                #             "content": """ return 0;"""
+                #         },
+                #     ]
+                # )
+                # response1 = chat_completion.choices[0].message.content
+                # print("\nResponse:", response1)
                 chat_completion = client.chat.completions.create(
-                    model="gpt-3.5-turbo-0125",
-                    max_tokens=50,
-                    messages=[
-                         {
-                            "role": "system",
-                            "content": """
-                            This is the C Programming Language Grammar:
-                            typedef_name -> NAME TYPE
-                            var_name -> NAME VARIABLE
-                            typedef_name_spec -> typedef_name
-                            general_identifier -> typedef_name
-                            general_identifier -> var_name
-                            save_context -> 
-                            scoped_parameter_type_list -> save_context parameter_type_list
-                            scoped_compound_statement -> save_context compound_statement
-                            scoped_selection_statement -> save_context selection_statement
-                            scoped_iteration_statement -> save_context iteration_statement
-                            scoped_statement -> save_context statement
-                            scoped_parameter_type_list -> save_context parameter_type_list
-                            declarator_varname -> declarator
-                            declarator_typedefname -> declarator
-                            primary_expression -> var_name
-                            primary_expression -> CONSTANT
-                            primary_expression -> STRING_LITERAL
-                            primary_expression -> ( expression )
-                            primary_expression -> generic_selection
-                            generic_selection -> _Generic ( assignment_expression , generic_assoc_list )
-                            generic_assoc_list -> generic_association
-                            generic_assoc_list -> generic_assoc_list , generic_association
-                            generic_association -> type_name : assignment_expression
-                            generic_association -> default : assignment_expression
-                            postfix_expression -> primary_expression
-                            postfix_expression -> postfix_expression [ expression ]
-                            postfix_expression -> postfix_expression ( option_argument_expression_list )
-                            postfix_expression -> __builtin_va_arg ( assignment_expression , type_name )
-                            postfix_expression -> postfix_expression . general_identifier
-                            postfix_expression -> postfix_expression -> general_identifier
-                            postfix_expression -> postfix_expression ++
-                            postfix_expression -> postfix_expression --
-                            postfix_expression -> ( type_name ) { initializer_list option_comma }
-                            argument_expression_list -> assignment_expression
-                            argument_expression_list -> argument_expression_list , assignment_expression
-                            unary_expression -> postfix_expression
-                            unary_expression -> ++ unary_expression
-                            unary_expression -> -- unary_expression
-                            unary_expression -> unary_operator cast_expression
-                            unary_expression -> sizeof unary_expression
-                            unary_expression -> sizeof ( type_name )
-                            unary_expression -> _Alignof ( type_name )
-                            unary_operator -> &
-                            unary_operator -> *
-                            unary_operator -> +
-                            unary_operator -> -
-                            unary_operator -> ~
-                            unary_operator -> !
-                            cast_expression -> unary_expression
-                            cast_expression -> ( type_name ) cast_expression
-                            multiplicative_operator -> *
-                            multiplicative_operator -> /
-                            multiplicative_operator -> %
-                            multiplicative_expression -> cast_expression
-                            multiplicative_expression -> multiplicative_expression multiplicative_operator cast_expression
-                            additive_operator -> +
-                            additive_operator -> -
-                            additive_expression -> multiplicative_expression
-                            additive_expression -> additive_expression additive_operator multiplicative_expression
-                            shift_operator -> <<
-                            shift_operator -> >>
-                            shift_expression -> additive_expression
-                            shift_expression -> shift_expression shift_operator additive_expression
-                            relational_operator -> <
-                            relational_operator -> >
-                            relational_operator -> <=
-                            relational_operator -> >=
-                            relational_expression -> shift_expression
-                            relational_expression -> relational_expression relational_operator shift_expression
-                            equality_operator -> ==
-                            equality_operator -> !=
-                            equality_expression -> relational_expression
-                            equality_expression -> equality_expression equality_operator relational_expression
-                            and_expression -> equality_expression
-                            and_expression -> and_expression & equality_expression
-                            exclusive_or_expression -> and_expression
-                            exclusive_or_expression -> exclusive_or_expression ^ and_expression
-                            inclusive_or_expression -> exclusive_or_expression
-                            inclusive_or_expression -> inclusive_or_expression | exclusive_or_expression
-                            logical_and_expression -> inclusive_or_expression
-                            logical_and_expression -> logical_and_expression && inclusive_or_expression
-                            logical_or_expression -> logical_and_expression
-                            logical_or_expression -> logical_or_expression || logical_and_expression
-                            conditional_expression -> logical_or_expression
-                            conditional_expression -> logical_or_expression ? expression : conditional_expression
-                            assignment_expression -> conditional_expression
-                            assignment_expression -> unary_expression assignment_operator assignment_expression
-                            assignment_operator -> =
-                            assignment_operator -> *=
-                            assignment_operator -> /=
-                            assignment_operator -> %=
-                            assignment_operator -> +=
-                            assignment_operator -> -=
-                            assignment_operator -> <<=
-                            assignment_operator -> >>=
-                            assignment_operator -> &=
-                            assignment_operator -> ^=
-                            assignment_operator -> |=
-                            expression -> assignment_expression
-                            expression -> expression , assignment_expression
-                            constant_expression -> conditional_expression
-                            declaration -> declaration_specifiers option_init_declarator_list_declarator_varname ;
-                            declaration -> declaration_specifiers_typedef option_init_declarator_list_declarator_typedefname ;
-                            declaration -> static_assert_declaration
-                            declaration_specifier -> storage_class_specifier
-                            declaration_specifier -> type_qualifier
-                            declaration_specifier -> function_specifier
-                            declaration_specifier -> alignment_specifier
-                            declaration_specifiers -> list_eq1_type_specifier_unique_declaration_specifier
-                            declaration_specifiers -> list_ge1_type_specifier_nonunique_declaration_specifier
-                            declaration_specifiers_typedef -> list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
-                            declaration_specifiers_typedef -> list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
-                            init_declarator_list_declarator_varname -> init_declarator_declarator_varname
-                            init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname , init_declarator_declarator_varname
-                            init_declarator_list_declarator_typedefname -> init_declarator_declarator_typedefname
-                            init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname , init_declarator_declarator_typedefname
-                            init_declarator_declarator_varname -> declarator_varname
-                            init_declarator_declarator_varname -> declarator = c_initializer
-                            init_declarator_declarator_typedefname -> declarator_typedefname
-                            init_declarator_declarator_typedefname -> declarator = c_initializer
-                            storage_class_specifier -> extern
-                            storage_class_specifier -> static
-                            storage_class_specifier -> _Thread_local
-                            storage_class_specifier -> auto
-                            storage_class_specifier -> register
-                            type_specifier_nonunique -> char
-                            type_specifier_nonunique -> short
-                            type_specifier_nonunique -> int
-                            type_specifier_nonunique -> long
-                            type_specifier_nonunique -> float
-                            type_specifier_nonunique -> double
-                            type_specifier_nonunique -> signed
-                            type_specifier_nonunique -> unsigned
-                            type_specifier_nonunique -> _Complex
-                            type_specifier_unique -> void
-                            type_specifier_unique -> _Bool
-                            type_specifier_unique -> atomic_type_specifier
-                            type_specifier_unique -> struct_or_union_specifier
-                            type_specifier_unique -> enum_specifier
-                            type_specifier_unique -> typedef_name_spec
-                            struct_or_union_specifier -> struct_or_union option_general_identifier { struct_declaration_list }
-                            struct_or_union_specifier -> struct_or_union general_identifier
-                            struct_or_union -> struct
-                            struct_or_union -> union
-                            struct_declaration_list -> struct_declaration
-                            struct_declaration_list -> struct_declaration_list struct_declaration
-                            struct_declaration -> specifier_qualifier_list option_struct_declarator_list ;
-                            struct_declaration -> static_assert_declaration
-                            specifier_qualifier_list -> list_eq1_type_specifier_unique_type_qualifier
-                            specifier_qualifier_list -> list_eq1_type_specifier_unique_alignment_specifier
-                            specifier_qualifier_list -> list_ge1_type_specifier_nonunique_type_qualifier
-                            specifier_qualifier_list -> list_ge1_type_specifier_nonunique_alignment_specifier
-                            struct_declarator_list -> struct_declarator
-                            struct_declarator_list -> struct_declarator_list , struct_declarator
-                            struct_declarator -> declarator
-                            struct_declarator -> option_declarator : constant_expression
-                            enum_specifier -> enum option_general_identifier { enumerator_list option_comma }
-                            enum_specifier -> enum general_identifier
-                            enumerator_list -> enumerator
-                            enumerator_list -> enumerator_list , enumerator
-                            enumerator -> enumeration_constant
-                            enumerator -> enumeration_constant = constant_expression
-                            enumeration_constant -> general_identifier
-                            atomic_type_specifier -> _Atomic ( type_name )
-                            atomic_type_specifier -> _Atomic ATOMIC_LPAREN type_name )
-                            type_qualifier -> const
-                            type_qualifier -> restrict
-                            type_qualifier -> volatile
-                            type_qualifier -> _Atomic
-                            function_specifier -> inline
-                            function_specifier -> _Noreturn
-                            alignment_specifier -> _Alignas ( type_name )
-                            alignment_specifier -> _Alignas ( constant_expression )
-                            declarator -> direct_declarator
-                            declarator -> pointer direct_declarator
-                            direct_declarator -> general_identifier
-                            direct_declarator -> ( save_context declarator )
-                            direct_declarator -> direct_declarator [ option_type_qualifier_list option_assignment_expression ]
-                            direct_declarator -> direct_declarator [ static option_type_qualifier_list assignment_expression ]
-                            direct_declarator -> direct_declarator [ type_qualifier_list static assignment_expression ]
-                            direct_declarator -> direct_declarator [ option_type_qualifier_list * ]
-                            direct_declarator -> direct_declarator ( scoped_parameter_type_list )
-                            direct_declarator -> direct_declarator ( save_context option_identifier_list )
-                            pointer -> * option_type_qualifier_list option_pointer
-                            type_qualifier_list -> option_type_qualifier_list type_qualifier
-                            parameter_type_list -> parameter_list option_comma_dotdotdot save_context
-                            parameter_list -> parameter_declaration
-                            parameter_list -> parameter_list , parameter_declaration
-                            parameter_declaration -> declaration_specifiers declarator_varname
-                            parameter_declaration -> declaration_specifiers option_abstract_declarator
-                            identifier_list -> var_name
-                            identifier_list -> identifier_list , var_name
-                            type_name -> specifier_qualifier_list option_abstract_declarator
-                            abstract_declarator -> pointer
-                            abstract_declarator -> direct_abstract_declarator
-                            abstract_declarator -> pointer direct_abstract_declarator
-                            direct_abstract_declarator -> ( save_context abstract_declarator )
-                            direct_abstract_declarator -> option_direct_abstract_declarator [ option_assignment_expression ]
-                            direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list option_assignment_expression ]
-                            direct_abstract_declarator -> option_direct_abstract_declarator [ static option_type_qualifier_list assignment_expression ]
-                            direct_abstract_declarator -> option_direct_abstract_declarator [ type_qualifier_list static assignment_expression ]
-                            direct_abstract_declarator -> option_direct_abstract_declarator [ * ]
-                            direct_abstract_declarator -> ( option_scoped_parameter_type_list )
-                            direct_abstract_declarator -> direct_abstract_declarator ( option_scoped_parameter_type_list )
-                            c_initializer -> assignment_expression
-                            c_initializer -> { initializer_list option_comma }
-                            initializer_list -> option_designation c_initializer
-                            initializer_list -> initializer_list , option_designation c_initializer
-                            designation -> designator_list =
-                            designator_list -> option_designator_list designator
-                            designator -> [ constant_expression ]
-                            designator -> . general_identifier
-                            static_assert_declaration -> _Static_assert ( constant_expression , STRING_LITERAL ) ;
-                            statement -> labeled_statement
-                            statement -> scoped_compound_statement
-                            statement -> expression_statement
-                            statement -> scoped_selection_statement
-                            statement -> scoped_iteration_statement
-                            statement -> jump_statement
-                            labeled_statement -> general_identifier : statement
-                            labeled_statement -> case constant_expression : statement
-                            labeled_statement -> default : statement
-                            compound_statement -> { option_block_item_list }
-                            block_item_list -> option_block_item_list block_item
-                            block_item -> declaration
-                            block_item -> statement
-                            expression_statement -> option_expression ;
-                            selection_statement -> if ( expression ) scoped_statement else scoped_statement
-                            selection_statement -> if ( expression ) scoped_statement
-                            selection_statement -> switch ( expression ) scoped_statement
-                            iteration_statement -> while ( expression ) scoped_statement
-                            iteration_statement -> do scoped_statement while ( expression ) ;
-                            iteration_statement -> for ( option_expression ; option_expression ; option_expression ) scoped_statement
-                            iteration_statement -> for ( declaration option_expression ; option_expression ) scoped_statement
-                            jump_statement -> goto general_identifier ;
-                            jump_statement -> continue ;
-                            jump_statement -> break ;
-                            jump_statement -> return option_expression ;
-                            translation_unit_file -> external_declaration translation_unit_file
-                            translation_unit_file -> external_declaration $
-                            external_declaration -> function_definition
-                            external_declaration -> declaration
-                            function_definition1 -> declaration_specifiers declarator_varname
-                            function_definition -> function_definition1 option_declaration_list compound_statement
-                            declaration_list -> declaration
-                            declaration_list -> declaration_list declaration
-                            option_argument_expression_list -> 
-                            option_argument_expression_list -> argument_expression_list
-                            option_comma -> 
-                            option_comma -> ,
-                            option_comma_dotdotdot -> 
-                            option_comma_dotdotdot -> , ...
-                            option_init_declarator_list_declarator_varname -> 
-                            option_init_declarator_list_declarator_varname -> init_declarator_list_declarator_varname
-                            option_init_declarator_list_declarator_typedefname -> 
-                            option_init_declarator_list_declarator_typedefname -> init_declarator_list_declarator_typedefname
-                            option_general_identifier -> 
-                            option_general_identifier -> general_identifier
-                            option_struct_declarator_list -> 
-                            option_struct_declarator_list -> struct_declarator_list
-                            option_declarator -> 
-                            option_declarator -> declarator
-                            option_general_identifier -> 
-                            option_general_identifier -> general_identifier
-                            option_type_qualifier_list -> 
-                            option_type_qualifier_list -> type_qualifier_list
-                            option_assignment_expression -> 
-                            option_assignment_expression -> assignment_expression
-                            option_type_qualifier_list -> 
-                            option_type_qualifier_list -> type_qualifier_list
-                            option_identifier_list -> 
-                            option_identifier_list -> identifier_list
-                            option_pointer -> 
-                            option_pointer -> pointer
-                            option_abstract_declarator -> 
-                            option_abstract_declarator -> abstract_declarator
-                            option_direct_abstract_declarator -> 
-                            option_direct_abstract_declarator -> direct_abstract_declarator
-                            option_assignment_expression -> 
-                            option_assignment_expression -> assignment_expression
-                            option_scoped_parameter_type_list -> 
-                            option_scoped_parameter_type_list -> scoped_parameter_type_list
-                            option_designation -> 
-                            option_designation -> designation
-                            option_designator_list -> 
-                            option_designator_list -> designator_list
-                            option_block_item_list -> 
-                            option_block_item_list -> block_item_list
-                            option_expression -> 
-                            option_expression -> expression
-                            option_declaration_list -> 
-                            option_declaration_list -> declaration_list
-                            list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
-                            list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
-                            list_declaration_specifier -> 
-                            list_declaration_specifier -> declaration_specifier list_declaration_specifier
-                            list_eq1_type_specifier_unique_type_qualifier -> type_specifier_unique list_type_qualifier
-                            list_eq1_type_specifier_unique_type_qualifier -> type_qualifier list_eq1_type_specifier_unique_type_qualifier
-                            list_type_qualifier -> 
-                            list_type_qualifier -> type_qualifier list_type_qualifier
-                            list_eq1_type_specifier_unique_alignment_specifier -> type_specifier_unique list_alignment_specifier
-                            list_eq1_type_specifier_unique_alignment_specifier -> alignment_specifier list_eq1_type_specifier_unique_alignment_specifier
-                            list_alignment_specifier -> 
-                            list_alignment_specifier -> alignment_specifier list_alignment_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
-                            list_declaration_specifier -> 
-                            list_declaration_specifier -> declaration_specifier list_declaration_specifier
-                            list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_type_qualifier
-                            list_ge1_type_specifier_nonunique_type_qualifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_type_qualifier
-                            list_ge1_type_specifier_nonunique_type_qualifier -> type_qualifier list_ge1_type_specifier_nonunique_type_qualifier
-                            list_type_qualifier -> 
-                            list_type_qualifier -> type_qualifier list_type_qualifier
-                            list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_alignment_specifier
-                            list_ge1_type_specifier_nonunique_alignment_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_alignment_specifier
-                            list_ge1_type_specifier_nonunique_alignment_specifier -> alignment_specifier list_ge1_type_specifier_nonunique_alignment_specifier
-                            list_alignment_specifier -> 
-                            list_alignment_specifier -> alignment_specifier list_alignment_specifier
-                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> typedef list_eq1_type_specifier_unique_declaration_specifier
-                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> type_specifier_unique list_eq1_typedef_declaration_specifier
-                            list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_eq1_typedef_type_specifier_unique_declaration_specifier
-                            list_eq1_type_specifier_unique_declaration_specifier -> type_specifier_unique list_declaration_specifier
-                            list_eq1_type_specifier_unique_declaration_specifier -> declaration_specifier list_eq1_type_specifier_unique_declaration_specifier
-                            list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
-                            list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
-                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> typedef list_ge1_type_specifier_nonunique_declaration_specifier
-                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_typedef_declaration_specifier
-                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
-                            list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_eq1_ge1_typedef_type_specifier_nonunique_declaration_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_declaration_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> type_specifier_nonunique list_ge1_type_specifier_nonunique_declaration_specifier
-                            list_ge1_type_specifier_nonunique_declaration_specifier -> declaration_specifier list_ge1_type_specifier_nonunique_declaration_specifier
-                            list_eq1_typedef_declaration_specifier -> typedef list_declaration_specifier
-                            list_eq1_typedef_declaration_specifier -> declaration_specifier list_eq1_typedef_declaration_specifier
-                            """            
-                         },
-                        {
-                            "role": "system",
-                            "content": "Replace the single quotation ('') with your response."
-                         },
-                         {
-                            "role": "user",
-                            "content": """This is the incomplete C11 programming language code:
-                            upper = 300;
-                            step = 20;
-
-                            printf("Celsius\tFahr\n");
-                            printf("---------------\n");
-
-                            for (celsius = upper; celsius >= lower; celsius = celsius - step)
-                            {
-                                fahr = (9.0 / 5.0) * celsius + 32.0f;
-                                printf("%3.0f\t\t%6.1f\n", celsius,
-                            'NAME VARIABLE'
-                            Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE'. """
-                         },
-                        {
-                            "role": "assistant",
-                            "content": "fahr"
-                        },
-                                                 {
-                            "role": "user",
-                            "content": """This is the incomplete C11 programming language code:
-                            fahr = lower;
-                            while (fahr <= upper)
-                            {
-                                celsius = (5.0 / 9.0) * (fahr - 32.0);
-                                printf("%3.0f\t\t%6.1f\n", fahr, celsius);
-                                fahr = fahr + step;
-                            }
-                            'return option_expression ;'
-                            Complete the 'return option_expression ;' part of the code in the C11 programming language. Just show your answer in place of 'return option_expression ;'."""
-                         },
-                        {
-                            "role": "assistant",
-                            "content": """ return 0;"""
-                        },
+                model="o1-mini",
+                max_tokens=50,
+                messages=[
+                     {
+                        "role": "assistant",
+                        "content": """
+                        This is the SmallBasic Programming Language Grammar:
+                        Prog' -> Prog
+                        Prog -> MoreThanOneStmt
+                        Stmt -> ExprStatement
+                        Stmt -> While Expr CRStmtCRs EndWhile
+                        Stmt -> ID :
+                        Stmt -> Goto ID
+                        Stmt -> For ID = Expr To Expr OptStep CRStmtCRs EndFor
+                        Stmt -> Sub ID CRStmtCRs EndSub
+                        Stmt -> If Expr Then CRStmtCRs MoreThanZeroElseIf
+                        Stmt ->
+                        MoreThanZeroElseIf -> OptionalElse
+                        MoreThanZeroElseIf -> ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf
+                        OptionalElse -> EndIf
+                        OptionalElse -> Else CRStmtCRs EndIf
+                        ExprStatement -> ID = Expr
+                        ExprStatement -> ID . ID = Expr
+                        ExprStatement -> ID . ID ( Exprs )
+                        ExprStatement -> ID ( )
+                        ExprStatement -> ID Idxs = Expr
+                        CRStmtCRs -> CR TheRest
+                        TheRest ->
+                        TheRest -> Stmt CR TheRest
+                        MoreThanOneStmt -> Stmt
+                        MoreThanOneStmt -> Stmt CR MoreThanOneStmt
+                        OptStep ->
+                        OptStep -> Step Expr
+                        Expr -> CondExpr
+                        Exprs ->
+                        Exprs -> MoreThanOneExpr
+                        MoreThanOneExpr -> Expr
+                        MoreThanOneExpr -> Expr , MoreThanOneExpr
+                        CondExpr -> OrExpr
+                        OrExpr -> OrExpr Or AndExpr
+                        OrExpr -> AndExpr
+                        AndExpr -> AndExpr And EqNeqExpr
+                        AndExpr -> EqNeqExpr
+                        EqNeqExpr -> EqNeqExpr = CompExpr
+                        EqNeqExpr -> EqNeqExpr <> CompExpr
+                        EqNeqExpr -> CompExpr
+                        CompExpr -> CompExpr < AdditiveExpr
+                        CompExpr -> CompExpr <= AdditiveExpr
+                        CompExpr -> CompExpr > AdditiveExpr
+                        CompExpr -> CompExpr >= AdditiveExpr
+                        CompExpr -> AdditiveExpr
+                        AdditiveExpr -> AdditiveExpr + MultiplicativeExpr
+                        AdditiveExpr -> AdditiveExpr - MultiplicativeExpr
+                        AdditiveExpr -> MultiplicativeExpr
+                        MultiplicativeExpr -> MultiplicativeExpr * UnaryExpr
+                        MultiplicativeExpr -> MultiplicativeExpr / UnaryExpr
+                        MultiplicativeExpr -> UnaryExpr
+                        UnaryExpr -> - Primary
+                        UnaryExpr -> Primary
+                        Primary -> NUM
+                        Primary -> STR
+                        Primary -> ( Expr )
+                        Primary -> ID
+                        Primary -> ID . ID
+                        Primary -> ID . ID ( Exprs )
+                        Primary -> ID Idxs
+                        Idxs -> [ Expr ]
+                        Idxs -> [ Expr ] Idxs"""            
+                     },
+                    # {
+                    #     "role": "user",
+                    #     "content": prompt
+                    # },
+                    {
+                        "role": "user",
+                        "content": """This is the incomplete SmallBasic programming language code:
+                            number = 100
+                            While(number>1)
+                            TextWindow
+                            'ID (Expr)'
+                            Complete the 'ID (Expr)' part of the code in the SmallBasic programming language.                    
+                            Just show your answer in place of 'ID (Expr)'. """
+                    },
+                    {
+                        "role": "assistant",""
+                        "content": ".WriteLine(number)"
+                    },
+                    # {
+                    #     "role": "assistant",
+                    #     "content": f"Your answer should be in place of quotation ('')"
+                    #  },
                     ]
                 )
-                response1 = chat_completion.choices[0].message.content
-                print("\nResponse:", response1)
                 # Send the query and measure time----------------------------------------------------------------
                 start_time = time.time()
                 chat_completion = client.chat.completions.create(
-                    model="gpt-3.5-turbo-0125",
+                    model="o1-mini",
                     max_tokens=50,
                     messages=[
                         #  {
@@ -619,6 +713,20 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
                             "role": "user",
                             "content": prompt
                         },
+                        # {
+                        #     "role": "user",
+                        #     "content": """ Problem statement: This is the incomplete SmallBasic programming language code:
+                        #        number = 100
+                        #        While(number>1)
+                        #        TextWindow
+                        #        'ID (Expr)'
+                        #        Complete the 'ID (Expr)' part of the code in the SmallBasic programming language.                    
+                        #        Just show your answer in place of 'ID (Expr)'. """
+                        # },
+                        #  {
+                        #     "role": "assistant",""
+                        #     "content": "  .WriteLine(number) "
+                        # },
                         # {
                         #     "role": "assistant",
                         #     "content": f"Your answer should be in place of quotation ('')"
@@ -985,5 +1093,3 @@ for data_file in os.listdir(data_folder):
             read_data(data_file_path, sample_file_path, prog_lan, encoding)
         else:
             print(f"Warning: No corresponding file found for {sample_file_path}")
-
-
