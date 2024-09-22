@@ -837,72 +837,71 @@ def read_data(file_name, sc_file_name, prog_lan, encoding): # for Small Basic Pr
         # # Assistant message 7
         # {
         #     "role": "assistant",""
-        #     "content": """  Rule: MoreThanZeroElseIf -> OptionalElse
+        #     "content": """  MoreThanZeroElseIf -> OptionalElse
         #                     Indicates that there may be no ElseIf blocks, just an OptionalElse (either an Else block or an EndIf).
-        #                     Rule: MoreThanZeroElseIf -> ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf
+        #                     MoreThanZeroElseIf -> ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf
         #                     Defines one or more ElseIf blocks, each with an expression and statements.
-        #                     Rule: OptionalElse -> EndIf
+        #                     OptionalElse -> EndIf
         #                     No Else block; the If statement ends with EndIf.
-        #                     Rule: OptionalElse -> Else CRStmtCRs EndIf
+        #                     OptionalElse -> Else CRStmtCRs EndIf
         #                     Defines an Else block with its own statements, followed by EndIf.
-        #                     Rule: ExprStatement -> ID = Expr
+        #                     ExprStatement -> ID = Expr
         #                     An assignment statement where an identifier (ID) is assigned the value of an expression (Expr).
-        #                     Rule: ExprStatement -> ID . ID = Expr
+        #                     ExprStatement -> ID . ID = Expr
         #                     A member assignment statement where a member of an object or class (ID . ID) is assigned the value of an expression.
-        #                     Rule: ExprStatement -> ID . ID ( Exprs )
+        #                     ExprStatement -> ID . ID ( Exprs )
         #                     A method call where an object or class member (ID . ID) is invoked with arguments (Exprs).
-        #                     Rule: ExprStatement -> ID ( )
+        #                     ExprStatement -> ID ( )
         #                     A function or method call without any arguments.
-        #                     Rule: ExprStatement -> ID Idxs = Expr
+        #                     ExprStatement -> ID Idxs = Expr
         #                     An array assignment where an array element (ID Idxs) is assigned the value of an expression.
-        #                     Rule: CRStmtCRs -> CR TheRest
+        #                     CRStmtCRs -> CR TheRest
         #                     A series of statements separated by carriage returns (CR), followed by the rest of the statements (TheRest).
-        #                     Rule: TheRest ->
+        #                     TheRest ->
         #                     Defines an empty set of remaining statements (end of statement sequence).
-        #                     Rule: TheRest -> Stmt CR TheRest
+        #                     TheRest -> Stmt CR TheRest
         #                     Defines one or more statements, each followed by a carriage return.
-        #                     Rule: MoreThanOneStmt -> Stmt
+        #                     MoreThanOneStmt -> Stmt
         #                     A block of one statement.
-        #                     Rule: MoreThanOneStmt -> Stmt CR MoreThanOneStmt
+        #                     MoreThanOneStmt -> Stmt CR MoreThanOneStmt
         #                     A block of multiple statements, each followed by a carriage return.
         #                     Optional Step in For Loops
-        #                     Rule: OptStep ->
+        #                     OptStep ->
         #                     Defines an empty step (i.e., no Step keyword is used, so the loop increments by 1 by default).
-        #                     Rule: OptStep -> Step Expr
+        #                     OptStep -> Step Expr
         #                     Defines an optional Step clause in a For loop, with an expression for the step value."""
  
         # },
         # # Assistant message 8
         # {
         #     "role": "assistant",""
-        #     "content": """  Rule 26: Expr -> CondExpr
+        #     "content": """  Expr -> CondExpr
         #                     An expression (Expr) can be a conditional expression (CondExpr).
-        #                     Rules 27-30: Exprs, MoreThanOneExpr
+        #                     Exprs, MoreThanOneExpr
         #                     Exprs can be empty (no arguments) or consist of one or more expressions, possibly separated by commas.
-        #                     10. Logical and Comparison Operators
-        #                     Rule 31: CondExpr -> OrExpr
+        #                     CondExpr -> OrExpr
         #                     A conditional expression is composed of Or expressions.
-        #                     Rules 32-33: OrExpr -> OrExpr Or AndExpr | AndExpr
+        #                     OrExpr -> OrExpr Or AndExpr | AndExpr
         #                     An OrExpr is a logical OR of two expressions, or simply an AndExpr.
-        #                     Rules 34-35: AndExpr -> AndExpr And EqNeqExpr | EqNeqExpr
+        #                     AndExpr -> AndExpr And EqNeqExpr | EqNeqExpr
         #                     An AndExpr is a logical AND of two expressions, or an equality/inequality expression.
-        #                     Rules 36-38: EqNeqExpr -> = | <> | CompExpr
+        #                     EqNeqExpr -> = | <> | CompExpr
         #                     An equality (=) or inequality (<>) expression compares two values. Alternatively, it can be a comparison expression (CompExpr).
         #                     11. Comparison Expressions
-        #                     Rules 39-43: CompExpr -> < | <= | > | >= | AdditiveExpr
+        #                     CompExpr -> < | <= | > | >= | AdditiveExpr
         #                     A comparison expression evaluates less than (<), less than or equal to (<=), greater than (>), or greater than or equal to (>=), or can be an additive expression.
         #                     Arithmetic Operations
-        #                     Rules 44-46: AdditiveExpr -> + | - | MultiplicativeExpr
+        #                     AdditiveExpr -> + | - | MultiplicativeExpr
         #                     An additive expression uses + or - operators, or can be a multiplicative expression.
-        #                     Rules 47-49: MultiplicativeExpr -> * | / | UnaryExpr
+        #                     MultiplicativeExpr -> * | / | UnaryExpr
         #                     A multiplicative expression uses * or / operators, or can be a unary expression.
         #                     Unary Expressions and Primary Expressions
-        #                     Rules 50-51: UnaryExpr -> - | Primary
+        #                     UnaryExpr -> - | Primary
         #                     A unary expression may negate a value or can be a primary expression.
-        #                     Rules 52-58: Primary -> NUM | STR | ( Expr ) | ID | ID . ID | ID . ID ( Exprs ) | ID Idxs
+        #                     Primary -> NUM | STR | ( Expr ) | ID | ID . ID | ID . ID ( Exprs ) | ID Idxs
         #                     Primary expressions include numbers (NUM), strings (STR), parentheses-enclosed expressions, identifiers, member accesses, method calls, or array indexing.
         #                     Array Indexing
-        #                     Rules 59-60: Idxs -> [ Expr ] | [ Expr ] Idxs
+        #                     Idxs -> [ Expr ] | [ Expr ] Idxs
         #                     Defines array indexing where one or more indices are provided within brackets.
         #                     """
  
