@@ -1,0 +1,394 @@
+Parse State: 0	Cursor Position: 1 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.1421360969543457 seconds
+Received response with candidate: 1. For i = 1 To 10
+     TextWindow.WriteLine(i)
+   EndFor
+   
+2. For count = 0 To 100 Step 25
+     TextWindow.WriteLine(count)
+   EndFor
+   
+3. For x = -5 To 5 Step 2
+     TextWindow.WriteLine(x * x)
+   EndFor
+
+                This is the incomplete Small Basic programming language code:
+                
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 'next token or line'
+2. 'move to the next element'
+3. 'advance to the next token'
+Actual result:  For i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 8	Cursor Position: 1 5
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.506333827972412 seconds
+Received response with candidate: 1. i = 1 To 10
+   'This loop will iterate i from 1 to 10
+
+2. x = 5 To 50 Step 5
+   'This loop will iterate x from 5 to 50 with a step of 5
+
+3. count = 10 To 1 Step -1
+
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next token or line
+next token or line
+next token or line
+Actual result:  i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 34	Cursor Position: 1 7
+Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.3414709568023682 seconds
+Received response with candidate: 1. For i = 1 To 10
+2. For i = 0 To 100 Step 10
+3. For i = 5 To 50 OptStep 5
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. Next i
+2. Next
+3. Next j
+Actual result:  = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 61	Cursor Position: 1 9
+Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 0.7389581203460693 seconds
+Received response with candidate: For i = 1
+For i = 10
+For i = 100
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = Text.GetIndexOf("hello", "e")
+For i = Math.GetRandomNumber(1, 10)
+For i = i + 1
+Actual result:  1
+
+Parse State: 85	Cursor Position: 1 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 0.8741645812988281 seconds
+Received response with candidate: For i = 1 To 10
+For i = 1 To 100 Step 2
+For i = 5 To 50 Step 5
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. next token
+2. or i = i + 1
+3. line = Text.GetSubTextToEnd(line, i + 1)
+Actual result:  To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 95	Cursor Position: 1 14
+Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 1.0966436862945557 seconds
+Received response with candidate: For i = 1 To 10
+For i = 1 To 100
+For i = 1 To 1000
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+next j
+next k
+Actual result:  24
+
+Parse State: 110	Cursor Position: 1 19
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.6352684497833252 seconds
+Received response with candidate: 1. TextWindow.WriteLine("Iteration " + i + " out of 24")
+2. GraphicsWindow.DrawEllipse(10, 10, 20, 20)
+3. If (i Mod 2 =0) Then
+      TextWindow.WriteLine(i + " is an even number")
+   Else
+      TextWindow.WriteLine(i + "
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("Iteration: " + i)
+2. total = total + i
+3. If i = 12 Then
+    TextWindow.WriteLine("Halfway there!") 
+   EndIf
+Actual result:  \n TextWindow . WriteLine ( i ) \n
+
+Parse State: 39	Cursor Position: 2 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 1.3486714363098145 seconds
+Received response with candidate: 1. TextWindow.WriteLine("Button" + i + ".Click()")
+2. GraphicsWindow.DrawTriangle(i * 10, i * 10, i * 20, i * 20, i * 30, i * 30)
+3. Turtle.Move(i * 5)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine(i)
+2. If i mod 2 = 0 Then
+3. Array[i] = i * 2
+Actual result:  TextWindow . WriteLine ( i )
+
+Parse State: 6	Cursor Position: 2 12
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                
+Time taken: 1.052241563796997 seconds
+Received response with candidate: 1. TextWindow.WriteLine("Number: " + i)
+2. TextWindow.Pause(i * 1000)
+3. TextWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(i * 10, i * 5, i * 2)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = 1 To 24   
+	TextWindow.WriteLine("Loop iteration: " + i)
+next i
+
+For i = 1 To 24   
+	TextWindow.WriteLine("Number: " + i)
+next i
+
+For i = 1 To 24   
+	TextWindow.WriteLine(i)
+next i
+Actual result:  . WriteLine ( i )
+
+Parse State: 30	Cursor Position: 2 13
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.8864901065826416 seconds
+Received response with candidate: 1. 'Write("Number: " + i)'
+2. 'WriteLine("Iteration: " + i)'
+3. 'WriteValue("Value: " + i)'
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: `ReadLine()`
+`ReadNumber()`
+`WriteLine()`
+Actual result:  WriteLine ( i )
+
+Parse State: 58	Cursor Position: 2 22
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                
+Time taken: 1.028569221496582 seconds
+Received response with candidate: For i = 1 To 24   
+	TextWindow.WriteLine
+                'Value of i is: ' + i
+                'Iteration Number: ' + i
+                'Loop counter: ' + i
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+next
+TextWindow.WriteLine("End of loop")
+Actual result:  ( i )
+
+Parse State: 83	Cursor Position: 2 23
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                
+Time taken: 0.862614631652832 seconds
+Received response with candidate: 1. "The value of i is: " + i
+2. "Loop iteration: " + i
+3. "Current number: " + i
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. Text.GetSubText(line, i, 1)
+2. Text.GetSubText(line, i, 2)
+3. Text.GetSubText(line, i, 3)
+Actual result:  i
+
+Parse State: 92	Cursor Position: 2 24
+Candidate List: ['1 : ', '[T, )] : 131828']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                ')'
+                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                
+Time taken: 0.8667757511138916 seconds
+Received response with candidate: 1) )
+2) ))
+3) )))
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. )
+                'next i'
+                
+2. )
+                'EndFor'
+
+3. )
+                'EndFor i'
+Actual result:  )
+
+Parse State: 65	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.0105445384979248 seconds
+Received response with candidate: 1. TextWindow.WriteLine("Hello")
+2. TextWindow.WriteLine("Goodbye")
+3. TextWindow.WriteLine("Welcome")
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. Next i
+2. EndFor
+3. Loop
+Actual result:  \n
+
+Parse State: 114	Cursor Position: 3 1
+Candidate List: ['1 : ', '[T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'EndFor'
+                Complete the 'EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'EndFor'. 
+                
+Time taken: 0.6486279964447021 seconds
+Received response with candidate: EndFor
+'EndFor'
+End For
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. EndFor
+
+2. EndFor i
+
+3. Next i
+Actual result:  EndFor
+

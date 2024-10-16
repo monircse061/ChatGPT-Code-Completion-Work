@@ -1,0 +1,2066 @@
+Parse State: 0	Cursor Position: 1 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.5294854640960693 seconds
+Received response with candidate: 1. For i = 1 To 10
+      TextWindow.WriteLine(i)
+   EndFor
+
+2. For count = 20 To 1 Step -1
+      TextWindow.WriteLine(count)
+   EndFor
+
+3. For x = 0 To 100 Step 10
+      TextWindow.WriteLine(x)
+   EndFor
+
+                This is the incomplete Small Basic programming language code:
+                
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 'NEXT'
+'GOTO'
+'END'
+Actual result:  For i = 1 To 5 \n TextWindow . Write ( "User" + i + ", enter name: " ) \n name [ i ] = i \n EndFor
+
+Parse State: 8	Cursor Position: 1 5
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.165039300918579 seconds
+Received response with candidate: 1. Count = 1 To 10
+2. Sum = 0 To 100 Step 5
+3. Age = 18 To 30 Step 2
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 'next token or line'
+2. 'move to the next item'
+3. 'increment the current position'
+Actual result:  i = 1 To 5 \n TextWindow . Write ( "User" + i + ", enter name: " ) \n name [ i ] = i \n EndFor
+
+Parse State: 34	Cursor Position: 1 7
+Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.0221729278564453 seconds
+Received response with candidate: 1. For i = 1 To 10
+2. For i = 0 To 100 Step 10
+3. For i = 5 To 50 Step 5
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+next j
+goto end
+Actual result:  = 1 To 5 \n TextWindow . Write ( "User" + i + ", enter name: " ) \n name [ i ] = i \n EndFor
+
+Parse State: 61	Cursor Position: 1 9
+Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 0.6902947425842285 seconds
+Received response with candidate: For i = 1
+For i = 10
+For i = 100
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. For i = NextToken() 
+2. For i = NextLine()
+3. For i = GetToken()
+Actual result:  1
+
+Parse State: 85	Cursor Position: 1 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.1524620056152344 seconds
+Received response with candidate: For i = 1 To 10
+'Code statements here
+EndFor
+
+For i = 1 To 100 Step 10
+'Code statements here
+EndFor
+
+For i = 10 To 1 Step -1
+'Code statements here
+EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = 1
+'next token or line' i = i + 1
+'next token or line' EndFor
+'next token or line' TextWindow.WriteLine(i)
+Actual result:  To 5 \n TextWindow . Write ( "User" + i + ", enter name: " ) \n name [ i ] = i \n EndFor
+
+Parse State: 95	Cursor Position: 1 14
+Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 0.842867374420166 seconds
+Received response with candidate: For i = 1 To 5
+For i = 1 To 10
+For i = 1 To 100
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+next 10
+next 100
+Actual result:  5
+
+Parse State: 110	Cursor Position: 1 18
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.2080113887786865 seconds
+Received response with candidate:   For i = 1 To 5
+                TextWindow.WriteLine("Iteration: " + i)
+                'CR TheRest'
+                
+                'CR Add 1 to i'
+                
+                'CR End of iteration'
+                
+                'CR Print a blank line'
+                'CR TheRest'
+                'CR TheEnd'
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+next
+end for
+Actual result:  \n TextWindow . Write ( "User" + i + ", enter name: " ) \n name [ i ] = i \n
+
+Parse State: 39	Cursor Position: 2 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 1.200669527053833 seconds
+Received response with candidate: 1. TextWindow.WriteLine(i.ToString())
+2. Program.Delay(1000)
+3. GraphicsWindow.DrawEllipse(i * 10, i * 10, 50, 50)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Next
+EndFor
+
+EndFor i
+
+i = i + 1
+Actual result:  TextWindow . Write ( "User" + i + ", enter name: " )
+
+Parse State: 6	Cursor Position: 2 12
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.8223049640655518 seconds
+Received response with candidate: 1. .Print("Hello World!")
+2. .ReadNumber()
+3. .WriteLine("Small Basic is fun!")
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. .Print("Hello")
+2. .Read()
+3. .Pause(1000)
+Actual result:  . Write ( "User" + i + ", enter name: " )
+
+Parse State: 30	Cursor Position: 2 13
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.8023042678833008 seconds
+Received response with candidate: 1. TextWindow.WriteLine("Loop iteration: " + i)
+
+2. i * 2
+
+3. i ^ 2
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. WriteLine("Hello World!")
+2. Prompt("Enter your name: ")
+3. DrawTriangle(100, 4)
+Actual result:  Write ( "User" + i + ", enter name: " )
+
+Parse State: 58	Cursor Position: 2 18
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                
+Time taken: 1.3921253681182861 seconds
+Received response with candidate: For i = 1 To 5   
+    TextWindow.Write(i * 2)
+
+For i = 1 To 5   
+    TextWindow.Write("Hello " + i)
+
+For i = 1 To 5   
+    TextWindow.Write("Value: " + Math.Power(i, 2))
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = 1 To 5   
+	TextWindow.WriteLine("Hello")
+Next i
+
+For i = 1 To 5   
+	TextWindow.WriteLine(i)
+Next i
+
+For i = 1 To 5   
+	TextWindow.WriteLine("Loop iteration: " + i)
+Next i
+Actual result:  ( "User" + i + ", enter name: " )
+
+Parse State: 83	Cursor Position: 2 19
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                
+Time taken: 0.8823950290679932 seconds
+Received response with candidate: - "Hello"
+- "Small Basic"
+- "Programming"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write(
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. i
+2. "i"
+3. i + 1
+Actual result:  "User"
+
+Parse State: 18	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, +, NT, MultiplicativeExpr] : 95446', '2 : ', '[T, -, NT, MultiplicativeExpr] : 41871']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User"
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+                
+Time taken: 1.1764004230499268 seconds
+Received response with candidate: 1. i
+2. + " " + i
+3. + " " + Text.GetSubText("Name" + i, 2, 3)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User"
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 
+TextWindow.WriteLine(i)
+2. 
+TextWindow.WriteLine(" " + i)
+3.
+TextWindow.WriteLine("User " + i)
+Actual result:  + i
+
+Parse State: 48	Cursor Position: 2 28
+Candidate List: ['1 : ', '[T, ID] : 38463', '2 : ', '[T, NUM] : 30206', '3 : ', '[T, STR] : 15165', '4 : ', '[T, ID, NT, Idxs] : 7164', '5 : ', '[T, (, NT, Expr, T, )] : 3656', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 2629', '7 : ', '[T, ID, T, ., T, ID] : 322', '8 : ', '[T, -, NT, Primary] : 9']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" +
+                'Identifier'
+                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                
+Time taken: 1.2427499294281006 seconds
+Received response with candidate: For i = 1 To 5   
+  TextWindow.Write("User" + i)
+  
+  TextWindow.Write("User" + "A" + i)
+  
+  TextWindow.Write("User" + "123" + i)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" +
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 	)
+2. 	+
+3. 	i
+Actual result:  i
+
+Parse State: 18	Cursor Position: 2 30
+Candidate List: ['1 : ', '[T, +, NT, MultiplicativeExpr] : 95446', '2 : ', '[T, -, NT, MultiplicativeExpr] : 41871']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+                
+Time taken: 1.177302598953247 seconds
+Received response with candidate: 1. + ": " + i * 10
+2. + ", Number: " + i * i
+3. + ", Value: " + (i * 2) - 1
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. )
+EndFor
+
+2. )
+EndFor i
+
+3. )
+EndFor loop
+Actual result:  + ", enter name: "
+
+Parse State: 48	Cursor Position: 2 32
+Candidate List: ['1 : ', '[T, ID] : 38463', '2 : ', '[T, NUM] : 30206', '3 : ', '[T, STR] : 15165', '4 : ', '[T, ID, NT, Idxs] : 7164', '5 : ', '[T, (, NT, Expr, T, )] : 3656', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 2629', '7 : ', '[T, ID, T, ., T, ID] : 322', '8 : ', '[T, -, NT, Primary] : 9']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i +
+                'String'
+                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                
+Time taken: 0.8543164730072021 seconds
+Received response with candidate: 1.  " please enter your name: "
+2. " , please enter your age: "
+3. " , please enter your country: "
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i +
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. TextWindow.WriteLine()
+2. TextWindow.Write()
+3. TextWindow.ReadNumber()
+Actual result:  ", enter name: "
+
+Parse State: 92	Cursor Position: 2 48
+Candidate List: ['1 : ', '[T, )] : 131828']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: "
+                ')'
+                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                
+Time taken: 0.5824246406555176 seconds
+Received response with candidate: )")
+
+	])
+
+	)]
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: "
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.Read()
+2. name = TextWindow.Read()
+3. inputName = TextWindow.Read()
+Actual result:  )
+
+Parse State: 65	Cursor Position: 2 52
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.2757279872894287 seconds
+Received response with candidate: 1. name = TextWindow.Read()
+   TextWindow.WriteLine("Hello " + name)
+
+2. If Text.GetLength(name) > 0 Then
+       TextWindow.WriteLine("Nice to meet you, " + name)
+   Else
+       TextWindow.WriteLine("Please enter a valid name")
+   EndIf
+
+3. If Text.IsNumber(name)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. name = TextWindow.Read()
+2. name[i] = TextWindow.Read()
+3. names[i] = TextWindow.Read()
+Actual result:  \n name [ i ] = i \n
+
+Parse State: 88	Cursor Position: 3 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 87168', '2 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 80534', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 78068', '4 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 27675', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 20356', '6 : ', '[T, ID, T, (, T, )] : 16821', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 8811', '8 : ', '[T, Goto, T, ID] : 2331', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1733', '10 : ', '[T, ID, T, :] : 1027']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")
+                'Identifier Idxs = Expression'
+                Complete the 'Identifier Idxs = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier Idxs = Expression'. 
+                
+Time taken: 0.8353488445281982 seconds
+Received response with candidate: 1. Identifier Idxs = TextWindow.ReadNumber()
+2. Identifier Idxs = TextWindow.Read()
+3. Identifier Idxs = Math.GetRandomNumber(10)
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. userInput[i] = TextWindow.Read()
+
+2. names[i] = TextWindow.Read()
+
+3. TextWindow.Read()
+Actual result:  name [ i ] = i
+
+Parse State: 6	Cursor Position: 3 6
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '[ Expression ]'. 
+                
+Time taken: 1.3502867221832275 seconds
+Received response with candidate: For i = 1 To 5   
+  TextWindow.Write("User" + i + ", enter name: ")   
+  name = TextWindow.Read()
+  TextWindow.WriteLine("Hello " + name)
+
+For i = 1 To 5   
+  TextWindow.Write("User" + i + ", enter name: ")   
+  name =
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name  
+
+Next i
+
+For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name  
+
+EndFor
+
+For i = 1 To 5   
+	TextWindow.Write
+Actual result:  [ i ]
+
+Parse State: 32	Cursor Position: 3 7
+Candidate List: ['1 : ', '[T, NUM] : 116941', '2 : ', '[T, ID] : 67237', '3 : ', '[T, STR] : 53454', '4 : ', '[T, ID, NT, Idxs] : 2705', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 431', '6 : ', '[T, ID, T, ., T, ID] : 82', '7 : ', '[T, (, NT, Expr, T, )] : 57', '8 : ', '[T, -, NT, Primary] : 33']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[
+                'Identifier'
+                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                
+Time taken: 0.8194692134857178 seconds
+Received response with candidate: 1. name1 = TextWindow.Read()
+2. name2 = TextWindow.Read()
+3. name3 = TextWindow.Read()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. = TextWindow.Read()
+2. = TextWindow.ReadNumber()
+3. = TextWindow.Read()
+Actual result:  i
+
+Parse State: 60	Cursor Position: 3 8
+Candidate List: ['1 : ', '[T, ]] : 177961', '2 : ', '[T, ], NT, Idxs] : 62979']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i
+                ']'
+                Complete the ']' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ']'. 
+                
+Time taken: 0.628349781036377 seconds
+Received response with candidate: ]
+name[
+name[i]
+[name[i]
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. = TextWindow.Read()
+2. ] = TextWindow.Read()
+3. } = TextWindow.Read()
+Actual result:  ]
+
+Parse State: 27	Cursor Position: 3 10
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 97357']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i]
+                '= Expression'
+                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                
+Time taken: 0.9685237407684326 seconds
+Received response with candidate: 1. name[i] = TextWindow.Read()
+
+2. name[i] = TextWindow.ReadNumber()
+
+3. name[i] = TextWindow.ReadNonWhiteSpace()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i]
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. = TextWindow.Read()
+2. = TextWindow.ReadNumber()
+3. = ""
+Actual result:  = i
+
+Parse State: 56	Cursor Position: 3 12
+Candidate List: ['1 : ', '[T, STR] : 37684', '2 : ', '[T, NUM] : 24115', '3 : ', '[T, ID] : 16294', '4 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 7281', '5 : ', '[T, ID, NT, Idxs] : 6031', '6 : ', '[T, -, NT, Primary] : 4996', '7 : ', '[T, (, NT, Expr, T, )] : 569', '8 : ', '[T, ID, T, ., T, ID] : 387']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] =
+                'Identifier'
+                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                
+Time taken: 0.693213701248169 seconds
+Received response with candidate: 1. TextWindow.Read()
+2. TextWindow.ReadNumber()
+3. Text.GetText()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] =
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.Read()
+2. TextWindow.ReadNumber()
+3. TextWindow.Read() + ""
+Actual result:  i
+
+Parse State: 65	Cursor Position: 3 13
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.201622724533081 seconds
+Received response with candidate: 1. 'name[i] = TextWindow.Read()'
+2. 'name[i] = TextWindow.ReadNumber()'
+3. 'name[i] = TextWindow.Read() + i'
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.Read()   
+2. name[i] = TextWindow.Read()   
+3. name[i] = TextWindow.ReadNumber()  
+Actual result:  \n
+
+Parse State: 114	Cursor Position: 4 1
+Candidate List: ['1 : ', '[T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+                'EndFor'
+                Complete the 'EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'EndFor'. 
+                
+Time taken: 0.8674130439758301 seconds
+Received response with candidate: EndFor
+EndFor
+EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. TextWindow.Read()
+2. name[i] = TextWindow.Read()
+3. name[i] = TextWindow.ReadNumber()
+Actual result:  EndFor
+
+Parse State: 3	Cursor Position: 4 9
+Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 1.2431824207305908 seconds
+Received response with candidate: For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = TextWindow.Read()
+EndFor
+
+For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = TextWindow.ReadNumber()
+EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("Thank you for entering your name, User" + i)
+2. TextWindow.WriteLine("Name stored successfully for User" + i)
+3. TextWindow.WriteLine("Name saved as: " + name[i])
+Actual result:  \n TextWindow . Write ( "Hello " ) \n For i = 1 To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor \n TextWindow . WriteLine ( "" )
+
+Parse State: 11	Cursor Position: 5 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 0.782958984375 seconds
+Received response with candidate: name[i] = TextWindow.Read() 
+name[i] = TextWindow.ReadNumber()
+name[i] = TextWindow.ReadSecret()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 
+TextWindow.Write("User" + i + " - Hello, " + name[i] + "!")   
+EndFor
+
+2. 
+TextWindow.WriteLine("User" + i + " - " + name[i])   
+EndFor
+
+3.
+TextWindow.WriteLine("Hello, " + name[i] + "!")   
+EndFor
+Actual result:  TextWindow . Write ( "Hello " )
+
+Parse State: 6	Cursor Position: 5 11
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.9369091987609863 seconds
+Received response with candidate: 1. .Write("Name: ")
+2. .Read()
+3. .ReadNumber()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. .Write("Name set for user" + i)  
+2. .Read()   
+3. .WriteLine(name[i] + " has been saved")
+Actual result:  . Write ( "Hello " )
+
+Parse State: 30	Cursor Position: 5 12
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.768700361251831 seconds
+Received response with candidate: 1. TextWindow.Read()
+2. name[i] = TextWindow.Read()
+3. name[i] = TextWindow.ReadNumber()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+1. TextWindow.WriteLine(name[i])
+2. TextWindow.WriteLine("Hello " + name[i] + "!")
+3. TextWindow.WriteLine("User" + i + ", your name is " + name[i])
+Actual result:  Write ( "Hello " )
+
+Parse State: 58	Cursor Position: 5 17
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                
+Time taken: 1.0622758865356445 seconds
+Received response with candidate: 1. name[i] = TextWindow.Read()
+
+2. name[i] = TextWindow.ReadNumber()
+
+3. name[i] = TextWindow.Read() + i
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: EndFor  
+
+For i = 1 To 5   
+	TextWindow.WriteLine("User" + i + ", enter name: ")   
+	name[i] = TextWindow.Read()
+EndFor  
+
+EndFor
+Actual result:  ( "Hello " )
+
+Parse State: 83	Cursor Position: 5 18
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write(
+                'String'
+                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                
+Time taken: 0.7035624980926514 seconds
+Received response with candidate: String name[i] = TextWindow.Read() + "<br>"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write(
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i] + " has entered: " + name[i]  
+EndFor  
+
+For i = 1 To 5
+    TextWindow.WriteLine(name[i])
+EndFor
+
+For i = 1 To 5
+    TextWindow.Write("Welcome, " + name[i])
+EndFor
+Actual result:  "Hello "
+
+Parse State: 92	Cursor Position: 5 26
+Candidate List: ['1 : ', '[T, )] : 131828']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello "
+                ')'
+                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                
+Time taken: 1.127537727355957 seconds
+Received response with candidate: name[1] + ", " + name[2] + ", " + name[3] + ", " + name[4] + ", " + name[5])  
+
+name[i])  
+
+name[5] + "!")  
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello "
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine(name[i] + "!")  
+2. TextWindow.WriteLine(name[i] + ", nice to meet you!")  
+3. TextWindow.WriteLine("Goodbye, " + name[i] + "!")  
+Actual result:  )
+
+Parse State: 3	Cursor Position: 5 28
+Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ")
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 1.0366194248199463 seconds
+Received response with candidate: 
+1. TextWindow.Write(name[i])
+2. TextWindow.WriteLine(name[i] + "!")
+3. TextWindow.WriteLine("User" + i + "'s name is " + name[i])
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine(name[i])
+2. TextWindow.WriteLine(name[i] + "! Welcome!")
+3. TextWindow.WriteLine(name[i] + ", nice to meet you!")
+Actual result:  \n For i = 1 To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor \n TextWindow . WriteLine ( "" )
+
+Parse State: 11	Cursor Position: 6 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ")
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.1970245838165283 seconds
+Received response with candidate: 1. For j = 1 To 5
+   TextWindow.Write("User" + j + ", enter name: ")
+   name[j] = TextWindow.Read()
+EndFor
+TextWindow.Write("Hello ")
+
+2. For k = 1 To 5
+   TextWindow.Write("User" + k + ", enter name: ")
+
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+name[i]
+i++
+
+i--
+Actual result:  For i = 1 To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor
+
+Parse State: 8	Cursor Position: 6 5
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.246349811553955 seconds
+Received response with candidate: For i = 1 To 5
+	TextWindow.Write("User" + i + ", enter name: ")
+	name[i] = TextWindow.Read()
+EndFor
+
+TextWindow.Write("Hello ")
+For i = 1 To 10 Step 2
+	TextWindow.WriteLine("User" + i + " ")
+EndFor
+
+TextWindow.Write("
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: next i
+
+next name[i]
+
+next
+Actual result:  i = 1 To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor
+
+Parse State: 34	Cursor Position: 6 7
+Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.5220551490783691 seconds
+Received response with candidate: = 1 To 5
+name[i]
+TextWindow.WriteLine(name[i] + ", ")
+EndFor
+
+= 1 To 5
+name[i] = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name[i] + ", ")
+EndFor
+
+= 1 To 5
+TextWindow.Write("Hello " + name[i]
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Next i 
+Next i = 1 to 5
+Next i < 5
+Actual result:  = 1 To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor
+
+Parse State: 61	Cursor Position: 6 9
+Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i =
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 1.112816572189331 seconds
+Received response with candidate: 1. For i = 1 To 5  
+2. For i = 0 To 4  
+3. For i = 2 To 6  
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i =
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: For i = 1 To 5
+	TextWindow.Write("User" + i + ", enter name: ")
+	name[i] = TextWindow.Read()
+EndFor
+TextWindow.Write("Hello ")
+For i = 1 To 5
+	TextWindow.Write(name[i] + " ")
+EndFor
+
+OR
+
+For i = 1 To 
+Actual result:  1
+
+Parse State: 85	Cursor Position: 6 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.0171351432800293 seconds
+Received response with candidate: 1. To 5
+2. To 5 Step 1
+3. To 5 Step 1 EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i]
+EndFor
+
+name[i] = TextWindow.Read()
+EndFor
+
+TextWindow.WriteLine(name[i])
+EndFor
+Actual result:  To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor
+
+Parse State: 95	Cursor Position: 6 14
+Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                
+Time taken: 1.1097729206085205 seconds
+Received response with candidate: 1. For i = 1 To 5
+2. For i = 1 To 10  
+3. For i = 1 To 100
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Next i
+
+Next 5
+
+Next name
+Actual result:  5
+
+Parse State: 110	Cursor Position: 6 18
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.099926471710205 seconds
+Received response with candidate: TextWindow.WriteLine(name[i] + "! ")  'CR TheRest'
+EndFor
+
+TextWindow.WriteLine("User" + i + " is " + name[i])  'CR TheRest'
+EndFor
+
+TextWindow.WriteLine(name[i] + " ")  'CR TheRest'
+EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i] + ", nice to meet you!"
+TextWindow.WriteLine(name[i] + ", nice to meet you!")
+TextWindow.WriteLine("name[i] + ", nice to meet you!")
+Actual result:  \n TextWindow . Write ( name [ i ] + ", " ) \n
+
+Parse State: 39	Cursor Position: 7 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 0.8727219104766846 seconds
+Received response with candidate: 1. TextWindow.WriteLine(name[i]) 
+2. TextWindow.WriteLine("User" + name[i]) 
+3. TextWindow.WriteLine("Hello " + name[i])
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i]
+EndFor
+
+TextWindow.WriteLine(name[i])
+EndFor
+
+TextWindow.WriteLine(name[i] + ", ") 
+EndFor
+Actual result:  TextWindow . Write ( name [ i ] + ", " )
+
+Parse State: 6	Cursor Position: 7 12
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.6055333614349365 seconds
+Received response with candidate: .WriteLine(name[i] + "!")
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: .WriteLine(name[i] + "!")  
+EndFor  
+
+.WriteLine("Have a great day!") 
+
+OR
+
+.WriteLine(name[i] + "! ")  
+EndFor  
+
+.WriteLine("Nice to meet you!") 
+
+OR
+
+.WriteLine(name[i] + ", ")  
+EndFor  
+
+.WriteLine("Welcome!")
+Actual result:  . Write ( name [ i ] + ", " )
+
+Parse State: 30	Cursor Position: 7 13
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.9566037654876709 seconds
+Received response with candidate: Read()   
+	name[i]   
+WriteLine("User" + name[i] + "!")
+
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Read() 
+        'next token or line'
+
+        TextWindow.WriteLine(name[i] + "!") 
+EndFor 
+
+        TextWindow.WriteLine("Goodbye!") 
+        'next token or line'
+
+        TextWindow.WriteLine("End of program") 
+        'next token or line'
+Actual result:  Write ( name [ i ] + ", " )
+
+Parse State: 58	Cursor Position: 7 18
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write
+                '( Expression )'
+                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                
+Time taken: 0.9079110622406006 seconds
+Received response with candidate: name[i]
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i]   
+name[i] = TextWindow.Read()    
+TextWindow.WriteLine(name[i] + "!")
+Next i  
+
+name[i]   
+name[i] = TextWindow.Read()    
+TextWindow.WriteLine(name[i] + "!")    
+EndFor  
+
+name[i]   
+name[i] = TextWindow.Read()    
+TextWindow.Write(name[i]
+Actual result:  ( name [ i ] + ", " )
+
+Parse State: 83	Cursor Position: 7 19
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(
+                'Identifier Idxs'
+                Complete the 'Identifier Idxs' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier Idxs'. 
+                
+Time taken: 0.9605631828308105 seconds
+Received response with candidate: 1. name[i]
+2. i
+3. name[i]
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i] + ", " +   
+EndFor   
+                'next token or line'
+                i++  
+EndFor 
+Actual result:  name [ i ]
+
+Parse State: 22	Cursor Position: 7 23
+Candidate List: ['1 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, [, NT, Expr, T, ]] : 59127', '3 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 21477', '4 : ', '[T, ., T, ID] : 16490']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name
+                '[ Expression ]'
+                Complete the '[ Expression ]' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '[ Expression ]'. 
+                
+Time taken: 1.0365972518920898 seconds
+Received response with candidate: 1. name[i]
+2. name[i] + ", "
+3. name[i] + ", " + "Hello "
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. [i] + ", "  
+2. [i] + ", say hello! "  
+3. [i] + ", nice to meet you! "
+Actual result:  [ i ]
+
+Parse State: 32	Cursor Position: 7 24
+Candidate List: ['1 : ', '[T, NUM] : 116941', '2 : ', '[T, ID] : 67237', '3 : ', '[T, STR] : 53454', '4 : ', '[T, ID, NT, Idxs] : 2705', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 431', '6 : ', '[T, ID, T, ., T, ID] : 82', '7 : ', '[T, (, NT, Expr, T, )] : 57', '8 : ', '[T, -, NT, Primary] : 33']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[
+                'Identifier'
+                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                
+Time taken: 0.6890673637390137 seconds
+Received response with candidate: 1. i
+2. i - 1
+3. i + 1
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. 'i]'   
+2. 'i]' + ", "
+3. 'i]' + ", " + name[i] + "!"
+Actual result:  i
+
+Parse State: 60	Cursor Position: 7 25
+Candidate List: ['1 : ', '[T, ]] : 177961', '2 : ', '[T, ], NT, Idxs] : 62979']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i
+                ']'
+                Complete the ']' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ']'. 
+                
+Time taken: 0.7568356990814209 seconds
+Received response with candidate: 1. ]"  
+2. ])  
+3. ] + "]"  
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+                Next i
+                EndFor
+                Loop
+Actual result:  ]
+
+Parse State: 18	Cursor Position: 7 27
+Candidate List: ['1 : ', '[T, +, NT, MultiplicativeExpr] : 95446', '2 : ', '[T, -, NT, MultiplicativeExpr] : 41871']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i]
+                '+ MultiplicativeExpr'
+                Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+                
+Time taken: 1.3028292655944824 seconds
+Received response with candidate: Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+
+1. + ", Your name is " + name[i]
+2. + ", please enter your age: "
+3. + "!"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i]
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Next
+EndFor
+
+EndFor
+Actual result:  + ", "
+
+Parse State: 48	Cursor Position: 7 29
+Candidate List: ['1 : ', '[T, ID] : 38463', '2 : ', '[T, NUM] : 30206', '3 : ', '[T, STR] : 15165', '4 : ', '[T, ID, NT, Idxs] : 7164', '5 : ', '[T, (, NT, Expr, T, )] : 3656', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 2629', '7 : ', '[T, ID, T, ., T, ID] : 322', '8 : ', '[T, -, NT, Primary] : 9']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] +
+                'String'
+                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                
+Time taken: 1.0008735656738281 seconds
+Received response with candidate: 1. " , what's your favorite color?"
+2. " , how are you feeling today?"
+3. " , welcome to the program!"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] +
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: TextWindow.Write(name[i] + " ")
+(TextWindow.Write(name[i] + ", ")
+
+(TextWindow.WriteLine(name[i] + " "))
+Actual result:  ", "
+
+Parse State: 92	Cursor Position: 7 33
+Candidate List: ['1 : ', '[T, )] : 131828']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", "
+                ')'
+                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                
+Time taken: 0.6693124771118164 seconds
+Received response with candidate: ") 
+") + "! ") 
+") + "User! ")
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", "
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate:   
+
+1. EndFor  
+2. EndFor i   
+3. EndFor loop  
+Actual result:  )
+
+Parse State: 65	Cursor Position: 7 35
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ")
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                
+Time taken: 1.057159662246704 seconds
+Received response with candidate: 
+1. TextWindow.WriteLine("nice to meet you! ")
+2. TextWindow.WriteLine("how are you doing? ")
+3. TextWindow.WriteLine("have a great day! ")
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 
+EndFor
+
+EndFor
+
+EndFor
+Actual result:  \n
+
+Parse State: 114	Cursor Position: 8 1
+Candidate List: ['1 : ', '[T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ")
+                'EndFor'
+                Complete the 'EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'EndFor'. 
+                
+Time taken: 0.9264519214630127 seconds
+Received response with candidate: EndFor
+
+EndFor
+
+EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ")
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: TextWindow.WriteLine("Welcome!")  
+
+EndFor  
+
+TextWindow.WriteLine("Nice to meet you!")  
+Actual result:  EndFor
+
+Parse State: 3	Cursor Position: 8 8
+Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor
+                'CR MoreThanOneStmt'
+                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                
+Time taken: 0.8280019760131836 seconds
+Received response with candidate: CR name[i] = TextWindow.Read()  
+CR name[i] = TextWindow.ReadNumber()  
+CR name[i] = TextWindow.Read() + i
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("Nice to meet you!")  
+2. For i = 1 To 3  
+3. GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
+Actual result:  \n TextWindow . WriteLine ( "" )
+
+Parse State: 11	Cursor Position: 9 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 1.0408236980438232 seconds
+Received response with candidate: name[i] = TextWindow.Read()
+name[i] = TextWindow.ReadNumber()
+name[i] = TextWindow.Read() + TextWindow.ReadLine()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: EndFor  
+
+              EndFor  
+
+              EndFor
+Actual result:  TextWindow . WriteLine ( "" )
+
+Parse State: 6	Cursor Position: 9 11
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                
+Time taken: 0.9919641017913818 seconds
+Received response with candidate: .ShowMessage("Welcome to the program!") 
+
+.Pause() 
+
+.Hide()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. Pause()
+2. .Read()
+3. .ForegroundColor = "Red"
+Actual result:  . WriteLine ( "" )
+
+Parse State: 30	Cursor Position: 9 12
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                
+Time taken: 0.8003847599029541 seconds
+Received response with candidate: TextWindow.Read()  
+name[i] = TextWindow.Read()  
+name[i] = TextWindow.ReadNumber()   
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: Pause()
+Clear()
+Read()
+Actual result:  WriteLine ( "" )
+
+Parse State: 58	Cursor Position: 9 21
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                
+Time taken: 0.7298235893249512 seconds
+Received response with candidate: 1. name[i]
+2. "User" + i
+3. TextWindow.Read()
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("Thanks for participating!")
+2. For i = 1 To 5
+3. TextWindow.WriteLine("Goodbye!")
+Actual result:  ( "" )
+
+Parse State: 83	Cursor Position: 9 22
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine(
+                'String'
+                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                
+Time taken: 1.0181169509887695 seconds
+Received response with candidate: 1. "Welcome to the program!"
+2. "Nice to meet you all!"
+3. "Hello there, friends!"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine(
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("thank you for participating!")  
+2. TextWindow.WriteLine("have a nice day!")
+3. TextWindow.WriteLine("goodbye!")
+Actual result:  ""
+
+Parse State: 92	Cursor Position: 9 24
+Candidate List: ['1 : ', '[T, )] : 131828']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine(""
+                ')'
+                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                
+Time taken: 0.7708086967468262 seconds
+Received response with candidate: 1) + ". You are awesome!"
+2) + ". Welcome!"
+3) + ". Keep up the good work!"
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To 5   
+	TextWindow.Write(name[i] + ", ") 
+EndFor 
+TextWindow.WriteLine(""
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.WriteLine("Welcome to the program!")
+2. For i = 1 To 5
+3. TextWindow.WriteLine("Have a great day!")
+Actual result:  )
+
