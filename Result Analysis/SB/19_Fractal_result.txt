@@ -8816,17 +8816,28 @@ SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions:
 First element of precision: 0.0 
 SequenceMatcher Score1: 0.06
 
-Received response with candidate 2: For i = 1 To 100000
-    r = Math.GetRandomNumber(3)
-    ux = 150
-    uy = 30
-    
-    If (r = 1) Then
-        ux = 30
-        uy = 1000
-    EndIf
-    
-    If (r = 2) Then
+Received response with candidate 2: For i = 1 To 100000
+
+    r = Math.GetRandomNumber(3)
+
+    ux = 150
+
+    uy = 30
+
+    
+
+    If (r = 1) Then
+
+        ux = 30
+
+        uy = 1000
+
+    EndIf
+
+    
+
+    If (r = 2) Then
+
        
 SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 2 
 First element of precision: 0.0 
@@ -8984,7 +8995,7 @@ First element of precision: 0.0
 SequenceMatcher Score6: 0.12
 Actual result:  EndFor
 
-Average Precision with Candidate Guidance: 33.8939986555938
-Average Precision without Candidate Guidance: 28.085649484256617
+Average SacreBLEU Precision with Candidate Guidance: 33.8939986555938
+Average SacreBLEU Precision without Candidate Guidance: 28.085649484256617
 Average Sequence Matcher Similarity with Candidate Guidance: 30.477753339581255
 Average Sequence Matcher Similarity without Candidate Guidance: 21.67768940370515
