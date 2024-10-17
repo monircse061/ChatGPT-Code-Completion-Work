@@ -1,481 +1,909 @@
 Parse State: 0	Cursor Position: 1 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 1.1738121509552002 seconds
 
                 This is the incomplete Small Basic programming language code:
                 
                 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
-                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0380780696868896 seconds
-Received response with candidate: For count = 1 To 10
-   TextWindow.WriteLine(count)
+Received response with candidate 1: For i = 1 To 10
+  TextWindow.WriteLine(i)
 EndFor
+SACREBLEU score 1: 30.995808360666267 Counts: [13, 7, 5, 3] Totals: [13, 12, 11, 10] Precisions: [100.0, 58.333333333333336, 45.45454545454545, 30.0] System length: 13 Reference length: 20 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.78
 
-For i = 0 To 100 Step 10
-   TextWindow.WriteLine(i)
+Received response with candidate 2: For i = 1 To 10
+  TextWindow.WriteLine(i)
 EndFor
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 20 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.19
 
-For x = 20 To 0 Step -2
-   TextWindow.WriteLine(x)
+Received response with candidate 3: For i = 1 To 10
+  TextWindow.WriteLine(i)
 EndFor
+SACREBLEU score 3: 30.995808360666267 Counts: [13, 7, 5, 3] Totals: [13, 12, 11, 10] Precisions: [100.0, 58.333333333333336, 45.45454545454545, 30.0] System length: 13 Reference length: 20 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.78
 
                 This is the incomplete Small Basic programming language code:
                 
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 'next token or line'
-'go to the next iteration'
-'get the next input'
+Received response without candidate 1: Sure, can you please provide the specific line of code that requires completing for me to assist you?
+SACREBLEU score 4: 1.4768078630909174 Counts: [7, 1, 0, 0] Totals: [67, 66, 65, 64] Precisions: [10.447761194029852, 1.5151515151515151, 0.7692307692307693, 0.390625] System length: 67 Reference length: 20 
+First element of precision: 10.447761194029852 
+SequenceMatcher Score4: 0.17
+
+Received response without candidate 2: Sure, here is one completion:
+
+```
+'next token or line
+ If Text.GetSubText(line, 1, 1) <> "' Then
+    token = Text.GetSubText(line, 1, Text.GetIndexOf(line, " ") - 1)
+    line = Text.GetSubText(line, Text.GetIndexOf(line, "
+SACREBLEU score 5: 30.995808360666267 Counts: [13, 7, 5, 3] Totals: [13, 12, 11, 10] Precisions: [100.0, 58.333333333333336, 45.45454545454545, 30.0] System length: 13 Reference length: 20 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.78
+
+Received response without candidate 3: Sure, could you provide the context or surrounding code for the 'next token or line' part so that I can help you complete it effectively?
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 27 Reference length: 20 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.23
 Actual result:  For i = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
 
 Parse State: 8	Cursor Position: 1 5
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 1.2385127544403076 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For
                 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
-                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'. 
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9350388050079346 seconds
-Received response with candidate: 1. count = 1 To 10
-2. index = 0 To 100 Step 2
-3. i = 5 To 50 Step 5
+Received response with candidate 1: i = 1 To 10
+    ' Your code here
+EndFor
+SACREBLEU score 1: 4.490478775611762 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 19 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.49
+
+Received response with candidate 2: For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 2: 1.123099644603982 Counts: [1, 0, 0, 0] Totals: [33, 32, 31, 30] Precisions: [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667] System length: 33 Reference length: 19 
+First element of precision: 3.0303030303030303 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: i.e.:
+```
+For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+```
+SACREBLEU score 3: 29.85764208709617 Counts: [12, 6, 4, 3] Totals: [13, 12, 11, 10] Precisions: [92.3076923076923, 50.0, 36.36363636363637, 30.0] System length: 13 Reference length: 19 
+First element of precision: 92.3076923076923 
+SequenceMatcher Score3: 0.76
 
                 This is the incomplete Small Basic programming language code:
                 For
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 'next token or line'
+Received response without candidate 1: I'm happy to help with completing the 'next token or line' part of the code. Please provide me with the specific details or code snippet that you would like assistance with.
+SACREBLEU score 4: 1.0559717178170818 Counts: [1, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625] System length: 35 Reference length: 19 
+First element of precision: 2.857142857142857 
+SequenceMatcher Score4: 0.16
 
-1. MoveNext()
-2. ReadLine()
-3. GetToken()
+Received response without candidate 2: I'm sorry, but it seems like the code you provided is not a valid Small Basic programming code. Can you please provide more context or details so I can assist you better?
+SACREBLEU score 5: 24.12588049712987 Counts: [12, 6, 4, 3] Totals: [24, 23, 22, 21] Precisions: [50.0, 26.08695652173913, 18.181818181818183, 14.285714285714286] System length: 24 Reference length: 19 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: Sure, could you please provide more context or code before the "next token or line" part that needs to be completed?
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [25, 24, 23, 22] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 25 Reference length: 19 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.19
 Actual result:  i = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
 
 Parse State: 34	Cursor Position: 1 7
 Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 1.110450029373169 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i
                 '= Expression To Expression OptStep CRStmtCRs EndFor'
-                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression To Expression OptStep CRStmtCRs EndFor'. 
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0928823947906494 seconds
-Received response with candidate: For i = 1 To 10
-For i = 5 To 100 Step 5
-For i = 20 To 1 Step -1
+Received response with candidate 1: = 1 to 10
+                TextWindow.WriteLine(i)
+                EndFor
+SACREBLEU score 1: 27.764336633573038 Counts: [10, 5, 4, 3] Totals: [11, 10, 9, 8] Precisions: [90.9090909090909, 50.0, 44.44444444444444, 37.5] System length: 11 Reference length: 18 
+First element of precision: 90.9090909090909 
+SequenceMatcher Score1: 0.65
+
+Received response with candidate 2: 'For i = 1 To 10
+                '   Print i
+                ' EndFor'
+SACREBLEU score 2: 1.9294673127036233 Counts: [4, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 18 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score2: 0.37
+
+Received response with candidate 3: = 1 To 10
+                TextWindow.WriteLine(i)
+                EndFor
+SACREBLEU score 3: 2.965835071184179 Counts: [5, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 18 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score3: 0.46
 
                 This is the incomplete Small Basic programming language code:
                 For i
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. i = i + 1
-2. i++
-3. i = i - 1
+Received response without candidate 1: loop = 1 To 10
+                'Next loop'
+SACREBLEU score 4: 3.066805947889701 Counts: [7, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [70.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 18 
+First element of precision: 70.0 
+SequenceMatcher Score4: 0.34
+
+Received response without candidate 2: , i = 1 To 10
+Ultimate()
+EndWhile
+SACREBLEU score 5: 28.433837214790895 Counts: [11, 5, 4, 3] Totals: [11, 10, 9, 8] Precisions: [100.0, 50.0, 44.44444444444444, 37.5] System length: 11 Reference length: 18 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.66
+
+Received response without candidate 3: i = 1
+
+'next token or line'
+SACREBLEU score 6: 1.7955716566806617 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 18 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score6: 0.32
 Actual result:  = 10 To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
 
 Parse State: 61	Cursor Position: 1 9
 Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+Time taken: 0.6577861309051514 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i =
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.684267520904541 seconds
-Received response with candidate: For i = 1
-For i = 10
-For i = 100
+Received response with candidate 1: 5
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: 10
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.50
+
+Received response with candidate 3: 1
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.80
 
                 This is the incomplete Small Basic programming language code:
                 For i =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. For i = i + 1
-2. For i = i - 1
-3. For i = i * 2
+Received response without candidate 1: i = 1
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.50
+
+Received response without candidate 2: i = 1
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: i = 1
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.50
 Actual result:  10
 
 Parse State: 85	Cursor Position: 1 12
 Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 1.5734660625457764 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10
                 'To Expression OptStep CRStmtCRs EndFor'
-                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.7104747295379639 seconds
-Received response with candidate: 1. To 1 Step -1
-   'Statements to be executed inside the loop'
-EndFor
+Received response with candidate 1: For i = 1 To 10
+'To Expression OptStep CRStmtCRs EndFor'
+SACREBLEU score 1: 3.1307431721723757 Counts: [3, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 16 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score1: 0.36
 
-2. To 100 Step 10
-   'Statements to be executed inside the loop'
+Received response with candidate 2: To 1 Step -1
+  TextWindow.WriteLine(i)
 EndFor
+SACREBLEU score 2: 1.8231094563196564 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 16 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.25
 
-3. To 50 Step 5
-   'Statements to be executed inside the loop'
-EndFor
+Received response with candidate 3: To 1 Step -1
+For i = 10 To 1 Step -1
+'To 1 Step -1 CRStmtCRs EndFor'
+SACREBLEU score 3: 38.30094122800659 Counts: [10, 7, 5, 3] Totals: [11, 10, 9, 8] Precisions: [90.9090909090909, 70.0, 55.55555555555556, 37.5] System length: 11 Reference length: 16 
+First element of precision: 90.9090909090909 
+SequenceMatcher Score3: 0.85
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. To 1
-2. Step -1
-3. End For
+Received response without candidate 1: Next i = 1 to 10
+SACREBLEU score 4: 1.407567834071592 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 16 
+First element of precision: 40.0 
+SequenceMatcher Score4: 0.33
+
+Received response without candidate 2: For i = 10
+EndFor
+SACREBLEU score 5: 9.083627868206413 Counts: [5, 2, 1, 0] Totals: [18, 17, 16, 15] Precisions: [27.77777777777778, 11.764705882352942, 6.25, 3.3333333333333335] System length: 18 Reference length: 16 
+First element of precision: 27.77777777777778 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: step = -1
+While i >= 1
+  TextWindow.WriteLine(i)
+  i = i + step
+EndWhile
+SACREBLEU score 6: 24.515235346013313 Counts: [7, 5, 4, 3] Totals: [20, 19, 18, 17] Precisions: [35.0, 26.31578947368421, 22.22222222222222, 17.647058823529413] System length: 20 Reference length: 16 
+First element of precision: 35.0 
+SequenceMatcher Score6: 0.59
 Actual result:  To 1 Step - 1 \n TextWindow . WriteLine ( i ) \n EndFor
 
 Parse State: 95	Cursor Position: 1 15
 Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+Time taken: 0.5959947109222412 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7826290130615234 seconds
-Received response with candidate: For i = 10 To 20
-For i = 10 To 100
-For i = 10 To 50
+Received response with candidate 1: 50
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: 20
+SACREBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score2: 0.10
+
+Received response with candidate 3: 20
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 'next token or line' may be:
+Received response without candidate 1: i 
+For i = 10 To 1
 
-1. 20
-2. i + 2
-3. 10 * 2
+'next token or line'
+SACREBLEU score 4: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score4: 0.04
+
+Received response without candidate 2: i Step -1
+                   or
+                   1 Step -2
+                   or
+                   15 Step 1
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
+
+Received response without candidate 3: i = 10 To 1
+SACREBLEU score 6: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.31
 Actual result:  1
 
 Parse State: 105	Cursor Position: 1 17
 Candidate List: ['1 : ', '[T, Step, NT, Expr] : 1556']
+Time taken: 0.7587590217590332 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1
                 'Step Expression'
-                Complete the 'Step Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Step Expression'. 
+                Complete the 'Step Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.686845064163208 seconds
-Received response with candidate: 1. Step -1
-2. Step -2
-3. Step 2
+Received response with candidate 1: i = i - 1
+SACREBLEU score 1: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 3 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.56
+
+Received response with candidate 2: Step -1
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.18
+
+Received response with candidate 3: Step -1
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.88
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine(i)
-2. TextWindow.DrawText(100, 100, i)
-3. GraphicsWindow.DrawBoundText(50, 50, 100, 100, i)
+Received response without candidate 1: Next
+                   i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.25
+
+Received response without candidate 2: 
+Next i
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.88
+
+Received response without candidate 3: End For
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.12
 Actual result:  Step - 1
 
 Parse State: 111	Cursor Position: 1 22
 Candidate List: ['1 : ', '[T, NUM] : 749', '2 : ', '[T, -, NT, Primary] : 572', '3 : ', '[T, ID] : 208', '4 : ', '[T, ID, NT, Idxs] : 21', '5 : ', '[T, (, NT, Expr, T, )] : 5', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1']
+Time taken: 0.8338234424591064 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step
                 '- Primary'
-                Complete the '- Primary' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '- Primary'. 
+                Complete the '- Primary' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7540860176086426 seconds
-Received response with candidate: - Primary
-i
-- Primary
-i * i
-- Primary
-"Number " + i
+Received response with candidate 1: i -= 1
+SACREBLEU score 1: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.80
+
+Received response with candidate 2: - Primary
+  TextWindow.WriteLine(i)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: - Primary
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 3: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 2 
+First element of precision: 12.5 
+SequenceMatcher Score3: 0.10
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Next i
-2. Next
-3. End For
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.20
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 2 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score5: 0.09
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.20
 Actual result:  - 1
 
 Parse State: 24	Cursor Position: 1 23
 Candidate List: ['1 : ', '[T, NUM] : 10997', '2 : ', '[T, ID] : 1722', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 517', '4 : ', '[T, ID, NT, Idxs] : 408', '5 : ', '[T, (, NT, Expr, T, )] : 84', '6 : ', '[T, ID, T, ., T, ID] : 24']
+Time taken: 0.8123805522918701 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.231114387512207 seconds
-Received response with candidate: 1. TextWindow.WriteLine(i)
-2. TextWindow.ReadNumber()
-3. GraphicsWindow.DrawBoundText(i, i, i)
+Received response with candidate 1: i	         
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.15
+
+Received response with candidate 2: For i = 10 To 1 Step -1
+'Number'
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: i
+SACREBLEU score 3: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score3: 0.12
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 'next token or line'
-                EndFor
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.25
 
-'next token or line'
-                i = i - 1
+Received response without candidate 2: Next i
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
 
-'next token or line'
-                EndFor i
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.25
 Actual result:  1
 
 Parse State: 110	Cursor Position: 1 27
 Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+Time taken: 0.9510073661804199 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1
                 'CR TheRest'
-                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7483582496643066 seconds
-Received response with candidate: 1. TextWindow.WriteLine(i)
-2. TextWindow.Write(i + " ")
-3. TextWindow.WriteLine("")
+Received response with candidate 1: TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 1: 52.98765308495279 Counts: [6, 5, 4, 3] Totals: [8, 7, 6, 5] Precisions: [75.0, 71.42857142857143, 66.66666666666667, 60.0] System length: 8 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.71
+
+Received response with candidate 2: TextWindow.WriteLine("i =" + i)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 10 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: For i = 10 To 1 Step -1
+  TextWindow.WriteLine(i)
+'CR TheRest'
+SACREBLEU score 3: 27.901593935858266 Counts: [6, 4, 2, 1] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 40.0, 22.22222222222222, 12.5] System length: 11 Reference length: 10 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score3: 0.73
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine(i)
-2. If i Mod 2 = 0 Then
-3. EndFor
+Received response without candidate 1: EndFor
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.24
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 30.130404892785695 Counts: [6, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [37.5, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 10 
+First element of precision: 37.5 
+SequenceMatcher Score5: 0.54
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.24
 Actual result:  \n TextWindow . WriteLine ( i ) \n
 
 Parse State: 39	Cursor Position: 2 2
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+Time taken: 1.0327587127685547 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.090001106262207 seconds
-Received response with candidate: 1. GraphicsWindow.DrawText(i, i, "Countdown: " + i)
+Received response with candidate 1: GraphicsWindow.DrawLine(x1, y1, x2, y2)
+SACREBLEU score 1: 4.456882760699063 Counts: [3, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [25.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 6 
+First element of precision: 25.0 
+SequenceMatcher Score1: 0.47
 
-2. TextWindow.WriteLine(Math.GetRandomNumber(1, i))
+Received response with candidate 2: Math.Factorial(i)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.23
 
-3. Shapes.Move(Shapes.Get("Shape" + i), i * 10, i * 10)
+Received response with candidate 3: TextWindow.WriteLine(i)
+SACREBLEU score 3: 32.46679154750991 Counts: [4, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.30
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine(i)
-2. If i % 2 = 0 Then
-3. i = i - 1
+Received response without candidate 1: EndFor
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.29
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.88
+
+Received response without candidate 3: iMessageBox(i)
+                EndFor
+SACREBLEU score 6: 32.555630133216134 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 6 
+First element of precision: 60.0 
+SequenceMatcher Score6: 0.15
 Actual result:  TextWindow . WriteLine ( i )
 
 Parse State: 6	Cursor Position: 2 12
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.9263911247253418 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9867231845855713 seconds
-Received response with candidate: 1. .Print("Countdown: " + i)
-2. .WriteLine("Value of i: " + i)
-3. .DrawText(100, 100, i)
+Received response with candidate 1: .WriteLine("Countdown: " + i)
+SACREBLEU score 1: 19.64073254502565 Counts: [5, 3, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 33.333333333333336, 12.5, 7.142857142857143] System length: 10 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.60
+
+Received response with candidate 2: .WriteLine("Countdown: " & i)
+SACREBLEU score 2: 20.556680845025987 Counts: [3, 2, 1, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 28.571428571428573, 16.666666666666668, 10.0] System length: 8 Reference length: 5 
+First element of precision: 37.5 
+SequenceMatcher Score2: 0.40
+
+Received response with candidate 3: .WriteLine(i)
+                '. Identifier ( Expression )'
+SACREBLEU score 3: 19.64073254502565 Counts: [5, 3, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 33.333333333333336, 12.5, 7.142857142857143] System length: 10 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.60
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: Next i
-Next
-EndFor
+Received response without candidate 1: `"Print(i)"`
+SACREBLEU score 4: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 5 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.37
+
+Received response without candidate 2: i = i - 1
+SACREBLEU score 5: 31.702331385234313 Counts: [5, 4, 3, 2] Totals: [12, 11, 10, 9] Precisions: [41.666666666666664, 36.36363636363637, 30.0, 22.22222222222222] System length: 12 Reference length: 5 
+First element of precision: 41.666666666666664 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: .WriteLine("Countdown: " + i)
+SACREBLEU score 6: 19.64073254502565 Counts: [5, 3, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 33.333333333333336, 12.5, 7.142857142857143] System length: 10 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.60
 Actual result:  . WriteLine ( i )
 
 Parse State: 30	Cursor Position: 2 13
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.7841341495513916 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2312872409820557 seconds
-Received response with candidate: 1. WriteLine("Countdown: " + i)
-2. DrawText(100, i*20, "Number: " + i)
-3. SetBackgroundAlpha((10-i)*25)
+Received response with candidate 1: WriteLine("Countdown: " + i)
+SACREBLEU score 1: 13.485111859503691 Counts: [4, 2, 0, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 4 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score1: 0.59
+
+Received response with candidate 2: Write("Countdown: " + i)
+SACREBLEU score 2: 10.552670315936318 Counts: [3, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.35
+
+Received response with candidate 3: Write("Countdown: " + i)
+            EndFor
+SACREBLEU score 3: 10.552670315936318 Counts: [3, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.45
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. 'Write("i: " + i)'
-2. 'WriteLine(i)'
-3. 'Pause(1000)'
+Received response without candidate 1: Print("Countdown: " + i)
+SACREBLEU score 4: 6.837203339116283 Counts: [3, 1, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 8.333333333333334, 4.545454545454546, 2.5] System length: 13 Reference length: 4 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score4: 0.26
+
+Received response without candidate 2: Write("Countdown: " + i)
+'next token or line'
+SACREBLEU score 5: 9.287528999566801 Counts: [3, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [30.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 4 
+First element of precision: 30.0 
+SequenceMatcher Score5: 0.31
+
+Received response without candidate 3: DrawText("Countdown: " + i, 100, 100)
+SACREBLEU score 6: 4.065425428798724 Counts: [3, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 4 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score6: 0.26
 Actual result:  WriteLine ( i )
 
 Parse State: 58	Cursor Position: 2 22
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.7270412445068359 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4341304302215576 seconds
-Received response with candidate: For i = 10 To 1 Step -1   
-    TextWindow.WriteLine(i)
-    
-For i = 10 To 1 Step -1   
-    TextWindow.WriteLine("Countdown: " + i)
-    
-For i = 10 To 1 Step -1   
-    TextWindow.WriteLine("Number: " + i + " squared is
+Received response with candidate 1: TextWindow.WriteLine("Countdown: " + i)
+SACREBLEU score 1: 8.29519350710986 Counts: [3, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 3 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score1: 0.18
+
+Received response with candidate 2: i
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.29
+
+Received response with candidate 3: TextWindow.WriteLine(i)
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.29
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: Next i  
-Next  
-EndFor
+Received response without candidate 1: i
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.33
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 30.213753973567677 Counts: [3, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.14
+
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.29
 Actual result:  ( i )
 
 Parse State: 83	Cursor Position: 2 23
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.6839089393615723 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(
                 'Identifier'
-                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7720773220062256 seconds
-Received response with candidate: 1. "Countdown: " + i
-2. "Number: " + i
-3. "Iteration: " + i
+Received response with candidate 1: i
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: "Countdown: " + i
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.67
+
+Received response with candidate 3: i
+SACREBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score3: 0.21
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: For i = 10 To 1 Step -1   
-	TextWindow.WriteLine(i) 
-Next i
+Received response without candidate 1: i
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.67
 
-For i = 10 To 1 Step -1   
-	If i % 2 = 0 Then
-		TextWindow.WriteLine(i)
-	EndIf
-Next i
+Received response without candidate 2: i
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
 
-For i = 10 To 1 Step -1   
-	If i =
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.67
 Actual result:  i
 
 Parse State: 92	Cursor Position: 2 24
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.792809247970581 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.609358549118042 seconds
-Received response with candidate: 1) )
-2) ))
-3) )))
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: )
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: ).
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 'Next i'
-2. 'EndFor'
-3. 'End For'
+Received response without candidate 1: Next
+SACREBLEU score 4: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score4: 0.05
+
+Received response without candidate 2: For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                'EndFor'
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: Next
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
 Actual result:  )
 
 Parse State: 65	Cursor Position: 2 26
 Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+Time taken: 1.344081163406372 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i)
                 'CR TheRest'
-                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9485340118408203 seconds
-Received response with candidate: 
-CR TextWindow.WriteLine("Countdown complete!")
-CR i = i - 1
-CR If i = 5 Then
-    TextWindow.WriteLine("Halfway there!")
-ENDIF
+Received response with candidate 1: For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                i = i - 1
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 21 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.04
+
+Received response with candidate 2: For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+    'CR TheRest'
+   If i = 1 Then
+    	TextWindow.WriteLine("Blast off!")
+   EndIf
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                
+                'CR TheRest'
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 32 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.03
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. EndFor
+Received response without candidate 1: For i = 10 To 1 Step -1   
+    TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.08
 
-2. Next i
+Received response without candidate 2: 'Decrement i'
+'EndFor'
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 18 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.03
 
-3. Loop
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.22
 Actual result:  \n
 
 Parse State: 114	Cursor Position: 3 1
 Candidate List: ['1 : ', '[T, EndFor] : 14018']
+Time taken: 0.6905388832092285 seconds
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i)
                 'EndFor'
-                Complete the 'EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'EndFor'. 
+                Complete the 'EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8339126110076904 seconds
-Received response with candidate: 1. 'EndFor'
+Received response with candidate 1: EndFor
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.92
 
-2. 'EndFor #1'
+Received response with candidate 2: 'EndFor'
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.15
 
-3. 'EndFor Loop'
+Received response with candidate 3: EndFor
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.80
 
                 This is the incomplete Small Basic programming language code:
                 For i = 10 To 1 Step -1   
 	TextWindow.WriteLine(i)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. EndFor
-2. EndFor i
-3. Next i
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.15
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.92
+
+Received response without candidate 3: For i = 10 To 1 Step -1   
+	TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.09
 Actual result:  EndFor
 
+Average Precision with Candidate Guidance: 49.43883277216611
+Average Precision without Candidate Guidance: 24.007744604759534
+Average Sequence Matcher Similarity with Candidate Guidance: 47.89880821456963
+Average Sequence Matcher Similarity without Candidate Guidance: 26.00338132016778

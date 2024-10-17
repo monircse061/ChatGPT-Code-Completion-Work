@@ -1,601 +1,1123 @@
 Parse State: 0	Cursor Position: 1 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 1.301314353942871 seconds
 
                 This is the incomplete Small Basic programming language code:
                 
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9726336002349854 seconds
-Received response with candidate: 1. Turtle.Move(100)
-2. GraphicsWindow.DrawText("Hello", 50, 50)
-3. Shapes.AddEllipse(200, 200)
+Received response with candidate 1: TextWindow.WriteLine("Hello, World!")
+SACREBLEU score 1: 12.982679446701692 Counts: [6, 3, 0, 0] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 30.0, 5.555555555555555, 3.125] System length: 11 Reference length: 11 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score1: 0.53
+
+Received response with candidate 2: My apologies, but it seems like the code snippet you provided does not give enough context to complete it properly. Could you please provide more information or a specific example so that I can assist you better?
+SACREBLEU score 2: 1.286713095960916 Counts: [1, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 11 
+First element of precision: 3.4482758620689653 
+SequenceMatcher Score2: 0.19
+
+Received response with candidate 3: Math.GetRandomNumber(100)
+SACREBLEU score 3: 0.918708060432945 Counts: [1, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783] System length: 40 Reference length: 11 
+First element of precision: 2.5 
+SequenceMatcher Score3: 0.16
 
                 This is the incomplete Small Basic programming language code:
                 
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 'next token or line'
-2. 'continue with the next iteration'
-3. 'move to the next item'
+Received response without candidate 1: Sure, I'd be happy to help complete the code for you. Can you please provide the specific code that you would like me to assist with?
+SACREBLEU score 4: 1.9822566267103439 Counts: [3, 0, 0, 0] Totals: [25, 24, 23, 22] Precisions: [12.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182] System length: 25 Reference length: 11 
+First element of precision: 12.0 
+SequenceMatcher Score4: 0.17
+
+Received response without candidate 2: Sure, here is the completed code for 'next token':
+
+```
+'next token 
+currentToken = GetNextToken(currentIndex)
+```
+SACREBLEU score 5: 4.642454187453896 Counts: [3, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 11 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.21
+
+Received response without candidate 3: Sure, here is a completion for the 'next token or line' part of the code:
+
+```
+If Text.IsSubText("text", "ext") Then
+  TextWindow.WriteLine("Subtext found.")
+EndIf
+```
+SACREBLEU score 6: 2.738135694298231 Counts: [7, 3, 0, 0] Totals: [48, 47, 46, 45] Precisions: [14.583333333333334, 6.382978723404255, 1.0869565217391304, 0.5555555555555556] System length: 48 Reference length: 11 
+First element of precision: 14.583333333333334 
+SequenceMatcher Score6: 0.24
 Actual result:  TextWindow . Write ( "Enter your Name: " )
 
 Parse State: 6	Cursor Position: 1 11
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.7566056251525879 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8725831508636475 seconds
-Received response with candidate: 1. WriteLine("Hello World")
-2. DrawTriangle(100, 200)
-3. SetBackgroundColour("blue")
+Received response with candidate 1: .WriteLine("Hello World!")
+SACREBLEU score 1: 12.759307794697138 Counts: [5, 2, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 25.0, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 10 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score1: 0.38
+
+Received response with candidate 2: .WriteLine("Hello, world!")
+SACREBLEU score 2: 4.690733795095046 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score2: 0.21
+
+Received response with candidate 3: . Write("Hello World!")
+SACREBLEU score 3: 12.549310621989482 Counts: [5, 2, 0, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 22.22222222222222, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.37
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine("Enter your name:")
-2. name = TextWindow.Read()
-3. age = TextWindow.ReadNumber()
+Received response without candidate 1: .Read()
+SACREBLEU score 4: 4.690733795095046 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score4: 0.21
+
+Received response without candidate 2: .Read()
+SACREBLEU score 5: 31.76215203205584 Counts: [6, 4, 2, 1] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 50.0, 28.571428571428573, 16.666666666666668] System length: 9 Reference length: 10 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.51
+
+Received response without candidate 3: .Read()
+SACREBLEU score 6: 4.690733795095046 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score6: 0.21
 Actual result:  . Write ( "Enter your Name: " )
 
 Parse State: 30	Cursor Position: 1 12
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 1.660146951675415 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.206263542175293 seconds
-Received response with candidate: 1. WriteLine("Hello, World!")
-2. GetColorFromRGB(255, 0, 0)
-3. Math.Power(2, 3)
+Received response with candidate 1: Ignoring the 'Identifier ( Expression )' part, we have the following code:
+TextWindow. 
+
+Please provide the missing information for 'Identifier ( Expression )'.
+SACREBLEU score 1: 1.6934096677198087 Counts: [3, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [10.344827586206897, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 9 
+First element of precision: 10.344827586206897 
+SequenceMatcher Score1: 0.15
+
+Received response with candidate 2: Write("Hello World")
+SACREBLEU score 2: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: Read()
+SACREBLEU score 3: 23.099966849728546 Counts: [5, 3, 1, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 50.0, 20.0, 12.5] System length: 7 Reference length: 9 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score3: 0.48
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: Read() 
-ReadNumber() 
-ReadString()
+Received response without candidate 1: Read()
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.17
+
+Received response without candidate 2: Read()
+SACREBLEU score 5: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.17
+
+Received response without candidate 3: Read()
+SACREBLEU score 6: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.17
 Actual result:  Write ( "Enter your Name: " )
 
 Parse State: 58	Cursor Position: 1 17
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.7210021018981934 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9911665916442871 seconds
-Received response with candidate: 1. TextWindow.Write("Hello World")
-2. TextWindow.Write(5 + 10)
-3. TextWindow.Write("The current time is: " + Clock.Time)
+Received response with candidate 1: (3 + 5)
+SACREBLEU score 1: 6.9717291216921975 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 8 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.26
+
+Received response with candidate 2: "Hello, Small Basic!"
+SACREBLEU score 2: 23.356898886410015 Counts: [6, 3, 1, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 37.5, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.73
+
+Received response with candidate 3: "Hello, World!"
+SACREBLEU score 3: 6.770186228657864 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 8 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score3: 0.31
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "Hello, World!"
-2. "12345"
-3. userInput
+Received response without candidate 1: ("Please enter your name: ")
+SACREBLEU score 4: 15.619699684601276 Counts: [4, 2, 0, 0] Totals: [8, 7, 6, 5] Precisions: [50.0, 28.571428571428573, 8.333333333333334, 5.0] System length: 8 Reference length: 8 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.34
+
+Received response without candidate 2: ("Hello, World!")
+SACREBLEU score 5: 6.916271812933183 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 8 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.26
+
+Received response without candidate 3: ("Enter your name: ")
+SACREBLEU score 6: 50.000000000000014 Counts: [7, 5, 3, 1] Totals: [8, 7, 6, 5] Precisions: [87.5, 71.42857142857143, 50.0, 20.0] System length: 8 Reference length: 8 
+First element of precision: 87.5 
+SequenceMatcher Score6: 0.89
 Actual result:  ( "Enter your Name: " )
 
 Parse State: 83	Cursor Position: 1 18
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 1.399653673171997 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write(
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7552788257598877 seconds
-Received response with candidate: 1. "Hello"
-2. "Small Basic"
-3. "12345"
+Received response with candidate 1: Hello! I can help you with that. 
+Here is a possible completion for the 'String' part of the code:
+``` 
+"Hello World"
+```
+SACREBLEU score 1: 1.526608193588886 Counts: [3, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [9.375, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 6 
+First element of precision: 9.375 
+SequenceMatcher Score1: 0.17
+
+Received response with candidate 2: "Hello, World!"
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.28
+
+Received response with candidate 3: Hello! To complete the code, you can replace 'String' with any word or phrase you want to be displayed on the screen. Something like this:
+                
+                TextWindow.Write('Hello, world!')
+                
+Feel free to let me know if you need more help with the code!
+SACREBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 6 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.29
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.ReadNumber()
-2. TextWindow.Read()
-3. TextWindow.ReadInteger()
+Received response without candidate 1: Please provide more context or details for me to complete the code.
+SACREBLEU score 4: 14.535768424205482 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 6 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score4: 0.50
+
+Received response without candidate 2: "Please enter a value: "
+SACREBLEU score 5: 0.6735878102046051 Counts: [1, 0, 0, 0] Totals: [54, 53, 52, 51] Precisions: [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626] System length: 54 Reference length: 6 
+First element of precision: 1.8518518518518519 
+SequenceMatcher Score5: 0.09
+
+Received response without candidate 3: "Enter a value: "
+SACREBLEU score 6: 22.957488466614336 Counts: [4, 2, 0, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 12.5, 8.333333333333334] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.65
 Actual result:  "Enter your Name: "
 
 Parse State: 92	Cursor Position: 1 37
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 1.0224034786224365 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: "
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9128246307373047 seconds
-Received response with candidate: 1) 
-TextWindow.Write("Enter your Name: ")
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
 
-2)
-TextWindow.Write("Enter your Name: ")
+Received response with candidate 2: )
+SACREBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.11
 
-3)
-TextWindow.Write("Enter your Name: ")
+Received response with candidate 3: TextWindow.Write("Enter your Name: ")
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: "
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. inputName = TextWindow.Read()
-2. name = TextWindow.Read()
-3. nameInput = TextWindow.Read()
+Received response without candidate 1: TextWindow.Read()
+SACREBLEU score 4: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score4: 0.05
+
+Received response without candidate 2: TextWindow.Write("Enter your Name: ")
+'next token or line'
+             
+SACREBLEU score 5: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score5: 0.10
+
+Received response without candidate 3: TextWindow.WriteLine("Hello, " + TextWindow.Read())
+SACREBLEU score 6: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score6: 0.08
 Actual result:  )
 
 Parse State: 3	Cursor Position: 1 39
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.9523158073425293 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ")
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4169061183929443 seconds
-Received response with candidate: TextWindow.WriteLine("Hello " + TextWindow.Read())
+Received response with candidate 1: name = TextWindow.Read()
+SACREBLEU score 1: 13.533528323661276 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 21 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.47
 
+Received response with candidate 2: TextWindow.Write("Enter your Name: ")
 name = TextWindow.Read()
-TextWindow.WriteLine("Hello " + name)
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 2: 13.533528323661276 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 21 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.47
 
-input = TextWindow.Read()
-TextWindow.WriteLine("Hello " + input)
+Received response with candidate 3: name = TextWindow.Read()
+                TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 3: 42.65125548223526 Counts: [17, 14, 12, 10] Totals: [32, 31, 30, 29] Precisions: [53.125, 45.16129032258065, 40.0, 34.48275862068966] System length: 32 Reference length: 21 
+First element of precision: 53.125 
+SequenceMatcher Score3: 0.70
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. userInput = TextWindow.Read()
-2. userName = TextWindow.Read()
-3. name = TextWindow.Read()
+Received response without candidate 1: name = TextWindow.Read()
+SACREBLEU score 4: 13.533528323661276 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 21 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.47
+
+Received response without candidate 2: name = TextWindow.Read()
+SACREBLEU score 5: 66.77604630703735 Counts: [17, 14, 12, 10] Totals: [21, 20, 19, 18] Precisions: [80.95238095238095, 70.0, 63.1578947368421, 55.55555555555556] System length: 21 Reference length: 21 
+First element of precision: 80.95238095238095 
+SequenceMatcher Score5: 0.79
+
+Received response without candidate 3: name = TextWindow.Read()
+SACREBLEU score 6: 13.533528323661276 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 21 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.47
 Actual result:  \n name = TextWindow . Read ( ) \n TextWindow . WriteLine ( "Hello " + name )
 
 Parse State: 11	Cursor Position: 2 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.9427876472473145 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ")
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8769946098327637 seconds
-Received response with candidate: 1. name = TextWindow.Read()
-2. userInput = TextWindow.Read()
-3. player = TextWindow.Read()
+Received response with candidate 1: name = TextWindow.Read()
+SACREBLEU score 1: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.91
+
+Received response with candidate 2: name = TextWindow.Read()
+SACREBLEU score 2: 80.91067115702207 Counts: [6, 5, 4, 3] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 80.0, 75.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score2: 0.87
+
+Received response with candidate 3: name = TextWindow.Read()
+SACREBLEU score 3: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.91
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.ReadNumber()
-3. name = TextWindow.ReadNonWhiteSpaceToken()
+Received response without candidate 1: Name = TextWindow.Read()
+SACREBLEU score 4: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.91
+
+Received response without candidate 2: name = TextWindow.Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.91
+
+Received response without candidate 3: name = TextWindow.Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.91
 Actual result:  name = TextWindow . Read ( )
 
 Parse State: 6	Cursor Position: 2 6
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8666021823883057 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0664525032043457 seconds
-Received response with candidate: 1. name = TextWindow.Read()
+Received response with candidate 1: = TextWindow.Read()
+SACREBLEU score 1: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.88
 
-2. name = TextWindow.ReadNumber()
+Received response with candidate 2: = TextWindow.Read()
+SACREBLEU score 2: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.88
 
-3. name = TextWindow.ReadSecret()
+Received response with candidate 3: = TextWindow.Read()
+SACREBLEU score 3: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.88
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.ReadNumber()
-3. name = TextWindow.Read() + " Smith"
+Received response without candidate 1: = TextWindow.Read()
+SACREBLEU score 4: 80.91067115702207 Counts: [6, 5, 4, 3] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 80.0, 75.0] System length: 7 Reference length: 6 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score4: 0.83
+
+Received response without candidate 2: name = TextWindow.Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.88
+
+Received response without candidate 3: = TextWindow.Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.88
 Actual result:  = TextWindow . Read ( )
 
 Parse State: 29	Cursor Position: 2 8
 Candidate List: ['1 : ', '[T, ID] : 44694', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 42463', '3 : ', '[T, NUM] : 34261', '4 : ', '[T, STR] : 20111', '5 : ', '[T, ID, NT, Idxs] : 8883', '6 : ', '[T, ID, T, ., T, ID] : 6123', '7 : ', '[T, (, NT, Expr, T, )] : 3004', '8 : ', '[T, -, NT, Primary] : 2564']
+Time taken: 0.7236988544464111 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name =
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8727831840515137 seconds
-Received response with candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.ReadNumber()
-3. name = TextWindow.ReadBoolean()
+Received response with candidate 1: TextWindow.ReadLine()
+SACREBLEU score 1: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score1: 0.79
+
+Received response with candidate 2: TextWindow.ReadLine()
+SACREBLEU score 2: 20.105373454060025 Counts: [5, 4, 3, 2] Totals: [18, 17, 16, 15] Precisions: [27.77777777777778, 23.529411764705884, 18.75, 13.333333333333334] System length: 18 Reference length: 5 
+First element of precision: 27.77777777777778 
+SequenceMatcher Score2: 0.42
+
+Received response with candidate 3: TextWindow.Read()
+SACREBLEU score 3: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score3: 0.79
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: name = TextWindow.Read()
-name = TextWindow.ReadNumber()
+Received response without candidate 1: TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read()
+SACREBLEU score 4: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.87
+
+Received response without candidate 2: TextWindow.Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.87
+
+Received response without candidate 3: TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read()
+SACREBLEU score 6: 20.105373454060025 Counts: [5, 4, 3, 2] Totals: [18, 17, 16, 15] Precisions: [27.77777777777778, 23.529411764705884, 18.75, 13.333333333333334] System length: 18 Reference length: 5 
+First element of precision: 27.77777777777778 
+SequenceMatcher Score6: 0.42
 Actual result:  TextWindow . Read ( )
 
 Parse State: 22	Cursor Position: 2 18
 Candidate List: ['1 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, [, NT, Expr, T, ]] : 59127', '3 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 21477', '4 : ', '[T, ., T, ID] : 16490']
+Time taken: 0.884951114654541 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.117997646331787 seconds
-Received response with candidate: 1. .GetCharacters(5, 10)
-2. .Read()
-3. .GetSubText(0, 5)
+Received response with candidate 1: .Write("Read()")
+SACREBLEU score 1: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 4 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score1: 0.52
+
+Received response with candidate 2: ["name.Read()"]
+
+SACREBLEU score 2: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.78
+
+Received response with candidate 3: . Read()
+SACREBLEU score 3: 29.84745896009822 Counts: [4, 3, 2, 1] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 37.5, 28.571428571428573, 16.666666666666668] System length: 9 Reference length: 4 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score3: 0.52
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. .Read()
-2. .ReadLine()
-3. .GetInput()
+Received response without candidate 1: .Read()
+SACREBLEU score 4: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.78
+
+Received response without candidate 2: .Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.84
+
+Received response without candidate 3: .Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.78
 Actual result:  . Read ( )
 
 Parse State: 53	Cursor Position: 2 19
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, ID] : 16490']
+Time taken: 0.635955810546875 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6637024879455566 seconds
-Received response with candidate: Read() 
-Read()
-ReadNumber()
+Received response with candidate 1: Read()
+SACREBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.80
+
+Received response with candidate 2: Read()
+SACREBLEU score 2: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.80
+
+Received response with candidate 3: Read()
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.80
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: Read() 
-ReadString() 
-ReadNumber()
+Received response without candidate 1: Read()
+SACREBLEU score 4: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.80
+
+Received response without candidate 2: Read()
+SACREBLEU score 5: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.80
+
+Received response without candidate 3: Read()
+SACREBLEU score 6: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.80
 Actual result:  Read ( )
 
 Parse State: 79	Cursor Position: 2 23
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 74070']
+Time taken: 0.783482551574707 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1903142929077148 seconds
-Received response with candidate: 1. (name != "")
-2. (Text.GetLength(name) > 0)
-3. (Text.IsAlphaNumeric(name))
+Received response with candidate 1: ()
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: ()
+SACREBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.67
+
+Received response with candidate 3: ()
+SACREBLEU score 3: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.ReadNumber()
-3. name = TextWindow.ReadNonNegativeNumber()
+Received response without candidate 1: ()
+SACREBLEU score 4: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.67
+
+Received response without candidate 2: ()
+SACREBLEU score 5: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: ()
+SACREBLEU score 6: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.67
 Actual result:  ( )
 
 Parse State: 102	Cursor Position: 2 24
 Candidate List: ['1 : ', '[T, )] : 74070']
+Time taken: 0.7105746269226074 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read(
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0309059619903564 seconds
-Received response with candidate: 
-                1) ""
-                2) " "
-                3) TextWindow.ReadLine()
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: .
+SACREBLEU score 2: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: "Please enter your name: ")
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. )
-name = TextWindow.Read()
+Received response without candidate 1: "\""
+                TextWindow.WriteLine(name + ", hello!")
+SACREBLEU score 4: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.11
 
-2. )
-name = TextWindow.ReadNumber()
+Received response without candidate 2: TextWindow.Read()
+SACREBLEU score 5: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score5: 0.14
 
-3. )
-name = TextWindow.ReadNonWhiteSpaceCharacter()
+Received response without candidate 3: TextWindow.ReadLine()
+SACREBLEU score 6: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.09
 Actual result:  )
 
 Parse State: 3	Cursor Position: 2 26
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.832129955291748 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read()
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4931292533874512 seconds
-Received response with candidate: 1. name = Text.ConvertToUpperCase(name)
-2. TextWindow.WriteLine("Hello " + name)
-3. TextWindow.WriteLine("Your name contains " + Text.GetLength(name) + " characters")
+Received response with candidate 1: If you need to perform more than one statement after reading the name, you can use the 'CR MoreThanOneStmt' part of the code like this:
+
+TextWindow.WriteLine("Hello " + name + "!")
+TextWindow.WriteLine("Welcome to our website.")
+SACREBLEU score 1: 14.786996528967281 Counts: [10, 8, 7, 6] Totals: [53, 52, 51, 50] Precisions: [18.867924528301888, 15.384615384615385, 13.72549019607843, 12.0] System length: 53 Reference length: 12 
+First element of precision: 18.867924528301888 
+SequenceMatcher Score1: 0.30
+
+Received response with candidate 2: nameLength = Text.GetLength(name)
+TextWindow.WriteLine("Hello " + name + "! Your name has " + nameLength + " characters.")
+SACREBLEU score 2: 39.10803275292361 Counts: [10, 8, 7, 6] Totals: [21, 20, 19, 18] Precisions: [47.61904761904762, 40.0, 36.8421052631579, 33.333333333333336] System length: 21 Reference length: 12 
+First element of precision: 47.61904761904762 
+SequenceMatcher Score2: 0.70
+
+Received response with candidate 3: TextWindow.WriteLine("Hello, " + name + "! Nice to meet you!")
+SACREBLEU score 3: 25.725582592645956 Counts: [10, 9, 7, 6] Totals: [32, 31, 30, 29] Precisions: [31.25, 29.032258064516128, 23.333333333333332, 20.689655172413794] System length: 32 Reference length: 12 
+First element of precision: 31.25 
+SequenceMatcher Score3: 0.48
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine("Hello " + name)
-2. If name = "John" Then 
-3. TextWindow.WriteLine("Thank you for entering your name!")
+Received response without candidate 1: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 4.546632359631261 Counts: [4, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 12 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score4: 0.17
+
+Received response without candidate 2: name = name.ToUpperCase()
+SACREBLEU score 5: 30.82627646062185 Counts: [10, 7, 5, 3] Totals: [20, 19, 18, 17] Precisions: [50.0, 36.8421052631579, 27.77777777777778, 17.647058823529413] System length: 20 Reference length: 12 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.70
+
+Received response without candidate 3: name = name.ToLower() 
+
+Note: This code takes the inputted name and converts it to lowercase before storing it in the variable.
+SACREBLEU score 6: 1.962672844874697 Counts: [4, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [14.814814814814815, 1.9230769230769231, 1.0, 0.5208333333333334] System length: 27 Reference length: 12 
+First element of precision: 14.814814814814815 
+SequenceMatcher Score6: 0.16
 Actual result:  \n TextWindow . WriteLine ( "Hello " + name )
 
 Parse State: 11	Cursor Position: 3 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 1.270787239074707 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read()
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.188096046447754 seconds
-Received response with candidate: 1. name.Length
-2. name.ToUpper()
-3. Text.GetLength(name)
+Received response with candidate 1:  TextWindow.Write("Hello, " + name + "!")
+SACREBLEU score 1: 19.251614434393563 Counts: [9, 5, 2, 0] Totals: [15, 14, 13, 12] Precisions: [60.0, 35.714285714285715, 15.384615384615385, 4.166666666666667] System length: 15 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.83
+
+Received response with candidate 2: TextWindow.Write("Hello " + name + "!")
+SACREBLEU score 2: 30.82627646062185 Counts: [10, 7, 5, 3] Totals: [20, 19, 18, 17] Precisions: [50.0, 36.8421052631579, 27.77777777777778, 17.647058823529413] System length: 20 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.72
+
+Received response with candidate 3: TextWindow.WriteLine("Hello, " + name + "!")
+SACREBLEU score 3: 40.52587697205425 Counts: [9, 6, 4, 3] Totals: [14, 13, 12, 11] Precisions: [64.28571428571429, 46.15384615384615, 33.333333333333336, 27.272727272727273] System length: 14 Reference length: 10 
+First element of precision: 64.28571428571429 
+SequenceMatcher Score3: 0.83
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.Write("Hello " + name + "! Thanks for entering your name.")
-2. If name = "John" Then
-     TextWindow.WriteLine("Hello, John! Welcome back.")
-   Else
-     TextWindow.WriteLine("Nice to meet you, " + name + ".")
-3. For i = 1 To name.Length
+Received response without candidate 1: TextWindow.WriteLine("Hello, " + name + "! Nice to meet you!")
+SACREBLEU score 4: 39.10803275292361 Counts: [10, 8, 7, 6] Totals: [21, 20, 19, 18] Precisions: [47.61904761904762, 40.0, 36.8421052631579, 33.333333333333336] System length: 21 Reference length: 10 
+First element of precision: 47.61904761904762 
+SequenceMatcher Score4: 0.70
 
+Received response without candidate 2: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 5: 42.311785416105785 Counts: [10, 7, 5, 3] Totals: [15, 14, 13, 12] Precisions: [66.66666666666667, 50.0, 38.46153846153846, 25.0] System length: 15 Reference length: 10 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.87
+
+Received response without candidate 3: TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 6: 61.153805769010226 Counts: [10, 8, 7, 6] Totals: [14, 13, 12, 11] Precisions: [71.42857142857143, 61.53846153846154, 58.333333333333336, 54.54545454545455] System length: 14 Reference length: 10 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score6: 0.88
 Actual result:  TextWindow . WriteLine ( "Hello " + name )
 
 Parse State: 6	Cursor Position: 3 11
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8175454139709473 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7737057209014893 seconds
-Received response with candidate: .Write("Hello " + name + "!") 
+Received response with candidate 1: .Write("Hello " + name + "!")
+SACREBLEU score 1: 40.89601472043678 Counts: [8, 5, 4, 3] Totals: [13, 12, 11, 10] Precisions: [61.53846153846154, 41.666666666666664, 36.36363636363637, 30.0] System length: 13 Reference length: 9 
+First element of precision: 61.53846153846154 
+SequenceMatcher Score1: 0.79
 
-.WriteLine("Your name is " + name) 
+Received response with candidate 2: .WriteLine("Hello " + name + "!")
+SACREBLEU score 2: 57.60844201603898 Counts: [9, 7, 6, 5] Totals: [13, 12, 11, 10] Precisions: [69.23076923076923, 58.333333333333336, 54.54545454545455, 50.0] System length: 13 Reference length: 9 
+First element of precision: 69.23076923076923 
+SequenceMatcher Score2: 0.86
 
-.Pause()
+Received response with candidate 3: . WriteLine("Hello " + name + "!")
+SACREBLEU score 3: 57.60844201603898 Counts: [9, 7, 6, 5] Totals: [13, 12, 11, 10] Precisions: [69.23076923076923, 58.333333333333336, 54.54545454545455, 50.0] System length: 13 Reference length: 9 
+First element of precision: 69.23076923076923 
+SequenceMatcher Score3: 0.86
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .WriteLine("Hello " + name) 
+Received response without candidate 1: .WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 57.60844201603898 Counts: [9, 7, 6, 5] Totals: [13, 12, 11, 10] Precisions: [69.23076923076923, 58.333333333333336, 54.54545454545455, 50.0] System length: 13 Reference length: 9 
+First element of precision: 69.23076923076923 
+SequenceMatcher Score4: 0.86
 
-.WriteLine("Nice to meet you, " + name) 
+Received response without candidate 2: .WriteLine("Hello " + name + "!")
+SACREBLEU score 5: 57.60844201603898 Counts: [9, 7, 6, 5] Totals: [13, 12, 11, 10] Precisions: [69.23076923076923, 58.333333333333336, 54.54545454545455, 50.0] System length: 13 Reference length: 9 
+First element of precision: 69.23076923076923 
+SequenceMatcher Score5: 0.88
 
-.WriteLine("Welcome, " + name)
+Received response without candidate 3: .WriteLine("Hello " + name + "!")
+SACREBLEU score 6: 57.60844201603898 Counts: [9, 7, 6, 5] Totals: [13, 12, 11, 10] Precisions: [69.23076923076923, 58.333333333333336, 54.54545454545455, 50.0] System length: 13 Reference length: 9 
+First element of precision: 69.23076923076923 
+SequenceMatcher Score6: 0.86
 Actual result:  . WriteLine ( "Hello " + name )
 
 Parse State: 30	Cursor Position: 3 12
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.8396956920623779 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9568238258361816 seconds
-Received response with candidate: TextWindow.WriteLine("Hello " + name)
-TextWindow.WriteLine("Your name is: " + name)
-TextWindow.WriteLine("Welcome " + name)
+Received response with candidate 1: Write("Hello " + name + "!")
+SACREBLEU score 1: 43.36189090348677 Counts: [7, 5, 4, 3] Totals: [12, 11, 10, 9] Precisions: [58.333333333333336, 45.45454545454545, 40.0, 33.333333333333336] System length: 12 Reference length: 8 
+First element of precision: 58.333333333333336 
+SequenceMatcher Score1: 0.79
+
+Received response with candidate 2: Write("Hello " + name + "!")
+SACREBLEU score 2: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.35
+
+Received response with candidate 3: Write("Hello " + name + "!")
+SACREBLEU score 3: 43.36189090348677 Counts: [7, 5, 4, 3] Totals: [12, 11, 10, 9] Precisions: [58.333333333333336, 45.45454545454545, 40.0, 33.333333333333336] System length: 12 Reference length: 8 
+First element of precision: 58.333333333333336 
+SequenceMatcher Score3: 0.79
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: TextWindow.Write("Hello " + name)
-TextWindow.WriteLine("Hello " + name)
-TextWindow.Title = "Hello " + name
+Received response without candidate 1: ReadLine()
+SACREBLEU score 4: 53.3167536340577 Counts: [8, 6, 5, 4] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 54.54545454545455, 50.0, 44.44444444444444] System length: 12 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.89
+
+Received response without candidate 2:  WriteLine("Hello " + name + "!")
+SACREBLEU score 5: 43.36189090348677 Counts: [7, 5, 4, 3] Totals: [12, 11, 10, 9] Precisions: [58.333333333333336, 45.45454545454545, 40.0, 33.333333333333336] System length: 12 Reference length: 8 
+First element of precision: 58.333333333333336 
+SequenceMatcher Score5: 0.79
+
+Received response without candidate 3: Write("Hello " + name + "!")
+SACREBLEU score 6: 43.36189090348677 Counts: [7, 5, 4, 3] Totals: [12, 11, 10, 9] Precisions: [58.333333333333336, 45.45454545454545, 40.0, 33.333333333333336] System length: 12 Reference length: 8 
+First element of precision: 58.333333333333336 
+SequenceMatcher Score6: 0.79
 Actual result:  WriteLine ( "Hello " + name )
 
 Parse State: 58	Cursor Position: 3 21
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.687096357345581 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.206580400466919 seconds
-Received response with candidate: 1. ("Hello " + name + "! Welcome.")
-2. ("Nice to meet you, " + name + ".")
-3. ("Greetings, " + name + "!")
+Received response with candidate 1: (name)
+SACREBLEU score 1: 0.0 Counts: [3, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 50.0, 50.0, 0.0] System length: 3 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.46
+
+Received response with candidate 2: (name)
+SACREBLEU score 2: 5.300156689756295 Counts: [6, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [50.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 7 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: (name)
+SACREBLEU score 3: 0.0 Counts: [3, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 50.0, 50.0, 0.0] System length: 3 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.46
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. ("Hello " + name + "! Welcome!") 
-2. (name + ", it's nice to meet you!")
-3. ("Nice to see you, " + name + ".")
+Received response without candidate 1: (name + ", welcome to the program!")
+SACREBLEU score 4: 7.4618647400245575 Counts: [6, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 7 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.34
+
+Received response without candidate 2: (name + ", Welcome!")
+SACREBLEU score 5: 0.0 Counts: [3, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 50.0, 50.0, 0.0] System length: 3 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.46
+
+Received response without candidate 3: (name + ", welcome to our program!")
+SACREBLEU score 6: 5.300156689756295 Counts: [6, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [50.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 7 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.25
 Actual result:  ( "Hello " + name )
 
 Parse State: 83	Cursor Position: 3 22
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 1.1479506492614746 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine(
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9889233112335205 seconds
-Received response with candidate: TextWindow.WriteLine("Hello " + name + "!") 
-TextWindow.WriteLine("Nice to meet you, " + name + "!") 
-TextWindow.WriteLine("Welcome, " + name + "!")
+Received response with candidate 1: name + ", your name has " + Text.GetLength(name) + " characters."
+SACREBLEU score 1: 2.276859592073037 Counts: [2, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [10.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 3 
+First element of precision: 10.0 
+SequenceMatcher Score1: 0.14
+
+Received response with candidate 2: name + ", welcome to the program!")
+SACREBLEU score 2: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.33
+
+Received response with candidate 3: name + ", welcome to our website!")
+SACREBLEU score 3: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 3 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score3: 0.32
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "Hello " + name + ", nice to meet you!"
-2. "Welcome, " + name + "!"
-3. "Thanks for entering your name, " + name + "."
+Received response without candidate 1: name + ", welcome to the program!"
+SACREBLEU score 4: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 3 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score4: 0.29
+
+Received response without candidate 2: name + ", it's nice to meet you!"
+SACREBLEU score 5: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 3 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score5: 0.32
+
+Received response without candidate 3: name + ", welcome to Small Basic!"
+SACREBLEU score 6: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.33
 Actual result:  "Hello "
 
 Parse State: 18	Cursor Position: 3 31
 Candidate List: ['1 : ', '[T, +, NT, MultiplicativeExpr] : 95446', '2 : ', '[T, -, NT, MultiplicativeExpr] : 41871']
+Time taken: 0.7920699119567871 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello "
                 '+ MultiplicativeExpr'
-                Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+                Complete the '+ MultiplicativeExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1110577583312988 seconds
-Received response with candidate: 1. TextWindow.WriteLine("Hello " + name + ", how are you?")
-2. TextWindow.WriteLine("Hello " + name + ", welcome to our program!")
-3. TextWindow.WriteLine("Hello " + name + ", it's nice to meet you!")
+Received response with candidate 1: name + ", nice to meet you!")
+SACREBLEU score 1: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 2 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score1: 0.22
+
+Received response with candidate 2: name + "! Welcome to the Small Basic programming language."
+SACREBLEU score 2: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 2 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score2: 0.60
+
+Received response with candidate 3: name + ", welcome to the Small Basic community!"
+SACREBLEU score 3: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 2 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score3: 0.12
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello "
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: TextWindow.WriteLine("Hello " + name)
-'next token or line'
-TextWindow.WriteLine("Hello, " + name)
-'next token or line'
-TextWindow.WriteLine("Hello there, " + name)
-'next token or line'
+Received response without candidate 1: + name + "!")
+SACREBLEU score 4: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 2 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score4: 0.60
+
+Received response without candidate 2: + name + "!")
+SACREBLEU score 5: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.15
+
+Received response without candidate 3: + name + "!")
+SACREBLEU score 6: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 2 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score6: 0.60
 Actual result:  + name
 
 Parse State: 48	Cursor Position: 3 33
 Candidate List: ['1 : ', '[T, ID] : 38463', '2 : ', '[T, NUM] : 30206', '3 : ', '[T, STR] : 15165', '4 : ', '[T, ID, NT, Idxs] : 7164', '5 : ', '[T, (, NT, Expr, T, )] : 3656', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 2629', '7 : ', '[T, ID, T, ., T, ID] : 322', '8 : ', '[T, -, NT, Primary] : 9']
+Time taken: 0.6031732559204102 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello " +
                 'Identifier'
-                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0046210289001465 seconds
-Received response with candidate: 1. name
-2. name.ToUpper()
-3. name.Length
+Received response with candidate 1: name
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.89
+
+Received response with candidate 2: name
+SACREBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score2: 0.24
+
+Received response with candidate 3: name
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.89
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello " +
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name
-2. name + "!"
-3. name + ", nice to meet you!"
+Received response without candidate 1: name + ", nice to meet you!")
+SACREBLEU score 4: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score4: 0.20
+
+Received response without candidate 2: name + "! Welcome to the program!")
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.89
+
+Received response without candidate 3: name + "!"
+SACREBLEU score 6: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.53
 Actual result:  name
 
 Parse State: 92	Cursor Position: 3 37
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.6833586692810059 seconds
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello " + name
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8996763229370117 seconds
-Received response with candidate: 1) + "!")
-2) + ", nice to meet you!")
-3) + ", how are you today?")
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: )
+SACREBLEU score 2: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score2: 0.12
+
+Received response with candidate 3: + "!")
+'
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 TextWindow.Write("Enter your Name: ") 
 name = TextWindow.Read() 
 TextWindow.WriteLine("Hello " + name
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. + "! Nice to meet you."  
-2. & ", how are you today?"  
-3. + ". Welcome to the program." 
+Received response without candidate 1: + ", welcome to the program!")
+SACREBLEU score 4: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score4: 0.09
+
+Received response without candidate 2: + ", welcome to the Small Basic community!")
+SACREBLEU score 5: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.40
+
+Received response without candidate 3: + "! Welcome to Small Basic!")
+SACREBLEU score 6: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score6: 0.12
 Actual result:  )
 
+Average Precision with Candidate Guidance: 66.13855737885115
+Average Precision without Candidate Guidance: 57.8438373220982
+Average Sequence Matcher Similarity with Candidate Guidance: 56.24428373366911
+Average Sequence Matcher Similarity without Candidate Guidance: 47.827305286387514

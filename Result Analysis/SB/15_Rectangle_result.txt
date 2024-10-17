@@ -1,512 +1,922 @@
 Parse State: 0	Cursor Position: 1 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 1.4171521663665771 seconds
 
                 This is the incomplete Small Basic programming language code:
                 
                 'Identifier . Identifier = Expression'
-                Complete the 'Identifier . Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier = Expression'. 
+                Complete the 'Identifier . Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7811870574951172 seconds
-Received response with candidate: 1. car.speed = 50
-2. person.age = 30
-3. dog.breed = "Labrador Retriever"
+Received response with candidate 1: Sorry, I am unable to assist with incomplete programming tasks. If you have any Small Basic code that you would like help with or if you have any specific questions, please feel free to ask!
+SACREBLEU score 1: 0.9432284668356838 Counts: [1, 0, 0, 0] Totals: [39, 38, 37, 36] Precisions: [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222] System length: 39 Reference length: 5 
+First element of precision: 2.5641025641025643 
+SequenceMatcher Score1: 0.07
+
+Received response with candidate 2: I'm ready to help! Please provide the specific 'Identifier', 'Expression', and any other details needed to complete the code.
+SACREBLEU score 2: 1.286713095960916 Counts: [1, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 5 
+First element of precision: 3.4482758620689653 
+SequenceMatcher Score2: 0.10
+
+Received response with candidate 3: Sure, I can help with that. Please provide the specific 'Identifier . Identifier = Expression' part of the code that you would like me to complete.
+SACREBLEU score 3: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 5 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score3: 0.16
 
                 This is the incomplete Small Basic programming language code:
                 
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 'next token or line'
-2. 'move to the next element'
-3. 'advance to the next iteration'
+Received response without candidate 1: Sure, I can help with that. What is the current state of the code that needs completion and I can provide the next token or line?
+SACREBLEU score 4: 0.6950744244935309 Counts: [2, 0, 0, 0] Totals: [62, 61, 60, 59] Precisions: [3.225806451612903, 0.819672131147541, 0.4166666666666667, 0.211864406779661] System length: 62 Reference length: 5 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score4: 0.10
+
+Received response without candidate 2: Here is one possible completion for the 'next token or line' part of the code:
+
+```
+if Text.GetTokenCount(input) > 0
+  token = Text.GetSubText(input, 1, 1)
+  input = Text.GetSubText(input, 2, Text.GetLength(input) - 1)
+  TextWindow.WriteLine
+SACREBLEU score 5: 1.5301683686839007 Counts: [2, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [6.896551724137931, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 5 
+First element of precision: 6.896551724137931 
+SequenceMatcher Score5: 0.10
+
+Received response without candidate 3: Sure, could you please provide me with the code snippet that needs completing?
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 5 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.17
 Actual result:  GraphicsWindow . Width = 400
 
 Parse State: 6	Cursor Position: 1 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8025362491607666 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow
                 '. Identifier = Expression'
-                Complete the '. Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier = Expression'. 
+                Complete the '. Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8462157249450684 seconds
-Received response with candidate: 1. FontSize = 20
-2. BrushColor = "Red"
-3. PenWidth = 2
+Received response with candidate 1: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 1: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 4 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score1: 0.13
+
+Received response with candidate 2: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 4 
+First element of precision: 25.0 
+SequenceMatcher Score2: 0.19
+
+Received response with candidate 3: .BackgroundColor = "LightBlue"
+SACREBLEU score 3: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 4 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score3: 0.13
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 'next token or line' = .DrawRectangle(100, 100, 50, 50)
-'next token or line' = .DrawEllipse(200, 200, 30, 60)
-'next token or line' = .DrawTriangle(150, 150, 200, 200, 250, 
+Received response without candidate 1: .Show()
+SACREBLEU score 4: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 4 
+First element of precision: 25.0 
+SequenceMatcher Score4: 0.19
+
+Received response without candidate 2: .Show()
+SACREBLEU score 5: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.23
+
+Received response without candidate 3: . 500, 500
+                GraphicsWindow.BrushColor = "Red"
+                'next token or line'
+SACREBLEU score 6: 3.1251907639724417 Counts: [2, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 4 
+First element of precision: 13.333333333333334 
+SequenceMatcher Score6: 0.16
 Actual result:  . Width = 400
 
 Parse State: 30	Cursor Position: 1 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.687802791595459 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.925889253616333 seconds
-Received response with candidate: GraphicsWindow.BackgroundColor = "LightBlue"
+Received response with candidate 1: Width = 600
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.87
 
-GraphicsWindow.Height = 400
+Received response with candidate 2: BorderColor = "Red"
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.28
 
-GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
+Received response with candidate 3: MouseX = GraphicsWindow.MouseX
+SACREBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score3: 0.26
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: DrawRectangle(100, 100, 50, 50)
-'next token or line'
+Received response without candidate 1: DrawLine(0, 0, 100, 100)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.10
 
-GraphicsWindow.DrawEllipse(200, 200, 30, 30)
+Received response without candidate 2: DrawEllipse(100, 100, 50, 30)
 'next token or line'
+SACREBLEU score 5: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score5: 0.14
 
-GraphicsWindow.DrawLine(50, 50, 150, 150)
-'next token or line'
+Received response without candidate 3: DrawLine(100, 100, 200, 200)
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.15
 Actual result:  Width = 400
 
 Parse State: 58	Cursor Position: 1 22
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.65041184425354 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8401968479156494 seconds
-Received response with candidate: 1. = 800
-2. = GraphicsWindow.Height / 2
-3. = Mouse.GetX()
+Received response with candidate 1:  = 600
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.83
+
+Received response with candidate 2: = 600
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.73
+
+Received response with candidate 3: = 800
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.73
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. = 800
-2. = GraphicsWindow.Height
-3. = = 600
+Received response without candidate 1: = 800
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.73
+
+Received response without candidate 2: = 800
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.73
+
+Received response without candidate 3: = 800
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.73
 Actual result:  = 400
 
 Parse State: 82	Cursor Position: 1 24
 Candidate List: ['1 : ', '[T, STR] : 20761', '2 : ', '[T, NUM] : 12240', '3 : ', '[T, ID] : 8633', '4 : ', '[T, ID, NT, Idxs] : 1816', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1159', '6 : ', '[T, ID, T, ., T, ID] : 632', '7 : ', '[T, (, NT, Expr, T, )] : 508', '8 : ', '[T, -, NT, Primary] : 127']
+Time taken: 0.6208596229553223 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width =
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9593615531921387 seconds
-Received response with candidate: GraphicsWindow.Width = 800
-GraphicsWindow.Width = 600
-GraphicsWindow.Width = 1024
+Received response with candidate 1: 500
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.57
+
+Received response with candidate 2: 800
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.57
+
+Received response with candidate 3: 500
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.57
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.Height = 400
-2. 600
-3. GraphicsWindow.MaxHeight
+Received response without candidate 1: 500
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.57
+
+Received response without candidate 2: 500
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.57
+
+Received response without candidate 3: 500
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.57
 Actual result:  400
 
 Parse State: 3	Cursor Position: 1 28
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.7071266174316406 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8090183734893799 seconds
-Received response with candidate: 1. GraphicsWindow.Height = 300
-2. GraphicsWindow.BackgroundColor = "LightBlue"
-3. GraphicsWindow.Title = "My Program"
+Received response with candidate 1: GraphicsWindow.Height = 300
+SACREBLEU score 1: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.09
+
+Received response with candidate 2: GraphicsWindow.Height = 300
+SACREBLEU score 2: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.09
+
+Received response with candidate 3: GraphicsWindow.Height = 300
+SACREBLEU score 3: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.09
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.Height = 300
-2. GraphicsWindow.BackgroundColor = "LightBlue"
-3. GraphicsWindow.Title = "My Program"
+Received response without candidate 1: GraphicsWindow.Height = 300
+SACREBLEU score 4: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.09
+
+Received response without candidate 2: GraphicsWindow.Height = 300
+SACREBLEU score 5: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.09
+
+Received response without candidate 3: GraphicsWindow.Height = 300
+SACREBLEU score 6: 0.006772873649085393 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 53 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.09
 Actual result:  \n GraphicsWindow . Height = 300 \n GraphicsWindow . PenColor = "Red" \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 11	Cursor Position: 2 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.8876204490661621 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400
                 'Identifier . Identifier = Expression'
-                Complete the 'Identifier . Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier = Expression'. 
+                Complete the 'Identifier . Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8786962032318115 seconds
-Received response with candidate: 1. GraphicsWindow.Height = 300
-2. GraphicsWindow.BackgroundColor = "Blue"
-3. GraphicsWindow.Title = "My Small Basic Program"
+Received response with candidate 1: GraphicsWindow.Height = 300
+SACREBLEU score 1: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.95
+
+Received response with candidate 2: GraphicsWindow.Height = 300
+SACREBLEU score 2: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.95
+
+Received response with candidate 3: GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(200, 100, 50)
+SACREBLEU score 3: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.95
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.Height = 300
-2. GraphicsWindow.BackgroundColor = GraphicsWindow.GetColor(255, 255, 255)
-3. For i = 1 To 10
+Received response without candidate 1: GraphicsWindow.Height = 300
+SACREBLEU score 4: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.95
+
+Received response without candidate 2: GraphicsWindow.Height = 300
+SACREBLEU score 5: 6.285596338261262 Counts: [3, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 5 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score5: 0.37
+
+Received response without candidate 3: GraphicsWindow.Height = 300
+SACREBLEU score 6: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.95
 Actual result:  GraphicsWindow . Height = 300
 
 Parse State: 6	Cursor Position: 2 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8988025188446045 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow
                 '. Identifier = Expression'
-                Complete the '. Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier = Expression'. 
+                Complete the '. Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7648351192474365 seconds
-Received response with candidate: 1. .Height = 300
-2. .BackgroundColor = "LightBlue"
-3. .Title = "My Small Basic Program"
+Received response with candidate 1: .Height = 300
+SACREBLEU score 1: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.93
+
+Received response with candidate 2: .Height = 300
+SACREBLEU score 2: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.93
+
+Received response with candidate 3: .BackgroundColor = "LightBlue"
+SACREBLEU score 3: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.93
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .BackgroundColor = "LightBlue"
-                GraphicsWindow.Height = 300
+Received response without candidate 1: .Height = 300
+SACREBLEU score 4: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.93
 
-                'title = "My Small Basic Program"'
-                'GraphicsWindow.DrawBoundText(10, 10, 200, title)'
-                'GraphicsWindow.Title = "My Small Basic Program"'
+Received response without candidate 2: .Height = 300
+SACREBLEU score 5: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.27
+
+Received response without candidate 3: .Height = 300
+SACREBLEU score 6: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.93
 Actual result:  . Height = 300
 
 Parse State: 30	Cursor Position: 2 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.8989307880401611 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7106227874755859 seconds
-Received response with candidate: GraphicsWindow.Height = 300
-GraphicsWindow.BackgroundColor = "Blue"
-GraphicsWindow.Title = "My Program"
+Received response with candidate 1: Height = 300
+SACREBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.96
+
+Received response with candidate 2: Height = 300
+SACREBLEU score 2: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.96
+
+Received response with candidate 3: Height = 300
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.96
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Height = 300
-2. BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
-3. Title = "My Program"
+Received response without candidate 1: Height = 300
+SACREBLEU score 4: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.96
+
+Received response without candidate 2: Height = 300
+SACREBLEU score 5: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.96
+
+Received response without candidate 3: Height = 300
+SACREBLEU score 6: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.96
 Actual result:  Height = 300
 
 Parse State: 58	Cursor Position: 2 23
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.6451907157897949 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8594670295715332 seconds
-Received response with candidate: 1.  = 300
-2.  = GraphicsWindow.Width / 2
-3.  = Math.Floor(GraphicsWindow.Width / 1.5)
+Received response with candidate 1: = 300
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.91
+
+Received response with candidate 2: = 300
+SACREBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.91
+
+Received response with candidate 3: = 300
+SACREBLEU score 3: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.91
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: = 300
-= 200
-= GraphicsWindow.BackgroundColor = GraphicsWindow.GetColor(255, 255, 255)
+Received response without candidate 1: = 300
+SACREBLEU score 4: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.91
+
+Received response without candidate 2: = 300
+SACREBLEU score 5: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.91
+
+Received response without candidate 3: = 300
+SACREBLEU score 6: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.91
 Actual result:  = 300
 
 Parse State: 82	Cursor Position: 2 25
 Candidate List: ['1 : ', '[T, STR] : 20761', '2 : ', '[T, NUM] : 12240', '3 : ', '[T, ID] : 8633', '4 : ', '[T, ID, NT, Idxs] : 1816', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1159', '6 : ', '[T, ID, T, ., T, ID] : 632', '7 : ', '[T, (, NT, Expr, T, )] : 508', '8 : ', '[T, -, NT, Primary] : 127']
+Time taken: 0.7042236328125 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height =
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9052598476409912 seconds
-Received response with candidate: GraphicsWindow.Width = 400 
-GraphicsWindow.Height = 300
-GraphicsWindow.Width = 400 
-GraphicsWindow.Height = 500
-GraphicsWindow.Width = 400 
-GraphicsWindow.Height = 200
+Received response with candidate 1: 200
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.57
+
+Received response with candidate 2: 200
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.57
+
+Received response with candidate 3: 300
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.57
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 300
-2. 200
-3. 500
+Received response without candidate 1: 200
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.57
+
+Received response without candidate 2: 400
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.86
+
+Received response without candidate 3: 300
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.86
 Actual result:  300
 
 Parse State: 3	Cursor Position: 2 30
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.2694997787475586 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 2.5983171463012695 seconds
-Received response with candidate: For the three probable answers in place of 'CR MoreThanOneStmt', you could use the following three lines of code:
+Received response with candidate 1: GraphicsWindow.BackgroundColor = "LightBlue"
+SACREBLEU score 1: 0.07473378819473571 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 46 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score1: 0.26
 
-1. GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
-2. For i = 1 To 10
-3. GraphicsWindow.DrawRectangle(50, 50, 
+Received response with candidate 2: For example:
+                'CR MoreThanOneStmt'
+                 
+                Would become:
+                 
+                GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+SACREBLEU score 2: 1.0004864201760413 Counts: [9, 2, 0, 0] Totals: [14, 13, 12, 11] Precisions: [64.28571428571429, 15.384615384615385, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 46 
+First element of precision: 64.28571428571429 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: For the 'CR MoreThanOneStmt' part of the code, you can add the following statement:
+```Small Basic
+GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(200, 200, 200)
+```
+SACREBLEU score 3: 5.030652975703535 Counts: [9, 5, 3, 1] Totals: [20, 19, 18, 17] Precisions: [45.0, 26.31578947368421, 16.666666666666668, 5.882352941176471] System length: 20 Reference length: 46 
+First element of precision: 45.0 
+SequenceMatcher Score3: 0.25
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
-2. For i = 1 To 10
-3. GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+Received response without candidate 1: GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 4: 0.3729853235011274 Counts: [7, 2, 0, 0] Totals: [10, 9, 8, 7] Precisions: [70.0, 22.22222222222222, 6.25, 3.5714285714285716] System length: 10 Reference length: 46 
+First element of precision: 70.0 
+SequenceMatcher Score4: 0.37
+
+Received response without candidate 2: GraphicsWindow.BackgroundColor =GraphicsWindow.GetColorFromRGB(255,255,255)
+SACREBLEU score 5: 2.7923227743809176 Counts: [10, 2, 0, 0] Totals: [38, 37, 36, 35] Precisions: [26.31578947368421, 5.405405405405405, 1.3888888888888888, 0.7142857142857143] System length: 38 Reference length: 46 
+First element of precision: 26.31578947368421 
+SequenceMatcher Score5: 0.21
+
+Received response without candidate 3: GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+SACREBLEU score 6: 1.9203407591865693 Counts: [9, 5, 3, 1] Totals: [12, 11, 10, 9] Precisions: [75.0, 45.45454545454545, 30.0, 11.11111111111111] System length: 12 Reference length: 46 
+First element of precision: 75.0 
+SequenceMatcher Score6: 0.36
 Actual result:  \n GraphicsWindow . PenColor = "Red" \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 11	Cursor Position: 3 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.837440013885498 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300
                 'Identifier . Identifier = Expression'
-                Complete the 'Identifier . Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier = Expression'. 
+                Complete the 'Identifier . Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0835542678833008 seconds
-Received response with candidate: 1. GraphicsWindow.BackgroundColor = "Blue"
-2. GraphicsWindow.BrushColor = "Green"
-3. GraphicsWindow.PenColor = "Red"
+Received response with candidate 1: GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
+SACREBLEU score 1: 6.285596338261262 Counts: [3, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 7 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score1: 0.45
+
+Received response with candidate 2: GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
+SACREBLEU score 2: 19.64073254502566 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 7 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score2: 0.69
+
+Received response with candidate 3: GraphicsWindow.BackgroundColor = "LightBlue"
+SACREBLEU score 3: 6.285596338261262 Counts: [3, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 7 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score3: 0.45
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
-2. GraphicsWindow.DrawEllipse(50, 50, 100, 50)
-3. count = 0
+Received response without candidate 1: GraphicsWindow.BackgroundColor = "LightBlue"
+SACREBLEU score 4: 6.285596338261262 Counts: [3, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 7 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score4: 0.41
+
+Received response without candidate 2: GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 5: 19.64073254502566 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 7 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score5: 0.69
+
+Received response without candidate 3: GraphicsWindow.BackgroundColor = "LightBlue"
+SACREBLEU score 6: 19.64073254502566 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 7 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score6: 0.69
 Actual result:  GraphicsWindow . PenColor = "Red"
 
 Parse State: 6	Cursor Position: 3 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.794154167175293 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow
                 '. Identifier = Expression'
-                Complete the '. Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier = Expression'. 
+                Complete the '. Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0190894603729248 seconds
-Received response with candidate: 1. PenColor = "Red"
-2. FontSize = 14
-3. Title = "My Program"
+Received response with candidate 1: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 1: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 6 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score1: 0.27
+
+Received response with candidate 2: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 2: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 6 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score2: 0.27
+
+Received response with candidate 3: .BackgroundColor = "LightBlue"
+SACREBLEU score 3: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 6 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score3: 0.27
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .DrawLine(50, 50, 200, 200)
-'Loop()
-GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
-'GraphicsWindow.FillRectangle(100, 100, 50, 50)
-'GraphicsWindow.DrawEllipse(150, 150, 100, 50
+Received response without candidate 1: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 4: 4.456882760699063 Counts: [3, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [25.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 6 
+First element of precision: 25.0 
+SequenceMatcher Score4: 0.27
+
+Received response without candidate 2: .DrawBoundString(100, 100, "Hello World")
+SACREBLEU score 5: 19.304869754804482 Counts: [4, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.53
+
+Received response without candidate 3: .BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SACREBLEU score 6: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 6 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score6: 0.27
 Actual result:  . PenColor = "Red"
 
 Parse State: 30	Cursor Position: 3 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.6561570167541504 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7644021511077881 seconds
-Received response with candidate: FillColor = "Red"
-MouseVisible = "False"
-Title = "My Program"
+Received response with candidate 1: BrushColor = "Blue"
+SACREBLEU score 1: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.61
+
+Received response with candidate 2: BrushColor = "Blue"
+SACREBLEU score 2: 17.965205598154213 Counts: [3, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.32
+
+Received response with candidate 3: Title = "My Program"
+SACREBLEU score 3: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 60.0 
+SequenceMatcher Score3: 0.61
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: FillColor = "Blue"
+Received response without candidate 1: Title = "My Program"
+SACREBLEU score 4: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 60.0 
+SequenceMatcher Score4: 0.55
 
-Title = "My Graphic Window"
+Received response without candidate 2: FillColor = "LightBlue"
+SACREBLEU score 5: 17.965205598154213 Counts: [3, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.32
 
-DrawRectangle(50, 50, 100, 100)
-
-'next token or line'
-
-
-PenColor = "Red"
-
-DrawEllipse(200, 50, 80, 120)
-
-'next token or line'
-
-
-Clear()
+Received response without candidate 3: Title = "Incomplete Code"
+SACREBLEU score 6: 17.965205598154213 Counts: [3, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.38
 Actual result:  PenColor = "Red"
 
 Parse State: 58	Cursor Position: 3 25
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.6549408435821533 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0539178848266602 seconds
-Received response with candidate: 1. = "Red"
+Received response with candidate 1: = "Blue"
+SACREBLEU score 1: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.62
 
-2. = GraphicsWindow.GetColorFromRGB(0, 255, 0)
+Received response with candidate 2: = "Blue"
+SACREBLEU score 2: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score2: 0.62
 
-3. = Colors.GetRandomColor()
+Received response with candidate 3: = "Red"
+SACREBLEU score 3: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score3: 0.62
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. = "Blue"
-2. = Colors.Red
-3. = "Green"
+Received response without candidate 1: = "Blue"
+SACREBLEU score 4: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.93
+
+Received response without candidate 2: = "Red"
+SACREBLEU score 5: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.93
+
+Received response without candidate 3: = "Red"
+SACREBLEU score 6: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.93
 Actual result:  = "Red"
 
 Parse State: 82	Cursor Position: 3 27
 Candidate List: ['1 : ', '[T, STR] : 20761', '2 : ', '[T, NUM] : 12240', '3 : ', '[T, ID] : 8633', '4 : ', '[T, ID, NT, Idxs] : 1816', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1159', '6 : ', '[T, ID, T, ., T, ID] : 632', '7 : ', '[T, (, NT, Expr, T, )] : 508', '8 : ', '[T, -, NT, Primary] : 127']
+Time taken: 0.6995465755462646 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor =
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7793688774108887 seconds
-Received response with candidate: 
-1. "Red" 
-2. "Blue" 
-3. "Green"
+Received response with candidate 1: "Blue"
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.50
+
+Received response with candidate 2: "Blue"
+SACREBLEU score 2: 10.552670315936318 Counts: [3, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.23
+
+Received response with candidate 3: "Blue"
+SACREBLEU score 3: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "GraphicsWindow.PenColor = GraphicsWindow.GetColorFromRGB(0, 0, 255)"
-2. "GraphicsWindow.PenColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)"
-3. "GraphicsWindow.PenColor = GraphicsWindow.GetColorFromRGB(0, 255, 
+Received response without candidate 1: "GraphicsWindow.PenColor = Colors.Red"
+SACREBLEU score 4: 2.908317710573757 Counts: [2, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score4: 0.08
+
+Received response without candidate 2: "GraphicsWindow.PenColor = GraphicsWindow.GetColorFromRGB(0, 0, 255)"
+SACREBLEU score 5: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: "GraphicsWindow.PenColor = GraphicsWindow.GetColorFromRGB(0, 0, 255)"
+SACREBLEU score 6: 2.908317710573757 Counts: [2, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score6: 0.08
 Actual result:  "Red"
 
 Parse State: 3	Cursor Position: 3 33
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.45340895652771 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor = "Red"
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.025542974472046 seconds
-Received response with candidate: CR GraphicsWindow.DrawLine(50, 50, 200, 200)
-CR GraphicsWindow.BrushColor = "Blue"
-CR GraphicsWindow.FillEllipse(100, 100, 50, 50)
+Received response with candidate 1: GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+GraphicsWindow.DrawEllipse(200, 50, 100, 100)
+GraphicsWindow.DrawLine(100, 200, 300, 200)
+SACREBLEU score 1: 14.424788007642967 Counts: [19, 9, 4, 1] Totals: [36, 35, 34, 33] Precisions: [52.77777777777778, 25.714285714285715, 11.764705882352942, 3.0303030303030303] System length: 36 Reference length: 37 
+First element of precision: 52.77777777777778 
+SequenceMatcher Score1: 0.64
+
+Received response with candidate 2: GraphicsWindow.DrawRectangle(50, 50, 100, 75)
+SACREBLEU score 2: 4.834556724651236 Counts: [9, 5, 3, 2] Totals: [12, 11, 10, 9] Precisions: [75.0, 45.45454545454545, 30.0, 22.22222222222222] System length: 12 Reference length: 37 
+First element of precision: 75.0 
+SequenceMatcher Score2: 0.38
+
+Received response with candidate 3: For the 'CR MoreThanOneStmt' part of the code, you can add the following statements:
+
+```smallbasic
+GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+GraphicsWindow.BrushColor = "Yellow"
+GraphicsWindow.FillRectangle(200, 150, 50, 50)
+```
+SACREBLEU score 3: 4.065361419099963 Counts: [9, 5, 3, 1] Totals: [12, 11, 10, 9] Precisions: [75.0, 45.45454545454545, 30.0, 11.11111111111111] System length: 12 Reference length: 37 
+First element of precision: 75.0 
+SequenceMatcher Score3: 0.41
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor = "Red"
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.DrawLine(50, 50, 200, 200)
-2. GraphicsWindow.FillRectangle(100, 100, 50, 50)
-3. GraphicsWindow.DrawEllipse(150, 150, 80, 60)
+Received response without candidate 1: GraphicsWindow.DrawLine(100, 100, 300, 200)
+SACREBLEU score 4: 1.4183167051863257 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 37 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.34
+
+Received response without candidate 2: GraphicsWindow.DrawLine(0, 0, 400, 300)
+SACREBLEU score 5: 18.46945063742518 Counts: [23, 12, 8, 4] Totals: [54, 53, 52, 51] Precisions: [42.592592592592595, 22.641509433962263, 15.384615384615385, 7.8431372549019605] System length: 54 Reference length: 37 
+First element of precision: 42.592592592592595 
+SequenceMatcher Score5: 0.59
+
+Received response without candidate 3: GraphicsWindow.DrawLine(0, 0, 400, 300)
+SACREBLEU score 6: 1.4183167051863257 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 37 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.34
 Actual result:  \n GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 ) \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 11	Cursor Position: 4 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.8689858913421631 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor = "Red"
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4606900215148926 seconds
-Received response with candidate: GraphicsWindow.DrawBoundText("Hello", 50, 50)
-GraphicsWindow.DrawEllipse(100, 100, 50, 50)
-GraphicsWindow.DrawRectangle(200, 100, 50, 50)
+Received response with candidate 1: GraphicsWindow.DrawEllipse(50, 50, 200, 100)
+SACREBLEU score 1: 9.263986277915475 Counts: [7, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [58.333333333333336, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 58.333333333333336 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: GraphicsWindow.DrawBoundText()
+SACREBLEU score 2: 11.390778025531022 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.71
+
+Received response with candidate 3: GraphicsWindow.DrawBoundText("Hello", 100, 100)
+SACREBLEU score 3: 6.265199648711648 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 12 
+First element of precision: 80.0 
+SequenceMatcher Score3: 0.55
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
 GraphicsWindow.Height = 300  
 GraphicsWindow.PenColor = "Red"
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.DrawLine(50, 50, 200, 200)
-2. GraphicsWindow.FillEllipse(100, 100, 50, 50)
-3. GraphicsWindow.DrawRectangle(50, 50, 100, 100)
+Received response without candidate 1: GraphicsWindow.DrawLine(0, 0, 400, 300)
+SACREBLEU score 4: 11.390778025531022 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.71
+
+Received response without candidate 2: GraphicsWindow.DrawLine(0, 0, 400, 300)
+SACREBLEU score 5: 8.91376552139813 Counts: [6, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [50.0, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.59
+
+Received response without candidate 3: GraphicsWindow.DrawLine(0, 0, 400, 300)
+SACREBLEU score 6: 11.390778025531022 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.71
 Actual result:  GraphicsWindow . DrawRectangle ( 20 , 20 , 300 , 60 )
 
 Parse State: 6	Cursor Position: 4 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 1.2405271530151367 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -514,12 +924,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9589972496032715 seconds
-Received response with candidate: 1. DrawBoundText("Hello, world!", 50, 50)
-2. DrawRectangle(100, 100, 50, 50)
-3. SetPixel(200, 200)
+Received response with candidate 1: .DrawLine(50, 50, 200, 200)
+SACREBLEU score 1: 5.865587580131999 Counts: [6, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 11 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score1: 0.58
+
+Received response with candidate 2: .DrawRectangle(50, 50, 100, 75)
+SACREBLEU score 2: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score2: 0.62
+
+Received response with candidate 3: .DrawLine(50, 50, 200, 200)
+SACREBLEU score 3: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score3: 0.74
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -527,17 +947,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .FillEllipse(50, 50, 100, 80)
-'next token or line'
-.DrawRectangle(150, 100, 50, 50)
-'next token or line'
-.DrawLine(200, 200, 300, 250)
+Received response without candidate 1: .DrawLine(100, 100, 300, 200)
+SACREBLEU score 4: 10.252286118120933 Counts: [7, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score4: 0.59
+
+Received response without candidate 2: .DrawLine(0, 0, 400, 300)
+SACREBLEU score 5: 5.865587580131999 Counts: [6, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 11 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score5: 0.58
+
+Received response without candidate 3: .DrawRectangle(50, 50, 100, 75)
+SACREBLEU score 6: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score6: 0.74
 Actual result:  . DrawRectangle ( 20 , 20 , 300 , 60 )
 
 Parse State: 30	Cursor Position: 4 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 1.0134167671203613 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -545,12 +975,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9458091259002686 seconds
-Received response with candidate: 'DrawLine(50, 50, 200, 100)'
-'FillEllipse(100, 150, 50, 50)'
-'DrawRectangle(50, 50, 100, 75)'
+Received response with candidate 1: DrawLine(50, 50, 200, 200)
+SACREBLEU score 1: 6.27465531099474 Counts: [5, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.57
+
+Received response with candidate 2: DrawLine(50, 50, 200, 100)
+SACREBLEU score 2: 18.575057999133595 Counts: [6, 2, 1, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 22.22222222222222, 12.5, 7.142857142857143] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score2: 0.62
+
+Received response with candidate 3: DrawEllipse(50, 50, 100, 100)
+SACREBLEU score 3: 6.27465531099474 Counts: [5, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.57
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -558,15 +998,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. DrawRectangle(50, 50, 100, 100)
-2. DrawEllipse(150, 150, 50, 50)
-3. FillRectangle(200, 200, 50, 50)
+Received response without candidate 1: DrawLine(100, 100, 300, 200)
+SACREBLEU score 4: 4.6192151051305474 Counts: [5, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [38.46153846153846, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 10 
+First element of precision: 38.46153846153846 
+SequenceMatcher Score4: 0.39
+
+Received response without candidate 2: DrawText(100, 100, "Hello, World!")
+SACREBLEU score 5: 6.27465531099474 Counts: [5, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.58
+
+Received response without candidate 3: DrawRectangle(50, 50, 100, 100)
+SACREBLEU score 6: 11.044795567078939 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score6: 0.76
 Actual result:  DrawRectangle ( 20 , 20 , 300 , 60 )
 
 Parse State: 58	Cursor Position: 4 29
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.889042854309082 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -574,13 +1026,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2322754859924316 seconds
-Received response with candidate: 
-1. (50, 50, 100, 100)
-2. (200, 50, 50, 150)
-3. (75, 150, 150, 75)
+Received response with candidate 1: (50, 50, 100, 100)
+SACREBLEU score 1: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score1: 0.63
+
+Received response with candidate 2: (50, 50, 100, 75)
+SACREBLEU score 2: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score2: 0.65
+
+Received response with candidate 3: (50, 50, 100, 100)
+SACREBLEU score 3: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score3: 0.60
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -588,15 +1049,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. (10, 10, 50, 50) 
-2. (20, 20, 100, 50) 
-3. (30, 30, 80, 70)
+Received response without candidate 1: (0, 0, 50, 50)
+SACREBLEU score 4: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score4: 0.65
+
+Received response without candidate 2: (50, 50, 100, 50)
+SACREBLEU score 5: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score5: 0.63
+
+Received response without candidate 3: (200, 100, 50, 50)
+SACREBLEU score 6: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score6: 0.59
 Actual result:  ( 20 , 20 , 300 , 60 )
 
 Parse State: 83	Cursor Position: 4 30
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.8405060768127441 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -604,12 +1077,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.3191065788269043 seconds
-Received response with candidate: 1. 50, 50, 100, 100
-2. 150, 150, 50, 50
-3. 200, 100, 80, 120
+Received response with candidate 1: 100, 50, 200, 150
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.30
+
+Received response with candidate 2: 50, 50, 100, 100
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: 50, 50, 100, 100
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.11
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -617,15 +1100,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 50, 50, 100, 100
-2. 150, 150, 50, 50
-3. 200, 100, 80, 120
+Received response without candidate 1: 200, 100, 50, 50)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: 50, 50, 100, 50
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.11
+
+Received response without candidate 3: 200, 100, 50, 50)
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.20
 Actual result:  20
 
 Parse State: 91	Cursor Position: 4 32
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 1.0450966358184814 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -633,12 +1128,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0828118324279785 seconds
-Received response with candidate: 1. , 50, 50, 100, 100
-2. , 30, 30, 150, 150
-3. , 10, 10, 200, 200
+Received response with candidate 1: , 30, 50, 100
+SACREBLEU score 1: 10.682175159905853 Counts: [3, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.48
+
+Received response with candidate 2: , 20, 30, 100, 50)
+SACREBLEU score 2: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 6 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score2: 0.45
+
+Received response with candidate 3: , 30, 50, 100)
+SACREBLEU score 3: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 6 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score3: 0.65
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -646,15 +1151,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. , 50, 50)
-2. , 50, 50, 100)
-3. , 50, 50, 100, 150)
+Received response without candidate 1: , 30, 100, 150)
+SACREBLEU score 4: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 6 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score4: 0.47
+
+Received response without candidate 2: , 30, 100, 50)
+SACREBLEU score 5: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 6 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score5: 0.47
+
+Received response without candidate 3: , 30, 100, 50)
+SACREBLEU score 6: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 6 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score6: 0.47
 Actual result:  , 20 , 300 , 60
 
 Parse State: 103	Cursor Position: 4 34
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 1.451937198638916 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -662,13 +1179,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.012686014175415 seconds
-Received response with candidate: 
-1. 50, 50, 150, 100
-2. 100, 75, 200, 150
-3. 30, 20, 120, 80
+Received response with candidate 1: 50, 50, 100)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.13
+
+Received response with candidate 2: 50
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: 50
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.40
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -676,15 +1202,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 50, 50, 100
-2. 50, 100, 150
-3. 100, 50, 200
+Received response without candidate 1: 60, 50)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.13
+
+Received response without candidate 2: 50, 50, 100)
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.40
+
+Received response without candidate 3: 20, 20, 100, 50)
+SACREBLEU score 6: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score6: 0.32
 Actual result:  20
 
 Parse State: 91	Cursor Position: 4 36
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 0.7343244552612305 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -692,12 +1230,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.99778151512146 seconds
-Received response with candidate: GraphicsWindow.DrawRectangle(20, 20, 100, 50)
-GraphicsWindow.DrawRectangle(20, 20, 150, 75)
-GraphicsWindow.DrawRectangle(20, 20, 80, 120)
+Received response with candidate 1: , 100, 50)
+SACREBLEU score 1: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: , 100, 50)
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.47
+
+Received response with candidate 3: , 100, 50)
+SACREBLEU score 3: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -705,15 +1253,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. , 100, 50
-2. , 100, 100
-3. , 50, 100
+Received response without candidate 1: , 100)
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.47
+
+Received response without candidate 2: , 100)
+SACREBLEU score 5: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: , 100, 50)
+SACREBLEU score 6: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score6: 0.67
 Actual result:  , 300 , 60
 
 Parse State: 103	Cursor Position: 4 38
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 0.6437888145446777 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -721,13 +1281,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2075178623199463 seconds
-Received response with candidate: 
-1. 100, 100, 50, 50
-2. 50, 50, 150, 150
-3. 200, 200, 100, 100
+Received response with candidate 1: 50, 50)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: 50, 50)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.36
+
+Received response with candidate 3: 50, 50)
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.36
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -735,15 +1304,28 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: GraphicsWindow.Width - 40, GraphicsWindow.Height - 40
-GraphicsWindow.Width / 2, GraphicsWindow.Height / 2
-100, 100
+Received response without candidate 1: 50, 50)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.36
+
+Received response without candidate 2: 50, 50)
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.36
+
+Received response without candidate 3: 60, 60)
+This line of code will draw a red rectangle starting at the coordinates (20, 20) and ending at the coordinates (60, 60) in the GraphicsWindow.
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 36 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.03
 Actual result:  300
 
 Parse State: 91	Cursor Position: 4 41
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 0.7087981700897217 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -751,13 +1333,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7491400241851807 seconds
-Received response with candidate: 
-1. , 200
-2. , 100, 200
-3. , 150, 150
+Received response with candidate 1: , 200, 200)
+SACREBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score1: 0.38
+
+Received response with candidate 2: , 200)
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.55
+
+Received response with candidate 3: , 200)
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.55
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -765,17 +1356,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. , 200)
-2. , 200)
-GraphicsWindow.FillRectangle(50, 50, 100, 100)
-3. , 200)
-GraphicsWindow.DrawLine(50, 50, 150, 150)
+Received response without candidate 1: , 200)
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.55
+
+Received response without candidate 2: , 200)
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.55
+
+Received response without candidate 3: , 200)
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.55
 Actual result:  , 60
 
 Parse State: 103	Cursor Position: 4 43
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 0.6373233795166016 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -783,12 +1384,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8624053001403809 seconds
-Received response with candidate: 1. 50, 50
-2. 100, 100
-3. 200, 200
+Received response with candidate 1:   200
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.50
+
+Received response with candidate 2:  100, 200)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.50
+
+Received response with candidate 3: 100
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.31
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -796,21 +1407,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: GraphicsWindow.DrawRectangle(20, 20, 150, 100)
+Received response without candidate 1:  100)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.36
 
-or 
+Received response without candidate 2: 260) 180
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.33
 
-GraphicsWindow.DrawRectangle(50, 50, 200, 150)
-
-or 
-
-GraphicsWindow.DrawRectangle(100, 100, 250, 200)
+Received response without candidate 3: 160)
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.57
 Actual result:  60
 
 Parse State: 92	Cursor Position: 4 45
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.5773744583129883 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -818,15 +1435,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8012096881866455 seconds
-Received response with candidate: )
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
 
-)
+Received response with candidate 2: )
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.05
 
-)
-
+Received response with candidate 3: )
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -834,22 +1458,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. )
-   GraphicsWindow.BrushColor = "Blue" 
-   GraphicsWindow.FillRectangle(50, 50, 200, 100)
+Received response without candidate 1: GraphicsWindow.BrushColor = "Yellow"
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.50
 
-2. )
-   GraphicsWindow.DrawEllipse(100, 100, 50, 50)
+Received response without candidate 2: )'
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
 
-3. )
-   GraphicsWindow.DrawText(150, 150, "Hello World")
+Received response without candidate 3: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.06
 Actual result:  )
 
 Parse State: 3	Cursor Position: 4 48
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.962785005569458 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -857,17 +1486,23 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2512710094451904 seconds
-Received response with candidate: 1. GraphicsWindow.BrushColor = "Blue"
-   GraphicsWindow.FillRectangle(50, 50, 200, 100)
+Received response with candidate 1: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 1: 6.5440664409673674 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 23 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score1: 0.47
 
-2. GraphicsWindow.PenColor = "Green"
-   GraphicsWindow.DrawLine(100, 100, 200, 200)
+Received response with candidate 2: GraphicsWindow.BrushColor = "Yellow"
+GraphicsWindow.FillRectangle(50, 50, 200, 40)
+SACREBLEU score 2: 6.5440664409673674 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 23 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score2: 0.47
 
-3. GraphicsWindow.FontSize = 20
-   GraphicsWindow.DrawText
+Received response with candidate 3: GraphicsWindow.DrawEllipse(50, 50, 200, 100)
+SACREBLEU score 3: 28.72434696084519 Counts: [14, 7, 5, 3] Totals: [19, 18, 17, 16] Precisions: [73.6842105263158, 38.888888888888886, 29.41176470588235, 18.75] System length: 19 Reference length: 23 
+First element of precision: 73.6842105263158 
+SequenceMatcher Score3: 0.80
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -875,15 +1510,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.BrushColor = "Blue"
-2. GraphicsWindow.DrawEllipse(50, 50, 100, 100)
-3. TextWindow.WriteLine("Hello, World!")
+Received response without candidate 1: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 4: 6.5440664409673674 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 23 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score4: 0.47
+
+Received response without candidate 2: GraphicsWindow.BrushColor = "Yellow"
+SACREBLEU score 5: 4.554598656227461 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 23 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 6: 6.5440664409673674 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 23 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score6: 0.47
 Actual result:  \n GraphicsWindow . BrushColor = "Green" \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 11	Cursor Position: 5 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.7160131931304932 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -891,17 +1538,22 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)
                 'Identifier . Identifier = Expression'
-                Complete the 'Identifier . Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier = Expression'. 
+                Complete the 'Identifier . Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4935381412506104 seconds
-Received response with candidate: GraphicsWindow.BrushColor = "Blue"
-GraphicsWindow.FillRectangle(50, 50, 200, 100)
+Received response with candidate 1: GraphicsWindow.BrushColor = "Yellow"
+SACREBLEU score 1: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score1: 0.84
 
-GraphicsWindow.FontSize = 16
-GraphicsWindow.DrawText(100, 150, "Hello World")
+Received response with candidate 2: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 2: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score2: 0.86
 
-GraphicsWindow.PenWidth = 2
-GraphicsWindow.DrawLine(50, 200, 300, 200
+Received response with candidate 3: GraphicsWindow.BrushColor = "Yellow"
+SACREBLEU score 3: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score3: 0.86
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -909,15 +1561,27 @@ GraphicsWindow.Height = 300
 GraphicsWindow.PenColor = "Red" 
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.BrushColor = "Blue"
-2. GraphicsWindow.DrawText(50, 50, "Hello World")
-3. GraphicsWindow.DrawEllipse(100, 100, 50, 80)
+Received response without candidate 1: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 4: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score4: 0.84
+
+Received response without candidate 2: GraphicsWindow.BrushColor = "Yellow"
+SACREBLEU score 5: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score5: 0.84
+
+Received response without candidate 3: GraphicsWindow.BrushColor = "Blue"
+SACREBLEU score 6: 64.34588841607616 Counts: [6, 4, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 60.0, 50.0] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score6: 0.86
 Actual result:  GraphicsWindow . BrushColor = "Green"
 
 Parse State: 6	Cursor Position: 5 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8567073345184326 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -926,12 +1590,22 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow
                 '. Identifier = Expression'
-                Complete the '. Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier = Expression'. 
+                Complete the '. Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8610773086547852 seconds
-Received response with candidate: .MouseMove = "MouseMoveEvent"
-GraphicsWindow.BrushColor = "Yellow"
-GraphicsWindow.DrawEllipse(50, 50, 100, 150)
+Received response with candidate 1: .Title = "Rectangle"
+SACREBLEU score 1: 19.304869754804482 Counts: [4, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.42
+
+Received response with candidate 2: .BrushColor = "Blue"  
+SACREBLEU score 2: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 6 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.31
+
+Received response with candidate 3: .BrushColor = "Yellow"
+SACREBLEU score 3: 53.7284965911771 Counts: [5, 3, 2, 1] Totals: [6, 5, 4, 3] Precisions: [83.33333333333333, 60.0, 50.0, 33.333333333333336] System length: 6 Reference length: 6 
+First element of precision: 83.33333333333333 
+SequenceMatcher Score3: 0.76
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -940,15 +1614,27 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .FillRectangle(50, 50, 100, 200)
-.DrawEllipse(150, 100, 50, 50)
-.DrawText(50, 220, "Hello World")
+Received response without candidate 1: .ShowMessage("Hello World!")
+SACREBLEU score 4: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 6 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.31
+
+Received response without candidate 2: .ShowMessage("Hello world!")
+SACREBLEU score 5: 53.7284965911771 Counts: [5, 3, 2, 1] Totals: [6, 5, 4, 3] Precisions: [83.33333333333333, 60.0, 50.0, 33.333333333333336] System length: 6 Reference length: 6 
+First element of precision: 83.33333333333333 
+SequenceMatcher Score5: 0.76
+
+Received response without candidate 3: .Refresh()
+SACREBLEU score 6: 9.688464563433238 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 6 
+First element of precision: 25.0 
+SequenceMatcher Score6: 0.18
 Actual result:  . BrushColor = "Green"
 
 Parse State: 30	Cursor Position: 5 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.7293415069580078 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -957,12 +1643,22 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8227593898773193 seconds
-Received response with candidate: GraphicsWindow.BrushColor = "Blue"
-GraphicsWindow.DrawLine(50, 50, 200, 100)
-GraphicsWindow.FontSize = 16
+Received response with candidate 1: FillColor = "Yellow"
+SACREBLEU score 1: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.54
+
+Received response with candidate 2: BrushColor = "Green"
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 5 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.12
+
+Received response with candidate 3: BrushColor = "Orange"
+SACREBLEU score 3: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.98
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -971,17 +1667,28 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: FillRectangle(50, 50, 200, 100)
+Received response without candidate 1: DrawEllipse(50, 50, 100, 100)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 5 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.08
 
-FillEllipse(100, 100, 50, 50)
+Received response without candidate 2: FillEllipse(50, 50, 100, 50)
+SACREBLEU score 5: 42.72870063962342 Counts: [4, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score5: 0.81
 
-DrawLine(50, 50, 200, 200)
+Received response without candidate 3: Title = "My Rectangle"
+GraphicsWindow.DrawText(30, 30, Title)
+SACREBLEU score 6: 5.412989186545263 Counts: [3, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [18.75, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 5 
+First element of precision: 18.75 
+SequenceMatcher Score6: 0.20
 Actual result:  BrushColor = "Green"
 
 Parse State: 58	Cursor Position: 5 27
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.6155366897583008 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -990,12 +1697,22 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.138617753982544 seconds
-Received response with candidate: = "Blue"
-= "Green"
-= "Yellow"
+Received response with candidate 1: = "Yellow"
+SACREBLEU score 1: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.50
+
+Received response with candidate 2: = "Yellow"
+SACREBLEU score 2: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score2: 0.50
+
+Received response with candidate 3: = "Yellow"
+SACREBLEU score 3: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1004,15 +1721,28 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. = "Yellow"
-2. = "Blue"
-3. = "Green"
+Received response without candidate 1: = "Yellow"
+SACREBLEU score 4: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score4: 0.50
+
+Received response without candidate 2: = "Yellow"
+SACREBLEU score 5: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: = "Yellow"
+                'next token or line'
+SACREBLEU score 6: 12.22307556087252 Counts: [3, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 4 
+First element of precision: 37.5 
+SequenceMatcher Score6: 0.21
 Actual result:  = "Green"
 
 Parse State: 82	Cursor Position: 5 29
 Candidate List: ['1 : ', '[T, STR] : 20761', '2 : ', '[T, NUM] : 12240', '3 : ', '[T, ID] : 8633', '4 : ', '[T, ID, NT, Idxs] : 1816', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1159', '6 : ', '[T, ID, T, ., T, ID] : 632', '7 : ', '[T, (, NT, Expr, T, )] : 508', '8 : ', '[T, -, NT, Primary] : 127']
+Time taken: 1.1752099990844727 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1021,12 +1751,22 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor =
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6324319839477539 seconds
-Received response with candidate: "Blue"
-"Green"
-"Yellow"
+Received response with candidate 1: "Yellow"
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.38
+
+Received response with candidate 2: "Yellow"
+SACREBLEU score 2: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.38
+
+Received response with candidate 3:  "Orange"
+SACREBLEU score 3: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.38
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1035,15 +1775,27 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "Yellow"
-2. "Blue"
-3. "Green"
+Received response without candidate 1: "Yellow"
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.38
+
+Received response without candidate 2: "Yellow"
+SACREBLEU score 5: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.59
+
+Received response without candidate 3: "Yellow"
+SACREBLEU score 6: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.38
 Actual result:  "Green"
 
 Parse State: 3	Cursor Position: 5 37
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.8243582248687744 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1052,12 +1804,23 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor = "Green"
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0868585109710693 seconds
-Received response with candidate: 1. GraphicsWindow.DrawEllipse(50, 50, 100, 150)
-2. GraphicsWindow.DrawLine(200, 200, 300, 200)
-3. GraphicsWindow.DrawTriangle(100, 100, 150, 200, 200, 100)
+Received response with candidate 1: GraphicsWindow.DrawEllipse(50, 50, 100, 150)
+SACREBLEU score 1: 15.090679227647147 Counts: [8, 3, 1, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 10.0, 5.555555555555555] System length: 12 Reference length: 14 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.59
+
+Received response with candidate 2: 
+GraphicsWindow.DrawEllipse(50, 50, 200, 100)
+SACREBLEU score 2: 39.375553105513404 Counts: [10, 7, 5, 3] Totals: [16, 15, 14, 13] Precisions: [62.5, 46.666666666666664, 35.714285714285715, 23.076923076923077] System length: 16 Reference length: 14 
+First element of precision: 62.5 
+SequenceMatcher Score2: 0.68
+
+Received response with candidate 3: GraphicsWindow.DrawEllipse(50, 50, 100, 100)
+SACREBLEU score 3: 9.642085430897602 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 14 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.52
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1066,17 +1829,29 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor = "Green"
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.DrawEllipse(50, 50, 100, 100) 
+Received response without candidate 1: GraphicsWindow.FillRectangle(20, 20, 300, 60) 
 
-2. GraphicsWindow.DrawLine(10, 10, 200, 200)
+'next token or line'
+SACREBLEU score 4: 21.34144322916053 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 14 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.76
 
-3. GraphicsWindow.FillRectangle(100, 100, 50, 50)
+Received response without candidate 2: GraphicsWindow.FillRectangle(50, 50, 200, 30)
+SACREBLEU score 5: 15.090679227647147 Counts: [8, 3, 1, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 10.0, 5.555555555555555] System length: 12 Reference length: 14 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.61
+
+Received response without candidate 3: GraphicsWindow.FillRectangle(50, 50, 250, 30)
+SACREBLEU score 6: 21.34144322916053 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 14 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.76
 Actual result:  \n GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 11	Cursor Position: 6 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.8433046340942383 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1085,12 +1860,22 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor = "Green"
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.3341093063354492 seconds
-Received response with candidate: GraphicsWindow.DrawEllipse(50, 50, 100, 80)  
-GraphicsWindow.FillEllipse(150, 150, 50, 50)  
-GraphicsWindow.DrawText(200, 200, "Hello World")
+Received response with candidate 1: GraphicsWindow.FillRectangle(50, 50, 200, 30)
+SACREBLEU score 1: 25.211936184349828 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.78
+
+Received response with candidate 2: GraphicsWindow.DrawEllipse(50, 50, 200, 100)
+SACREBLEU score 2: 25.211936184349828 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.78
+
+Received response with candidate 3: GraphicsWindow.FillRectangle(50, 50, 200, 40)
+SACREBLEU score 3: 11.390778025531022 Counts: [8, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.55
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1099,15 +1884,27 @@ GraphicsWindow.PenColor = "Red"
 GraphicsWindow.DrawRectangle(20, 20, 300, 60)  
 GraphicsWindow.BrushColor = "Green"
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.FillRectangle(50, 50, 200, 30)
-2. GraphicsWindow.DrawEllipse(100, 100, 50, 50)
-3. GraphicsWindow.DrawLine(50, 200, 300, 200)
+Received response without candidate 1: GraphicsWindow.FillRectangle(50, 50, 250, 30)
+SACREBLEU score 4: 25.211936184349828 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.82
+
+Received response without candidate 2: GraphicsWindow.FillRectangle(50, 50, 200, 40)
+SACREBLEU score 5: 25.211936184349828 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.82
+
+Received response without candidate 3: GraphicsWindow.FillRectangle(50, 50, 200, 40)
+SACREBLEU score 6: 25.211936184349828 Counts: [8, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.82
 Actual result:  GraphicsWindow . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 6	Cursor Position: 6 15
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.7644991874694824 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1117,12 +1914,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0715031623840332 seconds
-Received response with candidate: .FillRectangle(50, 50, 100, 100)  
-.DrawEllipse(50, 50, 150, 100)  
-.DrawTriangle(200, 200, 300, 200, 250, 100)
+Received response with candidate 1: .Clear()
+SACREBLEU score 1: 3.6531471527995247 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 11 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.21
+
+Received response with candidate 2: .FillRectangle(50, 50, 200, 40)
+SACREBLEU score 2: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score2: 0.68
+
+Received response with candidate 3: .FillRectangle(50, 50, 200, 40)
+SACREBLEU score 3: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score3: 0.76
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1132,15 +1939,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. .DrawEllipse(50, 50, 100, 100)
-2. .FillRectangle(150, 150, 50, 50)
-3. .DrawText(30, 30, "Hello World")
+Received response without candidate 1: .FillRectangle(50, 50, 200, 30)  
+SACREBLEU score 4: 19.72940627795883 Counts: [8, 3, 1, 0] Totals: [11, 10, 9, 8] Precisions: [72.72727272727273, 30.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 72.72727272727273 
+SequenceMatcher Score4: 0.64
+
+Received response without candidate 2: .FillRectangle(50, 50, 200, 100)
+SACREBLEU score 5: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score5: 0.76
+
+Received response without candidate 3: .FillRectangle(50, 50, 200, 30)
+SACREBLEU score 6: 17.242221289766626 Counts: [7, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [63.63636363636363, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 11 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score6: 0.70
 Actual result:  . FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 30	Cursor Position: 6 16
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 1.0144498348236084 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1150,12 +1969,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1384003162384033 seconds
-Received response with candidate: FillRectangle(50, 100, 200, 150)
-DrawEllipse(100, 50, 150, 100)
-DrawTriangle(30, 150, 120, 200, 200, 150)
+Received response with candidate 1: FillRectangle(50, 50, 200, 40)
+SACREBLEU score 1: 11.044795567078939 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.76
+
+Received response with candidate 2: FillRectangle(50, 50, 200, 30)
+SACREBLEU score 2: 13.650604313545333 Counts: [7, 2, 0, 0] Totals: [10, 9, 8, 7] Precisions: [70.0, 22.22222222222222, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 70.0 
+SequenceMatcher Score2: 0.64
+
+Received response with candidate 3: FillRectangle(50, 50, 200, 100)
+SACREBLEU score 3: 11.044795567078939 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score3: 0.71
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1165,15 +1994,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. FillRectangle(50, 50, 200, 30)
-2. DrawEllipse(50, 100, 100, 150)
-3. DrawText(100, 200, "Hello World")
+Received response without candidate 1: FillRectangle(50, 50, 200, 100)
+SACREBLEU score 4: 11.044795567078939 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score4: 0.71
+
+Received response without candidate 2: FillRectangle(50, 50, 200, 30)
+SACREBLEU score 5: 13.650604313545333 Counts: [7, 2, 0, 0] Totals: [10, 9, 8, 7] Precisions: [70.0, 22.22222222222222, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 70.0 
+SequenceMatcher Score5: 0.64
+
+Received response without candidate 3: FillRectangle(50, 50, 200, 30)
+SACREBLEU score 6: 11.044795567078939 Counts: [6, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score6: 0.71
 Actual result:  FillRectangle ( 60 , 100 , 300 , 60 )
 
 Parse State: 58	Cursor Position: 6 29
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.7743074893951416 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1183,12 +2024,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0602707862854004 seconds
-Received response with candidate: 1. (40, 100, 200, 120)
-2. (80, 150, 250, 80)
-3. (10, 200, 150, 50)
+Received response with candidate 1: (40, 40, 280, 40)
+SACREBLEU score 1: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score1: 0.59
+
+Received response with candidate 2: (50, 100, 200, 100)
+SACREBLEU score 2: 21.10534063187263 Counts: [6, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.70
+
+Received response with candidate 3: (40, 40, 260, 40)
+SACREBLEU score 3: 21.10534063187263 Counts: [6, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.70
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1198,15 +2049,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. (50, 100, 200, 120)
-2. Ellipse(100, 150, 50, 80)
-3. Shapes.AddText("Hello", 30, 200)
+Received response without candidate 1: (20, 100, 200, 100)
+SACREBLEU score 4: 21.10534063187263 Counts: [6, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.71
+
+Received response without candidate 2: (20, 100, 200, 50)
+SACREBLEU score 5: 7.129384882260374 Counts: [5, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 9 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score5: 0.54
+
+Received response without candidate 3: (20, 100, 200, 100)
+SACREBLEU score 6: 21.10534063187263 Counts: [6, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.70
 Actual result:  ( 60 , 100 , 300 , 60 )
 
 Parse State: 83	Cursor Position: 6 30
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 1.125476598739624 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1216,13 +2079,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2870855331420898 seconds
-Received response with candidate: 
-1. GraphicsWindow.FillRectangle(50, 100, 200, 50)
-2. GraphicsWindow.FillRectangle(100, 150, 150, 40)
-3. GraphicsWindow.FillRectangle(20, 200, 160, 70)
+Received response with candidate 1: 20, 100, 150, 40)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.10
+
+Received response with candidate 2: 20, 100, 100, 200)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.10
+
+Received response with candidate 3: 20, 100, 100, 50)
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.10
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1232,15 +2104,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 340, 100, 40, 40
-2. 50, 100, 200, 100
-3. 100, 100, 200, 100
+Received response without candidate 1: 20, 100, 200, 50)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.10
+
+Received response without candidate 2: 20, 100, 150, 50)
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.10
+
+Received response without candidate 3: 20, 100, 200, 50)
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.10
 Actual result:  60
 
 Parse State: 91	Cursor Position: 6 32
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 0.8439130783081055 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1250,12 +2134,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9387319087982178 seconds
-Received response with candidate: 1. , 80, 100, 200
-2. , 120, 40, 150
-3. , 90, 80, 250
+Received response with candidate 1: , 40, 200, 60)
+SACREBLEU score 1: 15.619699684601283 Counts: [4, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 6 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score1: 0.71
+
+Received response with candidate 2: , 60, 200, 100)
+SACREBLEU score 2: 15.619699684601283 Counts: [4, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 6 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: , 60, 200, 100)
+SACREBLEU score 3: 19.64073254502566 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 6 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score3: 0.38
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1265,15 +2159,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. , 100, 200)
-2. , 120, 100)
-3. , 200, 150)
+Received response without candidate 1: , 60, 200, 150)
+SACREBLEU score 4: 26.269098944241588 Counts: [4, 2, 1, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 33.333333333333336, 20.0, 12.5] System length: 7 Reference length: 6 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score4: 0.73
+
+Received response without candidate 2: , 100, 200, 100)
+SACREBLEU score 5: 19.64073254502566 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 6 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score5: 0.38
+
+Received response without candidate 3: , 100, 200, 100)
+SACREBLEU score 6: 26.269098944241588 Counts: [4, 2, 1, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 33.333333333333336, 20.0, 12.5] System length: 7 Reference length: 6 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score6: 0.73
 Actual result:  , 100 , 300 , 60
 
 Parse State: 103	Cursor Position: 6 34
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 0.681138277053833 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1283,13 +2189,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9133939743041992 seconds
-Received response with candidate: 
-1. 100, 100, 200, 100
-2. 150, 150, 250, 150
-3. 80, 80, 180, 80
+Received response with candidate 1:  40
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.57
+
+Received response with candidate 2: 60, 100, 40)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.47
+
+Received response with candidate 3:   60, 100, 200)
+SACREBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1299,15 +2214,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 100, 100, 150, 150
-2. 200, 20, 100, 200
-3. 30, 120, 250, 50
+Received response without candidate 1: 20, 120, 200)
+SACREBLEU score 4: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score4: 0.62
+
+Received response without candidate 2: 220, 100)
+SACREBLEU score 5: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: 80, 200, 100)
+SACREBLEU score 6: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score6: 0.47
 Actual result:  100
 
 Parse State: 91	Cursor Position: 6 37
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 0.7780125141143799 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1317,12 +2244,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1701154708862305 seconds
-Received response with candidate: GraphicsWindow.FillRectangle(60, 100, 200, 120)  
-GraphicsWindow.FillRectangle(60, 160, 200, 120)  
-GraphicsWindow.FillRectangle(60, 220, 200, 120)  
+Received response with candidate 1: , 100, 200)
+SACREBLEU score 1: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.64
+
+Received response with candidate 2: , 100, 200, 50)
+SACREBLEU score 2: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score2: 0.64
+
+Received response with candidate 3: , 120, 200, 40)
+SACREBLEU score 3: 7.809849842300637 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score3: 0.54
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1332,15 +2269,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. , 100, 200, 120)
-2. , 150, 200, 150)
-3. , 200, 200, 180)
+Received response without candidate 1: , 200, 200)
+SACREBLEU score 4: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score4: 0.64
+
+Received response without candidate 2: , 200, 150)
+SACREBLEU score 5: 7.809849842300637 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score5: 0.46
+
+Received response without candidate 3: , 200, 200)
+SACREBLEU score 6: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 4 
+First element of precision: 40.0 
+SequenceMatcher Score6: 0.64
 Actual result:  , 300 , 60
 
 Parse State: 103	Cursor Position: 6 39
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 0.629638671875 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1350,13 +2299,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0509181022644043 seconds
-Received response with candidate: 
-1. 100, 80, 200
-2. 120, 140, 180
-3. 50, 70, 130
+Received response with candidate 1: 100, 50)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.33
+
+Received response with candidate 2: 320, 60)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.31
+
+Received response with candidate 3: 30, 150)
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1366,15 +2324,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 200, 120, 100, 50
-2. 150, 200, 120, 80
-3. 50, 150, 200, 100
+Received response without candidate 1: 250, 120)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.46
+
+Received response without candidate 2: 240, 100)
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: 260, 100)
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.46
 Actual result:  300
 
 Parse State: 91	Cursor Position: 6 42
 Candidate List: ['1 : ', '[T, ,, NT, MoreThanOneExpr] : 156591']
+Time taken: 0.6394495964050293 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1384,12 +2354,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300
                 ', MoreThanOneExpr'
-                Complete the ', MoreThanOneExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ', MoreThanOneExpr'. 
+                Complete the ', MoreThanOneExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8397274017333984 seconds
-Received response with candidate: 1. ", 60)"
-2. ", 100, 80)" 
-3. ", 150, 120)"
+Received response with candidate 1: , 100)
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.55
+
+Received response with candidate 2: , 100) 
+SACREBLEU score 2: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 2 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: , 150)
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1399,15 +2379,27 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. GraphicsWindow.DrawEllipse(100, 150, 80, 80)
-2. GraphicsWindow.DrawTriangle(200, 200, 250, 250, 220, 200)
-3. GraphicsWindow.DrawPolygon({{50, 250}, {100, 280}, {80, 320}, {20,
+Received response without candidate 1: GraphicsWindow.(100, 100, 100)
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.55
+
+Received response without candidate 2: , 120)
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.55
+
+Received response without candidate 3: , 150)
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.55
 Actual result:  , 60
 
 Parse State: 103	Cursor Position: 6 44
 Candidate List: ['1 : ', '[T, NUM] : 76234', '2 : ', '[T, ID] : 49004', '3 : ', '[T, STR] : 12436', '4 : ', '[T, ID, NT, Idxs] : 10809', '5 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 3421', '6 : ', '[T, -, NT, Primary] : 1825', '7 : ', '[T, (, NT, Expr, T, )] : 1525', '8 : ', '[T, ID, T, ., T, ID] : 1337']
+Time taken: 1.849212408065796 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1417,13 +2409,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300,
                 'Number'
-                Complete the 'Number' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Number'. 
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7580440044403076 seconds
-Received response with candidate: 
-1. 100, 80
-2. 200, 120
-3. 150, 150
+Received response with candidate 1: 80, 100)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.18
+
+Received response with candidate 2:   50
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: 100
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.57
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1433,15 +2434,31 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300,
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 60, 150)
-2. 100, 150)
-3. 60, 200)
+Received response without candidate 1: 80) 100
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 23 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.03
+
+Received response without candidate 2: 20)  150  
+21)  100, 200  
+22)  200, 150  
+23)  120, 80  
+24)  50, 50  
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.33
+
+Received response without candidate 3: 60, 100)
+SACREBLEU score 6: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score6: 0.36
 Actual result:  60
 
 Parse State: 92	Cursor Position: 6 46
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.6851613521575928 seconds
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1451,12 +2468,22 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300, 60
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6416580677032471 seconds
-Received response with candidate: 1) )
-2) )
-3) )
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: )
+SACREBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score2: 0.08
+
+Received response with candidate 3: )
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 GraphicsWindow.Width = 400 
@@ -1466,13 +2493,25 @@ GraphicsWindow.DrawRectangle(20, 20, 300, 60)
 GraphicsWindow.BrushColor = "Green" 
 GraphicsWindow.FillRectangle(60, 100, 300, 60
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: next token or line:  
-GraphicsWindow.PenColor = "Blue"  
-next token or line:  
-GraphicsWindow.DrawLine(100, 150, 200, 150)  
-next token or line:  
-GraphicsWindow.DrawEllipse(150, 200, 100, 50)  
+Received response without candidate 1: GraphicsWindow.DrawEllipse(100, 150, 200, 100)
+SACREBLEU score 4: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score4: 0.09
+
+Received response without candidate 2: GraphicsWindow.DrawEllipse(100, 50, 200, 100)
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: GraphicsWindow.DrawEllipse(120, 180, 200, 100)
+SACREBLEU score 6: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score6: 0.08
 Actual result:  )
 
+Average Precision with Candidate Guidance: 49.384957446181964
+Average Precision without Candidate Guidance: 44.0944968644113
+Average Sequence Matcher Similarity with Candidate Guidance: 53.02390833816135
+Average Sequence Matcher Similarity without Candidate Guidance: 48.48852655073025

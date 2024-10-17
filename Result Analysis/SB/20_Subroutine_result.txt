@@ -1,540 +1,1064 @@
 Parse State: 0	Cursor Position: 1 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 0.7364704608917236 seconds
 
                 This is the incomplete Small Basic programming language code:
                 
                 'Identifier ( )'
-                Complete the 'Identifier ( )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( )'. 
+                Complete the 'Identifier ( )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7499914169311523 seconds
-Received response with candidate: 1. DrawCircle()
-2. MovePlayer()
-3. CalculateAverage()
+Received response with candidate 1: 'GraphicsWindow()'
+SACREBLEU score 1: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.31
+
+Received response with candidate 2: 'Identifier()'
+
+SACREBLEU score 2: 0.5881113610200113 Counts: [2, 0, 0, 0] Totals: [73, 72, 71, 70] Precisions: [2.73972602739726, 0.6944444444444444, 0.352112676056338, 0.17857142857142858] System length: 73 Reference length: 3 
+First element of precision: 2.73972602739726 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: 'Identifier()'
+
+Please provide the next part of the code for further completion.
+SACREBLEU score 3: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.41
 
                 This is the incomplete Small Basic programming language code:
                 
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 'NextToken()'
-2. 'AdvanceToken()'
-3. 'GetNextLine()'
+Received response without candidate 1: 'next token or line'
+
+For example, you can use the following code to read the next token or line:
+
+```smallbasic
+' Read the next token or line
+token = Text.GetSubText(source, Text.GetIndexOf(source, ",", currentPosition), currentPosition)
+```
+
+This code reads the next token or line in the variable `source` using
+SACREBLEU score 4: 0.6050397492149123 Counts: [2, 0, 0, 0] Totals: [71, 70, 69, 68] Precisions: [2.816901408450704, 0.7142857142857143, 0.36231884057971014, 0.18382352941176472] System length: 71 Reference length: 3 
+First element of precision: 2.816901408450704 
+SequenceMatcher Score4: 0.03
+
+Received response without candidate 2: Sure, here is the completed code for getting the next token:
+
+```smallbasic
+token = Text.GetSubTextToEnd(program, currentPosition)
+nextToken = Text.GetSubText(token, 1, Text.GetIndexOf(token, " "))
+currentPosition = currentPosition + Text.GetLength(nextToken)
+```
+
+Is there anything else you would like help with in this
+SACREBLEU score 5: 4.891187874480726 Counts: [2, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score5: 0.13
+
+Received response without candidate 3: Sure, but I'll need to see the code first in order to help complete the 'next token or line' part.
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.09
 Actual result:  PrintTime ( )
 
 Parse State: 6	Cursor Position: 1 10
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 1.1491873264312744 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime
                 '( )'
-                Complete the '( )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( )'. 
+                Complete the '( )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9503097534179688 seconds
-Received response with candidate: PrintTime
-'( 
-  TextWindow.WriteLine("The current time is: " + DateTime.Now.ToString("h:mm:ss tt"))
-)'
+Received response with candidate 1: PrintTime
+                Time.WriteLine("The current time is: " + Clock.Time)
+SACREBLEU score 1: 2.719665272174911 Counts: [2, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [11.764705882352942, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 2 
+First element of precision: 11.764705882352942 
+SequenceMatcher Score1: 0.07
+
+Received response with candidate 2: GraphicsWindow.DrawResizedImage("clock.png", 0, 0, 200, 200)
+                TextWindow.WriteLine("The current time is: " + Clock.Time)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.14
+
+Received response with candidate 3: 
+
+TextWindow.WriteLine("The current time is: " + Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 3: 1.2944532586971997 Counts: [2, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [5.882352941176471, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 2 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score3: 0.04
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. = Clock.Time
-2. = Clock.GetTime
-3. = Clock.DisplayTime
+Received response without candidate 1: Input "What time is it?"
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 18 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.05
+
+Received response without candidate 2: Input "Enter the current time:" currentTime
+Print "Current time is: " + currentTime
+SACREBLEU score 5: 1.8709718017288024 Counts: [2, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [8.333333333333334, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 2 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score5: 0.07
+
+Received response without candidate 3: Input "Please enter the time:"
+time = TextWindow.Read()
+
+If ("12:00 AM" <= time And time < "11:59 PM") Then
+  TextWindow.WriteLine("The time is: " + time)
+Else
+  TextWindow.WriteLine("Invalid time format. Please enter time in the format HH:MM AM/PM")
+
+SACREBLEU score 6: 0.9754356991343187 Counts: [2, 1, 0, 0] Totals: [74, 73, 72, 71] Precisions: [2.7027027027027026, 1.36986301369863, 0.6944444444444444, 0.352112676056338] System length: 74 Reference length: 2 
+First element of precision: 2.7027027027027026 
+SequenceMatcher Score6: 0.03
 Actual result:  ( )
 
 Parse State: 31	Cursor Position: 1 11
 Candidate List: ['1 : ', '[T, )] : 31942']
+Time taken: 0.6045956611633301 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime(
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7672455310821533 seconds
-Received response with candidate: 1) PrintTime(
-   )
-   
-2) PrintTime()
-   
-3) PrintTime( )
+Received response with candidate 1: PrintTime(
+)
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.14
+
+Received response with candidate 2: PrintTime(
+)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: )
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.14
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "12:30 PM"
-2. "3:45 AM"
-3. "9:15 PM"
+Received response without candidate 1: "12:30 PM"
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: ""Hello, World!""
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: ""Today is a good day for coding!""
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.05
 Actual result:  )
 
 Parse State: 3	Cursor Position: 1 13
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.185492753982544 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime()
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4016356468200684 seconds
-Received response with candidate: For the 'CR MoreThanOneStmt' part, here are three possible completions in Small Basic:
+Received response with candidate 1: If there is more than one statement that needs to be executed, you can split them into separate lines using the '&' symbol. For example:
 
-1. Set hour = Clock.Hour
-   Set minute = Clock.Minute
-   Set second = Clock.Second
-   TextWindow.WriteLine(hour + ":" + minute + ":" + second)
+```
+PrintTime()
+Print "Hello, world!" & " This is another statement."
+```
+SACREBLEU score 1: 3.177807736033594 Counts: [13, 2, 1, 0] Totals: [54, 53, 52, 51] Precisions: [24.074074074074073, 3.7735849056603774, 1.9230769230769231, 0.9803921568627451] System length: 54 Reference length: 61 
+First element of precision: 24.074074074074073 
+SequenceMatcher Score1: 0.05
 
-2. If Clock.Hour < 12 Then
-       TextWindow
+Received response with candidate 2: x = Clock.Hour
+If x < 12 Then
+  TextWindow.WriteLine("Good morning!")
+Else
+  TextWindow.WriteLine("Good afternoon!")
+EndIf
+SACREBLEU score 2: 7.400402847379368 Counts: [19, 9, 3, 1] Totals: [41, 40, 39, 38] Precisions: [46.34146341463415, 22.5, 7.6923076923076925, 2.6315789473684212] System length: 41 Reference length: 61 
+First element of precision: 46.34146341463415 
+SequenceMatcher Score2: 0.04
+
+Received response with candidate 3: PrintTime()
+'CR MoreThanOneStmt'
+If Clock.Hour < 12 Then
+    TextWindow.WriteLine("Good morning!")
+ElseIf Clock.Hour < 18 Then
+    TextWindow.WriteLine("Good afternoon!")
+Else
+    TextWindow.WriteLine("Good evening!")
+EndIf
+SACREBLEU score 3: 5.302404873567987 Counts: [16, 8, 2, 1] Totals: [32, 31, 30, 29] Precisions: [50.0, 25.806451612903224, 6.666666666666667, 3.4482758620689653] System length: 32 Reference length: 61 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.05
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Clock.DisplayTime()
-2. For i = 1 To 10
-3. If time.Hour = 12 Then
+Received response without candidate 1: hours = Clock.Hour
+                minutes = Clock.Minute
+                seconds = Clock.Second
+                
+                TextWindow.WriteLine("The current time is: " + hours + ":" + minutes + ":" + seconds)
+SACREBLEU score 4: 12.753594328698837 Counts: [21, 12, 7, 4] Totals: [34, 33, 32, 31] Precisions: [61.76470588235294, 36.36363636363637, 21.875, 12.903225806451612] System length: 34 Reference length: 61 
+First element of precision: 61.76470588235294 
+SequenceMatcher Score4: 0.08
+
+Received response without candidate 2: Input "Please enter the current time:"
+Dim currentTime As String
+currentTime = TextWindow.Read()
+TextWindow.WriteLine("The current time is: " + currentTime)
+SACREBLEU score 5: 8.717867996142646 Counts: [23, 11, 3, 1] Totals: [51, 50, 49, 48] Precisions: [45.09803921568628, 22.0, 6.122448979591836, 2.0833333333333335] System length: 51 Reference length: 61 
+First element of precision: 45.09803921568628 
+SequenceMatcher Score5: 0.08
+
+Received response without candidate 3: If the time is in 24-hour format, use this code:
+hour = Clock.Hour
+minute = Clock.Minute
+If hour < 12 Then
+  suffix = "AM"
+Else
+  suffix = "PM"
+EndIf
+If hour > 12 Then
+  hour = hour - 12
+EndIf
+TextWindow.WriteLine("
+SACREBLEU score 6: 6.34930081050962 Counts: [17, 6, 2, 1] Totals: [57, 56, 55, 54] Precisions: [29.82456140350877, 10.714285714285714, 3.6363636363636362, 1.8518518518518519] System length: 57 Reference length: 61 
+First element of precision: 29.82456140350877 
+SequenceMatcher Score6: 0.09
 Actual result:  \n TextWindow . Write ( "Enter your name: " ) \n name = TextWindow . Read ( ) \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 11	Cursor Position: 2 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.9255235195159912 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime()
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9928696155548096 seconds
-Received response with candidate: Math.GetRandomNumber(10)
-GraphicsWindow.DrawRectangle(50, 50, 100, 100)
-TextWindow.WriteLine("Hello, World!")
+Received response with candidate 1: Math.GetRandomNumber(100)
+SACREBLEU score 1: 4.642454187453896 Counts: [3, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 11 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.21
+
+Received response with candidate 2: Math.GetTime()
+SACREBLEU score 2: 2.0705706652424007 Counts: [3, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [12.5, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 11 
+First element of precision: 12.5 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: Math.GetRandomNumber(10)
+SACREBLEU score 3: 4.234348806659263 Counts: [3, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 11 
+First element of precision: 60.0 
+SequenceMatcher Score3: 0.14
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. GraphicsWindow.Show()
-2. Clock.Delay(1000)
-3. 'Goto Start'
+Received response without candidate 1: Please provide the specific code snippet that follows 'PrintTime()' in order for me to assist you in completing the code.
+SACREBLEU score 4: 6.336859268415405 Counts: [6, 2, 0, 0] Totals: [19, 18, 17, 16] Precisions: [31.57894736842105, 11.11111111111111, 2.9411764705882355, 1.5625] System length: 19 Reference length: 11 
+First element of precision: 31.57894736842105 
+SequenceMatcher Score4: 0.20
+
+Received response without candidate 2: endTime = DateTime.Now
+Print("Time taken: " + (endTime - startTime))
+SACREBLEU score 5: 4.642454187453896 Counts: [3, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 11 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.21
+
+Received response without candidate 3: Sure, here is one possible completion for the 'next token or line' part of the code:
+```Small Basic
+      TextWindow.WriteLine("The current time is: " + DateTime.Now)
+```
+SACREBLEU score 6: 3.1440749510999075 Counts: [7, 3, 0, 0] Totals: [42, 41, 40, 39] Precisions: [16.666666666666668, 7.317073170731708, 1.25, 0.6410256410256411] System length: 42 Reference length: 11 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score6: 0.28
 Actual result:  TextWindow . Write ( "Enter your name: " )
 
 Parse State: 6	Cursor Position: 2 11
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.693312406539917 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1582057476043701 seconds
-Received response with candidate: 1. '.Print("The current time is: " + DateTime.Now)'
-2. '.DrawText(100, 100, "Time: " + DateTime.Now)'
-3. '.ReadNumber("Enter the current time:")'
+Received response with candidate 1: .PrintTime()
+SACREBLEU score 1: 4.690733795095046 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: .GetTimeString()
+SACREBLEU score 2: 7.655122720591221 Counts: [6, 2, 0, 0] Totals: [16, 15, 14, 13] Precisions: [37.5, 13.333333333333334, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 10 
+First element of precision: 37.5 
+SequenceMatcher Score2: 0.46
+
+Received response with candidate 3: .Print("The current time is: " + DateTime.Now.ToString("hh:mm tt"))
+SACREBLEU score 3: 4.690733795095046 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 10 
+First element of precision: 75.0 
+SequenceMatcher Score3: 0.25
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: next token or line
-next token or line
-next token or line
+Received response without candidate 1: .WriteLine("The current time is: " + DateTime.Now);
+SACREBLEU score 4: 15.663840573309688 Counts: [7, 4, 2, 1] Totals: [19, 18, 17, 16] Precisions: [36.8421052631579, 22.22222222222222, 11.764705882352942, 6.25] System length: 19 Reference length: 10 
+First element of precision: 36.8421052631579 
+SequenceMatcher Score4: 0.43
+
+Received response without candidate 2: . Write("The current time is: " + DateTime.Now.ToLongTimeString())
+SACREBLEU score 5: 5.217592866832707 Counts: [6, 3, 0, 0] Totals: [25, 24, 23, 22] Precisions: [24.0, 12.5, 2.1739130434782608, 1.1363636363636365] System length: 25 Reference length: 10 
+First element of precision: 24.0 
+SequenceMatcher Score5: 0.34
+
+Received response without candidate 3: . WriteLine("The current time is: " + DateTime.Now.ToString("h:mm:ss tt"))
+SACREBLEU score 6: 4.807547001959649 Counts: [6, 3, 0, 0] Totals: [27, 26, 25, 24] Precisions: [22.22222222222222, 11.538461538461538, 2.0, 1.0416666666666667] System length: 27 Reference length: 10 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score6: 0.38
 Actual result:  . Write ( "Enter your name: " )
 
 Parse State: 30	Cursor Position: 2 12
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.827988862991333 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2418458461761475 seconds
-Received response with candidate: 1. TextWindow.WriteLine("The current time is " + time)
-2. GraphicsWindow.DrawRectangle(x, y, width, height)
-3. Math.GetRandomNumber(1, 10)
+Received response with candidate 1: Read()
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.17
+
+Received response with candidate 2: Read()
+SACREBLEU score 2: 3.377156414337854 Counts: [2, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 9 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score2: 0.23
+
+Received response with candidate 3: Read()
+SACREBLEU score 3: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.17
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. WriteLine("The current time is: " + DateTime.Now.ToString("h:mm:ss tt")) 
-2. WriteLine("It is now: " + DateTime.Now.ToShortTimeString()) 
-3. WriteLine("Time: " + DateTime.Now.ToString("HH:mm:ss"))
+Received response without candidate 1: DrawBox(100, 100, 200, 200)
+'next token or line'
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.17
+
+Received response without candidate 2: Read()
+SACREBLEU score 5: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.17
+
+Received response without candidate 3: Read()
+SACREBLEU score 6: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 9 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.17
 Actual result:  Write ( "Enter your name: " )
 
 Parse State: 58	Cursor Position: 2 17
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 1.1558566093444824 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7443110942840576 seconds
-Received response with candidate: 1. (Clock.Hour)
-2. (Clock.Minute)
-3. (Clock.Second)
+Received response with candidate 1: (TimeOfDay)
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.23
+
+Received response with candidate 2: ( "The current time is: " + DateTime.Now.ToLongTimeString() )
+SACREBLEU score 2: 16.58165975077607 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 8 
+First element of precision: 80.0 
+SequenceMatcher Score2: 0.28
+
+Received response with candidate 3: (DateTime.Now)
+SACREBLEU score 3: 6.839596061560946 Counts: [5, 2, 0, 0] Totals: [17, 16, 15, 14] Precisions: [29.41176470588235, 12.5, 3.3333333333333335, 1.7857142857142858] System length: 17 Reference length: 8 
+First element of precision: 29.41176470588235 
+SequenceMatcher Score3: 0.35
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. ("Time: " + Time.ElapsedMilliseconds)
-2. (Time.GetDateTimeNow())
-3. ("Current time: " + DateTime.Now)
+Received response without candidate 1: (".")
+SACREBLEU score 4: 6.010788805431864 Counts: [5, 3, 0, 0] Totals: [21, 20, 19, 18] Precisions: [23.80952380952381, 15.0, 2.6315789473684212, 1.3888888888888888] System length: 21 Reference length: 8 
+First element of precision: 23.80952380952381 
+SequenceMatcher Score4: 0.32
+
+Received response without candidate 2: ("(" + Clock.Hour + ":" + Clock.Minute + ")")
+SACREBLEU score 5: 6.9717291216921975 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 8 
+First element of precision: 40.0 
+SequenceMatcher Score5: 0.32
+
+Received response without candidate 3: ("<Hour>:<Minute>:<Second>")
+SACREBLEU score 6: 7.8594386815106 Counts: [5, 2, 0, 0] Totals: [15, 14, 13, 12] Precisions: [33.333333333333336, 14.285714285714286, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 8 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.31
 Actual result:  ( "Enter your name: " )
 
 Parse State: 83	Cursor Position: 2 18
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.788409948348999 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write(
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.0175957679748535 seconds
-Received response with candidate: 1. "The time is 3:00 PM"
-2. "Current time: 10:30 AM"
-3. "It's 6:45 in the evening"
+Received response with candidate 1: Please provide the missing 'String' portion for the code TextWindow.Write('String').
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.10
+
+Received response with candidate 2: "Current Time: " + Clock.Hour + ":" + Clock.Minute
+SACREBLEU score 2: 1.7590773942055664 Counts: [3, 1, 0, 0] Totals: [46, 45, 44, 43] Precisions: [6.521739130434782, 2.2222222222222223, 1.1363636363636365, 0.5813953488372093] System length: 46 Reference length: 6 
+First element of precision: 6.521739130434782 
+SequenceMatcher Score2: 0.12
+
+Received response with candidate 3: "Hello, world!"
+SACREBLEU score 3: 5.061867434834413 Counts: [3, 1, 0, 0] Totals: [17, 16, 15, 14] Precisions: [17.647058823529413, 6.25, 3.3333333333333335, 1.7857142857142858] System length: 17 Reference length: 6 
+First element of precision: 17.647058823529413 
+SequenceMatcher Score3: 0.26
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Text.GetSubText("Hello World", 0, 5)
-2. GraphicsWindow.DrawLine(0, 0, 100, 100)
-3. Math.Power(2, 3)
+Received response without candidate 1: 'Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response.'
+
+TextWindow.WriteLine("The current time is: " + Clock.Time)
+SACREBLEU score 4: 9.578464408619821 Counts: [4, 2, 0, 0] Totals: [12, 11, 10, 9] Precisions: [33.333333333333336, 18.181818181818183, 5.0, 2.7777777777777777] System length: 12 Reference length: 6 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.42
+
+Received response without candidate 2: TextWindow.WriteLine("Enter the current time:")
+SACREBLEU score 5: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 6 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.29
+
+Received response without candidate 3: TextWindow.WriteLine("The current time is: " + DateTime.Now.ToLongTimeString())
+SACREBLEU score 6: 4.237713199752784 Counts: [3, 1, 0, 0] Totals: [20, 19, 18, 17] Precisions: [15.0, 5.2631578947368425, 2.7777777777777777, 1.4705882352941178] System length: 20 Reference length: 6 
+First element of precision: 15.0 
+SequenceMatcher Score6: 0.24
 Actual result:  "Enter your name: "
 
 Parse State: 92	Cursor Position: 2 37
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.8156087398529053 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: "
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.784564733505249 seconds
-Received response with candidate: 1) )
-2) ))
-3) )))
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: )
+SACREBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.11
+
+Received response with candidate 3: )
+
+Here is the completed code:
+
+```smallbasic
+PrintTime() 
+TextWindow.Write("Enter your name: ")
+```
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: "
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.Read()
-2. name = TextWindow.Read()
-3. TextWindow.ReadNumber()
+Received response without candidate 1: TextWindow.Read()
+SACREBLEU score 4: 0.7291698644541256 Counts: [1, 0, 0, 0] Totals: [50, 49, 48, 47] Precisions: [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063] System length: 50 Reference length: 1 
+First element of precision: 2.0 
+SequenceMatcher Score4: 0.01
+
+Received response without candidate 2: TextWindow.WriteLine()
+                name = TextWindow.Read()
+                TextWindow.WriteLine("Hello " + name + "!")
+                TextWindow.WriteLine("The current time is: " + Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 5: 1.3353534059549443 Counts: [1, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5] System length: 28 Reference length: 1 
+First element of precision: 3.5714285714285716 
+SequenceMatcher Score5: 0.02
+
+Received response without candidate 3: TextWindow.Read()
+                name = TextWindow.Read()
+                TextWindow.WriteLine("Hello, " + name + "!")
+SACREBLEU score 6: 1.387819277861591 Counts: [1, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334] System length: 27 Reference length: 1 
+First element of precision: 3.7037037037037037 
+SequenceMatcher Score6: 0.02
 Actual result:  )
 
 Parse State: 3	Cursor Position: 2 39
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.214237928390503 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ")
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.270261287689209 seconds
-Received response with candidate: TextWindow.WriteLine("Hello, " + TextWindow.Read())
-TextWindow.WriteLine("The current time is: " + Clock.Time)
-TextWindow.WriteLine("Have a great day, " + TextWindow.Read())
+Received response with candidate 1: TextWindow.WriteLine("The current time is: " + Clock.TimeOfDay)
+SACREBLEU score 1: 3.661376106836198 Counts: [13, 6, 3, 1] Totals: [16, 15, 14, 13] Precisions: [81.25, 40.0, 21.428571428571427, 7.6923076923076925] System length: 16 Reference length: 48 
+First element of precision: 81.25 
+SequenceMatcher Score1: 0.28
+
+Received response with candidate 2: TextWindow.Read()
+                TextWindow.WriteLine("Hello, " + TextWindow.Read() + "!")
+SACREBLEU score 2: 13.293607023268148 Counts: [16, 12, 8, 5] Totals: [21, 20, 19, 18] Precisions: [76.19047619047619, 60.0, 42.10526315789474, 27.77777777777778] System length: 21 Reference length: 48 
+First element of precision: 76.19047619047619 
+SequenceMatcher Score2: 0.44
+
+Received response with candidate 3: TextWindow.Write("What time is it? ")
+time = TextWindow.ReadNumber()
+If time < 12 Then
+    TextWindow.WriteLine("Good morning!")
+ElseIf time < 18 Then
+    TextWindow.WriteLine("Good afternoon!")
+Else
+    TextWindow.WriteLine("Good evening!")
+EndIf
+SACREBLEU score 3: 12.085075476403746 Counts: [18, 11, 5, 3] Totals: [24, 23, 22, 21] Precisions: [75.0, 47.82608695652174, 22.727272727272727, 14.285714285714286] System length: 24 Reference length: 48 
+First element of precision: 75.0 
+SequenceMatcher Score3: 0.27
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.ReadNumber()
-3. name = TextWindow.ReadNonSpaces()
+Received response without candidate 1: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 13.293607023268148 Counts: [16, 12, 8, 5] Totals: [21, 20, 19, 18] Precisions: [76.19047619047619, 60.0, 42.10526315789474, 27.77777777777778] System length: 21 Reference length: 48 
+First element of precision: 76.19047619047619 
+SequenceMatcher Score4: 0.44
+
+Received response without candidate 2: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 5: 11.512387454711387 Counts: [22, 10, 5, 2] Totals: [61, 60, 59, 58] Precisions: [36.0655737704918, 16.666666666666668, 8.474576271186441, 3.4482758620689653] System length: 61 Reference length: 48 
+First element of precision: 36.0655737704918 
+SequenceMatcher Score5: 0.45
+
+Received response without candidate 3: name = TextWindow.Read()
+SACREBLEU score 6: 0.2859401742022367 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 48 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.24
 Actual result:  \n name = TextWindow . Read ( ) \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 11	Cursor Position: 3 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.6169979572296143 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ")
                 'Identifier = Expression'
-                Complete the 'Identifier = Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier = Expression'. 
+                Complete the 'Identifier = Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7210826873779297 seconds
-Received response with candidate: Identifier = TextWindow.Read()
-Identifier = Clock.Hour
-Identifier = Clock.Minute
+Received response with candidate 1: name = TextWindow.Read()
+SACREBLEU score 1: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.91
+
+Received response with candidate 2: name = TextWindow.Read()
+SACREBLEU score 2: 15.17249576563017 Counts: [7, 6, 5, 4] Totals: [37, 36, 35, 34] Precisions: [18.91891891891892, 16.666666666666668, 14.285714285714286, 11.764705882352942] System length: 37 Reference length: 7 
+First element of precision: 18.91891891891892 
+SequenceMatcher Score2: 0.31
+
+Received response with candidate 3: name = TextWindow.Read()
+SACREBLEU score 3: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.91
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. name = TextWindow.Read()
-2. name = TextWindow.GetInput()
-3. name = TextWindow.ReadNumber()
+Received response without candidate 1: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+TextWindow.WriteLine("The current time is: " + Clock.Time)
+SACREBLEU score 4: 27.65355515845788 Counts: [7, 6, 5, 4] Totals: [21, 20, 19, 18] Precisions: [33.333333333333336, 30.0, 26.31578947368421, 22.22222222222222] System length: 21 Reference length: 7 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.49
+
+Received response without candidate 2: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 5: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.91
+
+Received response without candidate 3: name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 6: 27.65355515845788 Counts: [7, 6, 5, 4] Totals: [21, 20, 19, 18] Precisions: [33.333333333333336, 30.0, 26.31578947368421, 22.22222222222222] System length: 21 Reference length: 7 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.49
 Actual result:  name = TextWindow . Read ( )
 
 Parse State: 6	Cursor Position: 3 6
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.5800538063049316 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name
                 '= Expression'
-                Complete the '= Expression' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '= Expression'. 
+                Complete the '= Expression' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1453821659088135 seconds
-Received response with candidate: 1. name = TextWindow.Read() + " Smith"
-2. name = TextWindow.Read() + " Jones"
-3. name = TextWindow.Read() + " Johnson"
+Received response with candidate 1: = TextWindow.Read()
+SACREBLEU score 1: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.88
+
+Received response with candidate 2: = TextWindow.Read()
+SACREBLEU score 2: 23.588448106534212 Counts: [6, 5, 4, 3] Totals: [20, 19, 18, 17] Precisions: [30.0, 26.31578947368421, 22.22222222222222, 17.647058823529413] System length: 20 Reference length: 6 
+First element of precision: 30.0 
+SequenceMatcher Score2: 0.44
+
+Received response with candidate 3: = TextWindow.Read()
+SACREBLEU score 3: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.88
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. = TextWindow.Read()
-2. = TextWindow.Read()
-3. = TextWindow.ReadNumber()
+Received response without candidate 1: = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.88
+
+Received response without candidate 2: = TextWindow.Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.88
+
+Received response without candidate 3: = TextWindow.Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.88
 Actual result:  = TextWindow . Read ( )
 
 Parse State: 29	Cursor Position: 3 8
 Candidate List: ['1 : ', '[T, ID] : 44694', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 42463', '3 : ', '[T, NUM] : 34261', '4 : ', '[T, STR] : 20111', '5 : ', '[T, ID, NT, Idxs] : 8883', '6 : ', '[T, ID, T, ., T, ID] : 6123', '7 : ', '[T, (, NT, Expr, T, )] : 3004', '8 : ', '[T, -, NT, Primary] : 2564']
+Time taken: 0.8406760692596436 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name =
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9063692092895508 seconds
-Received response with candidate: 1. TextWindow.Read()
-2. Math.GetRandomNumber(10)
-3. Clock.TimeNow()
+Received response with candidate 1: TextWindow.ReadLine()
+SACREBLEU score 1: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score1: 0.79
+
+Received response with candidate 2: TextWindow.ReadLine()
+SACREBLEU score 2: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.87
+
+Received response with candidate 3: TextWindow.ReadLine()
+SACREBLEU score 3: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score3: 0.79
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name =
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.Read()
-2. TextWindow.ReadNumber()
-3. TextWindow.ReadNonWhiteSpace()
+Received response without candidate 1: TextWindow.Read()
+SACREBLEU score 4: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.87
+
+Received response without candidate 2: TextWindow.Read()
+SACREBLEU score 5: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score5: 0.79
+
+Received response without candidate 3: TextWindow.Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.87
 Actual result:  TextWindow . Read ( )
 
 Parse State: 22	Cursor Position: 3 18
 Candidate List: ['1 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, [, NT, Expr, T, ]] : 59127', '3 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 21477', '4 : ', '[T, ., T, ID] : 16490']
+Time taken: 0.5518810749053955 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1025598049163818 seconds
-Received response with candidate: 1. '. Identifier ( name )'
-2. '. Identifier ( getText() )'
-3. '. Identifier ( ReadString() )'
+Received response with candidate 1: . Read()
+SACREBLEU score 1: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.84
+
+Received response with candidate 2: . Read()
+SACREBLEU score 2: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.78
+
+Received response with candidate 3: . Read()
+SACREBLEU score 3: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.84
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: name = TextWindow.Read()
-name = TextWindow.Read()
-name = TextWindow.Read()
+Received response without candidate 1: .Read()
+SACREBLEU score 4: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.78
+
+Received response without candidate 2: .Read()
+SACREBLEU score 5: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.84
+
+Received response without candidate 3: .Read()
+SACREBLEU score 6: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.78
 Actual result:  . Read ( )
 
 Parse State: 53	Cursor Position: 3 19
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, ID] : 16490']
+Time taken: 0.7871341705322266 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6718361377716064 seconds
-Received response with candidate: Read() 
-ReadLine()
-ReadInput()
+Received response with candidate 1: Read()
+SACREBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.80
+
+Received response with candidate 2: Read()
+SACREBLEU score 2: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.80
+
+Received response with candidate 3: Read()
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.80
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Read()
-2. ReadNumber()
-3. ReadLine()
+Received response without candidate 1: Read()
+SACREBLEU score 4: 59.460355750136046 Counts: [3, 2, 1, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 66.66666666666667, 50.0, 50.0] System length: 4 Reference length: 3 
+First element of precision: 75.0 
+SequenceMatcher Score4: 0.75
+
+Received response without candidate 2: Read();
+SACREBLEU score 5: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.80
+
+Received response without candidate 3: Read()
+SACREBLEU score 6: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.80
 Actual result:  Read ( )
 
 Parse State: 79	Cursor Position: 3 23
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 74070']
+Time taken: 0.5605385303497314 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7112195491790771 seconds
-Received response with candidate: 1. name
-2. TextWindow.Read()
-3. ''
+Received response with candidate 1: ()
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: ()
+SACREBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.67
+
+Received response with candidate 3: ()
+SACREBLEU score 3: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1.  =() 
-2.  [ ] 
-3.  " "
+Received response without candidate 1: ()
+SACREBLEU score 4: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.67
+
+Received response without candidate 2: ()
+SACREBLEU score 5: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: ()
+SACREBLEU score 6: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.67
 Actual result:  ( )
 
 Parse State: 102	Cursor Position: 3 24
 Candidate List: ['1 : ', '[T, )] : 74070']
+Time taken: 0.6532747745513916 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read(
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6008567810058594 seconds
-Received response with candidate: 1) ""
-2)  
-3) ""
+Received response with candidate 1: ")"
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.40
+
+Received response with candidate 2:     	TextWindow.Read(
+                   "name"
+              )
+SACREBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score2: 0.10
+
+Received response with candidate 3: ")"
+SACREBLEU score 3: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score3: 0.06
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "name"
-2. 
-" 
-                    "name"
-                    "
-3. "
-            "name"
+Received response without candidate 1: "Enter your name: " + TextWindow.Read()
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.67
+
+Received response without candidate 2: )
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.40
+
+Received response without candidate 3: ""
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
 Actual result:  )
 
 Parse State: 3	Cursor Position: 3 26
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.6498818397521973 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read()
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.221726655960083 seconds
-Received response with candidate: 1. 
-TextWindow.WriteLine("Hello " + name + ", the current time is: " + Clock.Time)
-TextWindow.WriteLine("Have a great day!")
+Received response with candidate 1: TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 1: 4.804979767359319 Counts: [9, 6, 3, 1] Totals: [14, 13, 12, 11] Precisions: [64.28571428571429, 46.15384615384615, 25.0, 9.090909090909092] System length: 14 Reference length: 39 
+First element of precision: 64.28571428571429 
+SequenceMatcher Score1: 0.31
 
-2. 
-hour = Clock.Hour()
-minutes = Clock.Minute()
-TextWindow.WriteLine("Hello " + name + ", the current time is: " + hour + ":" + minutes)
-TextWindow
+Received response with candidate 2: TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 2: 4.804979767359319 Counts: [9, 6, 3, 1] Totals: [14, 13, 12, 11] Precisions: [64.28571428571429, 46.15384615384615, 25.0, 9.090909090909092] System length: 14 Reference length: 39 
+First element of precision: 64.28571428571429 
+SequenceMatcher Score2: 0.31
+
+Received response with candidate 3: Print("Hello, " + name + "!")
+SACREBLEU score 3: 4.804979767359319 Counts: [9, 6, 3, 1] Totals: [14, 13, 12, 11] Precisions: [64.28571428571429, 46.15384615384615, 25.0, 9.090909090909092] System length: 14 Reference length: 39 
+First element of precision: 64.28571428571429 
+SequenceMatcher Score3: 0.31
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.Write("Hello " + name + "!") 
+Received response without candidate 1: TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 2.412412402644852 Counts: [12, 1, 0, 0] Totals: [21, 20, 19, 18] Precisions: [57.142857142857146, 5.0, 2.6315789473684212, 1.3888888888888888] System length: 21 Reference length: 39 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score4: 0.27
 
-2. If name = "Alice" Then 
-   TextWindow.WriteLine("Welcome back, Alice!") 
-   Else
-   TextWindow.WriteLine("Hello, " + name + "!")
-   EndIf
+Received response without candidate 2: name = name.SubString(0, 1).ToUpper() + name.SubString(1)
+SACREBLEU score 5: 2.1285263951225777 Counts: [7, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [53.84615384615385, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 39 
+First element of precision: 53.84615384615385 
+SequenceMatcher Score5: 0.18
 
-3. For i = 1 To 5 
-   TextWindow.WriteLine
+Received response without candidate 3: name = name.ToLower()
+SACREBLEU score 6: 0.16155725911699453 Counts: [4, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 39 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score6: 0.18
 Actual result:  \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 11	Cursor Position: 4 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 1.1510345935821533 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read()
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9145867824554443 seconds
-Received response with candidate: 1. Program.GetTime()
-2. Math.GetRandomNumber(10)
-3. Text.GetSubText("Hello World", 1, 5)
+Received response with candidate 1: TextWindow.WriteLine("Hello " + name + "! Welcome!")
+SACREBLEU score 1: 13.834368456410951 Counts: [8, 4, 1, 0] Totals: [16, 15, 14, 13] Precisions: [50.0, 26.666666666666668, 7.142857142857143, 3.8461538461538463] System length: 16 Reference length: 15 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.62
+
+Received response with candidate 2: PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read()
+TextWindow.WriteLine("The current time is: " + Clock.ElapsedMilliseconds + " milliseconds.")
+SACREBLEU score 2: 10.273327819011904 Counts: [8, 4, 1, 0] Totals: [21, 20, 19, 18] Precisions: [38.095238095238095, 20.0, 5.2631578947368425, 2.7777777777777777] System length: 21 Reference length: 15 
+First element of precision: 38.095238095238095 
+SequenceMatcher Score2: 0.50
+
+Received response with candidate 3: TextWindow.WriteLine("Hello, " + name + "!")
+SACREBLEU score 3: 10.575365422675636 Counts: [12, 7, 4, 1] Totals: [42, 41, 40, 39] Precisions: [28.571428571428573, 17.073170731707318, 10.0, 2.5641025641025643] System length: 42 Reference length: 15 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score3: 0.32
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
 TextWindow.Write("Enter your name: ") 
 name = TextWindow.Read()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine("Hello " + name + "!")
-2. If name = "Alice" Then
-3. For i = 1 To 5
+Received response without candidate 1: name = name.ToUpper()
+TextWindow.WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 12.149176141753365 Counts: [8, 4, 1, 0] Totals: [18, 17, 16, 15] Precisions: [44.44444444444444, 23.529411764705884, 6.25, 3.3333333333333335] System length: 18 Reference length: 15 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score4: 0.47
+
+Received response without candidate 2: TextWindow.WriteLine("Hello " + name + "!")
+                'next token or line'
+SACREBLEU score 5: 15.310245441182436 Counts: [9, 4, 1, 0] Totals: [15, 14, 13, 12] Precisions: [60.0, 28.571428571428573, 7.6923076923076925, 4.166666666666667] System length: 15 Reference length: 15 
+First element of precision: 60.0 
+SequenceMatcher Score5: 0.58
+
+Received response without candidate 3: TextWindow.WriteLine("Hello " + name + "! Welcome to our program.")
+SACREBLEU score 6: 11.451997463067551 Counts: [8, 4, 1, 0] Totals: [19, 18, 17, 16] Precisions: [42.10526315789474, 22.22222222222222, 5.882352941176471, 3.125] System length: 19 Reference length: 15 
+First element of precision: 42.10526315789474 
+SequenceMatcher Score6: 0.61
 Actual result:  TextWindow . Write ( name + ", the time now is: " )
 
 Parse State: 6	Cursor Position: 4 11
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.8513834476470947 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -542,12 +1066,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9197678565979004 seconds
-Received response with candidate: .WriteLine("Hello " + name + "!")
-.ReadNumber("Enter your age: ")
-.Read("Enter your favorite color: ")
+Received response with candidate 1: .WriteLine("Hello " + name + "!")
+SACREBLEU score 1: 14.563331524569785 Counts: [7, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [53.84615384615385, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 14 
+First element of precision: 53.84615384615385 
+SequenceMatcher Score1: 0.49
+
+Received response with candidate 2: . WriteLine("Hello " + name + "!")
+SACREBLEU score 2: 14.563331524569785 Counts: [7, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [53.84615384615385, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 14 
+First element of precision: 53.84615384615385 
+SequenceMatcher Score2: 0.49
+
+Received response with candidate 3: .WriteLine("Hello " + name + "! Welcome to our program!")
+SACREBLEU score 3: 14.563331524569785 Counts: [7, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [53.84615384615385, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 14 
+First element of precision: 53.84615384615385 
+SequenceMatcher Score3: 0.51
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -555,15 +1089,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: Print("Hello " + name + "!")
-ShowMessage("Hello " + name + "!")
-TextWindow.WriteLine("Hello " + name + "!")
+Received response without candidate 1: .WriteLine("Hello " + name + "!")
+SACREBLEU score 4: 12.285946074705661 Counts: [10, 4, 2, 0] Totals: [22, 21, 20, 19] Precisions: [45.45454545454545, 19.047619047619047, 10.0, 2.6315789473684212] System length: 22 Reference length: 14 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score4: 0.59
+
+Received response without candidate 2: .WriteLine("Hello " + name + "! The current time is: " + Clock.Time)
+SACREBLEU score 5: 10.934883431625593 Counts: [7, 3, 1, 0] Totals: [18, 17, 16, 15] Precisions: [38.888888888888886, 17.647058823529413, 6.25, 3.3333333333333335] System length: 18 Reference length: 14 
+First element of precision: 38.888888888888886 
+SequenceMatcher Score5: 0.53
+
+Received response without candidate 3: .Read()
+SACREBLEU score 6: 1.7256245272235644 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 14 
+First element of precision: 75.0 
+SequenceMatcher Score6: 0.17
 Actual result:  . Write ( name + ", the time now is: " )
 
 Parse State: 30	Cursor Position: 4 12
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.5819509029388428 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -571,13 +1117,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 2.0557093620300293 seconds
-Received response with candidate: 
-1. TextWindow.WriteLine("Hello " + name + ", the current time is " + Clock.Hour + ":" + Clock.Minute)
-2. TextWindow.WriteLine("Hi " + name + ", it is currently " + Clock.HourString + ":" + Clock.MinuteString)
-3. TextWindow.WriteLine("Welcome " + name + ", the time right now
+Received response with candidate 1: ReadLine()
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 13 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.20
+
+Received response with candidate 2: ReadLine()
+SACREBLEU score 2: 6.3035810609221015 Counts: [9, 2, 1, 0] Totals: [29, 28, 27, 26] Precisions: [31.03448275862069, 7.142857142857143, 3.7037037037037037, 1.9230769230769231] System length: 29 Reference length: 13 
+First element of precision: 31.03448275862069 
+SequenceMatcher Score2: 0.35
+
+Received response with candidate 3: ReadLine(".")
+SACREBLEU score 3: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 13 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.20
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -585,17 +1140,29 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: TextWindow.WriteLine("Hello " + name + "!") 
+Received response without candidate 1: ReadLine()
+                TextWindow.WriteLine("Hello " + name)
+                TextWindow.WriteLine("The current time is: " + GetTime())
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 13 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.20
 
-TextWindow.WriteLine("Nice to meet you, " + name + "!") 
+Received response without candidate 2: ReadLine()
+SACREBLEU score 5: 6.011598678897526 Counts: [4, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 13 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.23
 
-TextWindow.WriteLine("Welcome, " + name + "!") 
+Received response without candidate 3: DrawText("Hello " + name + "!")
+SACREBLEU score 6: 15.263892908971702 Counts: [6, 3, 1, 0] Totals: [12, 11, 10, 9] Precisions: [50.0, 27.272727272727273, 10.0, 5.555555555555555] System length: 12 Reference length: 13 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.40
 Actual result:  Write ( name + ", the time now is: " )
 
 Parse State: 58	Cursor Position: 4 17
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.6463010311126709 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -603,12 +1170,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.4343671798706055 seconds
-Received response with candidate: 1. ("Hello " + name + "! The current time is " + Clock.Hour + ":" + Clock.Minute)
-2. ("Hi " + name + "! It's " + Clock.Hour + ":" + Clock.Minute + " now.")
-3. ("Good day " + name + "! The time is " + Clock.Hour + ":" + Clock.Minute +
+Received response with candidate 1: (name)
+SACREBLEU score 1: 0.0 Counts: [3, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 50.0, 50.0, 0.0] System length: 3 Reference length: 12 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.31
+
+Received response with candidate 2: (name)
+SACREBLEU score 2: 24.70764447832614 Counts: [11, 6, 4, 3] Totals: [23, 22, 21, 20] Precisions: [47.82608695652174, 27.272727272727273, 19.047619047619047, 15.0] System length: 23 Reference length: 12 
+First element of precision: 47.82608695652174 
+SequenceMatcher Score2: 0.52
+
+Received response with candidate 3: (name + ", please enter the current time: ")
+SACREBLEU score 3: 0.0 Counts: [3, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 50.0, 50.0, 0.0] System length: 3 Reference length: 12 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.31
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -616,16 +1193,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: TextWindow.WriteLine("Hello " + name + "!")
-TextWindow.WriteLine("Nice to meet you, " + name + "!")
-age = TextWindow.ReadNumber()
-TextWindow.WriteLine("Your name is " + name + " and you are " + age + " years old.")
+Received response without candidate 1: (name + ", the current time is " + Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 4: 25.941807523237596 Counts: [11, 7, 5, 3] Totals: [24, 23, 22, 21] Precisions: [45.833333333333336, 30.434782608695652, 22.727272727272727, 14.285714285714286] System length: 24 Reference length: 12 
+First element of precision: 45.833333333333336 
+SequenceMatcher Score4: 0.53
+
+Received response without candidate 2: (name + ", the current time is: " + Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 5: 40.89601472043678 Counts: [10, 6, 4, 2] Totals: [13, 12, 11, 10] Precisions: [76.92307692307692, 50.0, 36.36363636363637, 20.0] System length: 13 Reference length: 12 
+First element of precision: 76.92307692307692 
+SequenceMatcher Score5: 0.60
+
+Received response without candidate 3: (name + ", please enter the current time: ")
+SACREBLEU score 6: 40.89601472043678 Counts: [10, 6, 4, 2] Totals: [13, 12, 11, 10] Precisions: [76.92307692307692, 50.0, 36.36363636363637, 20.0] System length: 13 Reference length: 12 
+First element of precision: 76.92307692307692 
+SequenceMatcher Score6: 0.60
 Actual result:  ( name + ", the time now is: " )
 
 Parse State: 83	Cursor Position: 4 18
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.79648756980896 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -633,12 +1221,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(
                 'Identifier'
-                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2137634754180908 seconds
-Received response with candidate: 1. "Hello, " + name + "! What is the current time?";
-2. "Nice to meet you, " + name + "! Can you tell me what time it is?";
-3. "Welcome, " + name + "! Do you know what time it is?";
+Received response with candidate 1: name + ", the current time is: " + Clock.Hour + ":" + Clock.Minute
+SACREBLEU score 1: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score1: 0.11
+
+Received response with candidate 2: name + ", the current time is: " + Clock.TimeAsString
+SACREBLEU score 2: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score2: 0.16
+
+Received response with candidate 3: name + ", the current time is: " + Clock.Time
+SACREBLEU score 3: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score3: 0.14
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -646,15 +1244,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. "Hello " + name
-2. "Welcome, " + name
-3. "Nice to meet you, " + name
+Received response without candidate 1: name + ", the current time is: " + Clock.Time
+SACREBLEU score 4: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: name + ", the current time is " + DateTime.Now.ToShortTimeString()
+SACREBLEU score 5: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score5: 0.16
+
+Received response without candidate 3: name + ", the current time is: " + Clock.Time
+SACREBLEU score 6: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score6: 0.16
 Actual result:  name
 
 Parse State: 18	Cursor Position: 4 23
 Candidate List: ['1 : ', '[T, +, NT, MultiplicativeExpr] : 95446', '2 : ', '[T, -, NT, MultiplicativeExpr] : 41871']
+Time taken: 0.7076406478881836 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -662,12 +1272,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name
                 '+ MultiplicativeExpr'
-                Complete the '+ MultiplicativeExpr' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '+ MultiplicativeExpr'. 
+                Complete the '+ MultiplicativeExpr' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1312353610992432 seconds
-Received response with candidate: 1. TextWindow.WriteLine(", what is the current time?")
-2. TextWindow.WriteLine(" has been added to the list.")
-3. TextWindow.WriteLine(" is a great name!")
+Received response with candidate 1:  + " , what is your favorite color?")
+SACREBLEU score 1: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 9 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score1: 0.39
+
+Received response with candidate 2:  * 10
+SACREBLEU score 2: 10.62372743739878 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 9 
+First element of precision: 60.0 
+SequenceMatcher Score2: 0.32
+
+Received response with candidate 3:  *  + " * 10"
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 9 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.14
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -675,20 +1295,29 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 
-TextWindow.WriteLine("Welcome, " + name + "!") 
+Received response without candidate 1:  + "!")
+SACREBLEU score 4: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 9 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score4: 0.30
 
-2. 
-TextWindow.WriteLine("Nice to meet you, " + name + "!") 
+Received response without candidate 2: ) 
+TextWindow.WriteLine("! Welcome!")
+SACREBLEU score 5: 10.89644800332157 Counts: [3, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 9 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.38
 
-3. 
-TextWindow.WriteLine("Hello, " + name + "!")
+Received response without candidate 3: ) 
+TextWindow.WriteLine(", what is the current time?")
+SACREBLEU score 6: 6.917184228205472 Counts: [6, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [40.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 9 
+First element of precision: 40.0 
+SequenceMatcher Score6: 0.33
 Actual result:  + ", the time now is: "
 
 Parse State: 48	Cursor Position: 4 25
 Candidate List: ['1 : ', '[T, ID] : 38463', '2 : ', '[T, NUM] : 30206', '3 : ', '[T, STR] : 15165', '4 : ', '[T, ID, NT, Idxs] : 7164', '5 : ', '[T, (, NT, Expr, T, )] : 3656', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 2629', '7 : ', '[T, ID, T, ., T, ID] : 322', '8 : ', '[T, -, NT, Primary] : 9']
+Time taken: 0.6525177955627441 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -696,12 +1325,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name +
                 'String'
-                Complete the 'String' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'String'. 
+                Complete the 'String' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.089946985244751 seconds
-Received response with candidate: 1. + " , the current time is " + Clock.Hour + ":" + Clock.Minute
-2. + ", it's nice to meet you!"
-3. + ", would you like to play a game?"
+Received response with candidate 1:  "! What time is it?"
+SACREBLEU score 1: 7.809849842300637 Counts: [4, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [50.0, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 8 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.65
+
+Received response with candidate 2: " , what is your favorite color? ")
+SACREBLEU score 2: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 8 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score2: 0.33
+
+Received response with candidate 3: " , what time is it?")
+SACREBLEU score 3: 9.980099403873663 Counts: [4, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [40.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 8 
+First element of precision: 40.0 
+SequenceMatcher Score3: 0.32
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -709,15 +1348,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name +
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. + " , what is the current time?"
-2. + ", please enter your age:"
-3. + ", welcome to our program!"
+Received response without candidate 1: " + "! How are you today?")
+SACREBLEU score 4: 13.134549472120794 Counts: [6, 2, 0, 0] Totals: [10, 9, 8, 7] Precisions: [60.0, 22.22222222222222, 6.25, 3.5714285714285716] System length: 10 Reference length: 8 
+First element of precision: 60.0 
+SequenceMatcher Score4: 0.57
+
+Received response without candidate 2: + ", enter the current time: ")
+SACREBLEU score 5: 11.99014838091355 Counts: [5, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 8 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score5: 0.64
+
+Received response without candidate 3: ", what is the current time?"
+SACREBLEU score 6: 12.549310621989482 Counts: [6, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [66.66666666666667, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.47
 Actual result:  ", the time now is: "
 
 Parse State: 92	Cursor Position: 4 46
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.6932628154754639 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -725,14 +1376,23 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: "
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2461295127868652 seconds
-Received response with candidate: 1) Clock.Hour + ":" + Clock.Minute 
+Received response with candidate 1: TextWindow.Write(Math.GetTime())
+SACREBLEU score 1: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score1: 0.06
 
-2) Clock.Hour + ":" + Clock.Minute + ":" + Clock.Second 
+Received response with candidate 2: TextWindow.WriteLine(clock)
+SACREBLEU score 2: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score2: 0.06
 
-3) Clock.Hour + ":" + Clock.Minute + " AM/PM"
+Received response with candidate 3: ") 
+TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score3: 0.07
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -740,15 +1400,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: "
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Text.GetDateTime()
-2. Clock.Time()
-3. Clock.GetTime()
+Received response without candidate 1: TextWindow.WriteLine(Clock.Time)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.06
+
+Received response without candidate 2: Clock.Hour + ":" + Clock.Minute
+SACREBLEU score 5: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 1 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score5: 0.03
+
+Received response without candidate 3: Time.ToShortTimeString())
+SACREBLEU score 6: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score6: 0.07
 Actual result:  )
 
 Parse State: 3	Cursor Position: 4 48
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 0.6652302742004395 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -756,12 +1428,22 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: ")
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1011064052581787 seconds
-Received response with candidate: 1. TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-2. TextWindow.WriteLine("Good morning, " + name + "!")
-3. TextWindow.WriteLine("Have a great day ahead, " + name + "!")
+Received response with candidate 1: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 1: 11.774129687314561 Counts: [8, 4, 2, 1] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 36.36363636363637, 20.0, 11.11111111111111] System length: 12 Reference length: 22 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.39
+
+Received response with candidate 2: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 2: 1.668663498016303 Counts: [5, 3, 1, 0] Totals: [5, 4, 3, 2] Precisions: [100.0, 75.0, 33.333333333333336, 25.0] System length: 5 Reference length: 22 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: TextWindow.WriteLine(Clock.Time)
+SACREBLEU score 3: 21.521930988193763 Counts: [7, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [43.75, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 22 
+First element of precision: 43.75 
+SequenceMatcher Score3: 0.44
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -769,15 +1451,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine (Clock.Time)
-2. TextWindow.WriteLine (Clock.Hour + ":" + Clock.Minute)
-3. TextWindow.WriteLine ("HH:MM:SS")
+Received response without candidate 1: Clock.Time()
+SACREBLEU score 4: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 22 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.14
+
+Received response without candidate 2: Clock.Hour
+SACREBLEU score 5: 17.37739434504452 Counts: [8, 7, 6, 5] Totals: [8, 7, 6, 5] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 8 Reference length: 22 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.54
+
+Received response without candidate 3: Clock.TimeUntilSeconds(clock.Now)
+SACREBLEU score 6: 2.4133890647162253 Counts: [5, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [62.5, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 22 
+First element of precision: 62.5 
+SequenceMatcher Score6: 0.22
 Actual result:  \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 11	Cursor Position: 5 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.9483630657196045 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -785,12 +1479,23 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: ")
                 'Identifier ( )'
-                Complete the 'Identifier ( )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( )'. 
+                Complete the 'Identifier ( )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7469127178192139 seconds
-Received response with candidate: 1. GetTime()
-2. DisplayCurrentTime()
-3. ShowCurrentTime()
+Received response with candidate 1: Clock.GetTimeString()
+SACREBLEU score 1: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 3 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.40
+
+Received response with candidate 2: DateTime.GetCurrentTime()
+SACREBLEU score 2: 6.567274736060395 Counts: [2, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [25.0, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 3 
+First element of precision: 25.0 
+SequenceMatcher Score2: 0.35
+
+Received response with candidate 3: Clock.Time(ATime)
+                TextWindow.WriteLine(ATime)
+SACREBLEU score 3: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 3 
+First element of precision: 40.0 
+SequenceMatcher Score3: 0.46
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -798,15 +1503,27 @@ TextWindow.Write("Enter your name: ")
 name = TextWindow.Read() 
 TextWindow.Write(name + ", the time now is: ")
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Clock.Time()
-2. DateTime.Now()
-3. Time.GetTime()
+Received response without candidate 1: TextWindow.WriteLine(Clock.Time)
+SACREBLEU score 4: 8.392229812593097 Counts: [2, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.38
+
+Received response without candidate 2: TextWindow.WriteLine(Clock.Time())
+SACREBLEU score 5: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 3 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.16
+
+Received response without candidate 3: TextWindow.Write("It is now " + Program.Time.ToShortTimeString())
+SACREBLEU score 6: 4.295382417831811 Counts: [2, 1, 0, 0] Totals: [18, 17, 16, 15] Precisions: [11.11111111111111, 5.882352941176471, 3.125, 1.6666666666666667] System length: 18 Reference length: 3 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score6: 0.28
 Actual result:  PrintTime ( )
 
 Parse State: 6	Cursor Position: 5 10
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.7070894241333008 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -815,12 +1532,27 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime
                 '( )'
-                Complete the '( )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( )'. 
+                Complete the '( )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7711544036865234 seconds
-Received response with candidate: PrintTime()
-PrintTime( )
-PrintTime("current")
+Received response with candidate 1: ()
+
+Clock.PrintTime()
+SACREBLEU score 1: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 2 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score1: 0.16
+
+Received response with candidate 2: ()
+SACREBLEU score 2: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score2: 0.07
+
+Received response with candidate 3: ()
+
+Clock.GetTime()
+TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 3: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.67
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -829,18 +1561,27 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 
-TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-2. 
-TextWindow.WriteLine("The time now is " + Clock.Hour + ":" + Clock.Minute)
-3. 
-TextWindow.WriteLine("Hello " + name + ", the current time is " + Clock.Hour + ":" + Clock.Minute)
+Received response without candidate 1: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 4: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score4: 0.07
+
+Received response without candidate 2: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 5: 3.2933284838220014 Counts: [2, 1, 0, 0] Totals: [23, 22, 21, 20] Precisions: [8.695652173913043, 4.545454545454546, 2.380952380952381, 1.25] System length: 23 Reference length: 2 
+First element of precision: 8.695652173913043 
+SequenceMatcher Score5: 0.05
+
+Received response without candidate 3: TextWindow.WriteLine(time)
+SACREBLEU score 6: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.13
 Actual result:  ( )
 
 Parse State: 31	Cursor Position: 5 11
 Candidate List: ['1 : ', '[T, )] : 31942']
+Time taken: 1.1154568195343018 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -849,16 +1590,38 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime(
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8514978885650635 seconds
-Received response with candidate: )
+Received response with candidate 1: ) 
 
-Sub Time()
-  TextWindow.WriteLine("The current time is: " + Clock.Hour + ":" + Clock.Minute)
+Sub PrintTime
+  TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
 EndSub
+SACREBLEU score 1: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score1: 0.02
 
-Time()
+Received response with candidate 2: Clock.Hour + ":" + Clock.Minute
+SACREBLEU score 2: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: ) 
+
+For example, if you this is the code you provided:
+
+PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime( 
+
+I would provide the completion:
+
+)
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.06
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -867,16 +1630,28 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. Clock.Time
-2. Program.Time
-3. System.Time
+Received response without candidate 1:     Math.Timer = Clock.Hour
+    TextWindow.WriteLine(Math.Timer)
+SACREBLEU score 4: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score4: 0.08
+
+Received response without candidate 2: Program.BroadcastMessage("Time is: " + Clock.Time)
+SACREBLEU score 5: 0.6258807799153787 Counts: [1, 0, 0, 0] Totals: [58, 57, 56, 55] Precisions: [1.7241379310344827, 0.8771929824561403, 0.44642857142857145, 0.22727272727272727] System length: 58 Reference length: 1 
+First element of precision: 1.7241379310344827 
+SequenceMatcher Score5: 0.01
+
+Received response without candidate 3: Clock.Hour + ":" + Clock.Minute
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.06
 Actual result:  )
 
 Parse State: 3	Cursor Position: 5 13
 Candidate List: ['1 : ', '[T, CR, NT, MoreThanOneStmt] : 207345']
+Time taken: 1.27903151512146 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -885,23 +1660,40 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime()
                 'CR MoreThanOneStmt'
-                Complete the 'CR MoreThanOneStmt' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR MoreThanOneStmt'. 
+                Complete the 'CR MoreThanOneStmt' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2851858139038086 seconds
-Received response with candidate: 1. 
-currentTime = Clock.Hour
-If currentTime < 12 Then
-  TextWindow.WriteLine(currentTime + " AM")
-Else
-  TextWindow.WriteLine(currentTime + " PM")
+Received response with candidate 1: PrintTime()
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime()
+'CR MoreThanOneStmt'
+currentTime = Clock.Hour + ":" + Clock.Minute + ":" + Clock.Second
+TextWindow.WriteLine(currentTime)
+SACREBLEU score 1: 4.253875172147838 Counts: [8, 4, 2, 1] Totals: [68, 67, 66, 65] Precisions: [11.764705882352942, 5.970149253731344, 3.0303030303030303, 1.5384615384615385] System length: 68 Reference length: 17 
+First element of precision: 11.764705882352942 
+SequenceMatcher Score1: 0.24
 
-2.
-minutes = Clock.Minute
-TextWindow.WriteLine(":" + minutes)
+Received response with candidate 2: 
+                Sub PrintTime
+                    TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+                End Sub
 
-3.
-seconds = Clock.Second
-TextWindow.WriteLine("and " + seconds + " seconds
+                'CR MoreThanOneStmt'
+SACREBLEU score 2: 15.467334611288457 Counts: [6, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [50.0, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 17 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.44
+
+Received response with candidate 3: There are multiple ways to complete the 'CR MoreThanOneStmt' part of the code. Here is one possible completion:
+
+```
+            Sub PrintTime
+              TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+            EndSub
+```
+SACREBLEU score 3: 24.648321974767605 Counts: [9, 6, 4, 3] Totals: [22, 21, 20, 19] Precisions: [40.90909090909091, 28.571428571428573, 20.0, 15.789473684210526] System length: 22 Reference length: 17 
+First element of precision: 40.90909090909091 
+SequenceMatcher Score3: 0.46
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -910,17 +1702,30 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 'TextWindow.WriteLine(Clock.Time)' 
+Received response without candidate 1: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 4: 1.543228837249852 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 17 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.30
 
-2. 'TextWindow.WriteLine(DateTime.Now)' 
+Received response without candidate 2: End of 'PrintTime()'项目
+SACREBLEU score 5: 11.912074202372535 Counts: [10, 6, 4, 3] Totals: [45, 44, 43, 42] Precisions: [22.22222222222222, 13.636363636363637, 9.30232558139535, 7.142857142857143] System length: 45 Reference length: 17 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score5: 0.36
 
-3. 'TextWindow.WriteLine(Time.Hour & ":" & Time.Minute)'
+Received response without candidate 3: endTime = Clock.ElapsedMilliseconds
+hour = Math.Remainder(Math.Floor((endTime - startTime) / 1000 / 60 / 60), 24)
+minute = Math.Remainder(Math.Floor((endTime - startTime) / 1000 / 60), 60)
+second = Math.Remainder(Math.Floor((endTime - startTime)
+SACREBLEU score 6: 1.3372412117892358 Counts: [5, 1, 0, 0] Totals: [68, 67, 66, 65] Precisions: [7.352941176470588, 1.492537313432836, 0.7575757575757576, 0.38461538461538464] System length: 68 Reference length: 17 
+First element of precision: 7.352941176470588 
+SequenceMatcher Score6: 0.15
 Actual result:  \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 11	Cursor Position: 6 1
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 34613', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 32747', '3 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 19496', '4 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 18421', '5 : ', '[T, ID, T, (, T, )] : 9474', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 9366', '7 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 5075', '8 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 2043', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 1706', '10 : ', '[T, ID, T, :] : 1074', '11 : ', '[T, Goto, T, ID] : 421']
+Time taken: 0.7788641452789307 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -929,20 +1734,28 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime()
                 'Sub Identifier CRStmtCRs EndSub'
-                Complete the 'Sub Identifier CRStmtCRs EndSub' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Sub Identifier CRStmtCRs EndSub'. 
+                Complete the 'Sub Identifier CRStmtCRs EndSub' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.1660375595092773 seconds
-Received response with candidate: 1. Sub PrintTime()
-   TextWindow.WriteLine(DateTime.Now)
+Received response with candidate 1: Sub PrintTime
+  TextWindow.WriteLine(Clock.Time)
 EndSub
+SACREBLEU score 1: 52.81951634615037 Counts: [11, 8, 6, 5] Totals: [11, 10, 9, 8] Precisions: [100.0, 80.0, 66.66666666666667, 62.5] System length: 11 Reference length: 15 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.87
 
-2. Sub PrintTime()
-   TextWindow.WriteLine(Format(DateTime.Now, "hh:mm:ss tt"))
+Received response with candidate 2: Sub PrintTime
+  TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
 EndSub
+SACREBLEU score 2: 21.800193956058234 Counts: [8, 5, 4, 3] Totals: [23, 22, 21, 20] Precisions: [34.78260869565217, 22.727272727272727, 19.047619047619047, 15.0] System length: 23 Reference length: 15 
+First element of precision: 34.78260869565217 
+SequenceMatcher Score2: 0.58
 
-3. Sub PrintTime()
-   TextWindow.WriteLine("The time is " + DateTime.Now)
+Received response with candidate 3: Sub PrintTime
+  TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
 EndSub
+SACREBLEU score 3: 29.660903203497252 Counts: [10, 6, 4, 3] Totals: [19, 18, 17, 16] Precisions: [52.63157894736842, 33.333333333333336, 23.529411764705884, 18.75] System length: 19 Reference length: 15 
+First element of precision: 52.63157894736842 
+SequenceMatcher Score3: 0.71
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -951,15 +1764,31 @@ name = TextWindow.Read()
 TextWindow.Write(name + ", the time now is: ") 
 PrintTime()
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-2. TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute + ":" + Clock.Second) 
-3. TextWindow.WriteLine(Clock.Hour + " " + Clock.AMPM)
+Received response without candidate 1: PrintTime() 
+TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+'next token or line'
+SACREBLEU score 4: 21.800193956058234 Counts: [8, 5, 4, 3] Totals: [23, 22, 21, 20] Precisions: [34.78260869565217, 22.727272727272727, 19.047619047619047, 15.0] System length: 23 Reference length: 15 
+First element of precision: 34.78260869565217 
+SequenceMatcher Score4: 0.58
+
+Received response without candidate 2: PrintTime() 
+TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+'next token or line'
+SACREBLEU score 5: 29.660903203497252 Counts: [10, 6, 4, 3] Totals: [19, 18, 17, 16] Precisions: [52.63157894736842, 33.333333333333336, 23.529411764705884, 18.75] System length: 19 Reference length: 15 
+First element of precision: 52.63157894736842 
+SequenceMatcher Score5: 0.71
+
+Received response without candidate 3: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 6: 31.314224813827344 Counts: [7, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [43.75, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 15 
+First element of precision: 43.75 
+SequenceMatcher Score6: 0.52
 Actual result:  Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 9	Cursor Position: 6 5
 Candidate List: ['1 : ', '[T, ID, NT, CRStmtCRs, T, EndSub] : 18432']
+Time taken: 0.8929779529571533 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -969,17 +1798,30 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub
                 'Identifier CRStmtCRs EndSub'
-                Complete the 'Identifier CRStmtCRs EndSub' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier CRStmtCRs EndSub'. 
+                Complete the 'Identifier CRStmtCRs EndSub' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.2632339000701904 seconds
-Received response with candidate: 1. MyPrintTime()
-   TextWindow.WriteLine("The current time is " + Clock.Time)
+Received response with candidate 1: Sub PrintTime
+  TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+EndSub
+SACREBLEU score 1: 27.60258064653157 Counts: [9, 5, 4, 3] Totals: [19, 18, 17, 16] Precisions: [47.36842105263158, 27.77777777777778, 23.529411764705884, 18.75] System length: 19 Reference length: 14 
+First element of precision: 47.36842105263158 
+SequenceMatcher Score1: 0.69
 
-2. DisplayCurrentTime()
-   TextWindow.WriteLine("Current time: " + Clock.Time)
+Received response with candidate 2: Sub PrintTime
+  currentDate = Clock.Date
+  currentTime = Clock.Time
+  TextWindow.WriteLine(currentDate + " " + currentTime)
+EndSub
+SACREBLEU score 2: 11.856660123276004 Counts: [7, 3, 2, 1] Totals: [23, 22, 21, 20] Precisions: [30.434782608695652, 13.636363636363637, 9.523809523809524, 5.0] System length: 23 Reference length: 14 
+First element of precision: 30.434782608695652 
+SequenceMatcher Score2: 0.50
 
-3. ShowTime()
-   TextWindow.WriteLine("The time right now is: " + Clock.Time)
+Received response with candidate 3: Sub PrintTime
+  TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+EndSub
+SACREBLEU score 3: 15.573188896329047 Counts: [10, 5, 3, 1] Totals: [24, 23, 22, 21] Precisions: [41.666666666666664, 21.73913043478261, 13.636363636363637, 4.761904761904762] System length: 24 Reference length: 14 
+First element of precision: 41.666666666666664 
+SequenceMatcher Score3: 0.50
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -989,15 +1831,29 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Sub PrintTime
-2. TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-3. End Sub
+Received response without candidate 1: PrintTime()
+TextWindow.WriteLine("The time now is: " + DateTime.Now.ToShortTimeString())
+SACREBLEU score 4: 18.20705281109213 Counts: [6, 3, 2, 1] Totals: [15, 14, 13, 12] Precisions: [40.0, 21.428571428571427, 15.384615384615385, 8.333333333333334] System length: 15 Reference length: 14 
+First element of precision: 40.0 
+SequenceMatcher Score4: 0.50
+
+Received response without candidate 2: OutputTime()
+TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 5: 27.60258064653157 Counts: [9, 5, 4, 3] Totals: [19, 18, 17, 16] Precisions: [47.36842105263158, 27.77777777777778, 23.529411764705884, 18.75] System length: 19 Reference length: 14 
+First element of precision: 47.36842105263158 
+SequenceMatcher Score5: 0.69
+
+Received response without candidate 3: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 6: 31.314224813827344 Counts: [7, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [43.75, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 14 
+First element of precision: 43.75 
+SequenceMatcher Score6: 0.53
 Actual result:  PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
 
 Parse State: 35	Cursor Position: 6 17
 Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 18432']
+Time taken: 0.9863250255584717 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1007,12 +1863,24 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub PrintTime
                 'CR TheRest'
-                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9673933982849121 seconds
-Received response with candidate: 1. TextWindow.WriteLine(Clock.Time)
-2. TextWindow.WriteLine(DateTime.Now)
-3. TextWindow.WriteLine(System.TimeZoneInfo.ConvertTimeBySystemTimeZoneId(DateTime.Now, TimeZone.CurrentTimeZone.StandardName))
+Received response with candidate 1: currentTime = Clock.Time()
+TextWindow.WriteLine(currentTime)
+SACREBLEU score 1: 28.917849332325716 Counts: [8, 5, 3, 1] Totals: [13, 12, 11, 10] Precisions: [61.53846153846154, 41.666666666666664, 27.272727272727273, 10.0] System length: 13 Reference length: 12 
+First element of precision: 61.53846153846154 
+SequenceMatcher Score1: 0.55
+
+Received response with candidate 2: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 2: 31.314224813827344 Counts: [7, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [43.75, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 12 
+First element of precision: 43.75 
+SequenceMatcher Score2: 0.61
+
+Received response with candidate 3: currentTime = Clock.Time()
+TextWindow.WriteLine(currentTime)
+SACREBLEU score 3: 31.314224813827344 Counts: [7, 5, 4, 3] Totals: [16, 15, 14, 13] Precisions: [43.75, 33.333333333333336, 28.571428571428573, 23.076923076923077] System length: 16 Reference length: 12 
+First element of precision: 43.75 
+SequenceMatcher Score3: 0.61
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1022,15 +1890,27 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub PrintTime
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: - TextWindow.Write(DateTime.Now)
-- TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
-- TextWindow.Write("It's " + DateTime.Now.Hour + ":" + DateTime.Now.Minute)
+Received response without candidate 1: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 4: 53.3167536340577 Counts: [8, 6, 5, 4] Totals: [12, 11, 10, 9] Precisions: [66.66666666666667, 54.54545454545455, 50.0, 44.44444444444444] System length: 12 Reference length: 12 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.65
+
+Received response without candidate 2: TextWindow.WriteLine(Clock.Time.ToShortTimeString())
+SACREBLEU score 5: 28.917849332325716 Counts: [8, 5, 3, 1] Totals: [13, 12, 11, 10] Precisions: [61.53846153846154, 41.666666666666664, 27.272727272727273, 10.0] System length: 13 Reference length: 12 
+First element of precision: 61.53846153846154 
+SequenceMatcher Score5: 0.55
+
+Received response without candidate 3: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 6: 23.462350320527996 Counts: [6, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [50.0, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.53
 Actual result:  \n TextWindow . WriteLine ( Clock . Time ) \n
 
 Parse State: 39	Cursor Position: 7 2
 Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+Time taken: 0.5860960483551025 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1040,12 +1920,22 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub PrintTime
                 'Identifier . Identifier ( Expression )'
-                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7320256233215332 seconds
-Received response with candidate: 1. Clock.GetCurrentTime()
-2. Time.GetSystemTime()
-3. Clock.GetTimezoneOffset()
+Received response with candidate 1: Clock.CurrentTime
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 8 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.35
+
+Received response with candidate 2: Clock.getCurrentTime()
+SACREBLEU score 2: 40.89601472043678 Counts: [8, 5, 4, 3] Totals: [13, 12, 11, 10] Precisions: [61.53846153846154, 41.666666666666664, 36.36363636363637, 30.0] System length: 13 Reference length: 8 
+First element of precision: 61.53846153846154 
+SequenceMatcher Score2: 0.61
+
+Received response with candidate 3: DateTime.Now.getHours()
+SACREBLEU score 3: 13.943458243384402 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 8 
+First element of precision: 80.0 
+SequenceMatcher Score3: 0.35
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1055,15 +1945,29 @@ TextWindow.Write(name + ", the time now is: ")
 PrintTime() 
 Sub PrintTime
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-2. TextWindow.WriteLine("The current time is " + Clock.Hour + ":" + Clock.Minute)
-3. TextWindow.WriteLine("Current time: " + Clock.Hour + ":" + Clock.Minute)
+Received response without candidate 1: TextWindow.WriteLine(Clock.TicksToTime(Time.ElapsedMilliseconds))
+SACREBLEU score 4: 10.008350737965104 Counts: [6, 3, 2, 1] Totals: [26, 25, 24, 23] Precisions: [23.076923076923077, 12.0, 8.333333333333334, 4.3478260869565215] System length: 26 Reference length: 8 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score4: 0.39
+
+Received response without candidate 2: hour = DateTime.GetHour()
+minute = DateTime.GetMinute()
+TextWindow.WriteLine(hour + ":" + minute)
+SACREBLEU score 5: 8.051153633013374 Counts: [4, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 8 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score5: 0.22
+
+Received response without candidate 3: TextWindow.WriteLine(DateTime.Now)
+SACREBLEU score 6: 38.260294162784454 Counts: [6, 3, 2, 1] Totals: [8, 7, 6, 5] Precisions: [75.0, 42.857142857142854, 33.333333333333336, 20.0] System length: 8 Reference length: 8 
+First element of precision: 75.0 
+SequenceMatcher Score6: 0.70
 Actual result:  TextWindow . WriteLine ( Clock . Time )
 
 Parse State: 6	Cursor Position: 7 12
 Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.6977963447570801 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1074,14 +1978,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow
                 '. Identifier ( Expression )'
-                Complete the '. Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier ( Expression )'. 
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.85943603515625 seconds
-Received response with candidate: .WriteLine(DateTime.Now.ToLongTimeString()) 
+Received response with candidate 1: .WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 1: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 7 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score1: 0.44
 
-.WriteLine(DateTime.Now.ToShortTimeString()) 
+Received response with candidate 2: .WriteLine("The current time is: " + DateTime.Now.ToShortTimeString())
+SACREBLEU score 2: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 7 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score2: 0.44
 
-.WriteLine(DateTime.Now.ToString("h:mm:ss tt"))  
+Received response with candidate 3: .WriteLine("The time is " + DateTime.Now.ToString("h:mm:ss tt"))
+SACREBLEU score 3: 8.562365224473284 Counts: [5, 2, 1, 0] Totals: [19, 18, 17, 16] Precisions: [26.31578947368421, 11.11111111111111, 5.882352941176471, 3.125] System length: 19 Reference length: 7 
+First element of precision: 26.31578947368421 
+SequenceMatcher Score3: 0.34
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1092,17 +2004,27 @@ PrintTime()
 Sub PrintTime   
 	TextWindow
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: .WriteLine("The time is " + Program.GetTime()) 
+Received response without candidate 1: .WriteLine(DateTime.Now.ToShortTimeString())
+SACREBLEU score 4: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 7 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score4: 0.44
 
-.WriteLine("The current time is " + Program.GetTime()) 
+Received response without candidate 2: .WriteLine(DateTime.Now.ToShortTimeString())
+SACREBLEU score 5: 6.370405230161802 Counts: [5, 2, 1, 0] Totals: [25, 24, 23, 22] Precisions: [20.0, 8.333333333333334, 4.3478260869565215, 2.272727272727273] System length: 25 Reference length: 7 
+First element of precision: 20.0 
+SequenceMatcher Score5: 0.37
 
-.WriteLine("It is currently " + Program.GetTime())
+Received response without candidate 3: .WriteLine(DateTime.Now.ToLongTimeString())
+SACREBLEU score 6: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 7 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score6: 0.44
 Actual result:  . WriteLine ( Clock . Time )
 
 Parse State: 30	Cursor Position: 7 13
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.8415961265563965 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1113,12 +2035,25 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.
                 'Identifier ( Expression )'
-                Complete the 'Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier ( Expression )'. 
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7801117897033691 seconds
-Received response with candidate: 1. Identifier (DateTime.Now)
-2. Identifier (Clock.Time)
-3. Identifier (Time.GetCurrentTime())
+Received response with candidate 1: Read()  
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.17
+
+Received response with candidate 2: Read() + Program   
+Read() + Program["time"]  
+Read() + Program["get"]  
+Read() + Program["TextWindow"]
+SACREBLEU score 2: 10.682175159905853 Counts: [3, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.48
+
+Received response with candidate 3: .WriteLine(DateTime.Now.ToShortTimeString())
+SACREBLEU score 3: 1.2557690800697192 Counts: [2, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [5.714285714285714, 1.4705882352941178, 0.7575757575757576, 0.390625] System length: 35 Reference length: 6 
+First element of precision: 5.714285714285714 
+SequenceMatcher Score3: 0.15
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1129,16 +2064,27 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate:  
-1. TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
-2. TextWindow.WriteLine(DateTime.Now.ToShortTimeString())
-3. TextWindow.WriteLine(DateTime.Now.ToString("hh:mm:ss tt"))
+Received response without candidate 1: Write(DateTime.Now)
+SACREBLEU score 4: 4.065425428798724 Counts: [3, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 6 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score4: 0.40
+
+Received response without candidate 2: Write("The time is: " + Date.Now)
+SACREBLEU score 5: 8.913765521398126 Counts: [4, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [36.36363636363637, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 6 
+First element of precision: 36.36363636363637 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: ReadTimeOfDay()
+SACREBLEU score 6: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score6: 0.29
 Actual result:  WriteLine ( Clock . Time )
 
 Parse State: 58	Cursor Position: 7 22
 Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.6910054683685303 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1149,12 +2095,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine
                 '( Expression )'
-                Complete the '( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '( Expression )'. 
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.9133408069610596 seconds
-Received response with candidate: 1. Clock.Time
-2. DateTime.Now
-3. Clock.LocalTime
+Received response with candidate 1: DateTime.Now.ToShortTimeString()
+SACREBLEU score 1: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 5 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score1: 0.20
+
+Received response with candidate 2: Text.GetDateTime("hh:mm:ss tt")
+SACREBLEU score 2: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 5 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: Time.ToShortTimeString()
+SACREBLEU score 3: 4.065425428798724 Counts: [3, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 5 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score3: 0.29
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1165,16 +2121,27 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 
-1. "DateTime.Now.ToString()"
-2. "Math.GetTimeOfDay()"
-3. "Clock.GetTime()"
+Received response without candidate 1: DateTime.Now.ToShortTimeString()
+SACREBLEU score 4: 19.304869754804482 Counts: [4, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 5 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.62
+
+Received response without candidate 2: = Clock.TimeAsString()
+SACREBLEU score 5: 15.106876986783844 Counts: [4, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score5: 0.24
+
+Received response without candidate 3: TextWindow.WriteLine(DateTime.Now.ToShortTimeString())
+SACREBLEU score 6: 4.456882760699063 Counts: [3, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [25.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 5 
+First element of precision: 25.0 
+SequenceMatcher Score6: 0.20
 Actual result:  ( Clock . Time )
 
 Parse State: 83	Cursor Position: 7 23
 Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.708132266998291 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1185,12 +2152,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(
                 'Identifier . Identifier'
-                Complete the 'Identifier . Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier'. 
+                Complete the 'Identifier . Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.03065824508667 seconds
-Received response with candidate: 1. Clock.Hour + ":" + Clock.Minute
-2. Clock.CurrentHour + ":" + Clock.CurrentMinute
-3. Clock.GetHour() + ":" + Clock.GetMinute()
+Received response with candidate 1: Date.Now.getHoursToString()
+SACREBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 3 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score1: 0.05
+
+Received response with candidate 2: Clock.Time
+SACREBLEU score 2: 20.556680845025987 Counts: [3, 2, 1, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 28.571428571428573, 16.666666666666668, 10.0] System length: 8 Reference length: 3 
+First element of precision: 37.5 
+SequenceMatcher Score2: 0.45
+
+Received response with candidate 3: DateTime.Now.ToShortTimeString()
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.87
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1201,15 +2178,27 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: DateTime.Now.ToShortTimeString() 
-                Clock.Time() 
-                System.Time()
+Received response without candidate 1: Clock.Time.ToShortTimeString())
+SACREBLEU score 4: 4.295382417831811 Counts: [2, 1, 0, 0] Totals: [18, 17, 16, 15] Precisions: [11.11111111111111, 5.882352941176471, 3.125, 1.6666666666666667] System length: 18 Reference length: 3 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score4: 0.29
+
+Received response without candidate 2: Clock.Hour + ":" + Clock.Minute + " " + Clock.AmPm
+SACREBLEU score 5: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 3 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score5: 0.18
+
+Received response without candidate 3: Clock.Time.toLocaleTimeString()
+SACREBLEU score 6: 24.446151121745054 Counts: [3, 2, 1, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 33.333333333333336, 20.0, 12.5] System length: 7 Reference length: 3 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score6: 0.45
 Actual result:  Clock . Time
 
 Parse State: 22	Cursor Position: 7 28
 Candidate List: ['1 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, [, NT, Expr, T, ]] : 59127', '3 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 21477', '4 : ', '[T, ., T, ID] : 16490']
+Time taken: 0.627885103225708 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1220,12 +2209,23 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock
                 '. Identifier'
-                Complete the '. Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of '. Identifier'. 
+                Complete the '. Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.6206810474395752 seconds
-Received response with candidate: .Date
-.Time
-.Hour
+Received response with candidate 1: .Time)
+SACREBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.77
+
+Received response with candidate 2: .ElapsedTime
+                '. Identifier'
+SACREBLEU score 2: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.48
+
+Received response with candidate 3: .Date.getTime())
+SACREBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score3: 0.20
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1236,15 +2236,30 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. .Time)
-2. .Time()
-3. .Time.ToShortTimeString()
+Received response without candidate 1: .Time) 
+EndSub
+SACREBLEU score 4: 11.044795567078939 Counts: [2, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [25.0, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 2 
+First element of precision: 25.0 
+SequenceMatcher Score4: 0.24
+
+Received response without candidate 2: .Time.ToShortTimeString()) 
+EndSub
+SACREBLEU score 5: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 2 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score5: 0.43
+
+Received response without candidate 3: .Time)
+End Sub
+SACREBLEU score 6: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 2 
+First element of precision: 40.0 
+SequenceMatcher Score6: 0.48
 Actual result:  . Time
 
 Parse State: 53	Cursor Position: 7 29
 Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 74070', '2 : ', '[T, ID] : 16490']
+Time taken: 0.5432779788970947 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1255,14 +2270,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.
                 'Identifier'
-                Complete the 'Identifier' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier'. 
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 1.154646873474121 seconds
-Received response with candidate: Now let's complete the code three times with different identifiers:
+Received response with candidate 1: Time.getMinutes()
+SACREBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score1: 0.36
 
-1. TextWindow.GetTimeString()
-2. Clock.GetCurrentTime()
-3. Microsoft.SmallBasic.Utils.GetCurrentTime()
+Received response with candidate 2: Time
+SACREBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score2: 0.27
+
+Received response with candidate 3: TimeAsString
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.89
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1273,15 +2296,29 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. Time.LocalTime
-2. Time.LocalTime + " AM"
-3. Time.ElapsedTimeString
+Received response without candidate 1: Time.ToShortTimeString())
+SACREBLEU score 4: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score4: 0.27
+
+Received response without candidate 2: Time.ToString()) 
+End Sub
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.47
+
+Received response without candidate 3: Time.ToShortTimeString()) 
+EndSub
+SACREBLEU score 6: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score6: 0.21
 Actual result:  Time
 
 Parse State: 92	Cursor Position: 7 33
 Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.6337716579437256 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1292,12 +2329,23 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time
                 ')'
-                Complete the ')' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of ')'. 
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7121634483337402 seconds
-Received response with candidate: 1) + "("
-2) ")"
-3) + ")"
+Received response with candidate 1: ) + "."
+SACREBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score1: 0.22
+
+Received response with candidate 2: )
+EndSub
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: )
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.20
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1308,15 +2356,29 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. + Clock.Hour + ":" + Clock.Minute
-2. + Clock.Hour.ToString() + ":" + Clock.Minute.ToString()
-3. + Time.GetTimeString()
+Received response without candidate 1: ) 
+End Sub
+SACREBLEU score 4: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score4: 0.12
+
+Received response without candidate 2:  + " " + Clock.Second) 
+EndSub
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: ())
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.40
 Actual result:  )
 
 Parse State: 65	Cursor Position: 7 35
 Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+Time taken: 0.9469943046569824 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1327,10 +2389,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time)
                 'CR TheRest'
-                Complete the 'CR TheRest' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'CR TheRest'. 
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.8521466255187988 seconds
-Received response with candidate: CR TextWindow.WriteLine("Good morning!")
+Received response with candidate 1: TextWindow.WriteLine("   " + Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 19 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.03
+
+Received response with candidate 2: TextWindow.WriteLine("It's a beautiful day!")
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.04
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1341,20 +2415,27 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. 
-TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
-                
-2. 
-TextWindow.WriteLine("It is currently " + Clock.Hour + " o'clock.")
-                
-3. 
-TextWindow.WriteLine("The time is " + Clock.Hour + ":" + Clock.Minute)
+Received response without candidate 1: TextWindow.WriteLine(Clock.Hour)
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.04
+
+Received response without candidate 2: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.04
+
+Received response without candidate 3: PrintTime()
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.14
 Actual result:  \n
 
 Parse State: 62	Cursor Position: 8 1
 Candidate List: ['1 : ', '[T, EndSub] : 18432']
+Time taken: 1.0445387363433838 seconds
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1365,14 +2446,22 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time)
                 'EndSub'
-                Complete the 'EndSub' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'EndSub'. 
+                Complete the 'EndSub' part of the code **once** per response. Do not include more than one completion in each response.. 
                 
-Time taken: 0.7729904651641846 seconds
-Received response with candidate: 1. EndSub
+Received response with candidate 1: EndSub
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.92
 
-2. End Sub
+Received response with candidate 2: EndSub
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
 
-3. EndSub PrintTime
+Received response with candidate 3: EndSub
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.92
 
                 This is the incomplete Small Basic programming language code:
                 PrintTime() 
@@ -1383,12 +2472,25 @@ PrintTime()
 Sub PrintTime   
 	TextWindow.WriteLine(Clock.Time)
                 'next token or line'
-                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
                 
-Received response without candidate: 1. TextWindow.WriteLine("It is now " + Clock.Hour + ":" + Clock.Minute + ".")
+Received response without candidate 1: Clock.Second.
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.10
 
-2. TextWindow.WriteLine("The current time is " + Clock.Hour + " hours and " + Clock.Minute + " minutes.")
+Received response without candidate 2: TextWindow.WriteLine(Clock.Date)
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.92
 
-3. TextWindow.WriteLine("Time check: " + Clock.Hour + " hours and " + Clock.Minute + "
+Received response without candidate 3: PrintDate()
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.11
 Actual result:  EndSub
 
+Average Precision with Candidate Guidance: 53.78654224586456
+Average Precision without Candidate Guidance: 39.78217980199292
+Average Sequence Matcher Similarity with Candidate Guidance: 39.69460453786634
+Average Sequence Matcher Similarity without Candidate Guidance: 35.69528950553285
