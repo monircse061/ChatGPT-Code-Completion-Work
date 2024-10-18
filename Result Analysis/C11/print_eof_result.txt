@@ -1,0 +1,1448 @@
+Parse State: 23	Cursor Position: 741 1
+Candidate List: ['1: [T, extern] : 205724', '2: [T, typedef, NT, list_eq1_type_specifier_unique_declaration_specifier] : 34758', '3: [T, typedef, NT, list_ge1_type_specifier_nonunique_declaration_specifier] : 28473', '4: [T, struct] : 11148', '5: [T, void] : 10609', '6: [T, static] : 6510', '7: [T, NAME, T, TYPE] : 3867', '8: [T, enum, NT, option_general_identifier, T, {, NT, enumerator_list, NT, option_comma, T, }] : 3147', '9: [T, int] : 2642', '10: [T, char] : 2514', '11: [T, _Bool] : 944', '12: [T, inline] : 845', '13: [T, union] : 590', '14: [T, const] : 583', '15: [T, $] : 396', '16: [T, enum, NT, general_identifier] : 257', '17: [T, unsigned] : 170', '18: [T, double] : 108', '19: [T, _Noreturn] : 60', '20: [T, long] : 34', '21: [T, _Static_assert, T, (, NT, constant_expression, T, ,, T, STRING_LITERAL, T, ), T, ;] : 13', '22: [T, float] : 2', '23: [T, short] : 1', '24: [T, volatile] : 1']
+Time taken: 0.9474668502807617 seconds
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+                'int'
+                Complete the 'int' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: int main() {
+    int c = EOF;
+    
+    printf("The value of EOF is %d\n", c);
+    
+    return 0;
+}
+SACREBLEU score 1: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score1: 0.06
+
+Received response with candidate 2: int main(void) {
+    int c;
+
+    while ((c = getchar()) != EOF) {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.20
+
+Received response with candidate 3: int main() {
+    int c;
+
+    while ((c = getchar()) != EOF) {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 3: 1.123099644603982 Counts: [1, 0, 0, 0] Totals: [33, 32, 31, 30] Precisions: [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667] System length: 33 Reference length: 1 
+First element of precision: 3.0303030303030303 
+SequenceMatcher Score3: 0.05
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: printf("EOF is %d\n", EOF);
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.21
+
+Received response without candidate 2: printf("EOF: %d\n", EOF);
+SACREBLEU score 5: 1.1599713834969503 Counts: [1, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 1 
+First element of precision: 3.125 
+SequenceMatcher Score5: 0.06
+
+Received response without candidate 3: printf("EOF is: %d\n", EOF);
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.19
+Actual result: int
+
+Parse State: 5	Cursor Position: 741 5
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 192064', '2: [T, *, NT, option_type_qualifier_list, NT, option_pointer] : 43523', '3: [T, (, NT, save_context, NT, declarator, T, )] : 210']
+Time taken: 0.6158878803253174 seconds
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: main()
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.80
+
+Received response with candidate 2: main(){
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.03
+
+Received response with candidate 3: print_eof
+SACREBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score3: 0.73
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: while ((c = getchar()) != EOF) {
+        putchar(c);
+    }
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.06
+
+Received response without candidate 2: fgets(buffer, sizeof(buffer), stdin);
+printf("%s", buffer);
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.31
+
+Received response without candidate 3: The 'next token or line' part of the code is missing the implementation of reading the next token or line from the input.
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 24 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.03
+Actual result: main
+
+Parse State: 63	Cursor Position: 741 9
+Candidate List: ['1: [T, (, NT, scoped_parameter_type_list, T, )] : 165257', '2: [T, [, NT, option_type_qualifier_list, NT, option_assignment_expression, T, ]] : 18928', '3: [T, (, NT, save_context, NT, option_identifier_list, T, )] : 505']
+Time taken: 0.6627614498138428 seconds
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main
+                '( scoped_parameter_type_list )'
+                Complete the '( scoped_parameter_type_list )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: (void)
+SACREBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score1: 1.00
+
+Received response with candidate 2: (void)
+SACREBLEU score 2: 2.0540268312306345 Counts: [2, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [9.090909090909092, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 3 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score2: 0.07
+
+Received response with candidate 3: (int argc, char *argv[])
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 1.00
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: () 
+{
+    printf("EOF is: %d\n", EOF);
+    return 0;
+}
+SACREBLEU score 4: 2.159701133933343 Counts: [2, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [9.523809523809524, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 3 
+First element of precision: 9.523809523809524 
+SequenceMatcher Score4: 0.06
+
+Received response without candidate 2: {
+    () {
+        printf("%d\n", EOF);
+        return 0;
+    }
+}
+SACREBLEU score 5: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score5: 0.20
+
+Received response without candidate 3: () {
+    printf("EOF: %d\n", EOF);
+    return 0;
+}
+SACREBLEU score 6: 2.159701133933343 Counts: [2, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [9.523809523809524, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 3 
+First element of precision: 9.523809523809524 
+SequenceMatcher Score6: 0.07
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 741 10
+Candidate List: ['1: [T, const] : 45557', '2: [T, int] : 41019', '3: [T, NAME, T, TYPE] : 36761', '4: [T, char] : 30377', '5: [T, void] : 27174', '6: [T, struct] : 10891', '7: [T, unsigned] : 5052', '8: [T, long] : 4723', '9: [T, double] : 2973', '10: [T, NAME, T, VARIABLE] : 426', '11: [T, float] : 366', '12: [T, union] : 153', '13: [T, enum, NT, general_identifier] : 137', '14: [T, _Bool] : 118', '15: [T, register] : 1']
+Time taken: 0.9446027278900146 seconds
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(
+                'void'
+                Complete the 'void' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: void
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 1.00
+
+Received response with candidate 2: void
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [39, 38, 37, 36] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 39 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.03
+
+Received response with candidate 3: void
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 1.00
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: #include <stdio.h>
+
+int main() {
+    int c;
+
+    while ((c = getchar()) != EOF) {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [39, 38, 37, 36] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 39 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.03
+
+Received response without candidate 2: #include <stdio.h>
+
+int main() {
+    int c;
+
+    while ((c = getchar()) != EOF) {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 1.00
+
+Received response without candidate 3: #include <stdio.h>
+
+int main() {
+    int eof = EOF; // defining eof as the end-of-file token
+    printf("EOF value: %d\n", eof);
+
+    return 0;
+}
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [44, 43, 42, 41] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 44 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.03
+Actual result: void
+
+Parse State: 187	Cursor Position: 741 14
+Candidate List: ['1: [T, )] : 205302']
+Time taken: 0.7236826419830322 seconds
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void
+                ')'
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: );
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: **Complete the ')' part of the code once**.
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: ).
+
+Complete code:
+
+```c
+int main(void)
+```
+SACREBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score3: 0.05
+
+                This is the incomplete C11 programming language code:
+                # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: {
+    return 0;
+}
+SACREBLEU score 4: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score4: 0.04
+
+Received response without candidate 2: ) {
+    printf("EOF value: %d\n", EOF);
+    return 0;
+}
+SACREBLEU score 5: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score5: 0.05
+
+Received response without candidate 3: .
+) {
+    // Your code here
+    
+    return 0;
+}
+SACREBLEU score 6: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score6: 0.04
+Actual result: )
+
+Parse State: 94	Cursor Position: 742 1
+Candidate List: ['1: [T, {, NT, option_block_item_list, T, }] : 21391']
+Time taken: 1.5508530139923096 seconds
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+                '{ option_block_item_list }'
+                Complete the '{ option_block_item_list }' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: {
+    // Print end-of-file character
+    printf("EOF character: %d\n", EOF);
+    
+    return 0;
+}
+SACREBLEU score 1: 9.278337965054556 Counts: [9, 5, 1, 0] Totals: [25, 24, 23, 22] Precisions: [36.0, 20.833333333333332, 4.3478260869565215, 2.272727272727273] System length: 25 Reference length: 13 
+First element of precision: 36.0 
+SequenceMatcher Score1: 0.34
+
+Received response with candidate 2: {
+    FILE *file = fopen("file.txt", "r");
+    if (file == NULL) {
+        fprintf(stderr, "Error opening file.");
+        return 1;
+    }
+    
+    int c;
+    while ((c = fgetc(file)) != EOF) {
+        putchar(c);
+    }
+    
+    fclose(file);
+    
+    return
+SACREBLEU score 2: 3.419816740540656 Counts: [8, 3, 0, 0] Totals: [40, 39, 38, 37] Precisions: [20.0, 7.6923076923076925, 1.3157894736842106, 0.6756756756756757] System length: 40 Reference length: 13 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: {
+    return 0;
+}
+SACREBLEU score 3: 2.243032211306286 Counts: [10, 5, 0, 0] Totals: [72, 71, 70, 69] Precisions: [13.88888888888889, 7.042253521126761, 0.7142857142857143, 0.36231884057971014] System length: 72 Reference length: 13 
+First element of precision: 13.88888888888889 
+SequenceMatcher Score3: 0.13
+
+                This is the incomplete C11 programming language code:
+                extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: #include <stdio.h>
+
+int main(void)
+{
+    int c;
+
+    while((c = getchar()) != EOF) {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 4: 12.512236921161914 Counts: [7, 4, 1, 0] Totals: [17, 16, 15, 14] Precisions: [41.1764705882353, 25.0, 6.666666666666667, 3.5714285714285716] System length: 17 Reference length: 13 
+First element of precision: 41.1764705882353 
+SequenceMatcher Score4: 0.60
+
+Received response without candidate 2: printf("EOF is %d\n", EOF);
+
+return 0;
+SACREBLEU score 5: 4.773548444510098 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 13 
+First element of precision: 60.0 
+SequenceMatcher Score5: 0.48
+
+Received response without candidate 3: #include <stdio.h>
+
+int main(void)
+{
+    int c;
+    while ((c = getchar()) != EOF)
+    {
+        putchar(c);
+    }
+
+    return 0;
+}
+SACREBLEU score 6: 3.419816740540656 Counts: [8, 3, 0, 0] Totals: [40, 39, 38, 37] Precisions: [20.0, 7.6923076923076925, 1.3157894736842106, 0.6756756756756757] System length: 40 Reference length: 13 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.22
+Actual result: {printf(",(-1));return0;}
+
+Parse State: 201	Cursor Position: 743 3
+Candidate List: ['1: [T, }] : 44861', '2: [T, NAME, T, VARIABLE] : 41149', '3: [T, return, NT, option_expression, T, ;] : 23613', '4: [T, NAME, T, TYPE] : 5498', '5: [T, case, NT, constant_expression, T, :, NT, statement] : 4857', '6: [T, break, T, ;] : 3795', '7: [T, int] : 2261', '8: [T, (, NT, expression, T, )] : 1829', '9: [T, *] : 1809', '10: [T, struct] : 1712', '11: [T, char] : 1646', '12: [T, goto, NT, general_identifier, T, ;] : 1090', '13: [T, const] : 1057', '14: [T, unsigned] : 828', '15: [T, (, NT, type_name, T, ), NT, cast_expression] : 541', '16: [T, default, T, :, NT, statement] : 515', '17: [T, static] : 234', '18: [T, continue, T, ;] : 204', '19: [T, register] : 160', '20: [T, ++, NT, unary_expression] : 160', '21: [T, _Bool] : 126', '22: [T, long] : 99', '23: [T, double] : 88', '24: [T, void] : 74', '25: [T, --, NT, unary_expression] : 54', '26: [T, enum, NT, option_general_identifier, T, {, NT, enumerator_list, NT, option_comma, T, }] : 52', '27: [T, union] : 51', '28: [T, enum, NT, general_identifier] : 36', '29: [T, extern] : 17', '30: [T, float] : 13', '31: [T, short] : 7', '32: [T, typedef, NT, list_eq1_type_specifier_unique_declaration_specifier] : 2', '33: [T, signed] : 2', '34: [T, _Static_assert, T, (, NT, constant_expression, T, ,, T, STRING_LITERAL, T, ), T, ;] : 2', '35: [T, volatile] : 1']
+Time taken: 0.8773410320281982 seconds
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+                'NAME VARIABLE'
+                Complete the 'NAME VARIABLE' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: EOF_COUNT
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: eof_character
+SACREBLEU score 2: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score2: 0.18
+
+Received response with candidate 3: myVariable
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.11
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: printf("EOF value is: %d\n", EOF);
+                return 0;
+}
+SACREBLEU score 4: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score4: 0.27
+
+Received response without candidate 2: printf("EOF is %d\n", EOF);
+
+return 0;
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.25
+
+Received response without candidate 3: printf("EOF value: %d\n", EOF);
+SACREBLEU score 6: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score6: 0.32
+Actual result: printf
+
+Parse State: 147	Cursor Position: 743 9
+Candidate List: ['1: [T, (, NT, option_argument_expression_list, T, )] : 95612', '2: [T, ->, NT, general_identifier] : 57631', '3: [T, [, NT, expression, T, ]] : 20250', '4: [T, ., NT, general_identifier] : 16938', '5: [T, ++] : 4909', '6: [T, --] : 645']
+Time taken: 0.8356292247772217 seconds
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: ("\nEOF is: %d\n", EOF);
+
+    return 0;
+}
+SACREBLEU score 1: 5.7259987315337755 Counts: [4, 2, 0, 0] Totals: [19, 18, 17, 16] Precisions: [21.05263157894737, 11.11111111111111, 2.9411764705882355, 1.5625] System length: 19 Reference length: 7 
+First element of precision: 21.05263157894737 
+SequenceMatcher Score1: 0.16
+
+Received response with candidate 2: ("\nEnd of file reached: %d\n", EOF);
+SACREBLEU score 2: 6.074588070876682 Counts: [4, 2, 0, 0] Totals: [18, 17, 16, 15] Precisions: [22.22222222222222, 11.764705882352942, 3.125, 1.6666666666666667] System length: 18 Reference length: 7 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: ("\nEOF Value: %d\n", EOF);
+SACREBLEU score 3: 6.468490584192431 Counts: [4, 2, 0, 0] Totals: [17, 16, 15, 14] Precisions: [23.529411764705884, 12.5, 3.3333333333333335, 1.7857142857142858] System length: 17 Reference length: 7 
+First element of precision: 23.529411764705884 
+SequenceMatcher Score3: 0.18
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ("\nEOF: %d\n", EOF);
+  
+  return 0;
+}
+SACREBLEU score 4: 6.468490584192431 Counts: [4, 2, 0, 0] Totals: [17, 16, 15, 14] Precisions: [23.529411764705884, 12.5, 3.3333333333333335, 1.7857142857142858] System length: 17 Reference length: 7 
+First element of precision: 23.529411764705884 
+SequenceMatcher Score4: 0.20
+
+Received response without candidate 2: ("\n%d\n", EOF);
+  
+  return 0;
+}
+SACREBLEU score 5: 7.432998184513635 Counts: [4, 2, 0, 0] Totals: [15, 14, 13, 12] Precisions: [26.666666666666668, 14.285714285714286, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 7 
+First element of precision: 26.666666666666668 
+SequenceMatcher Score5: 0.23
+
+Received response without candidate 3: ("\nEnd of file reached: %d\n", EOF);
+  
+  return 0;
+}
+SACREBLEU score 6: 5.136663909505954 Counts: [4, 2, 0, 0] Totals: [21, 20, 19, 18] Precisions: [19.047619047619047, 10.0, 2.6315789473684212, 1.3888888888888888] System length: 21 Reference length: 7 
+First element of precision: 19.047619047619047 
+SequenceMatcher Score6: 0.13
+Actual result: (",(-1))
+
+Parse State: 235	Cursor Position: 743 10
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 68559', '2: [T, (, NT, expression, T, )] : 11247', '3: [T, CONSTANT] : 2303', '4: [T, STRING_LITERAL] : 2259', '5: [T, &] : 1801', '6: [T, (, NT, type_name, T, ), NT, cast_expression] : 1155', '7: [T, *] : 349', '8: [T, sizeof, T, (, NT, type_name, T, )] : 116', '9: [T, sizeof, NT, unary_expression] : 92', '10: [T, -] : 43', '11: [T, __builtin_va_arg, T, (, NT, assignment_expression, T, ,, NT, type_name, T, )] : 10', '12: [T, ++, NT, unary_expression] : 3', '13: [T, ~] : 2', '14: [T, --, NT, unary_expression] : 1']
+Time taken: 0.7100887298583984 seconds
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf(
+                'STRING_LITERAL'
+                Complete the 'STRING_LITERAL' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: "End of File reached: %d\n", EOF);
+SACREBLEU score 1: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score1: 0.06
+
+Received response with candidate 2: "EOF is: %d\n", EOF);
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: "Hello, world!\n"
+SACREBLEU score 3: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score3: 0.09
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf(
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: EOF 
+
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: return EOF;
+}
+SACREBLEU score 5: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score5: 0.11
+
+Received response without candidate 3: EOF);
+  
+  return 0;
+}
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: "
+
+Parse State: 352	Cursor Position: 743 19
+Candidate List: ['1: [T, ,, NT, assignment_expression] : 103789']
+Time taken: 0.6715292930603027 seconds
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d"
+                ', assignment_expression'
+                Complete the ', assignment_expression' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: EOF: %d\n', EOF
+SACREBLEU score 1: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 4 
+First element of precision: 12.5 
+SequenceMatcher Score1: 0.10
+
+Received response with candidate 2: );
+
+  return 0;
+}
+SACREBLEU score 2: 2.2731543567022867 Counts: [3, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [13.636363636363637, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 4 
+First element of precision: 13.636363636363637 
+SequenceMatcher Score2: 0.04
+
+Received response with candidate 3: EOF: %d\n", EOF);
+SACREBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 4 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score3: 0.09
+
+                This is the incomplete C11 programming language code:
+                extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d"
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ;\n");
+  printf("EOF: %d", EOF);
+
+  return 0;
+}
+SACREBLEU score 4: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 4 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: ';', EOF, stdin); 
+
+return 0;
+}
+SACREBLEU score 5: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 4 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score5: 0.18
+
+Received response without candidate 3: ; // Add a semicolon to end the printf statement
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 4 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: ,(-1)
+
+Parse State: 429	Cursor Position: 745 20
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 61461', '2: [T, CONSTANT] : 29730', '3: [T, STRING_LITERAL] : 3826', '4: [T, (, NT, expression, T, )] : 3344', '5: [T, (, NT, type_name, T, ), NT, cast_expression] : 2719', '6: [T, &] : 1818', '7: [T, sizeof, NT, unary_expression] : 394', '8: [T, sizeof, T, (, NT, type_name, T, )] : 178', '9: [T, *] : 165', '10: [T, -] : 135', '11: [T, --, NT, unary_expression] : 8', '12: [T, !] : 6', '13: [T, ++, NT, unary_expression] : 3', '14: [T, __builtin_va_arg, T, (, NT, assignment_expression, T, ,, NT, type_name, T, )] : 2']
+Time taken: 0.612450361251831 seconds
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                '( expression )'
+                Complete the '( expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: getchar()
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.31
+
+Received response with candidate 2: EOF: EOF
+SACREBLEU score 2: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 3 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score2: 0.06
+
+Received response with candidate 3: getchar()
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: EOF: %d", EOF); 
+
+  return 0;
+}
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: EOF: EOF
+SACREBLEU score 5: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.31
+
+Received response without candidate 3: EOF: %d\n", EOF
+); 
+
+  return 0;
+}
+SACREBLEU score 6: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 3 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score6: 0.05
+Actual result: (-1)
+
+Parse State: 165	Cursor Position: 745 21
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 70089', '2: [T, (, NT, expression, T, )] : 50279', '3: [T, (, NT, type_name, T, ), NT, cast_expression] : 37493', '4: [T, CONSTANT] : 18284', '5: [T, int] : 15407', '6: [T, long] : 13428', '7: [T, sizeof, T, (, NT, type_name, T, )] : 12962', '8: [T, void] : 11635', '9: [T, NAME, T, TYPE] : 7059', '10: [T, *] : 3203', '11: [T, unsigned] : 2796', '12: [T, char] : 2298', '13: [T, struct] : 2042', '14: [T, !] : 1083', '15: [T, const] : 909', '16: [T, STRING_LITERAL] : 687', '17: [T, &] : 516', '18: [T, sizeof, NT, unary_expression] : 512', '19: [T, -] : 486', '20: [T, double] : 196', '21: [T, ~] : 146', '22: [T, (, NT, type_name, T, ), T, {, NT, initializer_list, NT, option_comma, T, }] : 28', '23: [T, signed] : 10', '24: [T, --, NT, unary_expression] : 8', '25: [T, union] : 8', '26: [T, ++, NT, unary_expression] : 8', '27: [T, _Alignof, T, (, NT, type_name, T, )] : 3', '28: [T, float] : 3', '29: [T, short] : 2']
+Time taken: 0.7917678356170654 seconds
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (
+                '-'
+                Complete the '-' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: getchar() == EOF
+               )
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: getchar());
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: getchar() 
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: getchar()
+                   );
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: EOF);
+  return 0;
+}
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
+
+Received response without candidate 3: getchar()
+                
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: -
+
+Parse State: 149	Cursor Position: 745 22
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 15984', '2: [T, CONSTANT] : 11520', '3: [T, (, NT, expression, T, )] : 6219', '4: [T, (, NT, type_name, T, ), NT, cast_expression] : 656', '5: [T, *] : 102', '6: [T, ++, NT, unary_expression] : 77', '7: [T, --, NT, unary_expression] : 68', '8: [T, !] : 48', '9: [T, STRING_LITERAL] : 8']
+Time taken: 0.9664251804351807 seconds
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: EOF: %d", EOF);
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: EOF: -1
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: EOF: -CONSTANT
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.25
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: EOF);
+  
+  return 0;
+}
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: EOF);
+  
+  return 0;
+}
+Please complete the code inside the printf function.
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
+
+Received response without candidate 3: EOF); // prints the EOF character code
+  return 0;
+}
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: 1
+
+Parse State: 267	Cursor Position: 745 23
+Candidate List: ['1: [T, )] : 197247', '2: [T, ,, NT, assignment_expression] : 162']
+Time taken: 0.6972987651824951 seconds
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1
+                ')'
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: );
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: );
+  return 0;
+}
+SACREBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score2: 0.12
+
+Received response with candidate 3: ); 
+
+  return 0;
+}
+SACREBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score3: 0.12
+
+                This is the incomplete C11 programming language code:
+                # 2 "chapter_1/exercise_1_07/print_eof.c" 2
+
+
+# 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ); 
+
+return 0;
+}
+SACREBLEU score 4: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: );
+
+  return 0;
+}
+SACREBLEU score 5: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.11
+
+Received response without candidate 3: ); // Completing the 'next token or line' part
+
+  return 0;
+}
+SACREBLEU score 6: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score6: 0.03
+Actual result: )
+
+Parse State: 351	Cursor Position: 747 23
+Candidate List: ['1: [T, )] : 95612']
+Time taken: 0.6521198749542236 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                ')'
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: );
+  return 0;
+}
+SACREBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score1: 0.12
+
+Received response with candidate 2: ;
+  return 0; 
+}
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: );
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ';'
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: EOF: -1
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: The correct completion would be: 
+
+EOF.
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: )
+
+Parse State: 331	Cursor Position: 747 24
+Candidate List: ['1: [T, ;] : 57657']
+Time taken: 0.8795948028564453 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      )
+                ';'
+                Complete the ';' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: ;
+                
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.11
+
+Received response with candidate 2: ;
+
+Remember to only include one completion per response. Let me know if you need any more help with this code!
+SACREBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score2: 0.15
+
+Received response with candidate 3: ;
+
+Complete the ';' part of the code once per response.
+SACREBLEU score 3: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 1 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score3: 0.02
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      )
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ;
+
+return 0;
+SACREBLEU score 4: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.12
+
+Received response without candidate 2: ;
+
+  return 0;
+}
+SACREBLEU score 5: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score5: 0.04
+
+Received response without candidate 3: ; 
+
+  return 0;
+}
+SACREBLEU score 6: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.11
+Actual result: ;
+
+Parse State: 201	Cursor Position: 748 3
+Candidate List: ['1: [T, }] : 44861', '2: [T, NAME, T, VARIABLE] : 41149', '3: [T, return, NT, option_expression, T, ;] : 23613', '4: [T, NAME, T, TYPE] : 5498', '5: [T, case, NT, constant_expression, T, :, NT, statement] : 4857', '6: [T, break, T, ;] : 3795', '7: [T, int] : 2261', '8: [T, (, NT, expression, T, )] : 1829', '9: [T, *] : 1809', '10: [T, struct] : 1712', '11: [T, char] : 1646', '12: [T, goto, NT, general_identifier, T, ;] : 1090', '13: [T, const] : 1057', '14: [T, unsigned] : 828', '15: [T, (, NT, type_name, T, ), NT, cast_expression] : 541', '16: [T, default, T, :, NT, statement] : 515', '17: [T, static] : 234', '18: [T, continue, T, ;] : 204', '19: [T, register] : 160', '20: [T, ++, NT, unary_expression] : 160', '21: [T, _Bool] : 126', '22: [T, long] : 99', '23: [T, double] : 88', '24: [T, void] : 74', '25: [T, --, NT, unary_expression] : 54', '26: [T, enum, NT, option_general_identifier, T, {, NT, enumerator_list, NT, option_comma, T, }] : 52', '27: [T, union] : 51', '28: [T, enum, NT, general_identifier] : 36', '29: [T, extern] : 17', '30: [T, float] : 13', '31: [T, short] : 7', '32: [T, typedef, NT, list_eq1_type_specifier_unique_declaration_specifier] : 2', '33: [T, signed] : 2', '34: [T, _Static_assert, T, (, NT, constant_expression, T, ,, T, STRING_LITERAL, T, ), T, ;] : 2', '35: [T, volatile] : 1']
+Time taken: 0.739408016204834 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+                'return option_expression ;'
+                Complete the 'return option_expression ;' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: return 0;
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.94
+
+Received response with candidate 2: return 0;
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.94
+
+Received response with candidate 3: return 0;
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.94
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: return 0;
+SACREBLEU score 4: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 2 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score4: 0.39
+
+Received response without candidate 2: #include <stdio.h>
+
+  return 0;
+}
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score5: 0.94
+
+Received response without candidate 3: #include <stdio.h>
+
+  return 0;
+}
+SACREBLEU score 6: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 2 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score6: 0.39
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 748 10
+Candidate List: ['1: [T, NAME, T, VARIABLE] : 17110', '2: [T, (, NT, expression, T, )] : 8020', '3: [T, CONSTANT] : 1660', '4: [T, (, NT, type_name, T, ), NT, cast_expression] : 586', '5: [T, -] : 369', '6: [T, &] : 29', '7: [T, !] : 24', '8: [T, *] : 24', '9: [T, STRING_LITERAL] : 15']
+Time taken: 0.8869574069976807 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return
+                'CONSTANT'
+                Complete the 'CONSTANT' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: return 0;
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.20
+
+Received response with candidate 2: return 0;
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.33
+
+Received response with candidate 3: 0;
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.20
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: 0; 
+}
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.67
+
+Received response without candidate 2: 0;
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: ';'
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: 0
+
+Parse State: 415	Cursor Position: 748 11
+Candidate List: ['1: [T, ;] : 28677']
+Time taken: 0.6391184329986572 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return 0
+                ';'
+                Complete the ';' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: ;
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 1.00
+
+Received response with candidate 2: ;
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.40
+
+Received response with candidate 3: ;
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 1.00
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return 0
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ; 
+}
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.40
+
+Received response without candidate 2: ; 
+}
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 1.00
+
+Received response without candidate 3: ; 
+}
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.40
+Actual result: ;
+
+Parse State: 201	Cursor Position: 749 1
+Candidate List: ['1: [T, }] : 44861', '2: [T, NAME, T, VARIABLE] : 41149', '3: [T, return, NT, option_expression, T, ;] : 23613', '4: [T, NAME, T, TYPE] : 5498', '5: [T, case, NT, constant_expression, T, :, NT, statement] : 4857', '6: [T, break, T, ;] : 3795', '7: [T, int] : 2261', '8: [T, (, NT, expression, T, )] : 1829', '9: [T, *] : 1809', '10: [T, struct] : 1712', '11: [T, char] : 1646', '12: [T, goto, NT, general_identifier, T, ;] : 1090', '13: [T, const] : 1057', '14: [T, unsigned] : 828', '15: [T, (, NT, type_name, T, ), NT, cast_expression] : 541', '16: [T, default, T, :, NT, statement] : 515', '17: [T, static] : 234', '18: [T, continue, T, ;] : 204', '19: [T, register] : 160', '20: [T, ++, NT, unary_expression] : 160', '21: [T, _Bool] : 126', '22: [T, long] : 99', '23: [T, double] : 88', '24: [T, void] : 74', '25: [T, --, NT, unary_expression] : 54', '26: [T, enum, NT, option_general_identifier, T, {, NT, enumerator_list, NT, option_comma, T, }] : 52', '27: [T, union] : 51', '28: [T, enum, NT, general_identifier] : 36', '29: [T, extern] : 17', '30: [T, float] : 13', '31: [T, short] : 7', '32: [T, typedef, NT, list_eq1_type_specifier_unique_declaration_specifier] : 2', '33: [T, signed] : 2', '34: [T, _Static_assert, T, (, NT, constant_expression, T, ,, T, STRING_LITERAL, T, ), T, ;] : 2', '35: [T, volatile] : 1']
+Time taken: 0.7319629192352295 seconds
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return 0;
+                '}'
+                Complete the '}' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: }
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 1.00
+
+Received response with candidate 2: }
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.00
+
+Received response with candidate 3: }
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 1.00
+
+                This is the incomplete C11 programming language code:
+                # 3 "chapter_1/exercise_1_07/print_eof.c"
+int main(void)
+{
+  printf("EOF: %d", 
+# 5 "chapter_1/exercise_1_07/print_eof.c" 3 4
+                   (-1)
+# 5 "chapter_1/exercise_1_07/print_eof.c"
+                      );
+  return 0;
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: #include <stdio.h>
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: #include <stdio.h>
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 1.00
+
+Received response without candidate 3: #include <stdio.h>
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result: }
+
+Average Precision with Candidate Guidance: 43.13892190152802
+Average Precision without Candidate Guidance: 12.300807036101155
+Average Sequence Matcher Similarity with Candidate Guidance: 42.64594363636737
+Average Sequence Matcher Similarity without Candidate Guidance: 16.34441884466954
