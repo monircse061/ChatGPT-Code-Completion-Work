@@ -1,0 +1,1525 @@
+Parse State: 0	Cursor Position: 1 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 0.8306119441986084 seconds
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 1: 50.3633439149258 Counts: [12, 9, 7, 5] Totals: [13, 12, 11, 10] Precisions: [92.3076923076923, 75.0, 63.63636363636363, 50.0] System length: 13 Reference length: 17 
+First element of precision: 92.3076923076923 
+SequenceMatcher Score1: 0.83
+
+Received response with candidate 2: For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 28 Reference length: 17 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: For i = 1 To 10
+  TextWindow.WriteLine("Current value of i: " + i)
+EndFor
+SACREBLEU score 3: 50.3633439149258 Counts: [12, 9, 7, 5] Totals: [13, 12, 11, 10] Precisions: [92.3076923076923, 75.0, 63.63636363636363, 50.0] System length: 13 Reference length: 17 
+First element of precision: 92.3076923076923 
+SequenceMatcher Score3: 0.83
+
+                This is the incomplete Small Basic programming language code:
+                
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Sure, could you please provide the code snippet that comes before "next token or line" so that I can assist you with completing it?
+SACREBLEU score 4: 2.299921972415939 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 17 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: Sure, please provide the code snippet that you would like me to complete.
+SACREBLEU score 5: 31.642571776698524 Counts: [12, 8, 5, 3] Totals: [21, 20, 19, 18] Precisions: [57.142857142857146, 40.0, 26.31578947368421, 16.666666666666668] System length: 21 Reference length: 17 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score5: 0.72
+
+Received response without candidate 3: Sure, could you please provide the previous code that leads up to the 'next token or line' part?
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 17 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.26
+Actual result:  For i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 8	Cursor Position: 1 5
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 0.882312536239624 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: Count = 1 To 10
+For Count = 1 To 10
+    TextWindow.WriteLine(Count)
+EndFor
+SACREBLEU score 1: 20.706193828327603 Counts: [9, 5, 3, 1] Totals: [18, 17, 16, 15] Precisions: [50.0, 29.41176470588235, 18.75, 6.666666666666667] System length: 18 Reference length: 16 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.61
+
+Received response with candidate 2: Example:
+For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 16 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.12
+
+Received response with candidate 3: 'index = 1 To 10
+Print(index)
+EndFor'
+SACREBLEU score 3: 47.13945310979296 Counts: [11, 8, 6, 4] Totals: [15, 14, 13, 12] Precisions: [73.33333333333333, 57.142857142857146, 46.15384615384615, 33.333333333333336] System length: 15 Reference length: 16 
+First element of precision: 73.33333333333333 
+SequenceMatcher Score3: 0.74
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next token: "token"
+Next token: 
+Next token:
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 16 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.19
+
+Received response without candidate 2: Next token
+SACREBLEU score 5: 9.739982528168149 Counts: [5, 2, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 22.22222222222222, 12.5, 7.142857142857143] System length: 10 Reference length: 16 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.48
+
+Received response without candidate 3: What is the specific line of code or token that you would like to get completed?
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 17 Reference length: 16 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.19
+Actual result:  i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 34	Cursor Position: 1 7
+Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 0.7420451641082764 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 10
+  ' Your code here
+EndFor
+SACREBLEU score 1: 11.018841589267419 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 15 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score1: 0.43
+
+Received response with candidate 2: = 1 To 10
+                TextWindow.WriteLine(i)
+                EndFor
+SACREBLEU score 2: 4.635551866221845 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 15 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score2: 0.36
+
+Received response with candidate 3: For i = 1 To 10
+                'Your code here
+EndFor
+SACREBLEU score 3: 41.946020351348416 Counts: [10, 7, 5, 3] Totals: [11, 10, 9, 8] Precisions: [90.9090909090909, 70.0, 55.55555555555556, 37.5] System length: 11 Reference length: 15 
+First element of precision: 90.9090909090909 
+SequenceMatcher Score3: 0.65
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = 1
+'next token or line'
+SACREBLEU score 4: 2.0540268312306345 Counts: [2, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [9.090909090909092, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 15 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score4: 0.19
+
+Received response without candidate 2: Next, move to the next line of code starting with "For i" and continue with the program execution.
+SACREBLEU score 5: 10.764345432696361 Counts: [5, 2, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 22.22222222222222, 12.5, 7.142857142857143] System length: 10 Reference length: 15 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.40
+
+Received response without candidate 3: Next, we need to iterate through a specific range of values using the 'For' loop.
+SACREBLEU score 6: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 15 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score6: 0.29
+Actual result:  = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 61	Cursor Position: 1 9
+Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+Time taken: 1.0110938549041748 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'Number'
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1
+SACREBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: For i = 1
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.57
+
+Received response with candidate 3: Sure, here is one completion for the code:
+
+For i = 1
+SACREBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score3: 0.36
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = 1
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 23 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.02
+
+Received response without candidate 2: Sure, please provide the specific instructions on what you would like to do with the 'i' variable in the For loop.
+SACREBLEU score 5: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score5: 0.07
+
+Received response without candidate 3: i = 1
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.57
+Actual result:  1
+
+Parse State: 85	Cursor Position: 1 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 0.7744755744934082 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: To 10 EndFor
+SACREBLEU score 1: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 13 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score1: 0.33
+
+Received response with candidate 2: For i = 1 To 10
+'To Expression OptStep CRStmtCRs EndFor'
+SACREBLEU score 2: 13.520459769143477 Counts: [6, 4, 2, 1] Totals: [21, 20, 19, 18] Precisions: [28.571428571428573, 20.0, 10.526315789473685, 5.555555555555555] System length: 21 Reference length: 13 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score2: 0.45
+
+Received response with candidate 3: To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 3: 3.7159390072518104 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 13 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score3: 0.35
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i to 10
+                i++
+                TextWindow.WriteLine("The value of i is: " + i)
+SACREBLEU score 4: 2.5540496664715904 Counts: [2, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [11.11111111111111, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 13 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score4: 0.15
+
+Received response without candidate 2: For i = 1
+For i = 1 To 10
+For i = 1 To 10 Step 2
+SACREBLEU score 5: 40.471107853347405 Counts: [8, 5, 4, 3] Totals: [9, 8, 7, 6] Precisions: [88.88888888888889, 62.5, 57.142857142857146, 50.0] System length: 9 Reference length: 13 
+First element of precision: 88.88888888888889 
+SequenceMatcher Score5: 0.79
+
+Received response without candidate 3: 
+i = i + 1
+SACREBLEU score 6: 2.156693969393992 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 13 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.21
+Actual result:  To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 95	Cursor Position: 1 14
+Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+Time taken: 0.7772624492645264 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: 10
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: 10
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: 10
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = 10
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.22
+
+Received response without candidate 2: i = 10
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
+
+Received response without candidate 3: i = 10
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.22
+Actual result:  24
+
+Parse State: 110	Cursor Position: 1 19
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+Time taken: 1.0052063465118408 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: 'CR 'GraphicsWindow.DrawRectangle(i * 10, 10, 10, 10)'
+SACREBLEU score 1: 5.816635421147515 Counts: [4, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [25.0, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 10 
+First element of precision: 25.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: For i = 1 To 24
+  For j = 1 To i
+    TextWindow.Write(j)
+  EndFor
+  TextWindow.WriteLine("")
+EndFor
+SACREBLEU score 2: 3.929752628321626 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 10 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.27
+
+Received response with candidate 3: TextWindow.WriteLine("Iteration " + i + " completed.")
+SACREBLEU score 3: 9.615094003919301 Counts: [6, 3, 2, 1] Totals: [27, 26, 25, 24] Precisions: [22.22222222222222, 11.538461538461538, 8.0, 4.166666666666667] System length: 27 Reference length: 10 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score3: 0.39
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = i + 1
+SACREBLEU score 4: 4.300847718252331 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 10 
+First element of precision: 12.5 
+SequenceMatcher Score4: 0.21
+
+Received response without candidate 2: For i = 1 To 24
+Next i
+SACREBLEU score 5: 18.20705281109213 Counts: [6, 3, 2, 1] Totals: [15, 14, 13, 12] Precisions: [40.0, 21.428571428571427, 15.384615384615385, 8.333333333333334] System length: 15 Reference length: 10 
+First element of precision: 40.0 
+SequenceMatcher Score5: 0.56
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 10 
+First element of precision: 50.0 
+SequenceMatcher Score6: 0.24
+Actual result:  \n TextWindow . WriteLine ( i ) \n
+
+Parse State: 39	Cursor Position: 2 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+Time taken: 0.9715492725372314 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: i.Print(i * 2)
+SACREBLEU score 1: 13.134549472120788 Counts: [4, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [50.0, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.42
+
+Received response with candidate 2: Math.GetRandomNumber(1, 100)
+SACREBLEU score 2: 8.745825313180626 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 6 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.26
+
+Received response with candidate 3: GraphicsWindow.DrawLine(100, i * 10, 200, i * 10)
+SACREBLEU score 3: 7.267884212102741 Counts: [3, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 6 
+First element of precision: 37.5 
+SequenceMatcher Score3: 0.28
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = i + 1
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.29
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 3.4585921141027365 Counts: [4, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [25.0, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 6 
+First element of precision: 25.0 
+SequenceMatcher Score5: 0.44
+
+Received response without candidate 3: i = i + 1
+SACREBLEU score 6: 8.745825313180626 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 6 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.26
+Actual result:  TextWindow . WriteLine ( i )
+
+Parse State: 6	Cursor Position: 2 12
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.7014756202697754 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: .WriteLine(i)
+SACREBLEU score 1: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.84
+
+Received response with candidate 2: .WriteLine("Hello World!")
+                Next i
+SACREBLEU score 2: 16.37226966703825 Counts: [3, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 5 
+First element of precision: 75.0 
+SequenceMatcher Score2: 0.34
+
+Received response with candidate 3: .WriteLine("Iteration: " + i)
+SACREBLEU score 3: 15.851165692617148 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 5 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score3: 0.39
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: .MoveNext()
+SACREBLEU score 4: 44.63236137853326 Counts: [5, 4, 3, 2] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 50.0, 42.857142857142854, 33.333333333333336] System length: 9 Reference length: 5 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score4: 0.38
+
+Received response without candidate 2: .WriteLine(i)
+                'next token or line'
+SACREBLEU score 5: 19.64073254502565 Counts: [5, 3, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 33.333333333333336, 12.5, 7.142857142857143] System length: 10 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.60
+
+Received response without candidate 3: .WriteLine("The value of i is: " + i)
+SACREBLEU score 6: 13.292417883329383 Counts: [5, 3, 1, 0] Totals: [14, 13, 12, 11] Precisions: [35.714285714285715, 23.076923076923077, 8.333333333333334, 4.545454545454546] System length: 14 Reference length: 5 
+First element of precision: 35.714285714285715 
+SequenceMatcher Score6: 0.55
+Actual result:  . WriteLine ( i )
+
+Parse State: 30	Cursor Position: 2 13
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.9783241748809814 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: DrawGrid.DrawCell(i, 1)
+SACREBLEU score 1: 12.22307556087252 Counts: [3, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 4 
+First element of precision: 37.5 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: Print("Count: " + i)
+SACREBLEU score 2: 7.809849842300637 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score2: 0.23
+
+Received response with candidate 3: DrawText("Number: " + i, 10, i*20)
+SACREBLEU score 3: 10.552670315936318 Counts: [3, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score3: 0.39
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Draw()
+'next token or line'
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 4 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.27
+
+Received response without candidate 2: Read()
+SACREBLEU score 5: 3.4585921141027356 Counts: [3, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 4 
+First element of precision: 20.0 
+SequenceMatcher Score5: 0.28
+
+Received response without candidate 3:  WriteLine("The value of i is: " + i)
+SACREBLEU score 6: 8.73716785171588 Counts: [4, 2, 0, 0] Totals: [13, 12, 11, 10] Precisions: [30.76923076923077, 16.666666666666668, 4.545454545454546, 2.5] System length: 13 Reference length: 4 
+First element of precision: 30.76923076923077 
+SequenceMatcher Score6: 0.57
+Actual result:  WriteLine ( i )
+
+Parse State: 58	Cursor Position: 2 22
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.667442798614502 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: (TextWindow.GetColor())
+SACREBLEU score 1: 7.809849842300637 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 3 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score1: 0.21
+
+Received response with candidate 2: i
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score2: 0.29
+
+Received response with candidate 3: TextWindow.WriteLine("Count: " + i)
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.29
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.33
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 8.29519350710986 Counts: [3, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 3 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score5: 0.20
+
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.29
+Actual result:  ( i )
+
+Parse State: 83	Cursor Position: 2 23
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.7771809101104736 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: "i = " + i
+SACREBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score1: 0.33
+
+Received response with candidate 2: "Temperature at hour " + i + " is " + temperature[i]
+SACREBLEU score 2: 1.286713095960916 Counts: [1, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 1 
+First element of precision: 3.4482758620689653 
+SequenceMatcher Score2: 0.05
+
+Received response with candidate 3: "Number: " + i
+SACREBLEU score 3: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score3: 0.07
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: ""
+Next "the current value of i is: " + i + " squared is: " + Math.Power(i, 2)
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score4: 0.67
+
+Received response without candidate 2: i
+SACREBLEU score 5: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.25
+
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.67
+Actual result:  i
+
+Parse State: 92	Cursor Position: 2 24
+Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.8435502052307129 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                ')'
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: )
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.67
+
+Received response with candidate 2: i)  
+
+Explanation: The ')' should be added to close the TextWindow.WriteLine(i) statement to complete the code snippet.
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: )
+SACREBLEU score 3: 1.387819277861591 Counts: [1, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [3.7037037037037037, 1.9230769230769231, 1.0, 0.5208333333333334] System length: 27 Reference length: 1 
+First element of precision: 3.7037037037037037 
+SequenceMatcher Score3: 0.02
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next i
+SACREBLEU score 4: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: TextWindow.WriteLine("Hello World!")
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.67
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.25
+Actual result:  )
+
+Parse State: 65	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+Time taken: 1.4273159503936768 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                
+CR TheRest: 
+i = i + 1
+If i > 24 Then
+  TextWindow.WriteLine("Loop Finished")
+EndIf
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [37, 36, 35, 34] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 37 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.02
+
+Received response with candidate 2: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+        'CR TheRest'
+Let's add the code to display the square of each number:
+TextWindow.WriteLine(i * i)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                EndFor
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 34 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.03
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.18
+
+Received response without candidate 2: Next 'i'
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.04
+
+Received response without candidate 3: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.08
+Actual result:  \n
+
+Parse State: 114	Cursor Position: 3 1
+Candidate List: ['1 : ', '[T, EndFor] : 14018']
+Time taken: 0.6054584980010986 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'EndFor'
+                Complete the 'EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: Next:
+EndFor
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.63
+
+Received response with candidate 2: 'EndFor'
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.11
+
+Received response with candidate 3: EndFor
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.80
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: For i = 1 To 24
+	TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.11
+
+Received response without candidate 2: Next
+
+What should I do next?
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.92
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.15
+Actual result:  EndFor
+
+Average Precision with Candidate Guidance: 44.700022200022204
+Average Precision without Candidate Guidance: 24.772727272727273
+Average Sequence Matcher Similarity with Candidate Guidance: 42.6912194951386
+Average Sequence Matcher Similarity without Candidate Guidance: 22.793477999642242
+Parse State: 0	Cursor Position: 1 1
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 422', '2 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 399', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 246', '4 : ', '[T, ID, T, (, T, )] : 123', '5 : ', '[T, ID, T, :] : 59', '6 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 26', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 21', '8 : ', '[T, Sub, T, ID, NT, CRStmtCRs, T, EndSub] : 11', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 7', '10 : ', '[T, Goto, T, ID] : 3', '11 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 1']
+Time taken: 0.9129800796508789 seconds
+
+                This is the incomplete Small Basic programming language code:
+                
+                'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'For Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 10
+  'your code here
+EndFor
+SACREBLEU score 1: 20.41629120474056 Counts: [6, 4, 3, 2] Totals: [10, 9, 8, 7] Precisions: [60.0, 44.44444444444444, 37.5, 28.571428571428573] System length: 10 Reference length: 17 
+First element of precision: 60.0 
+SequenceMatcher Score1: 0.51
+
+Received response with candidate 2: For i = 1 To 10
+  'Add your code here
+EndFor
+SACREBLEU score 2: 0.5482271666382152 Counts: [1, 0, 0, 0] Totals: [66, 65, 64, 63] Precisions: [1.5151515151515151, 0.7692307692307693, 0.390625, 0.1984126984126984] System length: 66 Reference length: 17 
+First element of precision: 1.5151515151515151 
+SequenceMatcher Score2: 0.11
+
+Received response with candidate 3: For i = 1 To 10
+  TextWindow.WriteLine(i)
+EndFor
+SACREBLEU score 3: 21.282440525058952 Counts: [6, 4, 3, 2] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 40.0, 33.333333333333336, 25.0] System length: 11 Reference length: 17 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score3: 0.51
+
+                This is the incomplete Small Basic programming language code:
+                
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: 'Token' refers to the smallest unit of code that the Small Basic interpreter can recognize, such as a keyword, variable, operator, or constant. 'Line' refers to a single instruction or statement in the Small Basic code.
+
+Please provide more context or the specific part of the code that you would like to be completed, and I will assist you
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 18 Reference length: 17 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.18
+
+Received response without candidate 2: Sure, could you please provide the code snippet that needs completion for 'next token or line'?
+SACREBLEU score 5: 50.3633439149258 Counts: [12, 9, 7, 5] Totals: [13, 12, 11, 10] Precisions: [92.3076923076923, 75.0, 63.63636363636363, 50.0] System length: 13 Reference length: 17 
+First element of precision: 92.3076923076923 
+SequenceMatcher Score5: 0.83
+
+Received response without candidate 3: Sure, could you please provide the context or the code snippet before the 'next token or line' part? This will help me understand the code better and provide the appropriate completion.
+SACREBLEU score 6: 1.0885011049519644 Counts: [1, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 17 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score6: 0.21
+Actual result:  For i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 8	Cursor Position: 1 5
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 1.2120232582092285 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'Identifier = Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'Identifier = Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: x = 1 To 10
+For x = 1 To 10
+x = 1 To 10 Step 2
+y = 5 To 20
+For z = 3 To 100 Step 5
+SACREBLEU score 1: 4.464476787351278 Counts: [3, 2, 1, 0] Totals: [31, 30, 29, 28] Precisions: [9.67741935483871, 6.666666666666667, 3.4482758620689653, 1.7857142857142858] System length: 31 Reference length: 16 
+First element of precision: 9.67741935483871 
+SequenceMatcher Score1: 0.16
+
+Received response with candidate 2: i = 1 To 10
+                TextWindow.WriteLine(i)
+                EndFor
+SACREBLEU score 2: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 16 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score2: 0.24
+
+Received response with candidate 3: count = 1 To 10
+For count = 1 To 10
+'Your code here
+EndFor
+SACREBLEU score 3: 46.52694539532656 Counts: [11, 8, 6, 4] Totals: [12, 11, 10, 9] Precisions: [91.66666666666667, 72.72727272727273, 60.0, 44.44444444444444] System length: 12 Reference length: 16 
+First element of precision: 91.66666666666667 
+SequenceMatcher Score3: 0.66
+
+                This is the incomplete Small Basic programming language code:
+                For
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Sure, please provide the code snippet for which you'd like me to complete the 'next token or line' part.
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 16 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.15
+
+Received response without candidate 2: Next Token: A
+SACREBLEU score 5: 9.833906145930948 Counts: [4, 2, 1, 0] Totals: [15, 14, 13, 12] Precisions: [26.666666666666668, 14.285714285714286, 7.6923076923076925, 4.166666666666667] System length: 15 Reference length: 16 
+First element of precision: 26.666666666666668 
+SequenceMatcher Score5: 0.41
+
+Received response without candidate 3: Sure, please provide me with the incomplete lines of Small Basic code that you would like me to complete.
+SACREBLEU score 6: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 16 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score6: 0.11
+Actual result:  i = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 34	Cursor Position: 1 7
+Candidate List: ['1 : ', '[T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 1.0388872623443604 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                '= Expression To Expression OptStep CRStmtCRs EndFor'
+                Complete the '= Expression To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: '= 1 To 10'
+'= i * i'
+'= 1 To 100 Step 2'
+'= "Hello, world!"'
+SACREBLEU score 1: 5.778323992708342 Counts: [4, 2, 1, 0] Totals: [26, 25, 24, 23] Precisions: [15.384615384615385, 8.0, 4.166666666666667, 2.1739130434782608] System length: 26 Reference length: 15 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score1: 0.25
+
+Received response with candidate 2: =i = 1 To 10
+                Print i
+                EndFor
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 15 
+First element of precision: 50.0 
+SequenceMatcher Score2: 0.17
+
+Received response with candidate 3: For i = 1 To 10
+  ' Insert code here
+EndFor
+SACREBLEU score 3: 10.353028267053118 Counts: [5, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 15 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score3: 0.47
+
+                This is the incomplete Small Basic programming language code:
+                For i
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next i
+SACREBLEU score 4: 4.635551866221845 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 15 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score4: 0.35
+
+Received response without candidate 2: i = 1
+
+'next token or line'
+SACREBLEU score 5: 11.018841589267419 Counts: [5, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 15 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score5: 0.42
+
+Received response without candidate 3: i = 1
+'next token or line'
+SACREBLEU score 6: 4.635551866221845 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 15 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score6: 0.36
+Actual result:  = 1 To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 61	Cursor Position: 1 9
+Candidate List: ['1 : ', '[T, NUM] : 12330', '2 : ', '[T, ID] : 1235', '3 : ', '[T, -, NT, Primary] : 227', '4 : ', '[T, ID, NT, Idxs] : 75', '5 : ', '[T, (, NT, Expr, T, )] : 70', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 68', '7 : ', '[T, ID, T, ., T, ID] : 13']
+Time taken: 0.9081261157989502 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'Number'
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: 'Number'
+10
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.15
+
+Received response with candidate 2: 'Number' -> 1
+SACREBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score2: 0.57
+
+Received response with candidate 3: For i = 1
+SACREBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score3: 0.27
+
+                This is the incomplete Small Basic programming language code:
+                For i =
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = 1
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score4: 0.57
+
+Received response without candidate 2: i = 1
+SACREBLEU score 5: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score5: 0.36
+
+Received response without candidate 3: i = 1
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.57
+Actual result:  1
+
+Parse State: 85	Cursor Position: 1 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+Time taken: 0.8423457145690918 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: To 10
+                Goto 10
+                EndFor
+SACREBLEU score 1: 2.564755813286796 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 13 
+First element of precision: 40.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: To 10
+Step 1
+'Print i'
+EndFor
+SACREBLEU score 2: 2.156693969393992 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 13 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.21
+
+Received response with candidate 3: To 10
+                For i = 1 To 10
+                'To Expression OptStep CRStmtCRs EndFor'
+SACREBLEU score 3: 3.3142882018868 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 13 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score3: 0.39
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = i + 1
+SACREBLEU score 4: 3.696719741302181 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 13 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.26
+
+Received response without candidate 2: For i = 1 
+                To 10
+                'next token or line'
+SACREBLEU score 5: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 13 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score5: 0.25
+
+Received response without candidate 3: For i = 1
+i = i + 1
+SACREBLEU score 6: 3.056960239296902 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 13 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score6: 0.09
+Actual result:  To 24 \n TextWindow . WriteLine ( i ) \n EndFor
+
+Parse State: 95	Cursor Position: 1 14
+Candidate List: ['1 : ', '[T, NUM] : 6690', '2 : ', '[T, ID] : 5653', '3 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 1257', '4 : ', '[T, ID, NT, Idxs] : 261', '5 : ', '[T, (, NT, Expr, T, )] : 123', '6 : ', '[T, -, NT, Primary] : 18', '7 : ', '[T, ID, T, ., T, ID] : 16']
+Time taken: 0.5990006923675537 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'Number'
+                Complete the 'Number' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: 10
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.00
+
+Received response with candidate 2: 10
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.07
+
+Received response with candidate 3: 10
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.00
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: i = 10
+'next token or line'
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.22
+
+Received response without candidate 2: i = 10
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.00
+
+Received response without candidate 3: 100
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result:  24
+
+Parse State: 110	Cursor Position: 1 19
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 14018']
+Time taken: 0.983928918838501 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 24
+    TextWindow.WriteLine("Iteration: " + i)
+EndFor
+SACREBLEU score 1: 15.989214998944036 Counts: [6, 4, 2, 1] Totals: [18, 17, 16, 15] Precisions: [33.333333333333336, 23.529411764705884, 12.5, 6.666666666666667] System length: 18 Reference length: 10 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score1: 0.53
+
+Received response with candidate 2: If you would like me to provide a completion to the 'CR TheRest' part of the code, please let me know.
+SACREBLEU score 2: 34.98761149110957 Counts: [6, 5, 4, 3] Totals: [14, 13, 12, 11] Precisions: [42.857142857142854, 38.46153846153846, 33.333333333333336, 27.272727272727273] System length: 14 Reference length: 10 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score2: 0.56
+
+Received response with candidate 3: For i = 1 To 24
+    'CR TheRest'
+    TextWindow.WriteLine("The value of i is: " + i)
+EndFor
+SACREBLEU score 3: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 10 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score3: 0.16
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: For i = 1 To 24
+        TextWindow.WriteLine(i)
+Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 10 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.20
+
+Received response without candidate 2: EndFor
+SACREBLEU score 5: 11.71291646655074 Counts: [6, 4, 2, 1] Totals: [24, 23, 22, 21] Precisions: [25.0, 17.391304347826086, 9.090909090909092, 4.761904761904762] System length: 24 Reference length: 10 
+First element of precision: 25.0 
+SequenceMatcher Score5: 0.44
+
+Received response without candidate 3: iPrint(i)
+                EndFor
+SACREBLEU score 6: 14.628187563941408 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score6: 0.27
+Actual result:  \n TextWindow . WriteLine ( i ) \n
+
+Parse State: 39	Cursor Position: 2 2
+Candidate List: ['1 : ', '[T, ID, T, =, NT, Expr] : 39900', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 20767', '3 : ', '[T, If, NT, Expr, T, Then, NT, CRStmtCRs, NT, MoreThanZeroElseIf] : 8661', '4 : ', '[T, ID, NT, Idxs, T, =, NT, Expr] : 7431', '5 : ', '[T, ID, T, ., T, ID, T, =, NT, Expr] : 5625', '6 : ', '[T, ID, T, (, T, )] : 5524', '7 : ', '[T, For, T, ID, T, =, NT, Expr, T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 3143', '8 : ', '[T, Goto, T, ID] : 1557', '9 : ', '[T, While, NT, Expr, NT, CRStmtCRs, T, EndWhile] : 240', '10 : ', '[T, ID, T, :] : 78']
+Time taken: 0.9360527992248535 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: Math.Power(i, 2)
+SACREBLEU score 1: 13.134549472120788 Counts: [4, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [50.0, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 6 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.36
+
+Received response with candidate 2: Math.GetRandomNumber(1, 100)
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.27
+
+Received response with candidate 3: Math.Factorial(i)
+SACREBLEU score 3: 7.267884212102741 Counts: [3, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 6 
+First element of precision: 37.5 
+SequenceMatcher Score3: 0.28
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1:  
+EndFor
+SACREBLEU score 4: 8.745825313180626 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 6 
+First element of precision: 20.0 
+SequenceMatcher Score4: 0.12
+
+Received response without candidate 2: i=i+1
+SACREBLEU score 5: 32.46679154750991 Counts: [4, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score5: 0.30
+
+Received response without candidate 3: EndFor
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.23
+Actual result:  TextWindow . WriteLine ( i )
+
+Parse State: 6	Cursor Position: 2 12
+Candidate List: ['1 : ', '[T, =, NT, Expr] : 162103', '2 : ', '[T, ., T, ID, T, (, NT, Exprs, T, )] : 131828', '3 : ', '[T, [, NT, Expr, T, ]] : 68410', '4 : ', '[T, ., T, ID, T, =, NT, Expr] : 45876', '5 : ', '[T, (, T, )] : 31942', '6 : ', '[T, [, NT, Expr, T, ], NT, Idxs] : 28947', '7 : ', '[T, :] : 2238']
+Time taken: 0.6706297397613525 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                '. Identifier ( Expression )'
+                Complete the '. Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: .WriteLine("Number: " + i)
+SACREBLEU score 1: 19.64073254502565 Counts: [5, 3, 1, 0] Totals: [10, 9, 8, 7] Precisions: [50.0, 33.333333333333336, 12.5, 7.142857142857143] System length: 10 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score1: 0.64
+
+Received response with candidate 2: .WriteLine("")
+SACREBLEU score 2: 14.458924666162856 Counts: [5, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [38.46153846153846, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 5 
+First element of precision: 38.46153846153846 
+SequenceMatcher Score2: 0.57
+
+Received response with candidate 3: .WriteLine("Number " + i)
+SACREBLEU score 3: 32.46679154750991 Counts: [4, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 5 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score3: 0.75
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: .
+".WriteLine("i: " + i)
+EndFor
+SACREBLEU score 4: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 5 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score4: 0.62
+
+Received response without candidate 2: . WriteLine("Hello World!")
+SACREBLEU score 5: 22.31618068926665 Counts: [5, 3, 1, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 37.5, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 5 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score5: 0.65
+
+Received response without candidate 3: .End(i)
+SACREBLEU score 6: 42.72870063962342 Counts: [4, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score6: 0.40
+Actual result:  . WriteLine ( i )
+
+Parse State: 30	Cursor Position: 2 13
+Candidate List: ['1 : ', '[T, ID, T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, ID, T, =, NT, Expr] : 45876']
+Time taken: 0.6972446441650391 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'Identifier ( Expression )'
+                Complete the 'Identifier ( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: GetCharacter(i)
+SACREBLEU score 1: 59.460355750136046 Counts: [3, 2, 1, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 66.66666666666667, 50.0, 50.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score1: 0.39
+
+Received response with candidate 2: Write("The value of i is: " + i)
+SACREBLEU score 2: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 4 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score2: 0.27
+
+Received response with candidate 3: Print("The value of i is: " + i)
+SACREBLEU score 3: 6.837203339116283 Counts: [3, 1, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 8.333333333333334, 4.545454545454546, 2.5] System length: 13 Reference length: 4 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score3: 0.46
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Read()
+SACREBLEU score 4: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 4 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score4: 0.29
+
+Received response without candidate 2: End()
+SACREBLEU score 5: 6.837203339116283 Counts: [3, 1, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 8.333333333333334, 4.545454545454546, 2.5] System length: 13 Reference length: 4 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score5: 0.38
+
+Received response without candidate 3: Next is "Write(i)".
+SACREBLEU score 6: 17.747405280050266 Counts: [3, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score6: 0.51
+Actual result:  WriteLine ( i )
+
+Parse State: 58	Cursor Position: 2 22
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.7892365455627441 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: i
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.29
+
+Received response with candidate 2: TextWindow.WriteLine("Number: " + i)
+SACREBLEU score 2: 10.571070857151538 Counts: [3, 2, 1, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 15.384615384615385, 8.333333333333334, 4.545454545454546] System length: 14 Reference length: 3 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score2: 0.11
+
+Received response with candidate 3: i
+SACREBLEU score 3: 8.29519350710986 Counts: [3, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 3 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score3: 0.19
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'Next i'
+SACREBLEU score 4: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score4: 0.33
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.29
+
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.29
+Actual result:  ( i )
+
+Parse State: 83	Cursor Position: 2 23
+Candidate List: ['1 : ', '[T, ID] : 40231', '2 : ', '[T, NUM] : 32276', '3 : ', '[T, STR] : 31274', '4 : ', '[T, ID, NT, Idxs] : 11367', '5 : ', '[T, -, NT, Primary] : 1956', '6 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 685', '7 : ', '[T, (, NT, Expr, T, )] : 324', '8 : ', '[T, ID, T, ., T, ID] : 242']
+Time taken: 0.796990156173706 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'Identifier'
+                Complete the 'Identifier' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: TextWindow.WriteLine("Loop Number: " + i)
+SACREBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score1: 0.09
+
+Received response with candidate 2: "Number " + i
+SACREBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.29
+
+Received response with candidate 3: "Counter: " + i
+SACREBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score3: 0.27
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: "Token " + i
+SACREBLEU score 4: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score4: 0.19
+
+Received response without candidate 2: 
+"When i = 1 Then"
+
+SACREBLEU score 5: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score5: 0.24
+
+Received response without candidate 3: i
+SACREBLEU score 6: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score6: 0.67
+Actual result:  i
+
+Parse State: 92	Cursor Position: 2 24
+Candidate List: ['1 : ', '[T, )] : 131828']
+Time taken: 0.8456699848175049 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                ')'
+                Complete the ')' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: 
+
+      For i = 1 To 24   
+        TextWindow.WriteLine(i)
+        '
+SACREBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score1: 0.06
+
+Received response with candidate 2: ).
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.25
+
+Received response with candidate 3: ).
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score3: 0.50
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.00
+
+Received response without candidate 2: Next
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score5: 0.50
+
+Received response without candidate 3: Next
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.00
+Actual result:  )
+
+Parse State: 65	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+Time taken: 0.9629976749420166 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                Complete the 'CR TheRest' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+	'CR TheRest'
+	CR TheRest = i * i
+	TextWindow.WriteLine(CR TheRest)
+SACREBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 27 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score1: 0.04
+
+Received response with candidate 2: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'CR TheRest'
+                If (i = 12) Then
+                  TextWindow.WriteLine("Halfway there!")
+                EndIf
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.22
+
+Received response with candidate 3: For i = 1 To 24   
+	TextWindow.WriteLine(i)
+	'CR TheRest'
+                If i = 12 Then
+                    TextWindow.WriteLine("It's halfway through!")
+                EndIf
+SACREBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 32 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score3: 0.02
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: EndFor
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.22
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 0.0 Counts: [0, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 31 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score5: 0.02
+
+Received response without candidate 3: EndFor
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.22
+Actual result:  \n
+
+Parse State: 114	Cursor Position: 3 1
+Candidate List: ['1 : ', '[T, EndFor] : 14018']
+Time taken: 0.6503560543060303 seconds
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'EndFor'
+                Complete the 'EndFor' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: EndFor
+SACREBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score1: 0.92
+
+Received response with candidate 2: EndFor
+SACREBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score2: 0.15
+
+Received response with candidate 3: EndFor
+SACREBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.92
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 24   
+	TextWindow.WriteLine(i)
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: Next i
+SACREBLEU score 4: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score4: 0.15
+
+Received response without candidate 2: Next i
+SACREBLEU score 5: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.92
+
+Received response without candidate 3: Next i
+SACREBLEU score 6: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score6: 0.15
+Actual result:  EndFor
+
+Average Precision with Candidate Guidance: 36.62806727322856
+Average Precision without Candidate Guidance: 19.439153439153436
+Average Sequence Matcher Similarity with Candidate Guidance: 31.60878016324113
+Average Sequence Matcher Similarity without Candidate Guidance: 25.715567433042207
