@@ -745,3 +745,53 @@ for data_file in os.listdir(data_folder):
 
 
 
+
+# # Folder information
+# data_folder = './C11_Text_Cand'
+# sample_folder = './C11_Sample'
+# prog_lan = "C11"
+# encoding = 'utf-8'
+
+# # List of file names to iterate over
+# file_names = [
+#     "exercise_7_05_calculator_result", "exercise_4_03_calculator_result", "exercise_5_12_detab_result", 
+#     "exercise_1_01_hello_world_result", "exercise_5_19_undcl_result", "exercise_7_06_compare_result", 
+#     "exercise_4_06_variables_result", "exercise_2_10_lower_result", "exercise_7_01_case_result", 
+#     "exercise_4_09_getch_result", "exercise_4_02_atof_result", "exercise_8_07_malloc_free_result", 
+#     "exercise_5_02_getfloat_result", "exercise_5_12_entab_result"
+# ]
+
+# # Function to map file names to their chapter and exercise directories and extract base file name
+# def get_chapter_exercise_and_base_name(file_name):
+#     # Extract the chapter and exercise numbers from the file name
+#     parts = file_name.split('_')
+#     if len(parts) >= 3:
+#         chapter = parts[1]  # The second part after 'exercise' is the chapter number
+#         exercise = parts[2]  # The third part is the exercise number
+#         # The actual file name should be after 'exercise_XX_XX' (e.g., 'bfree' in 'bfree.i')
+#         base_name = "_".join(parts[3:]).replace('_result', '')  # Remove '_result' suffix
+#         return f"chapter_{chapter}/exercise_{chapter}_{exercise}", base_name
+#     return None, None
+
+# # Iterate over the provided file names
+# for file_name in file_names:
+#     # Get the chapter, exercise directory and the base file name
+#     subdir, base_name = get_chapter_exercise_and_base_name(file_name)
+    
+#     if subdir and base_name:
+#         # Construct the corresponding file path in the C11_Sample folder (using only base name)
+#         sample_file_path = os.path.join(sample_folder, subdir, f"{base_name}.i").replace("\\", "/")
+        
+#         # Construct the data file path (keeping the full original name)
+#         data_file_path = os.path.join(data_folder, f"{base_name}.i.textual_collection.txt").replace("\\", "/")
+        
+#         # Check if the corresponding file exists in the sample folder
+#         if os.path.exists(sample_file_path):
+#             # Call the read_data function with the appropriate parameters
+#             read_data(data_file_path, sample_file_path, prog_lan, encoding)
+#         else:
+#             print(f"Warning: No corresponding file found for {sample_file_path}")
+#     else:
+#         print(f"Error: Could not determine chapter, exercise, or base file name for {file_name}")
+
+
