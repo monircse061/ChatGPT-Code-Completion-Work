@@ -9,7 +9,7 @@ import sys
 import chardet
 import pandas as pd
 
-PL_NAME = 'C11'   # # Change the programming language as needed
+PL_NAME = 'C11'   # Change the programming language name as needed
 if len(sys.argv) != 2:
     print(f"Usage: python {sys.argv[0]} <PL_NAME>")
     sys.exit(1)
