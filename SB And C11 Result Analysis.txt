@@ -1,0 +1,169 @@
+SB---------------------------------------------------------
+Result Analysis SB- 1
+Parse State: 65	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+ 'CR TheRest' refers to '\n'. In most of the cases, presiction by ChatGPt was inappropriate.
+Cases: Actual result:  \n TextWindow . WriteLine ( i ) \n
+       Actual result:  \n
+       
+Result Analysis SB- 2
+Another case: 'CR MoreThanOneStmt'
+Actual result:  \n While ( number > 1 ) \n TextWindow . WriteLine ( number ) \n number = number / 2 \n EndWhile
+
+Result Analysis SB- 3
+Another case: ')'
+Actual result:  )
+               'EndWhile'
+Actual result:  EndWhile
+
+Result Analysis SB- 4
+One candidate in the list provides mostly the accurate resuls ignoring some unexpected cases.
+
+Result Analysis SB- 5  Numeric values program (13_LineColor.sb, 14_LineThickness.sb, 15_Rectangle.sb, 16_Ellipse.sb, 17_Circle.sb, 18_Random.sb, 19_Fractal, 21_Array.sb, 22_ArrayIndex.sb, 23_MultiDimArray.sb, 24_Event.sb, 25_Events.sb,26_Flickr.sb,27_FlickrRepeat.sb, 02_FontYellowColor.sb, 04_Temperature.sb, 05_If.sb, 06_Goto.sb, 07_For.sb,08_ForStep.sb, 09_While,11_GraphicWindowConfig, 12_DrawLine)
+GraphicsWindow.Height = 150
+Here number is important
+Actual result:  \n GraphicsWindow . Height = 200 \n GraphicsWindow . PenColor = "Green" \n GraphicsWindow . DrawLine ( 10 , 10 , 100 , 100 ) \n GraphicsWindow . PenColor = "Gold" \n GraphicsWindow . DrawLine ( 10 , 100 , 100 , 10 )
+
+Received response with candidate 1: , 10, 50, 100, 50
+Actual result:  , 10 , 100 , 100
+
+another case: 'Number'
+Received response with candidate 1:  75
+Actual result:  10
+-------------------------------------------------------------------------------------------------------------------------
+C11---------------------------------------------------------
+textual (candidate) data file contains:
+[fahrenheit_celsius.i.textual_collection.txt]
+429 NAME VARIABLE 
+ 762,38: celsius
+ 762,45: VARIABLE
+ 
+179 VARIABLE 
+ 762,45: VARIABLE
+ 
+351 ) 
+ 762,45: )
+ 
+331 ; 
+ 762,46: ;
+ 
+201 NAME VARIABLE 
+ 763,5: fahr
+ 763,9: VARIABLE
+ 
+65 VARIABLE 
+ 763,9: VARIABLE
+ 
+181 = 
+ 763,10: =
+ 
+279 NAME VARIABLE 
+ 763,12: fahr
+ 763,16: VARIABLE
+ 
+179 VARIABLE 
+ 763,16: VARIABLE
+ 
+152 + 
+ 763,17: +
+ 
+246 NAME VARIABLE 
+ 763,19: step
+ 763,23: VARIABLE
+ 
+179 VARIABLE 
+ 763,23: VARIABLE
+--------------------------------------------------------------------------
+Result Analysis C11- 1  (Filtered 83 programs from 106 C11 programs)  
+Chapter 1/ exercise_1_04/ celsius_fahrenheit.i  -- Not found
+Chapter 1/ exercise_1_05/ celsius_fahrenheit.i -- Here, Textual info and parse state data file is found
+
+# 7 "chapter_1/exercise_1_04/celsius_fahrenheit.i"
+int main(void)
+{
+  celsius = lower;   // 757
+  while (celsius <= upper)    // 758
+  {
+   
+    celsius = celsius + step;   // 762
+  }
+
+# 7 "chapter_1/exercise_1_05/celsius_fahrenheit.i"
+int main(void)
+{
+
+  for (celsius = upper; celsius >= lower; celsius = celsius - step)  // 757
+  {
+
+  }
+}
+Result Analysis C11- 2
+Chapter 3/ exercise_3_04/ itoa.i -- Textual file is not found   (C11 data file)
+Chapter 3/ exercise_3_06/ itoa.i -- Textual file is not found   (C11 data file)
+BUT, Chapter 5/ exercise_5_06/ itoa.i  --Here, Textual info and parse state data file is found
+
+# 8 "chapter_3/exercise_3_04/itoa.i"
+void int_to_array(int n, char s[]);
+void str_reverse(char str1[], int index, int size);
+
+# 8 "chapter_3/exercise_3_06/itoa.i"
+int ilen(int a);
+void int_to_array(int n, char s[], int padding);
+void str_reverse(char str1[], int index, int size);
+
+# 4 "chapter_5/exercise_5_06/itoa.i"
+void reverse(char *s);  // 1026
+void itoa(char *s, int n);   // 1027
+
+Result Analysis C11- 3
+chapter_4/exercise_4_03/calculator.c    -- Not found (or Match)
+chapter_7/exercise_7_05/calculator.c    --Here, Textual info and parse state data file is found
+
+Result Analysis C11- 4
+chapter_8/exercise_8_02/syscalls.i   -- Not found (or Match)
+chapter_8/exercise_8_03/syscalls.i   -- Not found (or Match)
+chapter_8/exercise_8_04/syscalls.i   --Here, Textual info and parse state data file is found
+
+Result Analysis C11- 5
+chapter_7/exercise_7_02/print.i   -- Not found (or Match)
+chapter_7/exercise_7_08/print.i   --Here, Textual info and parse state data file is found
+
+Result Analysis C11- 6
+chapter_5/exercise_5_11/detab.i  -- Not found (or Match)
+chapter_5/exercise_5_12/detab.i  --Here, Textual info and parse state data file is found
+
+chapter_5/exercise_5_11/entab.i  -- Not found (or Match)
+chapter_5/exercise_5_12/entab.i  --Here, Textual info and parse state data file is found
+
+chapter_5/exercise_5_14/sort.i  -- Not found (or Match)
+chapter_5/exercise_5_15/sort.i  -- Not found (or Match)
+chapter_5/exercise_5_16/sort.i  -- Not found (or Match)
+chapter_5/exercise_5_17/sort.i  --Here, Textual info and parse state data file is found
+
+
+chapter_5/exercise_5_18/dcl.i  -- Not found (or Match)
+chapter_5/exercise_5_20/dcl.i  -- Here, Textual info and parse state data file is found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

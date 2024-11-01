@@ -1,0 +1,285 @@
+Small Basic  (Best Case)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Parse State: 85	Cursor Position: 6 11
+Candidate List: ['1 : ', '[T, To, NT, Expr, NT, OptStep, NT, CRStmtCRs, T, EndFor] : 14018']
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1
+                'To Expression OptStep CRStmtCRs EndFor'
+                Complete the 'To Expression OptStep CRStmtCRs EndFor' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'To Expression OptStep CRStmtCRs EndFor'. 
+                
+Time taken: 1.0171351432800293 seconds
+Received response with candidate: 1. To 5
+2. To 5 Step 1
+3. To 5 Step 1 EndFor
+
+                This is the incomplete Small Basic programming language code:
+                For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: name[i]
+EndFor
+
+name[i] = TextWindow.Read()
+EndFor
+
+TextWindow.WriteLine(name[i])
+EndFor
+Actual result:  To 5 \n TextWindow . Write ( name [ i ] + ", " ) \n EndFor
+------------------------------------------------------------------------------------------------------------------
+(SB Worst Case)
+-----------------------------------------------------------------------------------------------------------------------------------
+Parse State: 29	Cursor Position: 11 12
+Candidate List: ['1 : ', '[T, ID] : 44694', '2 : ', '[T, ID, T, ., T, ID, T, (, NT, Exprs, T, )] : 42463', '3 : ', '[T, NUM] : 34261', '4 : ', '[T, STR] : 20111', '5 : ', '[T, ID, NT, Idxs] : 8883', '6 : ', '[T, ID, T, ., T, ID] : 6123', '7 : ', '[T, (, NT, Expr, T, )] : 3004', '8 : ', '[T, -, NT, Primary] : 2564']
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname =
+                'Identifier . Identifier ( Expression )'
+                Complete the 'Identifier . Identifier ( Expression )' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'Identifier . Identifier ( Expression )'. 
+                
+Time taken: 1.4639256000518799 seconds
+Received response with candidate: friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["
+
+                This is the incomplete Small Basic programming language code:
+                friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname =
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the Small Basic programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. TextWindow.Read() 
+2. TextWindow.ReadNumber() 
+3. TextWindow.Read() + " " + TextWindow.Read()
+Actual result:  TextWindow . Read ( )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C11 (Best Case)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Parse State: 147	Cursor Position: 759 33
+Candidate List: ['1: [T, (, NT, option_argument_expression_list, T, )] : 95612', '2: [T, ->, NT, general_identifier] : 57631', '3: [T, [, NT, expression, T, ]] : 20250', '4: [T, ., NT, general_identifier] : 16938', '5: [T, ++] : 4909', '6: [T, --] : 645']
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit
+                '( option_argument_expression_list )'
+                Complete the '( option_argument_expression_list )' part of the code three times in the C11 programming language. Just show your three probable answers in place of '( option_argument_expression_list )'. 
+                
+Time taken: 1.0590846538543701 seconds
+Received response with candidate: 1. (celsius)
+2. (celsius * 9 / 5 + 32)
+3. (celsius + 30)
+
+                This is the incomplete C11 programming language code:
+                step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the C11 programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: fahr = celsius * 9/5 + 32;
+
+fahr = (celsius * 9/5) + 32;
+
+fahr = (celsius * (9/5)) + 32;
+
+Actual result:  ( celsius VARIABLE )
+
+
+
+------------------------------------------------------------------------------------------------------------------
+(C11 Worst Case)
+-----------------------------------------------------------------------------------------------------------------------------------
+Parse State: 61	Cursor Position: 747 13
+Candidate List: ['1: [T, ,, NT, init_declarator_declarator_varname] : 2564']
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr
+                ', init_declarator_declarator_varname'
+                Complete the ', init_declarator_declarator_varname' part of the code three times in the C11 programming language. Just show your three probable answers in place of ', init_declarator_declarator_varname'. 
+                
+Time taken: 0.8172924518585205 seconds
+Received response with candidate: 1. fahr = 0;
+2. fahr = 32.0;
+3. fahr = -10.5;
+
+                This is the incomplete C11 programming language code:
+                # 7 "chapter_1/exercise_1_03/fahrenheit_celsius.c"
+int main(void)
+{
+  float fahr
+                'next token or line'
+                Complete the 'next token or line' part of the code three times in the C11 programming language. Just show your three probable answers in place of 'next token or line'. 
+                
+Received response without candidate: 1. = (some value);
+2. ;
+3. ; float celsius;
+
+Actual result:  , celsius 
+
+---------------------------------------------------------------------------------------------
+Result Analysis SB- 1
+Parse State: 65	Cursor Position: 2 26
+Candidate List: ['1 : ', '[T, CR, NT, TheRest] : 478907']
+ 'CR TheRest' refers to '\n'. In most of the cases, presiction by ChatGPt was inappropriate.
+Cases: Actual result:  \n TextWindow . WriteLine ( i ) \n
+       Actual result:  \n
+       
+Result Analysis SB- 2
+Another case: 'CR MoreThanOneStmt'
+Actual result:  \n While ( number > 1 ) \n TextWindow . WriteLine ( number ) \n number = number / 2 \n EndWhile
+
+Result Analysis SB- 3
+Another case: ')'
+Actual result:  )
+               'EndWhile'
+Actual result:  EndWhile
+
+Result Analysis SB- 4
+One candidate in the list provides mostly the accurate resuls ignoring some unexpected cases.
+
+Result Analysis SB- 5  (13_LineColor.sb, 14_LineThickness.sb, 15_Rectangle.sb, 16_Ellipse.sb, 17_Circle.sb, 18_Random.sb, 19_Fractal, 21_Array.sb, 22_ArrayIndex.sb, 23_MultiDimArray.sb, 24_Event.sb, 25_Events.sb,26_Flickr.sb,27_FlickrRepeat.sb, 02_FontYellowColor.sb, 04_Temperature.sb, 05_If.sb, 06_Goto.sb, 07_For.sb,08_ForStep.sb, 09_While,11_GraphicWindowConfig, 12_DrawLine)
+GraphicsWindow.Height = 150
+Here number is important
+Actual result:  \n GraphicsWindow . Height = 200 \n GraphicsWindow . PenColor = "Green" \n GraphicsWindow . DrawLine ( 10 , 10 , 100 , 100 ) \n GraphicsWindow . PenColor = "Gold" \n GraphicsWindow . DrawLine ( 10 , 100 , 100 , 10 )
+
+Received response with candidate 1: , 10, 50, 100, 50
+Actual result:  , 10 , 100 , 100
+
+another case: 'Number'
+Received response with candidate 1:  75
+Actual result:  10
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Parse State: 58	Cursor Position: 3 22
+Candidate List: ['1 : ', '[T, (, NT, Exprs, T, )] : 131828', '2 : ', '[T, =, NT, Expr] : 45876']
+Time taken: 0.74399733543396 seconds
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine
+                '( Expression )'
+                Complete the '( Expression )' part of the code **once** per response. Do not include more than one completion in each response.. 
+                
+Received response with candidate 1: (number)
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.84
+
+Received response with candidate 2: (number)
+SACREBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score2: 0.60
+
+Received response with candidate 3: (number)
+SACREBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score3: 0.84
+
+                This is the incomplete Small Basic programming language code:
+                number = 100 
+While (number > 1)   
+	TextWindow.WriteLine
+                'next token or line'
+                Complete the 'next token or line' part of the code **once** per response. Do not include more than one completion in each response. 
+                
+Received response without candidate 1: number = number / 2
+SACREBLEU score 4: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score4: 0.49
+
+Received response without candidate 2: number
+number = number / 2
+SACREBLEU score 5: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score5: 0.84
+
+Received response without candidate 3: number.toString()
+number = Math.Floor(number / 2)
+SACREBLEU score 6: 5.816635421147513 Counts: [3, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score6: 0.30
+Actual result:  ( number )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
