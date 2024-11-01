@@ -1,9 +1,9 @@
-# 0 "chapter_4/exercise_4_03/calculator.c"
+# 0 "chapter_7/exercise_7_05/calculator.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "chapter_4/exercise_4_03/calculator.c"
+# 1 "chapter_7/exercise_7_05/calculator.c"
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -734,7 +734,7 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 902 "/usr/include/stdio.h" 3 4
 
-# 2 "chapter_4/exercise_4_03/calculator.c" 2
+# 2 "chapter_7/exercise_7_05/calculator.c" 2
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 26 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -1824,7 +1824,7 @@ extern int getloadavg (double __loadavg[], int __nelem)
 # 1024 "/usr/include/stdlib.h" 2 3 4
 # 1035 "/usr/include/stdlib.h" 3 4
 
-# 3 "chapter_4/exercise_4_03/calculator.c" 2
+# 3 "chapter_7/exercise_7_05/calculator.c" 2
 # 1 "/usr/include/ctype.h" 1 3 4
 # 28 "/usr/include/ctype.h" 3 4
 
@@ -1935,98 +1935,99 @@ extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __l
 extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 # 327 "/usr/include/ctype.h" 3 4
 
-# 4 "chapter_4/exercise_4_03/calculator.c" 2
+# 4 "chapter_7/exercise_7_05/calculator.c" 2
 
 
 
 
 
-
-
-# 10 "chapter_4/exercise_4_03/calculator.c"
-int getop(char[]);
+# 8 "chapter_7/exercise_7_05/calculator.c"
 void push(double);
 double pop(void);
 
-int main(void)
+int sp = 0;
+double stack[100];
+
+int main(int argc, char *argv[])
 {
-  int type;
+  char c;
   double op2;
-  char s[100];
+  char str[1000];
 
-  while ((type = getop(s)) != 
-# 20 "chapter_4/exercise_4_03/calculator.c" 3 4
-                             (-1)
-# 20 "chapter_4/exercise_4_03/calculator.c"
-                                )
+  while (scanf("%s", str) != 
+# 20 "chapter_7/exercise_7_05/calculator.c" 3 4
+                            (-1)
+# 20 "chapter_7/exercise_7_05/calculator.c"
+                               )
   {
-    switch (type)
+    if (sscanf(str, "%lf", &op2) == 1)
     {
-    case '0':
-      push(atof(s));
-      break;
-
-    case '+':
-      push(pop() + pop());
-      break;
-
-    case '-':
-      op2 = pop();
-      push(pop() - op2);
-      break;
-
-    case '*':
-      push(pop() * pop());
-      break;
-
-    case '/':
-      op2 = pop();
-
-      if (op2 != 0.0)
+      push(op2);
+    }
+    else if (sscanf(str, "%c", &c) == 1)
+    {
+      switch (c)
       {
-        push(pop() / op2);
+      case '+':
+        push(pop() + pop());
+        break;
+
+      case '-':
+        op2 = pop();
+        push(pop() - op2);
+        break;
+
+      case '*':
+        push(pop() * pop());
+        break;
+
+      case '/':
+        op2 = pop();
+
+        if (op2 != 0.0)
+        {
+          push(pop() / op2);
+        }
+        else
+        {
+          printf("Error: zero divisor.\n");
+        }
+        break;
+
+      case '%':
+        op2 = pop();
+
+        if (op2 != 0.0)
+        {
+          push((int)pop() % (int)op2);
+        }
+        else
+        {
+          printf("Error: zero divisor.\n");
+        }
+        break;
+
+      default:
+        printf("Error: unknown command.\n");
+        break;
       }
-      else
-      {
-        printf("Error: zero divisor.\n");
-      }
-
-      break;
-
-    case '%':
-      op2 = pop();
-
-      if (op2 != 0.0)
-      {
-        push((int)pop() % (int)op2);
-      }
-      else
-      {
-        printf("Error: zero divisor.\n");
-      }
-      break;
-
-    case '\n':
-      printf("result: %.8g\n", pop());
-      break;
-
-    default:
-      printf("Error: unknown command %s.\n", s);
-      break;
     }
   }
 
-  return 0;
-}
+  printf("result: %.8g\n", pop());
 
-int sp = 0;
-double val[100];
+  return 
+# 78 "chapter_7/exercise_7_05/calculator.c" 3 4
+        0
+# 78 "chapter_7/exercise_7_05/calculator.c"
+                    ;
+}
 
 void push(double f)
 {
   if (sp < 100)
   {
-    val[sp++] = f;
+    stack[sp++] = f;
   }
   else
   {
@@ -2038,125 +2039,11 @@ double pop(void)
 {
   if (sp > 0)
   {
-    return val[--sp];
+    return stack[--sp];
   }
   else
   {
     printf("Error: stack empty.\n");
     return 0.0;
   }
-}
-
-int bufp = 0;
-char buf[100];
-
-int getch(void)
-{
-  return (bufp > 0) ? buf[--bufp] : getchar();
-}
-
-void ungetch(int c)
-{
-  if (bufp >= 100)
-  {
-    printf("ungetch: too many characters\n");
-  }
-  else
-  {
-    buf[bufp++] = c;
-  }
-}
-
-int getop(char s[])
-{
-  int i = 0, c;
-
-  while ((s[0] = c = getch()) == ' ' || c == '\t')
-    ;
-
-  s[1] = '\0';
-
-  if (!
-# 138 "chapter_4/exercise_4_03/calculator.c" 3 4
-      ((*__ctype_b_loc ())[(int) ((
-# 138 "chapter_4/exercise_4_03/calculator.c"
-      c
-# 138 "chapter_4/exercise_4_03/calculator.c" 3 4
-      ))] & (unsigned short int) _ISdigit) 
-# 138 "chapter_4/exercise_4_03/calculator.c"
-                 && c != '.' && c != '-')
-  {
-    return c;
-  }
-
-  if (c == '-')
-  {
-    int next = getch();
-    if (!
-# 146 "chapter_4/exercise_4_03/calculator.c" 3 4
-        ((*__ctype_b_loc ())[(int) ((
-# 146 "chapter_4/exercise_4_03/calculator.c"
-        next
-# 146 "chapter_4/exercise_4_03/calculator.c" 3 4
-        ))] & (unsigned short int) _ISdigit) 
-# 146 "chapter_4/exercise_4_03/calculator.c"
-                      && next != '.')
-    {
-      return next;
-    }
-
-    s[i] = c;
-    ungetch(c = next);
-  }
-  else
-  {
-    c = getch();
-  }
-
-  if (
-# 159 "chapter_4/exercise_4_03/calculator.c" 3 4
-     ((*__ctype_b_loc ())[(int) ((
-# 159 "chapter_4/exercise_4_03/calculator.c"
-     c
-# 159 "chapter_4/exercise_4_03/calculator.c" 3 4
-     ))] & (unsigned short int) _ISdigit)
-# 159 "chapter_4/exercise_4_03/calculator.c"
-               )
-  {
-    while (
-# 161 "chapter_4/exercise_4_03/calculator.c" 3 4
-          ((*__ctype_b_loc ())[(int) ((
-# 161 "chapter_4/exercise_4_03/calculator.c"
-          s[++i] = c = getch()
-# 161 "chapter_4/exercise_4_03/calculator.c" 3 4
-          ))] & (unsigned short int) _ISdigit)
-# 161 "chapter_4/exercise_4_03/calculator.c"
-                                       )
-      ;
-  }
-
-  if (c == '.')
-  {
-    while (
-# 167 "chapter_4/exercise_4_03/calculator.c" 3 4
-          ((*__ctype_b_loc ())[(int) ((
-# 167 "chapter_4/exercise_4_03/calculator.c"
-          s[++i] = c = getch()
-# 167 "chapter_4/exercise_4_03/calculator.c" 3 4
-          ))] & (unsigned short int) _ISdigit)
-# 167 "chapter_4/exercise_4_03/calculator.c"
-                                       )
-      ;
-  }
-
-  if (c != 
-# 171 "chapter_4/exercise_4_03/calculator.c" 3 4
-          (-1)
-# 171 "chapter_4/exercise_4_03/calculator.c"
-             )
-  {
-    ungetch(c);
-  }
-
-  return '0';
 }
