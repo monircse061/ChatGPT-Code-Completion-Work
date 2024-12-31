@@ -1,0 +1,1000 @@
+Parse State: 0	Cursor Position: 1 1
+Candidates List: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )', ' ID ( )', ' ID :', ' ID Idxs = Expr', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Sub ID CRStmtCRs EndSub', ' While Expr CRStmtCRs EndWhile', ' Goto ID', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: 'ID = "Hello, World!"'
+SacreBLEU score 1: 1.1851293044620408 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 24 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.21
+
+Received response with candidate 2: Sorry, I can't provide the exact answer for an incomplete coding task like this. However, I can guide you on how to complete it. Let me know if you need assistance with understanding concepts, debugging, or any other coding help.
+SacreBLEU score 2: 0.9243411456936733 Counts: [2, 0, 0, 0] Totals: [47, 46, 45, 44] Precisions: [4.25531914893617, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091] System length: 47 Reference length: 24 
+First element of precision: 4.25531914893617 
+SequenceMatcher Score 2: 0.08
+
+Received response with candidate 3: Sorry, but without more context or information about the specific ID and expressions involved, I can't provide a complete answer for the 'ID.ID ( Exprs )' part of the code. Can you please provide more details or explain what the program is supposed to do?
+SacreBLEU score 3: 0.9903417847796372 Counts: [4, 0, 0, 0] Totals: [52, 51, 50, 49] Precisions: [7.6923076923076925, 0.9803921568627451, 0.5, 0.25510204081632654] System length: 52 Reference length: 24 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 3: 0.18
+
+Actual result:  If ( Clock . Hour < 12 ) Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
+
+Parse State: 10	Cursor Position: 1 4
+Candidates List: [' ID', ' ( Expr )', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' NUM', ' STR', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' ( Expr )', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: If ID = 5 Then
+'Add your code here... 
+EndIf
+SacreBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 7 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 1: 0.30
+
+Received response with candidate 2: '( Expr )' = 'GraphicsWindow.MouseX > 100 And GraphicsWindow.MouseY < 200'
+SacreBLEU score 2: 3.2342452920962157 Counts: [4, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [23.529411764705884, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 7 
+First element of precision: 23.529411764705884 
+SequenceMatcher Score 2: 0.23
+
+Received response with candidate 3: If ID Idxs < 10 Then
+  TextWindow.WriteLine("ID Idxs is less than 10")
+EndIf
+SacreBLEU score 3: 2.7076576267554477 Counts: [4, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [20.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 7 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.16
+
+Actual result:  ( Clock . Hour < 12 )
+
+Parse State: 23	Cursor Position: 1 5
+Candidates List: [' ID', ' ID Idxs', ' NUM', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' STR', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' ID Idxs', ' NUM']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: If (ID + 5 > 10) { 
+   TextWindow.WriteLine("ID is greater than 5");
+}
+SacreBLEU score 1: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 3 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: If (Array.IsSubArrayOf(array1, array2)) Then
+  For I = 1 To Array.GetItemCount(array2) - Array.GetItemCount(array1) + 1
+    ID Idxs = Array.GetItemIndexes(array2, array1.GetSubArrayOf(array2, I, Array.GetItemCount(array1)))
+    If ID Idxs
+SacreBLEU score 2: 0.6044751875664687 Counts: [1, 0, 0, 0] Totals: [60, 59, 58, 57] Precisions: [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508] System length: 60 Reference length: 3 
+First element of precision: 1.6666666666666667 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: If (NUM > 10)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.23
+
+Actual result:  Clock . Hour
+
+Parse State: 22	Cursor Position: 1 10
+Candidates List: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs', '.ID']
+
+Top One to Three Candidates: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock
+                    '.ID ( Exprs )'
+                    Complete the '.ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '.ID ( Exprs ).'
+                    
+Received response with candidate 1: . Hour < 12
+SacreBLEU score 1: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: If (Clock > 12) Then
+  TextWindow.WriteLine("It's after noon")
+SacreBLEU score 2: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 2 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: If (Clock[1] == 12)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result:  . Hour
+
+Parse State: 53	Cursor Position: 1 11
+Candidates List: [' ID ( Exprs )', ' ID']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: If (Clock.GetHour() >= 12)
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.32
+
+Received response with candidate 2: If (Clock.getHour() < 12) Then
+    TextWindow.WriteLine("Good morning!")
+EndIf
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.12
+
+Actual result:  Hour
+
+Parse State: 17	Cursor Position: 1 16
+Candidates List: [' < AdditiveExpr', ' > AdditiveExpr', ' <= AdditiveExpr', ' >= AdditiveExpr']
+
+Top One to Three Candidates: [' < AdditiveExpr', ' > AdditiveExpr', ' <= AdditiveExpr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour
+                    '< AdditiveExpr'
+                    Complete the '< AdditiveExpr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '< AdditiveExpr.'
+                    
+Received response with candidate 1: If (Clock.Hour < 12)
+SacreBLEU score 1: 11.044795567078939 Counts: [2, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [25.0, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 2 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: < 12
+SacreBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.89
+
+Received response with candidate 3: '<= AdditiveExpr'
+Clock.Minute or Clock.Second
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 2 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.08
+
+Actual result:  < 12
+
+Parse State: 44	Cursor Position: 1 18
+Candidates List: [' NUM', ' ID', ' ID Idxs', ' ( Expr )', ' - Primary', ' ID.ID ( Exprs )', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour <
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: If (Clock.Hour < 12)
+SacreBLEU score 1: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.26
+
+Received response with candidate 2: If (Clock.Hour < 12)
+SacreBLEU score 2: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: If (Clock.Hour < 12) Then
+'ID Idxs'
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.16
+
+Actual result:  12
+
+Parse State: 54	Cursor Position: 1 20
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) Then
+    TextWindow.WriteLine("Good morning!")
+Else
+    TextWindow.WriteLine("Good afternoon!")
+EndIf
+SacreBLEU score 1: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 1: 0.02
+
+Actual result:  )
+
+Parse State: 36	Cursor Position: 1 22
+Candidates List: [' Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12)
+                    'Then CRStmtCRs MoreThanZeroElseIf'
+                    Complete the 'Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'Then CRStmtCRs MoreThanZeroElseIf.'
+                    
+Received response with candidate 1: Then
+CRStmt("Good morning!")
+ElseIf (Clock.Hour < 18)
+CRStmt("Good afternoon!")
+Else
+CRStmt("Good evening!")
+EndIf
+SacreBLEU score 1: 5.558947744927456 Counts: [8, 3, 1, 0] Totals: [35, 34, 33, 32] Precisions: [22.857142857142858, 8.823529411764707, 3.0303030303030303, 1.5625] System length: 35 Reference length: 16 
+First element of precision: 22.857142857142858 
+SequenceMatcher Score 1: 0.31
+
+Actual result:  Then \n TextWindow . WriteLine ( "Good Morning World" ) \n EndIf
+
+Parse State: 63	Cursor Position: 1 29
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: ShowMessage("Good morning!")
+SacreBLEU score 1: 12.210041329719928 Counts: [5, 3, 1, 0] Totals: [8, 7, 6, 5] Precisions: [62.5, 42.857142857142854, 16.666666666666668, 10.0] System length: 8 Reference length: 14 
+First element of precision: 62.5 
+SequenceMatcher Score 1: 0.46
+
+Actual result:  \n TextWindow . WriteLine ( "Good Morning World" ) \n
+
+Parse State: 39	Cursor Position: 2 2
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' ID Idxs = Expr', ' ID.ID = Expr', ' ID ( )', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Goto ID', ' While Expr CRStmtCRs EndWhile', ' ID :']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = "Good morning!"
+SacreBLEU score 1: 9.469167282754096 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 10 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 1: 0.44
+
+Received response with candidate 2: TextWindow.WriteLine("Good morning!")
+SacreBLEU score 2: 58.14307369682194 Counts: [8, 6, 4, 3] Totals: [10, 9, 8, 7] Precisions: [80.0, 66.66666666666667, 50.0, 42.857142857142854] System length: 10 Reference length: 10 
+First element of precision: 80.0 
+SequenceMatcher Score 2: 0.82
+
+Received response with candidate 3: If (Clock.Hour < 12) Then
+TextWindow.WriteLine("It is morning")
+Else
+TextWindow.WriteLine("It is afternoon or evening")
+EndIf
+SacreBLEU score 3: 12.092555992625888 Counts: [7, 5, 3, 2] Totals: [33, 32, 31, 30] Precisions: [21.21212121212121, 15.625, 9.67741935483871, 6.666666666666667] System length: 33 Reference length: 10 
+First element of precision: 21.21212121212121 
+SequenceMatcher Score 3: 0.40
+
+Actual result:  TextWindow . WriteLine ( "Good Morning World" )
+
+Parse State: 6	Cursor Position: 2 12
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .WriteLine("Good morning!")
+SacreBLEU score 1: 51.33450480401705 Counts: [7, 5, 3, 2] Totals: [9, 8, 7, 6] Precisions: [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336] System length: 9 Reference length: 9 
+First element of precision: 77.77777777777777 
+SequenceMatcher Score 1: 0.78
+
+Received response with candidate 2: .WriteLine("Good morning!")
+SacreBLEU score 2: 51.33450480401705 Counts: [7, 5, 3, 2] Totals: [9, 8, 7, 6] Precisions: [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336] System length: 9 Reference length: 9 
+First element of precision: 77.77777777777777 
+SequenceMatcher Score 2: 0.78
+
+Received response with candidate 3: .WriteLine("Good morning!")
+SacreBLEU score 3: 51.33450480401705 Counts: [7, 5, 3, 2] Totals: [9, 8, 7, 6] Precisions: [77.77777777777777, 62.5, 42.857142857142854, 33.333333333333336] System length: 9 Reference length: 9 
+First element of precision: 77.77777777777777 
+SequenceMatcher Score 3: 0.78
+
+Actual result:  . WriteLine ( "Good Morning World" )
+
+Parse State: 30	Cursor Position: 2 13
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: Hue("Good morning!")
+SacreBLEU score 1: 25.848657697858535 Counts: [5, 3, 1, 0] Totals: [8, 7, 6, 5] Precisions: [62.5, 42.857142857142854, 16.666666666666668, 10.0] System length: 8 Reference length: 8 
+First element of precision: 62.5 
+SequenceMatcher Score 1: 0.58
+
+Received response with candidate 2: TextWindow.WriteLine("Good morning!")
+SacreBLEU score 2: 31.239399369202552 Counts: [6, 4, 2, 1] Totals: [10, 9, 8, 7] Precisions: [60.0, 44.44444444444444, 25.0, 14.285714285714286] System length: 10 Reference length: 8 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.67
+
+Actual result:  WriteLine ( "Good Morning World" )
+
+Parse State: 58	Cursor Position: 2 22
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: "Good Morning!"
+SacreBLEU score 1: 28.641904579795423 Counts: [4, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 7 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.70
+
+Received response with candidate 2: "Good morning!"
+SacreBLEU score 2: 15.848738972120703 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 7 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.65
+
+Actual result:  ( "Good Morning World" )
+
+Parse State: 83	Cursor Position: 2 23
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good morning!")
+SacreBLEU score 1: 9.287528999566801 Counts: [3, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [30.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 5 
+First element of precision: 30.0 
+SequenceMatcher Score 1: 0.45
+
+Received response with candidate 2: TextWindow.WriteLine("Good morning!")
+SacreBLEU score 2: 9.287528999566801 Counts: [3, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [30.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 5 
+First element of precision: 30.0 
+SequenceMatcher Score 2: 0.45
+
+Received response with candidate 3: "Good morning!"
+SacreBLEU score 3: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 60.0 
+SequenceMatcher Score 3: 0.72
+
+Actual result:  "Good Morning World"
+
+Parse State: 92	Cursor Position: 2 43
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World"
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: )')
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Actual result:  )
+
+Parse State: 65	Cursor Position: 2 45
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World")
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Have a great day!")
+TextWindow.WriteLine("Welcome to a new day!")
+'CR TheRest'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 27 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.02
+
+Actual result:  \n
+
+Parse State: 87	Cursor Position: 3 1
+Candidates List: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World")
+                    'EndIf'
+                    Complete the 'EndIf' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'EndIf.'
+                    
+Received response with candidate 1: EndIf
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.91
+
+Received response with candidate 2: Else   
+	TextWindow.WriteLine("Good Afternoon World")  
+EndIf
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: ElseIf (Clock.Hour >= 12 And Clock.Hour < 18) Then   
+    TextWindow.WriteLine("Good Afternoon World")
+Else   
+    TextWindow.WriteLine("Good Evening World")
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [37, 36, 35, 34] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 37 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result:  EndIf
+
+Parse State: 3	Cursor Position: 3 6
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: If (Clock.Hour >= 12 AND Clock.Hour < 18) Then
+	TextWindow.WriteLine("Good Afternoon World")
+ElseIf (Clock.Hour >= 18) Then
+	TextWindow.WriteLine("Good Evening World")
+EndIf
+SacreBLEU score 1: 34.404413164336496 Counts: [21, 17, 14, 12] Totals: [47, 46, 45, 44] Precisions: [44.680851063829785, 36.95652173913044, 31.11111111111111, 27.272727272727273] System length: 47 Reference length: 27 
+First element of precision: 44.680851063829785 
+SequenceMatcher Score 1: 0.57
+
+Actual result:  \n If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+
+Parse State: 11	Cursor Position: 4 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = Clock.Hour
+SacreBLEU score 1: 0.7826034511001677 Counts: [4, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 25 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: Clock.GetHour()
+SacreBLEU score 2: 0.4653387961370017 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 25 
+First element of precision: 80.0 
+SequenceMatcher Score 2: 0.23
+
+Received response with candidate 3: Clock.Minute = 0
+SacreBLEU score 3: 0.4330465448138148 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 25 
+First element of precision: 60.0 
+SequenceMatcher Score 3: 0.22
+
+Actual result:  If ( Clock . Hour >= 12 ) Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+
+Parse State: 10	Cursor Position: 4 4
+Candidates List: [' ID', ' ( Expr )', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' NUM', ' STR', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' ( Expr )', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: (Clock.Hour >= 12) Then
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 1: 34.669778311100316 Counts: [8, 7, 6, 5] Totals: [20, 19, 18, 17] Precisions: [40.0, 36.8421052631579, 33.333333333333336, 29.41176470588235] System length: 20 Reference length: 8 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.37
+
+Received response with candidate 2: (Clock.Hour < 12)
+SacreBLEU score 2: 42.38365628278778 Counts: [6, 4, 2, 1] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 40.0, 25.0] System length: 7 Reference length: 8 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: Clock.Hour >= 12 And Clock.Hour < 18 Then
+SacreBLEU score 3: 38.05803001674947 Counts: [6, 5, 4, 3] Totals: [13, 12, 11, 10] Precisions: [46.15384615384615, 41.666666666666664, 36.36363636363637, 30.0] System length: 13 Reference length: 8 
+First element of precision: 46.15384615384615 
+SequenceMatcher Score 3: 0.53
+
+Actual result:  ( Clock . Hour >= 12 )
+
+Parse State: 23	Cursor Position: 4 5
+Candidates List: [' ID', ' ID Idxs', ' NUM', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' STR', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' ID Idxs', ' NUM']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: (Clock.Hour >= 12) Then
+	TextWindow.WriteLine("Good Afternoon World") 
+EndIf
+SacreBLEU score 1: 7.12695567709093 Counts: [3, 2, 1, 0] Totals: [20, 19, 18, 17] Precisions: [15.0, 10.526315789473685, 5.555555555555555, 2.9411764705882355] System length: 20 Reference length: 3 
+First element of precision: 15.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: (Clock.Hour >= 12 And Clock.Hour < 18) Then
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 2: 5.377336385080629 Counts: [3, 2, 1, 0] Totals: [26, 25, 24, 23] Precisions: [11.538461538461538, 8.0, 4.166666666666667, 2.1739130434782608] System length: 26 Reference length: 3 
+First element of precision: 11.538461538461538 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: (Clock.Hour >= 12 And Clock.Hour < 18) Then
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 3: 5.377336385080629 Counts: [3, 2, 1, 0] Totals: [26, 25, 24, 23] Precisions: [11.538461538461538, 8.0, 4.166666666666667, 2.1739130434782608] System length: 26 Reference length: 3 
+First element of precision: 11.538461538461538 
+SequenceMatcher Score 3: 0.20
+
+Actual result:  Clock . Hour
+
+Parse State: 22	Cursor Position: 4 10
+Candidates List: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs', '.ID']
+
+Top One to Three Candidates: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock
+                    '.ID ( Exprs )'
+                    Complete the '.ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '.ID ( Exprs ).'
+                    
+Received response with candidate 1: .Hour >= 12) Then
+	TextWindow.WriteLine("Good Afternoon World") 
+EndIf
+SacreBLEU score 1: 4.295382417831811 Counts: [2, 1, 0, 0] Totals: [18, 17, 16, 15] Precisions: [11.11111111111111, 5.882352941176471, 3.125, 1.6666666666666667] System length: 18 Reference length: 2 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.13
+
+Received response with candidate 2: .Minute < 30) Then  
+	TextWindow.WriteLine("It's still morning!") 
+EndIf
+SacreBLEU score 2: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 2 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 2: 0.08
+
+Received response with candidate 3: .Minute < 30) Then
+	TextWindow.WriteLine("It's still early!")
+EndIf
+SacreBLEU score 3: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 2 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 3: 0.08
+
+Actual result:  . Hour
+
+Parse State: 53	Cursor Position: 4 11
+Candidates List: [' ID ( Exprs )', ' ID']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: Minute < 30) Then
+	TextWindow.WriteLine("It's still before 12pm")
+EndIf
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 17 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: Minute < 60) Then
+  TextWindow.WriteLine("It is still morning")
+EndIf
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 17 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.05
+
+Actual result:  Hour
+
+Parse State: 17	Cursor Position: 4 16
+Candidates List: [' < AdditiveExpr', ' > AdditiveExpr', ' <= AdditiveExpr', ' >= AdditiveExpr']
+
+Top One to Three Candidates: [' < AdditiveExpr', ' > AdditiveExpr', ' <= AdditiveExpr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour
+                    '< AdditiveExpr'
+                    Complete the '< AdditiveExpr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '< AdditiveExpr.'
+                    
+Received response with candidate 1: < 17
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: = 12 Then   
+	TextWindow.WriteLine("Good Afternoon World") 
+EndIf
+SacreBLEU score 2: 5.679677445135579 Counts: [2, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [14.285714285714286, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 3 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: <= 18
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.55
+
+Actual result:  >= 12
+
+Parse State: 47	Cursor Position: 4 19
+Candidates List: [' NUM', ' ID', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >=
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 12
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 12
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: If (Clock.Hour >= 12) Then
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 3: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 3: 0.07
+
+Actual result:  12
+
+Parse State: 54	Cursor Position: 4 21
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) Then   
+	TextWindow.WriteLine("Good Afternoon World") 
+EndIf
+SacreBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 1: 0.03
+
+Actual result:  )
+
+Parse State: 36	Cursor Position: 4 23
+Candidates List: [' Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12)
+                    'Then CRStmtCRs MoreThanZeroElseIf'
+                    Complete the 'Then CRStmtCRs MoreThanZeroElseIf' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'Then CRStmtCRs MoreThanZeroElseIf.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 1: 36.11383661346441 Counts: [9, 7, 5, 3] Totals: [10, 9, 8, 7] Precisions: [90.0, 77.77777777777777, 62.5, 42.857142857142854] System length: 10 Reference length: 16 
+First element of precision: 90.0 
+SequenceMatcher Score 1: 0.70
+
+Actual result:  Then \n TextWindow . WriteLine ( "Good Evening World" ) \n EndIf
+
+Parse State: 63	Cursor Position: 4 30
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 1: 44.109539647431156 Counts: [9, 7, 5, 3] Totals: [10, 9, 8, 7] Precisions: [90.0, 77.77777777777777, 62.5, 42.857142857142854] System length: 10 Reference length: 14 
+First element of precision: 90.0 
+SequenceMatcher Score 1: 0.78
+
+Actual result:  \n TextWindow . WriteLine ( "Good Evening World" ) \n
+
+Parse State: 39	Cursor Position: 5 2
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' ID Idxs = Expr', ' ID.ID = Expr', ' ID ( )', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Goto ID', ' While Expr CRStmtCRs EndWhile', ' ID :']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 1: 65.80370064762461 Counts: [9, 7, 5, 3] Totals: [10, 9, 8, 7] Precisions: [90.0, 77.77777777777777, 62.5, 42.857142857142854] System length: 10 Reference length: 10 
+First element of precision: 90.0 
+SequenceMatcher Score 1: 0.83
+
+Received response with candidate 2: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 2: 65.80370064762461 Counts: [9, 7, 5, 3] Totals: [10, 9, 8, 7] Precisions: [90.0, 77.77777777777777, 62.5, 42.857142857142854] System length: 10 Reference length: 10 
+First element of precision: 90.0 
+SequenceMatcher Score 2: 0.83
+
+Received response with candidate 3: If (Clock.Hour < 18) Then
+	TextWindow.WriteLine("Good Afternoon World")
+Else
+	TextWindow.WriteLine("Good Evening World")
+EndIf
+SacreBLEU score 3: 28.582347148150316 Counts: [10, 9, 8, 7] Totals: [31, 30, 29, 28] Precisions: [32.25806451612903, 30.0, 27.586206896551722, 25.0] System length: 31 Reference length: 10 
+First element of precision: 32.25806451612903 
+SequenceMatcher Score 3: 0.51
+
+Actual result:  TextWindow . WriteLine ( "Good Evening World" )
+
+Parse State: 6	Cursor Position: 5 12
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .WriteLine("Good Afternoon World")
+SacreBLEU score 1: 59.694917920196445 Counts: [8, 6, 4, 2] Totals: [9, 8, 7, 6] Precisions: [88.88888888888889, 75.0, 57.142857142857146, 33.333333333333336] System length: 9 Reference length: 9 
+First element of precision: 88.88888888888889 
+SequenceMatcher Score 1: 0.79
+
+Received response with candidate 2: .WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 2: 52.53819788848316 Counts: [8, 6, 4, 2] Totals: [10, 9, 8, 7] Precisions: [80.0, 66.66666666666667, 50.0, 28.571428571428573] System length: 10 Reference length: 9 
+First element of precision: 80.0 
+SequenceMatcher Score 2: 0.73
+
+Received response with candidate 3: .WriteLine("Good Afternoon World") 
+EndIf
+SacreBLEU score 3: 52.53819788848316 Counts: [8, 6, 4, 2] Totals: [10, 9, 8, 7] Precisions: [80.0, 66.66666666666667, 50.0, 28.571428571428573] System length: 10 Reference length: 9 
+First element of precision: 80.0 
+SequenceMatcher Score 3: 0.72
+
+Actual result:  . WriteLine ( "Good Evening World" )
+
+Parse State: 30	Cursor Position: 5 13
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 1: 37.99178428257963 Counts: [7, 5, 3, 1] Totals: [10, 9, 8, 7] Precisions: [70.0, 55.55555555555556, 37.5, 14.285714285714286] System length: 10 Reference length: 8 
+First element of precision: 70.0 
+SequenceMatcher Score 1: 0.68
+
+Received response with candidate 2: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 2: 37.99178428257963 Counts: [7, 5, 3, 1] Totals: [10, 9, 8, 7] Precisions: [70.0, 55.55555555555556, 37.5, 14.285714285714286] System length: 10 Reference length: 8 
+First element of precision: 70.0 
+SequenceMatcher Score 2: 0.68
+
+Actual result:  WriteLine ( "Good Evening World" )
+
+Parse State: 58	Cursor Position: 5 22
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: ("Good Afternoon World")
+SacreBLEU score 1: 41.11336169005196 Counts: [6, 4, 2, 0] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 40.0, 12.5] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 1: 0.73
+
+Received response with candidate 2: ("Good Afternoon World")
+SacreBLEU score 2: 41.11336169005196 Counts: [6, 4, 2, 0] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 66.66666666666667, 40.0, 12.5] System length: 7 Reference length: 7 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 2: 0.73
+
+Actual result:  ( "Good Evening World" )
+
+Parse State: 83	Cursor Position: 5 23
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: "Good Afternoon World"
+SacreBLEU score 1: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.74
+
+Received response with candidate 2: "Good Afternoon World"
+SacreBLEU score 2: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score 2: 0.74
+
+Received response with candidate 3: "Good Afternoon World"
+SacreBLEU score 3: 30.213753973567677 Counts: [4, 2, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 50.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score 3: 0.74
+
+Actual result:  "Good Evening World"
+
+Parse State: 92	Cursor Position: 5 43
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World"
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: )'
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.50
+
+Actual result:  )
+
+Parse State: 65	Cursor Position: 5 45
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World")
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: TextWindow.WriteLine("Good Afternoon World")
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.04
+
+Actual result:  \n
+
+Parse State: 87	Cursor Position: 6 1
+Candidates List: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World")
+                    'EndIf'
+                    Complete the 'EndIf' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'EndIf.'
+                    
+Received response with candidate 1: EndIf
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.91
+
+Received response with candidate 2: Else   
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: ElseIf (Clock.Hour >= 18) Then   
+	TextWindow.WriteLine("Good night World")
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.07
+
+Actual result:  EndIf
+

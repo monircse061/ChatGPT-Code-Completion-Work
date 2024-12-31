@@ -1,0 +1,1206 @@
+Parse State: 0	Cursor Position: 1 1
+Candidates List: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )', ' ID ( )', ' ID :', ' ID Idxs = Expr', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Sub ID CRStmtCRs EndSub', ' While Expr CRStmtCRs EndWhile', ' Goto ID', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: 'ID = 5 * Math.Cos(60)'
+SacreBLEU score 1: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 3 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: 
+'drawText.drawText("Hello World!", 100, 100)'
+SacreBLEU score 2: 3.1251907639724417 Counts: [2, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 3 
+First element of precision: 13.333333333333334 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: 'Draw.Rectangle(100, 100, 200, 150)'
+SacreBLEU score 3: 3.673526562988939 Counts: [2, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 3 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score 3: 0.20
+
+Actual result:  PrintTime ( )
+
+Parse State: 6	Cursor Position: 1 10
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: = Text.GetHour(DateTime.Now) + ":" + Text.GetMinute(DateTime.Now) + ":" + Text.GetSecond(DateTime.Now)
+SacreBLEU score 1: 1.2557690800697192 Counts: [2, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [5.714285714285714, 1.4705882352941178, 0.7575757575757576, 0.390625] System length: 35 Reference length: 2 
+First element of precision: 5.714285714285714 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: PrintTime(ID)
+SacreBLEU score 2: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.24
+
+Received response with candidate 3: randBetween(1, 10)
+SacreBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.27
+
+Actual result:  ( )
+
+Parse State: 31	Cursor Position: 1 11
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime(
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: PrintTime("Hello, World!")
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.14
+
+Actual result:  )
+
+Parse State: 3	Cursor Position: 1 13
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime()
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: For the 'CR MoreThanOneStmt' part of the code, you can add the following statement:
+```
+TextWindow.WriteLine("Current time is: " + Clock.Time)
+```
+SacreBLEU score 1: 9.214155396533995 Counts: [17, 9, 5, 2] Totals: [37, 36, 35, 34] Precisions: [45.945945945945944, 25.0, 14.285714285714286, 5.882352941176471] System length: 37 Reference length: 61 
+First element of precision: 45.945945945945944 
+SequenceMatcher Score 1: 0.10
+
+Actual result:  \n TextWindow . Write ( "Enter your name: " ) \n name = TextWindow . Read ( ) \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 11	Cursor Position: 2 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime()
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = Clock.Time
+SacreBLEU score 1: 3.2174093287959424 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 11 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: PrintTime()
+SacreBLEU score 2: 0.0 Counts: [2, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 25.0, 25.0, 0.0] System length: 3 Reference length: 11 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: Time.Hour = Clock.Hour
+SacreBLEU score 3: 3.708659055657029 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 11 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.25
+
+Actual result:  TextWindow . Write ( "Enter your name: " )
+
+Parse State: 6	Cursor Position: 2 11
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: Time.GetTimeOfDay()
+SacreBLEU score 1: 5.171845311465849 Counts: [3, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 10 
+First element of precision: 60.0 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: .Print("The current time is: " + DateTime.Now.ToString("h:mm:ss tt"))
+SacreBLEU score 2: 4.807547001959649 Counts: [6, 3, 0, 0] Totals: [27, 26, 25, 24] Precisions: [22.22222222222222, 11.538461538461538, 2.0, 1.0416666666666667] System length: 27 Reference length: 10 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score 2: 0.34
+
+Received response with candidate 3: PrintTime() 
+TextWindow.WriteLine("The current time is " + Clock.Hour + ":" + Clock.Minute)
+SacreBLEU score 3: 4.521782889827669 Counts: [6, 2, 0, 0] Totals: [26, 25, 24, 23] Precisions: [23.076923076923077, 8.0, 2.0833333333333335, 1.0869565217391304] System length: 26 Reference length: 10 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score 3: 0.33
+
+Actual result:  . Write ( "Enter your name: " )
+
+Parse State: 30	Cursor Position: 2 12
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: PrintTime() 
+TextWindow.WriteLine("The current time is: " + DateTime.Now)
+SacreBLEU score 1: 6.054506513220935 Counts: [5, 2, 0, 0] Totals: [19, 18, 17, 16] Precisions: [26.31578947368421, 11.11111111111111, 2.9411764705882355, 1.5625] System length: 19 Reference length: 9 
+First element of precision: 26.31578947368421 
+SequenceMatcher Score 1: 0.37
+
+Received response with candidate 2: Time = Clock.ElapsedSeconds
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 9 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.18
+
+Actual result:  Write ( "Enter your name: " )
+
+Parse State: 58	Cursor Position: 2 17
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: ("The time is: " + Clock.Hour + ":" + Clock.Minute + ":" + Clock.Second)
+SacreBLEU score 1: 3.9936381761886635 Counts: [5, 2, 0, 0] Totals: [28, 27, 26, 25] Precisions: [17.857142857142858, 7.407407407407407, 1.9230769230769231, 1.0] System length: 28 Reference length: 8 
+First element of precision: 17.857142857142858 
+SequenceMatcher Score 1: 0.23
+
+Received response with candidate 2: = Time.Format(DateTime.Now, "h:mm:ss tt")
+SacreBLEU score 2: 5.401157445454033 Counts: [5, 1, 0, 0] Totals: [18, 17, 16, 15] Precisions: [27.77777777777778, 5.882352941176471, 3.125, 1.6666666666666667] System length: 18 Reference length: 8 
+First element of precision: 27.77777777777778 
+SequenceMatcher Score 2: 0.22
+
+Actual result:  ( "Enter your name: " )
+
+Parse State: 83	Cursor Position: 2 18
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: PrintTime()
+TextWindow.Write('ID') 
+The complete code is:
+TextWindow.Write('Time')
+SacreBLEU score 1: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 6 
+First element of precision: 5.0 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: PrintTime()
+TextWindow.Write('10')
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 6 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: PrintTime()
+TextWindow.Write(
+'The current time is: ' + Program.Clock.Time
+
+SacreBLEU score 3: 2.0244462660665508 Counts: [1, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 6 
+First element of precision: 5.2631578947368425 
+SequenceMatcher Score 3: 0.13
+
+Actual result:  "Enter your name: "
+
+Parse State: 92	Cursor Position: 2 37
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: "
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: )  TextWindow.Read()
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.09
+
+Actual result:  )
+
+Parse State: 3	Cursor Position: 2 39
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ")
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: Set name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "!")
+SacreBLEU score 1: 14.027387585633802 Counts: [16, 12, 8, 5] Totals: [22, 21, 20, 19] Precisions: [72.72727272727273, 57.142857142857146, 40.0, 26.31578947368421] System length: 22 Reference length: 48 
+First element of precision: 72.72727272727273 
+SequenceMatcher Score 1: 0.44
+
+Actual result:  \n name = TextWindow . Read ( ) \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 11	Cursor Position: 3 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ")
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: name = TextWindow.Read()
+SacreBLEU score 1: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.91
+
+Received response with candidate 2: TextWindow.Read()
+SacreBLEU score 2: 67.03200460356396 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.74
+
+Received response with candidate 3: name = TextWindow.Read()
+SacreBLEU score 3: 100.00000000000004 Counts: [7, 6, 5, 4] Totals: [7, 6, 5, 4] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 7 Reference length: 7 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.91
+
+Actual result:  name = TextWindow . Read ( )
+
+Parse State: 6	Cursor Position: 3 6
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: = TextWindow.Read()
+SacreBLEU score 1: 100.00000000000004 Counts: [6, 5, 4, 3] Totals: [6, 5, 4, 3] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 6 Reference length: 6 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.88
+
+Received response with candidate 2: name = TextWindow.Read()
+.TextWindow('.ID ("Hello, " + name + "!")')
+SacreBLEU score 2: 17.098323692758395 Counts: [6, 5, 4, 3] Totals: [27, 26, 25, 24] Precisions: [22.22222222222222, 19.23076923076923, 16.0, 12.5] System length: 27 Reference length: 6 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score 2: 0.48
+
+Received response with candidate 3: name = TextWindow.Read() 
+TextWindow.WriteLine("Hello " + name + "!")
+SacreBLEU score 3: 22.37467707748559 Counts: [6, 5, 4, 3] Totals: [21, 20, 19, 18] Precisions: [28.571428571428573, 25.0, 21.05263157894737, 16.666666666666668] System length: 21 Reference length: 6 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score 3: 0.43
+
+Actual result:  = TextWindow . Read ( )
+
+Parse State: 29	Cursor Position: 3 8
+Candidates List: [' ID', ' ID.ID ( Exprs )', ' NUM', ' STR', ' ID Idxs', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' ID.ID ( Exprs )', ' NUM']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name =
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: TextWindow.Write("Enter your name: ")
+name = TextWindow.Read() 
+
+The completed code will look like this:
+PrintTime()
+TextWindow.Write("Enter your name: ")
+name = TextWindow.Read()
+SacreBLEU score 1: 7.276375309803213 Counts: [5, 4, 3, 2] Totals: [47, 46, 45, 44] Precisions: [10.638297872340425, 8.695652173913043, 6.666666666666667, 4.545454545454546] System length: 47 Reference length: 5 
+First element of precision: 10.638297872340425 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: TextWindow.Read()
+SacreBLEU score 2: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.87
+
+Received response with candidate 3: TextWindow.Read()
+SacreBLEU score 3: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.87
+
+Actual result:  TextWindow . Read ( )
+
+Parse State: 22	Cursor Position: 3 18
+Candidates List: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs', '.ID']
+
+Top One to Three Candidates: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow
+                    '.ID ( Exprs )'
+                    Complete the '.ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '.ID ( Exprs ).'
+                    
+Received response with candidate 1: .Write("Read()")
+SacreBLEU score 1: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 4 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score 1: 0.52
+
+Received response with candidate 2: name.ReadLine()
+SacreBLEU score 2: 23.643540225079384 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 4 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.54
+
+Received response with candidate 3: name.GetCharacters([ Expr ] Idxs)
+SacreBLEU score 3: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.18
+
+Actual result:  . Read ( )
+
+Parse State: 53	Cursor Position: 3 19
+Candidates List: [' ID ( Exprs )', ' ID']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: Read()
+SacreBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: Read()
+SacreBLEU score 2: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.80
+
+Actual result:  Read ( )
+
+Parse State: 79	Cursor Position: 3 23
+Candidates List: [' ( Exprs )']
+
+Top One to Three Candidates: [' ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: name
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Actual result:  ( )
+
+Parse State: 102	Cursor Position: 3 24
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read(
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) 
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.50
+
+Actual result:  )
+
+Parse State: 3	Cursor Position: 3 26
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read()
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: CR MoreThanOneStmt
+TextWindow.WriteLine("Hello " + name + "! Welcome to the program.")
+currentTime = Clock.Hour + ":" + Clock.Minute
+TextWindow.WriteLine("The current time is: " + currentTime)
+SacreBLEU score 1: 11.294734792773566 Counts: [19, 10, 4, 1] Totals: [48, 47, 46, 45] Precisions: [39.583333333333336, 21.27659574468085, 8.695652173913043, 2.2222222222222223] System length: 48 Reference length: 39 
+First element of precision: 39.583333333333336 
+SequenceMatcher Score 1: 0.46
+
+Actual result:  \n TextWindow . Write ( name + ", the time now is: " ) \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 11	Cursor Position: 4 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read()
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = Clock.Time
+SacreBLEU score 1: 1.4456752008489664 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 15 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: TextWindow.WriteLine("Hello " + name + "! Welcome to Small Basic!")
+SacreBLEU score 2: 11.451997463067551 Counts: [8, 4, 1, 0] Totals: [19, 18, 17, 16] Precisions: [42.10526315789474, 22.22222222222222, 5.882352941176471, 3.125] System length: 19 Reference length: 15 
+First element of precision: 42.10526315789474 
+SequenceMatcher Score 2: 0.61
+
+Received response with candidate 3: name = name + " has entered the chat."
+SacreBLEU score 3: 11.532706802722437 Counts: [6, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [54.54545454545455, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 15 
+First element of precision: 54.54545454545455 
+SequenceMatcher Score 3: 0.42
+
+Actual result:  TextWindow . Write ( name + ", the time now is: " )
+
+Parse State: 6	Cursor Position: 4 11
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .Write("Hello " + name + "! Welcome to Small Basic!")
+SacreBLEU score 1: 15.27678022374703 Counts: [8, 5, 2, 0] Totals: [18, 17, 16, 15] Precisions: [44.44444444444444, 29.41176470588235, 12.5, 3.3333333333333335] System length: 18 Reference length: 14 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score 1: 0.55
+
+Received response with candidate 2: .Heading(name + ", the current time is: ")
+SacreBLEU score 2: 55.6492465767063 Counts: [12, 8, 6, 4] Totals: [14, 13, 12, 11] Precisions: [85.71428571428571, 61.53846153846154, 50.0, 36.36363636363637] System length: 14 Reference length: 14 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: .TextColor = GraphicsWindow.GetColorFromRGB(255, 0, 0)
+                        
+This code segment sets the text color in the TextWindow to red.
+SacreBLEU score 3: 2.1601524349994397 Counts: [5, 0, 0, 0] Totals: [26, 25, 24, 23] Precisions: [19.23076923076923, 2.0, 1.0416666666666667, 0.5434782608695652] System length: 26 Reference length: 14 
+First element of precision: 19.23076923076923 
+SequenceMatcher Score 3: 0.23
+
+Actual result:  . Write ( name + ", the time now is: " )
+
+Parse State: 30	Cursor Position: 4 12
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: ID(TextWindow.WriteLine("Hello " + name + "! Welcome to Small Basic!"))
+SacreBLEU score 1: 8.461633959345022 Counts: [6, 3, 1, 0] Totals: [22, 21, 20, 19] Precisions: [27.272727272727273, 14.285714285714286, 5.0, 2.6315789473684212] System length: 22 Reference length: 13 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score 1: 0.45
+
+Received response with candidate 2: name = TextWindow.Read()
+SacreBLEU score 2: 3.667862829704212 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 13 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 2: 0.41
+
+Actual result:  Write ( name + ", the time now is: " )
+
+Parse State: 58	Cursor Position: 4 17
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: (name + ", the current time is: " + Clock.Time)
+SacreBLEU score 1: 40.325042950627804 Counts: [11, 7, 5, 3] Totals: [16, 15, 14, 13] Precisions: [68.75, 46.666666666666664, 35.714285714285715, 23.076923076923077] System length: 16 Reference length: 12 
+First element of precision: 68.75 
+SequenceMatcher Score 1: 0.68
+
+Received response with candidate 2: ("Hello " + name + "! The current time is " + Clock.Hour + ":" + Clock.Minute)
+SacreBLEU score 2: 7.52421768074461 Counts: [9, 3, 1, 0] Totals: [27, 26, 25, 24] Precisions: [33.333333333333336, 11.538461538461538, 4.0, 2.0833333333333335] System length: 27 Reference length: 12 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.45
+
+Actual result:  ( name + ", the time now is: " )
+
+Parse State: 83	Cursor Position: 4 18
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: TextWindow.Write("Hello " + name + ", your ID is 12345")
+SacreBLEU score 1: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 1 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: TextWindow.WriteLine("Hello, " + name + ". The current time is " + Clock.Hour + ":" + Clock.Minute)
+SacreBLEU score 2: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 2: 0.10
+
+Received response with candidate 3: name + ", the current time is " + Clock.HourTimeString + ":" + Clock.MinuteTimeString
+SacreBLEU score 3: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 3: 0.09
+
+Actual result:  name
+
+Parse State: 18	Cursor Position: 4 23
+Candidates List: [' + MultiplicativeExpr', ' - MultiplicativeExpr']
+
+Top One to Three Candidates: [' + MultiplicativeExpr', ' - MultiplicativeExpr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name
+                    '+ MultiplicativeExpr'
+                    Complete the '+ MultiplicativeExpr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '+ MultiplicativeExpr.'
+                    
+Received response with candidate 1: = "Hello " + name + ", the current time is " + Clock.Hour + ":" + Clock.Minute
+SacreBLEU score 1: 11.556647985416689 Counts: [8, 4, 2, 1] Totals: [26, 25, 24, 23] Precisions: [30.76923076923077, 16.0, 8.333333333333334, 4.3478260869565215] System length: 26 Reference length: 9 
+First element of precision: 30.76923076923077 
+SequenceMatcher Score 1: 0.37
+
+Received response with candidate 2: = " * 5"
+SacreBLEU score 2: 5.70796903405875 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 9 
+First element of precision: 40.0 
+SequenceMatcher Score 2: 0.31
+
+Actual result:  + ", the time now is: "
+
+Parse State: 48	Cursor Position: 4 25
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' ( Expr )', ' ID.ID ( Exprs )', ' ID.ID', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name +
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: name + '12345'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 8 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: TextWindow.WriteLine(" , the current time is " + Clock.Time)
+SacreBLEU score 2: 10.82597837309053 Counts: [6, 2, 1, 0] Totals: [16, 15, 14, 13] Precisions: [37.5, 13.333333333333334, 7.142857142857143, 3.8461538461538463] System length: 16 Reference length: 8 
+First element of precision: 37.5 
+SequenceMatcher Score 2: 0.39
+
+Received response with candidate 3:  = "'s favorite color is blue."
+SacreBLEU score 3: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 8 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.45
+
+Actual result:  ", the time now is: "
+
+Parse State: 92	Cursor Position: 4 46
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: "
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: Clock.Hour '-' Clock.Minute
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.07
+
+Actual result:  )
+
+Parse State: 3	Cursor Position: 4 48
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ")
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: PrintTime()
+TextWindow.Write("Enter your name: ")
+name = TextWindow.Read()
+TextWindow.Write(name + ", the time now is: ")
+'CR MoreThanOneStmt'
+currentTime = Clock.DateTime.Now
+TextWindow.WriteLine(currentTime)
+SacreBLEU score 1: 7.401568312803572 Counts: [10, 6, 3, 1] Totals: [51, 50, 49, 48] Precisions: [19.607843137254903, 12.0, 6.122448979591836, 2.0833333333333335] System length: 51 Reference length: 22 
+First element of precision: 19.607843137254903 
+SequenceMatcher Score 1: 0.31
+
+Actual result:  \n PrintTime ( ) \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 11	Cursor Position: 5 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ")
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = Clock.TimeAsString
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.27
+
+Received response with candidate 2: Clock.Time()
+SacreBLEU score 2: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 3 
+First element of precision: 40.0 
+SequenceMatcher Score 2: 0.46
+
+Received response with candidate 3: Clock.Time.ToShortTimeString()
+SacreBLEU score 3: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 3 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score 3: 0.36
+
+Actual result:  PrintTime ( )
+
+Parse State: 6	Cursor Position: 5 10
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: = Clock.Hour + ":" + Clock.Minute
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: .PrintTime()
+SacreBLEU score 2: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: PrintTime()
+
+TextWindow.Write("Enter your name: ")
+name = TextWindow.Read()
+TextWindow.Write(name + ", the time now is: ")
+PrintTime()
+'Clock.Hour + ":" + Clock.Minute'
+SacreBLEU score 3: 1.4583397289082511 Counts: [2, 1, 0, 0] Totals: [50, 49, 48, 47] Precisions: [4.0, 2.0408163265306123, 1.0416666666666667, 0.5319148936170213] System length: 50 Reference length: 2 
+First element of precision: 4.0 
+SequenceMatcher Score 3: 0.02
+
+Actual result:  ( )
+
+Parse State: 31	Cursor Position: 5 11
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime(
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute)
+SacreBLEU score 1: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 1: 0.07
+
+Actual result:  )
+
+Parse State: 3	Cursor Position: 5 13
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime()
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime()
+'CR MoreThanOneStmt'
+Sub PrintTime
+  time = Clock.Hour + ":" + Clock.Minute
+  TextWindow.WriteLine(time)
+EndSub
+SacreBLEU score 1: 5.142764873763019 Counts: [10, 5, 2, 1] Totals: [63, 62, 61, 60] Precisions: [15.873015873015873, 8.064516129032258, 3.278688524590164, 1.6666666666666667] System length: 63 Reference length: 17 
+First element of precision: 15.873015873015873 
+SequenceMatcher Score 1: 0.31
+
+Actual result:  \n Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 11	Cursor Position: 6 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime()
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = Clock.Hour + ":" + Clock.Minute
+SacreBLEU score 1: 5.862244939055158 Counts: [3, 1, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 8.333333333333334, 4.545454545454546, 2.5] System length: 13 Reference length: 15 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: TextWindow.WriteLine(DateTime.Now.ToShortTimeString())
+SacreBLEU score 2: 18.27249680232283 Counts: [6, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [50.0, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 15 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.43
+
+Received response with candidate 3: ID.Text = Clock.Hour + ":" + Clock.Minute
+SacreBLEU score 3: 5.816635421147513 Counts: [3, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 15 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.24
+
+Actual result:  Sub PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 9	Cursor Position: 6 5
+Candidates List: [' ID CRStmtCRs EndSub']
+
+Top One to Three Candidates: [' ID CRStmtCRs EndSub']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub
+                    'ID CRStmtCRs EndSub'
+                    Complete the 'ID CRStmtCRs EndSub' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID CRStmtCRs EndSub.'
+                    
+Received response with candidate 1: While I cannot provide exact code solutions, I can guide you on how to complete the 'ID CRStmtCRs EndSub' part of the code in Microsoft Small Basic. 
+
+You need to define the function 'PrintTime()' that will display the current time. Here is how you can do it:
+
+```
+Sub PrintTime
+  time =
+SacreBLEU score 1: 0.8887042047007209 Counts: [5, 0, 0, 0] Totals: [61, 60, 59, 58] Precisions: [8.19672131147541, 0.8333333333333334, 0.423728813559322, 0.21551724137931033] System length: 61 Reference length: 14 
+First element of precision: 8.19672131147541 
+SequenceMatcher Score 1: 0.10
+
+Actual result:  PrintTime \n TextWindow . WriteLine ( Clock . Time ) \n EndSub
+
+Parse State: 35	Cursor Position: 6 17
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: TextWindow.WriteLine(DateTime.Now.ToLongTimeString())
+SacreBLEU score 1: 23.462350320527996 Counts: [6, 3, 2, 1] Totals: [12, 11, 10, 9] Precisions: [50.0, 27.272727272727273, 20.0, 11.11111111111111] System length: 12 Reference length: 12 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.53
+
+Actual result:  \n TextWindow . WriteLine ( Clock . Time ) \n
+
+Parse State: 39	Cursor Position: 7 2
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' ID Idxs = Expr', ' ID.ID = Expr', ' ID ( )', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Goto ID', ' While Expr CRStmtCRs EndWhile', ' ID :']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: DateTime.Now.ToShortTimeString()
+SacreBLEU score 1: 8.051153633013374 Counts: [4, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 8 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score 1: 0.19
+
+Received response with candidate 2: Clock.GetTimeString()
+SacreBLEU score 2: 13.943458243384402 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 8 
+First element of precision: 80.0 
+SequenceMatcher Score 2: 0.36
+
+Received response with candidate 3: If Clock.Hour < 12 Then
+    TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute + " AM")
+Else
+    TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute + " PM")
+EndIf
+SacreBLEU score 3: 9.533208045615421 Counts: [7, 5, 4, 3] Totals: [49, 48, 47, 46] Precisions: [14.285714285714286, 10.416666666666666, 8.51063829787234, 6.521739130434782] System length: 49 Reference length: 8 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.32
+
+Actual result:  TextWindow . WriteLine ( Clock . Time )
+
+Parse State: 6	Cursor Position: 7 12
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: = Clock.TimeToString(Clock.Now)
+SacreBLEU score 1: 20.164945583740657 Counts: [5, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [55.55555555555556, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 7 
+First element of precision: 55.55555555555556 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: .Print(GetTime())
+SacreBLEU score 2: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 7 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 2: 0.43
+
+Received response with candidate 3: TextWindow.WriteLine(Clock.ElapsedMilliseconds)
+SacreBLEU score 3: 54.10822690539397 Counts: [6, 4, 3, 2] Totals: [8, 7, 6, 5] Precisions: [75.0, 57.142857142857146, 50.0, 40.0] System length: 8 Reference length: 7 
+First element of precision: 75.0 
+SequenceMatcher Score 3: 0.50
+
+Actual result:  . WriteLine ( Clock . Time )
+
+Parse State: 30	Cursor Position: 7 13
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: ID(Time.Year * 10000 + Time.Month * 100 + Time.Day + Time.Hour * 10000 + Time.Minute * 100 + Time.Second)
+SacreBLEU score 1: 1.5393730252811677 Counts: [4, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [11.764705882352942, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 6 
+First element of precision: 11.764705882352942 
+SequenceMatcher Score 1: 0.14
+
+Received response with candidate 2: Time.Hours + ":" + Time.Minutes
+SacreBLEU score 2: 4.456882760699063 Counts: [2, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 6 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score 2: 0.28
+
+Actual result:  WriteLine ( Clock . Time )
+
+Parse State: 58	Cursor Position: 7 22
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: Text.GetTime("hh:mm:ss")
+SacreBLEU score 1: 4.456882760699063 Counts: [3, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [25.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 5 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: = Clock.Hour + ":" + Clock.Minute
+SacreBLEU score 2: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 5 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.36
+
+Actual result:  ( Clock . Time )
+
+Parse State: 83	Cursor Position: 7 23
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1:  
+
+Text.GetDateTimeValue().ToLongTimeString()
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 3 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.21
+
+Received response with candidate 2: Text.GetTime("hh:mm tt")
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 3 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.27
+
+Received response with candidate 3: Time.Hour + ":" + Time.Minute + ":" + Time.Second
+SacreBLEU score 3: 2.4074859035470344 Counts: [2, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [10.526315789473685, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 3 
+First element of precision: 10.526315789473685 
+SequenceMatcher Score 3: 0.19
+
+Actual result:  Clock . Time
+
+Parse State: 22	Cursor Position: 7 28
+Candidates List: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs', '.ID']
+
+Top One to Three Candidates: ['.ID ( Exprs )', ' [ Expr ]', ' [ Expr ] Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(Clock
+                    '.ID ( Exprs )'
+                    Complete the '.ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '.ID ( Exprs ).'
+                    
+Received response with candidate 1: .Text.getHours() + ":" + Clock.Text.getMinutes()
+SacreBLEU score 1: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 2 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: 
+        .Hour + ":" + Clock.Minute + ":" + Clock.Second
+SacreBLEU score 2: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 2 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 2: 0.16
+
+Received response with candidate 3: .Clock[ Expr ] Idxs
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.15
+
+Actual result:  . Time
+
+Parse State: 53	Cursor Position: 7 29
+Candidates List: [' ID ( Exprs )', ' ID']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(Clock.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: TextWindow.WriteLine(Clock.Hour + ":" + Clock.Minute + ":" + Clock.Second)
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 24 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: Now, please complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 28 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.03
+
+Actual result:  Time
+
+Parse State: 92	Cursor Position: 7 33
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(Clock.Time
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) + Clock.GetTime())
+SacreBLEU score 1: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.09
+
+Actual result:  )
+
+Parse State: 65	Cursor Position: 7 35
+Candidates List: [' CR TheRest']
+
+Top One to Three Candidates: [' CR TheRest']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(Clock.Time)
+                    'CR TheRest'
+                    Complete the 'CR TheRest' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR TheRest.'
+                    
+Received response with candidate 1: TextWindow.WriteLine(DateTime.Now)
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.05
+
+Actual result:  \n
+
+Parse State: 62	Cursor Position: 8 1
+Candidates List: [' EndSub']
+
+Top One to Three Candidates: [' EndSub']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    PrintTime() 
+TextWindow.Write("Enter your name: ") 
+name = TextWindow.Read() 
+TextWindow.Write(name + ", the time now is: ") 
+PrintTime() 
+Sub PrintTime   
+	TextWindow.WriteLine(Clock.Time)
+                    'EndSub'
+                    Complete the 'EndSub' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'EndSub.'
+                    
+Received response with candidate 1: EndSub
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.92
+
+Actual result:  EndSub
+
