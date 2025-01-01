@@ -1,0 +1,2045 @@
+Parse State: 23	Cursor Position: 741 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer in place of 'extern.'
+                    
+Received response with candidate 1: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: typedef int list_eq1_type_specifier_unique_declaration_specifier;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: typedef int FILE_lower;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.07
+
+Actual result: char
+
+Parse State: 5	Cursor Position: 741 6
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: lower
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: char *lower(char *str) {
+    // code implementation for converting string to lowercase
+}
+SacreBLEU score 2: 2.0244462660665508 Counts: [1, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 1 
+First element of precision: 5.2631578947368425 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: char lower(char c) 
+{
+    if (c >= 'A' && c <= 'Z')
+        return c + 'a' - 'A';
+    else
+        return c;
+}
+SacreBLEU score 3: 1.1599713834969503 Counts: [1, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 1 
+First element of precision: 3.125 
+SequenceMatcher Score 3: 0.09
+
+Actual result: lower
+
+Parse State: 63	Cursor Position: 741 11
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+
+char lower(char c)
+SacreBLEU score 1: 1.5880117714047368 Counts: [2, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [7.142857142857143, 1.8518518518518519, 0.9615384615384616, 0.5] System length: 28 Reference length: 3 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.15
+
+Received response with candidate 2: char lower(unsigned char c) {
+    return (c >= 'A' && c <= 'Z') ? c + 'a' - 'A' : c;
+}
+SacreBLEU score 2: 1.4262733286728257 Counts: [2, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [6.451612903225806, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 3 
+First element of precision: 6.451612903225806 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: char lower(int c)
+SacreBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.50
+
+Actual result: (charc)
+
+Parse State: 186	Cursor Position: 741 12
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer in place of 'const.'
+                    
+Received response with candidate 1: char lower(
+                    const
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: char lower(int c) {
+    if (c >= 'A' && c <= 'Z') {
+        return c + 'a' - 'A';
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 2: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 2: 0.06
+
+Received response with candidate 3: char lower(char c)
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.36
+
+Actual result: char
+
+Parse State: 298	Cursor Position: 741 17
+Candidates List: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )', ' ( save_context abstract_declarator )']
+
+Top One to Three Candidates: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char
+                    '* option_type_qualifier_list option_pointer'
+                    Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer.'
+                    
+Received response with candidate 1: char lower(char c) {
+    if (c >= 'A' && c <= 'Z') {
+        return c + 'a' - 'A';
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 1: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: char lower(char c) {
+    if (c >= 'A' && c <= 'Z')
+        return c + 'a' - 'A';
+    else
+        return c;
+}
+SacreBLEU score 2: 1.1599713834969503 Counts: [1, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 1 
+First element of precision: 3.125 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: char lower(char c)
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.11
+
+Actual result: c
+
+Parse State: 187	Cursor Position: 741 18
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ;{
+    if (c >= 'A' && c <= 'Z') {
+        return c + 'a' - 'A';
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 1: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 1: 0.02
+
+Actual result: )
+
+Parse State: 60	Cursor Position: 741 19
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';.'
+                    
+Received response with candidate 1: {
+    return (c >= 'A' && c <= 'Z') ? c + 'a' - 'A' : c;
+}
+SacreBLEU score 1: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 1: 0.03
+
+Actual result: ;
+
+Parse State: 23	Cursor Position: 743 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer in place of 'extern.'
+                    
+Received response with candidate 1: static
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: typedef char list_eq1_type_specifier_unique_declaration_specifier;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: typedef char lower_function_declaration_specifier;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: int
+
+Parse State: 5	Cursor Position: 743 5
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: char lower(char c) {
+    if (c >= 'A' && c <= 'Z') {
+        return c + 32;
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 34 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: char* option_type_qualifier_list option_pointer
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: int main(void) {
+    char c = 'A';
+    char lower_c = lower(c);
+    
+    return 0;
+}
+SacreBLEU score 3: 1.506189323093867 Counts: [1, 0, 0, 0] Totals: [25, 24, 23, 22] Precisions: [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182] System length: 25 Reference length: 1 
+First element of precision: 4.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: main
+
+Parse State: 63	Cursor Position: 743 9
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: (int argc, char *argv[])
+SacreBLEU score 1: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.60
+
+Received response with candidate 3: (int argc, char *argv[])
+SacreBLEU score 3: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.20
+
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 743 10
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer in place of 'const.'
+                    
+Received response with candidate 1: const
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: int main() {
+    // Your code here
+
+    return 0;
+}
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: int main()
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.14
+
+Actual result: void
+
+Parse State: 187	Cursor Position: 743 14
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) {  
+    char c = 'A';
+    char lower_c = lower(c);
+    
+    return 0;
+}
+SacreBLEU score 1: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 1: 0.03
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 744 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    char c = 'A';
+    char result = lower(c);
+    printf("The lowercase of %c is %c\n", c, result);
+    
+    return 0;
+}
+
+char lower(char c)
+{
+    if (c >= 'A' && c <= 'Z')
+    {
+        return c + 32;
+    }
+
+SacreBLEU score 1: 3.686157786230468 Counts: [12, 5, 1, 0] Totals: [65, 64, 63, 62] Precisions: [18.46153846153846, 7.8125, 1.5873015873015872, 0.8064516129032258] System length: 65 Reference length: 16 
+First element of precision: 18.46153846153846 
+SequenceMatcher Score 1: 0.25
+
+Actual result: {chara='A';putchar(lower(a));return0;}
+
+Parse State: 201	Cursor Position: 745 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: }
+{
+    char c = 'A';
+    char result = lower(c);
+
+    return 0;
+}
+
+char lower(char c)
+{
+    if (c >= 'A' && c <= 'Z')
+    {
+        return c + ('a' - 'A');
+    }
+    else
+    {
+        return c;
+    }
+}
+SacreBLEU score 1: 0.6371624499564389 Counts: [1, 0, 0, 0] Totals: [57, 56, 55, 54] Precisions: [1.7543859649122806, 0.8928571428571429, 0.45454545454545453, 0.23148148148148148] System length: 57 Reference length: 1 
+First element of precision: 1.7543859649122806 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: char input = 'A'; //or any other character you want to convert to lowercase
+char result = lower(input);
+printf("The lowercase of %c is %c\n", input, result);
+return 0;
+SacreBLEU score 2: 0.7605497822189857 Counts: [1, 0, 0, 0] Totals: [48, 47, 46, 45] Precisions: [2.0833333333333335, 1.0638297872340425, 0.5434782608695652, 0.2777777777777778] System length: 48 Reference length: 1 
+First element of precision: 2.0833333333333335 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: return (c >= 'A' && c <= 'Z') ? c + 32 : c;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: char
+
+Parse State: 93	Cursor Position: 745 8
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: nameVariable;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.14
+
+Received response with candidate 2: char *option_type_qualifier_list option_pointer;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: char inputChar = 'A';
+  char lowercaseChar = lower(inputChar);
+  printf("Uppercase character: %c\nLowercase character: %c\n", inputChar, lowercaseChar);
+
+  return 0;
+}
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 40 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.01
+
+Actual result: a
+
+Parse State: 59	Cursor Position: 745 10
+Candidates List: [' = c_initializer']
+
+Top One to Three Candidates: [' = c_initializer']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a
+                    '= c_initializer'
+                    Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer in place of '= c_initializer.'
+                    
+Received response with candidate 1: = 'A'
+SacreBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [2, 1, 0, 0] Precisions: [100.0, 100.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.89
+
+Actual result: ='A'
+
+Parse State: 108	Cursor Position: 745 12
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' { initializer_list option_comma }', ' ( type_name ) cast_expression', ' STRING_LITERAL', ' *', ' -', ' &', ' __builtin_va_arg ( assignment_expression , type_name )', ' !', ' sizeof unary_expression', ' sizeof ( type_name )', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'a';
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.57
+
+Received response with candidate 2: lower('A');
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.43
+
+Received response with candidate 3: 'c'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: 'A'
+
+Parse State: 60	Cursor Position: 745 15
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_2/exercise_2_10/lower.c" 2
+
+
+# 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A'
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';.'
+                    
+Received response with candidate 1: ;
+
+  char lower_case_a = lower(a);
+  return 0;
+}
+SacreBLEU score 1: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: return lower(a);
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: char result = lower(a);
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.27
+
+Received response with candidate 3: return lower(a);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: putchar
+
+Parse State: 147	Cursor Position: 747 10
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (lower(a));
+SacreBLEU score 1: 80.91067115702207 Counts: [6, 5, 4, 3] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 80.0, 75.0] System length: 7 Reference length: 6 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 1: 0.95
+
+Received response with candidate 2: putchar(lower(a));
+SacreBLEU score 2: 68.037493331712 Counts: [6, 5, 4, 3] Totals: [8, 7, 6, 5] Precisions: [75.0, 71.42857142857143, 66.66666666666667, 60.0] System length: 8 Reference length: 6 
+First element of precision: 75.0 
+SequenceMatcher Score 2: 0.71
+
+Received response with candidate 3: (lower(a));
+SacreBLEU score 3: 80.91067115702207 Counts: [6, 5, 4, 3] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 80.0, 75.0] System length: 7 Reference length: 6 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 3: 0.95
+
+Actual result: (lower(a))
+
+Parse State: 235	Cursor Position: 747 11
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: lower(a)
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.77
+
+Received response with candidate 2: lower(a)
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.77
+
+Received response with candidate 3: lower(a)
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.77
+
+Actual result: lower
+
+Parse State: 147	Cursor Position: 747 16
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (a)
+SacreBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: (a); 
+
+return 0;
+}
+SacreBLEU score 2: 20.556680845025987 Counts: [3, 2, 1, 0] Totals: [8, 7, 6, 5] Precisions: [37.5, 28.571428571428573, 16.666666666666668, 10.0] System length: 8 Reference length: 3 
+First element of precision: 37.5 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: (lower(a))
+SacreBLEU score 3: 30.213753973567677 Counts: [3, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [50.0, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.46
+
+Actual result: (a)
+
+Parse State: 235	Cursor Position: 747 17
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: a')); 
+
+    return 0;
+}
+
+char lower(char c)
+{
+    if (c >= 'A' && c <= 'Z')
+    {
+        return c + 32;
+    }
+    else
+    {
+        return c;
+    }
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [42, 41, 40, 39] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 42 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: (a));
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.33
+
+Received response with candidate 3: 'A'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: a
+
+Parse State: 351	Cursor Position: 747 18
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ');'
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: )
+
+Parse State: 351	Cursor Position: 747 19
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a)
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ');'
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 747 20
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a))
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';.'
+                    
+Received response with candidate 1: ; 
+  return 0;
+}
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.12
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 749 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: }
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: char result = 'a';
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.31
+
+Received response with candidate 3: return c + 32;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.64
+
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 749 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: LoweredChar
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: return 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: 0
+
+Parse State: 415	Cursor Position: 749 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_2/exercise_2_10/lower.c"
+char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';.'
+                    
+Received response with candidate 1: ; 
+}
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 750 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    char lower(char c);
+
+int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: }.
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: a_lower
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return tolower(c);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 23	Cursor Position: 752 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer in place of 'extern.'
+                    
+Received response with candidate 1: extern char lower(char c);
+SacreBLEU score 1: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.27
+
+Received response with candidate 2: typedef char list_eq1_type_specifier_unique_declaration_specifier;
+SacreBLEU score 2: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: typedef struct LinkedList {
+  int data;
+  struct LinkedList *next;
+} list_ge1_type_specifier_nonunique_declaration_specifier;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 27 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.05
+
+Actual result: char
+
+Parse State: 5	Cursor Position: 752 6
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: tolower
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.83
+
+Received response with candidate 2: *const volatile restrict a
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.19
+
+Received response with candidate 3: toupper
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.50
+
+Actual result: lower
+
+Parse State: 63	Cursor Position: 752 11
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: (char c)
+SacreBLEU score 1: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.93
+
+Received response with candidate 2: char lower(char c) {
+  if(c >= 'A' && c <= 'Z') {
+    return c + 32;
+  } else {
+    return c;
+  }
+}
+SacreBLEU score 2: 1.2944532586971997 Counts: [2, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [5.882352941176471, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 3 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: char lower(char c)
+SacreBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.56
+
+Actual result: (charc)
+
+Parse State: 186	Cursor Position: 752 12
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer in place of 'const.'
+                    
+Received response with candidate 1: const char ch
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.47
+
+Received response with candidate 2: char
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 1.00
+
+Received response with candidate 3: char lower(char letter)
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.30
+
+Actual result: char
+
+Parse State: 298	Cursor Position: 752 17
+Candidates List: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )', ' ( save_context abstract_declarator )']
+
+Top One to Three Candidates: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char
+                    '* option_type_qualifier_list option_pointer'
+                    Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer in place of '* option_type_qualifier_list option_pointer.'
+                    
+Received response with candidate 1: char lower(char input) {
+  if (input >= 'A' && input <= 'Z') {
+    return input + 32;
+  } else {
+    return input;
+  }
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 34 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: lower.func(chr c){
+    if(c >= 'A' && c <= 'Z'){
+        return c + 32;
+    } else{
+        return c;
+    }
+}
+SacreBLEU score 2: 1.0559717178170818 Counts: [1, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625] System length: 35 Reference length: 1 
+First element of precision: 2.857142857142857 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: char lower(char c)
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.11
+
+Actual result: c
+
+Parse State: 187	Cursor Position: 752 18
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ') {
+  if (c >= 'A' && c <= 'Z') {
+    return c + 32;
+  } else {
+    return c;
+  }
+}'
+SacreBLEU score 1: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 1: 0.02
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 753 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+  if (c >= 'A' && c <= 'Z') {
+    return c + 32;
+  } else {
+    return c;
+  }
+}
+SacreBLEU score 1: 48.950961379857205 Counts: [19, 15, 11, 9] Totals: [28, 27, 26, 25] Precisions: [67.85714285714286, 55.55555555555556, 42.30769230769231, 36.0] System length: 28 Reference length: 23 
+First element of precision: 67.85714285714286 
+SequenceMatcher Score 1: 0.20
+
+Actual result: {return(c>='A'&&c<='Z')?c+='a'-'A':c;}
+
+Parse State: 201	Cursor Position: 754 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: 
+if(c >= 'A' && c <= 'Z') {
+    return c + 32;
+} else {
+    return c;
+}
+}
+SacreBLEU score 1: 46.61617174759079 Counts: [17, 13, 10, 9] Totals: [27, 26, 25, 24] Precisions: [62.96296296296296, 50.0, 40.0, 37.5] System length: 27 Reference length: 21 
+First element of precision: 62.96296296296296 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: char lower(char c)
+{
+   if (c >= 'A' && c <= 'Z') 
+   {
+       return c + 32;
+   }
+   else
+   {
+       return c;
+   }
+}
+SacreBLEU score 2: 36.562220503283484 Counts: [17, 13, 10, 9] Totals: [34, 33, 32, 31] Precisions: [50.0, 39.39393939393939, 31.25, 29.032258064516128] System length: 34 Reference length: 21 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: return c + 32;
+SacreBLEU score 3: 1.0356305364183098 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 21 
+First element of precision: 80.0 
+SequenceMatcher Score 3: 0.36
+
+Actual result: return(c>='A'&&c<='Z')?c+='a'-'A':c;
+
+Parse State: 338	Cursor Position: 754 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: tolower(c);
+SacreBLEU score 1: 5.830425236335824 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 12 
+First element of precision: 60.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: tolower(c);
+SacreBLEU score 2: 5.830425236335824 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 12 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.22
+
+Received response with candidate 3: tolower(c);
+SacreBLEU score 3: 5.830425236335824 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 12 
+First element of precision: 60.0 
+SequenceMatcher Score 3: 0.22
+
+Actual result: (c>='A'&&c<='Z')
+
+Parse State: 165	Cursor Position: 754 11
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression', ' CONSTANT', ' int', ' long', ' sizeof ( type_name )', ' void', ' NAME TYPE', ' *', ' unsigned', ' char', ' struct', ' !', ' const', ' STRING_LITERAL', ' &', ' sizeof unary_expression', ' -', ' double', ' ~', ' ( type_name ) { initializer_list option_comma }', ' signed', ' -- unary_expression', ' union', ' ++ unary_expression', ' _Alignof ( type_name )', ' float', ' short']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: tolower(c);
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: return c + 32;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: (char)(c + 32);
+SacreBLEU score 3: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 3: 0.12
+
+Actual result: c
+
+Parse State: 154	Cursor Position: 754 13
+Candidates List: [' >', ' <', ' <=', ' >=']
+
+Top One to Three Candidates: [' >', ' <', ' <=']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c
+                    '>'
+                    Complete the '>' part of the code in the C11 programming language. Just show your answer in place of '>.'
+                    
+Received response with candidate 1: {
+    if (c >= 'A' && c <= 'Z') {
+        return c + ('a' - 'A');
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 1: 2.319942766993901 Counts: [2, 1, 0, 0] Totals: [32, 31, 30, 29] Precisions: [6.25, 3.225806451612903, 1.6666666666666667, 0.8620689655172413] System length: 32 Reference length: 2 
+First element of precision: 6.25 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: {
+    if (c >= 'A' && c <= 'Z') {
+        return c + 32;
+    } else {
+        return c;
+    }
+}
+SacreBLEU score 2: 2.6707068119098882 Counts: [2, 1, 0, 0] Totals: [28, 27, 26, 25] Precisions: [7.142857142857143, 3.7037037037037037, 1.9230769230769231, 1.0] System length: 28 Reference length: 2 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: <= 'Z' ? c + 32 : c;
+SacreBLEU score 3: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 2 
+First element of precision: 10.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: >=
+
+Parse State: 252	Cursor Position: 754 16
+Candidates List: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' NAME VARIABLE', ' -', ' sizeof ( type_name )', ' sizeof unary_expression', ' *', ' &']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >=
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT.'
+                    
+Received response with candidate 1: 'a'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: return (c >= 'A' && c <= 'Z') ? (c + 32) : c;
+SacreBLEU score 2: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: (char) (c + 32)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 'A'
+
+Parse State: 159	Cursor Position: 754 20
+Candidates List: [' && inclusive_or_expression']
+
+Top One to Three Candidates: [' && inclusive_or_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A'
+                    '&& inclusive_or_expression'
+                    Complete the '&& inclusive_or_expression' part of the code in the C11 programming language. Just show your answer in place of '&& inclusive_or_expression.'
+                    
+Received response with candidate 1: (c <= 'Z') ? c + 32 : c;
+SacreBLEU score 1: 19.338531381761726 Counts: [4, 3, 2, 1] Totals: [13, 12, 11, 10] Precisions: [30.76923076923077, 25.0, 18.181818181818183, 10.0] System length: 13 Reference length: 6 
+First element of precision: 30.76923076923077 
+SequenceMatcher Score 1: 0.38
+
+Actual result: &&c<='Z'
+
+Parse State: 263	Cursor Position: 754 23
+Candidates List: [' ( expression )', ' NAME VARIABLE', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -- unary_expression', ' -']
+
+Top One to Three Candidates: [' ( expression )', ' NAME VARIABLE', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' &&
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression ).'
+                    
+Received response with candidate 1: return c + 32;
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.13
+
+Received response with candidate 2: return c - 'A' + 'a';
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: c <= 'Z') ? (c + 32) : c;
+}
+SacreBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 3: 0.07
+
+Actual result: c
+
+Parse State: 154	Cursor Position: 754 25
+Candidates List: [' >', ' <', ' <=', ' >=']
+
+Top One to Three Candidates: [' >', ' <', ' <=']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c
+                    '>'
+                    Complete the '>' part of the code in the C11 programming language. Just show your answer in place of '>.'
+                    
+Received response with candidate 1: <= 'Z') ? c + 32 : c;
+}
+SacreBLEU score 1: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: <= 'Z') ? c + 32 : c;
+}
+SacreBLEU score 2: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.16
+
+Received response with candidate 3: <= 'Z' ? c + 32 : c;
+SacreBLEU score 3: 8.392229812593097 Counts: [2, 1, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 11.11111111111111, 6.25, 3.5714285714285716] System length: 10 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.18
+
+Actual result: <=
+
+Parse State: 252	Cursor Position: 754 28
+Candidates List: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' NAME VARIABLE', ' -', ' sizeof ( type_name )', ' sizeof unary_expression', ' *', ' &']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <=
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT.'
+                    
+Received response with candidate 1: 'Z'
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: '(c >= 'A' && c <= 'Z') ? c + 32 : c'
+SacreBLEU score 2: 2.0244462660665508 Counts: [1, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 1 
+First element of precision: 5.2631578947368425 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: (char)(c + 32)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 'Z'
+
+Parse State: 267	Cursor Position: 754 31
+Candidates List: [' )', ' , assignment_expression']
+
+Top One to Three Candidates: [' )', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z'
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ? c + 32 : c;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: ? c + 32 : c;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Actual result: )
+
+Parse State: 160	Cursor Position: 754 33
+Candidates List: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+Top One to Three Candidates: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z')
+                    '? expression : conditional_expression'
+                    Complete the '? expression : conditional_expression' part of the code in the C11 programming language. Just show your answer in place of '? expression : conditional_expression.'
+                    
+Received response with candidate 1: return c + 32;
+SacreBLEU score 1: 14.320952289897704 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 7 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.15
+
+Received response with candidate 2: || (c >= 'a' && c <= 'z')
+SacreBLEU score 2: 3.737437943747671 Counts: [3, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 7 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score 2: 0.32
+
+Actual result: ?c+='a'-'A':c
+
+Parse State: 265	Cursor Position: 754 35
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' STRING_LITERAL', ' &', ' -', ' ~', ' *', ' !', ' ++ unary_expression', ' sizeof unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ?
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: c + 32
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: c + 32;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: c + 32;
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.25
+
+Actual result: c
+
+Parse State: 181	Cursor Position: 754 37
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer in place of '=.'
+                    
+Received response with candidate 1: : c + 32;
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: - ('A' - 'a')
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: c |= 32;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.20
+
+Actual result: +=
+
+Parse State: 279	Cursor Position: 754 40
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c +=
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 32
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 32
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (c - 'A' + 'a');
+SacreBLEU score 3: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 3: 0.32
+
+Actual result: 'a'
+
+Parse State: 152	Cursor Position: 754 44
+Candidates List: [' +', ' -']
+
+Top One to Three Candidates: [' +', ' -']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a'
+                    '+'
+                    Complete the '+' part of the code in the C11 programming language. Just show your answer in place of '+.'
+                    
+Received response with candidate 1:  - 'A' + 'a'
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.15
+
+Received response with candidate 2: - 'A' : 'a';
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.15
+
+Actual result: -
+
+Parse State: 246	Cursor Position: 754 46
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' sizeof unary_expression', ' sizeof ( type_name )', ' ( type_name ) cast_expression', ' *', ' !', ' ++ unary_expression', ' &']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' -
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer in place of 'CONSTANT.'
+                    
+Received response with candidate 1: 'A' 
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.86
+
+Received response with candidate 2: (c - 'A' + 'a')
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.33
+
+Received response with candidate 3: 'A'.
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.86
+
+Actual result: 'A'
+
+Parse State: 366	Cursor Position: 754 50
+Candidates List: [' : conditional_expression', ' , assignment_expression']
+
+Top One to Three Candidates: [' : conditional_expression', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A'
+                    ': conditional_expression'
+                    Complete the ': conditional_expression' part of the code in the C11 programming language. Just show your answer in place of ': conditional_expression.'
+                    
+Received response with candidate 1: ? c + ('a' - 'A') : c;
+SacreBLEU score 1: 7.495553473355842 Counts: [2, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [18.181818181818183, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 2 
+First element of precision: 18.181818181818183 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: c += 'a' - 'A'
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.12
+
+Actual result: :c
+
+Parse State: 431	Cursor Position: 754 52
+Candidates List: [' ( expression )', ' NAME VARIABLE', ' CONSTANT', ' ( type_name ) cast_expression', ' *', ' STRING_LITERAL', ' &', ' -', ' ~', ' !', ' sizeof ( type_name )', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' ( expression )', ' NAME VARIABLE', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' :
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression ).'
+                    
+Received response with candidate 1: c;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: return c;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: c.toLocaleLowerCase()
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: c
+
+Parse State: 415	Cursor Position: 754 53
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    char a = 'A';
+
+  putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' : c
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer in place of ';.'
+                    
+Received response with candidate 1: + ('a' - 'A');
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.13
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 755 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    putchar(lower(a));
+
+  return 0;
+}
+
+char lower(char c)
+{
+  return (c >= 'A' && c <= 'Z') ? c += 'a' - 'A' : c;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer in place of '}.'
+                    
+Received response with candidate 1: } : c;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: my_char
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return c;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
