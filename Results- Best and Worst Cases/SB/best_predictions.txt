@@ -1,0 +1,621 @@
+09_While
+Parse State: 6
+Cursor Position: 4 11
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: = number / 2
+SacreBLEU score 1: 100.00000000000004 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 4 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.96
+
+Received response with candidate 2: = number - 1
+SacreBLEU score 2: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: = Math.Floor(number / 2)
+SacreBLEU score 3: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 4 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score 3: 0.65
+Actual result: = number / 2
+
+09_While
+Parse State: 83
+Cursor Position: 3 23
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: number
+
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.86
+
+Received response with candidate 2: 
+number
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.86
+
+Received response with candidate 3: TextWindow.WriteLine(number + ", ")
+number = number / 2
+SacreBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 3: 0.23
+Actual result: number
+
+09_While
+Parse State: 88
+Cursor Position: 4 4
+Candidates List: [' ID = Expr', ' ID Idxs = Expr', ' ID.ID ( Exprs )', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' ID.ID = Expr', ' ID ( )', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Goto ID', ' While Expr CRStmtCRs EndWhile', ' ID :']
+
+Top One to Three Candidates: [' ID = Expr', ' ID Idxs = Expr', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number)
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: number = number / 2
+SacreBLEU score 1: 100.00000000000004 Counts: [5, 4, 3, 2] Totals: [5, 4, 3, 2] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 5 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.97
+
+Received response with candidate 2: ID Idxs = number / 2
+SacreBLEU score 2: 50.81327481546149 Counts: [4, 3, 2, 1] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 60.0, 50.0, 33.333333333333336] System length: 6 Reference length: 5 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.70
+
+Received response with candidate 3: TextWindow.WriteLine(number)
+number = number / 2
+SacreBLEU score 3: 35.08439695638686 Counts: [5, 4, 3, 2] Totals: [11, 10, 9, 8] Precisions: [45.45454545454545, 40.0, 33.333333333333336, 25.0] System length: 11 Reference length: 5 
+First element of precision: 45.45454545454545 
+SequenceMatcher Score 3: 0.56
+Actual result: number = number / 2
+
+09_While
+Parse State: 51
+Cursor Position: 4 22
+Candidates List: [' NUM', ' ID', ' ( Expr )', ' ID.ID ( Exprs )', ' ID Idxs', ' ID.ID', ' - Primary']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ( Expr )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    number = 100 
+While (number > 1)   
+	TextWindow.WriteLine(number) 
+  	number = number /
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 2
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: number = number / 2
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.19
+
+Received response with candidate 3: (number, 2)
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.31
+Actual result: 2
+
+24_Event
+Parse State: 103
+Cursor Position: 6 39
+Candidates List: [' NUM', ' ID', ' STR', ' ID Idxs', ' ID.ID ( Exprs )', ' - Primary', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BrushColor = "Blue" 
+GraphicsWindow.MouseDown = OnMouseDown 
+Sub OnMouseDown
+	x = GraphicsWindow.MouseX - 10   
+	y = GraphicsWindow.MouseY - 10   
+	GraphicsWindow.FillEllipse(x, y, 20,
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 20
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: GraphicsWindow.FillEllipse(x, y, 20, 20)
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.14
+
+Received response with candidate 3: "20, 20')"
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.46
+Actual result: 20
+
+19_Fractal
+Parse State: 42
+Cursor Position: 15 10
+Candidates List: [' NUM', ' STR', ' ID', ' ID Idxs', ' ID.ID', ' ID.ID ( Exprs )', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' NUM', ' STR', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "Black" 
+x = 100 
+y = 100  
+
+For i = 1 To 100000   
+	r = Math.GetRandomNumber(3)   
+	ux = 150   
+	uy = 30   
+
+	If (r = 1) then     
+		ux = 30     
+		uy = 1000   
+	EndIf      
+
+	If (r =
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 2
+                    Then     
+		x = x + ux   
+		y = y + uy   
+		GraphicsWindow.DrawEllipse(x, y, 20, 20)   
+		Sleep(100)   
+	EndIf  
+
+EndFor
+SacreBLEU score 1: 1.2414943415352928 Counts: [1, 0, 0, 0] Totals: [30, 29, 28, 27] Precisions: [3.3333333333333335, 1.7241379310344827, 0.8928571428571429, 0.46296296296296297] System length: 30 Reference length: 1 
+First element of precision: 3.3333333333333335 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: 2
+                    'STR'
+                    
+                    If (r = 2) then     
+                        ux = 100     
+                        uy = 300   
+                    EndIf 
+
+                    If (r = 3) then     
+                        ux = 200     
+                        uy = 500   
+                    EndIf 
+
+                    GraphicsWindow.DrawEllipse(x, y, ux,
+SacreBLEU score 2: 0.918708060432945 Counts: [1, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783] System length: 40 Reference length: 1 
+First element of precision: 2.5 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: 2
+            GraphicsWindow.DrawLine(x, y, x + ux, y + uy)   
+        ElseIf (r = 3) then     
+            GraphicsWindow.DrawLine(x, y, x - ux, y - uy)   
+        EndIf     
+        x = x + ux   
+        y = y + uy   
+    EndFor
+SacreBLEU score 3: 0.7002773917100699 Counts: [1, 0, 0, 0] Totals: [52, 51, 50, 49] Precisions: [1.9230769230769231, 0.9803921568627451, 0.5, 0.25510204081632654] System length: 52 Reference length: 1 
+First element of precision: 1.9230769230769231 
+SequenceMatcher Score 3: 0.01
+Actual result: 2
+
+05_If
+Parse State: 87
+Cursor Position: 6 1
+Candidates List: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' EndIf', ' Else CRStmtCRs EndIf', ' ElseIf Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >= 12) Then   
+	TextWindow.WriteLine("Good Evening World")
+                    'EndIf'
+                    Complete the 'EndIf' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'EndIf.'
+                    
+Received response with candidate 1: EndIf
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.91
+
+Received response with candidate 2: Else   
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: ElseIf (Clock.Hour >= 18) Then   
+	TextWindow.WriteLine("Good night World")
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.07
+Actual result: EndIf
+
+05_If
+Parse State: 47
+Cursor Position: 4 19
+Candidates List: [' NUM', ' ID', ' ID Idxs', ' - Primary', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    If (Clock.Hour < 12) Then   
+	TextWindow.WriteLine("Good Morning World") 
+EndIf
+If (Clock.Hour >=
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 12
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 12
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: If (Clock.Hour >= 12) Then
+	TextWindow.WriteLine("Good Afternoon World")
+EndIf
+SacreBLEU score 3: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 3: 0.07
+Actual result: 12
+
+04_Temperature
+Parse State: 49
+Cursor Position: 3 23
+Candidates List: [' NUM', ' ID', ' ID Idxs', ' ( Expr )', ' ID.ID ( Exprs )', ' ID.ID', ' STR']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    TextWindow.Write("Enter temperature in Fahrenheit: ") 
+fahr = TextWindow.ReadNumber() 
+celsius = 5 * (fahr -
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 32
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 32
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: (fahr - 32) / 9
+SacreBLEU score 3: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.33
+Actual result: 32
+
+23_MultiDimArray
+Parse State: 32
+Cursor Position: 14 52
+Candidates List: [' NUM', ' ID', ' STR', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' NUM', ' ID', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    friends["Rob"]["Name"] = "Robert" 
+friends["Rob"]["Phone"] = "555-6789"  
+
+friends["VJ"]["Name"] = "Vijaye" 
+friends["VJ"]["Phone"] = "555-4567"  
+
+friends["Ash"]["Name"] = "Ashley" 
+friends["Ash"]["Phone"] = "555-2345"  
+
+TextWindow.Write("Enter the nickname: ") 
+nickname = TextWindow.Read()  
+
+TextWindow.WriteLine("Name: " + friends[nickname]["Name"]) 
+TextWindow.WriteLine("Phone: " + friends[nickname][
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: "Phone"
+SacreBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.93
+
+Received response with candidate 2: "Phone"
+SacreBLEU score 2: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.93
+
+Received response with candidate 3: "Phone"
+SacreBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.93
+Actual result: "Phone"
+
+18_Random
+Parse State: 89
+Cursor Position: 5 27
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' ( Expr )', ' ID.ID ( Exprs )', ' ID.ID', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: 480
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.86
+
+Received response with candidate 2: 480
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.86
+
+Received response with candidate 3: 480
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.86
+Actual result: 480
+
+18_Random
+Parse State: 103
+Cursor Position: 6 39
+Candidates List: [' NUM', ' ID', ' STR', ' ID Idxs', ' ID.ID ( Exprs )', ' - Primary', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "Black" 
+For i = 1 To 1000   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()   
+	x = Math.GetRandomNumber(640)   
+	y = Math.GetRandomNumber(480)   
+	GraphicsWindow.FillEllipse(x, y, 10,
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 10
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: GraphicsWindow.FillEllipse(x, y, 10, 10)
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.14
+
+Received response with candidate 3: "10, 10)"
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.50
+Actual result: 10
+
+25_Events
+Parse State: 49
+Cursor Position: 11 30
+Candidates List: [' NUM', ' ID', ' ID Idxs', ' ( Expr )', ' ID.ID ( Exprs )', ' ID.ID', ' STR']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID Idxs']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BrushColor = "Blue" 
+GraphicsWindow.MouseDown = OnMouseDown 
+GraphicsWindow.KeyDown = OnKeyDown 
+
+Sub OnKeyDown   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor() 
+EndSub 
+
+Sub OnMouseDown   
+	x = GraphicsWindow.MouseX - 10   
+	y = GraphicsWindow.MouseY -
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 10
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 20
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.40
+
+Received response with candidate 3: y = GraphicsWindow.MouseY - 10
+
+For i = 1 To ID Idxs
+    GraphicsWindow.FillEllipse(x, y, 20, 20)
+    x = x + 30
+EndFor
+SacreBLEU score 3: 1.1599713834969503 Counts: [1, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 1 
+First element of precision: 3.125 
+SequenceMatcher Score 3: 0.05
+Actual result: 10
+
+25_Events
+Parse State: 103
+Cursor Position: 12 39
+Candidates List: [' NUM', ' ID', ' STR', ' ID Idxs', ' ID.ID ( Exprs )', ' - Primary', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BrushColor = "Blue" 
+GraphicsWindow.MouseDown = OnMouseDown 
+GraphicsWindow.KeyDown = OnKeyDown 
+
+Sub OnKeyDown   
+	GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor() 
+EndSub 
+
+Sub OnMouseDown   
+	x = GraphicsWindow.MouseX - 10   
+	y = GraphicsWindow.MouseY - 10   
+	GraphicsWindow.FillEllipse(x, y, 20,
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 20
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 20, "Red") 
+EndSub
+
+The 'ID' part of the code should be completed with the following line of code:
+
+"30, 30"
+SacreBLEU score 2: 1.3353534059549443 Counts: [1, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5] System length: 28 Reference length: 1 
+First element of precision: 3.5714285714285716 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: 20, 20)
+EndSub 
+The completed code in Microsoft Small Basic programming language is:
+20, 20, "Blue")
+SacreBLEU score 3: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 3: 0.06
+Actual result: 20
+
+03_Variables
+Parse State: 48
+Cursor Position: 3 33
+Candidates List: [' ID', ' NUM', ' STR', ' ID Idxs', ' ( Expr )', ' ID.ID ( Exprs )', ' ID.ID', ' - Primary']
+
+Top One to Three Candidates: [' ID', ' NUM', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    TextWindow.Write("Enter your Name: ") 
+name = TextWindow.Read() 
+TextWindow.WriteLine("Hello " +
+                    'ID'
+                    Complete the 'ID' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID.'
+                    
+Received response with candidate 1: name
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.89
+
+Received response with candidate 2: name
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.89
+
+Received response with candidate 3: name
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.89
+Actual result: name
+
+16_Ellipse
+Parse State: 103
+Cursor Position: 6 42
+Candidates List: [' NUM', ' ID', ' STR', ' ID Idxs', ' ID.ID ( Exprs )', ' - Primary', ' ( Expr )', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' STR']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.Width = 400 
+GraphicsWindow.Height = 300  
+GraphicsWindow.PenColor = "Red" 
+GraphicsWindow.DrawEllipse(20, 20, 300, 60)  
+GraphicsWindow.BrushColor = "Green" 
+GraphicsWindow.FillEllipse(60, 100, 300,
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 60
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: 60
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.80
+
+Received response with candidate 3: STR: 80
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.40
+Actual result: 60
+
+21_Array
+Parse State: 95
+Cursor Position: 6 14
+Candidates List: [' NUM', ' ID', ' ID.ID ( Exprs )', ' ID Idxs', ' ( Expr )', ' - Primary', ' ID.ID']
+
+Top One to Three Candidates: [' NUM', ' ID', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    For i = 1 To 5   
+	TextWindow.Write("User" + i + ", enter name: ")   
+	name[i] = i
+EndFor  
+TextWindow.Write("Hello ") 
+For i = 1 To
+                    'NUM'
+                    Complete the 'NUM' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'NUM.'
+                    
+Received response with candidate 1: 5
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: 5
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: 5
+TextWindow.Write(name[i] + ", ")  
+EndFor
+SacreBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 3: 0.04
+Actual result: 5
+
