@@ -26,6 +26,9 @@ def metric_to_dataframe(file_path):
     current_candidate_list_length = None
     scores = []
     
+    # number of metrics 
+    num_of_metrics = 18
+    
     # Read the input file line by line
     with open(file_path, 'r', encoding='utf-8') as file:
         for line in file:
@@ -34,13 +37,15 @@ def metric_to_dataframe(file_path):
             # Parse lines starting with 'Candidate List: '
             if line.startswith('Candidate List: '):
                 # Add previous data block to the list
-                if current_candidate_list_length is not None and len(scores) == 18:
+                if current_candidate_list_length is not None and len(scores) == num_of_metrics:
                     data.append([current_candidate_list_length] + scores)
                 
                 # Extract the candidate list length
                 candidate_list_str = line.split('Candidate List: ')[1]
                 candidate_list = literal_eval(candidate_list_str)
-                current_candidate_list_length = len(candidate_list)
+                
+                current_candidate_list_length = len(candidate_list)//2  # For SB
+                #current_candidate_list_length = len(candidate_list)
                 
                 # Reset the scores list for the new block
                 scores = []
@@ -61,12 +66,12 @@ def metric_to_dataframe(file_path):
                 scores.append(sequence_matcher_score)
             
                 # Save data when 18 scores are accumulated
-                if len(scores) == 18:
+                if len(scores) == num_of_metrics:
                     data.append([current_candidate_list_length] + scores)
                     scores = []
     
     # Add the last block of data if it exists
-    if current_candidate_list_length is not None and len(scores) == 18:
+    if current_candidate_list_length is not None and len(scores) == num_of_metrics:
         data.append([current_candidate_list_length] + scores)
     
     # Define column names for the DataFrame
@@ -111,8 +116,10 @@ def save_metrics_to_csv(input_dir, output_dir):
 # output_directory = './Result Analysis/C11/CSV'  # Output directory path for CSV files
 
 # Specify input and output directories for SmallBasic   
-input_directory = './Result Analysis/SB'  # 입력 디렉토리 경로
-output_directory = './Result Analysis/SB/CSV'  # 출력 CSV 저장 디렉토리 경로
+# In the case of Small Basic, the candidate length becomes twice as much, so it needs to be divided by 2.
+# Check the code and execute it.
+input_directory = './Result_Analysis_20241026/SB'  # Input directory path
+output_directory = './Result_Analysis_20241026/SB/CSV'  # Output directory path for CSV files
 
 save_metrics_to_csv(input_directory, output_directory)
 

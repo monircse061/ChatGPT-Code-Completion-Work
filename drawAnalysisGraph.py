@@ -1,102 +1,122 @@
 #!/usr/bin/env python
 # coding: utf-8
-# This program analyzes precision comparison data based on the length of candidate lists 
-# and visualizes the results using line graphs.
 
 import pandas as pd
 
-#df = pd.read_csv("./Result Analysis/C11/CSV/combined.csv", sep=",")
-#df = pd.read_csv("./Result Analysis/SB/CSV/combined.csv", sep=",")
-#df
+# Load the first dataset (metrics for precision1 and precision4)
+metric6_df = pd.read_csv("./Result Analysis/C11/CSV/combined.csv", sep=",")
+# metric6_df = pd.read_csv("./Result Analysis/SB/CSV/combined.csv", sep=",")  # For SB
+# Replace spaces in column names with underscores for easier access
+metric6_df.columns = metric6_df.columns.str.replace(' ', '_')
 
-# Prompt the user to input the file path
-file_path = input("Enter the file path for the CSV file: ")
 
-# Load the CSV file
-try:
-    df = pd.read_csv(file_path, sep=",")
-except FileNotFoundError:
-    print("File not found. Please check the file path and try again.")
-    exit()
+# Count comparisons between precision1 and precision4
+count1 = metric6_df[(metric6_df['precision1'] > metric6_df['precision4'])].shape[0]
+count2 = metric6_df[(metric6_df['precision1'] == metric6_df['precision4'])].shape[0]
+count3 = metric6_df[(metric6_df['precision1'] < metric6_df['precision4'])].shape[0]
+print(count1,count2,count3)
+
+
+# Load the second dataset (metrics for Top3 precision values)
+top3_df = pd.read_csv("./Result_with_T3/C11/CSV/combined.csv", sep=",")
+# top3_df = pd.read_csv("./Result_with_T3/SB/CSV/combined.csv", sep=",")  # For SB
+top3_df.columns = top3_df.columns.str.replace(' ', '_')
+
+# Create a new column "precisionMAX" as the maximum value among precision1, precision2, and precision3
+top3_df['precisionMAX'] = top3_df[['precision1', 'precision2', 'precision3']].max(axis=1, skipna=True)
+
+# Rename the "precision1" column in top3_df to "precisionTop1" for clarity
+top3_df = top3_df.rename(columns={'precision1': 'precisionTop1'})
+
+# Combine the two datasets by selecting relevant columns from both
+result_df = pd.concat(
+    [metric6_df[['name', 'Candidate_List_length', 'precision1', 'precision4']], top3_df[['precisionTop1','precisionMAX']]],
+    axis=1
+)
+
+# Rename the "precision4" column in the combined dataset to "precisionWithout" for clarity
+result_df = result_df.rename(columns={'precision4': 'precisionWithout'})
+# Display the combined dataset
+result_df
+
+# Calculate and display the mean of each column in the combined dataset
+result_mean = result_df.mean()
+print(result_mean)
+
+# Function to count comparisons by Candidate_List_length
+def count_comparisons_by_candidate_length(df, col1, col2):
+    """
+    Counts how many times col1 > col2, col1 == col2, and col1 < col2 for each Candidate_List_length.
+
+    Parameters:
+        df (DataFrame): Input DataFrame containing the data.
+        col1 (str): First column for comparison.
+        col2 (str): Second column for comparison.
+
+    Returns:
+        DataFrame: Results with counts of comparisons grouped by Candidate_List_length.
+    """    
     
+    results = []
     
-# Replace spaces in column names with underscores
-df.columns = df.columns.str.replace(' ', '_')
-df
-
-
-# Function to count comparisons by candidate list length
-# def count_comparisons_by_candidate_length(df):
-#     # List to store the results
-#     results = []
-    
-#     # Loop through all lengths up to the maximum value of Candidate_List_length
-#     max_length = df['Candidate_List_length'].max()
-#     for i in range(1, max_length + 1):
-#         # Filter data where Candidate_List_length equals i
-#         subset = df[df['Candidate_List_length'] == i]
+    # Loop through each Candidate_List_length value
+    max_length = df['Candidate_List_length'].max()
+    for i in range(1, max_length + 1):
+        # Filter rows with the current Candidate_List_length
+        subset = df[df['Candidate_List_length'] == i]
         
-#         # Count comparisons based on conditions
-#         count_greater = (subset['precision1'] > subset['precision4']).sum()
-#         count_equal = (subset['precision1'] == subset['precision4']).sum()
-#         count_smaller = (subset['precision1'] < subset['precision4']).sum()
+        # Count occurrences for each comparison condition
+        count_greater = (subset[col1] > subset[col2]).sum()
+        count_equal = (subset[col1] == subset[col2]).sum()
+        count_smaller = (subset[col1] < subset[col2]).sum()
         
-#         # Store the results
-#         results.append({
-#             'Candidate_List_length': i,
-#             'with_guide_greater': count_greater,
-#             'with_guide_equal': count_equal,
-#             'with_guide_smaller': count_smaller
-#         })
+        # Append the results to the list
+        results.append({
+            'Candidate_List_length': i,
+            'with_guide_greater': count_greater,
+            'with_guide_equal': count_equal,
+            'with_guide_smaller': count_smaller
+        })
     
-#     # Convert results to a DataFrame
-#     result_df = pd.DataFrame(results)
-#     return result_df
-
-# Example usage
-# comparison_df = count_comparisons_by_candidate_length(df)
-# comparison_df
-
-
-# Summing the columns of the comparison DataFrame
-# column_sums = comparison_df.sum()
-# column_sums
-
-
-# Create a new DataFrame by filtering rows where precision1 > precision4
-with_guide_greater_df = df[df['precision1'] > df['precision4']]
-
-# Group by Candidate_List_length
-count_by_length1 = with_guide_greater_df.groupby('Candidate_List_length').size()
-count_by_length1
-
-# Create a new DataFrame by filtering rows where precision1 == precision4
-with_guide_equal_df = df[df['precision1'] == df['precision4']]
-
-count_by_length2 = with_guide_equal_df.groupby('Candidate_List_length').size()
-count_by_length2
-
-# Create a new DataFrame by filtering rows where precision1 < precision4
-with_guide_smaller_df = df[df['precision1'] < df['precision4']]
-
-count_by_length3 = with_guide_smaller_df.groupby('Candidate_List_length').size()
-count_by_length3
+    # Convert the results list to a DataFrame and return
+    result_df = pd.DataFrame(results)
+    return result_df
 
 
 import matplotlib.pyplot as plt
 
-# Plot line graphs
-plt.figure(figsize=(12, 6))
-plt.plot(count_by_length1.index, count_by_length1.values, marker='o', linestyle='-', color='b', label='with a guide > without a guide')
-plt.plot(count_by_length2.index, count_by_length2.values, marker='o', linestyle='-', color='g', label='with a guide = without a guide')
-plt.plot(count_by_length3.index, count_by_length3.values, marker='o', linestyle='-', color='r', label='with a guide < without a guide')
+# Function to plot comparison results by Candidate_List_length
+def plot_by_candidate_list_length(df):
 
-# Add graph title and labels
-plt.title('Comparison between guided precision and unguided precision by number of candidates')
-plt.xlabel('Candidate_List_length')
-plt.ylabel('Count')
-plt.legend()
-plt.grid(True)
-plt.show()
+    plt.figure(figsize=(12, 6))
+    # Plot each comparison type with a unique style and color
+    plt.plot(df['Candidate_List_length'], df['with_guide_greater'], marker='^', linestyle='-', color='b', label='with guide > without guide')
+    plt.plot(df['Candidate_List_length'], df['with_guide_equal'], marker='o', linestyle='--', color='g', label='with guide = without guide')
+    plt.plot(df['Candidate_List_length'], df['with_guide_smaller'], marker='v', linestyle=':', color='r', label='with guide < without guide')
+    
+    # Add labels, title, legend, and grid
+    plt.title('Comparison between guided precision and unguided precision by number of candidates(C11)')
+    plt.xlabel('the length of candidates list')
+    plt.ylabel('Count')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+    
+    # Display the plot
+    plt.show()
+    
+# Example 1: Ideal candidate (precision1) vs Without (precisionWithout)
+comparison_df = count_comparisons_by_candidate_length(result_df, 'precision1', 'precisionWithout')
+print(comparison_df)
 
+plot_by_candidate_list_length(comparison_df)
 
+# Example 2: MAX candidate (precisionMAX) vs Without (precisionWithout)
+comparison_df = count_comparisons_by_candidate_length(result_df, 'precisionMAX', 'precisionWithout')
+print(comparison_df)
+plot_by_candidate_list_length(comparison_df)
+
+# Example 3: Top1 candidate (precisionTop1) vs Without (precisionWithout)
+comparison_df = count_comparisons_by_candidate_length(result_df, 'precisionTop1', 'precisionWithout')
+print(comparison_df)
+plot_by_candidate_list_length(comparison_df)
