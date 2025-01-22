@@ -1,0 +1,115 @@
+Parse State: 0	Cursor Position: 1 1
+Candidates List: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )', ' ID ( )', ' ID :', ' ID Idxs = Expr', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Sub ID CRStmtCRs EndSub', ' While Expr CRStmtCRs EndWhile', ' Goto ID', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: Unfortunately, as an AI text-based model, I am unable to showcase the complete code in the Small Basic language. If you provide me with more specific details on the intended outcome or purpose of the code, I can certainly assist you further in completing the code. Let me know if you need help with anything else!
+SacreBLEU score 1: 0.5844855918911488 Counts: [1, 0, 0, 0] Totals: [62, 61, 60, 59] Precisions: [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661] System length: 62 Reference length: 5 
+First element of precision: 1.6129032258064515 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: Sorry, I can't provide the specific answer without more context or details about the code. Can you please provide more information or describe what you are looking for in the code?
+SacreBLEU score 2: 1.0885011049519644 Counts: [1, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 5 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: 'ID.ID(Exprs)'
+SacreBLEU score 3: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 5 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 3: 0.15
+
+Actual result:  GraphicsWindow . Show ( )
+
+Parse State: 6	Cursor Position: 1 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .DrawEllipse(50, 50, 100, 80)
+SacreBLEU score 1: 4.9323515694897075 Counts: [3, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 4 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: .GraphicsWindow.DrawLine(10, 10, 100, 100)
+SacreBLEU score 2: 4.065425428798724 Counts: [3, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [23.076923076923077, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 4 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: [ Expr ] = .Show()
+SacreBLEU score 3: 34.57207846419409 Counts: [4, 3, 2, 1] Totals: [8, 7, 6, 5] Precisions: [50.0, 42.857142857142854, 33.333333333333336, 20.0] System length: 8 Reference length: 4 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.55
+
+Actual result:  . Show ( )
+
+Parse State: 30	Cursor Position: 1 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: GraphicsWindow.DrawRectangle(100, 100, 50, 50)
+SacreBLEU score 1: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 3 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: ID = 100
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.24
+
+Actual result:  Show ( )
+
+Parse State: 58	Cursor Position: 1 20
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.Show
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: (200, 200)
+SacreBLEU score 1: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.43
+
+Received response with candidate 2: 'GraphicsWindow.Width = 800'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.12
+
+Actual result:  ( )
+
+Parse State: 92	Cursor Position: 1 21
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.Show(
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: ) "Hello, World!"
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.11
+
+Actual result:  )
+

@@ -1,0 +1,746 @@
+Parse State: 0	Cursor Position: 1 1
+Candidates List: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )', ' ID ( )', ' ID :', ' ID Idxs = Expr', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' Sub ID CRStmtCRs EndSub', ' While Expr CRStmtCRs EndWhile', ' Goto ID', ' If Expr Then CRStmtCRs MoreThanZeroElseIf']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID = Expr', ' ID.ID ( Exprs )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: I'm sorry, but you have not provided enough context for me to accurately complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Please provide more information or context so that I can assist you better.
+SacreBLEU score 1: 0.9668670750672484 Counts: [2, 0, 0, 0] Totals: [45, 44, 43, 42] Precisions: [4.444444444444445, 1.1363636363636365, 0.5813953488372093, 0.2976190476190476] System length: 45 Reference length: 7 
+First element of precision: 4.444444444444445 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: Sorry, I cannot complete the code without additional context or information. Could you please provide more details or specific instructions on what you want the code to do?
+SacreBLEU score 2: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 7 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: Sorry, but I need more context or details to provide the specific completion for the 'ID.ID ( Exprs )' part of the code in Microsoft Small Basic programming language.
+Please provide additional information or clarify the question for me to assist further.
+SacreBLEU score 3: 0.7605497822189857 Counts: [1, 0, 0, 0] Totals: [48, 47, 46, 45] Precisions: [2.0833333333333335, 1.0638297872340425, 0.5434782608695652, 0.2777777777777778] System length: 48 Reference length: 7 
+First element of precision: 2.0833333333333335 
+SequenceMatcher Score 3: 0.09
+
+Actual result:  GraphicsWindow . BackgroundColor = "SteelBlue"
+
+Parse State: 6	Cursor Position: 1 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: 'GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)'
+SacreBLEU score 1: 9.78237574896145 Counts: [3, 2, 1, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 14.285714285714286, 7.6923076923076925, 4.166666666666667] System length: 15 Reference length: 6 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.39
+
+Received response with candidate 2: .ID(100, 100, 50, 50)
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 6 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: [ Expr ] = .DrawLine(10, 10, 100, 100)
+SacreBLEU score 3: 3.1251907639724417 Counts: [2, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [13.333333333333334, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 6 
+First element of precision: 13.333333333333334 
+SequenceMatcher Score 3: 0.17
+
+Actual result:  . BackgroundColor = "SteelBlue"
+
+Parse State: 30	Cursor Position: 1 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: GraphicsWindow.Show()
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 5 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: 'ID = Expr' should be completed as 'GraphicsWindow.BackgroundColor = "Blue"'
+SacreBLEU score 2: 10.511846841633776 Counts: [4, 2, 1, 0] Totals: [15, 14, 13, 12] Precisions: [26.666666666666668, 14.285714285714286, 7.6923076923076925, 4.166666666666667] System length: 15 Reference length: 5 
+First element of precision: 26.666666666666668 
+SequenceMatcher Score 2: 0.47
+
+Actual result:  BackgroundColor = "SteelBlue"
+
+Parse State: 58	Cursor Position: 1 32
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 4 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: = "Pink"
+SacreBLEU score 2: 35.35533905932737 Counts: [3, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score 2: 0.36
+
+Actual result:  = "SteelBlue"
+
+Parse State: 82	Cursor Position: 1 34
+Candidates List: [' STR', ' NUM', ' ID', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' STR', ' NUM', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor =
+                    'STR'
+                    Complete the 'STR' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'STR.'
+                    
+Received response with candidate 1: GraphicsWindow.BackgroundColor = "Blue"
+SacreBLEU score 1: 7.809849842300637 Counts: [2, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 3 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score 1: 0.27
+
+Received response with candidate 2: GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: 'ID' = "GraphicsWindow.GetColorFromRGB(255, 255, 255)"
+SacreBLEU score 3: 3.377156414337854 Counts: [2, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 3 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.18
+
+Actual result:  "SteelBlue"
+
+Parse State: 3	Cursor Position: 1 46
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue"
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: GraphicsWindow.Width = 800
+GraphicsWindow.Height = 600
+GraphicsWindow.Title = "My Program"
+GraphicsWindow.Clear()
+SacreBLEU score 1: 31.397709384224285 Counts: [19, 13, 8, 5] Totals: [23, 22, 21, 20] Precisions: [82.6086956521739, 59.09090909090909, 38.095238095238095, 25.0] System length: 23 Reference length: 32 
+First element of precision: 82.6086956521739 
+SequenceMatcher Score 1: 0.62
+
+Actual result:  \n GraphicsWindow . Title = "My Graphics Window" \n GraphicsWindow . Width = 320 \n GraphicsWindow . Height = 200 \n GraphicsWindow . Show ( )
+
+Parse State: 11	Cursor Position: 2 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue"
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = GraphicsWindow.Width / 2
+SacreBLEU score 1: 10.923299908191149 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 9 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 1: 0.51
+
+Received response with candidate 2: GraphicsWindow.BrushColor = "White"
+SacreBLEU score 2: 14.759564526951554 Counts: [5, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [71.42857142857143, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 9 
+First element of precision: 71.42857142857143 
+SequenceMatcher Score 2: 0.57
+
+Received response with candidate 3: GraphicsWindow.Width = 800
+SacreBLEU score 3: 10.62372743739878 Counts: [3, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 9 
+First element of precision: 60.0 
+SequenceMatcher Score 3: 0.56
+
+Actual result:  GraphicsWindow . Title = "My Graphics Window"
+
+Parse State: 6	Cursor Position: 2 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .DisplayMessage("Hello World!")
+SacreBLEU score 1: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 8 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.23
+
+Received response with candidate 2: .FillRectangle (20, 20, 100, 50)
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 8 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: .DrawLine(20, 30, 100, 150)
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 8 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.17
+
+Actual result:  . Title = "My Graphics Window"
+
+Parse State: 30	Cursor Position: 2 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+SacreBLEU score 1: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 7 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.37
+
+Received response with candidate 2: GraphicsWindow.Width = 800
+SacreBLEU score 2: 7.16047614494885 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 7 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.51
+
+Actual result:  Title = "My Graphics Window"
+
+Parse State: 58	Cursor Position: 2 22
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: = "My Program Title"
+SacreBLEU score 1: 32.46679154750991 Counts: [4, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.51
+
+Received response with candidate 2: = "My Awesome Program"
+SacreBLEU score 2: 32.46679154750991 Counts: [4, 2, 1, 0] Totals: [6, 5, 4, 3] Precisions: [66.66666666666667, 40.0, 25.0, 16.666666666666668] System length: 6 Reference length: 6 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.40
+
+Actual result:  = "My Graphics Window"
+
+Parse State: 82	Cursor Position: 2 24
+Candidates List: [' STR', ' NUM', ' ID', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' STR', ' NUM', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title =
+                    'STR'
+                    Complete the 'STR' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'STR.'
+                    
+Received response with candidate 1: "Drawing Shapes"
+SacreBLEU score 1: 14.794015674776452 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 5 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.32
+
+Received response with candidate 2: GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Program"
+SacreBLEU score 2: 5.816635421147513 Counts: [3, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 5 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: GraphicsWindow.Title = "Small Basic Program"
+SacreBLEU score 3: 5.669791110976001 Counts: [2, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [22.22222222222222, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 5 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score 3: 0.46
+
+Actual result:  "My Graphics Window"
+
+Parse State: 3	Cursor Position: 2 45
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window"
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: 'CR MoreThanOneStmt'
+GraphicsWindow.DrawRectangle(50, 50, 100, 100) 
+GraphicsWindow.DrawEllipse(150, 150, 50, 75)
+SacreBLEU score 1: 4.521782889827669 Counts: [6, 2, 0, 0] Totals: [26, 25, 24, 23] Precisions: [23.076923076923077, 8.0, 2.0833333333333335, 1.0869565217391304] System length: 26 Reference length: 21 
+First element of precision: 23.076923076923077 
+SequenceMatcher Score 1: 0.40
+
+Actual result:  \n GraphicsWindow . Width = 320 \n GraphicsWindow . Height = 200 \n GraphicsWindow . Show ( )
+
+Parse State: 11	Cursor Position: 3 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window"
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = "GraphicsWindow.Width / 2"
+SacreBLEU score 1: 19.070828081828378 Counts: [4, 2, 1, 0] Totals: [9, 8, 7, 6] Precisions: [44.44444444444444, 25.0, 14.285714285714286, 8.333333333333334] System length: 9 Reference length: 5 
+First element of precision: 44.44444444444444 
+SequenceMatcher Score 1: 0.80
+
+Received response with candidate 2: GraphicsWindow.Show()
+SacreBLEU score 2: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 5 
+First element of precision: 40.0 
+SequenceMatcher Score 2: 0.64
+
+Received response with candidate 3: GraphicsWindow.CanResize = "True"
+SacreBLEU score 3: 14.535768424205482 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 5 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 3: 0.61
+
+Actual result:  GraphicsWindow . Width = 320
+
+Parse State: 6	Cursor Position: 3 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .DrawBoundText("Hello World", 100, 100)
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 4 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.23
+
+Received response with candidate 2: .ID(600, 400)
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: .Visible = "True"
+SacreBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 4 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.32
+
+Actual result:  . Width = 320
+
+Parse State: 30	Cursor Position: 3 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1:  'DrawText("Hello World!", 100, 100)'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: Width = 800
+SacreBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.78
+
+Actual result:  Width = 320
+
+Parse State: 58	Cursor Position: 3 22
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: = 800
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.55
+
+Received response with candidate 2: = 800
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.55
+
+Actual result:  = 320
+
+Parse State: 82	Cursor Position: 3 24
+Candidates List: [' STR', ' NUM', ' ID', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' STR', ' NUM', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width =
+                    'STR'
+                    Complete the 'STR' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'STR.'
+                    
+Received response with candidate 1: 500
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: 800
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: 500
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.29
+
+Actual result:  320
+
+Parse State: 3	Cursor Position: 3 28
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: 
+GraphicsWindow.Height = 240
+SacreBLEU score 1: 11.054202892156725 Counts: [4, 3, 2, 1] Totals: [5, 4, 3, 2] Precisions: [80.0, 75.0, 66.66666666666667, 50.0] System length: 5 Reference length: 14 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.58
+
+Actual result:  \n GraphicsWindow . Height = 200 \n GraphicsWindow . Show ( )
+
+Parse State: 11	Cursor Position: 4 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: GraphicsWindow.Height = 240
+SacreBLEU score 1: 66.87403049764218 Counts: [4, 3, 2, 1] Totals: [5, 4, 3, 2] Precisions: [80.0, 75.0, 66.66666666666667, 50.0] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.91
+
+Received response with candidate 2: Mouse.MouseDown()
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 5 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: GraphicsWindow.Height = 240
+SacreBLEU score 3: 66.87403049764218 Counts: [4, 3, 2, 1] Totals: [5, 4, 3, 2] Precisions: [80.0, 75.0, 66.66666666666667, 50.0] System length: 5 Reference length: 5 
+First element of precision: 80.0 
+SequenceMatcher Score 3: 0.91
+
+Actual result:  GraphicsWindow . Height = 200
+
+Parse State: 6	Cursor Position: 4 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .Height = 240
+SacreBLEU score 1: 59.460355750136046 Counts: [3, 2, 1, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 66.66666666666667, 50.0, 50.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score 1: 0.86
+
+Received response with candidate 2: .ID ( Mouse.MouseDown )
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: .Height = 240
+SacreBLEU score 3: 59.460355750136046 Counts: [3, 2, 1, 0] Totals: [4, 3, 2, 1] Precisions: [75.0, 66.66666666666667, 50.0, 50.0] System length: 4 Reference length: 4 
+First element of precision: 75.0 
+SequenceMatcher Score 3: 0.86
+
+Actual result:  . Height = 200
+
+Parse State: 30	Cursor Position: 4 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: Height = 240
+SacreBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.88
+
+Received response with candidate 2: Height = 240
+SacreBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.88
+
+Actual result:  Height = 200
+
+Parse State: 58	Cursor Position: 4 23
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: = 240
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.73
+
+Received response with candidate 2: = 240
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.73
+
+Actual result:  = 200
+
+Parse State: 82	Cursor Position: 4 25
+Candidates List: [' STR', ' NUM', ' ID', ' ID Idxs', ' ID.ID ( Exprs )', ' ID.ID', ' ( Expr )', ' - Primary']
+
+Top One to Three Candidates: [' STR', ' NUM', ' ID']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height =
+                    'STR'
+                    Complete the 'STR' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'STR.'
+                    
+Received response with candidate 1: GraphicsWindow.Height = 240
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.19
+
+Received response with candidate 2: GraphicsWindow.Height = 240
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.19
+
+Received response with candidate 3: GraphicsWindow.Height = 240
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.19
+
+Actual result:  200
+
+Parse State: 3	Cursor Position: 4 29
+Candidates List: [' CR MoreThanOneStmt']
+
+Top One to Three Candidates: [' CR MoreThanOneStmt']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200
+                    'CR MoreThanOneStmt'
+                    Complete the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'CR MoreThanOneStmt.'
+                    
+Received response with candidate 1: For the 'CR MoreThanOneStmt' part of the code in the Microsoft Small Basic programming language, we could add multiple statements to enhance the functionality of the program. Here is an example:
+
+GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255, 255, 255)
+GraphicsWindow.FillRectangle(50, 50,
+SacreBLEU score 1: 1.5432540117379623 Counts: [4, 1, 0, 0] Totals: [56, 55, 54, 53] Precisions: [7.142857142857143, 1.8181818181818181, 0.9259259259259259, 0.4716981132075472] System length: 56 Reference length: 7 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.14
+
+Actual result:  \n GraphicsWindow . Show ( )
+
+Parse State: 11	Cursor Position: 5 1
+Candidates List: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr', ' Sub ID CRStmtCRs EndSub', ' ID ( )', ' ID Idxs = Expr', ' If Expr Then CRStmtCRs MoreThanZeroElseIf', ' For ID = Expr To Expr OptStep CRStmtCRs EndFor', ' While Expr CRStmtCRs EndWhile', ' ID :', ' Goto ID']
+
+Top One to Three Candidates: [' ID = Expr', ' ID.ID ( Exprs )', ' ID.ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200
+                    'ID = Expr'
+                    Complete the 'ID = Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID = Expr.'
+                    
+Received response with candidate 1: ID = GraphicsWindow.GetMouseX()
+SacreBLEU score 1: 18.575057999133602 Counts: [4, 2, 0, 0] Totals: [7, 6, 5, 4] Precisions: [57.142857142857146, 33.333333333333336, 10.0, 6.25] System length: 7 Reference length: 5 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: DrawRectangle(50, 50, 100, 50)
+SacreBLEU score 2: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 5 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: GraphicsWindow.BrushColor = "Yellow"
+SacreBLEU score 3: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 5 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score 3: 0.58
+
+Actual result:  GraphicsWindow . Show ( )
+
+Parse State: 6	Cursor Position: 5 15
+Candidates List: [' = Expr', '.ID ( Exprs )', ' [ Expr ]', '.ID = Expr', ' ( )', ' [ Expr ] Idxs', ' :']
+
+Top One to Three Candidates: [' = Expr', '.ID ( Exprs )', ' [ Expr ]']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200 
+GraphicsWindow
+                    '= Expr'
+                    Complete the '= Expr' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '= Expr.'
+                    
+Received response with candidate 1: .DrawBoundText("Hello, Small Basic!", 100, 80)
+SacreBLEU score 1: 3.4585921141027356 Counts: [3, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 4 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.21
+
+Received response with candidate 2: .ID("MyGraphicsWindow")
+SacreBLEU score 2: 8.643019616048525 Counts: [3, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 4 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: .DrawText(120, 80, "Hello, World!")
+SacreBLEU score 3: 3.737437943747671 Counts: [3, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [21.428571428571427, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 4 
+First element of precision: 21.428571428571427 
+SequenceMatcher Score 3: 0.22
+
+Actual result:  . Show ( )
+
+Parse State: 30	Cursor Position: 5 16
+Candidates List: [' ID ( Exprs )', ' ID = Expr']
+
+Top One to Three Candidates: [' ID ( Exprs )', ' ID = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200 
+GraphicsWindow.
+                    'ID ( Exprs )'
+                    Complete the 'ID ( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of 'ID ( Exprs ).'
+                    
+Received response with candidate 1: DrawRectangle(10, 10, 100, 50)
+SacreBLEU score 1: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.21
+
+Received response with candidate 2: Visible = "True"
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.16
+
+Actual result:  Show ( )
+
+Parse State: 58	Cursor Position: 5 20
+Candidates List: [' ( Exprs )', ' = Expr']
+
+Top One to Three Candidates: [' ( Exprs )', ' = Expr']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200 
+GraphicsWindow.Show
+                    '( Exprs )'
+                    Complete the '( Exprs )' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of '( Exprs ).'
+                    
+Received response with candidate 1: GraphicsWindow.DrawRectangle(50, 50, 100, 60)
+SacreBLEU score 1: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: '= "Hello World!"'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.18
+
+Actual result:  ( )
+
+Parse State: 92	Cursor Position: 5 21
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete Microsoft Small Basic programming language code:
+                    GraphicsWindow.BackgroundColor = "SteelBlue" 
+GraphicsWindow.Title = "My Graphics Window" 
+GraphicsWindow.Width = 320 
+GraphicsWindow.Height = 200 
+GraphicsWindow.Show(
+                    ')'
+                    Complete the ')' part of the code in the Microsoft Small Basic programming language. Just show your answer in place of ').'
+                    
+Received response with candidate 1: )True
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.29
+
+Actual result:  )
+
