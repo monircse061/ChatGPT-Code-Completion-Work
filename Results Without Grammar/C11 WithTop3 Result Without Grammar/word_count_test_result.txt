@@ -1,0 +1,4453 @@
+Parse State: 23	Cursor Position: 744 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: extern int word_count(char *input_string);
+SacreBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 1: 0.13
+
+Received response with candidate 2: typedef struct {
+    int count;
+    char word[100];
+} word_count;
+SacreBLEU score 2: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: typedef struct list_ge1_type_specifier_nonunique_declaration_specifier {
+    // structure definition here
+} list_ge1_type_specifier_nonunique_declaration_specifier;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 36 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: int
+
+Parse State: 5	Cursor Position: 744 5
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: int word_count(const char *str) {
+    int count = 0;
+    int in_word = 0;
+
+    while (*str) {
+        if (*str == ' ' || *str == '\n' || *str == '\t') {
+            if (in_word) {
+                count++;
+                in_word = 0;
+           
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [74, 73, 72, 71] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 74 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: int main(int argc, char *argv[])
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.22
+
+Received response with candidate 3: The completed code would be:
+
+int main()
+SacreBLEU score 3: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 3: 0.18
+
+Actual result: main
+
+Parse State: 63	Cursor Position: 744 9
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: int main(int argc, char *argv[])
+SacreBLEU score 1: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 3 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: int main()
+SacreBLEU score 2: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: int main(int argc, char *argv[])
+SacreBLEU score 3: 4.02724819242185 Counts: [2, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 3 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.11
+
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 744 10
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: int main(const char *argv[]) { 
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: int main(){
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: int main(void)
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.44
+
+Actual result: void
+
+Parse State: 187	Cursor Position: 744 14
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: int main(void)
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.13
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 745 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    // Your code here
+    return 0;
+}
+SacreBLEU score 1: 0.00030981148325441804 Counts: [4, 2, 1, 0] Totals: [10, 9, 8, 7] Precisions: [40.0, 22.22222222222222, 12.5, 7.142857142857143] System length: 10 Reference length: 119 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.02
+
+Actual result: {charnl;charnw;charnc;intstate;nl=nw=nc=0;state=0;charc;while((c=getchar())!=(-1)){++nc;if(c=='\n'){++nl;}if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}}printf(",nl,nw,nc);return0;}
+
+Parse State: 201	Cursor Position: 746 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1:  '}'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: ```C
+int main(void)
+{
+    int word_count = 0;
+```
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.08
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: char
+
+Parse State: 93	Cursor Position: 746 8
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: word_count_test
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: * const restrict int
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: char input[100];
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.11
+
+Actual result: nl
+
+Parse State: 60	Cursor Position: 746 10
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_11/word_count_test.c" 2
+
+
+
+
+
+# 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: char nl = '\n';
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.12
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2:  char buffer[100];
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.36
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: char
+
+Parse State: 93	Cursor Position: 747 8
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'input_string'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: * const volatile int *ptr;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: char word[100];
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: nw
+
+Parse State: 60	Cursor Position: 747 10
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: char nw;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.22
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 748 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.13
+
+Received response with candidate 2: char nc;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: char
+
+Parse State: 93	Cursor Position: 748 8
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: nc
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: * const int *ptr;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: int nc;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.44
+
+Actual result: nc
+
+Parse State: 60	Cursor Position: 748 10
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ';'
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.50
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 750 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1:     return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: nl_count
+nw_count
+nc_count
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.14
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.17
+
+Actual result: int
+
+Parse State: 93	Cursor Position: 750 7
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: count;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: char *argv[]
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: int save_context = 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.31
+
+Actual result: state
+
+Parse State: 60	Cursor Position: 750 12
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: = 0;
+
+  while ((nl = getchar()) != EOF)
+  {
+    nc++;
+
+    if (nl == '\n')
+    {
+      nw++;
+    }
+  }
+
+  printf("Number of lines: %d\n", nl);
+  printf("Number of words: %d\n", nw);
+  printf("Number of characters: %
+SacreBLEU score 1: 0.46833399312669227 Counts: [1, 0, 0, 0] Totals: [77, 76, 75, 74] Precisions: [1.2987012987012987, 0.6578947368421053, 0.3333333333333333, 0.16891891891891891] System length: 77 Reference length: 1 
+First element of precision: 1.2987012987012987 
+SequenceMatcher Score 1: 0.01
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 752 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: nl_counter
+nw_counter
+nc_counter
+SacreBLEU score 2: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.18
+
+Actual result: nl
+
+Parse State: 181	Cursor Position: 752 6
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: '+=' should be replaced with '++' in order to increment the value of nl by 1. 
+
+So the complete line of code would be: nl++;
+SacreBLEU score 2: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: | = nl + 1;
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.17
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 752 8
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: state;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: '\\n'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: n1++;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.29
+
+Actual result: nw
+
+Parse State: 181	Cursor Position: 752 11
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = '\n';
+  nc = '\0';
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: nl += 1;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.22
+
+Received response with candidate 3:    nl = nw |= nc;
+SacreBLEU score 3: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.11
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 752 13
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: nc = state = 0;
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.24
+
+Received response with candidate 2: 
+nl = nw = nc = 0;
+SacreBLEU score 2: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: nl = nw = nc = 0;
+SacreBLEU score 3: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 3: 0.21
+
+Actual result: nc
+
+Parse State: 181	Cursor Position: 752 16
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: += 1
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.40
+
+Received response with candidate 3: nl |= (state == '\n');
+nw |= (state == ' ' || state == '\t' || state == '\n');
+nc++;
+SacreBLEU score 3: 0.8522452865706931 Counts: [1, 0, 0, 0] Totals: [43, 42, 41, 40] Precisions: [2.3255813953488373, 1.1904761904761905, 0.6097560975609756, 0.3125] System length: 43 Reference length: 1 
+First element of precision: 2.3255813953488373 
+SequenceMatcher Score 3: 0.02
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 752 18
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: nl = 0;
+nw = 0;
+nc = 0;
+SacreBLEU score 3: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 3: 0.08
+
+Actual result: 0
+
+Parse State: 331	Cursor Position: 752 19
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 6 "chapter_1/exercise_1_11/word_count_test.c"
+int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;   // to end the assignment statement and complete the line of code
+SacreBLEU score 1: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.03
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 753 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: state
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 1.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.14
+
+Actual result: state
+
+Parse State: 181	Cursor Position: 753 9
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 1
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: += 1;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.33
+
+Received response with candidate 3: |= 1;
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.33
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 753 11
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'COUNT CHARACTERS'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: nl = nw = nc = 0;
+  state = (nl + nw + nc);
+SacreBLEU score 3: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 1 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 3: 0.05
+
+Actual result: 0
+
+Parse State: 331	Cursor Position: 753 12
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; }
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.50
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 755 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: ```c
+  } // End of the code
+```
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: Complete the 'NAME VARIABLE' part of the code in the C11 programming language:
+
+```c
+  char name;
+```
+SacreBLEU score 2: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 2: 0.08
+
+Received response with candidate 3: return state;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: char
+
+Parse State: 93	Cursor Position: 755 8
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: counter
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: *const_restrict volatile_restrict *const volatile_restrict *option_type_qualifier_list option_pointer
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 23 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: {
+    int c;
+    while ((c = getchar()) != EOF) {
+        nc++;
+        if (c == '\n') {
+            nl++;
+        }
+        if (c == ' ' || c == '\n' || c == '\t') {
+            state = 0;
+        } else if (state == 0) {
+
+SacreBLEU score 3: 0.47462176237300036 Counts: [1, 0, 0, 0] Totals: [76, 75, 74, 73] Precisions: [1.3157894736842106, 0.6666666666666666, 0.33783783783783783, 0.17123287671232876] System length: 76 Reference length: 1 
+First element of precision: 1.3157894736842106 
+SequenceMatcher Score 3: 0.01
+
+Actual result: c
+
+Parse State: 60	Cursor Position: 755 9
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    char nl;
+  char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: c = getchar();
+
+  while (c != EOF) {
+    nc++;
+    
+    if (c == '\n') {
+      nl++;
+    }
+    
+    if (c == ' ' || c == '\n' || c == '\t') {
+      state = 0;
+    } 
+    else if (state == 0) {
+
+SacreBLEU score 1: 0.5015572500202529 Counts: [1, 0, 0, 0] Totals: [72, 71, 70, 69] Precisions: [1.3888888888888888, 0.704225352112676, 0.35714285714285715, 0.18115942028985507] System length: 72 Reference length: 1 
+First element of precision: 1.3888888888888888 
+SequenceMatcher Score 1: 0.01
+
+Actual result: ;
+
+Parse State: 320	Cursor Position: 756 3
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: { 
+    while (state != 4) {
+        c = getchar();
+
+        switch (state) {
+            case 0:
+                if (c == 'n') state = 1;
+                else state = 0;
+                break;
+            case 1:
+                if (c == 'w') state = 2;
+                else
+SacreBLEU score 1: 20.633138776512027 Counts: [41, 24, 13, 8] Totals: [56, 55, 54, 53] Precisions: [73.21428571428571, 43.63636363636363, 24.074074074074073, 15.09433962264151] System length: 56 Reference length: 82 
+First element of precision: 73.21428571428571 
+SequenceMatcher Score 1: 0.19
+
+Received response with candidate 2: if (state == 0) {
+      // Do something if state is 0
+  } else {
+      // Do something different if state is not 0
+  }
+SacreBLEU score 2: 4.200175716287986 Counts: [15, 7, 5, 4] Totals: [30, 29, 28, 27] Precisions: [50.0, 24.137931034482758, 17.857142857142858, 14.814814814814815] System length: 30 Reference length: 82 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: if (c == '\n') {
+    nl++;
+    state = 0;
+} else if (c == ' ' || c == '\t') {
+    state = 0;
+} else {
+    if (state == 0) {
+        nw++;
+        state = 1;
+    }
+}
+nc++;
+SacreBLEU score 3: 47.181481991118986 Counts: [59, 43, 33, 27] Totals: [66, 65, 64, 63] Precisions: [89.39393939393939, 66.15384615384616, 51.5625, 42.857142857142854] System length: 66 Reference length: 82 
+First element of precision: 89.39393939393939 
+SequenceMatcher Score 3: 0.36
+
+Actual result: while((c=getchar())!=(-1)){++nc;if(c=='\n'){++nl;}if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}}
+
+Parse State: 406	Cursor Position: 756 9
+Candidates List: [' ( expression ) scoped_statement']
+
+Top One to Three Candidates: [' ( expression ) scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while
+                    '( expression ) scoped_statement'
+                    Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ) scoped_statement.'
+                    
+Received response with candidate 1: (nw + nc > 0) {
+    c = getchar();
+    if (c == '\n') {
+        nl++;
+    } else {
+        nc++;
+    }
+}
+SacreBLEU score 1: 15.436054704786953 Counts: [34, 22, 14, 10] Totals: [37, 36, 35, 34] Precisions: [91.89189189189189, 61.111111111111114, 40.0, 29.41176470588235] System length: 37 Reference length: 81 
+First element of precision: 91.89189189189189 
+SequenceMatcher Score 1: 0.36
+
+Actual result: ((c=getchar())!=(-1)){++nc;if(c=='\n'){++nl;}if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}}
+
+Parse State: 457	Cursor Position: 756 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' *', ' CONSTANT', ' !', ' -- unary_expression', ' &', ' ++ unary_expression', ' ( type_name ) cast_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' *']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'NAME VARIABLE' part of the code would be:
+
+c = getchar();
+while (c != EOF) {
+   nc++;
+   if (c == '\n') {
+      nl++;
+   }
+   nw = countWords(c, nw);
+   state = nextState(state, c);
+   c = getchar();
+}
+SacreBLEU score 1: 6.246136784221611 Counts: [7, 5, 4, 2] Totals: [67, 66, 65, 64] Precisions: [10.447761194029852, 7.575757575757576, 6.153846153846154, 3.125] System length: 67 Reference length: 7 
+First element of precision: 10.447761194029852 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: c = getchar();
+  while (c != EOF) {
+    if (c == '\n') {
+      nw++;
+    } else {
+      if (c == ' ' || c == '\t') {
+        state = 0;
+      } else if (state == 0) {
+        state = 1;
+        nc++;
+      }
+
+SacreBLEU score 2: 5.88655098336375 Counts: [7, 5, 4, 2] Totals: [71, 70, 69, 68] Precisions: [9.859154929577464, 7.142857142857143, 5.797101449275362, 2.9411764705882355] System length: 71 Reference length: 7 
+First element of precision: 9.859154929577464 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: (1) scanf("%c", &c) != EOF 
+     {
+        nc++;
+        if (c == '\n')
+        {
+            nl++;
+        }
+
+        // Add more code here
+    }
+SacreBLEU score 3: 3.772657799190421 Counts: [6, 2, 1, 0] Totals: [43, 42, 41, 40] Precisions: [13.953488372093023, 4.761904761904762, 2.4390243902439024, 1.25] System length: 43 Reference length: 7 
+First element of precision: 13.953488372093023 
+SequenceMatcher Score 3: 0.05
+
+Actual result: (c=getchar())
+
+Parse State: 165	Cursor Position: 756 11
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression', ' CONSTANT', ' int', ' long', ' sizeof ( type_name )', ' void', ' NAME TYPE', ' *', ' unsigned', ' char', ' struct', ' !', ' const', ' STRING_LITERAL', ' &', ' sizeof unary_expression', ' -', ' double', ' ~', ' ( type_name ) { initializer_list option_comma }', ' signed', ' -- unary_expression', ' union', ' ++ unary_expression', ' _Alignof ( type_name )', ' float', ' short']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: while ((c = getchar()) != EOF) {
+    if (state == 0) {
+        if (isspace(c)) {
+            state = 0;
+        } else if (isalpha(c)) {
+            state = 1;
+            nw++;
+        } else {
+            state = 2;
+            nc++;
+        }
+    }
+
+    if
+SacreBLEU score 1: 0.5482271666382152 Counts: [1, 0, 0, 0] Totals: [66, 65, 64, 63] Precisions: [1.5151515151515151, 0.7692307692307693, 0.390625, 0.1984126984126984] System length: 66 Reference length: 1 
+First element of precision: 1.5151515151515151 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: '(c = getchar()) != EOF'
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.08
+
+Received response with candidate 3: (char) c
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.22
+
+Actual result: c
+
+Parse State: 181	Cursor Position: 756 13
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: != EOF) {
+    if (c == '\n') {
+      nl++;
+    }
+    else {
+      nc++;
+    }
+
+    switch (state) {
+      case 0:
+        if (c == 'a') {
+          state = 1;
+        }
+        break;
+      case 1:
+        if (c == 'b')
+SacreBLEU score 1: 0.6044751875664687 Counts: [1, 0, 0, 0] Totals: [60, 59, 58, 57] Precisions: [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508] System length: 60 Reference length: 1 
+First element of precision: 1.6666666666666667 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: 'nc'++;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: This code combines the binary OR operator (|) with the assignment operator (=), resulting in the bitwise OR assignment operator (|=). 
+
+Here is the updated code:
+
+while ((c |= some_value) != EOF) {
+    // code here
+}
+SacreBLEU score 3: 0.6488583831481832 Counts: [1, 0, 0, 0] Totals: [56, 55, 54, 53] Precisions: [1.7857142857142858, 0.9090909090909091, 0.46296296296296297, 0.2358490566037736] System length: 56 Reference length: 1 
+First element of precision: 1.7857142857142858 
+SequenceMatcher Score 3: 0.01
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 756 15
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: getchar()) != EOF) {
+    // Update state machine based on input character
+    switch(state) {
+        case 0:
+            if (c == 'a' || c == 'b' || c == 'c') {
+                state = 1;
+            } else {
+                state = 0;
+            }
+            break;
+       
+SacreBLEU score 1: 0.6044751875664687 Counts: [1, 0, 0, 0] Totals: [60, 59, 58, 57] Precisions: [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508] System length: 60 Reference length: 1 
+First element of precision: 1.6666666666666667 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: fgets(buffer, sizeof(buffer), stdin) != NULL) {
+    nc++;
+    if (c == '\n')
+      nl++;
+    nw = count_words(buffer);
+    printf("Number of characters: %d\n", nc);
+    printf("Number of words: %d\n", nw);
+    printf("Number of lines: %d\n",
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [87, 86, 85, 84] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 87 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.06
+
+Received response with candidate 3: (getchar()) != EOF)
+SacreBLEU score 3: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 3: 0.54
+
+Actual result: getchar
+
+Parse State: 147	Cursor Position: 756 22
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: () != EOF) {
+    nc++;
+    if (c == '\n') {
+        nl++;
+    }
+    nw++;
+}
+printf("Number of characters: %d\n", nc);
+printf("Number of words: %d\n", nw);
+printf("Number of lines: %d\n", nl);
+SacreBLEU score 1: 0.912490810176151 Counts: [2, 1, 0, 0] Totals: [79, 78, 77, 76] Precisions: [2.5316455696202533, 1.2820512820512822, 0.6493506493506493, 0.32894736842105265] System length: 79 Reference length: 2 
+First element of precision: 2.5316455696202533 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: () != EOF) {
+    nc++;
+
+    if (c == '\n') {
+        nl++;
+    }
+
+    switch (state) {
+        case 0:
+            if (c == '/') {
+                state = 1;
+            }
+            break;
+        case 1:
+            if (c == '/') {
+                state = 2;
+           
+SacreBLEU score 2: 1.0634687930369597 Counts: [2, 1, 0, 0] Totals: [68, 67, 66, 65] Precisions: [2.9411764705882355, 1.492537313432836, 0.7575757575757576, 0.38461538461538464] System length: 68 Reference length: 2 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: ()!=EOF)
+SacreBLEU score 3: 16.233395773754953 Counts: [2, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.40
+
+Actual result: ()
+
+Parse State: 351	Cursor Position: 756 23
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar(
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: )) != EOF) {
+    nc++;
+
+    if (c == '\n') {
+        nl++;
+    }
+
+    // Add more code here to handle the input character 'c'
+
+}
+
+// Add more code here to finish processing the input data
+SacreBLEU score 1: 0.7144315612998046 Counts: [1, 0, 0, 0] Totals: [51, 50, 49, 48] Precisions: [1.9607843137254901, 1.0, 0.5102040816326531, 0.2604166666666667] System length: 51 Reference length: 1 
+First element of precision: 1.9607843137254901 
+SequenceMatcher Score 1: 0.01
+
+Actual result: )
+
+Parse State: 267	Cursor Position: 756 24
+Candidates List: [' )', ' , assignment_expression']
+
+Top One to Three Candidates: [' )', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: != EOF) {
+    if (c == '\n') {
+        nl++;
+    } else if (c == ' ' || c == '\t') {
+        nw++;
+    } else {
+        nc++;
+    }
+}
+printf("Number of lines: %d\n", nl);
+printf("Number of words: %d\n", nw);
+printf
+SacreBLEU score 1: 0.42858892466764814 Counts: [1, 0, 0, 0] Totals: [84, 83, 82, 81] Precisions: [1.1904761904761905, 0.6024096385542169, 0.3048780487804878, 0.15432098765432098] System length: 84 Reference length: 1 
+First element of precision: 1.1904761904761905 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: = getchar()) != EOF) {
+    // code inside the loop
+}
+SacreBLEU score 2: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 2: 0.04
+
+Actual result: )
+
+Parse State: 155	Cursor Position: 756 26
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    char nw;
+  char nc;
+
+  int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar())
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: while ((c = getchar()) != EOF) {
+SacreBLEU score 1: 5.679677445135579 Counts: [2, 1, 0, 0] Totals: [14, 13, 12, 11] Precisions: [14.285714285714286, 7.6923076923076925, 4.166666666666667, 2.272727272727273] System length: 14 Reference length: 2 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: must be replaced with '!= EOF'.
+SacreBLEU score 2: 9.535414040914192 Counts: [2, 1, 0, 0] Totals: [9, 8, 7, 6] Precisions: [22.22222222222222, 12.5, 7.142857142857143, 4.166666666666667] System length: 9 Reference length: 2 
+First element of precision: 22.22222222222222 
+SequenceMatcher Score 2: 0.12
+
+Actual result: !=
+
+Parse State: 257	Cursor Position: 758 28
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: EOF
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: (c != EOF && c != '\n')
+SacreBLEU score 2: 3.377156414337854 Counts: [2, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [14.285714285714286, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 3 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: EOF
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: (-1)
+
+Parse State: 165	Cursor Position: 758 29
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression', ' CONSTANT', ' int', ' long', ' sizeof ( type_name )', ' void', ' NAME TYPE', ' *', ' unsigned', ' char', ' struct', ' !', ' const', ' STRING_LITERAL', ' &', ' sizeof unary_expression', ' -', ' double', ' ~', ' ( type_name ) { initializer_list option_comma }', ' signed', ' -- unary_expression', ' union', ' ++ unary_expression', ' _Alignof ( type_name )', ' float', ' short']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: EOF
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: while ((c = getchar()) != EOF)
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (int) c
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: -
+
+Parse State: 149	Cursor Position: 758 30
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' ++ unary_expression', ' -- unary_expression', ' !', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: c) EOF
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: EOF
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (c != '\n') && (c != EOF)) {
+    // code to count characters, words, and lines
+}
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [30, 29, 28, 27] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 30 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 1
+
+Parse State: 267	Cursor Position: 758 31
+Candidates List: [' )', ' , assignment_expression']
+
+Top One to Three Candidates: [' )', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    int state;
+
+  nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1:  ')' '\n'
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: (state = (c != EOF) ? 1 : 0)
+SacreBLEU score 2: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 2: 0.07
+
+Actual result: )
+
+Parse State: 485	Cursor Position: 760 31
+Candidates List: [' ) scoped_statement', ' , assignment_expression']
+
+Top One to Three Candidates: [' ) scoped_statement', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                    ') scoped_statement'
+                    Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of ') scoped_statement.'
+                    
+Received response with candidate 1: {
+                     {
+        if (c == ' ' || c == '\n' || c == '\t') {
+            state = 0;
+        } else if (state == 0) {
+            state = 1;
+            nw++;
+        }
+        nc++;
+    }
+}
+SacreBLEU score 1: 59.01396552677759 Counts: [54, 43, 35, 31] Totals: [56, 55, 54, 53] Precisions: [96.42857142857143, 78.18181818181819, 64.81481481481481, 58.490566037735846] System length: 56 Reference length: 68 
+First element of precision: 96.42857142857143 
+SequenceMatcher Score 1: 0.41
+
+Received response with candidate 2: nl = nw = nc = 0;
+state = 0;
+
+char c;
+while ((c = getchar()) != EOF)
+SacreBLEU score 2: 4.0829175396184585 Counts: [23, 6, 3, 1] Totals: [28, 27, 26, 25] Precisions: [82.14285714285714, 22.22222222222222, 11.538461538461538, 4.0] System length: 28 Reference length: 68 
+First element of precision: 82.14285714285714 
+SequenceMatcher Score 2: 0.21
+
+Actual result: ){++nc;if(c=='\n'){++nl;}if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}}
+
+Parse State: 320	Cursor Position: 761 3
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    nl = nw = nc = 0;
+  state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    nc++;
+    if (c == '\n') nl++;
+    if (c == ' ' || c == '\n' || c == '\t') state = 0;
+    else if (state == 0) {
+        state = 1;
+        nw++;
+    }
+}
+SacreBLEU score 1: 65.9965172139359 Counts: [61, 47, 38, 32] Totals: [65, 64, 63, 62] Precisions: [93.84615384615384, 73.4375, 60.317460317460316, 51.61290322580645] System length: 65 Reference length: 67 
+First element of precision: 93.84615384615384 
+SequenceMatcher Score 1: 0.66
+
+Received response with candidate 2: if (c != ' ' && c != '\n' && c != '\t') {
+        state = 1;
+        nc++;
+    } else {
+        if (state == 1) {
+            nw++;
+        }
+        state = 0;
+    }
+    nl++;
+SacreBLEU score 2: 33.72361023815229 Counts: [48, 29, 16, 11] Totals: [58, 57, 56, 55] Precisions: [82.75862068965517, 50.87719298245614, 28.571428571428573, 20.0] System length: 58 Reference length: 67 
+First element of precision: 82.75862068965517 
+SequenceMatcher Score 2: 0.39
+
+Received response with candidate 3: if (c == ' ' || c == '\n' || c == '\t') {
+            state = 0;
+        } else if (state == 0) {
+            state = 1;
+            nw++;
+        }
+        nc++;
+    }
+SacreBLEU score 3: 57.808389953406824 Counts: [51, 42, 34, 31] Totals: [53, 52, 51, 50] Precisions: [96.22641509433963, 80.76923076923077, 66.66666666666667, 62.0] System length: 53 Reference length: 67 
+First element of precision: 96.22641509433963 
+SequenceMatcher Score 3: 0.46
+
+Actual result: {++nc;if(c=='\n'){++nl;}if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}}
+
+Parse State: 201	Cursor Position: 762 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }' {
+        if (isalpha(c)) {
+            if (state == 0) {
+                state = 1; // word has begun
+            }
+        } else {
+            if (state == 1) {
+                state = 0; // word has ended
+                wordCount++;
+            }
+        }
+    }
+}
+SacreBLEU score 1: 1.2743248999128778 Counts: [2, 1, 0, 0] Totals: [57, 56, 55, 54] Precisions: [3.508771929824561, 1.7857142857142858, 0.9090909090909091, 0.46296296296296297] System length: 57 Reference length: 3 
+First element of precision: 3.508771929824561 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: c != '\n'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: return state;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: ++nc
+
+Parse State: 168	Cursor Position: 762 7
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' *']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' *']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: state = 0;
+
+  char c;
+  while ((c = getchar()) != EOF)
+  {
+    ++NAME VARIABLE;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [26, 25, 24, 23] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 26 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: (c == ' ' || c == '\n' || c == '\t') ? state = 0 : state = 1;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 32 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: != EOF
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: nc
+
+Parse State: 331	Cursor Position: 762 9
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+
+  char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: nc++;
+
+This line of code increments the value of the variable "nc" (presumably used to count characters) each time a character is read from the input using getchar().
+SacreBLEU score 1: 0.969094302009921 Counts: [1, 0, 0, 0] Totals: [38, 37, 36, 35] Precisions: [2.6315789473684212, 1.3513513513513513, 0.6944444444444444, 0.35714285714285715] System length: 38 Reference length: 1 
+First element of precision: 2.6315789473684212 
+SequenceMatcher Score 1: 0.01
+
+Actual result: ;
+
+Parse State: 320	Cursor Position: 764 5
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    if (c == ' ' || c == '\n' || c == '\t') {
+        ++nw;
+    }
+    if (c == '\n') {
+        ++nl;
+    }
+}
+SacreBLEU score 1: 29.577111143088747 Counts: [15, 14, 13, 12] Totals: [47, 46, 45, 44] Precisions: [31.914893617021278, 30.434782608695652, 28.88888888888889, 27.272727272727273] System length: 47 Reference length: 15 
+First element of precision: 31.914893617021278 
+SequenceMatcher Score 1: 0.28
+
+Received response with candidate 2: if (c == ' ' || c == '\n' || c == '\t') {
+       ++nw;
+}
+SacreBLEU score 2: 32.55968746545407 Counts: [14, 11, 8, 6] Totals: [30, 29, 28, 27] Precisions: [46.666666666666664, 37.93103448275862, 28.571428571428573, 22.22222222222222] System length: 30 Reference length: 15 
+First element of precision: 46.666666666666664 
+SequenceMatcher Score 2: 0.46
+
+Received response with candidate 3: if (c == ' ') {
+    ++nw;
+} else if (c == '\n' || c == '\t') {
+    ++nl;
+} else {
+    ++nc;
+}
+SacreBLEU score 3: 27.106392176577984 Counts: [15, 13, 11, 9] Totals: [45, 44, 43, 42] Precisions: [33.333333333333336, 29.545454545454547, 25.58139534883721, 21.428571428571427] System length: 45 Reference length: 15 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.32
+
+Actual result: if(c=='\n'){++nl;}
+
+Parse State: 404	Cursor Position: 764 8
+Candidates List: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+Top One to Three Candidates: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if
+                    '( expression ) scoped_statement'
+                    Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ) scoped_statement.'
+                    
+Received response with candidate 1: (c != '\n') {
+        if (c == ' ' || c == '\t') {
+            state = OUT;
+        } else if (state == OUT) {
+            state = IN;
+            ++nw;
+        }
+    }
+SacreBLEU score 1: 17.728494858653853 Counts: [13, 10, 7, 6] Totals: [50, 49, 48, 47] Precisions: [26.0, 20.408163265306122, 14.583333333333334, 12.76595744680851] System length: 50 Reference length: 14 
+First element of precision: 26.0 
+SequenceMatcher Score 1: 0.15
+
+Received response with candidate 2: (expression != '\n' && expression != ' ') {
+      ++nw;
+    } else {
+      ++nl;
+    }
+  }
+SacreBLEU score 2: 29.113216578145625 Counts: [13, 9, 7, 5] Totals: [29, 28, 27, 26] Precisions: [44.827586206896555, 32.142857142857146, 25.925925925925927, 19.23076923076923] System length: 29 Reference length: 14 
+First element of precision: 44.827586206896555 
+SequenceMatcher Score 2: 0.26
+
+Actual result: (c=='\n'){++nl;}
+
+Parse State: 455	Cursor Position: 764 9
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -- unary_expression', ' ++ unary_expression', ' sizeof ( type_name )', ' -', ' sizeof unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: isalpha(c) && isalpha(getchar())
+    ) {
+        ++nw;
+    }
+}
+SacreBLEU score 1: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: (c != ' ' && c != '\n' && c != '\t')
+SacreBLEU score 2: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 1 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: (c == ' ' || c == '\n' || c == '\t') && (prev_char != ' ' && prev_char != '\n' && prev_char != '\t')
+    {
+      ++nw;
+    }
+    prev_char = c;
+  }
+SacreBLEU score 3: 0.5398548275054964 Counts: [1, 0, 0, 0] Totals: [67, 66, 65, 64] Precisions: [1.492537313432836, 0.7575757575757576, 0.38461538461538464, 0.1953125] System length: 67 Reference length: 1 
+First element of precision: 1.492537313432836 
+SequenceMatcher Score 3: 0.01
+
+Actual result: c
+
+Parse State: 155	Cursor Position: 764 11
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: if (c == ' ' || c == '\n' || c == '\t') { 
+      ++nw; 
+  }
+SacreBLEU score 1: 2.4829886830705856 Counts: [2, 1, 0, 0] Totals: [30, 29, 28, 27] Precisions: [6.666666666666667, 3.4482758620689653, 1.7857142857142858, 0.9259259259259259] System length: 30 Reference length: 2 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: (c != ' ' && c != '\n' && c != '\t') 
+    {
+      inword = 1;
+    } 
+    else 
+    {
+      if (inword) 
+      {
+        ++nw;
+        inword = 0;
+      }
+    }
+  }
+SacreBLEU score 2: 0.9243411456936733 Counts: [2, 0, 0, 0] Totals: [47, 46, 45, 44] Precisions: [4.25531914893617, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091] System length: 47 Reference length: 2 
+First element of precision: 4.25531914893617 
+SequenceMatcher Score 2: 0.02
+
+Actual result: ==
+
+Parse State: 257	Cursor Position: 764 14
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c ==
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: if(c == ' ' || c == '\n' || c == '\t')
+SacreBLEU score 1: 5.8564582332753705 Counts: [3, 2, 1, 0] Totals: [24, 23, 22, 21] Precisions: [12.5, 8.695652173913043, 4.545454545454546, 2.380952380952381] System length: 24 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.19
+
+Received response with candidate 2: '( expression )' = ' ' || c == '\n' || c == '\t';
+SacreBLEU score 2: 5.606668411195422 Counts: [3, 2, 1, 0] Totals: [25, 24, 23, 22] Precisions: [12.0, 8.333333333333334, 4.3478260869565215, 2.272727272727273] System length: 25 Reference length: 3 
+First element of precision: 12.0 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: ' ' || c == '\n' || c == '\t' || c == ' ' || c == '\r'
+SacreBLEU score 3: 4.180647946097227 Counts: [3, 2, 1, 0] Totals: [33, 32, 31, 30] Precisions: [9.090909090909092, 6.25, 3.225806451612903, 1.6666666666666667] System length: 33 Reference length: 3 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.14
+
+Actual result: '\n'
+
+Parse State: 483	Cursor Position: 764 18
+Candidates List: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+Top One to Three Candidates: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    char c;
+  while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n'
+                    ') scoped_statement'
+                    Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of ') scoped_statement.'
+                    
+Received response with candidate 1: && c != ' ' && c != '\t') {
+      ++nw;
+    }
+  }
+SacreBLEU score 1: 12.25914995865642 Counts: [6, 4, 2, 1] Totals: [23, 22, 21, 20] Precisions: [26.08695652173913, 18.181818181818183, 9.523809523809524, 5.0] System length: 23 Reference length: 7 
+First element of precision: 26.08695652173913 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: ){
+      ++nl;
+    }
+    else if (c == ' ' || c == '\t'){
+      ++nw;
+    }
+  }
+SacreBLEU score 2: 18.26249361348376 Counts: [7, 6, 5, 4] Totals: [31, 30, 29, 28] Precisions: [22.580645161290324, 20.0, 17.24137931034483, 14.285714285714286] System length: 31 Reference length: 7 
+First element of precision: 22.580645161290324 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: (c != EOF)
+SacreBLEU score 3: 6.870636427700047 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 7 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.11
+
+Actual result: ){++nl;}
+
+Parse State: 320	Cursor Position: 765 5
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    while ((c = getchar()) != 
+# 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n')
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+        ++nl;
+    }
+}
+SacreBLEU score 1: 80.91067115702207 Counts: [6, 5, 4, 3] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 80.0, 75.0] System length: 7 Reference length: 6 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 1: 0.47
+
+Received response with candidate 2: if (isspace(c))
+{
+    ++nw;
+}
+SacreBLEU score 2: 14.458924666162856 Counts: [5, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [38.46153846153846, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 6 
+First element of precision: 38.46153846153846 
+SequenceMatcher Score 2: 0.33
+
+Received response with candidate 3: if (c == ' ' || c == '\n' || c == '\t') {
+      state = OUT;
+    } else if (state == OUT) {
+      state = IN;
+      ++nw;
+    }
+SacreBLEU score 3: 2.2745743797984495 Counts: [5, 2, 0, 0] Totals: [48, 47, 46, 45] Precisions: [10.416666666666666, 4.25531914893617, 1.0869565217391304, 0.5555555555555556] System length: 48 Reference length: 6 
+First element of precision: 10.416666666666666 
+SequenceMatcher Score 3: 0.09
+
+Actual result: {++nl;}
+
+Parse State: 201	Cursor Position: 766 7
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }' 
+}化
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: nc++;
+SacreBLEU score 2: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.44
+
+Received response with candidate 3: return nc;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.14
+
+Actual result: ++nl
+
+Parse State: 168	Cursor Position: 766 9
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' *']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' *']
+
+                    This is the incomplete C11 programming language code:
+                    # 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: word_count
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: Complete the '( expression )' part of the code in the C11 programming language. Just show your answer in place of '( expression ).'
+
+(expression) c != ' ' && c != '\n' && c != '\t'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [54, 53, 52, 51] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 54 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: {'\n'}
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.25
+
+Actual result: nl
+
+Parse State: 331	Cursor Position: 766 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 18 "chapter_1/exercise_1_11/word_count_test.c" 3 4
+                           (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ++nl;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.33
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 767 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    (-1)
+# 18 "chapter_1/exercise_1_11/word_count_test.c"
+                              )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1:     } else if (c == ' ' || c == '\t') {
+      state = OUT;
+    } else {
+      if (state == OUT) {
+        state = IN;
+        ++nw;
+      }
+    }
+  }
+
+}
+SacreBLEU score 1: 0.7947529289544674 Counts: [1, 0, 0, 0] Totals: [46, 45, 44, 43] Precisions: [2.1739130434782608, 1.1111111111111112, 0.5681818181818182, 0.29069767441860467] System length: 46 Reference length: 1 
+First element of precision: 2.1739130434782608 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer in place of 'NAME VARIABLE.'
+
+```
+    ++nw;
+```
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 35 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return nl;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 320	Cursor Position: 769 5
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+  if (c == ' ')
+  {
+    ++nw;
+  }
+}
+SacreBLEU score 1: 9.176439290750896 Counts: [16, 10, 7, 5] Totals: [16, 15, 14, 13] Precisions: [100.0, 66.66666666666667, 50.0, 38.46153846153846] System length: 16 Reference length: 46 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.30
+
+Received response with candidate 2: if (c == ' ') 
+{
+  ++nw;
+}
+SacreBLEU score 2: 6.8346233930367095 Counts: [14, 10, 7, 5] Totals: [14, 13, 12, 11] Precisions: [100.0, 76.92307692307692, 58.333333333333336, 45.45454545454545] System length: 14 Reference length: 46 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 0.34
+
+Received response with candidate 3: if (c == ' ')
+{
+   ++nw;
+} else {
+   ++nother;
+}
+SacreBLEU score 3: 14.048867717253144 Counts: [17, 11, 7, 5] Totals: [21, 20, 19, 18] Precisions: [80.95238095238095, 55.0, 36.8421052631579, 27.77777777777778] System length: 21 Reference length: 46 
+First element of precision: 80.95238095238095 
+SequenceMatcher Score 3: 0.28
+
+Actual result: if(c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}
+
+Parse State: 404	Cursor Position: 769 8
+Candidates List: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+Top One to Three Candidates: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if
+                    '( expression ) scoped_statement'
+                    Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ) scoped_statement.'
+                    
+Received response with candidate 1: (c == ' ') {
+     ++nw;
+}
+SacreBLEU score 1: 5.425470221668538 Counts: [13, 9, 6, 4] Totals: [13, 12, 11, 10] Precisions: [100.0, 75.0, 54.54545454545455, 40.0] System length: 13 Reference length: 45 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.31
+
+Received response with candidate 2: 
+
+(expression) {
+      ++nw;
+    } else {
+      continue;
+    }
+SacreBLEU score 2: 3.9139060773633516 Counts: [11, 6, 3, 2] Totals: [14, 13, 12, 11] Precisions: [78.57142857142857, 46.15384615384615, 25.0, 18.181818181818183] System length: 14 Reference length: 45 
+First element of precision: 78.57142857142857 
+SequenceMatcher Score 2: 0.20
+
+Actual result: (c==''||c=='\n'||c=='\t'){state=0;}elseif(state==0){state=1;++nw;}
+
+Parse State: 455	Cursor Position: 769 9
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -- unary_expression', ' ++ unary_expression', ' sizeof ( type_name )', ' -', ' sizeof unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: c == ' '
+    {
+      ++nw;
+    }
+  }
+
+  printf("Number of characters: %d\n", nc);
+  printf("Number of lines: %d\n", nl);
+  printf("Number of words: %d\n", nw);
+
+  return 0;
+}
+SacreBLEU score 1: 0.5657759656209534 Counts: [1, 0, 0, 0] Totals: [64, 63, 62, 61] Precisions: [1.5625, 0.7936507936507936, 0.4032258064516129, 0.20491803278688525] System length: 64 Reference length: 1 
+First element of precision: 1.5625 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: (c == ' ')
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: (c == '!')
+    {
+        ++exclamation_count;
+    }
+SacreBLEU score 3: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 3: 0.04
+
+Actual result: c
+
+Parse State: 155	Cursor Position: 769 11
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: if (c == '\t')
+    {
+      ++nt;
+    }
+SacreBLEU score 1: 5.255923420816887 Counts: [2, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [13.333333333333334, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 2 
+First element of precision: 13.333333333333334 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: != '\0'
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.22
+
+Actual result: ==
+
+Parse State: 257	Cursor Position: 769 14
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c ==
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: '\t'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: (c == '\t')
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.31
+
+Received response with candidate 3: 'c == EOF'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.33
+
+Actual result: ''
+
+Parse State: 160	Cursor Position: 769 18
+Candidates List: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+Top One to Three Candidates: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' '
+                    '? expression : conditional_expression'
+                    Complete the '? expression : conditional_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of '? expression : conditional_expression.'
+                    
+Received response with candidate 1: ? ++ns : c == '\t' ? ++nt : ++no;
+SacreBLEU score 1: 17.92334464048542 Counts: [5, 4, 3, 2] Totals: [20, 19, 18, 17] Precisions: [25.0, 21.05263157894737, 16.666666666666668, 11.764705882352942] System length: 20 Reference length: 8 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: || c == '\t' || c == '\r' || c == '\v' || c == '\f'
+SacreBLEU score 2: 17.662903260733675 Counts: [7, 6, 5, 4] Totals: [32, 31, 30, 29] Precisions: [21.875, 19.35483870967742, 16.666666666666668, 13.793103448275861] System length: 32 Reference length: 8 
+First element of precision: 21.875 
+SequenceMatcher Score 2: 0.27
+
+Actual result: ||c=='\n'
+
+Parse State: 264	Cursor Position: 769 21
+Candidates List: [' ( expression )', ' NAME VARIABLE', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -']
+
+Top One to Three Candidates: [' ( expression )', ' NAME VARIABLE', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' ||
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ).'
+                    
+Received response with candidate 1: (c == '\t' || c == '\r')
+SacreBLEU score 1: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: This is the incomplete C11 programming language code:
+
+                    if (c == ' ' || c == '\t' || c == '\n' || c == '\r')
+                    {
+                      ++nw;
+                    }
+SacreBLEU score 2: 0.7772751558853214 Counts: [1, 0, 0, 0] Totals: [47, 46, 45, 44] Precisions: [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091] System length: 47 Reference length: 1 
+First element of precision: 2.127659574468085 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: c == '!' ||
+                    '!'
+                   
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.04
+
+Actual result: c
+
+Parse State: 155	Cursor Position: 769 23
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: == 't' || c == '\t')
+SacreBLEU score 1: 6.772997136689072 Counts: [2, 1, 0, 0] Totals: [12, 11, 10, 9] Precisions: [16.666666666666668, 9.090909090909092, 5.0, 2.7777777777777777] System length: 12 Reference length: 2 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: '!=' should be replaced with '==' in the code snippet in order to make it syntactically correct in C11 programming language.
+SacreBLEU score 2: 2.6707068119098882 Counts: [2, 1, 0, 0] Totals: [28, 27, 26, 25] Precisions: [7.142857142857143, 3.7037037037037037, 1.9230769230769231, 1.0] System length: 28 Reference length: 2 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 2: 0.03
+
+Actual result: ==
+
+Parse State: 257	Cursor Position: 769 26
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c ==
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: '\t'
+SacreBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.75
+
+Received response with candidate 2: (c == '\t' || c == '\r')
+SacreBLEU score 2: 4.891187874480726 Counts: [2, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: '\\t'
+SacreBLEU score 3: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: '\n'
+
+Parse State: 160	Cursor Position: 769 31
+Candidates List: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+Top One to Three Candidates: [' ? expression : conditional_expression', ' || logical_and_expression']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n'
+                    '? expression : conditional_expression'
+                    Complete the '? expression : conditional_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of '? expression : conditional_expression.'
+                    
+Received response with candidate 1: c == '\t' ? ++nt : ++other;
+SacreBLEU score 1: 32.37722713145643 Counts: [6, 5, 4, 3] Totals: [15, 14, 13, 12] Precisions: [40.0, 35.714285714285715, 30.76923076923077, 25.0] System length: 15 Reference length: 8 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.39
+
+Received response with candidate 2: || c == '\t' || c == '\r' || c == '\v' || c == '\f'
+SacreBLEU score 2: 21.004850229269245 Counts: [8, 7, 6, 5] Totals: [32, 31, 30, 29] Precisions: [25.0, 22.580645161290324, 20.0, 17.24137931034483] System length: 32 Reference length: 8 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.30
+
+Actual result: ||c=='\t'
+
+Parse State: 264	Cursor Position: 769 34
+Candidates List: [' ( expression )', ' NAME VARIABLE', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -']
+
+Top One to Three Candidates: [' ( expression )', ' NAME VARIABLE', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' ||
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ).'
+                    
+Received response with candidate 1: (c == '\t')
+SacreBLEU score 1: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: c == '\t'
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: c == '\t' || c == '\r')
+    {
+      ++nw;
+    }
+  }
+SacreBLEU score 3: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 3: 0.04
+
+Actual result: c
+
+Parse State: 155	Cursor Position: 769 36
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: == '\t'
+SacreBLEU score 1: 21.3643503198117 Counts: [2, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 2 
+First element of precision: 40.0 
+SequenceMatcher Score 1: 0.44
+
+Received response with candidate 2: != '\t'
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.22
+
+Actual result: ==
+
+Parse State: 257	Cursor Position: 769 39
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c ==
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: '\t'
+SacreBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: '(c == '\t')'
+SacreBLEU score 2: 15.619699684601283 Counts: [3, 2, 1, 0] Totals: [10, 9, 8, 7] Precisions: [30.0, 22.22222222222222, 12.5, 7.142857142857143] System length: 10 Reference length: 3 
+First element of precision: 30.0 
+SequenceMatcher Score 2: 0.47
+
+Received response with candidate 3: 
+'NAME VARIABLE'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.20
+
+Actual result: '\t'
+
+Parse State: 483	Cursor Position: 769 43
+Candidates List: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+Top One to Three Candidates: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    )
+  {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t'
+                    ') scoped_statement'
+                    Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of ') scoped_statement.'
+                    
+Received response with candidate 1: {
+    {
+      ++nw;
+    }
+ }
+SacreBLEU score 1: 7.868809347006644 Counts: [8, 4, 3, 2] Totals: [8, 7, 6, 5] Precisions: [100.0, 57.142857142857146, 50.0, 40.0] System length: 8 Reference length: 24 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.23
+
+Received response with candidate 2: {
+      ++nw;
+    }
+  else
+    {
+      continue;
+    }
+}
+SacreBLEU score 2: 14.28375357136274 Counts: [9, 5, 3, 2] Totals: [12, 11, 10, 9] Precisions: [75.0, 45.45454545454545, 30.0, 22.22222222222222] System length: 12 Reference length: 24 
+First element of precision: 75.0 
+SequenceMatcher Score 2: 0.14
+
+Received response with candidate 3: continue;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 24 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.08
+
+Actual result: ){state=0;}elseif(state==0){state=1;++nw;}
+
+Parse State: 320	Cursor Position: 770 5
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+        // Some code to handle whitespace characters
+        ++nw;
+    }
+}
+SacreBLEU score 1: 5.816635421147513 Counts: [3, 1, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 7.142857142857143, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 6 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: if (c == ' ' || c == '\n' || c == '\t')
+{
+    state = OUT;
+}
+else if (state == OUT)
+{
+    state = IN;
+    ++nw;
+}
+SacreBLEU score 2: 3.559901288052315 Counts: [5, 3, 1, 0] Totals: [48, 47, 46, 45] Precisions: [10.416666666666666, 6.382978723404255, 2.1739130434782608, 1.1111111111111112] System length: 48 Reference length: 6 
+First element of precision: 10.416666666666666 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: if (nc & 1) {
+        ++even_count;
+      } else {
+        ++odd_count;
+      }
+SacreBLEU score 3: 3.644667088679882 Counts: [3, 1, 0, 0] Totals: [23, 22, 21, 20] Precisions: [13.043478260869565, 4.545454545454546, 2.380952380952381, 1.25] System length: 23 Reference length: 6 
+First element of precision: 13.043478260869565 
+SequenceMatcher Score 3: 0.09
+
+Actual result: {state=0;}
+
+Parse State: 201	Cursor Position: 771 7
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } else {
+      ++nw;
+    }
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: whitespace_counter
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: return option_expression = decode(c, nc, nl);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 14 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: state
+
+Parse State: 181	Cursor Position: 771 13
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: state += 1;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: state |= FLAG_BLANK;
+SacreBLEU score 3: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.10
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 771 15
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'WHITESPACE'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 'CONSTANT' should be replaced with 'OUTSIDE'.
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: isspace(c)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 0
+
+Parse State: 331	Cursor Position: 771 16
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    ++nc;
+
+    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: state = 0;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.18
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 772 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+}
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+
+    ++state;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 29 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return state;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 512	Cursor Position: 773 5
+Candidates List: [' else scoped_statement']
+
+Top One to Three Candidates: [' else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+                    'else scoped_statement'
+                    Complete the 'else scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'else scoped_statement.'
+                    
+Received response with candidate 1: else{
+      state = 1;
+  }
+SacreBLEU score 1: 16.305255793845195 Counts: [6, 5, 3, 2] Totals: [7, 6, 5, 4] Precisions: [85.71428571428571, 83.33333333333333, 60.0, 50.0] System length: 7 Reference length: 17 
+First element of precision: 85.71428571428571 
+SequenceMatcher Score 1: 0.46
+
+Actual result: elseif(state==0){state=1;++nw;}
+
+Parse State: 320	Cursor Position: 773 10
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+      state = 1;
+      ++nw;
+    }
+SacreBLEU score 1: 49.65853037914098 Counts: [10, 9, 8, 7] Totals: [10, 9, 8, 7] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 10 Reference length: 17 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.44
+
+Received response with candidate 2: if (c == ' ' || c == '\n' || c == '\t') 
+{
+    state = 0;
+    ++nl;
+}
+SacreBLEU score 2: 13.575218161927832 Counts: [14, 9, 3, 1] Totals: [34, 33, 32, 31] Precisions: [41.1764705882353, 27.272727272727273, 9.375, 3.225806451612903] System length: 34 Reference length: 17 
+First element of precision: 41.1764705882353 
+SequenceMatcher Score 2: 0.33
+
+Received response with candidate 3: if (state == 0) 
+    {
+      state = 1;
+      ++nw;
+    } 
+    else 
+    {
+      ;
+    }
+SacreBLEU score 3: 79.41054938007989 Counts: [17, 16, 15, 14] Totals: [21, 20, 19, 18] Precisions: [80.95238095238095, 80.0, 78.94736842105263, 77.77777777777777] System length: 21 Reference length: 17 
+First element of precision: 80.95238095238095 
+SequenceMatcher Score 3: 0.47
+
+Actual result: if(state==0){state=1;++nw;}
+
+Parse State: 404	Cursor Position: 773 13
+Candidates List: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+Top One to Three Candidates: [' ( expression ) scoped_statement', ' ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if
+                    '( expression ) scoped_statement'
+                    Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ) scoped_statement.'
+                    
+Received response with candidate 1: if (c != ' ' && c != '\n' && c != '\t')
+{
+    state = 1;
+}
+SacreBLEU score 1: 18.189587992135596 Counts: [10, 6, 4, 3] Totals: [30, 29, 28, 27] Precisions: [33.333333333333336, 20.689655172413794, 14.285714285714286, 11.11111111111111] System length: 30 Reference length: 16 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.24
+
+Received response with candidate 2:  if (state == 0)
+    {
+      if (isalpha(c))
+      {
+        state = 1;
+        ++nw;
+      }
+    }
+    else
+    {
+      if (!isalpha(c))
+      {
+        state = 0;
+      }
+    }
+SacreBLEU score 2: 34.157787496180795 Counts: [16, 15, 14, 12] Totals: [43, 42, 41, 40] Precisions: [37.2093023255814, 35.714285714285715, 34.146341463414636, 30.0] System length: 43 Reference length: 16 
+First element of precision: 37.2093023255814 
+SequenceMatcher Score 2: 0.25
+
+Actual result: (state==0){state=1;++nw;}
+
+Parse State: 455	Cursor Position: 773 14
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' !', ' *', ' CONSTANT', ' ( type_name ) cast_expression', ' -- unary_expression', ' ++ unary_expression', ' sizeof ( type_name )', ' -', ' sizeof unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' !']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: isalpha(c)
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.27
+
+Received response with candidate 2: 1. if (state == 0)
+2. if (c >= 'a' && c <= 'z')
+3. if (c >= 0 && c <= 9)
+4. if (c == '(' || c == ')' || c == '{' || c == '}' || c == '[' || c == ']')
+SacreBLEU score 2: 0.39952724108597504 Counts: [1, 0, 0, 0] Totals: [90, 89, 88, 87] Precisions: [1.1111111111111112, 0.5617977528089888, 0.2840909090909091, 0.14367816091954022] System length: 90 Reference length: 1 
+First element of precision: 1.1111111111111112 
+SequenceMatcher Score 2: 0.06
+
+Received response with candidate 3: if (c == '!')
+{
+  // Do something
+}
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.10
+
+Actual result: state
+
+Parse State: 155	Cursor Position: 773 20
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: == 1
+SacreBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: state != 0
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 2 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.17
+
+Actual result: ==
+
+Parse State: 257	Cursor Position: 773 23
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state ==
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: 'STRING'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: (state != 0 && (c != ' ' && c != '\n' && c != '\t'))
+SacreBLEU score 2: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: 
+'name_variable'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 0
+
+Parse State: 483	Cursor Position: 773 24
+Candidates List: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+Top One to Three Candidates: [' ) scoped_statement', ' ) scoped_statement else scoped_statement', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == '\n')
+    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0
+                    ') scoped_statement'
+                    Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of ') scoped_statement.'
+                    
+Received response with candidate 1: {
+                    {
+                        ++nw;
+                        state = 1;
+                    }
+                    else if (state == 1)
+                    {
+                        state = 2;
+                    }
+                    }
+SacreBLEU score 1: 26.54690015030428 Counts: [11, 9, 6, 3] Totals: [26, 25, 24, 23] Precisions: [42.30769230769231, 36.0, 25.0, 13.043478260869565] System length: 26 Reference length: 11 
+First element of precision: 42.30769230769231 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: ) 
+    {
+      state = 1;
+    } 
+    else 
+    {
+      state = 2;
+    }
+SacreBLEU score 2: 39.34995962231127 Counts: [8, 6, 4, 3] Totals: [14, 13, 12, 11] Precisions: [57.142857142857146, 46.15384615384615, 33.333333333333336, 27.272727272727273] System length: 14 Reference length: 11 
+First element of precision: 57.142857142857146 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: x = 10;
+SacreBLEU score 3: 3.300991086751251 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 11 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.26
+
+Actual result: ){state=1;++nw;}
+
+Parse State: 320	Cursor Position: 774 5
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    {
+      ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: state = 1;
+SacreBLEU score 1: 22.31301601484299 Counts: [4, 3, 2, 1] Totals: [4, 3, 2, 1] Precisions: [100.0, 100.0, 100.0, 100.0] System length: 4 Reference length: 10 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.64
+
+Received response with candidate 2: if (isalpha(c)) 
+{
+    state = 1;
+    ++nw;
+}
+SacreBLEU score 2: 54.50176720923848 Counts: [10, 9, 8, 7] Totals: [17, 16, 15, 14] Precisions: [58.8235294117647, 56.25, 53.333333333333336, 50.0] System length: 17 Reference length: 10 
+First element of precision: 58.8235294117647 
+SequenceMatcher Score 2: 0.50
+
+Received response with candidate 3: if (state == 1)
+{
+  // code block for the first scoped statement
+}
+else
+{
+  // code block for the second scoped statement
+}
+SacreBLEU score 3: 3.712934101015684 Counts: [5, 2, 0, 0] Totals: [30, 29, 28, 27] Precisions: [16.666666666666668, 6.896551724137931, 1.7857142857142858, 0.9259259259259259] System length: 30 Reference length: 10 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.13
+
+Actual result: {state=1;++nw;}
+
+Parse State: 201	Cursor Position: 775 7
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: state = 1;
+}
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.59
+
+Received response with candidate 2: state = 1;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: return option_expression ;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.06
+
+Actual result: state
+
+Parse State: 181	Cursor Position: 775 13
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 1;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: = 1;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.40
+
+Received response with candidate 3: state |= 2;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.17
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 775 15
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'NAME VARIABLE' part of the code in C11 programming language can be completed as:
+
+'NAME VARIABLE' = 1;
+SacreBLEU score 1: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: 'IDENTIFIER'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3:  1;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.50
+
+Actual result: 1
+
+Parse State: 331	Cursor Position: 775 16
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    ++nl;
+    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; { 
+        wordCount++; 
+        state = 1; 
+    }
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 776 7
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+    else
+    {
+        state = 1; // Keep the current state
+    }
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: `NAME VARIABLE = c;`
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return c;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: ++nw
+
+Parse State: 168	Cursor Position: 776 9
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' *']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' *']
+
+                    This is the incomplete C11 programming language code:
+                    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: NAME VARIABLE: count++;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: state = 1;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: state = 1;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: nw
+
+Parse State: 331	Cursor Position: 776 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    }
+
+    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ';'
+      }
+          
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.09
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 777 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+      else 
+      {
+        state = 1;
+      }
+    }
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: nw = 1;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return nw;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 201	Cursor Position: 778 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    if (c == ' ' || c == '\n' || c == '\t')
+    {
+      state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+    else if (state == 1)
+    {
+      state = 1;
+    }
+}
+SacreBLEU score 1: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: c
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return nw;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 201	Cursor Position: 780 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }.
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: nw
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: return nw;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.25
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 780 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (state, nw)
+SacreBLEU score 1: 11.415938068117505 Counts: [4, 1, 0, 0] Totals: [5, 4, 3, 2] Precisions: [80.0, 25.0, 16.666666666666668, 12.5] System length: 5 Reference length: 9 
+First element of precision: 80.0 
+SequenceMatcher Score 1: 0.43
+
+Received response with candidate 2: printf("Current state: %d", state);
+SacreBLEU score 2: 8.73716785171588 Counts: [4, 2, 0, 0] Totals: [13, 12, 11, 10] Precisions: [30.76923076923077, 16.666666666666668, 4.545454545454546, 2.5] System length: 13 Reference length: 9 
+First element of precision: 30.76923076923077 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: "%d words found in the input text.\n", nw
+SacreBLEU score 3: 6.917184228205472 Counts: [3, 2, 0, 0] Totals: [15, 14, 13, 12] Precisions: [20.0, 14.285714285714286, 3.8461538461538463, 2.0833333333333335] System length: 15 Reference length: 9 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: (",nl,nw,nc)
+
+Parse State: 235	Cursor Position: 780 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: nw
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: {
+    "The code is incomplete and does not provide enough context to accurately determine the expression needed for the printf statement." 
+}
+SacreBLEU score 2: 1.506189323093867 Counts: [1, 0, 0, 0] Totals: [25, 24, 23, 22] Precisions: [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182] System length: 25 Reference length: 1 
+First element of precision: 4.0 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: printf("The current state is: %d", state);
+SacreBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 3: 0.05
+
+Actual result: "
+
+Parse State: 352	Cursor Position: 780 50
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n"
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: state = (state == 1) ? 0 : 1;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Actual result: ,nl
+
+Parse State: 429	Cursor Position: 780 52
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n",
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: lines: nl
+words: nw
+characters: nc
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: state, nw, nc
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: "lines: %d\nwords: %d\ncharacters: %d\n", nw, nw, nc
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 24 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: nl
+
+Parse State: 352	Cursor Position: 780 54
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: \nw, nc);
+SacreBLEU score 1: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.33
+
+Actual result: ,nw
+
+Parse State: 429	Cursor Position: 780 56
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: nw
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: nw
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 1.00
+
+Received response with candidate 3: "words: %d\ncharacters: %d\n", nw, nc
+SacreBLEU score 3: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 3: 0.10
+
+Actual result: nw
+
+Parse State: 352	Cursor Position: 780 58
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: nw++, nc++;
+                    This increments both 'nw' and 'nc' variables in one step.
+SacreBLEU score 1: 4.048892532133102 Counts: [2, 1, 0, 0] Totals: [19, 18, 17, 16] Precisions: [10.526315789473685, 5.555555555555555, 2.9411764705882355, 1.5625] System length: 19 Reference length: 2 
+First element of precision: 10.526315789473685 
+SequenceMatcher Score 1: 0.07
+
+Actual result: ,nc
+
+Parse State: 429	Cursor Position: 780 60
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: characters: nc
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: characters: nc
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: characters: %d\n", nl, nw, nc
+SacreBLEU score 3: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 3: 0.13
+
+Actual result: nc
+
+Parse State: 351	Cursor Position: 780 62
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 780 63
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    state = 0;
+    }
+    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 782 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc);
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }.
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: state
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.15
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.94
+
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 782 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc);
+
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: return 0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: 0
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 1.00
+
+Actual result: 0
+
+Parse State: 415	Cursor Position: 782 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    else if (state == 0)
+    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc);
+
+  return 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 783 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    {
+      state = 1;
+      ++nw;
+    }
+  }
+
+  printf("lines: %d\nwords: %d\ncharacters: %d\n", nl, nw, nc);
+
+  return 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } else if (state == OUT) {
+      state = IN;
+      ++nw;
+}
+SacreBLEU score 1: 2.0244462660665508 Counts: [1, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 1 
+First element of precision: 5.2631578947368425 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: ```c
+nw
+```
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return count;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+

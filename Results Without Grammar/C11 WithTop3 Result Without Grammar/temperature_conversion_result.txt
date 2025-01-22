@@ -1,0 +1,3743 @@
+Parse State: 23	Cursor Position: 741 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: typedef int temperature;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: typedef struct temperature {
+    double celsius;
+    double fahrenheit;
+} temperature;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.07
+
+Actual result: float
+
+Parse State: 5	Cursor Position: 741 7
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temperature_conversion
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 5 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.33
+
+Received response with candidate 2: float *celsius_to_fahrenheit(float celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return &fahrenheit;
+}
+SacreBLEU score 2: 11.622111816655842 Counts: [5, 4, 3, 2] Totals: [30, 29, 28, 27] Precisions: [16.666666666666668, 13.793103448275861, 10.714285714285714, 7.407407407407407] System length: 30 Reference length: 5 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.31
+
+Received response with candidate 3: float temp_convert(float fahrenheit) {\
+    float celsius = (fahrenheit - 32) * 5/9;\
+    return celsius;\
+}
+SacreBLEU score 3: 1.6934096677198087 Counts: [3, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [10.344827586206897, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 5 
+First element of precision: 10.344827586206897 
+SequenceMatcher Score 3: 0.20
+
+Actual result: celsius_to_fahrenheit
+
+Parse State: 63	Cursor Position: 741 28
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: (float celsius_temp)
+SacreBLEU score 1: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.62
+
+Received response with candidate 2: float celsius_to_fahrenheit(float celsius_temperature) { 
+    return (celsius_temperature * 9/5) + 32;
+}
+SacreBLEU score 2: 1.6504045595709425 Counts: [2, 0, 0, 0] Totals: [27, 26, 25, 24] Precisions: [7.407407407407407, 1.9230769230769231, 1.0, 0.5208333333333334] System length: 27 Reference length: 3 
+First element of precision: 7.407407407407407 
+SequenceMatcher Score 2: 0.16
+
+Received response with candidate 3: (save_context option_identifier_list) : (float celsius_temp)
+SacreBLEU score 3: 2.719665272174911 Counts: [2, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [11.764705882352942, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 3 
+First element of precision: 11.764705882352942 
+SequenceMatcher Score 3: 0.31
+
+Actual result: (intcelsius)
+
+Parse State: 186	Cursor Position: 741 29
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: const
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: int celsius_temperature
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.23
+
+Received response with candidate 3: float celsius_to_fahrenheit(float celsius_temperature)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 12 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.04
+
+Actual result: int
+
+Parse State: 298	Cursor Position: 741 33
+Candidates List: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )', ' ( save_context abstract_declarator )']
+
+Top One to Three Candidates: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int
+                    '* option_type_qualifier_list option_pointer'
+                    Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer 
+                    in place of '* option_type_qualifier_list option_pointer.'
+                    
+Received response with candidate 1: float celsius_to_fahrenheit(int celsius) {
+    return (celsius * 9 / 5) + 32;
+}
+SacreBLEU score 1: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 1 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score 1: 0.16
+
+Received response with candidate 2: temperature_Celsius
+
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.44
+
+Received response with candidate 3: float celsius_to_fahrenheit(int celsius)
+SacreBLEU score 3: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 3: 0.30
+
+Actual result: celsius
+
+Parse State: 187	Cursor Position: 741 40
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 60	Cursor Position: 741 41
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: {
+    return (celsius * 9.0 / 5.0) + 32;
+}
+SacreBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 1: 0.05
+
+Actual result: ;
+
+Parse State: 23	Cursor Position: 743 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: extern float celsius_to_fahrenheit(int celsius);
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: typedef float celsius_to_fahrenheit;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: typedef float celsius_to_fahrenheit(int celsius);
+SacreBLEU score 3: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 3: 0.12
+
+Actual result: int
+
+Parse State: 5	Cursor Position: 743 5
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: float temperature;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: float *temp_in_celsius
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.23
+
+Received response with candidate 3: extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [73, 72, 71, 70] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 73 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.02
+
+Actual result: main
+
+Parse State: 63	Cursor Position: 743 9
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: (int argc, char *argv[])
+SacreBLEU score 1: 4.990049701936832 Counts: [2, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [20.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 3 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.60
+
+Received response with candidate 3: ( void )
+SacreBLEU score 3: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 0.86
+
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 743 10
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: const int main(
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.21
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.44
+
+Received response with candidate 3: int main(void)
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.44
+
+Actual result: void
+
+Parse State: 187	Cursor Position: 743 14
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: ) {
+    int celsius = 28;
+    float fahrenheit = celsius_to_fahrenheit(celsius);
+    
+    printf("%d degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahrenheit);
+    
+    return 0;
+}
+SacreBLEU score 1: 0.7772751558853214 Counts: [1, 0, 0, 0] Totals: [47, 46, 45, 44] Precisions: [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091] System length: 47 Reference length: 1 
+First element of precision: 2.127659574468085 
+SequenceMatcher Score 1: 0.01
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 744 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    # 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    int celsius = 0;
+    float fahrenheit = 0.0;
+    
+    printf("Enter temperature in Celsius: ");
+    scanf("%d", &celsius);
+    
+    fahrenheit = celsius_to_fahrenheit(celsius);
+    
+    printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
+    
+    return
+SacreBLEU score 1: 26.09488171621423 Counts: [34, 24, 15, 11] Totals: [62, 61, 60, 59] Precisions: [54.83870967741935, 39.34426229508197, 25.0, 18.64406779661017] System length: 62 Reference length: 74 
+First element of precision: 54.83870967741935 
+SequenceMatcher Score 1: 0.06
+
+Actual result: {floatcelsius,fahr;intlower,upper,step;lower=0;upper=300;step=30;printf(");printf(");celsius=lower;while(celsius<=upper){fahr=celsius_to_fahrenheit(celsius);printf(",celsius,fahr);celsius+=step;}return0;}
+
+Parse State: 201	Cursor Position: 745 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+    int celsius = 0;
+    float fahrenheit = 0.0;
+    
+    printf("Enter temperature in Celsius: ");
+    scanf("%d", &celsius);
+    
+    fahrenheit = celsius_to_fahrenheit(celsius);
+    
+    printf("%d Celsius is equal to %.2f Fahrenheit\n", celsius, f
+SacreBLEU score 1: 0.5657759656209534 Counts: [1, 0, 0, 0] Totals: [64, 63, 62, 61] Precisions: [1.5625, 0.7936507936507936, 0.4032258064516129, 0.20491803278688525] System length: 64 Reference length: 1 
+First element of precision: 1.5625 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: float celsius;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.53
+
+Received response with candidate 3: return (celsius * 9/5) + 32;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.06
+
+Actual result: float
+
+Parse State: 93	Cursor Position: 745 9
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temperature_in_celsius;
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.47
+
+Received response with candidate 2: float *temperature_ptr;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: celsius_temp = 28.0;
+  float fahrenheit_temp = celsius_to_fahrenheit(celsius_temp);
+  
+  printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius_temp, fahrenheit_temp);
+  
+  return 0;
+}
+SacreBLEU score 3: 0.6609918289641935 Counts: [1, 0, 0, 0] Totals: [55, 54, 53, 52] Precisions: [1.8181818181818181, 0.9259259259259259, 0.4716981132075472, 0.2403846153846154] System length: 55 Reference length: 1 
+First element of precision: 1.8181818181818181 
+SequenceMatcher Score 3: 0.07
+
+Actual result: celsius
+
+Parse State: 61	Cursor Position: 745 16
+Candidates List: [' , init_declarator_declarator_varname']
+
+Top One to Three Candidates: [' , init_declarator_declarator_varname']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius
+                    ', init_declarator_declarator_varname'
+                    Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', init_declarator_declarator_varname.'
+                    
+Received response with candidate 1: float celsius;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.21
+
+Actual result: ,fahr
+
+Parse State: 110	Cursor Position: 745 18
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius_degree;
+
+  printf("Enter temperature in celsius: ");
+  scanf("%f", &celsius);
+
+  float fahrenheit = celsius_to_fahrenheit(celsius);
+
+  printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit.\n", celsius, fahrenheit);
+
+  return 0;
+}
+
+float celsius_to
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [72, 71, 70, 69] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 72 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: *temperature_conversion_result = NULL;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: float fahrenheit;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.38
+
+Actual result: fahr
+
+Parse State: 60	Cursor Position: 745 22
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+
+  fahr = celsius_to_fahrenheit(celsius);
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 746 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }'{
+  printf("Enter temperature in Celsius: ");
+  scanf("%f", &celsius);
+
+  fahr = celsius_to_fahrenheit(celsius);
+
+  printf("%.2f Celsius is equivalent to %.2f Fahrenheit\n", celsius, fahr);
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+
+SacreBLEU score 1: 0.4877178495671594 Counts: [1, 0, 0, 0] Totals: [74, 73, 72, 71] Precisions: [1.3513513513513513, 0.684931506849315, 0.3472222222222222, 0.176056338028169] System length: 74 Reference length: 1 
+First element of precision: 1.3513513513513513 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: celsius
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: return celsius_to_fahrenheit(celsius);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.05
+
+Actual result: int
+
+Parse State: 93	Cursor Position: 746 7
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: fahr
+
+int main(void)
+{
+  float celsius, fahr;
+  int 'fahr';
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 15 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.12
+
+Received response with candidate 2: int *ptr;
+
+// The complete line of code will be:
+// int *ptr;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 20 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: int lower = 0, upper = 100, step = 10;
+SacreBLEU score 3: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 3: 0.23
+
+Actual result: lower
+
+Parse State: 61	Cursor Position: 746 12
+Candidates List: [' , init_declarator_declarator_varname']
+
+Top One to Three Candidates: [' , init_declarator_declarator_varname']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower
+                    ', init_declarator_declarator_varname'
+                    Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', init_declarator_declarator_varname.'
+                    
+Received response with candidate 1: int lower = 0, upper = 100, step = 10;
+SacreBLEU score 1: 6.178110636313396 Counts: [2, 1, 0, 0] Totals: [13, 12, 11, 10] Precisions: [15.384615384615385, 8.333333333333334, 4.545454545454546, 2.5] System length: 13 Reference length: 2 
+First element of precision: 15.384615384615385 
+SequenceMatcher Score 1: 0.27
+
+Actual result: ,upper
+
+Parse State: 110	Cursor Position: 746 14
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) 
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%
+SacreBLEU score 1: 0.6258807799153787 Counts: [1, 0, 0, 0] Totals: [58, 57, 56, 55] Precisions: [1.7241379310344827, 0.8771929824561403, 0.44642857142857145, 0.22727272727272727] System length: 58 Reference length: 1 
+First element of precision: 1.7241379310344827 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: int upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6
+SacreBLEU score 2: 0.6044751875664687 Counts: [1, 0, 0, 0] Totals: [60, 59, 58, 57] Precisions: [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508] System length: 60 Reference length: 1 
+First element of precision: 1.6666666666666667 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: int upper, step;
+
+  lower = 0; /* lower limit of temperature table */
+  upper = 300; /* upper limit */
+  step = 20; /* step size */
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to
+SacreBLEU score 3: 0.5482271666382152 Counts: [1, 0, 0, 0] Totals: [66, 65, 64, 63] Precisions: [1.5151515151515151, 0.7692307692307693, 0.390625, 0.1984126984126984] System length: 66 Reference length: 1 
+First element of precision: 1.5151515151515151 
+SequenceMatcher Score 3: 0.04
+
+Actual result: upper
+
+Parse State: 61	Cursor Position: 746 19
+Candidates List: [' , init_declarator_declarator_varname']
+
+Top One to Three Candidates: [' , init_declarator_declarator_varname']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper
+                    ', init_declarator_declarator_varname'
+                    Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', init_declarator_declarator_varname.'
+                    
+Received response with candidate 1:     Complete the initialization of the variables 'lower' and 'upper' with specific values:
+    
+    int lower = -30;
+    int upper = 100;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 23 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ,step
+
+Parse State: 110	Cursor Position: 746 21
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: step; 
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1
+SacreBLEU score 1: 0.6371624499564389 Counts: [1, 0, 0, 0] Totals: [57, 56, 55, 54] Precisions: [1.7543859649122806, 0.8928571428571429, 0.45454545454545453, 0.23148148148148148] System length: 57 Reference length: 1 
+First element of precision: 1.7543859649122806 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: *const int
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: upper, step;
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  printf("Celsius\tFahrenheit\n");
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.
+SacreBLEU score 3: 0.6044751875664687 Counts: [1, 0, 0, 0] Totals: [60, 59, 58, 57] Precisions: [1.6666666666666667, 0.847457627118644, 0.43103448275862066, 0.21929824561403508] System length: 60 Reference length: 1 
+First element of precision: 1.6666666666666667 
+SequenceMatcher Score 3: 0.04
+
+Actual result: step
+
+Parse State: 60	Cursor Position: 746 25
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_15/temperature_conversion.c" 2
+
+
+# 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ';'
+
+  lower = 0;
+  upper = 100;
+  step = 10;
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%.2f\t%.2f\n", celsius, fahr);
+    celsius += step
+SacreBLEU score 1: 0.5844855918911488 Counts: [1, 0, 0, 0] Totals: [62, 61, 60, 59] Precisions: [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661] System length: 62 Reference length: 1 
+First element of precision: 1.6129032258064515 
+SequenceMatcher Score 1: 0.01
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 748 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } 
+
+  lower = 0;    // lower limit of temperature table
+  upper = 100;  // upper limit
+  step = 10;    // step size
+
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.
+SacreBLEU score 1: 0.6371624499564389 Counts: [1, 0, 0, 0] Totals: [57, 56, 55, 54] Precisions: [1.7543859649122806, 0.8928571428571429, 0.45454545454545453, 0.23148148148148148] System length: 57 Reference length: 1 
+First element of precision: 1.7543859649122806 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: lower = 0, upper = 100, step = 10;
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: return fahr;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: lower
+
+Parse State: 181	Cursor Position: 748 9
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 0,
+upper = 100,
+step = 10;
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: lower += 0;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: |= 0;
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.33
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 748 11
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: lower = 0;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: The CONSTANT part of the code should be replaced with the value you want to use as the lower limit for the temperature conversion scale. This value will depend on the specific temperature range you want to cover in the program.
+
+For example, if you want to convert temperatures from -100 degrees Celsius to Fahrenheit, you could use -100 as the CONSTANT value.
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [68, 67, 66, 65] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 68 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.01
+
+Received response with candidate 3: ((celsius - 32) * 5 / 9)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 0
+
+Parse State: 331	Cursor Position: 748 12
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;       // Add a semicolon to terminate the statement.
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 749 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1:    upper = 100;
+  step = 10;
+
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+
+
+SacreBLEU score 1: 0.6735878102046051 Counts: [1, 0, 0, 0] Totals: [54, 53, 52, 51] Precisions: [1.8518518518518519, 0.9433962264150944, 0.4807692307692308, 0.24509803921568626] System length: 54 Reference length: 1 
+First element of precision: 1.8518518518518519 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: upper = 100;
+  step = 10;
+
+  printf("%3s\t%6s\n", "C", "F");
+
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t%6.1f\n",
+SacreBLEU score 2: 0.5482271666382152 Counts: [1, 0, 0, 0] Totals: [66, 65, 64, 63] Precisions: [1.5151515151515151, 0.7692307692307693, 0.390625, 0.1984126984126984] System length: 66 Reference length: 1 
+First element of precision: 1.5151515151515151 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: return celsius;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.10
+
+Actual result: upper
+
+Parse State: 181	Cursor Position: 749 9
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 100; 
+step = 10; 
+
+celsius = lower;
+
+while (celsius <= upper) {
+  fahr = celsius_to_fahrenheit(celsius);
+  printf("%3.0f %6.1f\n", celsius, fahr);
+  celsius = celsius + step;
+}
+
+return 0;
+
+SacreBLEU score 1: 0.6488583831481832 Counts: [1, 0, 0, 0] Totals: [56, 55, 54, 53] Precisions: [1.7857142857142858, 0.9090909090909091, 0.46296296296296297, 0.2358490566037736] System length: 56 Reference length: 1 
+First element of precision: 1.7857142857142858 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: upper += 100;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.14
+
+Received response with candidate 3:  upper |= 100;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.13
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 749 11
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 100
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.67
+
+Received response with candidate 2: upper = 100;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.27
+
+Received response with candidate 3: 100;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.57
+
+Actual result: 300
+
+Parse State: 331	Cursor Position: 749 14
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_15/temperature_conversion.c"
+float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+
+  step = 20;
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.12
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 750 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: step = 20;
+
+  printf("Celsius    Fahrenheit\n");
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%6.0f %12.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+ 
+SacreBLEU score 1: 0.6149917424924614 Counts: [1, 0, 0, 0] Totals: [59, 58, 57, 56] Precisions: [1.694915254237288, 0.8620689655172413, 0.43859649122807015, 0.22321428571428573] System length: 59 Reference length: 1 
+First element of precision: 1.694915254237288 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: step = 20;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.57
+
+Received response with candidate 3: return celsius_to_fahrenheit(celsius);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.05
+
+Actual result: step
+
+Parse State: 181	Cursor Position: 750 8
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = 20;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.33
+
+Received response with candidate 2: += 20;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: |= 20;
+SacreBLEU score 3: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.29
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 750 10
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: (upper - lower) / 20;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: 5
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (upper - lower) / 10
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: 30
+
+Parse State: 331	Cursor Position: 750 12
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius_to_fahrenheit(int celsius);
+
+int main(void)
+{
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: step = 30;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.18
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 753 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } 
+
+for (fahr = lower; fahr <= upper; fahr = fahr + step) {
+    celsius = (5.0/9.0) * (fahr - 32.0);
+    printf("%3.0f %6.2f\n", fahr, celsius);
+  }
+SacreBLEU score 1: 0.7291698644541256 Counts: [1, 0, 0, 0] Totals: [50, 49, 48, 47] Precisions: [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063] System length: 50 Reference length: 1 
+First element of precision: 2.0 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: celsius = lower;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.27
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 753 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: ("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit\n", celsius, fahr);
+SacreBLEU score 1: 3.482270899863668 Counts: [3, 1, 0, 0] Totals: [24, 23, 22, 21] Precisions: [12.5, 4.3478260869565215, 2.272727272727273, 1.1904761904761905] System length: 24 Reference length: 3 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: ("%3s %6s\n", "Celsius", "Fahrenheit");
+
+while (celsius <= upper) {
+  fahr = (celsius * 9.0) / 5.0 + 32.0;
+  printf("%6.0f %6.1f\n", celsius, fahr);
+  c
+SacreBLEU score 2: 1.7078913122953907 Counts: [3, 2, 0, 0] Totals: [56, 55, 54, 53] Precisions: [5.357142857142857, 3.6363636363636362, 0.9259259259259259, 0.4716981132075472] System length: 56 Reference length: 3 
+First element of precision: 5.357142857142857 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: (lower <= upper)
+
+SacreBLEU score 3: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.20
+
+Actual result: (")
+
+Parse State: 235	Cursor Position: 753 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("Temperature Converter\n");
+SacreBLEU score 1: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: (lower <= upper)
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: 
+for (celsius = lower; celsius <= upper; celsius = celsius + step) {
+    fahr = (celsius * 9.0 / 5.0) + 32.0;
+    printf("%3.0f %6.1f\n", celsius, fahr);
+}
+SacreBLEU score 3: 0.7772751558853214 Counts: [1, 0, 0, 0] Totals: [47, 46, 45, 44] Precisions: [2.127659574468085, 1.0869565217391304, 0.5555555555555556, 0.2840909090909091] System length: 47 Reference length: 1 
+First element of precision: 2.127659574468085 
+SequenceMatcher Score 3: 0.01
+
+Actual result: "
+
+Parse State: 351	Cursor Position: 753 30
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n"
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: \');
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 753 31
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n")
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: 
+printf("Celsius\t\tFahr.\n");
+SacreBLEU score 1: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.06
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 754 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: printf("Celsius\t\tFahr.\n");
+
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = (celsius * 9.0/5.0) + 32.0;
+    printf("%.0f\t\t%.1f\n", celsius, fahr);
+    celsius
+SacreBLEU score 1: 0.5943123208853887 Counts: [1, 0, 0, 0] Totals: [61, 60, 59, 58] Precisions: [1.639344262295082, 0.8333333333333334, 0.423728813559322, 0.21551724137931033] System length: 61 Reference length: 1 
+First element of precision: 1.639344262295082 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: celsius, fahr
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.21
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.27
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 754 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: "%.0f\t\t%.1f\n", celsius, fahr
+SacreBLEU score 1: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 3 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: for (celsius = lower; celsius <= upper; celsius += step) {
+    fahr = (celsius * 9.0 / 5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+}
+SacreBLEU score 2: 1.61391821076343 Counts: [3, 1, 0, 0] Totals: [50, 49, 48, 47] Precisions: [6.0, 2.0408163265306123, 1.0416666666666667, 0.5319148936170213] System length: 50 Reference length: 3 
+First element of precision: 6.0 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: 
+ for(celsius = lower; celsius <= upper; celsius += step){
+        fahr = (celsius * 9.0/5.0) + 32;
+        printf("%.1f\t\t%.1f\n", celsius, fahr);
+    }
+SacreBLEU score 3: 1.5499686563608683 Counts: [3, 1, 0, 0] Totals: [52, 51, 50, 49] Precisions: [5.769230769230769, 1.9607843137254901, 1.0, 0.5102040816326531] System length: 52 Reference length: 3 
+First element of precision: 5.769230769230769 
+SequenceMatcher Score 3: 0.04
+
+Actual result: (")
+
+Parse State: 235	Cursor Position: 754 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("%.2f\t\t%.2f\n", celsius, fahr);
+SacreBLEU score 1: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: (celsius <= upper)
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (upper >= lower)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: "
+
+Parse State: 351	Cursor Position: 754 36
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n"
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: ');'
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 754 37
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    float celsius, fahr;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n")
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: printf("----------------------\n");
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.06
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 756 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: ```c
+  for (int celsius = lower; celsius <= upper; celsius += step) {
+    double fahr = (celsius * 9.0 / 5.0) + 32.0;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+  }
+
+SacreBLEU score 1: 0.6488583831481832 Counts: [1, 0, 0, 0] Totals: [56, 55, 54, 53] Precisions: [1.7857142857142858, 0.9090909090909091, 0.46296296296296297, 0.2358490566037736] System length: 56 Reference length: 1 
+First element of precision: 1.7857142857142858 
+SequenceMatcher Score 1: 0.08
+
+Received response with candidate 2: tempCel
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: return (celsius * 9/5) + 32;
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.40
+
+Actual result: celsius
+
+Parse State: 181	Cursor Position: 756 11
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = lower;
+    while (celsius <= upper) {
+        fahr = (celsius * 9.0) / 5.0 + 32.0;
+        printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+        celsius += step;
+    }
+SacreBLEU score 1: 0.7445292335166879 Counts: [1, 0, 0, 0] Totals: [49, 48, 47, 46] Precisions: [2.0408163265306123, 1.0416666666666667, 0.5319148936170213, 0.2717391304347826] System length: 49 Reference length: 1 
+First element of precision: 2.0408163265306123 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: celsius += step;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: |= lower <= upper;
+while(celsius <= upper) {
+    fahr = (celsius * 9.0) / 5.0 + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+}
+SacreBLEU score 3: 0.6866732953963862 Counts: [1, 0, 0, 0] Totals: [53, 52, 51, 50] Precisions: [1.8867924528301887, 0.9615384615384616, 0.49019607843137253, 0.25] System length: 53 Reference length: 1 
+First element of precision: 1.8867924528301887 
+SequenceMatcher Score 3: 0.01
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 756 13
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius = lower;
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.48
+
+Received response with candidate 2: (upper - lower) / step * 1.8 + 32
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: ( celsius <= upper)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.25
+
+Actual result: lower
+
+Parse State: 331	Cursor Position: 756 18
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;       
+
+while(celsius <= upper){
+    fahr = (celsius * 9.0)/5.0 + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+}
+SacreBLEU score 1: 0.7605497822189857 Counts: [1, 0, 0, 0] Totals: [48, 47, 46, 45] Precisions: [2.0833333333333335, 1.0638297872340425, 0.5434782608695652, 0.2777777777777778] System length: 48 Reference length: 1 
+First element of precision: 2.0833333333333335 
+SequenceMatcher Score 1: 0.01
+
+Actual result: ;
+
+Parse State: 320	Cursor Position: 757 3
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: 
+while (celsius <= upper) {
+    fahr = (celsius * 9/5) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+}
+SacreBLEU score 1: 51.432138496248385 Counts: [29, 25, 21, 18] Totals: [46, 45, 44, 43] Precisions: [63.04347826086956, 55.55555555555556, 47.72727272727273, 41.86046511627907] System length: 46 Reference length: 34 
+First element of precision: 63.04347826086956 
+SequenceMatcher Score 1: 0.66
+
+Received response with candidate 2: if (celsius <= upper) {
+    fahr = (celsius * 9/5) + 32;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+}
+SacreBLEU score 2: 49.14611336973534 Counts: [28, 24, 20, 17] Totals: [46, 45, 44, 43] Precisions: [60.869565217391305, 53.333333333333336, 45.45454545454545, 39.53488372093023] System length: 46 Reference length: 34 
+First element of precision: 60.869565217391305 
+SequenceMatcher Score 2: 0.65
+
+Received response with candidate 3: if (celsius <= upper) {
+     fahr = (celsius * 9/5) + 32;
+     printf("%3d\t\t%6.1f\n", celsius, fahr);
+     celsius = celsius + step;
+} else {
+     // do something else or terminate the loop
+}
+SacreBLEU score 3: 32.90569316133953 Counts: [29, 23, 16, 12] Totals: [59, 58, 57, 56] Precisions: [49.152542372881356, 39.6551724137931, 28.07017543859649, 21.428571428571427] System length: 59 Reference length: 34 
+First element of precision: 49.152542372881356 
+SequenceMatcher Score 3: 0.48
+
+Actual result: while(celsius<=upper){fahr=celsius_to_fahrenheit(celsius);printf(",celsius,fahr);celsius+=step;}
+
+Parse State: 406	Cursor Position: 757 9
+Candidates List: [' ( expression ) scoped_statement']
+
+Top One to Three Candidates: [' ( expression ) scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while
+                    '( expression ) scoped_statement'
+                    Complete the '( expression ) scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ) scoped_statement.'
+                    
+Received response with candidate 1: (celsius <= upper) {
+    fahr = (celsius * 9/5) + 32;
+    printf("%3.0f \t\t %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+}
+SacreBLEU score 1: 42.52397912411345 Counts: [29, 23, 16, 12] Totals: [46, 45, 44, 43] Precisions: [63.04347826086956, 51.111111111111114, 36.36363636363637, 27.906976744186046] System length: 46 Reference length: 33 
+First element of precision: 63.04347826086956 
+SequenceMatcher Score 1: 0.61
+
+Actual result: (celsius<=upper){fahr=celsius_to_fahrenheit(celsius);printf(",celsius,fahr);celsius+=step;}
+
+Parse State: 457	Cursor Position: 757 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' *', ' CONSTANT', ' !', ' -- unary_expression', ' &', ' ++ unary_expression', ' ( type_name ) cast_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' *']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius <= upper
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.61
+
+Received response with candidate 2: (celsius <= upper)
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.56
+
+Received response with candidate 3: (fahr = (celsius * 9/5) + 32) <= upper
+SacreBLEU score 3: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 3: 0.31
+
+Actual result: celsius
+
+Parse State: 154	Cursor Position: 757 18
+Candidates List: [' >', ' <', ' <=', ' >=']
+
+Top One to Three Candidates: [' >', ' <', ' <=']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius
+                    '>'
+                    Complete the '>' part of the code in the C11 programming language. Just show your answer 
+                    in place of '>.'
+                    
+Received response with candidate 1: 
+ > = upper) {
+        fahr = (celsius * 9 / 5) + 32;
+        printf("%3d\t\t%6.1f\n", celsius, fahr);
+        celsius = celsius + step;
+    }
+SacreBLEU score 1: 0.8321783954793125 Counts: [1, 0, 0, 0] Totals: [44, 43, 42, 41] Precisions: [2.272727272727273, 1.1627906976744187, 0.5952380952380952, 0.3048780487804878] System length: 44 Reference length: 2 
+First element of precision: 2.272727272727273 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: < = upper
+SacreBLEU score 2: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 2: 0.36
+
+Received response with candidate 3: while (celsius <= upper)
+SacreBLEU score 3: 13.134549472120788 Counts: [2, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [28.571428571428573, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 2 
+First element of precision: 28.571428571428573 
+SequenceMatcher Score 3: 0.15
+
+Actual result: <=
+
+Parse State: 252	Cursor Position: 757 21
+Candidates List: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' NAME VARIABLE', ' -', ' sizeof ( type_name )', ' sizeof unary_expression', ' *', ' &']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <=
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: upper
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: (celsius <= upper)
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.43
+
+Received response with candidate 3: (float) celsius * 9 / 5 + 32;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.06
+
+Actual result: upper
+
+Parse State: 485	Cursor Position: 757 26
+Candidates List: [' ) scoped_statement', ' , assignment_expression']
+
+Top One to Three Candidates: [' ) scoped_statement', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    lower = 0;
+  upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper
+                    ') scoped_statement'
+                    Complete the ') scoped_statement' part of the code in the C11 programming language. Just show your answer 
+                    in place of ') scoped_statement.'
+                    
+Received response with candidate 1: {
+    {
+      fahr = (celsius * 9/5) + 32;
+      printf("%3d\t\t%6.1f\n", celsius, fahr);
+      celsius = celsius + step;
+    }
+  }
+SacreBLEU score 1: 30.569797759618744 Counts: [23, 17, 10, 6] Totals: [42, 41, 40, 39] Precisions: [54.76190476190476, 41.46341463414634, 25.0, 15.384615384615385] System length: 42 Reference length: 28 
+First element of precision: 54.76190476190476 
+SequenceMatcher Score 1: 0.51
+
+Received response with candidate 2: fahrenheit = (celsius * 9/5) + 32;
+ celsius += step;
+SacreBLEU score 2: 17.966776657357006 Counts: [11, 6, 4, 3] Totals: [17, 16, 15, 14] Precisions: [64.70588235294117, 37.5, 26.666666666666668, 21.428571428571427] System length: 17 Reference length: 28 
+First element of precision: 64.70588235294117 
+SequenceMatcher Score 2: 0.53
+
+Actual result: ){fahr=celsius_to_fahrenheit(celsius);printf(",celsius,fahr);celsius+=step;}
+
+Parse State: 320	Cursor Position: 758 3
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    upper = 300;
+  step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    fahr = (celsius * 9/5) + 32;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+}
+SacreBLEU score 1: 41.92430478263867 Counts: [22, 18, 14, 11] Totals: [39, 38, 37, 36] Precisions: [56.41025641025641, 47.36842105263158, 37.83783783783784, 30.555555555555557] System length: 39 Reference length: 27 
+First element of precision: 56.41025641025641 
+SequenceMatcher Score 1: 0.60
+
+Received response with candidate 2: if (celsius == lower || celsius % step == 0) {
+    fahr = (celsius * 9.0/5.0) + 32.0;
+    printf("%3d\t\t%6.1f\n", celsius, fahr);
+}
+celsius += step;
+SacreBLEU score 2: 25.096091166503655 Counts: [23, 17, 11, 7] Totals: [54, 53, 52, 51] Precisions: [42.592592592592595, 32.075471698113205, 21.153846153846153, 13.72549019607843] System length: 54 Reference length: 27 
+First element of precision: 42.592592592592595 
+SequenceMatcher Score 2: 0.44
+
+Received response with candidate 3: if (fahr <= 0) {
+        // Conversion formula for negative fahrenheit values
+        fahr = ((celsius * 9) / 5) + 32;
+    } else {
+        // Conversion formula for positive fahrenheit values
+        fahr = ((celsius * 9) / 5) + 32
+SacreBLEU score 3: 2.9340657676215876 Counts: [15, 3, 0, 0] Totals: [54, 53, 52, 51] Precisions: [27.77777777777778, 5.660377358490566, 0.9615384615384616, 0.49019607843137253] System length: 54 Reference length: 27 
+First element of precision: 27.77777777777778 
+SequenceMatcher Score 3: 0.27
+
+Actual result: {fahr=celsius_to_fahrenheit(celsius);printf(",celsius,fahr);celsius+=step;}
+
+Parse State: 201	Cursor Position: 759 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: fahr = (celsius * 9.0 / 5.0) + 32.0;
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+SacreBLEU score 1: 0.9432284668356838 Counts: [1, 0, 0, 0] Totals: [39, 38, 37, 36] Precisions: [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222] System length: 39 Reference length: 1 
+First element of precision: 2.5641025641025643 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: fahr = (celsius * 9/5) + 32;
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: ```c
+fahr = celsius * 9/5 + 32;
+printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+celsius = celsius + step;
+```
+SacreBLEU score 3: 0.8522452865706931 Counts: [1, 0, 0, 0] Totals: [43, 42, 41, 40] Precisions: [2.3255813953488373, 1.1904761904761905, 0.6097560975609756, 0.3125] System length: 43 Reference length: 1 
+First element of precision: 2.3255813953488373 
+SequenceMatcher Score 3: 0.07
+
+Actual result: fahr
+
+Parse State: 181	Cursor Position: 759 10
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1:  = (celsius * 9.0)/5.0 + 32.0;
+SacreBLEU score 1: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2:  fahr += (celsius * 9/5) + 32;
+SacreBLEU score 2: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 2: 0.06
+
+Received response with candidate 3: = (celsius * 9/5) + 32;
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.08
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 759 12
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: ((celsius * 9/5) + 32);
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 5 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.32
+
+Received response with candidate 2: fahr = (celsius * 9 / 5) + 32;
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 5 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.27
+
+Received response with candidate 3: fahr = (celsius * 9/5) + 32;
+SacreBLEU score 3: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 5 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 3: 0.29
+
+Actual result: celsius_to_fahrenheit
+
+Parse State: 147	Cursor Position: 759 33
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (celsius)
+SacreBLEU score 1: 0.0 Counts: [3, 2, 1, 0] Totals: [3, 2, 1, 0] Precisions: [100.0, 100.0, 100.0, 0.0] System length: 3 Reference length: 3 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: fahr = celsius_to_fahrenheit(celsius);
+SacreBLEU score 2: 13.950796967929138 Counts: [3, 2, 1, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 20.0, 11.11111111111111, 6.25] System length: 11 Reference length: 3 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score 2: 0.38
+
+Received response with candidate 3: fahr = celsius * (9.0 / 5.0) + 32;
+SacreBLEU score 3: 4.456882760699063 Counts: [3, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [25.0, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 3 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.37
+
+Actual result: (celsius)
+
+Parse State: 235	Cursor Position: 759 34
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: &celsius
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.93
+
+Received response with candidate 2: (1.8 * celsius) + 32
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.52
+
+Received response with candidate 3: fahr = celsius_to_fahrenheit(celsius);
+SacreBLEU score 3: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 3: 0.31
+
+Actual result: celsius
+
+Parse State: 351	Cursor Position: 759 41
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 759 42
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    step = 30;
+
+
+  printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+    printf("%3.0f \t\t %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
+SacreBLEU score 1: 1.3353534059549443 Counts: [1, 0, 0, 0] Totals: [28, 27, 26, 25] Precisions: [3.5714285714285716, 1.8518518518518519, 0.9615384615384616, 0.5] System length: 28 Reference length: 1 
+First element of precision: 3.5714285714285716 
+SequenceMatcher Score 1: 0.02
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 760 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+celsius += step;
+}
+SacreBLEU score 1: 1.4445809981770859 Counts: [1, 0, 0, 0] Totals: [26, 25, 24, 23] Precisions: [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652] System length: 26 Reference length: 1 
+First element of precision: 3.8461538461538463 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: fahr
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: return fahr;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.33
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 760 11
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: "%3.0f\t\t%6.1f\n", celsius, fahr
+SacreBLEU score 1: 22.894156860669913 Counts: [5, 4, 3, 2] Totals: [16, 15, 14, 13] Precisions: [31.25, 26.666666666666668, 21.428571428571427, 15.384615384615385] System length: 16 Reference length: 7 
+First element of precision: 31.25 
+SequenceMatcher Score 1: 0.57
+
+Received response with candidate 2: printf("%.2f\t\t%.2f\n", celsius, fahr);
+                    
+This line of code will print the values of Celsius and Fahrenheit with two decimal places.
+SacreBLEU score 2: 12.640653505501357 Counts: [7, 6, 4, 3] Totals: [39, 38, 37, 36] Precisions: [17.94871794871795, 15.789473684210526, 10.81081081081081, 8.333333333333334] System length: 39 Reference length: 7 
+First element of precision: 17.94871794871795 
+SequenceMatcher Score 2: 0.19
+
+Received response with candidate 3: ("%.2f\t\t%.2f\n", celsius, fahr);
+SacreBLEU score 3: 24.33821845902227 Counts: [7, 6, 4, 3] Totals: [21, 20, 19, 18] Precisions: [33.333333333333336, 30.0, 21.05263157894737, 16.666666666666668] System length: 21 Reference length: 7 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.64
+
+Actual result: (",celsius,fahr)
+
+Parse State: 235	Cursor Position: 760 12
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("%.0f\t\t%.1f\n", celsius, fahr);
+SacreBLEU score 1: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: printf("%.2f\t\t%.2f\n", celsius, fahr);
+SacreBLEU score 2: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+SacreBLEU score 3: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score 3: 0.05
+
+Actual result: "
+
+Parse State: 352	Cursor Position: 760 30
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n"
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: fahr += step;
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.10
+
+Actual result: ,celsius
+
+Parse State: 429	Cursor Position: 760 32
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n",
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: fahr
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: %celsius, fahr
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: %f
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: celsius
+
+Parse State: 352	Cursor Position: 760 39
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: fahr = (celsius * 9.0 / 5.0) + 32.0;
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 2 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.20
+
+Actual result: ,fahr
+
+Parse State: 429	Cursor Position: 760 41
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: fahr
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: fahr
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 2: 1.00
+
+Received response with candidate 3: fahr
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 3: 1.00
+
+Actual result: fahr
+
+Parse State: 351	Cursor Position: 760 45
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 760 46
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+    celsius += step;
+  }
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.07
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 761 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }. 
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: celsius, fahr
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.70
+
+Received response with candidate 3: return;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.29
+
+Actual result: celsius
+
+Parse State: 181	Cursor Position: 761 13
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: += step;
+SacreBLEU score 1: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: += 1;
+SacreBLEU score 2: 31.947155212313625 Counts: [2, 1, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 33.333333333333336, 25.0, 25.0] System length: 4 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.57
+
+Received response with candidate 3: = celsius + step;
+SacreBLEU score 3: 12.703318703865365 Counts: [2, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [40.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 2 
+First element of precision: 40.0 
+SequenceMatcher Score 3: 0.11
+
+Actual result: +=
+
+Parse State: 279	Cursor Position: 761 16
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius +=
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius_increment
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: fahr_step;
+SacreBLEU score 2: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.57
+
+Received response with candidate 3: celsius += step;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.40
+
+Actual result: step
+
+Parse State: 331	Cursor Position: 761 20
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+  }
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.29
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 762 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("Celsius\t\tFahr.\n");
+  printf("----------------------\n");
+
+  celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }'     
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: celsius, fahr, lower, upper, step
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 201	Cursor Position: 764 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }`;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: celsius, fahr
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.29
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.94
+
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 764 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsiusToFahrenheit
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: return 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: 0
+
+Parse State: 415	Cursor Position: 764 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 765 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    celsius = lower;
+  while (celsius <= upper)
+  {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }'.
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: converted_temp
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 23	Cursor Position: 767 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: extern float celsius_to_fahrenheit(float celsius);
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: typedef double celsius_type;
+typedef double fahrenheit_type;
+typedef double step_type;
+typedef celsius_type list_eq1_type_specifier_unique_declaration_specifier;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 36 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: typedef double fahrenheit;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.06
+
+Actual result: float
+
+Parse State: 5	Cursor Position: 767 7
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 5 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: float *celsius_to_fahrenheit(float celsius) {
+SacreBLEU score 2: 31.702331385234313 Counts: [5, 4, 3, 2] Totals: [12, 11, 10, 9] Precisions: [41.666666666666664, 36.36363636363637, 30.0, 22.22222222222222] System length: 12 Reference length: 5 
+First element of precision: 41.666666666666664 
+SequenceMatcher Score 2: 0.64
+
+Received response with candidate 3: float celsius_to_fahrenheit(float celsius) {
+    return (celsius * 9.0/5.0) + 32;
+}
+SacreBLEU score 3: 15.415064977510763 Counts: [5, 4, 3, 2] Totals: [23, 22, 21, 20] Precisions: [21.73913043478261, 18.181818181818183, 14.285714285714286, 10.0] System length: 23 Reference length: 5 
+First element of precision: 21.73913043478261 
+SequenceMatcher Score 3: 0.40
+
+Actual result: celsius_to_fahrenheit
+
+Parse State: 63	Cursor Position: 767 28
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: (float celsius)
+SacreBLEU score 1: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.74
+
+Received response with candidate 2: (float celsius) {
+    float fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+SacreBLEU score 2: 2.0540268312306345 Counts: [2, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [9.090909090909092, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 3 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: (float celsius) {
+    return (celsius * 9/5) + 32;
+}
+SacreBLEU score 3: 2.719665272174911 Counts: [2, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [11.764705882352942, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 3 
+First element of precision: 11.764705882352942 
+SequenceMatcher Score 3: 0.31
+
+Actual result: (intcelsius)
+
+Parse State: 186	Cursor Position: 767 29
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: const float celsius
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: float
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: float celsius
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: int
+
+Parse State: 298	Cursor Position: 767 33
+Candidates List: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )', ' ( save_context abstract_declarator )']
+
+Top One to Three Candidates: [' * option_type_qualifier_list option_pointer', ' NAME VARIABLE', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int
+                    '* option_type_qualifier_list option_pointer'
+                    Complete the '* option_type_qualifier_list option_pointer' part of the code in the C11 programming language. Just show your answer 
+                    in place of '* option_type_qualifier_list option_pointer.'
+                    
+Received response with candidate 1: float celsius_to_fahrenheit(int celsius)
+SacreBLEU score 1: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 1: 0.30
+
+Received response with candidate 2: temp_in_celsius
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.64
+
+Received response with candidate 3: celsius_degrees) {
+  return (celsius_degrees * 9.0 / 5.0) + 32.0;
+}
+SacreBLEU score 3: 2.0244462660665508 Counts: [1, 0, 0, 0] Totals: [19, 18, 17, 16] Precisions: [5.2631578947368425, 2.7777777777777777, 1.4705882352941178, 0.78125] System length: 19 Reference length: 1 
+First element of precision: 5.2631578947368425 
+SequenceMatcher Score 3: 0.19
+
+Actual result: celsius
+
+Parse State: 187	Cursor Position: 767 40
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    {
+    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 768 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    fahr = celsius_to_fahrenheit(celsius);
+    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    return (celsius * 9/5) + 32;
+}
+SacreBLEU score 1: 17.194656088289214 Counts: [10, 3, 1, 0] Totals: [13, 12, 11, 10] Precisions: [76.92307692307692, 25.0, 9.090909090909092, 5.0] System length: 13 Reference length: 13 
+First element of precision: 76.92307692307692 
+SequenceMatcher Score 1: 0.59
+
+Actual result: {return(9.0/5.0)*celsius+32.0f;}
+
+Parse State: 201	Cursor Position: 769 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: return (celsius * 9.0/5.0) + 32;
+SacreBLEU score 1: 31.7023313852343 Counts: [10, 4, 2, 1] Totals: [11, 10, 9, 8] Precisions: [90.9090909090909, 40.0, 22.22222222222222, 12.5] System length: 11 Reference length: 11 
+First element of precision: 90.9090909090909 
+SequenceMatcher Score 1: 0.61
+
+Received response with candidate 2: float fahr;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 11 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.10
+
+Received response with candidate 3: return (celsius * 9/5) + 32;
+SacreBLEU score 3: 10.600313379512592 Counts: [8, 1, 0, 0] Totals: [11, 10, 9, 8] Precisions: [72.72727272727273, 10.0, 5.555555555555555, 3.125] System length: 11 Reference length: 11 
+First element of precision: 72.72727272727273 
+SequenceMatcher Score 3: 0.62
+
+Actual result: return(9.0/5.0)*celsius+32.0f;
+
+Parse State: 338	Cursor Position: 769 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius * 1.8 + 32
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 5 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.07
+
+Received response with candidate 2: ( celsius * 9 / 5) + 32
+SacreBLEU score 2: 6.27465531099474 Counts: [3, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [33.333333333333336, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 5 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.31
+
+Received response with candidate 3: return (celsius * 9 / 5) + 32;
+SacreBLEU score 3: 4.9323515694897075 Counts: [3, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [27.272727272727273, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 5 
+First element of precision: 27.272727272727273 
+SequenceMatcher Score 3: 0.26
+
+Actual result: (9.0/5.0)
+
+Parse State: 165	Cursor Position: 769 11
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression', ' CONSTANT', ' int', ' long', ' sizeof ( type_name )', ' void', ' NAME TYPE', ' *', ' unsigned', ' char', ' struct', ' !', ' const', ' STRING_LITERAL', ' &', ' sizeof unary_expression', ' -', ' double', ' ~', ' ( type_name ) { initializer_list option_comma }', ' signed', ' -- unary_expression', ' union', ' ++ unary_expression', ' _Alignof ( type_name )', ' float', ' short']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: celsius * 9.0/5.0 + 32.0
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: ( (celsius * 9 / 5) + 32 )
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: (float) celsius * 9/5 + 32
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.07
+
+Actual result: 9.0
+
+Parse State: 151	Cursor Position: 769 15
+Candidates List: [' /', ' *', ' %']
+
+Top One to Three Candidates: [' /', ' *', ' %']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0
+                    '/'
+                    Complete the '/' part of the code in the C11 programming language. Just show your answer 
+                    in place of '/.'
+                    
+Received response with candidate 1: *  celsius/5.0 + 32.0;
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: * / 5.0 + 32.0
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3:  * celsius) / 5.0 + 32.0;
+SacreBLEU score 3: 5.522397783539471 Counts: [1, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [12.5, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 1 
+First element of precision: 12.5 
+SequenceMatcher Score 3: 0.08
+
+Actual result: /
+
+Parse State: 242	Cursor Position: 769 17
+Candidates List: [' ( expression )', ' CONSTANT', ' sizeof ( type_name )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' sizeof unary_expression', ' -', ' *', ' _Alignof ( type_name )']
+
+Top One to Three Candidates: [' ( expression )', ' CONSTANT', ' sizeof ( type_name )']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 /
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ).'
+                    
+Received response with candidate 1: return celsius * 9.0 / 5.0 + 32;
+SacreBLEU score 1: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.17
+
+Received response with candidate 2: 
+(5.0 / 9.0) * (celsius + 32.0)
+SacreBLEU score 2: 3.7477767366779213 Counts: [1, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [9.090909090909092, 5.0, 2.7777777777777777, 1.5625] System length: 11 Reference length: 1 
+First element of precision: 9.090909090909092 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: The correct syntax for getting the size of a data type in C11 is 'sizeof(type_name)'.
+
+So, the complete line of code should be:
+
+return (9.0 / sizeof(int));
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [42, 41, 40, 39] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 42 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.03
+
+Actual result: 5.0
+
+Parse State: 267	Cursor Position: 769 20
+Candidates List: [' )', ' , assignment_expression']
+
+Top One to Three Candidates: [' )', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: ) * celsius + 32.0;
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: * (celsius) + 32.0;
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.10
+
+Actual result: )
+
+Parse State: 151	Cursor Position: 769 22
+Candidates List: [' /', ' *', ' %']
+
+Top One to Three Candidates: [' /', ' *', ' %']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0)
+                    '/'
+                    Complete the '/' part of the code in the C11 programming language. Just show your answer 
+                    in place of '/.'
+                    
+Received response with candidate 1: * (celsius) + 32.0;
+SacreBLEU score 1: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: * celsius + 32;
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: * (celsius) + 32.0;
+SacreBLEU score 3: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 3: 0.10
+
+Actual result: *
+
+Parse State: 242	Cursor Position: 769 24
+Candidates List: [' ( expression )', ' CONSTANT', ' sizeof ( type_name )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' sizeof unary_expression', ' -', ' *', ' _Alignof ( type_name )']
+
+Top One to Three Candidates: [' ( expression )', ' CONSTANT', ' sizeof ( type_name )']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) *
+                    '( expression )'
+                    Complete the '( expression )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( expression ).'
+                    
+Received response with candidate 1: ( expression ) celsius + 32.0
+SacreBLEU score 1: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 1: 0.39
+
+Received response with candidate 2: ( celsius + 32.0 )
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.56
+
+Received response with candidate 3: 'float'
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.14
+
+Actual result: celsius
+
+Parse State: 152	Cursor Position: 769 32
+Candidates List: [' +', ' -']
+
+Top One to Three Candidates: [' +', ' -']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius
+                    '+'
+                    Complete the '+' part of the code in the C11 programming language. Just show your answer 
+                    in place of '+.'
+                    
+Received response with candidate 1: + 32.0;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: + 32;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.33
+
+Actual result: +
+
+Parse State: 246	Cursor Position: 769 34
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' sizeof unary_expression', ' sizeof ( type_name )', ' ( type_name ) cast_expression', ' *', ' !', ' ++ unary_expression', ' &']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius +
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: 32.0
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.89
+
+Received response with candidate 2: 32.0
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.89
+
+Received response with candidate 3: + 32.0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: 32.0f
+
+Parse State: 415	Cursor Position: 769 39
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    printf("%3.0f\t\t%6.1f\n", celsius, fahr);
+    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius + 32.0f
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 770 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    celsius += step;
+  }
+
+  return 0;
+}
+
+float celsius_to_fahrenheit(int celsius)
+{
+  return (9.0 / 5.0) * celsius + 32.0f;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }'.
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.50
+
+Received response with candidate 2: celsius
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return celsius;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+

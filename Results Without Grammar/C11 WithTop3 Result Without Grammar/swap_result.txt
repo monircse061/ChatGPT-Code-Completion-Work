@@ -1,0 +1,2093 @@
+Parse State: 23	Cursor Position: 741 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: static
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.22
+
+Received response with candidate 2: typedef struct {
+    int x;
+    int y;
+} Point;
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: Typedef int list_ge1_type_specifier_nonunique_declaration_specifier;
+SacreBLEU score 3: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 3: 0.08
+
+Actual result: int
+
+Parse State: 5	Cursor Position: 741 5
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: swap(int *a, int *b)
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.25
+
+Received response with candidate 2: int * restrict a
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: int
+__attribute__((optimize("O0")))
+save_context(int a, int b) {
+    // code to save context here
+    return a;
+}
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [38, 37, 36, 35] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 38 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.03
+
+Actual result: main
+
+Parse State: 63	Cursor Position: 741 9
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: int main(void)
+SacreBLEU score 1: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 1: 0.60
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.60
+
+Received response with candidate 3: int main(void)
+SacreBLEU score 3: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 3: 0.60
+
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 741 10
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: 'int argc, char *argv[]) {
+    const. 
+    return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 16 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.44
+
+Received response with candidate 3: int main(void)
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.44
+
+Actual result: void
+
+Parse State: 187	Cursor Position: 741 14
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1:  int main(void)
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.12
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 742 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: int main(void)
+{
+    // Your code goes here
+    
+    return 0;
+}
+SacreBLEU score 1: 0.8323584314269813 Counts: [5, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [31.25, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 48 
+First element of precision: 31.25 
+SequenceMatcher Score 1: 0.24
+
+Actual result: {intx=2,y=3;printf(",x,y);{inttemp;temp=x;x=y;y=temp;};;printf(",x,y);return0;}
+
+Parse State: 201	Cursor Position: 743 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } 
+    return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.10
+
+Received response with candidate 2: int temp;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 2: 0.50
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.17
+
+Actual result: int
+
+Parse State: 93	Cursor Position: 743 7
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: int main(void)
+{
+  int x = 5;
+  int y = 10;
+  
+  // Swapping logic
+  x = x + y;
+  y = x - y;
+  x = x - y;
+  
+  printf("After swapping, x = %d and y = %d\n", x, y);
+  
+
+SacreBLEU score 1: 0.5844855918911488 Counts: [1, 0, 0, 0] Totals: [62, 61, 60, 59] Precisions: [1.6129032258064515, 0.819672131147541, 0.4166666666666667, 0.211864406779661] System length: 62 Reference length: 1 
+First element of precision: 1.6129032258064515 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: int *ptr;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: int main(void)
+{
+  int a = 5;
+  int b = 10;
+
+  printf("Before swapping: a = %d, b = %d\n", a, b);
+
+  // Swapping the values of a and b
+  int temp = a;
+  a = b;
+  b = temp;
+
+  printf("
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [65, 64, 63, 62] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 65 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: x
+
+Parse State: 59	Cursor Position: 743 9
+Candidates List: [' = c_initializer']
+
+Top One to Three Candidates: [' = c_initializer']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x
+                    '= c_initializer'
+                    Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer 
+                    in place of '= c_initializer.'
+                    
+Received response with candidate 1: = 10;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.29
+
+Actual result: =2
+
+Parse State: 108	Cursor Position: 743 11
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' { initializer_list option_comma }', ' ( type_name ) cast_expression', ' STRING_LITERAL', ' *', ' -', ' &', ' __builtin_va_arg ( assignment_expression , type_name )', ' !', ' sizeof unary_expression', ' sizeof ( type_name )', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: int main(void)
+{
+  int x = 10; // This is just a placeholder value, 'NAME VARIABLE' should be replaced with the actual variable name you want to use
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 35 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: '(5 + 10) * 2'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.13
+
+Received response with candidate 3: int x = 10;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 2
+
+Parse State: 61	Cursor Position: 743 12
+Candidates List: [' , init_declarator_declarator_varname']
+
+Top One to Three Candidates: [' , init_declarator_declarator_varname']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2
+                    ', init_declarator_declarator_varname'
+                    Complete the ', init_declarator_declarator_varname' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', init_declarator_declarator_varname.'
+                    
+Received response with candidate 1: int x = 2, y;
+SacreBLEU score 1: 14.535768424205482 Counts: [3, 1, 0, 0] Totals: [7, 6, 5, 4] Precisions: [42.857142857142854, 16.666666666666668, 10.0, 6.25] System length: 7 Reference length: 4 
+First element of precision: 42.857142857142854 
+SequenceMatcher Score 1: 0.12
+
+Actual result: ,y=3
+
+Parse State: 110	Cursor Position: 743 14
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: int y = 5;
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.18
+
+Received response with candidate 2: int *p = &x;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: int y = 5;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.18
+
+Actual result: y
+
+Parse State: 59	Cursor Position: 743 16
+Candidates List: [' = c_initializer']
+
+Top One to Three Candidates: [' = c_initializer']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y
+                    '= c_initializer'
+                    Complete the '= c_initializer' part of the code in the C11 programming language. Just show your answer 
+                    in place of '= c_initializer.'
+                    
+Received response with candidate 1: = 3;
+SacreBLEU score 1: 0.0 Counts: [2, 1, 0, 0] Totals: [3, 2, 1, 0] Precisions: [66.66666666666667, 50.0, 50.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.67
+
+Actual result: =3
+
+Parse State: 108	Cursor Position: 743 18
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' { initializer_list option_comma }', ' ( type_name ) cast_expression', ' STRING_LITERAL', ' *', ' -', ' &', ' __builtin_va_arg ( assignment_expression , type_name )', ' !', ' sizeof unary_expression', ' sizeof ( type_name )', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: y = 3;
+  printf("Before swapping: x = %d, y = %d\n", x, y);
+  
+  x = x + y;
+  y = x - y;
+  x = x - y;
+  
+  printf("After swapping: x = %d, y = %d\n", x, y);
+
+SacreBLEU score 1: 0.5162051047489141 Counts: [1, 0, 0, 0] Totals: [70, 69, 68, 67] Precisions: [1.4285714285714286, 0.7246376811594203, 0.36764705882352944, 0.1865671641791045] System length: 70 Reference length: 1 
+First element of precision: 1.4285714285714286 
+SequenceMatcher Score 1: 0.01
+
+Received response with candidate 2: 'y = 3;'
+SacreBLEU score 2: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 2: 0.22
+
+Received response with candidate 3: int x = 2, y = 3;
+SacreBLEU score 3: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 3: 0.11
+
+Actual result: 3
+
+Parse State: 60	Cursor Position: 743 19
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+
+  // add the missing semicolon here since it was missing in the original code
+  return 0;
+}
+SacreBLEU score 1: 1.9146030690102511 Counts: [1, 0, 0, 0] Totals: [20, 19, 18, 17] Precisions: [5.0, 2.6315789473684212, 1.3888888888888888, 0.7352941176470589] System length: 20 Reference length: 1 
+First element of precision: 5.0 
+SequenceMatcher Score 1: 0.02
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 745 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: return 0;
+}
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.24
+
+Received response with candidate 2: int temp = x;
+x = y;
+y = temp;
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 13 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.27
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 745 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (x, y);
+SacreBLEU score 1: 45.48019047027906 Counts: [5, 3, 2, 1] Totals: [6, 5, 4, 3] Precisions: [83.33333333333333, 60.0, 50.0, 33.333333333333336] System length: 6 Reference length: 7 
+First element of precision: 83.33333333333333 
+SequenceMatcher Score 1: 0.71
+
+Received response with candidate 2: printf("Before swapping: x = %d, y = %d\n", x, y);
+
+  // Swap the values of x and y
+  int temp = x;
+  x = y;
+  y = temp;
+
+  printf("After swapping: x = %d, y = %d\n", x, y);
+
+  return 
+SacreBLEU score 2: 6.818346002331206 Counts: [7, 6, 4, 3] Totals: [71, 70, 69, 68] Precisions: [9.859154929577464, 8.571428571428571, 5.797101449275362, 4.411764705882353] System length: 71 Reference length: 7 
+First element of precision: 9.859154929577464 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: x, y); // Output: x = 2, y = 3
+
+  // Swap values of x and y using bitwise XOR operation
+  x = x ^ y;
+  y = x ^ y;
+  x = x ^ y;
+
+  printf("x = %d, y = %d\n", x, y); //
+SacreBLEU score 3: 7.020425720945272 Counts: [7, 6, 4, 3] Totals: [69, 68, 67, 66] Precisions: [10.144927536231885, 8.823529411764707, 5.970149253731344, 4.545454545454546] System length: 69 Reference length: 7 
+First element of precision: 10.144927536231885 
+SequenceMatcher Score 3: 0.05
+
+Actual result: (",x,y)
+
+Parse State: 235	Cursor Position: 745 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("x = %d, y = %d\n", x, y);
+SacreBLEU score 1: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: swap(&x, &y);
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 9 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: x = %d, y = %d\n", x, y);
+SacreBLEU score 3: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 1 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 3: 0.08
+
+Actual result: "
+
+Parse State: 352	Cursor Position: 745 26
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n"
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: x: %d, y: %d\n", x, y);
+SacreBLEU score 1: 4.295382417831811 Counts: [2, 1, 0, 0] Totals: [18, 17, 16, 15] Precisions: [11.11111111111111, 5.882352941176471, 3.125, 1.6666666666666667] System length: 18 Reference length: 2 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 1: 0.08
+
+Actual result: ,x
+
+Parse State: 429	Cursor Position: 745 28
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n",
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: x, y
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.40
+
+Received response with candidate 2: swap(x, y);
+
+  printf("After swap: x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 2: 1.0559717178170818 Counts: [1, 0, 0, 0] Totals: [35, 34, 33, 32] Precisions: [2.857142857142857, 1.4705882352941178, 0.7575757575757576, 0.390625] System length: 35 Reference length: 1 
+First element of precision: 2.857142857142857 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: "x, y"
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.29
+
+Actual result: x
+
+Parse State: 352	Cursor Position: 745 29
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: x: %d, y: %d\n", x, y
+SacreBLEU score 1: 4.891187874480726 Counts: [2, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 2 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.17
+
+Actual result: ,y
+
+Parse State: 429	Cursor Position: 745 31
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: & y);
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.33
+
+Received response with candidate 2: swap(&x, &y);
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 2: 1.0885011049519644 Counts: [1, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 1 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: "y"
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.50
+
+Actual result: y
+
+Parse State: 351	Cursor Position: 745 32
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: );
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.67
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 745 33
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_4/exercise_4_14/swap.c" 2
+# 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+  return 0;
+}
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.12
+
+Actual result: ;
+
+Parse State: 320	Cursor Position: 747 3
+Candidates List: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement', ' for ( option_expression ; option_expression ; option_expression ) scoped_statement', ' do scoped_statement while ( expression ) ;', ' while ( expression ) scoped_statement', ' switch ( expression ) scoped_statement', ' for ( declaration option_expression ; option_expression ) scoped_statement']
+
+Top One to Three Candidates: [' { option_block_item_list }', ' if ( expression ) scoped_statement', ' if ( expression ) scoped_statement else scoped_statement']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+  int temp;
+
+  temp = x;
+  x = y;
+  y = temp;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 30.65023517915967 Counts: [15, 13, 11, 10] Totals: [41, 40, 39, 38] Precisions: [36.58536585365854, 32.5, 28.205128205128204, 26.31578947368421] System length: 41 Reference length: 16 
+First element of precision: 36.58536585365854 
+SequenceMatcher Score 1: 0.45
+
+Received response with candidate 2: if (x != y) {
+    int temp = x;
+    x = y;
+    y = temp;
+}
+SacreBLEU score 2: 56.959884327614766 Counts: [14, 12, 11, 10] Totals: [22, 21, 20, 19] Precisions: [63.63636363636363, 57.142857142857146, 55.0, 52.63157894736842] System length: 22 Reference length: 16 
+First element of precision: 63.63636363636363 
+SequenceMatcher Score 2: 0.23
+
+Received response with candidate 3: if (x > y) {
+    int temp = x;
+    x = y;
+    y = temp;
+} else {
+    int temp = y;
+    y = x;
+    x = temp;
+}
+SacreBLEU score 3: 33.431318185104686 Counts: [15, 12, 11, 10] Totals: [37, 36, 35, 34] Precisions: [40.54054054054054, 33.333333333333336, 31.428571428571427, 29.41176470588235] System length: 37 Reference length: 16 
+First element of precision: 40.54054054054054 
+SequenceMatcher Score 3: 0.35
+
+Actual result: {inttemp;temp=x;x=y;y=temp;}
+
+Parse State: 201	Cursor Position: 747 5
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  {
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } 
+
+  printf("Before swap: x = %d, y = %d\n", x, y);
+
+  // Swapping the values of x and y
+  int temp = x;
+  x = y;
+  y = temp;
+
+  printf("After swap: x = %d, y = %d\n", x, y
+SacreBLEU score 1: 0.5238546714708301 Counts: [1, 0, 0, 0] Totals: [69, 68, 67, 66] Precisions: [1.4492753623188406, 0.7352941176470589, 0.373134328358209, 0.1893939393939394] System length: 69 Reference length: 1 
+First element of precision: 1.4492753623188406 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: int temp = x;
+x = y;
+y = temp;
+SacreBLEU score 2: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.17
+
+Actual result: int
+
+Parse State: 93	Cursor Position: 747 9
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp = x;
+    x = y;
+    y = temp;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 0.9964194812460634 Counts: [1, 0, 0, 0] Totals: [37, 36, 35, 34] Precisions: [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944] System length: 37 Reference length: 1 
+First element of precision: 2.7027027027027026 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: int *temp = &x;
+x = y;
+y = *temp;
+
+printf("x: %d, y: %d\n", x, y);
+
+return 0;
+}
+SacreBLEU score 2: 0.8954307276600084 Counts: [1, 0, 0, 0] Totals: [41, 40, 39, 38] Precisions: [2.4390243902439024, 1.25, 0.6410256410256411, 0.32894736842105265] System length: 41 Reference length: 1 
+First element of precision: 2.4390243902439024 
+SequenceMatcher Score 2: 0.10
+
+Received response with candidate 3: { int temp = x;
+    x = y;
+    y = temp; }
+SacreBLEU score 3: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 3: 0.17
+
+Actual result: temp
+
+Parse State: 60	Cursor Position: 747 13
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: 
+  = x;
+    x = y;
+    y = temp;
+  }
+
+  printf("After swap - x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 0.918708060432945 Counts: [1, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [2.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783] System length: 40 Reference length: 1 
+First element of precision: 2.5 
+SequenceMatcher Score 1: 0.02
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 15
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: 
+temp = x;
+x = y;
+y = temp;
+}
+SacreBLEU score 1: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 1: 0.24
+
+Received response with candidate 2: int temp = x;
+x = y;
+y = temp;
+SacreBLEU score 2: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 2: 0.24
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.15
+
+Actual result: temp
+
+Parse State: 181	Cursor Position: 747 20
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = x;
+    x = y;
+    y = temp;
+  }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 0.9964194812460634 Counts: [1, 0, 0, 0] Totals: [37, 36, 35, 34] Precisions: [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944] System length: 37 Reference length: 1 
+First element of precision: 2.7027027027027026 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: temp += x;
+x = y;
+y = temp;
+SacreBLEU score 2: 3.0890553181566975 Counts: [1, 0, 0, 0] Totals: [13, 12, 11, 10] Precisions: [7.6923076923076925, 4.166666666666667, 2.272727272727273, 1.25] System length: 13 Reference length: 1 
+First element of precision: 7.6923076923076925 
+SequenceMatcher Score 2: 0.07
+
+Received response with candidate 3: temp |= x;
+temp |= y;
+SacreBLEU score 3: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 3: 0.09
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 747 22
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp = x;
+     x = y;
+     y = temp;
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: { int temp; 
+temp = x;
+x = y;
+y = temp; }
+SacreBLEU score 2: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: { int temp; temp = x; x = y; y = temp; }
+SacreBLEU score 3: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 3: 0.05
+
+Actual result: x
+
+Parse State: 331	Cursor Position: 747 23
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: temp = x;
+x = y;
+y = temp;
+SacreBLEU score 1: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 1: 0.07
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 25
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: temp = y;
+    y = temp;
+  }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.0885011049519644 Counts: [1, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 1 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: temp = y;
+    y = temp;
+    x = temp;
+SacreBLEU score 2: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: return x = y, y = temp;
+SacreBLEU score 3: 4.767707020457095 Counts: [1, 0, 0, 0] Totals: [9, 8, 7, 6] Precisions: [11.11111111111111, 6.25, 3.5714285714285716, 2.0833333333333335] System length: 9 Reference length: 1 
+First element of precision: 11.11111111111111 
+SequenceMatcher Score 3: 0.08
+
+Actual result: x
+
+Parse State: 181	Cursor Position: 747 27
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = y;
+    y = temp;
+  }
+
+  printf("After swapping\nx: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 1: 0.02
+
+Received response with candidate 2: { int temp; temp = x; x += y; y = temp; }
+SacreBLEU score 2: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 1 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: |= y;
+    y = temp;
+  }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 3: 1.0885011049519644 Counts: [1, 0, 0, 0] Totals: [34, 33, 32, 31] Precisions: [2.9411764705882355, 1.5151515151515151, 0.78125, 0.4032258064516129] System length: 34 Reference length: 1 
+First element of precision: 2.9411764705882355 
+SequenceMatcher Score 3: 0.03
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 747 29
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp; x = y; y = temp; }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: y; y = temp; }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+
+The correct code should be:
+
+x: %d, y: %d
+y, x
+SacreBLEU score 2: 0.7291698644541256 Counts: [1, 0, 0, 0] Totals: [50, 49, 48, 47] Precisions: [2.0, 1.0204081632653061, 0.5208333333333334, 0.26595744680851063] System length: 50 Reference length: 1 
+First element of precision: 2.0 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: temp = y; y = temp;
+                    printf("After swapping: x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 3: 1.0253311603116817 Counts: [1, 0, 0, 0] Totals: [36, 35, 34, 33] Precisions: [2.7777777777777777, 1.4285714285714286, 0.7352941176470589, 0.3787878787878788] System length: 36 Reference length: 1 
+First element of precision: 2.7777777777777777 
+SequenceMatcher Score 3: 0.02
+
+Actual result: y
+
+Parse State: 331	Cursor Position: 747 30
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; y = temp; } 
+
+This code snippet swaps the values of variables x and y using a temporary variable temp.
+SacreBLEU score 1: 1.6466642419110007 Counts: [1, 0, 0, 0] Totals: [23, 22, 21, 20] Precisions: [4.3478260869565215, 2.272727272727273, 1.1904761904761905, 0.625] System length: 23 Reference length: 1 
+First element of precision: 4.3478260869565215 
+SequenceMatcher Score 1: 0.02
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 32
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: y = temp; }
+  
+  printf("After swapping, x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.123099644603982 Counts: [1, 0, 0, 0] Totals: [33, 32, 31, 30] Precisions: [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667] System length: 33 Reference length: 1 
+First element of precision: 3.0303030303030303 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: temp = temp;
+
+This would assign the value of the previous value of x to the temp variable after swapping x and y.
+SacreBLEU score 2: 1.506189323093867 Counts: [1, 0, 0, 0] Totals: [25, 24, 23, 22] Precisions: [4.0, 2.0833333333333335, 1.0869565217391304, 0.5681818181818182] System length: 25 Reference length: 1 
+First element of precision: 4.0 
+SequenceMatcher Score 2: 0.02
+
+Received response with candidate 3: return y = temp;
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.12
+
+Actual result: y
+
+Parse State: 181	Cursor Position: 747 34
+Candidates List: [' =', ' +=', ' |=', ' -=', ' &=', ' >>=', ' ^=', ' /=', ' *=', ' <<=', ' %=']
+
+Top One to Three Candidates: [' =', ' +=', ' |=']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y
+                    '='
+                    Complete the '=' part of the code in the C11 programming language. Just show your answer 
+                    in place of '=.'
+                    
+Received response with candidate 1: = temp
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: += temp; }
+
+  printf("After swapping: x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 2: 1.123099644603982 Counts: [1, 0, 0, 0] Totals: [33, 32, 31, 30] Precisions: [3.0303030303030303, 1.5625, 0.8064516129032258, 0.4166666666666667] System length: 33 Reference length: 1 
+First element of precision: 3.0303030303030303 
+SequenceMatcher Score 2: 0.03
+
+Received response with candidate 3: = temp; }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+} 
+
+The complete code should have the following line:
+
+y |= temp;
+SacreBLEU score 3: 0.8522452865706931 Counts: [1, 0, 0, 0] Totals: [43, 42, 41, 40] Precisions: [2.3255813953488373, 1.1904761904761905, 0.6097560975609756, 0.3125] System length: 43 Reference length: 1 
+First element of precision: 2.3255813953488373 
+SequenceMatcher Score 3: 0.02
+
+Actual result: =
+
+Parse State: 279	Cursor Position: 747 36
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' -', ' &', ' !', ' STRING_LITERAL', ' ~', ' __builtin_va_arg ( assignment_expression , type_name )', ' sizeof unary_expression', ' ++ unary_expression', ' sizeof ( type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y =
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp; y = temp; }
+
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.1599713834969503 Counts: [1, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [3.125, 1.6129032258064515, 0.8333333333333334, 0.43103448275862066] System length: 32 Reference length: 1 
+First element of precision: 3.125 
+SequenceMatcher Score 1: 0.11
+
+Received response with candidate 2: temp; y = temp;
+  
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 2: 1.199348129252962 Counts: [1, 0, 0, 0] Totals: [31, 30, 29, 28] Precisions: [3.225806451612903, 1.6666666666666667, 0.8620689655172413, 0.44642857142857145] System length: 31 Reference length: 1 
+First element of precision: 3.225806451612903 
+SequenceMatcher Score 2: 0.11
+
+Received response with candidate 3: { int temp; temp = x; x = y; y = temp; }
+SacreBLEU score 3: 2.2869567780619007 Counts: [1, 0, 0, 0] Totals: [17, 16, 15, 14] Precisions: [5.882352941176471, 3.125, 1.6666666666666667, 0.8928571428571429] System length: 17 Reference length: 1 
+First element of precision: 5.882352941176471 
+SequenceMatcher Score 3: 0.18
+
+Actual result: temp
+
+Parse State: 331	Cursor Position: 747 40
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; } }
+
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.29
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 747 42
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } printf("After swapping, x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 1.286713095960916 Counts: [1, 0, 0, 0] Totals: [29, 28, 27, 26] Precisions: [3.4482758620689653, 1.7857142857142858, 0.9259259259259259, 0.4807692307692308] System length: 29 Reference length: 1 
+First element of precision: 3.4482758620689653 
+SequenceMatcher Score 1: 0.03
+
+Received response with candidate 2: temp
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
+Parse State: 331	Cursor Position: 747 43
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; }
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: printf("After swapping - x: %d, y: %d\n", x, y);
+SacreBLEU score 1: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 1: 0.04
+
+Actual result: ;
+
+Parse State: 331	Cursor Position: 747 44
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+
+# 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: The correct completion for the code in the C11 programming language is:
+
+;;
+
+SacreBLEU score 1: 2.627961710408444 Counts: [1, 0, 0, 0] Totals: [15, 14, 13, 12] Precisions: [6.666666666666667, 3.5714285714285716, 1.9230769230769231, 1.0416666666666667] System length: 15 Reference length: 1 
+First element of precision: 6.666666666666667 
+SequenceMatcher Score 1: 0.03
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 748 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: } 
+  printf("After swapping:\n");
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 1: 0.9964194812460634 Counts: [1, 0, 0, 0] Totals: [37, 36, 35, 34] Precisions: [2.7027027027027026, 1.3888888888888888, 0.7142857142857143, 0.36764705882352944] System length: 37 Reference length: 1 
+First element of precision: 2.7027027027027026 
+SequenceMatcher Score 1: 0.14
+
+Received response with candidate 2: temp
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.20
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.27
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 748 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (x: %d, y: %d\n, x, y)
+SacreBLEU score 1: 22.407508680204355 Counts: [6, 4, 3, 2] Totals: [17, 16, 15, 14] Precisions: [35.294117647058826, 25.0, 20.0, 14.285714285714286] System length: 17 Reference length: 7 
+First element of precision: 35.294117647058826 
+SequenceMatcher Score 1: 0.41
+
+Received response with candidate 2: ;printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+}
+SacreBLEU score 2: 19.359517339258716 Counts: [7, 6, 4, 3] Totals: [26, 25, 24, 23] Precisions: [26.923076923076923, 24.0, 16.666666666666668, 13.043478260869565] System length: 26 Reference length: 7 
+First element of precision: 26.923076923076923 
+SequenceMatcher Score 2: 0.26
+
+Received response with candidate 3: "("x: %d, y: %d\n", x, y);"
+SacreBLEU score 3: 23.14734800742452 Counts: [7, 6, 4, 3] Totals: [22, 21, 20, 19] Precisions: [31.818181818181817, 28.571428571428573, 20.0, 15.789473684210526] System length: 22 Reference length: 7 
+First element of precision: 31.818181818181817 
+SequenceMatcher Score 3: 0.41
+
+Actual result: (",x,y)
+
+Parse State: 235	Cursor Position: 748 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: printf("After swapping: x: %d, y: %d\n", x, y);
+SacreBLEU score 2: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 2: 0.04
+
+Received response with candidate 3: printf("After swapping: x: %d, y: %d\n", x, y);
+SacreBLEU score 3: 1.5732934811145336 Counts: [1, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [4.166666666666667, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 1 
+First element of precision: 4.166666666666667 
+SequenceMatcher Score 3: 0.04
+
+Actual result: "
+
+Parse State: 352	Cursor Position: 748 26
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n"
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: { int temp; temp = x; x = y; y = temp; }; 
+SacreBLEU score 1: 2.1476912089159055 Counts: [1, 0, 0, 0] Totals: [18, 17, 16, 15] Precisions: [5.555555555555555, 2.9411764705882355, 1.5625, 0.8333333333333334] System length: 18 Reference length: 2 
+First element of precision: 5.555555555555555 
+SequenceMatcher Score 1: 0.05
+
+Actual result: ,x
+
+Parse State: 429	Cursor Position: 748 28
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n",
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("x: %d, y: %d\n", x, y);
+SacreBLEU score 1: 1.8160849415439309 Counts: [1, 0, 0, 0] Totals: [21, 20, 19, 18] Precisions: [4.761904761904762, 2.5, 1.3157894736842106, 0.6944444444444444] System length: 21 Reference length: 1 
+First element of precision: 4.761904761904762 
+SequenceMatcher Score 1: 0.06
+
+Received response with candidate 2: x: 3, y: 2
+SacreBLEU score 2: 6.567274736060395 Counts: [1, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [14.285714285714286, 8.333333333333334, 5.0, 3.125] System length: 7 Reference length: 1 
+First element of precision: 14.285714285714286 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: "swapped values: x = 3, y = 2"
+SacreBLEU score 3: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 3: 0.06
+
+Actual result: x
+
+Parse State: 352	Cursor Position: 748 29
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: temp;', 'y: %d', temp
+SacreBLEU score 1: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 2 
+First element of precision: 10.0 
+SequenceMatcher Score 1: 0.17
+
+Actual result: ,y
+
+Parse State: 429	Cursor Position: 748 31
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x,
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: temp
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 'y'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.50
+
+Received response with candidate 3: "y: %d\n", y);
+SacreBLEU score 3: 3.3864985683445354 Counts: [1, 0, 0, 0] Totals: [12, 11, 10, 9] Precisions: [8.333333333333334, 4.545454545454546, 2.5, 1.3888888888888888] System length: 12 Reference length: 1 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 3: 0.13
+
+Actual result: y
+
+Parse State: 351	Cursor Position: 748 32
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: ); // this closes the printf function call and the main function
+SacreBLEU score 1: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.03
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 748 33
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 11 "chapter_4/exercise_4_14/swap.c"
+int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y)
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ; 
+}
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 750 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: temp
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.17
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.94
+
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 750 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: main
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 0;
+SacreBLEU score 2: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 2: 0.67
+
+Received response with candidate 3: 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.67
+
+Actual result: 0
+
+Parse State: 415	Cursor Position: 750 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    int main(void)
+{
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 751 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    {
+  int x = 2, y = 3;
+
+  printf("x: %d, y: %d\n", x, y);
+
+  { int temp; temp = x; x = y; y = temp; };;
+  printf("x: %d, y: %d\n", x, y);
+
+  return 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: x_and_y_interchanged
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+

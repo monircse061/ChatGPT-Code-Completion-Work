@@ -1,0 +1,840 @@
+Parse State: 23	Cursor Position: 741 1
+Candidates List: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier', ' struct', ' void', ' static', ' NAME TYPE', ' enum option_general_identifier { enumerator_list option_comma }', ' int', ' char', ' _Bool', ' inline', ' union', ' const', ' $', ' enum general_identifier', ' unsigned', ' double', ' _Noreturn', ' long', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' float', ' short', ' volatile']
+
+Top One to Three Candidates: [' extern', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' typedef list_ge1_type_specifier_nonunique_declaration_specifier']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+                    'extern'
+                    Complete the 'extern' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'extern.'
+                    
+Received response with candidate 1: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+SacreBLEU score 1: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: typedef int list_eq1_type_specifier_unique_declaration_specifier;
+SacreBLEU score 2: 2.445593937240363 Counts: [1, 0, 0, 0] Totals: [16, 15, 14, 13] Precisions: [6.25, 3.3333333333333335, 1.7857142857142858, 0.9615384615384616] System length: 16 Reference length: 1 
+First element of precision: 6.25 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: typedef struct {
+    int data;
+    struct Node* next;
+} list_ge1_type_specifier_nonunique_declaration_specifier;
+SacreBLEU score 3: 1.4445809981770859 Counts: [1, 0, 0, 0] Totals: [26, 25, 24, 23] Precisions: [3.8461538461538463, 2.0, 1.0416666666666667, 0.5434782608695652] System length: 26 Reference length: 1 
+First element of precision: 3.8461538461538463 
+SequenceMatcher Score 3: 0.05
+
+Actual result: int
+
+Parse State: 5	Cursor Position: 741 5
+Candidates List: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' * option_type_qualifier_list option_pointer', ' ( save_context declarator )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: extern int NAME_VARIABLE (FILE *);
+extern int NAME_VARIABLE (FILE *, int);
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: '* const volatile'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 22 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.06
+
+Actual result: main
+
+Parse State: 63	Cursor Position: 741 9
+Candidates List: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+Top One to Three Candidates: [' ( scoped_parameter_type_list )', ' [ option_type_qualifier_list option_assignment_expression ]', ' ( save_context option_identifier_list )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main
+                    '( scoped_parameter_type_list )'
+                    Complete the '( scoped_parameter_type_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( scoped_parameter_type_list ).'
+                    
+Received response with candidate 1: int main(void)
+SacreBLEU score 1: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 1: 0.60
+
+Received response with candidate 2: int main(void)
+SacreBLEU score 2: 39.76353643835252 Counts: [3, 2, 1, 0] Totals: [5, 4, 3, 2] Precisions: [60.0, 50.0, 33.333333333333336, 25.0] System length: 5 Reference length: 3 
+First element of precision: 60.0 
+SequenceMatcher Score 2: 0.60
+
+Received response with candidate 3: int main()
+SacreBLEU score 3: 18.99589214128981 Counts: [2, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [50.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 3 
+First element of precision: 50.0 
+SequenceMatcher Score 3: 0.25
+
+Actual result: (void)
+
+Parse State: 186	Cursor Position: 741 10
+Candidates List: [' const', ' int', ' NAME TYPE', ' char', ' void', ' struct', ' unsigned', ' long', ' double', ' NAME VARIABLE', ' float', ' union', ' enum general_identifier', ' _Bool', ' register']
+
+Top One to Three Candidates: [' const', ' int', ' NAME TYPE']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(
+                    'const'
+                    Complete the 'const' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'const.'
+                    
+Received response with candidate 1: int main(const 
+                    'const'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.04
+
+Received response with candidate 2: int main() {
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.12
+
+Received response with candidate 3: int main(void)
+SacreBLEU score 3: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 3: 0.44
+
+Actual result: void
+
+Parse State: 187	Cursor Position: 741 14
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 885 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: int main(void)
+SacreBLEU score 1: 10.682175159905848 Counts: [1, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [20.0, 12.5, 8.333333333333334, 6.25] System length: 5 Reference length: 1 
+First element of precision: 20.0 
+SequenceMatcher Score 1: 0.13
+
+Actual result: )
+
+Parse State: 94	Cursor Position: 742 1
+Candidates List: [' { option_block_item_list }']
+
+Top One to Three Candidates: [' { option_block_item_list }']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+                    '{ option_block_item_list }'
+                    Complete the '{ option_block_item_list }' part of the code in the C11 programming language. Just show your answer 
+                    in place of '{ option_block_item_list }.'
+                    
+Received response with candidate 1: {
+    printf("Hello, World!");
+    return 0;
+}
+SacreBLEU score 1: 19.24443345974271 Counts: [10, 5, 2, 1] Totals: [15, 14, 13, 12] Precisions: [66.66666666666667, 35.714285714285715, 15.384615384615385, 8.333333333333334] System length: 15 Reference length: 18 
+First element of precision: 66.66666666666667 
+SequenceMatcher Score 1: 0.56
+
+Actual result: {printf(",getchar()!=(-1));return0;}
+
+Parse State: 201	Cursor Position: 743 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: 
+}
+
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: int main(void)
+{
+    int result = 10 + (2 * 5) / 3;
+    printf("The result is: %d\n", result);
+
+    return 0;
+}
+SacreBLEU score 2: 0.9432284668356838 Counts: [1, 0, 0, 0] Totals: [39, 38, 37, 36] Precisions: [2.5641025641025643, 1.3157894736842106, 0.6756756756756757, 0.3472222222222222] System length: 39 Reference length: 1 
+First element of precision: 2.5641025641025643 
+SequenceMatcher Score 2: 0.10
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.27
+
+Actual result: printf
+
+Parse State: 147	Cursor Position: 743 9
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: '(option_argument_expression_list)' could be replaced with the following code in the C11 programming language:
+
+```c
+("Hello, World!")
+```
+SacreBLEU score 1: 2.5802625919834825 Counts: [7, 1, 0, 0] Totals: [39, 38, 37, 36] Precisions: [17.94871794871795, 2.6315789473684212, 1.3513513513513513, 0.6944444444444444] System length: 39 Reference length: 12 
+First element of precision: 17.94871794871795 
+SequenceMatcher Score 1: 0.09
+
+Received response with candidate 2: -> __overflow
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 12 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.06
+
+Received response with candidate 3: if (__overflow != NULL) {
+    printf("Overflow function exists\n");
+} else {
+    printf("Overflow function does not exist\n");
+}
+SacreBLEU score 3: 3.357041136813362 Counts: [9, 2, 0, 0] Totals: [38, 37, 36, 35] Precisions: [23.68421052631579, 5.405405405405405, 1.3888888888888888, 0.7142857142857143] System length: 38 Reference length: 12 
+First element of precision: 23.68421052631579 
+SequenceMatcher Score 3: 0.10
+
+Actual result: (",getchar()!=(-1))
+
+Parse State: 235	Cursor Position: 743 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' STRING_LITERAL', ' &', ' ( type_name ) cast_expression', ' *', ' sizeof ( type_name )', ' sizeof unary_expression', ' -', ' __builtin_va_arg ( assignment_expression , type_name )', ' ++ unary_expression', ' ~', ' -- unary_expression']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf(
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: printf("Hello, World!");
+  return 0;
+}
+SacreBLEU score 1: 2.8398387225677895 Counts: [1, 0, 0, 0] Totals: [14, 13, 12, 11] Precisions: [7.142857142857143, 3.8461538461538463, 2.0833333333333335, 1.1363636363636365] System length: 14 Reference length: 1 
+First element of precision: 7.142857142857143 
+SequenceMatcher Score 1: 0.05
+
+Received response with candidate 2: '( "Hello, World!" )'
+SacreBLEU score 2: 4.196114906296549 Counts: [1, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [10.0, 5.555555555555555, 3.125, 1.7857142857142858] System length: 10 Reference length: 1 
+First element of precision: 10.0 
+SequenceMatcher Score 2: 0.09
+
+Received response with candidate 3: "Hello, world!"
+SacreBLEU score 3: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 3: 0.12
+
+Actual result: "
+
+Parse State: 352	Cursor Position: 743 35
+Candidates List: [' , assignment_expression']
+
+Top One to Three Candidates: [' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d"
+                    ', assignment_expression'
+                    Complete the ', assignment_expression' part of the code in the C11 programming language. Just show your answer 
+                    in place of ', assignment_expression.'
+                    
+Received response with candidate 1: The assignment_expression part can be replaced with any valid C expression of your choice. For example:
+
+printf("value of expression: %d", 5 * (10 + 2));
+SacreBLEU score 1: 1.3737889784665156 Counts: [5, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [12.5, 1.2820512820512822, 0.6578947368421053, 0.33783783783783783] System length: 40 Reference length: 9 
+First element of precision: 12.5 
+SequenceMatcher Score 1: 0.08
+
+Actual result: ,getchar()!=(-1)
+
+Parse State: 429	Cursor Position: 743 37
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL', ' ( expression )', ' ( type_name ) cast_expression', ' &', ' sizeof unary_expression', ' sizeof ( type_name )', ' *', ' -', ' -- unary_expression', ' !', ' ++ unary_expression', ' __builtin_va_arg ( assignment_expression , type_name )']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' STRING_LITERAL']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d",
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: myVariable + 5
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.19
+
+Received response with candidate 2: EOF
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: "Hello World"
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 4 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.20
+
+Actual result: getchar
+
+Parse State: 147	Cursor Position: 743 44
+Candidates List: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]', '.general_identifier', ' ++', ' --']
+
+Top One to Three Candidates: [' ( option_argument_expression_list )', ' -> general_identifier', ' [ expression ]']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar
+                    '( option_argument_expression_list )'
+                    Complete the '( option_argument_expression_list )' part of the code in the C11 programming language. Just show your answer 
+                    in place of '( option_argument_expression_list ).'
+                    
+Received response with candidate 1: (getchar());
+SacreBLEU score 1: 16.233395773754953 Counts: [2, 1, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 20.0, 12.5, 8.333333333333334] System length: 6 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.29
+
+Received response with candidate 2: The correct completion for '-> general_identifier' in the code is:
+
+```c
+(buf)
+```
+SacreBLEU score 2: 1.8709718017288024 Counts: [2, 0, 0, 0] Totals: [24, 23, 22, 21] Precisions: [8.333333333333334, 2.1739130434782608, 1.1363636363636365, 0.5952380952380952] System length: 24 Reference length: 2 
+First element of precision: 8.333333333333334 
+SequenceMatcher Score 2: 0.05
+
+Received response with candidate 3: (getchar() != EOF)
+SacreBLEU score 3: 11.044795567078939 Counts: [2, 1, 0, 0] Totals: [8, 7, 6, 5] Precisions: [25.0, 14.285714285714286, 8.333333333333334, 5.0] System length: 8 Reference length: 2 
+First element of precision: 25.0 
+SequenceMatcher Score 3: 0.20
+
+Actual result: ()
+
+Parse State: 351	Cursor Position: 743 45
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar(
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: EOF
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Actual result: )
+
+Parse State: 155	Cursor Position: 743 47
+Candidates List: [' ==', ' !=']
+
+Top One to Three Candidates: [' ==', ' !=']
+
+                    This is the incomplete C11 programming language code:
+                    extern int __overflow (FILE *, int);
+# 902 "/usr/include/stdio.h" 3 4
+
+# 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar()
+                    '=='
+                    Complete the '==' part of the code in the C11 programming language. Just show your answer 
+                    in place of '==.'
+                    
+Received response with candidate 1: '=='
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 2 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.33
+
+Received response with candidate 2: '!=' should be replaced with '!=' in the code.
+SacreBLEU score 2: 4.891187874480726 Counts: [2, 1, 0, 0] Totals: [16, 15, 14, 13] Precisions: [12.5, 6.666666666666667, 3.5714285714285716, 1.9230769230769231] System length: 16 Reference length: 2 
+First element of precision: 12.5 
+SequenceMatcher Score 2: 0.08
+
+Actual result: !=
+
+Parse State: 257	Cursor Position: 745 49
+Candidates List: [' CONSTANT', ' ( expression )', ' NAME VARIABLE', ' ( type_name ) cast_expression', ' -', ' &', ' *', ' sizeof unary_expression', ' sizeof ( type_name )', ' STRING_LITERAL', ' !']
+
+Top One to Three Candidates: [' CONSTANT', ' ( expression )', ' NAME VARIABLE']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                    'CONSTANT'
+                    Complete the 'CONSTANT' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'CONSTANT.'
+                    
+Received response with candidate 1: getchar() != EOF
+SacreBLEU score 1: 9.652434877402245 Counts: [2, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [33.333333333333336, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 3 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: (getchar() != EOF)
+SacreBLEU score 2: 6.567274736060395 Counts: [2, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [25.0, 7.142857142857143, 4.166666666666667, 2.5] System length: 8 Reference length: 3 
+First element of precision: 25.0 
+SequenceMatcher Score 2: 0.18
+
+Received response with candidate 3: EOF
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 3 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: (-1)
+
+Parse State: 165	Cursor Position: 745 50
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression', ' CONSTANT', ' int', ' long', ' sizeof ( type_name )', ' void', ' NAME TYPE', ' *', ' unsigned', ' char', ' struct', ' !', ' const', ' STRING_LITERAL', ' &', ' sizeof unary_expression', ' -', ' double', ' ~', ' ( type_name ) { initializer_list option_comma }', ' signed', ' -- unary_expression', ' union', ' ++ unary_expression', ' _Alignof ( type_name )', ' float', ' short']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' ( type_name ) cast_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: 'NAME VARIABLE' part should be filled with ')'.
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [11, 10, 9, 8] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 11 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: '( EOF )'
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [5, 4, 3, 2] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 5 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (char) getchar();
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [7, 6, 5, 4] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 7 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: -
+
+Parse State: 149	Cursor Position: 745 51
+Candidates List: [' NAME VARIABLE', ' CONSTANT', ' ( expression )', ' ( type_name ) cast_expression', ' *', ' ++ unary_expression', ' -- unary_expression', ' !', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' CONSTANT', ' ( expression )']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: getchar() != EOF
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: 'CONSTANT' should be replaced with the character 'a'. 
+
+Therefore, the complete line of code should be:
+
+printf("value of expression: %d", getchar() != ('a'));
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [40, 39, 38, 37] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 40 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: (getchar() != EOF)
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [8, 7, 6, 5] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 8 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: 1
+
+Parse State: 267	Cursor Position: 745 52
+Candidates List: [' )', ' , assignment_expression']
+
+Top One to Three Candidates: [' )', ' , assignment_expression']
+
+                    This is the incomplete C11 programming language code:
+                    # 2 "chapter_1/exercise_1_06/verify_expression.c" 2
+
+
+# 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: (-1))
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.33
+
+Received response with candidate 2: getchar() != EOF
+SacreBLEU score 2: 8.116697886877475 Counts: [1, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [16.666666666666668, 10.0, 6.25, 4.166666666666667] System length: 6 Reference length: 1 
+First element of precision: 16.666666666666668 
+SequenceMatcher Score 2: 0.12
+
+Actual result: )
+
+Parse State: 351	Cursor Position: 747 52
+Candidates List: [' )']
+
+Top One to Three Candidates: [' )']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                    ')'
+                    Complete the ')' part of the code in the C11 programming language. Just show your answer 
+                    in place of ').'
+                    
+Received response with candidate 1: ');'
+SacreBLEU score 1: 15.97357760615681 Counts: [1, 0, 0, 0] Totals: [4, 3, 2, 1] Precisions: [25.0, 16.666666666666668, 12.5, 12.5] System length: 4 Reference length: 1 
+First element of precision: 25.0 
+SequenceMatcher Score 1: 0.40
+
+Actual result: )
+
+Parse State: 331	Cursor Position: 747 53
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                                                   )
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: The correct completion of the code is:
+
+    ;
+
+This will properly terminate the printf statement in the C11 programming language.
+SacreBLEU score 1: 1.727223799216787 Counts: [1, 0, 0, 0] Totals: [22, 21, 20, 19] Precisions: [4.545454545454546, 2.380952380952381, 1.25, 0.6578947368421053] System length: 22 Reference length: 1 
+First element of precision: 4.545454545454546 
+SequenceMatcher Score 1: 0.02
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 748 3
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                                                   );
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: };
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 2 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.20
+
+Received response with candidate 2: getchar() != EOF
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 2 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.25
+
+Received response with candidate 3: return -1;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 2 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.78
+
+Actual result: return0;
+
+Parse State: 338	Cursor Position: 748 10
+Candidates List: [' NAME VARIABLE', ' ( expression )', ' CONSTANT', ' ( type_name ) cast_expression', ' -', ' &', ' !', ' *', ' STRING_LITERAL']
+
+Top One to Three Candidates: [' NAME VARIABLE', ' ( expression )', ' CONSTANT']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                                                   );
+  return
+                    'NAME VARIABLE'
+                    Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+                    in place of 'NAME VARIABLE.'
+                    
+Received response with candidate 1: Complete the 'NAME VARIABLE' part of the code in the C11 programming language. Just show your answer 
+in place of 'NAME VARIABLE.'
+
+Answer: '\n'
+SacreBLEU score 1: 0.0 Counts: [0, 0, 0, 0] Totals: [30, 29, 28, 27] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 30 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 1: 0.00
+
+Received response with candidate 2: Complete the '( expression )' part of the code in the C11 programming language:
+
+```c
+(getchar() != EOF)
+```
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [32, 31, 30, 29] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 32 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return 0;
+SacreBLEU score 3: 0.0 Counts: [1, 0, 0, 0] Totals: [3, 2, 1, 0] Precisions: [33.333333333333336, 25.0, 25.0, 0.0] System length: 3 Reference length: 1 
+First element of precision: 33.333333333333336 
+SequenceMatcher Score 3: 0.20
+
+Actual result: 0
+
+Parse State: 415	Cursor Position: 748 11
+Candidates List: [' ;']
+
+Top One to Three Candidates: [' ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                                                   );
+  return 0
+                    ';'
+                    Complete the ';' part of the code in the C11 programming language. Just show your answer 
+                    in place of ';.'
+                    
+Received response with candidate 1: ;
+}
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [2, 1, 0, 0] Precisions: [50.0, 50.0, 0.0, 0.0] System length: 2 Reference length: 1 
+First element of precision: 50.0 
+SequenceMatcher Score 1: 0.50
+
+Actual result: ;
+
+Parse State: 201	Cursor Position: 749 1
+Candidates List: [' }', ' NAME VARIABLE', ' return option_expression ;', ' NAME TYPE', ' case constant_expression : statement', ' break ;', ' int', ' ( expression )', ' *', ' struct', ' char', ' goto general_identifier ;', ' const', ' unsigned', ' ( type_name ) cast_expression', ' default : statement', ' static', ' continue ;', ' register', ' ++ unary_expression', ' _Bool', ' long', ' double', ' void', ' -- unary_expression', ' enum option_general_identifier { enumerator_list option_comma }', ' union', ' enum general_identifier', ' extern', ' float', ' short', ' typedef list_eq1_type_specifier_unique_declaration_specifier', ' signed', ' _Static_assert ( constant_expression , STRING_LITERAL ) ;', ' volatile']
+
+Top One to Three Candidates: [' }', ' NAME VARIABLE', ' return option_expression ;']
+
+                    This is the incomplete C11 programming language code:
+                    # 3 "chapter_1/exercise_1_06/verify_expression.c"
+int main(void)
+{
+  printf("value of expression: %d", getchar() != 
+# 5 "chapter_1/exercise_1_06/verify_expression.c" 3 4
+                                                (-1)
+# 5 "chapter_1/exercise_1_06/verify_expression.c"
+                                                   );
+  return 0;
+                    '}'
+                    Complete the '}' part of the code in the C11 programming language. Just show your answer 
+                    in place of '}.'
+                    
+Received response with candidate 1: }
+SacreBLEU score 1: 0.0 Counts: [1, 0, 0, 0] Totals: [1, 0, 0, 0] Precisions: [100.0, 0.0, 0.0, 0.0] System length: 1 Reference length: 1 
+First element of precision: 100.0 
+SequenceMatcher Score 1: 1.00
+
+Received response with candidate 2: getchar() != EOF
+SacreBLEU score 2: 0.0 Counts: [0, 0, 0, 0] Totals: [6, 5, 4, 3] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 6 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 2: 0.00
+
+Received response with candidate 3: return getchar() != (-1);
+SacreBLEU score 3: 0.0 Counts: [0, 0, 0, 0] Totals: [10, 9, 8, 7] Precisions: [0.0, 0.0, 0.0, 0.0] System length: 10 Reference length: 1 
+First element of precision: 0.0 
+SequenceMatcher Score 3: 0.00
+
+Actual result: }
+
